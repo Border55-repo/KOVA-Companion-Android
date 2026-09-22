@@ -6,24 +6,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:31:20+02:00",
+  "updatedAt": "2026-09-23T00:14:39+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 74,
+  "eventCount": 73,
   "changes": {
-    "added": 39,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "116de3ac283d2c37",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Gjennomgang av ny søksveileder Korpskvelder, høst 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
     {
       "id": "ed1af5aa365a88b9",
       "dateIso": "2026-09-17",

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "fc93b61749fe22b6dd7127b0",
+      "observedAt": "2026-09-23T00:14:41+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "11b234f367774d62",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "18:00",
+        "type": "Øvelse",
+        "description": "Øving til KFØR KFØR øving",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T00:14:41+02:00"
+}

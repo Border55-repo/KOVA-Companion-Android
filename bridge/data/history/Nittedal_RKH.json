@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "51a8da600df497c0b77ba338",
+      "observedAt": "2026-09-23T00:14:38+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "c8626f7b0c0b5444",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "09:30",
+        "type": "Eksterne møter",
+        "description": "Se egen link for påmelding, i beskrivelse Webinar: Gjennomgang av nytt KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "fd46a233973ea598867abebf",
+      "observedAt": "2026-09-23T00:14:38+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "1ecb20d45abb8bf0",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Drop-in",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "8ccc066f6c5284f5ec072dcb",
+      "observedAt": "2026-09-23T00:14:38+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "b668d4f3a8d9ab3e",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "19:30",
+        "type": "Eksterne møter",
+        "description": "Se egen link for påmelding i beskrivelse Webinar: Gjennomgang av nytt KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T00:14:38+02:00"
+}
