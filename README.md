@@ -1,3 +1,13 @@
+## v0.9.5 – Søk, kalender og mobilforbedringer
+
+- fikser handlingsknapper på smale mobilskjermer
+- søk i aktiviteter på navn, type, dato og tid
+- søk i hjelpekorpslisten
+- ny liste-/kalendervisning med ukegruppering
+- beholder KOVA-aktiviteter uten oppgitt klokkeslett
+- støtter flere offentlige aktivitetstyper fra KOVA, blant annet Aksjon og RØFF
+- bygger videre mot v1.0 uten å endre den eksisterende Bridge-/pusharkitekturen
+
 ## v0.9.4 – Oppdateringsverifisering
 
 - bruker offentlig `app-update.json` i stedet for GitHub Release API i selve appen
