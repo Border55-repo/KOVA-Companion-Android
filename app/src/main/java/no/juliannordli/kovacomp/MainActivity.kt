@@ -115,6 +115,7 @@ fun KovaScreen(
     var activitySearch by remember { mutableStateOf("") }
     var orgSearch by remember { mutableStateOf("") }
     var calendarView by remember { mutableStateOf(false) }
+    var showOnboarding by remember { mutableStateOf(!settings.onboardingComplete) }
 
     var notifyAdded by remember { mutableStateOf(settings.notifyAdded) }
     var notifyChanged by remember { mutableStateOf(settings.notifyChanged) }
@@ -254,7 +255,7 @@ fun KovaScreen(
     }
 
     LaunchedEffect(Unit) {
-        if (Build.VERSION.SDK_INT >= 33) {
+        if (settings.onboardingComplete && Build.VERSION.SDK_INT >= 33) {
             permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
         refreshOrganizations()
@@ -327,13 +328,14 @@ fun KovaScreen(
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v" + BuildConfig.VERSION_NAME + " • Mine aktiviteter",
+                            "Android v" + BuildConfig.VERSION_NAME +
+                                if (showOnboarding) " • Velkommen" else " • Mine aktiviteter",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
                 },
                 actions = {
-                    if (selectedEvent == null) {
+                    if (selectedEvent == null && !showOnboarding) {
                         TextButton(onClick = { showSettings = !showSettings }) {
                             Text(if (showSettings) "Lukk" else "⚙ Innstillinger")
                         }
@@ -342,7 +344,20 @@ fun KovaScreen(
             )
         }
     ) { padding ->
-        if (selectedEvent != null) {
+        if (showOnboarding) {
+            OnboardingScreen(
+                modifier = Modifier
+                    .padding(padding)
+                    .fillMaxSize(),
+                onContinue = {
+                    settings.onboardingComplete = true
+                    showOnboarding = false
+                    if (Build.VERSION.SDK_INT >= 33) {
+                        permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                    }
+                }
+            )
+        } else if (selectedEvent != null) {
             EventDetailScreen(
                 modifier = Modifier
                     .padding(padding)
@@ -1021,6 +1036,82 @@ fun KovaScreen(
                         )
                     }
                 }
+            }
+        }
+    }
+}
+
+@Composable
+private fun OnboardingScreen(
+    modifier: Modifier,
+    onContinue: () -> Unit
+) {
+    LazyColumn(
+        modifier = modifier,
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp)
+    ) {
+        item {
+            Text(
+                "Velkommen til KOVA Companion",
+                style = MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold
+            )
+        }
+        item {
+            Text(
+                "En raskere mobiloversikt over offentlig KOVA-kalenderdata.",
+                style = MaterialTheme.typography.bodyLarge
+            )
+        }
+        item {
+            ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                Column(
+                    modifier = Modifier.padding(18.dp),
+                    verticalArrangement = Arrangement.spacedBy(10.dp)
+                ) {
+                    Text(
+                        "Dette får du",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text("• Velg hjelpekorps og følg flere korps samtidig")
+                    Text("• Varsler om nye, endrede og fjernede aktiviteter")
+                    Text("• Favoritter, Mine aktiviteter og lokale påminnelser")
+                    Text("• Søk, filtre og kalenderoversikt")
+                    Text("• Direkte KOVA-fallback hvis Bridge ikke er tilgjengelig")
+                }
+            }
+        }
+        item {
+            ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                Column(
+                    modifier = Modifier.padding(18.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Text(
+                        "Personvern og tilgang",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        "Appen bruker offentlig KOVA-data. Den ber ikke om Røde Kors-passord, Okta-konto eller private KOVA-data."
+                    )
+                }
+            }
+        }
+        item {
+            Text(
+                "Du kan endre korps, varsler, påminnelser og filtre senere i Innstillinger.",
+                style = MaterialTheme.typography.bodyMedium
+            )
+        }
+        item {
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = onContinue
+            ) {
+                Text("Kom i gang")
             }
         }
     }

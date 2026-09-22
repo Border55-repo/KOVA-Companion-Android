@@ -29,6 +29,10 @@ class AppSettings(context: Context) {
         get() = prefs.getBoolean("remind_2h", true)
         set(value) = prefs.edit().putBoolean("remind_2h", value).apply()
 
+    var onboardingComplete: Boolean
+        get() = prefs.getBoolean("onboarding_complete", false)
+        set(value) = prefs.edit().putBoolean("onboarding_complete", value).apply()
+
     var disabledEventTypes: Set<String>
         get() = prefs.getStringSet("disabled_event_types", emptySet())?.toSet() ?: emptySet()
         set(value) = prefs.edit().putStringSet("disabled_event_types", value.toSet()).apply()

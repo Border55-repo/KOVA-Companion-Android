@@ -1,3 +1,10 @@
+## v0.10.0 – v1.0-polering påbegynt
+
+- første gangs onboarding
+- forklarer korpsvalg, varsler, favoritter og personvern før normal bruk
+- varslingssamtykke flyttes inn i oppstartssekvensen
+- neste del av hovedplanen er appikon, splash og Google Play testklargjøring
+
 ## v0.9.5 – Søk, kalender og mobilforbedringer
 
 - fikser handlingsknapper på smale mobilskjermer
