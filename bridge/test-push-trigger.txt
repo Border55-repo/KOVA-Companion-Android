@@ -1,3 +1,4 @@
 FCM smoke test trigger.
 Do not place credentials in this file.
 trigger: 2026-09-22 18:17 Europe/Oslo
+trigger: retry-correct-secret
