@@ -17,53 +17,63 @@ data class ReleaseInfo(
 }
 
 object ReleaseChecker {
-    private const val LATEST_RELEASE_URL =
-        "https://api.github.com/repos/Border55-repo/KOVA-Companion-Android/releases/latest"
+    private const val UPDATE_MANIFEST_URL =
+        "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data/app-update.json"
 
     fun fetchLatest(): ReleaseInfo? {
-        val connection = URL(LATEST_RELEASE_URL).openConnection() as HttpURLConnection
+        val url = URL(
+            UPDATE_MANIFEST_URL + "?ts=" + System.currentTimeMillis()
+        )
+        val connection = url.openConnection() as HttpURLConnection
         connection.requestMethod = "GET"
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
-        connection.setRequestProperty("Accept", "application/vnd.github+json")
-        connection.setRequestProperty("Cache-Control", "no-cache")
+        connection.useCaches = false
+        connection.setRequestProperty("Accept", "application/json")
+        connection.setRequestProperty("Cache-Control", "no-cache, no-store")
         connection.setRequestProperty("Pragma", "no-cache")
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.2")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.3")
 
         try {
             val code = connection.responseCode
             if (code == 404) return null
-            if (code !in 200..299) error("GitHub releases HTTP " + code)
-
-            val root = JSONObject(
-                connection.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
-            )
-
-            val assets = root.optJSONArray("assets")
-            var apkUrl: String? = null
-
-            if (assets != null) {
-                for (i in 0 until assets.length()) {
-                    val asset = assets.getJSONObject(i)
-                    val name = asset.optString("name")
-                    if (name.endsWith(".apk", ignoreCase = true)) {
-                        apkUrl = asset.optString("browser_download_url")
-                        break
-                    }
-                }
+            if (code !in 200..299) {
+                error("Oppdateringsmanifest HTTP " + code)
             }
 
-            return ReleaseInfo(
-                tagName = root.optString("tag_name"),
-                name = root.optString("name").ifBlank { root.optString("tag_name") },
-                notes = root.optString("body"),
-                publishedAt = root.optString("published_at"),
-                htmlUrl = root.optString("html_url"),
-                apkUrl = apkUrl
-            )
+            val body = connection.inputStream
+                .bufferedReader(Charsets.UTF_8)
+                .use { it.readText() }
+
+            return parseManifest(body)
         } finally {
             connection.disconnect()
         }
+    }
+
+    fun parseManifest(body: String): ReleaseInfo {
+        val root = JSONObject(body)
+
+        val tagName = root.optString("tagName").trim()
+        if (tagName.isBlank()) {
+            error("Oppdateringsmanifest mangler tagName")
+        }
+
+        val htmlUrl = root.optString("htmlUrl").trim()
+        if (htmlUrl.isBlank()) {
+            error("Oppdateringsmanifest mangler htmlUrl")
+        }
+
+        val apkUrl = root.optString("apkUrl").trim().takeIf { it.isNotBlank() }
+
+        return ReleaseInfo(
+            tagName = tagName,
+            name = root.optString("name").ifBlank { tagName },
+            notes = root.optString("notes"),
+            publishedAt = root.optString("publishedAt"),
+            htmlUrl = htmlUrl,
+            apkUrl = apkUrl
+        )
     }
 
     fun compareVersions(a: String, b: String): Int {
