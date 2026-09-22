@@ -101,6 +101,7 @@ fun KovaScreen(
     val repo = remember { KovaRepository(context) }
     val settings = remember { AppSettings(context) }
     val registry = remember { OrganizationRegistry(context) }
+    val favoriteStore = remember { FavoriteStore(context) }
     val scope = rememberCoroutineScope()
 
     var org by remember { mutableStateOf(repo.organization()) }
@@ -123,9 +124,15 @@ fun KovaScreen(
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
     var latestRelease by remember { mutableStateOf<ReleaseInfo?>(null) }
     var checkingUpdate by remember { mutableStateOf(false) }
+    var favorites by remember { mutableStateOf(favoriteStore.list()) }
+    var showMyActivities by remember { mutableStateOf(false) }
+    var myRange by remember { mutableStateOf(MyActivitiesRange.MONTH) }
+    var remind24Hours by remember { mutableStateOf(settings.remind24Hours) }
+    var remind2Hours by remember { mutableStateOf(settings.remind2Hours) }
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
+    var selectedOrganization by remember { mutableStateOf<String?>(null) }
 
     val permissionLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.RequestPermission()
@@ -176,6 +183,8 @@ fun KovaScreen(
                 val diff = repo.diff(old, fresh)
 
                 repo.saveCache(fresh, org)
+                favoriteStore.refreshFromEvents(org, fresh)
+                favorites = favoriteStore.list()
                 events = fresh
                 dataSource = repo.lastSourceLabel(org)
                 loading = false
@@ -228,6 +237,7 @@ fun KovaScreen(
         selectedEvent = repo.loadCache(target.organization)
             .firstOrNull { it.id == target.eventId }
             ?: target.toEvent()
+        selectedOrganization = target.organization
         selectedKind = target.kind
         onTargetConsumed()
     }
@@ -247,6 +257,9 @@ fun KovaScreen(
     }
     val nextEvent = events.firstOrNull {
         runCatching { !LocalDate.parse(it.dateIso).isBefore(today) }.getOrDefault(false)
+    }
+    val myActivities = remember(favorites, myRange) {
+        MyActivities.filter(favorites, myRange, today)
     }
 
     Scaffold(
@@ -277,11 +290,25 @@ fun KovaScreen(
                     .padding(padding)
                     .fillMaxSize(),
                 event = selectedEvent!!,
-                organizationName = Organizations.nameFor(org, availableOrganizations),
+                organizationName = Organizations.nameFor(
+                    selectedOrganization ?: org,
+                    availableOrganizations
+                ),
                 kind = selectedKind,
+                isFavorite = favoriteStore.isFavorite(
+                    selectedOrganization ?: org,
+                    selectedEvent!!
+                ),
                 onBack = {
                     selectedEvent = null
                     selectedKind = null
+                    selectedOrganization = null
+                },
+                onFavorite = {
+                    val targetOrg = selectedOrganization ?: org
+                    val newValue = !favoriteStore.isFavorite(targetOrg, selectedEvent!!)
+                    favoriteStore.setFavorite(targetOrg, selectedEvent!!, newValue)
+                    favorites = favoriteStore.list()
                 },
                 onCalendar = { CalendarHelper.addEvent(context, selectedEvent!!) },
                 onOpen = {
@@ -359,6 +386,83 @@ fun KovaScreen(
                                     }
                                 ) {
                                     Text("Last ned oppdatering")
+                                }
+                            }
+                        }
+                    }
+                }
+
+                item {
+                    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                        Column(
+                            modifier = Modifier.padding(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Column {
+                                    Text(
+                                        "Mine aktiviteter",
+                                        style = MaterialTheme.typography.titleMedium,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                    Text(
+                                        favorites.size.toString() + " favoritter på tvers av korps",
+                                        style = MaterialTheme.typography.bodySmall
+                                    )
+                                }
+                                TextButton(onClick = { showMyActivities = !showMyActivities }) {
+                                    Text(if (showMyActivities) "Skjul" else "Vis")
+                                }
+                            }
+
+                            if (showMyActivities) {
+                                Row(
+                                    modifier = Modifier.horizontalScroll(rememberScrollState()),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    MyActivitiesRange.values().forEach { range ->
+                                        FilterChip(
+                                            selected = myRange == range,
+                                            onClick = { myRange = range },
+                                            label = { Text(range.label) }
+                                        )
+                                    }
+                                }
+
+                                if (myActivities.isEmpty()) {
+                                    Text(
+                                        "Ingen favorittaktiviteter i valgt periode.",
+                                        style = MaterialTheme.typography.bodyMedium
+                                    )
+                                } else {
+                                    myActivities.forEach { favorite ->
+                                        MyActivityRow(
+                                            favorite = favorite,
+                                            organizationName = Organizations.nameFor(
+                                                favorite.organization,
+                                                availableOrganizations
+                                            ),
+                                            onDetails = {
+                                                selectedEvent = favorite.event
+                                                selectedOrganization = favorite.organization
+                                                selectedKind = null
+                                            },
+                                            onRemove = {
+                                                favoriteStore.setFavorite(
+                                                    favorite.organization,
+                                                    favorite.event,
+                                                    false
+                                                )
+                                                favorites = favoriteStore.list()
+                                            },
+                                            onCalendar = {
+                                                CalendarHelper.addEvent(context, favorite.event)
+                                            }
+                                        )
+                                    }
                                 }
                             }
                         }
@@ -483,6 +587,31 @@ fun KovaScreen(
 
                                 HorizontalDivider()
 
+                                Text(
+                                    "Påminnelser for favoritter",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+
+                                SettingSwitch("24 timer før", remind24Hours) {
+                                    remind24Hours = it
+                                    settings.remind24Hours = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
+                                SettingSwitch("2 timer før", remind2Hours) {
+                                    remind2Hours = it
+                                    settings.remind2Hours = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
+                                Text(
+                                    "Påminnelser planlegges lokalt på telefonen. Android kan forskyve tidspunktet litt ved strømsparing.",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+
+                                HorizontalDivider()
+
                                 SettingSwitch("Vis tidligere aktiviteter", showPast) {
                                     showPast = it
                                     settings.showPastEvents = it
@@ -564,9 +693,20 @@ fun KovaScreen(
                                 ) {
                                     TextButton(onClick = {
                                         selectedEvent = event
+                                        selectedOrganization = org
                                         selectedKind = null
                                     }) {
                                         Text("Detaljer")
+                                    }
+                                    TextButton(onClick = {
+                                        val newValue = !favoriteStore.isFavorite(org, event)
+                                        favoriteStore.setFavorite(org, event, newValue)
+                                        favorites = favoriteStore.list()
+                                    }) {
+                                        Text(
+                                            if (favoriteStore.isFavorite(org, event)) "★ Favoritt"
+                                            else "☆ Favoritt"
+                                        )
                                     }
                                     TextButton(
                                         onClick = { CalendarHelper.addEvent(context, event) }
@@ -629,8 +769,15 @@ fun KovaScreen(
                 items(displayed, key = { it.id }) { event ->
                     EventCard(
                         event = event,
+                        isFavorite = favoriteStore.isFavorite(org, event),
+                        onFavorite = {
+                            val newValue = !favoriteStore.isFavorite(org, event)
+                            favoriteStore.setFavorite(org, event, newValue)
+                            favorites = favoriteStore.list()
+                        },
                         onDetails = {
                             selectedEvent = event
+                            selectedOrganization = org
                             selectedKind = null
                         },
                         onCalendar = { CalendarHelper.addEvent(context, event) },
@@ -667,6 +814,8 @@ private fun SettingSwitch(
 @Composable
 private fun EventCard(
     event: KovaEvent,
+    isFavorite: Boolean,
+    onFavorite: () -> Unit,
     onDetails: () -> Unit,
     onCalendar: () -> Unit,
     onOpen: () -> Unit
@@ -696,6 +845,9 @@ private fun EventCard(
             Row(
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
+                TextButton(onClick = onFavorite) {
+                    Text(if (isFavorite) "★" else "☆")
+                }
                 TextButton(onClick = onDetails) {
                     Text("Detaljer")
                 }
@@ -716,7 +868,9 @@ private fun EventDetailScreen(
     event: KovaEvent,
     organizationName: String,
     kind: String?,
+    isFavorite: Boolean,
     onBack: () -> Unit,
+    onFavorite: () -> Unit,
     onCalendar: () -> Unit,
     onOpen: () -> Unit
 ) {
@@ -779,8 +933,13 @@ private fun EventDetailScreen(
                     Row(
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Button(onClick = onCalendar) {
-                            Text("＋ Kalender")
+                        Button(onClick = onFavorite) {
+                            Text(if (isFavorite) "★ Favoritt" else "☆ Favoritt")
+                        }
+                        if (kind != "removed") {
+                            OutlinedButton(onClick = onCalendar) {
+                                Text("＋ Kalender")
+                            }
                         }
                         OutlinedButton(onClick = onOpen) {
                             Text("Åpne KOVA")
