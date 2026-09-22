@@ -24,6 +24,14 @@ class ChangeFingerprintTest {
     }
 
     @Test
+    fun matchesBridgeFingerprint() {
+        assertEquals(
+            "f3f201d80749359fb86a9830",
+            ChangeFingerprint.of("UllensakerRKH", "added", event())
+        )
+    }
+
+    @Test
     fun changedTimeCreatesDifferentFingerprint() {
         val old = event("18:30")
         val first = ChangeFingerprint.of("UllensakerRKH", "changed", event("19:00"), old)
