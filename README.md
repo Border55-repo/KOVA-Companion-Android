@@ -1,3 +1,19 @@
+## v0.13.0 – Release candidate-hardening
+
+- samler siste stabilitetsarbeid før v1.0
+- testdekning for KOVA-aktiviteter uten klokkeslett
+- testdekning for KOVA sin `-> HH:mm`-tidsmarkering
+- verifiserer at tidsmarkeringen ikke gir falske endringsvarsler
+- oppdaterer appens nettverksidentitet til korrekt versjon
+- bygger videre på v0.12.0 sin appstatus og varslingsdiagnostikk
+
+## v0.12.0 – Appstatus og varslingsdiagnostikk
+
+- samlet appstatus for datakilde, Bridge, push og Android-varsler
+- viser tidspunkt for siste synk
+- direkte snarvei til Androids varselinnstillinger når varsler er avslått
+- enklere kontroll av om lokal app, Bridge og push faktisk fungerer
+
 ## v0.11.0 – Mer korrekt KOVA-kalender
 
 - bevarer KOVA sin tidsmarkering for avslutning, for eksempel `-> 17:00`
