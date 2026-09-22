@@ -39,85 +39,44 @@ def configured() -> bool:
     return bool(os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip())
 
 
-def _message_for(org: dict, diff: dict) -> tuple[str, str, str]:
-    added = diff["added"]
-    removed = diff["removed"]
-    changed = diff["changed"]
-    total = len(added) + len(removed) + len(changed)
+def _send(
+    credentials,
+    project_id: str,
+    org: dict,
+    title: str,
+    body: str,
+    kind: str,
+    source_url: str,
+    event: dict | None = None,
+) -> None:
+    data = {
+        "title": title,
+        "body": body,
+        "kind": kind,
+        "organization": org["code"],
+        "sourceUrl": source_url,
+    }
 
-    if total == 1 and added:
-        event = added[0]
-        return (
-            "Ny KOVA-aktivitet",
-            f"{event['description']} • {event['dateLabel']} {event['time']}",
-            "added",
+    if event:
+        data.update(
+            {
+                "eventId": str(event.get("id", "")),
+                "dateIso": str(event.get("dateIso", "")),
+                "dateLabel": str(event.get("dateLabel", "")),
+                "time": str(event.get("time", "")),
+                "eventType": str(event.get("type", "")),
+                "description": str(event.get("description", "")),
+                "sourceUrl": str(event.get("sourceUrl", source_url)),
+            }
         )
 
-    if total == 1 and changed:
-        item = changed[0]
-        old = item["old"]
-        new = item["new"]
-        return (
-            "KOVA-aktivitet endret",
-            f"{new['description']}: {old['dateLabel']} {old['time']} → {new['dateLabel']} {new['time']}",
-            "changed",
-        )
-
-    if total == 1 and removed:
-        event = removed[0]
-        return (
-            "KOVA-aktivitet fjernet",
-            f"{event['description']} • {event['dateLabel']} {event['time']}",
-            "removed",
-        )
-
-    pieces = []
-    if added:
-        pieces.append(f"{len(added)} nye")
-    if changed:
-        pieces.append(f"{len(changed)} endret")
-    if removed:
-        pieces.append(f"{len(removed)} fjernet")
-
-    return (
-        f"KOVA oppdatert – {org['name']}",
-        ", ".join(pieces),
-        "summary",
-    )
-
-
-def send_diff_notification(org: dict, diff: dict, source_url: str) -> bool:
-    total = len(diff["added"]) + len(diff["removed"]) + len(diff["changed"])
-    if total == 0:
-        return False
-
-    credentials, project_id = _credentials()
-    if credentials is None:
-        print("FCM disabled: FIREBASE_SERVICE_ACCOUNT_JSON is not configured.")
-        return False
-
-    title, body, kind = _message_for(org, diff)
     endpoint = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
-
     payload: dict[str, Any] = {
         "message": {
             "topic": topic_for(org["code"]),
-            "notification": {
-                "title": title,
-                "body": body,
-            },
-            "data": {
-                "title": title,
-                "body": body,
-                "kind": kind,
-                "organization": org["code"],
-                "sourceUrl": source_url,
-            },
+            "data": data,
             "android": {
                 "priority": "high",
-                "notification": {
-                    "channel_id": "kova_changes",
-                },
             },
         }
     }
@@ -132,5 +91,85 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> bool:
         json=payload,
     )
     response.raise_for_status()
-    print(f"FCM sent to {topic_for(org['code'])}: {response.json().get('name', 'ok')}")
+    print(
+        f"FCM sent to {topic_for(org['code'])}: "
+        f"{response.json().get('name', 'ok')} ({kind})"
+    )
+
+
+def send_diff_notification(org: dict, diff: dict, source_url: str) -> bool:
+    added = diff["added"]
+    removed = diff["removed"]
+    changed = diff["changed"]
+    total = len(added) + len(removed) + len(changed)
+
+    if total == 0:
+        return False
+
+    credentials, project_id = _credentials()
+    if credentials is None:
+        print("FCM disabled: FIREBASE_SERVICE_ACCOUNT_JSON is not configured.")
+        return False
+
+    messages: list[tuple[str, str, str, dict]] = []
+
+    for event in added:
+        messages.append(
+            (
+                "Ny KOVA-aktivitet",
+                f"{event['description']} • {event['dateLabel']} {event['time']}",
+                "added",
+                event,
+            )
+        )
+
+    for item in changed:
+        old = item["old"]
+        new = item["new"]
+        messages.append(
+            (
+                "KOVA-aktivitet endret",
+                f"{new['description']}: {old['dateLabel']} {old['time']} → "
+                f"{new['dateLabel']} {new['time']}",
+                "changed",
+                new,
+            )
+        )
+
+    for event in removed:
+        messages.append(
+            (
+                "KOVA-aktivitet fjernet",
+                f"{event['description']} • {event['dateLabel']} {event['time']}",
+                "removed",
+                event,
+            )
+        )
+
+    # Normal KOVA changes are usually small. Cap the burst if a large import/change happens.
+    for title, body, kind, event in messages[:10]:
+        _send(
+            credentials,
+            project_id,
+            org,
+            title,
+            body,
+            kind,
+            source_url,
+            event,
+        )
+
+    if len(messages) > 10:
+        remaining = len(messages) - 10
+        _send(
+            credentials,
+            project_id,
+            org,
+            "Flere KOVA-endringer",
+            f"{remaining} ytterligere endringer er registrert. Åpne KOVA Companion for oversikt.",
+            "summary",
+            source_url,
+            None,
+        )
+
     return True
