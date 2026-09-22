@@ -114,7 +114,7 @@ fun KovaScreen(
     var typeFilter by remember { mutableStateOf("Alle") }
     var activitySearch by remember { mutableStateOf("") }
     var orgSearch by remember { mutableStateOf("") }
-    var calendarView by remember { mutableStateOf(false) }
+    var calendarMode by remember { mutableStateOf("list") }
     var showOnboarding by remember { mutableStateOf(!settings.onboardingComplete) }
 
     var notifyAdded by remember { mutableStateOf(settings.notifyAdded) }
@@ -902,17 +902,23 @@ fun KovaScreen(
 
                 item {
                     Row(
+                        modifier = Modifier.horizontalScroll(rememberScrollState()),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
                         FilterChip(
-                            selected = !calendarView,
-                            onClick = { calendarView = false },
+                            selected = calendarMode == "list",
+                            onClick = { calendarMode = "list" },
                             label = { Text("Liste") }
                         )
                         FilterChip(
-                            selected = calendarView,
-                            onClick = { calendarView = true },
-                            label = { Text("Kalender") }
+                            selected = calendarMode == "week",
+                            onClick = { calendarMode = "week" },
+                            label = { Text("Uke") }
+                        )
+                        FilterChip(
+                            selected = calendarMode == "month",
+                            onClick = { calendarMode = "month" },
+                            label = { Text("Måned") }
                         )
                     }
                 }
@@ -941,99 +947,179 @@ fun KovaScreen(
                     }
                 }
 
-                if (calendarView) {
-                    var previousWeek: Int? = null
+                when (calendarMode) {
+                    "week" -> {
+                        var previousWeek: Int? = null
 
-                    displayed
-                        .groupBy { it.dateIso }
-                        .forEach { (_, dayEvents) ->
-                            val first = dayEvents.first()
-                            val date = runCatching {
-                                LocalDate.parse(first.dateIso)
-                            }.getOrNull()
-                            val week = date?.get(
-                                java.time.temporal.WeekFields.ISO.weekOfWeekBasedYear()
-                            )
+                        displayed
+                            .groupBy { it.dateIso }
+                            .forEach { (_, dayEvents) ->
+                                val first = dayEvents.first()
+                                val date = runCatching {
+                                    LocalDate.parse(first.dateIso)
+                                }.getOrNull()
+                                val week = date?.get(
+                                    java.time.temporal.WeekFields.ISO.weekOfWeekBasedYear()
+                                )
 
-                            if (week != null && week != previousWeek) {
-                                item(key = "week-" + week + "-" + first.dateIso) {
+                                if (week != null && week != previousWeek) {
+                                    item(key = "week-" + week + "-" + first.dateIso) {
+                                        Text(
+                                            "Uke " + week,
+                                            style = MaterialTheme.typography.titleMedium,
+                                            color = MaterialTheme.colorScheme.primary,
+                                            fontWeight = FontWeight.Bold
+                                        )
+                                    }
+                                    previousWeek = week
+                                }
+
+                                item(key = "week-day-" + first.dateIso) {
                                     Text(
-                                        "Uke " + week,
-                                        style = MaterialTheme.typography.titleMedium,
+                                        first.dateLabel,
+                                        style = MaterialTheme.typography.titleSmall,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                }
+
+                                items(
+                                    dayEvents,
+                                    key = { "week-calendar-" + it.id }
+                                ) { event ->
+                                    EventCard(
+                                        event = event,
+                                        isFavorite = favoriteStore.isFavorite(org, event),
+                                        onFavorite = {
+                                            val newValue =
+                                                !favoriteStore.isFavorite(org, event)
+                                            favoriteStore.setFavorite(org, event, newValue)
+                                            favorites = favoriteStore.list()
+                                        },
+                                        onDetails = {
+                                            selectedEvent = event
+                                            selectedOrganization = org
+                                            selectedKind = null
+                                        },
+                                        onCalendar = {
+                                            CalendarHelper.addEvent(context, event)
+                                        },
+                                        onOpen = {
+                                            context.startActivity(
+                                                Intent(
+                                                    Intent.ACTION_VIEW,
+                                                    Uri.parse(event.sourceUrl)
+                                                )
+                                            )
+                                        }
+                                    )
+                                }
+                            }
+                    }
+
+                    "month" -> {
+                        displayed
+                            .groupBy { it.dateIso.take(7) }
+                            .forEach { (monthKey, monthEvents) ->
+                                val monthDate = runCatching {
+                                    LocalDate.parse(monthEvents.first().dateIso)
+                                }.getOrNull()
+                                val monthName = monthDate?.month?.getDisplayName(
+                                    java.time.format.TextStyle.FULL,
+                                    java.util.Locale("nb", "NO")
+                                ) ?: monthKey
+                                val monthTitle = monthName.replaceFirstChar {
+                                    if (it.isLowerCase()) it.titlecase() else it.toString()
+                                } + (monthDate?.let { " " + it.year } ?: "")
+
+                                item(key = "month-" + monthKey) {
+                                    Text(
+                                        monthTitle,
+                                        style = MaterialTheme.typography.titleLarge,
                                         color = MaterialTheme.colorScheme.primary,
                                         fontWeight = FontWeight.Bold
                                     )
                                 }
-                                previousWeek = week
-                            }
 
-                            item(key = "day-" + first.dateIso) {
-                                Text(
-                                    first.dateLabel,
-                                    style = MaterialTheme.typography.titleSmall,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            }
+                                monthEvents
+                                    .groupBy { it.dateIso }
+                                    .forEach { (_, dayEvents) ->
+                                        val first = dayEvents.first()
 
-                            items(
-                                dayEvents,
-                                key = { "calendar-" + it.id }
-                            ) { event ->
-                                EventCard(
-                                    event = event,
-                                    isFavorite = favoriteStore.isFavorite(org, event),
-                                    onFavorite = {
-                                        val newValue =
-                                            !favoriteStore.isFavorite(org, event)
-                                        favoriteStore.setFavorite(org, event, newValue)
-                                        favorites = favoriteStore.list()
-                                    },
-                                    onDetails = {
-                                        selectedEvent = event
-                                        selectedOrganization = org
-                                        selectedKind = null
-                                    },
-                                    onCalendar = {
-                                        CalendarHelper.addEvent(context, event)
-                                    },
-                                    onOpen = {
-                                        context.startActivity(
-                                            Intent(
-                                                Intent.ACTION_VIEW,
-                                                Uri.parse(event.sourceUrl)
+                                        item(key = "month-day-" + first.dateIso) {
+                                            Text(
+                                                first.dateLabel,
+                                                style = MaterialTheme.typography.titleSmall,
+                                                fontWeight = FontWeight.Bold
                                             )
-                                        )
+                                        }
+
+                                        items(
+                                            dayEvents,
+                                            key = { "month-calendar-" + it.id }
+                                        ) { event ->
+                                            EventCard(
+                                                event = event,
+                                                isFavorite = favoriteStore.isFavorite(org, event),
+                                                onFavorite = {
+                                                    val newValue =
+                                                        !favoriteStore.isFavorite(org, event)
+                                                    favoriteStore.setFavorite(
+                                                        org,
+                                                        event,
+                                                        newValue
+                                                    )
+                                                    favorites = favoriteStore.list()
+                                                },
+                                                onDetails = {
+                                                    selectedEvent = event
+                                                    selectedOrganization = org
+                                                    selectedKind = null
+                                                },
+                                                onCalendar = {
+                                                    CalendarHelper.addEvent(context, event)
+                                                },
+                                                onOpen = {
+                                                    context.startActivity(
+                                                        Intent(
+                                                            Intent.ACTION_VIEW,
+                                                            Uri.parse(event.sourceUrl)
+                                                        )
+                                                    )
+                                                }
+                                            )
+                                        }
                                     }
-                                )
                             }
-                        }
-                } else {
-                    items(displayed, key = { it.id }) { event ->
-                        EventCard(
-                            event = event,
-                            isFavorite = favoriteStore.isFavorite(org, event),
-                            onFavorite = {
-                                val newValue = !favoriteStore.isFavorite(org, event)
-                                favoriteStore.setFavorite(org, event, newValue)
-                                favorites = favoriteStore.list()
-                            },
-                            onDetails = {
-                                selectedEvent = event
-                                selectedOrganization = org
-                                selectedKind = null
-                            },
-                            onCalendar = {
-                                CalendarHelper.addEvent(context, event)
-                            },
-                            onOpen = {
-                                context.startActivity(
-                                    Intent(
-                                        Intent.ACTION_VIEW,
-                                        Uri.parse(event.sourceUrl)
+                    }
+
+                    else -> {
+                        items(displayed, key = { it.id }) { event ->
+                            EventCard(
+                                event = event,
+                                isFavorite = favoriteStore.isFavorite(org, event),
+                                onFavorite = {
+                                    val newValue = !favoriteStore.isFavorite(org, event)
+                                    favoriteStore.setFavorite(org, event, newValue)
+                                    favorites = favoriteStore.list()
+                                },
+                                onDetails = {
+                                    selectedEvent = event
+                                    selectedOrganization = org
+                                    selectedKind = null
+                                },
+                                onCalendar = {
+                                    CalendarHelper.addEvent(context, event)
+                                },
+                                onOpen = {
+                                    context.startActivity(
+                                        Intent(
+                                            Intent.ACTION_VIEW,
+                                            Uri.parse(event.sourceUrl)
+                                        )
                                     )
-                                )
-                            }
-                        )
+                                }
+                            )
+                        }
                     }
                 }
             }
