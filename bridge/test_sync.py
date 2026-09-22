@@ -2,6 +2,7 @@ import unittest
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+from push import topic_for
 from sync import compute_diff, parse_schedule
 
 
@@ -45,6 +46,11 @@ class BridgeParserTests(unittest.TestCase):
         self.assertEqual(0, len(diff["added"]))
         self.assertEqual(0, len(diff["removed"]))
         self.assertEqual(1, len(diff["changed"]))
+
+    def test_topic_names_match_android(self):
+        self.assertEqual("kova_ullensakerrkh", topic_for("UllensakerRKH"))
+        self.assertEqual("kova_nittedal_rkh", topic_for("Nittedal RKH"))
+        self.assertEqual("kova_skedsmo_rkh", topic_for("Skedsmo RKH"))
 
 
 if __name__ == "__main__":
