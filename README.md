@@ -2,34 +2,35 @@
 
 Uoffisiell Android-app for offentlig KOVA-kalenderdata.
 
-## v0.5.0
-- Trykk på pushvarsel åpner riktig aktivitet i appen
-- Egen detaljside for aktiviteter
-- Push bruker data-only FCM slik at appens filtre alltid respekteres
-- Varslingsfiltre for nye, endrede og fjernede aktiviteter
-- Varslingsfiltre per aktivitetstype
-- Bridge health/status vises i appen fra siste GitHub Actions-kjøring
-- KOVA Bridge sjekker offentlige KOVA-kalendere hvert 15. minutt
-- Android bruker Bridge først og direkte KOVA som fallback
-- Lokal WorkManager-synk hvert 15. minutt beholdes som sikkerhetsnett
-- Ullensaker, Eidsvoll/Hurdal, Nittedal og Skedsmo støttes
+## v0.6.0
+- automatisk sjekk mot siste GitHub Release
+- banner i appen når en nyere versjon finnes
+- daglig bakgrunnssjekk for nye appversjoner
+- oppdateringsvarsel som åpner APK/release direkte
+- release-workflow for signert APK + AAB
+- automatisk SHA-256-fil for release-artifacts
+- tag og Android-versjon må samsvare før release kan publiseres
+- Bridge poller offentlig KOVA hvert 5. minutt
+- trykk på push åpner riktig aktivitet i appen
+- detaljside, aktivitetstypefiltre og Bridge health beholdes
+- lokal WorkManager-synk hvert 15. minutt beholdes som fallback
 
-## Pushflyt
+## KOVA-varslingsflyt
 
-Produksjonsflyten er:
+1. KOVA publiserer arrangementet på offentlig kalender.
+2. Bridge kontrollerer kalenderen hvert 5. minutt.
+3. Ved ny, endret eller fjernet aktivitet beregnes diff.
+4. Bridge sender data-only FCM via HTTP v1.
+5. Android respekterer brukerens varslingsfiltre.
+6. Trykk på varselet åpner riktig aktivitetsdetalj.
 
-1. KOVA Bridge oppdager en reell endring.
-2. Bridge sender data-only FCM via HTTP v1.
-3. Android mottar meldingen i KovaFirebaseMessagingService.
-4. Appen sjekker brukerens varslingstype- og aktivitetstypefiltre.
-5. Varslet opprettes lokalt med riktig event-ID og korps.
-6. Trykk på varselet åpner detaljvisningen for riktig aktivitet.
+KOVA kan ha en kort publiseringsforsinkelse mellom lagring i KOVA og synlighet i offentlig kalender. Bridge kan først varsle når aktiviteten faktisk er synlig offentlig.
 
-Ved store endringer begrenses push-bursts for å unngå varselspam.
+## Firebase
 
-## Firebase-oppsett
+Firebase Android-klientkonfigurasjonen er registrert for:
 
-Firebase Android-klientkonfigurasjonen er registrert i appen for package no.juliannordli.kovacomp.
+- no.juliannordli.kovacomp
 
 Bridge bruker privat GitHub repository secret:
 
@@ -37,14 +38,27 @@ Bridge bruker privat GitHub repository secret:
 
 Servicekonto eller privat nøkkel skal aldri legges inn i repositoryet.
 
-## Topic-format
+## Release-signering
 
-App og Bridge bruker samme topic-format:
+Release-workflowen forventer disse GitHub Actions-secrets:
 
-- kova_ullensakerrkh
-- kova_ehrkh
-- kova_nittedal_rkh
-- kova_skedsmo_rkh
+- ANDROID_KEYSTORE_BASE64
+- ANDROID_KEYSTORE_PASSWORD
+- ANDROID_KEY_ALIAS
+- ANDROID_KEY_PASSWORD
+
+Private signing keys skal aldri committes til repositoryet.
+
+Ved tag som v0.6.0 bygger workflowen:
+
+- signert APK
+- Android App Bundle (AAB)
+- SHA256SUMS.txt
+- GitHub Release med genererte release notes
+
+## Oppdateringskontroll
+
+Appen bruker GitHub Releases som kilde for tilgjengelige versjoner. Den sammenligner installert BuildConfig.VERSION_NAME mot siste release-tag og viser oppdateringsbanner når en nyere versjon finnes.
 
 ## Datasikkerhet
 
@@ -54,11 +68,11 @@ KOVA Companion bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord, Okt
 
 Firebase Cloud Messaging er verifisert ende-til-ende på fysisk Android-enhet.
 
-Bridge health leses fra siste kova-bridge.yml workflow-run i det offentlige GitHub-repoet. Appen viser om Bridge er grønn, kjører eller har feilet.
+En reell ny Ullensaker-aktivitet ble senere fanget av Bridge som +1 og sendt via FCM etter at den ble synlig i offentlig KOVA. Polling er derfor redusert fra 15 til 5 minutter.
 
 ## Videre plan
 
-- signert release-APK/AAB og automatisk GitHub Release
-- versjonssjekk i appen
+- aktivere permanent Android release-signering med GitHub secrets
 - endringshistorikk/audit-logg i Bridge
+- retry/backoff og tydeligere driftsstatus
 - flere hjelpekorps uten ny APK
