@@ -609,7 +609,9 @@ def main() -> int:
             diff = compute_diff(old_events, events)
             records = change_records(org, diff)
 
-            if records:
+            # First snapshot is a baseline, not a real change. Never notify or audit
+            # pre-existing calendar entries as newly added during onboarding.
+            if old and records:
                 append_history(
                     HISTORY_DIR / f"{slug(org['code'])}.json",
                     records,
