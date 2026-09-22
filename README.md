@@ -1,3 +1,10 @@
+## v0.9.4 – Oppdateringsverifisering
+
+- bruker offentlig `app-update.json` i stedet for GitHub Release API i selve appen
+- unngår 403/rate-limit-feilen fra den gamle oppdateringssjekken
+- laget som kontrollversjon slik at v0.9.3 kan oppdage v0.9.4 direkte i appen
+- signert med samme Android-nøkkel som tidligere releaser
+
 # KOVA Companion Android
 
 Uoffisiell Android-app for offentlig KOVA-kalenderdata.
@@ -93,7 +100,7 @@ Ved release bygges:
 
 ## Oppdateringskontroll
 
-Appen bruker GitHub Releases som kilde for tilgjengelige versjoner og viser oppdateringsbanner når en nyere release finnes.
+Appen leser et offentlig `bridge/data/app-update.json`-manifest som release-workflowen oppdaterer automatisk, og viser oppdateringsbanner når en nyere release finnes. Selve oppdateringssjekken bruker derfor ikke GitHub Release API.
 
 ## Datasikkerhet
 
