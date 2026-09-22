@@ -42,6 +42,7 @@ class KovaSyncWorker(
                 val diff = repo.diff(old, fresh)
 
                 repo.saveCache(fresh, org)
+                FavoriteStore(applicationContext).refreshFromEvents(org, fresh)
 
                 if (!firstSync) {
                     NotificationHelper.postDiff(
