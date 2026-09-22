@@ -14,12 +14,26 @@ class KovaSyncWorker(
     override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
         runCatching {
             val repo = KovaRepository(applicationContext)
-            val old = repo.loadCache()
-            val fresh = repo.fetch()
-            val firstSync = old.isEmpty()
-            val diff = repo.diff(old, fresh)
-            repo.saveCache(fresh)
-            if (!firstSync) NotificationHelper.postDiff(applicationContext, diff, repo.organization())
+            val settings = AppSettings(applicationContext)
+            val organizations = settings.subscribedOrganizations
+                .ifEmpty { setOf(repo.organization()) }
+
+            organizations.forEach { org ->
+                val old = repo.loadCache(org)
+                val fresh = repo.fetch(org)
+                val firstSync = old.isEmpty()
+                val diff = repo.diff(old, fresh)
+
+                repo.saveCache(fresh, org)
+
+                if (!firstSync) {
+                    NotificationHelper.postDiff(
+                        applicationContext,
+                        diff,
+                        org
+                    )
+                }
+            }
         }.fold(
             onSuccess = { Result.success() },
             onFailure = { Result.retry() }
