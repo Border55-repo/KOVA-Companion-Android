@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T01:04:32+02:00",
+  "updatedAt": "2026-09-23T01:11:55+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -110,8 +110,8 @@
       "category": "hjelpekorps",
       "file": "HaldenRKH.json",
       "status": "ok",
-      "eventCount": 44,
-      "updatedAt": "2026-09-23T00:14:37+02:00"
+      "eventCount": 53,
+      "updatedAt": "2026-09-23T01:11:47+02:00"
     },
     {
       "name": "Hamar Røde Kors Hjelpekorps",
@@ -209,8 +209,8 @@
       "category": "hjelpekorps",
       "file": "NRKH.json",
       "status": "ok",
-      "eventCount": 73,
-      "updatedAt": "2026-09-23T00:14:39+02:00"
+      "eventCount": 75,
+      "updatedAt": "2026-09-23T01:11:52+02:00"
     },
     {
       "name": "Oppegård/Ski Røde Kors Hjelpekorps",
@@ -336,7 +336,7 @@
       "file": "V_RKH.json",
       "status": "ok",
       "eventCount": 43,
-      "updatedAt": "2026-09-22T23:31:22+02:00"
+      "updatedAt": "2026-09-23T01:11:55+02:00"
     },
     {
       "name": "Voss Røde Kors Hjelpekorps",

@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:31:22+02:00",
+  "updatedAt": "2026-09-23T01:11:55+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
   "eventCount": 43,
   "changes": {
-    "added": 25,
+    "added": 0,
     "removed": 0,
     "changed": 0
   },
@@ -64,7 +64,7 @@
       "id": "b10d899f97b33591",
       "dateIso": "2026-10-02",
       "dateLabel": "fre. 2.10",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Festkveld: åpning av UKA UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -82,7 +82,7 @@
       "id": "937b4517c6f156d9",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
-      "time": "02:00",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "Konsert med Vettche og Madcon UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -109,7 +109,7 @@
       "id": "6943cc949f00d79e",
       "dateIso": "2026-10-10",
       "dateLabel": "lør. 10.10",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Konsert med Trang Fødsel og Valkyrien Allstars UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -127,7 +127,7 @@
       "id": "cbeb0151b3ec67ba",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
-      "time": "02:00",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "Konsert med DDE og Kakkmaddafakka UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -181,7 +181,7 @@
       "id": "7159a5e66be8d3bc",
       "dateIso": "2026-10-15",
       "dateLabel": "tor. 15.10",
-      "time": "01:00",
+      "time": "-> 01:00",
       "type": "Sanitetsvakt",
       "description": "Konsert med Joa + Golf UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -199,7 +199,7 @@
       "id": "99e8b2a7fd5a79c7",
       "dateIso": "2026-10-17",
       "dateLabel": "lør. 17.10",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Konsert med Ylva og Møkkafunk+Problembarn UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -217,7 +217,7 @@
       "id": "1f840d8b2f79be42",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
-      "time": "02:30",
+      "time": "-> 02:30",
       "type": "Sanitetsvakt",
       "description": "Silent Disco UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -253,7 +253,7 @@
       "id": "ddffd3edd358aa90",
       "dateIso": "2026-10-24",
       "dateLabel": "lør. 24.10",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Konsert med Tøyen Halding + Donkeyboy + Ly UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
@@ -271,7 +271,7 @@
       "id": "e002b7ad6ece14ee",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
-      "time": "02:00",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "Konsert med Fjellrev og Zimmermann UKAiÅS 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"

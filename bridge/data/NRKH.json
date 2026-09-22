@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:14:39+02:00",
+  "updatedAt": "2026-09-23T01:11:52+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 73,
+  "eventCount": 75,
   "changes": {
     "added": 0,
-    "removed": 1,
-    "changed": 0
+    "removed": 0,
+    "changed": 2
   },
   "events": [
     {
@@ -118,7 +118,7 @@
       "id": "d989db537668ec7e",
       "dateIso": "2026-09-27",
       "dateLabel": "søn. 27.9",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
@@ -214,10 +214,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
+      "id": "d1bd262b12d7ae75",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "",
+      "type": "Sanitetsvakt",
+      "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for påmelding! Norges Handelshøyskole Studentsamfunn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
       "id": "6c3838db6984d308",
       "dateIso": "2026-10-10",
       "dateLabel": "lør. 10.10",
-      "time": "00:00",
+      "time": "-> 00:00",
       "type": "Sanitetsvakt",
       "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for påmelding! Norges Handelshøyskole Studentsamfunn",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
@@ -394,24 +403,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
-      "id": "47f0661b95a45286",
-      "dateIso": "2026-10-30",
-      "dateLabel": "fre. 30.10",
-      "time": "11:00",
-      "type": "Profilering",
-      "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
-      "id": "f6d5c53a5d87c866",
-      "dateIso": "2026-10-30",
-      "dateLabel": "fre. 30.10",
-      "time": "11:00",
-      "type": "Profilering",
-      "description": "Totalberedskapsdagen i Knarvik senter Totalberedskapsdagen 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
       "id": "60e59674018a2e32",
       "dateIso": "2026-10-30",
       "dateLabel": "fre. 30.10",
@@ -421,10 +412,37 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
+      "id": "ba1a49598b28512d",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "KSOR - Høst 2026 KSOR - Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "93d5b58f2d16996a",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "a013ff13ab6b5998",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Totalberedskapsdagen i Knarvik senter Totalberedskapsdagen 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
       "id": "5f46130cf7e4b6b8",
       "dateIso": "2026-11-01",
       "dateLabel": "søn. 1.11",
-      "time": "15:00",
+      "time": "-> 15:00",
       "type": "Interne kurs",
       "description": "KSOR - Høst 2026 KSOR - Høst 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
@@ -460,7 +478,7 @@
       "id": "8a32551596262d27",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
-      "time": "02:30",
+      "time": "-> 02:30",
       "type": "Sanitetsvakt",
       "description": "Gunslingers - Hordabøhallen Hordabø IL",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
@@ -658,7 +676,7 @@
       "id": "96e78522842215f0",
       "dateIso": "2027-01-01",
       "dateLabel": "fre. 1.1",
-      "time": "03:00",
+      "time": "-> 03:00",
       "type": "Sanitetsvakt",
       "description": "Sanitetsvakt - Bergen Sentrum - (Tidspunkt ikke bekreftet) Nyttårsvakt 2026!",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"

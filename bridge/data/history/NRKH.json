@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa231de14283663e2ac52f5b",
+      "observedAt": "2026-09-23T01:11:52+02:00",
+      "organization": "NRKH",
+      "kind": "changed",
+      "event": {
+        "id": "93d5b58f2d16996a",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      },
+      "oldEvent": {
+        "id": "47f0661b95a45286",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "306357e177b218c984ed83cc",
+      "observedAt": "2026-09-23T01:11:52+02:00",
+      "organization": "NRKH",
+      "kind": "changed",
+      "event": {
+        "id": "a013ff13ab6b5998",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Totalberedskapsdagen i Knarvik senter Totalberedskapsdagen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      },
+      "oldEvent": {
+        "id": "f6d5c53a5d87c866",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Totalberedskapsdagen i Knarvik senter Totalberedskapsdagen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "26567c48cdeae76afa9b980b",
       "observedAt": "2026-09-23T00:14:39+02:00",
       "organization": "NRKH",
@@ -17,5 +65,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T00:14:39+02:00"
+  "updatedAt": "2026-09-23T01:11:52+02:00"
 }

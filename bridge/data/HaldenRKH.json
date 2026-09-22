@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:14:37+02:00",
+  "updatedAt": "2026-09-23T01:11:47+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 44,
+  "eventCount": 53,
   "changes": {
-    "added": 0,
+    "added": 2,
     "removed": 0,
-    "changed": 0
+    "changed": 5
   },
   "events": [
     {
@@ -70,33 +70,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "4769017c2a89e593",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "07:30",
-      "type": "Sanitetsvakt",
-      "description": "Lørdag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "f83bf57209f5137b",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "09:45",
-      "type": "Aktivitet",
-      "description": "Vise frem ambulansen til barnefamilier, tilstede på brannstasjonen kl.10-14 Åpen dag på brannstasjonen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "788972c119c52aa2",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Lørdag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
       "id": "07e8b756dd948b91",
       "dateIso": "2026-09-18",
       "dateLabel": "fre. 18.9",
@@ -106,12 +79,57 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "143930cf090c89df",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
+      "id": "c820b7f0151b5ed9",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "c9270dbf0355779f",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Lørdag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "ddf676f281b23ba3",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "09:45",
+      "type": "Aktivitet",
+      "description": "Vise frem ambulansen til barnefamilier, tilstede på brannstasjonen kl.10-14 Åpen dag på brannstasjonen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "3ea5ee865a65f3c0",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Lørdag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "9858cbe4548cb101",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
       "time": "17:00",
       "type": "Sanitetsvakt",
       "description": "Lørdag tredje vakt (tilstede Halden Arena 17-21) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "54ddc0d6ab0ac87c",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "-> 18:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -142,15 +160,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "54ddc0d6ab0ac87c",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
       "id": "997a19bc34fcff40",
       "dateIso": "2026-09-22",
       "dateLabel": "tir. 22.9",
@@ -166,6 +175,33 @@
       "time": "15:00",
       "type": "Interne møter",
       "description": "Møte i Halden Røde Kors' beredskapsutvalg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "485c00c05c155f52",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 1 Kurs: Videregående Førstehjelp (bruk 9seter)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "26782fd76e83969a",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 1 Kurs: Videregående Førstehjelp (bruk 9seter)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "1b9e777ecf24f215",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 1 Kurs: Videregående Førstehjelp (bruk 9seter)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -205,10 +241,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
+      "id": "4b09bf50503cdb2b",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
       "id": "173022b4aa067d88",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
-      "time": "18:00",
+      "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "AFØR kurs",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
@@ -223,30 +268,66 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "244604379a4b6800",
-      "dateIso": "2026-10-14",
-      "dateLabel": "ons. 14.10",
-      "time": "17:00",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "78368b87783c6e5a",
-      "dateIso": "2026-10-14",
-      "dateLabel": "ons. 14.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
       "id": "fb39628f810eb9aa",
       "dateIso": "2026-10-14",
       "dateLabel": "ons. 14.10",
       "time": "18:30",
       "type": "Eksterne møter",
       "description": "D-rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "5abbe50c4ac8beb0",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "adaf50cfcf93d313",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "2fdb6769525fb177",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "1b095b0278acc564",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "48c37cab1891285f",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "b5876d5c7a0653df",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "-> 18:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {

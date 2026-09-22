@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "448ed0bf7f07525d64aecfad",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "1b9e777ecf24f215",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 1 Kurs: Videregående Førstehjelp (bruk 9seter)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "240f02e0f6e1b70b0df212bb",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "48c37cab1891285f",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "77a31d1befd163b10e95adf4",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "9858cbe4548cb101",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag tredje vakt (tilstede Halden Arena 17-21) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "143930cf090c89df",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag tredje vakt (tilstede Halden Arena 17-21) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "6da56ce1fc94b215ed085d2d",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "b5876d5c7a0653df",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "-> 18:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "78368b87783c6e5a",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "563fa7e3dcabf827bfafc516",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "c9270dbf0355779f",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "4769017c2a89e593",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "a15355638b621c2ba7eab87b",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "3ea5ee865a65f3c0",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "788972c119c52aa2",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "4853ae93328222ad3fff7e07",
+      "observedAt": "2026-09-23T01:11:47+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "ddf676f281b23ba3",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "09:45",
+        "type": "Aktivitet",
+        "description": "Vise frem ambulansen til barnefamilier, tilstede på brannstasjonen kl.10-14 Åpen dag på brannstasjonen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "f83bf57209f5137b",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "09:45",
+        "type": "Aktivitet",
+        "description": "Vise frem ambulansen til barnefamilier, tilstede på brannstasjonen kl.10-14 Åpen dag på brannstasjonen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T01:11:47+02:00"
+}
