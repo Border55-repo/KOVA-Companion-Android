@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-22T23:31:22+02:00",
+  "updatedAt": "2026-09-22T23:45:03+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -28,9 +28,9 @@
       "code": "AHRKH",
       "category": "hjelpekorps",
       "file": "AHRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 23,
+      "updatedAt": "2026-09-22T23:44:59+02:00"
     },
     {
       "name": "Bergen Røde Kors Hjelpekorps",
@@ -91,9 +91,9 @@
       "code": "Fana RKH",
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 13,
+      "updatedAt": "2026-09-22T23:44:59+02:00"
     },
     {
       "name": "Gjøvik Røde Kors Hjelpekorps",
@@ -163,18 +163,18 @@
       "code": "Lunner RKH",
       "category": "hjelpekorps",
       "file": "Lunner_RKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 25,
+      "updatedAt": "2026-09-22T23:45:00+02:00"
     },
     {
       "name": "Moss Røde Kors Hjelpekorps",
       "code": "MossRKH",
       "category": "hjelpekorps",
       "file": "MossRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 26,
+      "updatedAt": "2026-09-22T23:45:00+02:00"
     },
     {
       "name": "Mysen og Omegn Røde Kors Hjelpekorps",
@@ -217,9 +217,9 @@
       "code": "OppSkiRKH",
       "category": "hjelpekorps",
       "file": "OppSkiRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 13,
+      "updatedAt": "2026-09-22T23:45:01+02:00"
     },
     {
       "name": "Oslo Røde Kors Hjelpekorps Beredskapsambulanse",
@@ -307,9 +307,9 @@
       "code": "TRKH",
       "category": "hjelpekorps",
       "file": "TRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 47,
+      "updatedAt": "2026-09-22T23:45:02+02:00"
     },
     {
       "name": "Ullensaker Røde Kors Hjelpekorps",
@@ -343,9 +343,9 @@
       "code": "VossRKH",
       "category": "hjelpekorps",
       "file": "VossRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 1,
+      "updatedAt": "2026-09-22T23:45:03+02:00"
     },
     {
       "name": "Bergen Røde Kors Ambulansen",

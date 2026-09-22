@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Oppegård/Ski Røde Kors Hjelpekorps",
+    "code": "OppSkiRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:45:01+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH",
+  "eventCount": 13,
+  "changes": {
+    "added": 12,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "fc6616efbc95aafe",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte F3: kl. 17 Eventyrstien 2025",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "acc73aa830a7fe07",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "10:00",
+      "type": "Beredskap",
+      "description": "Oppmøte F3 10.00 Åpen Brannstasjon",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "95bb35daa5db74e6",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "00:00",
+      "type": "Transport",
+      "description": "Vito utlånt til Enebakk",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "836cd6ea9738d9c4",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "23:45",
+      "type": "Transport",
+      "description": "Vito utlånt til Enebakk",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "f030140b0041eac9",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Søk og Redning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "f5caff5810edbed9",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte F3: 10.45 Nøklevann Rundt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "b37345000b28efb3",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Nesodden På Langs, oppmøte F3: 10.40 Nesodden på Langs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "fc1633caa67c87a1",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Kjøretøy/utstyrsgjennomgang Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "381e1e1e38a02b72",
+      "dateIso": "2026-11-11",
+      "dateLabel": "ons. 11.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Masseskade/triagering Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "ec1540b58421bfb0",
+      "dateIso": "2026-11-22",
+      "dateLabel": "søn. 22.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Storøvelse Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "6f9b725477d37ac6",
+      "dateIso": "2026-11-28",
+      "dateLabel": "lør. 28.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Mer info kommer senere JULEBORD",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "0026a1a5d2864c74",
+      "dateIso": "2026-12-03",
+      "dateLabel": "tor. 3.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Hypotermi Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "6784f71c90f2888e",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Juleavslutning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Moss Røde Kors Hjelpekorps",
+    "code": "MossRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:45:00+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
+  "eventCount": 26,
+  "changes": {
+    "added": 23,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "87657c29df3d2323",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt Bistand Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "c9b1e7abc084fbbd",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt Bistand Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "5b104b4ba177c8c5",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Fysisk med aksjonsledergruppa Lagledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "971ab97b2896faf6",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Årefjorden rundt - sanitetsvakt Mossekarusellen 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "abba20be4f7fa407",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "17:30",
+      "type": "Eksterne kurs",
+      "description": "Helg 1 Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "214f4a0c2503b4ed",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "21:30",
+      "type": "Eksterne kurs",
+      "description": "Helg 1 Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "422dc2dbf4ece335",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Veiledning Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "6e7e89f317c9d121",
+      "dateIso": "2026-10-05",
+      "dateLabel": "man. 5.10",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Moss - Kongsvinger MFK - Obos ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "36f5cc67ca94357b",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Hypotermiforebygging/Banak Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "8d05c3550221687f",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "8d4ce18d0bd6f95c",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "15:00",
+      "type": "Eksterne kurs",
+      "description": "Helg 2 Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "5d9f7fb433d365c7",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "17:30",
+      "type": "Eksterne kurs",
+      "description": "Helg 2 Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "0f986cbffbaf8365",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Moss - Egersund MFK - Obos ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "c9f91b74d7fdf688",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Møte Vanngruppa Møte Vanngruppa",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "2db5d50985b339a7",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Førstehjelp-ringløype Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "4d7e402cf310f0ca",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Moss - Åsane MFK - Obos ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "687bd169da0572c8",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Finsøk/Grovsøk Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "edc34675f0554fdf",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Beredskapssamling/alternativ korpskveld Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "8a7a330e49467754",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Moss - Ranheim MFK - Obos ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "cdc28b4be51b233d",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Info om lokalforening/verv Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "025bc296b76eb8c1",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Felles korpskveld Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "3b720ca29f32b249",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "For lagledere (på Teams) Lagledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "f029cd750d63f6e7",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "DHLR Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "d1c16392c163c2c4",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Grotteforbundet Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "06fa0e2ee69bc423",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Depot & rutiner Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "8bb722c9975483df",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Juleavslutning Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    }
+  ]
+}

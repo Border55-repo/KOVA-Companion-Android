@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Voss Røde Kors Hjelpekorps",
+    "code": "VossRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:45:03+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH",
+  "eventCount": 1,
+  "changes": {
+    "added": 1,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "2ae540d51839de33",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SMALAHOVE CUP SMALAHOVECUP",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH"
+    }
+  ]
+}

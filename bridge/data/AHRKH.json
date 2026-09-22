@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Aurskog-Høland Røde Kors Hjelpekorps",
+    "code": "AHRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:44:59+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
+  "eventCount": 23,
+  "changes": {
+    "added": 16,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "f0c5a3e080e7a062",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp tiltakskort korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "3352045ec36ade56",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Stuttreist og himlaga",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "7e4a8c89441c64de",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "08:30",
+      "type": "Aktivitet",
+      "description": "Stand Stuttreist og himlaga 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "a8ce51781bf077b4",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "09:30",
+      "type": "Aktivitet",
+      "description": "Vi viser oss og utstyret vårt frem Åpen dag med Brannvesenet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "6c90e4d577dba35c",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Regokjenning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "e2b0713f8eddbe43",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "11:30",
+      "type": "Beredskap",
+      "description": "Beredskap Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "991f27a2ff4767da",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "15:00",
+      "type": "Beredskap",
+      "description": "Beredskap Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "8144ef3d31737a57",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Tilstedeværelse Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "6ffc2d1d46495e14",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Tilstedeværelse Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "24f1d1ea1335cc27",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Tilstedeværelse Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "21e9a313d36c06e2",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "6253c851cb4ec1fe",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Førstehjelp Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "e23cf3c02896e510",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Tilstedeværelse Beredskap",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "075cf5151313db5f",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Førstehjelp Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "97c9998273652063",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Sosialt Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "42c4eac140b143ac",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Sambandsøvelse Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "53998a87bfee6261",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Kurs Ksor Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "04cb62a3196a7edb",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Faks Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "d4d0669eb047c5c0",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Sosialt Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "df2dd522b9a5d358",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Øvelse søk og redning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "579b632b750b03f6",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Orientering i mørket Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "37e380e25b9a0081",
+      "dateIso": "2026-12-03",
+      "dateLabel": "tor. 3.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Førstehjelp Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "cb93875fb223c755",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Juleavsluttning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    }
+  ]
+}

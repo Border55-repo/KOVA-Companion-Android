@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Lunner Røde Kors Hjelpekorps",
+    "code": "Lunner RKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:45:00+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
+  "eventCount": 25,
+  "changes": {
+    "added": 7,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "e6e70c4d86e07d61",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "10:30",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "1becfb18e72ebd20",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "8c8d937edfb86339",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "06:00",
+      "type": "Øvelse",
+      "description": "Øvelse Rosten",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "4751918ab7bf2850",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "81db81c8fd3282ef",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "dbb2e6432b603d54",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "07:00",
+      "type": "Eksterne møter",
+      "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "4a28db80d1159c74",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "20:00",
+      "type": "Eksterne møter",
+      "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "bb732ccd9e9622aa",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "d3bf27775d8c7096",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "b13f38a4dffa95be",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "a1cfb934e4975b9c",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "98156fe2717d4805",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "7fd5c0438a3f27cd",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "10:30",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "927b47340db37dee",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "e3571dd399e88019",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Røde Kors-helga",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "b5e6e0503a115484",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "786dc89540c3959b",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "22:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "15bc052afaf46078",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Røde Kors-helga",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "09666a4cce69c75d",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "38b003c4118dfcc4",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "cc1f61c3bcfb9111",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "e1987509f2a94f81",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "317de678f480d282",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "e272d862cf643319",
+      "dateIso": "2027-01-22",
+      "dateLabel": "fre. 22.1",
+      "time": "15:00",
+      "type": "Eksterne kurs",
+      "description": "Gjøvik Fagsamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "669c17ad9b153ad4",
+      "dateIso": "2027-01-24",
+      "dateLabel": "søn. 24.1",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Gjøvik Fagsamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Fana Røde Kors Hjelpekorps",
+    "code": "Fana RKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:44:59+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
+  "eventCount": 13,
+  "changes": {
+    "added": 7,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "495e4890169aecd6",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "14:00",
+      "type": "Dugnad",
+      "description": "Befaring Tak Befaring tak",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "0114dd5091319480",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Tur til Rambjøravannet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "f160b67f359ad32f",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER. SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER.",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "e137822ab9372661",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "02:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER. SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER.",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c629a1785071e92a",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Stabsmøte KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "6d4e683022e8fef0",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "5050a10d40ec6215",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "4f9d31dc85b20221",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "6247bac8378fbf45",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "1a9de6afe8799f2b",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c96b8aac3dac622c",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d3c78417e9be02a3",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "Avsluttende øvelse KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "20d5b3562e5c3671",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "16:00",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs for kunde Førstehjelpskurs for kunde",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    }
+  ]
+}
