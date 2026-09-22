@@ -12,13 +12,15 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
         val eventType = data["eventType"] ?: ""
 
         val settings = AppSettings(this)
+        val organization = data["organization"] ?: KovaRepository.DEFAULT_ORG
+        if (!settings.isOrganizationSubscribed(organization)) return
         if (!settings.isKindEnabled(kind)) return
         if (!settings.isEventTypeEnabled(eventType)) return
 
         val eventId = data["eventId"]
         val target = if (!eventId.isNullOrBlank()) {
             NotificationTarget(
-                organization = data["organization"] ?: KovaRepository.DEFAULT_ORG,
+                organization = organization,
                 eventId = eventId,
                 kind = kind,
                 dateIso = data["dateIso"] ?: "",
