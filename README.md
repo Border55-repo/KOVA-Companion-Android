@@ -42,3 +42,17 @@ KOVA Companion v0.4 bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord
 - legge inn `FIREBASE_SERVICE_ACCOUNT_JSON` som GitHub Actions-secret
 - sende første ekte push-test med `FCM smoke test`
 - senere autentisert KOVA-modul dersom offisiell API/OIDC-tilgang blir tilgjengelig
+
+
+## Produksjonsstatus
+
+Firebase Cloud Messaging er aktivert og verifisert ende-til-ende.
+
+Produksjonsflyt:
+- KOVA Bridge kontrollerer offentlig KOVA-data hvert 15. minutt
+- Ved reelle endringer sender Bridge FCM via HTTP v1
+- Android-appen mottar push på topic for valgt hjelpekorps
+- Lokal WorkManager-synk hvert 15. minutt beholdes som fallback
+- Første verifiserte FCM smoke-test til Ullensaker ble mottatt på fysisk Android-enhet
+
+Push sendes bare når Bridge oppdager nye, endrede eller fjernede aktiviteter.
