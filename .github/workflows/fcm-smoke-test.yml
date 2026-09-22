@@ -1,0 +1,43 @@
+name: FCM smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "bridge/test-push-trigger.txt"
+      - "bridge/test_push.py"
+      - ".github/workflows/fcm-smoke-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install FCM dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Verify Firebase secret exists
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "Repository secret FIREBASE_SERVICE_ACCOUNT_JSON is missing."
+            exit 2
+          fi
+
+      - name: Send test push to Ullensaker
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_TITLE: "KOVA Companion – push test"
+          TEST_BODY: "Ekte Firebase-push fungerer fra KOVA Bridge til Android."
+        run: python bridge/test_push.py
