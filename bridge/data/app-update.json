@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "tagName": "v0.9.2",
-  "name": "KOVA Companion v0.9.2",
-  "notes": "Oppdateringssjekk-verifisering",
-  "publishedAt": "2026-09-22T21:55:17Z",
-  "htmlUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/tag/v0.9.2",
-  "apkUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/download/v0.9.2/KOVA-Companion-v0.9.2.apk"
+  "tagName": "v0.9.3",
+  "name": "KOVA Companion v0.9.3",
+  "notes": "Ny KOVA Companion-versjon er tilgjengelig.",
+  "publishedAt": "2026-09-22T22:04:50Z",
+  "htmlUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/tag/v0.9.3",
+  "apkUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/download/v0.9.3/KOVA-Companion-v0.9.3.apk"
 }
