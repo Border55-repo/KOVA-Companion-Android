@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:45:02+02:00",
+  "updatedAt": "2026-09-23T00:44:03+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
-  "eventCount": 47,
+  "eventCount": 52,
   "changes": {
-    "added": 27,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 2
   },
   "events": [
     {
@@ -29,6 +29,15 @@
       "dateIso": "2026-09-18",
       "dateLabel": "fre. 18.9",
       "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR - stab helg 1 AFØR H2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "1ddf6821aed2700d",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 1 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -124,24 +133,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
-      "id": "db9e073ee1ebfe7e",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "07:30",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 1 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "17b81beb98f74d17",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 2 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
       "id": "3a715648f209a01f",
       "dateIso": "2026-10-02",
       "dateLabel": "fre. 2.10",
@@ -151,9 +142,36 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
-      "id": "790d3fe006f96f7b",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
+      "id": "b74a3b6d0eb0bc53",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Kvalifisert søk og redning (KSOR) - Barmarkshelg Grunnkursrekken 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "07fa74c0904a095d",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Backyard Ultra - Vakt 1 MSM - Tromsø Backyard Ultra",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "2d2983c0d77ff330",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Backyard Ultra - Vakt 2 MSM - Tromsø Backyard Ultra",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "a8c89d897b4127ba",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
       "time": "20:00",
       "type": "Sanitetsvakt",
       "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
@@ -241,6 +259,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
+      "id": "35eb880b86f41908",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "AFØR - stab helg 2 AFØR H2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
       "id": "977d45b89b5db6e3",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
@@ -268,6 +295,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
+      "id": "03bff59c7f838052",
+      "dateIso": "2026-11-14",
+      "dateLabel": "lør. 14.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "AFØR - stab helg 3 AFØR H2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
       "id": "1a919d714154f565",
       "dateIso": "2026-11-15",
       "dateLabel": "søn. 15.11",
@@ -281,6 +317,15 @@
       "dateIso": "2026-12-11",
       "dateLabel": "fre. 11.12",
       "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR - stab helg 4 AFØR H2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "8eea1fbec0d0e281",
+      "dateIso": "2026-12-12",
+      "dateLabel": "lør. 12.12",
+      "time": "",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 4 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "6d66b5eb4c0a08d60d283e97",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "8c69a8d6681a5352",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 2/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "5bc1a63991b3bda526d1616a",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "e48615cac3d396d6",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "9ad89ea1278d555f67ffad87",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "b0583090d10abb20",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 3/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "24fc428b7f08cfed1ce91e96",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "aace8e9c6e74809e",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 4/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "29f7d9041934e1c45efe0770",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "65cae8a9db315ade",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Årefjorden rundt - sanitetsvakt Mossekarusellen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "971ab97b2896faf6",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Årefjorden rundt - sanitetsvakt Mossekarusellen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "ed06ba6d9f3a0704ae0f9176",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "00154078c67779f7",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "15:00",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Videregående Førstehjelp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "5d9f7fb433d365c7",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "17:30",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Videregående Førstehjelp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "555b6f178ded5c54235a147a",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "a72d6a24e5222ed4",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt Bistand Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "c9b1e7abc084fbbd",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt Bistand Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "ad2cad1a221c12798ce5debf",
+      "observedAt": "2026-09-23T00:44:00+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5b104b4ba177c8c5",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "18:30",
+        "type": "Eksterne møter",
+        "description": "Fysisk med aksjonsledergruppa Lagledermøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T00:44:00+02:00"
+}
