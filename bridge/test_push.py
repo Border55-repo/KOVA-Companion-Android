@@ -37,21 +37,21 @@ def main() -> int:
     payload = {
         "message": {
             "topic": topic_for(org),
-            "notification": {
-                "title": title,
-                "body": body,
-            },
             "data": {
                 "title": title,
                 "body": body,
                 "kind": "test",
                 "organization": org,
+                "eventId": "smoke-test-v05",
+                "dateIso": "2026-09-22",
+                "dateLabel": "tir. 22.9",
+                "time": "18:30",
+                "eventType": "Aktivitet",
+                "description": "FCM smoke test",
+                "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
             },
             "android": {
                 "priority": "high",
-                "notification": {
-                    "channel_id": "kova_changes",
-                },
             },
         }
     }
