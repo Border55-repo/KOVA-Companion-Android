@@ -15,12 +15,12 @@ val releaseKeyPassword = System.getenv("ANDROID_KEY_PASSWORD") ?: releaseStorePa
 
 android {
     namespace = "no.juliannordli.kovacomp"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "no.juliannordli.kovacomp"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 17
         versionName = "0.10.0"
     }
