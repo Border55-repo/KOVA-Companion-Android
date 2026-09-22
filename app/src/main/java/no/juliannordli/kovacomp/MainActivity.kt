@@ -165,6 +165,34 @@ fun KovaScreen(
         }
     }
 
+    fun downloadUpdate(release: ReleaseInfo) {
+        val apkUrl = release.apkUrl
+        if (apkUrl.isNullOrBlank()) {
+            context.startActivity(
+                Intent(Intent.ACTION_VIEW, Uri.parse(release.htmlUrl))
+            )
+            return
+        }
+
+        runCatching {
+            UpdateDownloader.enqueue(
+                context = context,
+                url = apkUrl,
+                versionTag = release.tagName
+            )
+        }.onSuccess {
+            updateStatusMessage =
+                "Laster ned " + release.tagName +
+                    " i bakgrunnen. Trykk på nedlastingsvarselet når den er ferdig."
+        }.onFailure {
+            updateStatusMessage =
+                "Kunne ikke starte nedlasting. Åpner releasesiden."
+            context.startActivity(
+                Intent(Intent.ACTION_VIEW, Uri.parse(release.htmlUrl))
+            )
+        }
+    }
+
     fun checkForUpdate(showFeedback: Boolean = true) {
         if (checkingUpdate) return
         checkingUpdate = true
@@ -197,7 +225,7 @@ fun KovaScreen(
                                 "Ny KOVA Companion-versjon",
                                 latest.name +
                                     " er tilgjengelig. Trykk for å oppdatere.",
-                                latest.apkUrl ?: latest.htmlUrl
+                                latest.htmlUrl
                             )
                         }
                     }
@@ -451,14 +479,22 @@ fun KovaScreen(
                                     style = MaterialTheme.typography.bodyMedium
                                 )
                                 Button(
+                                    onClick = { downloadUpdate(release) }
+                                ) {
+                                    Text("Last ned oppdatering")
+                                }
+
+                                TextButton(
                                     onClick = {
-                                        val url = release.apkUrl ?: release.htmlUrl
                                         context.startActivity(
-                                            Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                                            Intent(
+                                                Intent.ACTION_VIEW,
+                                                Uri.parse(release.htmlUrl)
+                                            )
                                         )
                                     }
                                 ) {
-                                    Text("Last ned oppdatering")
+                                    Text("Åpne releasesiden")
                                 }
                             }
                         }
