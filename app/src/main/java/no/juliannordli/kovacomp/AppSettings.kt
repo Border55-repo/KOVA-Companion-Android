@@ -25,6 +25,15 @@ class AppSettings(context: Context) {
         get() = prefs.getStringSet("disabled_event_types", emptySet())?.toSet() ?: emptySet()
         set(value) = prefs.edit().putStringSet("disabled_event_types", value.toSet()).apply()
 
+    var subscribedOrganizations: Set<String>
+        get() = prefs.getStringSet(
+            "subscribed_organizations",
+            setOf(KovaRepository.DEFAULT_ORG)
+        )?.toSet() ?: setOf(KovaRepository.DEFAULT_ORG)
+        set(value) = prefs.edit()
+            .putStringSet("subscribed_organizations", value.toSet())
+            .apply()
+
     fun isEventTypeEnabled(type: String): Boolean =
         type.isBlank() || type !in disabledEventTypes
 
@@ -32,6 +41,15 @@ class AppSettings(context: Context) {
         val updated = disabledEventTypes.toMutableSet()
         if (enabled) updated.remove(type) else updated.add(type)
         disabledEventTypes = updated
+    }
+
+    fun isOrganizationSubscribed(code: String): Boolean =
+        code in subscribedOrganizations
+
+    fun setOrganizationSubscribed(code: String, enabled: Boolean) {
+        val updated = subscribedOrganizations.toMutableSet()
+        if (enabled) updated.add(code) else updated.remove(code)
+        subscribedOrganizations = updated
     }
 
     fun isKindEnabled(kind: String): Boolean =
