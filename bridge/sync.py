@@ -12,6 +12,8 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 
+from push import send_diff_notification
+
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
@@ -276,6 +278,13 @@ def main() -> int:
             diff = compute_diff(old_events, events)
             changed, payload = write_snapshot(org, events, diff)
             changed_any = changed_any or changed
+
+            if old and changed:
+                try:
+                    send_diff_notification(org, diff, source_url(org["code"]))
+                except Exception as push_exc:
+                    print(f"{org['code']}: FCM warning: {push_exc}", file=sys.stderr)
+
             summaries.append(
                 {
                     "name": org["name"],
