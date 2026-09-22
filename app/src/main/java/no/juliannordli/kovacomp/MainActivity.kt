@@ -124,6 +124,9 @@ fun KovaScreen(
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
     var latestRelease by remember { mutableStateOf<ReleaseInfo?>(null) }
     var checkingUpdate by remember { mutableStateOf(false) }
+    var updateStatusMessage by remember {
+        mutableStateOf<String?>(null)
+    }
     var favorites by remember { mutableStateOf(favoriteStore.list()) }
     var showMyActivities by remember { mutableStateOf(false) }
     var myRange by remember { mutableStateOf(MyActivitiesRange.MONTH) }
@@ -158,13 +161,59 @@ fun KovaScreen(
         }
     }
 
-    fun checkForUpdate() {
+    fun checkForUpdate(showFeedback: Boolean = true) {
         if (checkingUpdate) return
         checkingUpdate = true
+        if (showFeedback) {
+            updateStatusMessage = "Sjekker etter oppdatering…"
+        }
+
         scope.launch {
-            latestRelease = runCatching {
+            runCatching {
                 withContext(Dispatchers.IO) { ReleaseChecker.fetchLatest() }
-            }.getOrNull()
+            }.onSuccess { latest ->
+                latestRelease = latest
+
+                when {
+                    latest == null -> {
+                        if (showFeedback) {
+                            updateStatusMessage =
+                                "Fant ingen publisert versjon på GitHub."
+                        }
+                    }
+
+                    latest.isNewerThan(BuildConfig.VERSION_NAME) -> {
+                        updateStatusMessage =
+                            "Ny versjon " + latest.tagName +
+                                " er tilgjengelig."
+
+                        if (showFeedback) {
+                            NotificationHelper.postUrl(
+                                context,
+                                "Ny KOVA Companion-versjon",
+                                latest.name +
+                                    " er tilgjengelig. Trykk for å oppdatere.",
+                                latest.apkUrl ?: latest.htmlUrl
+                            )
+                        }
+                    }
+
+                    else -> {
+                        if (showFeedback) {
+                            updateStatusMessage =
+                                "Du har nyeste versjon: v" +
+                                    BuildConfig.VERSION_NAME
+                        }
+                    }
+                }
+            }.onFailure { failure ->
+                if (showFeedback) {
+                    updateStatusMessage =
+                        "Oppdateringssjekk feilet: " +
+                            (failure.message ?: "ukjent feil")
+                }
+            }
+
             checkingUpdate = false
         }
     }
@@ -207,7 +256,7 @@ fun KovaScreen(
         }
         refreshOrganizations()
         refreshHealth()
-        checkForUpdate()
+        checkForUpdate(showFeedback = false)
     }
 
     LaunchedEffect(subscribedOrganizations) {
@@ -628,9 +677,31 @@ fun KovaScreen(
                                 )
 
                                 OutlinedButton(
-                                    onClick = { checkForUpdate() }
+                                    enabled = !checkingUpdate,
+                                    onClick = { checkForUpdate(showFeedback = true) }
                                 ) {
-                                    Text(if (checkingUpdate) "Sjekker…" else "Sjekk etter oppdatering")
+                                    Text(
+                                        if (checkingUpdate) {
+                                            "Sjekker etter oppdatering…"
+                                        } else {
+                                            "Sjekk etter oppdatering"
+                                        }
+                                    )
+                                }
+
+                                updateStatusMessage?.let { status ->
+                                    Text(
+                                        status,
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = when {
+                                            status.startsWith("Oppdateringssjekk feilet") ->
+                                                MaterialTheme.colorScheme.error
+                                            status.startsWith("Ny versjon") ->
+                                                MaterialTheme.colorScheme.primary
+                                            else ->
+                                                MaterialTheme.colorScheme.onSurfaceVariant
+                                        }
+                                    )
                                 }
 
                                 OutlinedButton(
