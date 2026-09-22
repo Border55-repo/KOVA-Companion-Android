@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007303072111",
+    "project_id": "kova-companion",
+    "storage_bucket": "kova-companion.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007303072111:android:e9837f097ac3e6b70c709a",
+        "android_client_info": {
+          "package_name": "no.juliannordli.kovacomp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcMWJMCuiCnEARuTEuYXm3U-7z5lP5-f0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
