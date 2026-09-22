@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -207,7 +208,8 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
 
     if len(messages) > 10:
         remaining = messages[10:]
-        summary_id = "summary-" + str(abs(hash("|".join(item["changeId"] for item in remaining))))
+        summary_raw = "|".join(item["changeId"] for item in remaining).encode("utf-8")
+        summary_id = "summary-" + hashlib.sha256(summary_raw).hexdigest()[:24]
         try:
             _send(
                 credentials,
