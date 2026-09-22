@@ -4,6 +4,10 @@ on:
   push:
     tags:
       - "v*"
+    branches:
+      - main
+    paths:
+      - ".github/workflows/release.yml"
 
 permissions:
   contents: write
@@ -29,48 +33,47 @@ jobs:
         with:
           gradle-version: "8.9"
 
-      - name: Verify tag matches Android version
+      - name: Resolve release version
         run: |
           VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
-          if [ "v$VERSION" != "$GITHUB_REF_NAME" ]; then
-            echo "Tag $GITHUB_REF_NAME does not match app version v$VERSION"
+          TAG="v$VERSION"
+
+          if [[ "$GITHUB_REF" == refs/tags/* ]] && [ "$GITHUB_REF_NAME" != "$TAG" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match app version $TAG"
             exit 1
           fi
 
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "TAG=$TAG" >> "$GITHUB_ENV"
+
       - name: Configure release signing
         env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
-          ANDROID_KEY_ALIAS_SECRET: ${{ secrets.ANDROID_KEY_ALIAS }}
-          ANDROID_KEY_PASSWORD_SECRET: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
         run: |
-          if [ -z "$ANDROID_KEYSTORE_BASE64" ] || [ -z "$ANDROID_KEYSTORE_PASSWORD" ]; then
-            echo "Missing required Android signing secrets."
+          if [ -z "$KEYSTORE_B64" ]; then
+            echo "Missing ANDROID_KEYSTORE_BASE64."
             exit 2
           fi
 
           KEYSTORE_PATH="$RUNNER_TEMP/kova-release.jks"
-          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$KEYSTORE_PATH"
-
-          echo "ANDROID_KEYSTORE_PATH=$KEYSTORE_PATH" >> "$GITHUB_ENV"
-          echo "ANDROID_KEYSTORE_PASSWORD=$ANDROID_KEYSTORE_PASSWORD" >> "$GITHUB_ENV"
-
-          if [ -n "$ANDROID_KEY_ALIAS_SECRET" ]; then
-            echo "ANDROID_KEY_ALIAS=$ANDROID_KEY_ALIAS_SECRET" >> "$GITHUB_ENV"
-          else
-            echo "ANDROID_KEY_ALIAS=kova" >> "$GITHUB_ENV"
-          fi
-
-          if [ -n "$ANDROID_KEY_PASSWORD_SECRET" ]; then
-            echo "ANDROID_KEY_PASSWORD=$ANDROID_KEY_PASSWORD_SECRET" >> "$GITHUB_ENV"
-          else
-            echo "ANDROID_KEY_PASSWORD=$ANDROID_KEYSTORE_PASSWORD" >> "$GITHUB_ENV"
-          fi
+          printf '%s' "$KEYSTORE_B64" | base64 --decode > "$KEYSTORE_PATH"
+          test -s "$KEYSTORE_PATH"
+          echo "KEYSTORE_PATH=$KEYSTORE_PATH" >> "$GITHUB_ENV"
 
       - name: Unit tests
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ env.KEYSTORE_PATH }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: gradle :app:testReleaseUnitTest
 
       - name: Build signed release APK and AAB
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ env.KEYSTORE_PATH }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: gradle :app:assembleRelease :app:bundleRelease
 
       - name: Verify APK signature
@@ -80,13 +83,17 @@ jobs:
       - name: Prepare release assets
         run: |
           mkdir -p release-assets
-          cp app/build/outputs/apk/release/app-release.apk             "release-assets/KOVA-Companion-$GITHUB_REF_NAME.apk"
-          cp app/build/outputs/bundle/release/app-release.aab             "release-assets/KOVA-Companion-$GITHUB_REF_NAME.aab"
+          cp app/build/outputs/apk/release/app-release.apk             "release-assets/KOVA-Companion-$TAG.apk"
+          cp app/build/outputs/bundle/release/app-release.aab             "release-assets/KOVA-Companion-$TAG.aab"
           cd release-assets
-          sha256sum * > SHA256SUMS.txt
+          sha256sum "KOVA-Companion-$TAG.apk" "KOVA-Companion-$TAG.aab" > SHA256SUMS.txt
 
-      - name: Create GitHub Release
+      - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME"             release-assets/*             --title "KOVA Companion $GITHUB_REF_NAME"             --generate-notes
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --clobber
+          else
+            gh release create "$TAG"               release-assets/*               --target "$GITHUB_SHA"               --title "KOVA Companion $TAG"               --generate-notes
+          fi
