@@ -136,11 +136,41 @@ def append_history(path: Path, records: list[dict], max_records: int = 500) -> b
 
 
 def load_push_state(path: Path) -> dict:
-    return read_json(path, {"schemaVersion": 1, "sent": {}})
+    return read_json(path, {"schemaVersion": 1, "sent": {}, "pending": {}})
 
 
 def already_sent_ids(state: dict) -> set[str]:
     return set((state.get("sent") or {}).keys())
+
+
+def enqueue_pending(path: Path, state: dict, records: list[dict]) -> tuple[dict, bool]:
+    sent = dict(state.get("sent") or {})
+    pending = dict(state.get("pending") or {})
+    changed = False
+
+    for record in records:
+        item_id = record["changeId"]
+        if item_id in sent or item_id in pending:
+            continue
+        pending[item_id] = record
+        changed = True
+
+    payload = {
+        "schemaVersion": 1,
+        "updatedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
+        "sent": sent,
+        "pending": pending,
+    }
+
+    if changed:
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return payload, changed
+
+
+def pending_records(state: dict) -> list[dict]:
+    pending = state.get("pending") or {}
+    return list(pending.values())
 
 
 def mark_sent(path: Path, state: dict, change_ids: list[str], sent_at: str | None = None, max_ids: int = 2000) -> bool:
@@ -149,18 +179,21 @@ def mark_sent(path: Path, state: dict, change_ids: list[str], sent_at: str | Non
 
     sent_at = sent_at or datetime.now(OSLO).isoformat(timespec="seconds")
     sent = dict(state.get("sent") or {})
+    pending = dict(state.get("pending") or {})
     changed = False
 
     for item in change_ids:
-        if item not in sent:
+        if item not in sent or item in pending:
             changed = True
         sent[item] = sent_at
+        pending.pop(item, None)
 
     ordered = sorted(sent.items(), key=lambda item: item[1], reverse=True)[:max_ids]
     payload = {
         "schemaVersion": 1,
         "updatedAt": sent_at,
         "sent": dict(ordered),
+        "pending": pending,
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return changed
