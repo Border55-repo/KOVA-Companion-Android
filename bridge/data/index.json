@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-22T15:56:58+02:00",
+  "updatedAt": "2026-09-22T17:14:45+02:00",
   "organizations": [
     {
       "name": "Ullensaker Røde Kors Hjelpekorps",
@@ -24,8 +24,8 @@
       "code": "Nittedal RKH",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "eventCount": 58,
-      "updatedAt": "2026-09-22T15:56:58+02:00"
+      "eventCount": 59,
+      "updatedAt": "2026-09-22T17:14:43+02:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",
