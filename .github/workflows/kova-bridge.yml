@@ -10,6 +10,7 @@ on:
       - "bridge/push.py"
       - "bridge/test_sync.py"
       - "bridge/requirements.txt"
+      - "bridge/manual-trigger.txt"
       - ".github/workflows/kova-bridge.yml"
 
 permissions:
