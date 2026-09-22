@@ -58,7 +58,7 @@ object BridgeHealthRepository {
         connection.requestMethod = "GET"
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.2")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.3")
 
         try {
             val code = connection.responseCode
@@ -88,7 +88,7 @@ object BridgeHealthRepository {
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
         connection.setRequestProperty("Accept", "application/vnd.github+json")
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.2")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.3")
 
         try {
             val code = connection.responseCode
