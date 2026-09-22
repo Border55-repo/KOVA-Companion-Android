@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:15:44+02:00",
+  "updatedAt": "2026-09-23T00:39:57+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 19,
+  "eventCount": 22,
   "changes": {
-    "added": 13,
+    "added": 0,
     "removed": 0,
     "changed": 0
   },
@@ -61,6 +61,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
+      "id": "f5d2f90aca073d2d",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Ksor Stavern",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
       "id": "99cb54d934512dea",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
@@ -74,6 +83,15 @@
       "dateIso": "2026-10-23",
       "dateLabel": "fre. 23.10",
       "time": "17:00",
+      "type": "Interne kurs",
+      "description": "Stab Lsor",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "3c7cc93287dad2fd",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "",
       "type": "Interne kurs",
       "description": "Stab Lsor",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
@@ -137,6 +155,15 @@
       "dateIso": "2027-02-12",
       "dateLabel": "fre. 12.2",
       "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Ksor Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "e80a26cb695ef067",
+      "dateIso": "2027-02-13",
+      "dateLabel": "lør. 13.2",
+      "time": "",
       "type": "Interne kurs",
       "description": "Ksor Vinter",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"

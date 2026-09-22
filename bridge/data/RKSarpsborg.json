@@ -6,69 +6,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:15:47+02:00",
+  "updatedAt": "2026-09-23T00:40:01+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
-  "eventCount": 37,
+  "eventCount": 47,
   "changes": {
-    "added": 29,
-    "removed": 0,
-    "changed": 0
+    "added": 4,
+    "removed": 2,
+    "changed": 3
   },
   "events": [
-    {
-      "id": "c18a4a67e6842727",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Sted: Røde kors-huset Førstehjelpskurs Røde kors-butikken",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "aff8b7245a3eb7d3",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "18:30",
-      "type": "Eksterne møter",
-      "description": "For aksjon- og lagledergruppa samt lokalråd. Starter kl. 18:30 hos FRKH Workshop - Ivaretakelse av hjelperen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "f287348c074ec144",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "08:00",
-      "type": "Sanitetsvakt",
-      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "fd523c1130660e82",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Vakt: 11:00-14:00. Vi står i start-/målområdet Løp Fredriksten festning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "bf04762c5111b423",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "bd5929faa79fca33",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
     {
       "id": "29e6734adc4c7922",
       "dateIso": "2026-09-17",
@@ -76,6 +22,96 @@
       "time": "18:00",
       "type": "Øvelse",
       "description": "Fagdag ambulanse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "0077a1e60308661b",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 19:00 S08-vakt: KFUM",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "c201f05e24b4a04c",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "745646d7c0c83fcb",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "b78546dba18192de",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "ab7e68227fc6f9a2",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "4a1e7608d2de8d86",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "fdaf04cefd412130",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "75f54c0ed0c15f17",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "56e4d47a2e3c9c41",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Vakt: 11:00-14:00. Vi står i start-/målområdet Løp Fredriksten festning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "4c26811bf5021a4e",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
@@ -92,6 +128,15 @@
       "dateIso": "2026-09-25",
       "dateLabel": "fre. 25.9",
       "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "a58a4084096a8375",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "",
       "type": "Eksterne kurs",
       "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
@@ -142,6 +187,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
+      "id": "1633b0eb3aa95d31",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Påmeldingsfrist 27.09.26 Kvalifisert samband (KSAM) Moss",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
       "id": "32cc1427571fbb01",
       "dateIso": "2026-10-13",
       "dateLabel": "tir. 13.10",
@@ -155,6 +209,15 @@
       "dateIso": "2026-10-16",
       "dateLabel": "fre. 16.10",
       "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "adb975f22fdf2209",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "",
       "type": "Eksterne kurs",
       "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
@@ -259,21 +322,48 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
-      "id": "f5a16eec090d6191",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "15:00",
-      "type": "Sanitetsvakt",
-      "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Lillestrøm",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
       "id": "540764c7f5a1ced8",
       "dateIso": "2026-11-19",
       "dateLabel": "tor. 19.11",
       "time": "18:00",
       "type": "Øvelse",
       "description": "Fagdag ambulanse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "aecb30f5ff9b0912",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Praktisk helg Kvalifisert søk og redning (KSOR) Moss",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "134b64ae528d809c",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Praktisk helg Kvalifisert søk og redning (KSOR) Moss",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "10df2aded25d8061",
+      "dateIso": "2026-11-22",
+      "dateLabel": "søn. 22.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Praktisk helg Kvalifisert søk og redning (KSOR) Moss",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "96fb92fe3fefd8ac",
+      "dateIso": "2026-11-22",
+      "dateLabel": "søn. 22.11",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Lillestrøm",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {

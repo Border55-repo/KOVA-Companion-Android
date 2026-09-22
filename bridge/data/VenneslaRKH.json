@@ -6,12 +6,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:15:49+02:00",
+  "updatedAt": "2026-09-23T00:40:05+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH",
-  "eventCount": 17,
+  "eventCount": 16,
   "changes": {
-    "added": 13,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -58,15 +58,6 @@
       "time": "19:45",
       "type": "Sanitetsvakt",
       "description": "Vakt Moseidstranda",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "83ab36fca7809ab2",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "17:45",
-      "type": "Ambulansevakt",
-      "description": "Vindbjart cup-kamp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
     },
     {

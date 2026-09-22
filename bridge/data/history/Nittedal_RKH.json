@@ -2,6 +2,150 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f13b80e7d395807eaaff375e",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "496d53eea7a43175",
+        "dateIso": "2027-02-13",
+        "dateLabel": "lør. 13.2",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Grenaderittet Sanitetsvakt med Scooter",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "62de2a4be6f26be7",
+        "dateIso": "2027-02-12",
+        "dateLabel": "fre. 12.2",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Grenaderittet Sanitetsvakt med Scooter",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "25518fb08a6056e700c8943e",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "02b6798db7d74948",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand med sanitet Sanitet: Nittedalsdagene / Matfestivalen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "40558ad2cb99407c",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand med sanitet Sanitet: Nittedalsdagene / Matfestivalen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "54670b63b7683d21b7b04227",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "20371f5e6c4ff63a",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Fotballkamp VIF 2 - Frigg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "563c11e6fd251260",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Fotballkamp VIF 2 - Frigg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "623ef203b9e81be6e4037d34",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "5ea11dd454e233f4",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "For alle frivillige i hele lokalforeningen Møte: Beredskapskveld Nittedal RK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "f94e778453fb17f7",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "For alle frivillige i hele lokalforeningen Møte: Beredskapskveld Nittedal RK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "2ddc2d3d993cfc1d5f49e731",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "dba99d5d66d63e8a",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Beredskapsmøte, oppmøte ved rådhuset Korpskveld: Åpent møte i Nittedal kommune",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "f3824c31803ca170",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Beredskapsmøte, oppmøte ved rådhuset Korpskveld: Åpent møte i Nittedal kommune",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "e23a07df38ee32fa769fbc0d",
+      "observedAt": "2026-09-23T00:39:59+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "388279e3301950a7",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Fotballkamp VIF 2 - Bærum",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "8db3f473b6a2a788",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Fotballkamp VIF 2 - Bærum",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "51a8da600df497c0b77ba338",
       "observedAt": "2026-09-23T00:14:38+02:00",
       "organization": "Nittedal RKH",
@@ -47,5 +191,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T00:14:38+02:00"
+  "updatedAt": "2026-09-23T00:39:59+02:00"
 }
