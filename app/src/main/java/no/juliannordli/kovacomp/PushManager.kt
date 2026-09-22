@@ -3,10 +3,12 @@ package no.juliannordli.kovacomp
 import android.content.Context
 import com.google.firebase.FirebaseApp
 import com.google.firebase.messaging.FirebaseMessaging
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.atomic.AtomicBoolean
 
 object PushManager {
     private const val PREFS = "kova_push"
-    private const val CURRENT_TOPIC = "current_topic"
+    private const val TOPICS = "subscribed_topics"
 
     fun isConfigured(context: Context): Boolean =
         runCatching { FirebaseApp.getApps(context).isNotEmpty() }.getOrDefault(false)
@@ -16,9 +18,9 @@ object PushManager {
             .lowercase()
             .replace(Regex("[^a-z0-9_.~%-]"), "_")
 
-    fun subscribeToOrganization(
+    fun setSubscriptions(
         context: Context,
-        org: String,
+        organizations: Set<String>,
         onResult: (Boolean) -> Unit = {}
     ) {
         if (!isConfigured(context)) {
@@ -27,30 +29,47 @@ object PushManager {
         }
 
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-        val newTopic = topicFor(org)
-        val oldTopic = prefs.getString(CURRENT_TOPIC, null)
+        val desiredTopics = organizations.map(::topicFor).toSet()
+        val currentTopics = prefs.getStringSet(TOPICS, emptySet())?.toSet() ?: emptySet()
 
-        fun subscribeNew() {
-            FirebaseMessaging.getInstance()
-                .subscribeToTopic(newTopic)
-                .addOnCompleteListener { task ->
-                    if (task.isSuccessful) {
-                        prefs.edit().putString(CURRENT_TOPIC, newTopic).apply()
-                    }
-                    onResult(task.isSuccessful)
-                }
+        val toSubscribe = desiredTopics - currentTopics
+        val toUnsubscribe = currentTopics - desiredTopics
+        val total = toSubscribe.size + toUnsubscribe.size
+
+        if (total == 0) {
+            onResult(true)
+            return
         }
 
-        if (!oldTopic.isNullOrBlank() && oldTopic != newTopic) {
+        val remaining = AtomicInteger(total)
+        val failed = AtomicBoolean(false)
+
+        fun completeOne(success: Boolean) {
+            if (!success) failed.set(true)
+            if (remaining.decrementAndGet() == 0) {
+                if (!failed.get()) {
+                    prefs.edit().putStringSet(TOPICS, desiredTopics).apply()
+                }
+                onResult(!failed.get())
+            }
+        }
+
+        toUnsubscribe.forEach { topic ->
             FirebaseMessaging.getInstance()
-                .unsubscribeFromTopic(oldTopic)
-                .addOnCompleteListener { subscribeNew() }
-        } else {
-            subscribeNew()
+                .unsubscribeFromTopic(topic)
+                .addOnCompleteListener { task -> completeOne(task.isSuccessful) }
+        }
+
+        toSubscribe.forEach { topic ->
+            FirebaseMessaging.getInstance()
+                .subscribeToTopic(topic)
+                .addOnCompleteListener { task -> completeOne(task.isSuccessful) }
         }
     }
 
-    fun currentTopic(context: Context): String? =
+    fun currentTopics(context: Context): Set<String> =
         context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-            .getString(CURRENT_TOPIC, null)
+            .getStringSet(TOPICS, emptySet())
+            ?.toSet()
+            ?: emptySet()
 }
