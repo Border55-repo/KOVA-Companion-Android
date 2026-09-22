@@ -6,33 +6,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:50+02:00",
+  "updatedAt": "2026-09-23T01:26:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH",
-  "eventCount": 20,
+  "eventCount": 19,
   "changes": {
-    "added": 16,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "be32d8868739daed",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "NM cup 2 runde Pors - vakt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
-    },
-    {
-      "id": "b057f233e89ce869",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "Temakveld: Vakter Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
-    },
     {
       "id": "822b1da5ff5aa02a",
       "dateIso": "2026-09-19",
@@ -142,10 +124,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
     },
     {
+      "id": "dea1a442b241bd90",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "",
+      "type": "Aktivitet",
+      "description": "Felles påmelding innen onsdag 16.september Høstsamling 6-8.november",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
       "id": "e9b46a494ad629f7",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
-      "time": "14:00",
+      "time": "-> 14:00",
       "type": "Aktivitet",
       "description": "Felles påmelding innen onsdag 16.september Høstsamling 6-8.november",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"

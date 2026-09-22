@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:46+02:00",
+  "updatedAt": "2026-09-23T01:26:24+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 37,
+  "eventCount": 39,
   "changes": {
-    "added": 33,
+    "added": 1,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -64,7 +64,7 @@
       "id": "6ad1a2df2f3a9752",
       "dateIso": "2026-09-26",
       "dateLabel": "lør. 26.9",
-      "time": "02:30",
+      "time": "-> 02:30",
       "type": "Sanitetsvakt",
       "description": "NHH Konsert og kjellerfest NHH Konsert og kjellerfest",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
@@ -109,7 +109,7 @@
       "id": "2672c42ad59add3b",
       "dateIso": "2026-09-27",
       "dateLabel": "søn. 27.9",
-      "time": "02:30",
+      "time": "-> 02:30",
       "type": "Sanitetsvakt",
       "description": "NHH Kjellerfest NHH Konsert og kjellerfest",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
@@ -145,7 +145,7 @@
       "id": "be1633eaf68d74a5",
       "dateIso": "2026-10-10",
       "dateLabel": "lør. 10.10",
-      "time": "03:00",
+      "time": "-> 03:00",
       "type": "Sanitetsvakt",
       "description": "NHH kjellerfest NHH Sportsshow og kjellerfest",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
@@ -169,21 +169,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "c28b42a557f5e529",
+      "id": "aa51dfea1d9afadc",
       "dateIso": "2026-10-17",
       "dateLabel": "lør. 17.10",
-      "time": "03:00",
-      "type": "Sanitetsvakt",
-      "description": "NHH Show og kjellerfest NHH Show og kjellerfest",
+      "time": "",
+      "type": "Aktivitet",
+      "description": "Vi kicker i gang vinteren med middag, fest & moro på Føykely Vinter kick-off",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "35d79b2dd811c293",
+      "id": "c28b42a557f5e529",
       "dateIso": "2026-10-17",
       "dateLabel": "lør. 17.10",
-      "time": "08:45",
-      "type": "Interne møter",
-      "description": "KSAM Stab KSAM dag 2",
+      "time": "-> 03:00",
+      "type": "Sanitetsvakt",
+      "description": "NHH Show og kjellerfest NHH Show og kjellerfest",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
@@ -193,6 +193,24 @@
       "time": "08:45",
       "type": "Interne kurs",
       "description": "Stab KSAM KSAM dag 1",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "5a4c99e5f6b3fe27",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "",
+      "type": "Aktivitet",
+      "description": "Vi kicker i gang vinteren med middag, fest & moro på Føykely Vinter kick-off",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "c3c63130ed327b2f",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "08:45",
+      "type": "Interne møter",
+      "description": "KSAM Stab KSAM dag 2",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {

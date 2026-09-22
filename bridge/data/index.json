@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T01:11:55+02:00",
+  "updatedAt": "2026-09-23T01:26:40+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -11,8 +11,8 @@
       "category": "hjelpekorps",
       "file": "A_RKH.json",
       "status": "ok",
-      "eventCount": 8,
-      "updatedAt": "2026-09-22T23:07:46+02:00"
+      "eventCount": 9,
+      "updatedAt": "2026-09-23T01:26:23+02:00"
     },
     {
       "name": "Asker Røde Kors Hjelpekorps",
@@ -38,8 +38,8 @@
       "category": "hjelpekorps",
       "file": "Bergen_RKH.json",
       "status": "ok",
-      "eventCount": 37,
-      "updatedAt": "2026-09-22T23:07:46+02:00"
+      "eventCount": 39,
+      "updatedAt": "2026-09-23T01:26:24+02:00"
     },
     {
       "name": "Brandbu Røde Kors Hjelpekorps",
@@ -48,7 +48,7 @@
       "file": "BrandbuRKH.json",
       "status": "ok",
       "eventCount": 15,
-      "updatedAt": "2026-09-22T23:07:47+02:00"
+      "updatedAt": "2026-09-23T01:26:25+02:00"
     },
     {
       "name": "Bærum Røde Kors Hjelpekorps",
@@ -101,8 +101,8 @@
       "category": "hjelpekorps",
       "file": "GRKH.json",
       "status": "ok",
-      "eventCount": 2,
-      "updatedAt": "2026-09-22T23:07:48+02:00"
+      "eventCount": 19,
+      "updatedAt": "2026-09-23T01:26:26+02:00"
     },
     {
       "name": "Halden Røde Kors Hjelpekorps",
@@ -119,8 +119,8 @@
       "category": "hjelpekorps",
       "file": "Hamar_RKH.json",
       "status": "ok",
-      "eventCount": 7,
-      "updatedAt": "2026-09-22T23:07:48+02:00"
+      "eventCount": 6,
+      "updatedAt": "2026-09-23T01:26:27+02:00"
     },
     {
       "name": "Haugesund Røde Kors Hjelpekorps",
@@ -137,8 +137,8 @@
       "category": "hjelpekorps",
       "file": "LaksevaagRKH.json",
       "status": "ok",
-      "eventCount": 41,
-      "updatedAt": "2026-09-22T23:07:48+02:00"
+      "eventCount": 45,
+      "updatedAt": "2026-09-23T01:26:27+02:00"
     },
     {
       "name": "Lardal Røde Kors Hjelpekorps",
@@ -182,8 +182,8 @@
       "category": "hjelpekorps",
       "file": "MORKH.json",
       "status": "ok",
-      "eventCount": 32,
-      "updatedAt": "2026-09-22T23:07:49+02:00"
+      "eventCount": 52,
+      "updatedAt": "2026-09-23T01:26:29+02:00"
     },
     {
       "name": "Nes Røde Kors Hjelpekorps",
@@ -236,8 +236,8 @@
       "category": "hjelpekorps",
       "file": "PorsgrunnRKH.json",
       "status": "ok",
-      "eventCount": 20,
-      "updatedAt": "2026-09-22T23:07:50+02:00"
+      "eventCount": 19,
+      "updatedAt": "2026-09-23T01:26:32+02:00"
     },
     {
       "name": "Ringerike og Hole Røde Kors Hjelpekorps",
@@ -281,8 +281,8 @@
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
       "status": "ok",
-      "eventCount": 32,
-      "updatedAt": "2026-09-22T23:07:51+02:00"
+      "eventCount": 33,
+      "updatedAt": "2026-09-23T01:26:34+02:00"
     },
     {
       "name": "Sotra Røde Kors Hjelpekorps",
@@ -290,8 +290,8 @@
       "category": "hjelpekorps",
       "file": "SRKH.json",
       "status": "ok",
-      "eventCount": 25,
-      "updatedAt": "2026-09-22T23:07:51+02:00"
+      "eventCount": 26,
+      "updatedAt": "2026-09-23T01:26:35+02:00"
     },
     {
       "name": "Steinkjer Røde Kors Hjelpekorps",
@@ -299,8 +299,8 @@
       "category": "hjelpekorps",
       "file": "SteinkjerRKH.json",
       "status": "ok",
-      "eventCount": 15,
-      "updatedAt": "2026-09-22T23:07:52+02:00"
+      "eventCount": 18,
+      "updatedAt": "2026-09-23T01:26:37+02:00"
     },
     {
       "name": "Tromsø Røde Kors Hjelpekorps",
@@ -353,8 +353,8 @@
       "category": "ambulanse",
       "file": "RKAB.json",
       "status": "ok",
-      "eventCount": 42,
-      "updatedAt": "2026-09-22T23:07:52+02:00"
+      "eventCount": 41,
+      "updatedAt": "2026-09-23T01:26:38+02:00"
     },
     {
       "name": "Os Røde Kors",

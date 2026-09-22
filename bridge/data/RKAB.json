@@ -6,24 +6,15 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:52+02:00",
+  "updatedAt": "2026-09-23T01:26:38+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
-  "eventCount": 42,
+  "eventCount": 41,
   "changes": {
-    "added": 23,
+    "added": 0,
     "removed": 0,
     "changed": 0
   },
   "events": [
-    {
-      "id": "2daff29ae7e299ad",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "13:00",
-      "type": "Øvelse",
-      "description": "Plivo øvelse PLIVO øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
     {
       "id": "2d055bbfe3f3e784",
       "dateIso": "2026-09-17",

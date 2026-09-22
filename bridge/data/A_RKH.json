@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:46+02:00",
+  "updatedAt": "2026-09-23T01:26:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH",
-  "eventCount": 8,
+  "eventCount": 9,
   "changes": {
-    "added": 7,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -37,7 +37,7 @@
       "id": "5200ec6431d42ade",
       "dateIso": "2026-09-20",
       "dateLabel": "søn. 20.9",
-      "time": "02:30",
+      "time": "-> 02:30",
       "type": "Sanitetsvakt",
       "description": "NHH AID AVLYST - NHH AID",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
@@ -49,6 +49,15 @@
       "time": "09:00",
       "type": "Sanitetsvakt",
       "description": "Åsane Karateklubb JKA cup, karate",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "e7c597e2b4f26c08",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "",
+      "type": "Sanitetsvakt",
+      "description": "Konsert fredag 2 oktober Vassendgutane konsert",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
     },
     {

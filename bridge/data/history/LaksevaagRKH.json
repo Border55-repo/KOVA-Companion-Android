@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "d93a3875042e0ad38d546566",
+      "observedAt": "2026-09-23T01:26:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "ab2d6795ba4db7bd",
+        "dateIso": "2027-06-23",
+        "dateLabel": "ons. 23.6",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Tønnebålet 2027 SANITETSVAKT: Tønnebålet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "d890a8706da07afae65a8946",
+      "observedAt": "2026-09-23T01:26:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "045070a74c54dfa7",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "10:00",
+        "type": "Dugnad",
+        "description": "Arbeid depot Arbeid depot",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "72304dc4a631d75dbc17c71f",
+      "observedAt": "2026-09-23T01:26:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "80be0a75a066767d",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "15:00",
+        "type": "Eksterne møter",
+        "description": "Møte med FORF Møte med FORF",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T01:26:27+02:00"
+}

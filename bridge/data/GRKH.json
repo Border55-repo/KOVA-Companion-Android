@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:48+02:00",
+  "updatedAt": "2026-09-23T01:26:26+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH",
-  "eventCount": 2,
+  "eventCount": 19,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
     "changed": 0
   },
@@ -25,10 +25,163 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
     },
     {
+      "id": "8b44b1f2cdb6fe9c",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "24cc4d8fa6e9d64d",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "6667a0cfc1020d11",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "a353c99eeb26065d",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "b3d36997300d9dbd",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "6bae05a1d18154ea",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "d684edc1df7f2037",
+      "dateIso": "2026-12-11",
+      "dateLabel": "fre. 11.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "5c58eeecc4405f72",
+      "dateIso": "2026-12-12",
+      "dateLabel": "lør. 12.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "bc9502c074faaf7e",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "737e4c61b1d3dca6",
+      "dateIso": "2026-12-14",
+      "dateLabel": "man. 14.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "9734ba39e4391662",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "fc7099a7bf7a6ce7",
+      "dateIso": "2026-12-16",
+      "dateLabel": "ons. 16.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "02d86d4552b6dde1",
+      "dateIso": "2026-12-17",
+      "dateLabel": "tor. 17.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "06edb79106aacd34",
+      "dateIso": "2026-12-18",
+      "dateLabel": "fre. 18.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "17fbdc544d81fa75",
+      "dateIso": "2026-12-19",
+      "dateLabel": "lør. 19.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "e65c98883d05c555",
+      "dateIso": "2026-12-20",
+      "dateLabel": "søn. 20.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
+      "id": "8b94621548173db3",
+      "dateIso": "2026-12-21",
+      "dateLabel": "man. 21.12",
+      "time": "",
+      "type": "Dugnad",
+      "description": "Smjlv Spond SMJLV",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+    },
+    {
       "id": "5a8da3c19bbec90d",
       "dateIso": "2026-12-22",
       "dateLabel": "tir. 22.12",
-      "time": "01:00",
+      "time": "-> 01:00",
       "type": "Dugnad",
       "description": "Smjlv Spond SMJLV",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"

@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:52+02:00",
+  "updatedAt": "2026-09-23T01:26:37+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 15,
+  "eventCount": 18,
   "changes": {
-    "added": 14,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -73,7 +73,7 @@
       "id": "9e89d36bbb4adb78",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
-      "time": "13:00",
+      "time": "-> 13:00",
       "type": "Interne kurs",
       "description": "Videregående Psykososial Førstehjelp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
@@ -94,6 +94,33 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld 33 Korpskveld 33",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "1e09ac52da246191",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Deltakere KSOR Barmark",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "11776bf1230d579c",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Deltakere KSOR Barmark",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "98c65c3efc124d9f",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Deltakere KSOR Barmark",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {

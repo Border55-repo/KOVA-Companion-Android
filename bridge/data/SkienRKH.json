@@ -6,24 +6,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:51+02:00",
+  "updatedAt": "2026-09-23T01:26:34+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
-  "eventCount": 32,
+  "eventCount": 33,
   "changes": {
-    "added": 24,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
-    {
-      "id": "baee9e9d31f2d744",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "17:30",
-      "type": "Aktivitet",
-      "description": "Befalsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
-    },
     {
       "id": "802f257cd2a26096",
       "dateIso": "2026-09-20",
@@ -151,10 +142,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
+      "id": "997498b588a13ac8",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "",
+      "type": "Aktivitet",
+      "description": "KSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
       "id": "01326c2c72ac40c2",
       "dateIso": "2026-11-01",
       "dateLabel": "søn. 1.11",
-      "time": "15:00",
+      "time": "-> 15:00",
       "type": "Aktivitet",
       "description": "KSOR",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
@@ -178,15 +178,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
-      "id": "45e821ef95def4df",
-      "dateIso": "2026-11-06",
-      "dateLabel": "fre. 6.11",
-      "time": "16:00",
-      "type": "Sanitetsvakt",
-      "description": "usikkert tidspunkt Klosterskogen Travbane",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
-    },
-    {
       "id": "b20cadfdb57c9421",
       "dateIso": "2026-11-06",
       "dateLabel": "fre. 6.11",
@@ -196,10 +187,28 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
+      "id": "626e0f9b39555c6d",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "",
+      "type": "Aktivitet",
+      "description": "Høstsamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "4f49e24011f87c93",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "usikkert tidspunkt Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
       "id": "0788601674d0a071",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
-      "time": "16:00",
+      "time": "-> 16:00",
       "type": "Aktivitet",
       "description": "Høstsamling",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
@@ -262,7 +271,7 @@
       "id": "0eec5514b884006e",
       "dateIso": "2026-12-06",
       "dateLabel": "søn. 6.12",
-      "time": "05:00",
+      "time": "-> 05:00",
       "type": "Aktivitet",
       "description": "Julebord???",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"

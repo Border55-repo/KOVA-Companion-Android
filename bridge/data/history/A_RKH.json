@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "af5ee6fd1ce1e186986a3c60",
+      "observedAt": "2026-09-23T01:26:23+02:00",
+      "organization": "AÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "e7c597e2b4f26c08",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Konsert fredag 2 oktober Vassendgutane konsert",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T01:26:23+02:00"
+}

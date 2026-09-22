@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "31155ab791a688b5eae390d5",
+      "observedAt": "2026-09-23T01:26:35+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "281ed9d2ad3e0030",
+        "dateIso": "2027-05-29",
+        "dateLabel": "lør. 29.5",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Havgapfestivalen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "2795228c41d4bca5c6e40a35",
+      "observedAt": "2026-09-23T01:26:35+02:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "4cd23c6dc6414990",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Sotra - PorsGrenland Fotballvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "801331592c535539",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Sotra - PorsGrenland Fotballvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "bd0f30d11b7e1d2066b512a7",
+      "observedAt": "2026-09-23T01:26:35+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "75381d295b860a7f",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Sotra-Sogndal Cup kamp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T01:26:35+02:00"
+}

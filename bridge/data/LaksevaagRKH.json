@@ -6,33 +6,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:07:48+02:00",
+  "updatedAt": "2026-09-23T01:26:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 41,
+  "eventCount": 45,
   "changes": {
-    "added": 36,
-    "removed": 0,
+    "added": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "045070a74c54dfa7",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "10:00",
-      "type": "Dugnad",
-      "description": "Arbeid depot Arbeid depot",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "80be0a75a066767d",
-      "dateIso": "2026-09-16",
-      "dateLabel": "ons. 16.9",
-      "time": "15:00",
-      "type": "Eksterne møter",
-      "description": "Møte med FORF Møte med FORF",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "02b0ef623ddd1908",
       "dateIso": "2026-09-17",
@@ -151,21 +133,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
-      "id": "4326e9923f19740c",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "16:30",
-      "type": "Sanitetsvakt",
-      "description": "Kranselegging i sivilforsvarsparken Minnevakt",
+      "id": "0a2c8acd10895e0a",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Fana. Del 1/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
       "id": "a61292df19eb5dce",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
-      "time": "18:00",
+      "time": "-> 18:00",
       "type": "Interne kurs",
       "description": "Fana. Del 1/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4326e9923f19740c",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Kranselegging i sivilforsvarsparken Minnevakt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
@@ -196,10 +187,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "bd44745cfcb14315",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "484c97eacd663f1f",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
-      "time": "16:30",
+      "time": "-> 16:30",
       "type": "Interne kurs",
       "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
@@ -268,10 +268,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "d91d2764bcdb165d",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "1d7c156267136d75",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
-      "time": "16:30",
+      "time": "-> 16:30",
       "type": "Interne kurs",
       "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
@@ -304,10 +313,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "7efd4ea595496abe",
+      "dateIso": "2026-11-14",
+      "dateLabel": "lør. 14.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "f938f2b7c9265c17",
       "dateIso": "2026-11-15",
       "dateLabel": "søn. 15.11",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
@@ -331,10 +349,19 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "6baca676910a5aa1",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "f3be48f48a85658d",
       "dateIso": "2026-11-22",
       "dateLabel": "søn. 22.11",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
@@ -382,6 +409,15 @@
       "time": "18:30",
       "type": "Interne møter",
       "description": "Valgmøte Hjelpekorps Valgmøte Hjelpekorps",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ab2d6795ba4db7bd",
+      "dateIso": "2027-06-23",
+      "dateLabel": "ons. 23.6",
+      "time": "",
+      "type": "Sanitetsvakt",
+      "description": "Tønnebålet 2027 SANITETSVAKT: Tønnebålet",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     }
   ]

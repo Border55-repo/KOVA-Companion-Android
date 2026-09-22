@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "7e62d9a7f7e33e2ef7413185",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "abcb00363a6e91aa",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "AVLYST!! KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "3600159acbb640fae97ca520",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "6820eb3aa64180b3",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Travvvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "661245972d39b523908518f2",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "294187e0afbdf272",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kveldens kakebaker Kveldens kakebaker",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "1b90266c46ac08e26cda6473",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "d613049cf1f793ec",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Fredag Travvakt LAG 4",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "f629787c763da6af899f71b3",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "b9c32828d731ed33",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Ambulansevakt",
+        "description": "Mannskap i KO bestemmes av Troika Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "dcad362b6046c7f4ab367ceb",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "efcd4075d08984a5",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Fredrikstad. Mer info og tider kommer. KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "b10c35368b2b5ca2ffc3974d",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "9054d85b7fde4d31",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Øvelse",
+        "description": "Øvelse i Rakkestad med tauruppa - Tid kommer Øvelse med tauruppa",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "732453f521520ec02b946444",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "0ea8e85b10dc7a76",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kveldens kakebaker",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "f230c215fac1e6d40cb282e1",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "1c582b28b011d6be",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Lørdag V75/Oaks Travvakt LAG 1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "1d709cba5ea8981f66fb70c3",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "b68357ae07cb5e32",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "",
+        "type": "Interne møter",
+        "description": "FORF - FULLT FORF-seminar på Gardermoen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "7207f6250fb080da3a825ad0",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "d778f1ef45f0e406",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Søndag Travvakt LAG 2",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "f8f5d40b95be31a45c074b56",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "097fc2fd19caba3a",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Moss. Tider og mer info kommer. KSOR - teori dag 1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "a8a646113de6371326d89557",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "d665efd7b778cb1d",
+        "dateIso": "2026-11-16",
+        "dateLabel": "man. 16.11",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Moss. Tider og info kommer KSOR - teoridag 2",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "f822350033b9bc19d3bac3ab",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "3e15ed53186f9cd3",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Felles korpskveld for alle arr. av D-råd. Kl og sted kommer Felles korpskveld for alle",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "9888c3789bb33130aa3fd882",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "e23c46b4cf53f864",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Moss. Tider og mer info kommer KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "d39b4700507de7ad7c6e53d4",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "81a37b5d8e12b5fd",
+        "dateIso": "2026-12-09",
+        "dateLabel": "ons. 9.12",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Onsdag Travvakt LAG 5",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "1ca979eeae78a0e563d5c536",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "0183c429d2c1aa03",
+        "dateIso": "2026-12-12",
+        "dateLabel": "lør. 12.12",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Tid og påmelding kommer. Fredrikstad. Julebord for alle korpsene",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "3d6f6d12511222cf08c429bf",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "2a7f0f41cbba6da4",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Dugnad",
+        "description": "Kveldens kakebaker til sosialt etter møte Kveldens kakebaker til sosialt etter møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "8418180c91945119",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "20:00",
+        "type": "Dugnad",
+        "description": "Kveldens kakebaker til sosialt etter møte Kveldens kakebaker til sosialt etter møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "adfc1fd0d7f18d8bebd2ed4f",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "b018583fd66b99bc",
+        "dateIso": "2026-11-16",
+        "dateLabel": "man. 16.11",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Travlag 3 lunsjtrav Travlag 3 Lunsjtrav",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "84f199b7dec1fbe4",
+        "dateIso": "2026-11-15",
+        "dateLabel": "søn. 15.11",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Travlag 3 lunsjtrav Travlag 3 Lunsjtrav",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "e21cc3a4db85b80a150eae3b",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "3228d45188133335",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på stedet 09: Bruk 5.2 Trøgstad Trial",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "46f62aa316c66884",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på stedet 09: Bruk 5.2 Trøgstad Trial",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "ec8313478166c13989cbd38b",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "162920d28b9bdb1d",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "10:00",
+        "type": "Profilering",
+        "description": "Profilering - Ta med utstyr Bruk 5.6 Sikkerhetsfestival Askim",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "b4d6655c1a51f4b8",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "10:00",
+        "type": "Profilering",
+        "description": "Profilering - Ta med utstyr Bruk 5.6 Sikkerhetsfestival Askim",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "29e1a79897767d7d27f309d7",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "49a0f3df9f522a6e",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Onsdag Travvakt LAG 4",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "9d19a610565d9953",
+        "dateIso": "2026-11-19",
+        "dateLabel": "tor. 19.11",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Onsdag Travvakt LAG 4",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "4383e131cbf02efc42564c6c",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "ff165d51bd79ff6d",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "10:45",
+        "type": "Sanitetsvakt",
+        "description": "Onsdag Lunsjtrav oppmøte RK ca 10:40 første løp 11:08 siste løp ca 14:30 Travvakt LAG 5",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "5417391a69363d66d8b86797",
+      "observedAt": "2026-09-23T01:26:29+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "6eea22477723cab8",
+        "dateIso": "2026-09-16",
+        "dateLabel": "ons. 16.9",
+        "time": "15:00",
+        "type": "Transport",
+        "description": "5.2 opptatt Delegasjons møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T01:26:29+02:00"
+}
