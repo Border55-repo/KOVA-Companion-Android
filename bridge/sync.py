@@ -8,6 +8,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import parse_qs, quote_plus, unquote_plus, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -30,20 +31,32 @@ DATA_DIR = ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 HISTORY_DIR = DATA_DIR / "history"
 HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+
 PUSH_STATE_PATH = DATA_DIR / "push_state.json"
 HEALTH_PATH = DATA_DIR / "health.json"
+ORGANIZATIONS_PATH = DATA_DIR / "organizations.json"
+EVENTS_URL = "https://www.kova.no/Events.aspx"
 
 OSLO = ZoneInfo("Europe/Oslo")
 HEALTH_HEARTBEAT_SECONDS = 3600
+DISCOVERY_USER_AGENT = (
+    "KOVA-Companion-Bridge/0.8 "
+    "(+https://github.com/Border55-repo/KOVA-Companion-Android)"
+)
 
-ORGANIZATIONS = [
-    {"name": "Ullensaker Røde Kors Hjelpekorps", "code": "UllensakerRKH"},
-    {"name": "Eidsvoll/Hurdal Røde Kors Hjelpekorps", "code": "EHRKH"},
-    {"name": "Nittedal Røde Kors Hjelpekorps", "code": "Nittedal RKH"},
-    {"name": "Skedsmo Røde Kors Hjelpekorps", "code": "Skedsmo RKH"},
+FALLBACK_ORGANIZATIONS = [
+    {"name": "Ullensaker Røde Kors Hjelpekorps", "code": "UllensakerRKH", "category": "hjelpekorps"},
+    {"name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps", "code": "EHRKH", "category": "hjelpekorps"},
+    {"name": "Nittedal Røde Kors Hjelpekorps", "code": "Nittedal RKH", "category": "hjelpekorps"},
+    {"name": "Skedsmo Røde Kors Hjelpekorps", "code": "Skedsmo RKH", "category": "hjelpekorps"},
 ]
 
+# These remain fast because they are the original production set.
+PRIORITY_CODES = {item["code"] for item in FALLBACK_ORGANIZATIONS}
+NON_PRIORITY_BUCKETS = 4
+
 KNOWN_TYPES = {
+    "Aksjon",
     "Aktivitet",
     "Ambulansevakt",
     "Båtvakt",
@@ -56,6 +69,7 @@ KNOWN_TYPES = {
     "Interne kurs",
     "Interne møter",
     "Korpskveld",
+    "RØFF",
     "Øvelse",
     "Profilering",
     "Rådsmøte",
@@ -70,16 +84,145 @@ TIME_RE = re.compile(r"(?:->\s*)?(\d{1,2}:\d{2})$")
 
 
 def slug(code: str) -> str:
-    return code.replace(" ", "_")
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", code).strip("_")
 
 
 def source_url(code: str) -> str:
-    from urllib.parse import quote_plus
     return "https://www.kova.no/public/schedule.aspx?Organization=" + quote_plus(code)
 
 
 def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.strip().lower())
+
+
+def classify_organization(name: str) -> str:
+    folded = name.casefold()
+    if "hjelpekorps" in folded:
+        return "hjelpekorps"
+    if "ambulanse" in folded:
+        return "ambulanse"
+    if "omsorg" in folded:
+        return "omsorg"
+    if "båt" in folded or "båten" in folded:
+        return "bat"
+    if "lokalforening" in folded:
+        return "lokalforening"
+    return "annet"
+
+
+def discover_organizations(attempts: int = 3) -> list[dict]:
+    last_error: Exception | None = None
+
+    for attempt in range(attempts):
+        try:
+            response = requests.get(
+                EVENTS_URL,
+                timeout=20,
+                headers={"User-Agent": DISCOVERY_USER_AGENT},
+            )
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            found: dict[str, dict] = {}
+            for anchor in soup.find_all("a", href=True):
+                href = anchor.get("href", "")
+                if "schedule.aspx" not in href or "Organization=" not in href:
+                    continue
+
+                parsed = urlparse(href)
+                query = parse_qs(parsed.query)
+                code_values = query.get("Organization")
+                if not code_values:
+                    continue
+
+                code = unquote_plus(code_values[0]).strip()
+                name = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True)).strip()
+                if not code or not name:
+                    continue
+
+                found[code] = {
+                    "name": name,
+                    "code": code,
+                    "category": classify_organization(name),
+                }
+
+            if len(found) < 4:
+                raise RuntimeError(
+                    f"KOVA organization discovery returned only {len(found)} entries"
+                )
+
+            return sorted(
+                found.values(),
+                key=lambda item: (
+                    0 if item["category"] == "hjelpekorps" else 1,
+                    item["name"].casefold(),
+                ),
+            )
+        except (requests.RequestException, RuntimeError) as exc:
+            last_error = exc
+            if attempt < attempts - 1:
+                delay = 2 ** attempt
+                print(
+                    f"Organization discovery retry in {delay}s: {exc}",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
+
+    cached = read_json(ORGANIZATIONS_PATH, {})
+    cached_orgs = cached.get("organizations", []) if isinstance(cached, dict) else []
+    if cached_orgs:
+        print(
+            f"Organization discovery failed; using {len(cached_orgs)} cached entries: {last_error}",
+            file=sys.stderr,
+        )
+        return cached_orgs
+
+    print(
+        f"Organization discovery failed; using fallback list: {last_error}",
+        file=sys.stderr,
+    )
+    return FALLBACK_ORGANIZATIONS
+
+
+def write_organization_registry(organizations: list[dict]) -> bool:
+    previous = read_json(ORGANIZATIONS_PATH, {})
+    previous_orgs = previous.get("organizations", []) if isinstance(previous, dict) else []
+    if previous_orgs == organizations:
+        return False
+
+    payload = {
+        "schemaVersion": 1,
+        "source": EVENTS_URL,
+        "updatedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
+        "count": len(organizations),
+        "helpCorpsCount": sum(
+            1 for item in organizations if item.get("category") == "hjelpekorps"
+        ),
+        "organizations": organizations,
+    }
+    ORGANIZATIONS_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return True
+
+
+def poll_batch(organizations: list[dict], now: datetime | None = None) -> list[dict]:
+    now = now or datetime.now(OSLO)
+    bucket = int(now.timestamp() // 300) % NON_PRIORITY_BUCKETS
+    selected = []
+
+    for org in organizations:
+        code = org["code"]
+        if code in PRIORITY_CODES:
+            selected.append(org)
+            continue
+
+        digest = int(hashlib.sha256(code.encode("utf-8")).hexdigest()[:8], 16)
+        if digest % NON_PRIORITY_BUCKETS == bucket:
+            selected.append(org)
+
+    return selected
 
 
 def event_semantic_key(event: dict) -> str:
@@ -243,12 +386,7 @@ def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
             response = requests.get(
                 url,
                 timeout=20,
-                headers={
-                    "User-Agent": (
-                        "KOVA-Companion-Bridge/0.7 "
-                        "(+https://github.com/Border55-repo/KOVA-Companion-Android)"
-                    )
-                },
+                headers={"User-Agent": DISCOVERY_USER_AGENT},
             )
             response.raise_for_status()
             html = response.text
@@ -267,30 +405,59 @@ def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
     raise last_error
 
 
-def write_index(summaries: list[dict], changed_any: bool) -> None:
+def write_index(organizations: list[dict], summaries: list[dict], changed_any: bool) -> None:
     path = DATA_DIR / "index.json"
-    previous = read_json(path, None)
-    stable_summary = [
-        {
-            "name": item["name"],
-            "code": item["code"],
-            "file": item["file"],
-            "status": item["status"],
-            "eventCount": item["eventCount"],
-            "updatedAt": item.get("updatedAt"),
-        }
-        for item in summaries
-    ]
+    previous = read_json(path, {})
+    summary_by_code = {item["code"]: item for item in summaries}
 
-    previous_summary = previous.get("organizations", []) if previous else []
-    if not changed_any and previous_summary == stable_summary:
+    rows = []
+    for org in organizations:
+        previous_row = next(
+            (
+                item
+                for item in previous.get("organizations", [])
+                if item.get("code") == org["code"]
+            ),
+            {},
+        )
+        current = summary_by_code.get(org["code"])
+        rows.append(
+            {
+                "name": org["name"],
+                "code": org["code"],
+                "category": org.get("category", "annet"),
+                "file": f"{slug(org['code'])}.json",
+                "status": (
+                    current.get("status")
+                    if current
+                    else previous_row.get("status", "pending")
+                ),
+                "eventCount": (
+                    current.get("eventCount")
+                    if current
+                    else previous_row.get("eventCount", 0)
+                ),
+                "updatedAt": (
+                    current.get("updatedAt")
+                    if current
+                    else previous_row.get("updatedAt")
+                ),
+            }
+        )
+
+    old_rows = previous.get("organizations", [])
+    if not changed_any and old_rows == rows:
         return
 
     payload = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "bridge": "KOVA Companion Bridge",
         "updatedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
-        "organizations": stable_summary,
+        "organizationCount": len(organizations),
+        "helpCorpsCount": sum(
+            1 for item in organizations if item.get("category") == "hjelpekorps"
+        ),
+        "organizations": rows,
     }
     path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
@@ -330,6 +497,8 @@ def parse_iso(value: str | None) -> datetime | None:
 
 
 def write_health(
+    organizations: list[dict],
+    polled: list[dict],
     summaries: list[dict],
     failures: int,
     changed_any: bool,
@@ -342,7 +511,7 @@ def write_health(
 
     status = (
         "error"
-        if failures == len(ORGANIZATIONS)
+        if failures == len(polled) and polled
         else "degraded"
         if failures
         else "ok"
@@ -362,6 +531,7 @@ def write_health(
         or pending_count > 0
         or status != previous_status
         or heartbeat_due
+        or previous.get("organizationCount") != len(organizations)
     )
     if not force_write:
         return False
@@ -370,12 +540,12 @@ def write_health(
     consecutive_failure_runs = previous_failure_runs + 1 if failures else 0
 
     payload = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "bridge": "KOVA Companion Bridge",
         "status": status,
         "checkedAt": now_iso,
         "lastSuccessfulRunAt": (
-            now_iso if failures < len(ORGANIZATIONS) else previous.get("lastSuccessfulRunAt")
+            now_iso if failures < len(polled) else previous.get("lastSuccessfulRunAt")
         ),
         "lastFullySuccessfulRunAt": (
             now_iso if failures == 0 else previous.get("lastFullySuccessfulRunAt")
@@ -385,7 +555,14 @@ def write_health(
         "lastPushAt": (
             now_iso if push_count > 0 else previous.get("lastPushAt")
         ),
-        "lastPushCount": push_count if push_count > 0 else previous.get("lastPushCount", 0),
+        "lastPushCount": (
+            push_count if push_count > 0 else previous.get("lastPushCount", 0)
+        ),
+        "organizationCount": len(organizations),
+        "helpCorpsCount": sum(
+            1 for item in organizations if item.get("category") == "hjelpekorps"
+        ),
+        "polledThisRun": len(polled),
         "organizations": summaries,
     }
 
@@ -397,18 +574,26 @@ def write_health(
 
 
 def main() -> int:
+    organizations = discover_organizations()
+    registry_changed = write_organization_registry(organizations)
+    polled = poll_batch(organizations)
+
+    print(
+        f"Discovered {len(organizations)} public KOVA organizations "
+        f"({sum(1 for x in organizations if x.get('category') == 'hjelpekorps')} hjelpekorps); "
+        f"polling {len(polled)} this run."
+    )
+
     summaries = []
-    changed_any = False
+    changed_any = registry_changed
     failures = 0
     total_pushes = 0
-
     push_state = load_push_state(PUSH_STATE_PATH)
 
-    for org in ORGANIZATIONS:
+    for org in polled:
         path = DATA_DIR / f"{slug(org['code'])}.json"
         old = read_json(path, {})
         old_events = old.get("events", [])
-        error_text = None
 
         try:
             events, _, html_length = fetch_org(org)
@@ -429,7 +614,11 @@ def main() -> int:
                     HISTORY_DIR / f"{slug(org['code'])}.json",
                     records,
                 )
-                push_state, _ = enqueue_pending(PUSH_STATE_PATH, push_state, records)
+                push_state, _ = enqueue_pending(
+                    PUSH_STATE_PATH,
+                    push_state,
+                    records,
+                )
 
             changed, payload = write_snapshot(org, events, diff)
             changed_any = changed_any or changed
@@ -456,6 +645,7 @@ def main() -> int:
                 {
                     "name": org["name"],
                     "code": org["code"],
+                    "category": org.get("category", "annet"),
                     "file": path.name,
                     "status": "ok",
                     "eventCount": len(events),
@@ -475,6 +665,7 @@ def main() -> int:
                 {
                     "name": org["name"],
                     "code": org["code"],
+                    "category": org.get("category", "annet"),
                     "file": path.name,
                     "status": "error",
                     "eventCount": len(old_events),
@@ -484,10 +675,16 @@ def main() -> int:
             )
             print(f"{org['code']}: ERROR {error_text}", file=sys.stderr)
 
-    write_index(summaries, changed_any or failures > 0)
+    write_index(
+        organizations,
+        summaries,
+        changed_any or failures > 0,
+    )
 
     remaining_pending = len(pending_records(push_state))
     health_written = write_health(
+        organizations=organizations,
+        polled=polled,
         summaries=summaries,
         failures=failures,
         changed_any=changed_any,
@@ -496,11 +693,12 @@ def main() -> int:
     )
 
     print(
-        f"Bridge summary: failures={failures}, pushes={total_pushes}, "
-        f"pending={remaining_pending}, health_written={health_written}"
+        f"Bridge summary: discovered={len(organizations)}, polled={len(polled)}, "
+        f"failures={failures}, pushes={total_pushes}, pending={remaining_pending}, "
+        f"health_written={health_written}"
     )
 
-    return 1 if failures == len(ORGANIZATIONS) else 0
+    return 1 if polled and failures == len(polled) else 0
 
 
 if __name__ == "__main__":
