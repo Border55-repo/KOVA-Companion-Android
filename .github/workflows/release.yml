@@ -98,6 +98,35 @@ jobs:
             gh release create "$TAG"               release-assets/*               --target "$GITHUB_SHA"               --title "KOVA Companion $TAG"               --generate-notes
           fi
 
+      - name: Update public app manifest
+        run: |
+          mkdir -p bridge/data
+          PUBLISHED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          cat > bridge/data/app-update.json <<EOF
+          {
+            "schemaVersion": 1,
+            "tagName": "$TAG",
+            "name": "KOVA Companion $TAG",
+            "notes": "Ny KOVA Companion-versjon er tilgjengelig.",
+            "publishedAt": "$PUBLISHED_AT",
+            "htmlUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/tag/$TAG",
+            "apkUrl": "https://github.com/Border55-repo/KOVA-Companion-Android/releases/download/$TAG/KOVA-Companion-$TAG.apk"
+          }
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bridge/data/app-update.json
+
+          if git diff --cached --quiet; then
+            echo "Update manifest already current."
+            exit 0
+          fi
+
+          git commit -m "Update app manifest for $TAG"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
 # release trigger: v0.7.0 reliability
 
 # release trigger: v0.8.0 all corps
