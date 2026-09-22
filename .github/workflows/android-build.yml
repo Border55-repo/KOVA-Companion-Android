@@ -27,6 +27,17 @@ jobs:
           yes | /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --licenses >/dev/null || true
           /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
+      - name: Configure Firebase if secret exists
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICES_JSON" ]; then
+            printf '%s' "$GOOGLE_SERVICES_JSON" > app/google-services.json
+            echo "Firebase Android config enabled."
+          else
+            echo "No GOOGLE_SERVICES_JSON secret. Building fallback APK without FCM activation."
+          fi
+
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
@@ -39,6 +50,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: KOVA-Companion-v0.3.0-debug
+          name: KOVA-Companion-v0.4.0-debug
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
