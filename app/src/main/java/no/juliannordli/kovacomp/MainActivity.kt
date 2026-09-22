@@ -112,6 +112,8 @@ fun KovaScreen(
     var orgMenu by remember { mutableStateOf(false) }
     var showSettings by remember { mutableStateOf(false) }
     var typeFilter by remember { mutableStateOf("Alle") }
+    var activitySearch by remember { mutableStateOf("") }
+    var orgSearch by remember { mutableStateOf("") }
 
     var notifyAdded by remember { mutableStateOf(settings.notifyAdded) }
     var notifyChanged by remember { mutableStateOf(settings.notifyChanged) }
@@ -302,7 +304,13 @@ fun KovaScreen(
         val eventDate = runCatching { LocalDate.parse(event.dateIso) }.getOrNull()
         val dateOk = showPast || eventDate == null || !eventDate.isBefore(today)
         val typeOk = typeFilter == "Alle" || event.type == typeFilter
-        dateOk && typeOk
+        val query = activitySearch.trim()
+        val searchOk = query.isBlank() ||
+            event.description.contains(query, ignoreCase = true) ||
+            event.type.contains(query, ignoreCase = true) ||
+            event.dateLabel.contains(query, ignoreCase = true) ||
+            event.time.contains(query, ignoreCase = true)
+        dateOk && typeOk && searchOk
     }
     val nextEvent = events.firstOrNull {
         runCatching { !LocalDate.parse(it.dateIso).isBefore(today) }.getOrDefault(false)
@@ -529,18 +537,38 @@ fun KovaScreen(
 
                         DropdownMenu(
                             expanded = orgMenu,
-                            onDismissRequest = { orgMenu = false }
+                            onDismissRequest = {
+                                orgMenu = false
+                                orgSearch = ""
+                            }
                         ) {
+                            OutlinedTextField(
+                                value = orgSearch,
+                                onValueChange = { orgSearch = it },
+                                modifier = Modifier
+                                    .padding(horizontal = 8.dp, vertical = 4.dp)
+                                    .widthIn(min = 280.dp),
+                                label = { Text("Søk etter hjelpekorps") },
+                                singleLine = true
+                            )
+
                             availableOrganizations
                                 .filter { it.category == "hjelpekorps" }
+                                .filter {
+                                    orgSearch.isBlank() ||
+                                        it.name.contains(orgSearch, ignoreCase = true) ||
+                                        it.code.contains(orgSearch, ignoreCase = true)
+                                }
                                 .forEach { item ->
                                 DropdownMenuItem(
                                     text = { Text(item.name) },
                                     onClick = {
                                         orgMenu = false
+                                        orgSearch = ""
                                         org = item.code
                                         repo.setOrganization(item.code)
                                         typeFilter = "Alle"
+                                        activitySearch = ""
                                         selectedEvent = null
                                     }
                                 )
@@ -843,6 +871,17 @@ fun KovaScreen(
                             label = { Text(displayed.size.toString() + " aktiviteter") }
                         )
                     }
+                }
+
+                item {
+                    OutlinedTextField(
+                        value = activitySearch,
+                        onValueChange = { activitySearch = it },
+                        modifier = Modifier.fillMaxWidth(),
+                        label = { Text("Søk i aktiviteter") },
+                        placeholder = { Text("Navn, type, dato eller tid") },
+                        singleLine = true
+                    )
                 }
 
                 item {
