@@ -32,7 +32,13 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
             null
         }
 
-        NotificationHelper.post(this, title, body, target)
+        NotificationHelper.post(
+            this,
+            title,
+            body,
+            target,
+            data["changeId"]
+        )
     }
 
     override fun onNewToken(token: String) {
