@@ -100,6 +100,7 @@ fun KovaScreen(
     val context = androidx.compose.ui.platform.LocalContext.current
     val repo = remember { KovaRepository(context) }
     val settings = remember { AppSettings(context) }
+    val registry = remember { OrganizationRegistry(context) }
     val scope = rememberCoroutineScope()
 
     var org by remember { mutableStateOf(repo.organization()) }
@@ -116,7 +117,9 @@ fun KovaScreen(
     var notifyRemoved by remember { mutableStateOf(settings.notifyRemoved) }
     var showPast by remember { mutableStateOf(settings.showPastEvents) }
     var disabledTypes by remember { mutableStateOf(settings.disabledEventTypes) }
-    var pushReady by remember(org) { mutableStateOf(false) }
+    var availableOrganizations by remember { mutableStateOf(registry.loadCache()) }
+    var subscribedOrganizations by remember { mutableStateOf(settings.subscribedOrganizations) }
+    var pushReady by remember { mutableStateOf(false) }
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
     var latestRelease by remember { mutableStateOf<ReleaseInfo?>(null) }
     var checkingUpdate by remember { mutableStateOf(false) }
@@ -127,6 +130,18 @@ fun KovaScreen(
     val permissionLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.RequestPermission()
     ) { }
+
+    fun refreshOrganizations() {
+        scope.launch {
+            val fresh = runCatching {
+                withContext(Dispatchers.IO) { registry.fetch() }
+            }.getOrNull()
+
+            if (!fresh.isNullOrEmpty()) {
+                availableOrganizations = fresh
+            }
+        }
+    }
 
     fun refreshHealth() {
         scope.launch {
@@ -181,17 +196,24 @@ fun KovaScreen(
         if (Build.VERSION.SDK_INT >= 33) {
             permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
+        refreshOrganizations()
         refreshHealth()
         checkForUpdate()
+    }
+
+    LaunchedEffect(subscribedOrganizations) {
+        pushReady = false
+        PushManager.setSubscriptions(
+            context,
+            subscribedOrganizations
+        ) { success ->
+            pushReady = success
+        }
     }
 
     LaunchedEffect(org) {
         events = repo.loadCache(org)
         dataSource = repo.lastSourceLabel(org)
-        pushReady = false
-        PushManager.subscribeToOrganization(context, org) { success ->
-            pushReady = success
-        }
         refresh()
     }
 
@@ -234,7 +256,7 @@ fun KovaScreen(
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v" + BuildConfig.VERSION_NAME + " • Release + Update",
+                            "Android v" + BuildConfig.VERSION_NAME + " • Multi-korps",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
@@ -255,7 +277,7 @@ fun KovaScreen(
                     .padding(padding)
                     .fillMaxSize(),
                 event = selectedEvent!!,
-                organization = org,
+                organizationName = Organizations.nameFor(org, availableOrganizations),
                 kind = selectedKind,
                 onBack = {
                     selectedEvent = null
@@ -287,7 +309,12 @@ fun KovaScreen(
                         )
                         AssistChip(
                             onClick = { },
-                            label = { Text(if (pushReady) "Push: aktiv" else "Push: ikke konfigurert") }
+                            label = {
+                                Text(
+                                    if (pushReady) "Push: " + subscribedOrganizations.size + " korps"
+                                    else "Push: synker abonnement"
+                                )
+                            }
                         )
                         AssistChip(
                             onClick = { refreshHealth() },
@@ -344,14 +371,16 @@ fun KovaScreen(
                             onClick = { orgMenu = true },
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Text("🚑 " + Organizations.nameFor(org))
+                            Text("🚑 " + Organizations.nameFor(org, availableOrganizations))
                         }
 
                         DropdownMenu(
                             expanded = orgMenu,
                             onDismissRequest = { orgMenu = false }
                         ) {
-                            Organizations.known.forEach { item ->
+                            availableOrganizations
+                                .filter { it.category == "hjelpekorps" }
+                                .forEach { item ->
                                 DropdownMenuItem(
                                     text = { Text(item.name) },
                                     onClick = {
@@ -381,6 +410,38 @@ fun KovaScreen(
                                     style = MaterialTheme.typography.titleMedium,
                                     fontWeight = FontWeight.Bold
                                 )
+
+                                Text(
+                                    "Korps jeg følger",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+
+                                Text(
+                                    subscribedOrganizations.size.toString() +
+                                        " av " +
+                                        availableOrganizations.count { it.category == "hjelpekorps" } +
+                                        " hjelpekorps valgt",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+
+                                availableOrganizations
+                                    .filter { it.category == "hjelpekorps" }
+                                    .forEach { organization ->
+                                        SettingSwitch(
+                                            label = organization.name,
+                                            checked = organization.code in subscribedOrganizations
+                                        ) { enabled ->
+                                            settings.setOrganizationSubscribed(
+                                                organization.code,
+                                                enabled
+                                            )
+                                            subscribedOrganizations =
+                                                settings.subscribedOrganizations
+                                        }
+                                    }
+
+                                HorizontalDivider()
 
                                 SettingSwitch("Nye aktiviteter", notifyAdded) {
                                     notifyAdded = it
@@ -653,7 +714,7 @@ private fun EventCard(
 private fun EventDetailScreen(
     modifier: Modifier,
     event: KovaEvent,
-    organization: String,
+    organizationName: String,
     kind: String?,
     onBack: () -> Unit,
     onCalendar: () -> Unit,
@@ -705,7 +766,7 @@ private fun EventDetailScreen(
                     Text("Type: " + event.type)
                     Text("Dato: " + event.dateLabel)
                     Text("Tid: " + event.time)
-                    Text("Korps: " + Organizations.nameFor(organization))
+                    Text("Korps: " + organizationName)
 
                     if (kind == "removed") {
                         Text(
