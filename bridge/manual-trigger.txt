@@ -1,1 +1,2 @@
-trigger: verify-v0.8-all-corps-baseline
+manual sync trigger
+reason=verify-time-semantics-fix
