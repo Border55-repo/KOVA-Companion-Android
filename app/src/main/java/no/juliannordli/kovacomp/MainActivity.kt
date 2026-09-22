@@ -28,7 +28,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.time.LocalDate
-import java.time.format.DateTimeFormatter
 import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
@@ -39,7 +38,7 @@ class MainActivity : ComponentActivity() {
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             "kova-sync",
             ExistingPeriodicWorkPolicy.UPDATE,
-            PeriodicWorkRequestBuilder<KovaSyncWorker>(30, TimeUnit.MINUTES).build()
+            PeriodicWorkRequestBuilder<KovaSyncWorker>(15, TimeUnit.MINUTES).build()
         )
 
         setContent {
@@ -84,6 +83,7 @@ fun KovaScreen() {
 
     var org by remember { mutableStateOf(repo.organization()) }
     var events by remember(org) { mutableStateOf(repo.loadCache(org)) }
+    var dataSource by remember(org) { mutableStateOf(repo.lastSourceLabel(org)) }
     var loading by remember { mutableStateOf(false) }
     var error by remember { mutableStateOf<String?>(null) }
     var orgMenu by remember { mutableStateOf(false) }
@@ -120,6 +120,7 @@ fun KovaScreen() {
 
                 repo.saveCache(fresh, org)
                 events = fresh
+                dataSource = repo.lastSourceLabel(org)
                 loading = false
 
                 if (!firstSync) {
@@ -134,6 +135,7 @@ fun KovaScreen() {
 
     LaunchedEffect(org) {
         events = repo.loadCache(org)
+        dataSource = repo.lastSourceLabel(org)
         refresh()
     }
 
@@ -158,7 +160,7 @@ fun KovaScreen() {
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v0.2.0",
+                            "Android v0.3.0 • Bridge",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
@@ -179,10 +181,18 @@ fun KovaScreen() {
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             item {
-                Text(
-                    "Offentlig KOVA-data • oppdateres automatisk i bakgrunnen",
-                    style = MaterialTheme.typography.bodySmall
-                )
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    AssistChip(
+                        onClick = { },
+                        label = { Text("Datakilde: " + dataSource) }
+                    )
+                    AssistChip(
+                        onClick = { },
+                        label = { Text("↻ 15 min") }
+                    )
+                }
             }
 
             item {
@@ -247,6 +257,11 @@ fun KovaScreen() {
                                 showPast = it
                                 settings.showPastEvents = it
                             }
+
+                            Text(
+                                "Bridge prøves først. Hvis den ikke kan nås, går appen automatisk direkte til KOVA.",
+                                style = MaterialTheme.typography.bodySmall
+                            )
 
                             OutlinedButton(
                                 onClick = {
