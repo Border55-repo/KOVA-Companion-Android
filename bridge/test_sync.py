@@ -53,6 +53,28 @@ class BridgeParserTests(unittest.TestCase):
         self.assertEqual("2026-09-22", events[0]["dateIso"])
         self.assertEqual("18:30", events[0]["time"])
 
+    def test_preserves_untimed_and_end_time_rows(self):
+        html = """
+        <table>
+          <tr><td>tir. 22.9</td><td>Aktivitet</td><td>Materiellkontroll</td></tr>
+          <tr><td>ons. 23.9</td><td>-> 17:00</td><td>Aktivitet</td><td>ATV-kurs</td></tr>
+        </table>
+        """
+        events = parse_schedule(
+            html,
+            "https://example.invalid",
+            datetime(2026, 9, 22, tzinfo=ZoneInfo("Europe/Oslo")),
+        )
+        self.assertEqual(2, len(events))
+        self.assertEqual("", events[0]["time"])
+        self.assertEqual("-> 17:00", events[1]["time"])
+
+    def test_time_marker_does_not_create_false_change(self):
+        old = [event(time="18:30")]
+        new = [event(event_id="e2", time="-> 18:30")]
+        diff = compute_diff(old, new)
+        self.assertEqual(0, len(diff["changed"]))
+
     def test_detects_time_change_without_new_removed_noise(self):
         old = [event(event_id="old")]
         new = [event(event_id="new", time="19:00")]
