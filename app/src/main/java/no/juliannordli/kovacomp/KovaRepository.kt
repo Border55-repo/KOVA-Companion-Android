@@ -146,7 +146,9 @@ class KovaRepository(private val context: Context) {
         val changed = (oldByKey.keys intersect newByKey.keys).mapNotNull { key ->
             val a = oldByKey.getValue(key)
             val b = newByKey.getValue(key)
-            if (a.dateIso != b.dateIso || a.time != b.time) EventChange(a, b) else null
+            if (a.dateIso != b.dateIso || a.normalizedTime != b.normalizedTime) {
+                EventChange(a, b)
+            } else null
         }
         return KovaDiff(
             fresh.filter { it.semanticKey !in oldByKey },

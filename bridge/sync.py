@@ -229,8 +229,13 @@ def event_semantic_key(event: dict) -> str:
     return normalize(event["type"]) + "|" + normalize(event["description"])
 
 
+def normalized_time(value: str) -> str:
+    match = re.search(r"\\d{1,2}:\\d{2}", value or "")
+    return match.group(0) if match else ""
+
+
 def event_id(date_iso: str, time_value: str, type_name: str, description: str) -> str:
-    raw = f"{date_iso}|{time_value}|{type_name}|{description}".encode("utf-8")
+    raw = f"{date_iso}|{normalized_time(time_value)}|{type_name}|{description}".encode("utf-8")
     return hashlib.sha256(raw).hexdigest()[:16]
 
 
@@ -268,7 +273,7 @@ def parse_schedule(html: str, url: str, now: datetime | None = None) -> list[dic
         for candidate in reversed(before_type):
             match = TIME_RE.fullmatch(candidate)
             if match:
-                time_value = match.group(1)
+                time_value = candidate.strip()
                 break
         if time_value is None:
             time_value = ""
@@ -326,7 +331,7 @@ def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
     for key in old_by_key.keys() & new_by_key.keys():
         old = old_by_key[key]
         new = new_by_key[key]
-        if old["dateIso"] != new["dateIso"] or old["time"] != new["time"]:
+        if old["dateIso"] != new["dateIso"] or normalized_time(old["time"]) != normalized_time(new["time"]):
             changed.append({"old": old, "new": new})
 
     added = [event for key, event in new_by_key.items() if key not in old_by_key]

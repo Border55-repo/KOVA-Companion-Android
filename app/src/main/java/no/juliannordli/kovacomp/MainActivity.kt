@@ -1403,6 +1403,10 @@ private fun EventDetailScreen(
 
                     Text("Type: " + event.type)
                     Text("Dato: " + event.dateLabel)
+                    event.weekNumber?.let { Text("Uke: " + it) }
+                    if (event.monthLabel.isNotBlank()) {
+                        Text("Måned: " + event.monthLabel)
+                    }
                     Text("Tid: " + event.displayTime)
                     Text("Korps: " + organizationName)
 

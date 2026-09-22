@@ -25,7 +25,7 @@ object KovaParser {
             val before = cells.take(typeIndex)
             val time = before.lastOrNull {
                 it.matches(Regex("(?:->\\s*)?\\d{1,2}:\\d{2}"))
-            }?.replace("->", "")?.trim().orEmpty()
+            }?.trim().orEmpty()
             before.lastOrNull { Regex(".*\\d{1,2}\\.\\d{1,2}.*").matches(it) }?.let { lastDateText = it }
             val dateText = lastDateText ?: continue
             val m = Regex("(\\d{1,2})\\.(\\d{1,2})").find(dateText) ?: continue
@@ -36,7 +36,8 @@ object KovaParser {
             val date = runCatching { LocalDate.of(year, month, day) }.getOrNull() ?: continue
             val type = cells[typeIndex]
             val description = cells.drop(typeIndex + 1).joinToString(" ").ifBlank { type }
-            val normalized = date.toString() + "|" + time + "|" + type + "|" + description
+            val normalizedTime = Regex("\\d{1,2}:\\d{2}").find(time)?.value.orEmpty()
+            val normalized = date.toString() + "|" + normalizedTime + "|" + type + "|" + description
             val id = normalized.hashCode().toUInt().toString(16)
             out += KovaEvent(id,date.toString(),dateText,time,type,description,sourceUrl)
         }
