@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - ".github/signing-test-trigger.txt"
+      - ".github/workflows/signing-smoke-test.yml"
 
 permissions:
   contents: read
