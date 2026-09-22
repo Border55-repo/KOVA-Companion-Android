@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Vennesla Røde Kors Hjelpekorps",
+    "code": "VenneslaRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:49+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH",
+  "eventCount": 17,
+  "changes": {
+    "added": 13,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "996ba72030211828",
+      "dateIso": "2026-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "07:45",
+      "type": "Aktivitet",
+      "description": "Bauta",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "573803c5f186d064",
+      "dateIso": "2026-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "10:45",
+      "type": "Sanitetsvakt",
+      "description": "Moseidmoen vakt kl 11-12",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "28564e0b2515f672",
+      "dateIso": "2026-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "13:30",
+      "type": "Aktivitet",
+      "description": "Folketog , oppmøte i god tid",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "17c32e9f7e6a006c",
+      "dateIso": "2026-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Moseidmoen vakt 17-18",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "d07a8b740cdcfc12",
+      "dateIso": "2026-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "19:45",
+      "type": "Sanitetsvakt",
+      "description": "Vakt Moseidstranda",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "83ab36fca7809ab2",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "17:45",
+      "type": "Ambulansevakt",
+      "description": "Vindbjart cup-kamp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "cf805316c0241e43",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "14:45",
+      "type": "Sanitetsvakt",
+      "description": "Kamp 15.00 Vindbjart - Mandalskameratene",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "ee91be01bf1fb8ca",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "f59aafeaceb1fabc",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "14:45",
+      "type": "Sanitetsvakt",
+      "description": "Kamp 15.00 Vindbjart - Flekkerøy",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "3522743452401549",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "4d3365c5c44ca51d",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "14:45",
+      "type": "Sanitetsvakt",
+      "description": "Kamp 15.00 Vindbjart - Varhaug",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "b576e0cabb30a235",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Svalandsgubben",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "e2aebf5a3012db90",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "1155a8299f376f52",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "11:45",
+      "type": "Sanitetsvakt",
+      "description": "Kamp 12.00 Vindbjart - Våg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "08f91b97925858f9",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Dugnad Brokke",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "dee6a3c4b2976955",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "53420d786da13232",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    }
+  ]
+}

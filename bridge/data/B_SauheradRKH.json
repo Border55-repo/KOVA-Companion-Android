@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Bø og Sauherad Røde Kors Hjelpekorps",
+    "code": "BøSauheradRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:44+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
+  "eventCount": 19,
+  "changes": {
+    "added": 13,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "306e5f2e972e522e",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Rallebanen Rallebanen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "88396153b078c839",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Rallebanen Rallebanen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "069a68bc33577077",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "ATV/ Øvelse Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "02f0dee7d4f18206",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "NRH aften Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "8e06ebc31c66655b",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Ksor Stavern",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "99cb54d934512dea",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Ksor Stavern",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "ca75e29cd1cb6342",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "Stab Lsor",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "627a04dacacf2ad0",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Stab Lsor",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "dd4a54abb4c414f7",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Øvelse Liheia Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "dd102b99c435a536",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "18:00",
+      "type": "Profilering",
+      "description": "HalloVENN HalloVENN",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "362037029cd5498c",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Sosial kveld Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "4c9a9c2f1c7c2d14",
+      "dateIso": "2026-11-23",
+      "dateLabel": "man. 23.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Besøke Seljord. Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "a1504e07f450686d",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Vinter klagjøring og sesong avslutning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "0e740106b25fcf23",
+      "dateIso": "2027-02-12",
+      "dateLabel": "fre. 12.2",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Ksor Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "341cf5604b949dc2",
+      "dateIso": "2027-02-14",
+      "dateLabel": "søn. 14.2",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Ksor Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "527a7bd51325d18a",
+      "dateIso": "2027-04-30",
+      "dateLabel": "fre. 30.4",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "Natt til 1. mai Sanitetsvakt - sentrum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "1df8b9911fcfa34d",
+      "dateIso": "2027-05-01",
+      "dateLabel": "lør. 1.5",
+      "time": "01:30",
+      "type": "Sanitetsvakt",
+      "description": "Natt til 1. mai Sanitetsvakt - sentrum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "f0fd9e8f0096f899",
+      "dateIso": "2027-05-16",
+      "dateLabel": "søn. 16.5",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "Natt til 17.mai Sanitetsvakt - sentrum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "8ec567175980ca93",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "01:30",
+      "type": "Sanitetsvakt",
+      "description": "Natt til 17.mai Sanitetsvakt - sentrum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-22T23:07:53+02:00",
+  "updatedAt": "2026-09-22T23:15:49+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -19,9 +19,9 @@
       "code": "AskerRKH",
       "category": "hjelpekorps",
       "file": "AskerRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 10,
+      "updatedAt": "2026-09-22T23:15:43+02:00"
     },
     {
       "name": "Aurskog-Høland Røde Kors Hjelpekorps",
@@ -64,9 +64,9 @@
       "code": "BøSauheradRKH",
       "category": "hjelpekorps",
       "file": "B_SauheradRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 19,
+      "updatedAt": "2026-09-22T23:15:44+02:00"
     },
     {
       "name": "Drangedal Røde Kors Hjelpekorps",
@@ -190,9 +190,9 @@
       "code": "NesRKH",
       "category": "hjelpekorps",
       "file": "NesRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 14,
+      "updatedAt": "2026-09-22T23:15:45+02:00"
     },
     {
       "name": "Nittedal Røde Kors Hjelpekorps",
@@ -253,9 +253,9 @@
       "code": "RKSarpsborg",
       "category": "hjelpekorps",
       "file": "RKSarpsborg.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 37,
+      "updatedAt": "2026-09-22T23:15:47+02:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",
@@ -325,9 +325,9 @@
       "code": "VenneslaRKH",
       "category": "hjelpekorps",
       "file": "VenneslaRKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 17,
+      "updatedAt": "2026-09-22T23:15:49+02:00"
     },
     {
       "name": "Vestby og Ås Røde Kors Hjelpekorps",
@@ -361,9 +361,9 @@
       "code": "OSRK",
       "category": "annet",
       "file": "OSRK.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 11,
+      "updatedAt": "2026-09-22T23:15:49+02:00"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",

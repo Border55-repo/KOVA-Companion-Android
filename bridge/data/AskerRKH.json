@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Asker Røde Kors Hjelpekorps",
+    "code": "AskerRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:43+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH",
+  "eventCount": 10,
+  "changes": {
+    "added": 10,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "be693816dcbd1b28",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Beredskap Korpskveld 16",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "72608c5c000130aa",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Førstehjelp Ekstraordinær korpskveld - kun godkjente",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "a60fd8f790faa20d",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Holmenhallen Østlandscup judo",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "6e14f46c5003de8c",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "FAKS Korpskveld 18",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "1eda6b26f86e2d3f",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Idrettsskade Korpskveld 19",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "dc1824862ef085be",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Søk og redning Ekstraordinær korpskveld - kun godkjente",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "347322527095b928",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tauredning? Korpskveld 20",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "8b8af00f1c257eaa",
+      "dateIso": "2026-12-03",
+      "dateLabel": "tor. 3.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Hypotermi Korpskveld 21",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "2e5a44725ce9da92",
+      "dateIso": "2026-12-17",
+      "dateLabel": "tor. 17.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Samband Korpskveld 22",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "15bdd5410f62d509",
+      "dateIso": "2027-01-14",
+      "dateLabel": "tor. 14.1",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Søksøvelse Korpskveld 1",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    }
+  ]
+}

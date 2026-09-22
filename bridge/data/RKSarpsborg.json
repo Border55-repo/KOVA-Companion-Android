@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Sarpsborg Røde Kors Hjelpekorps",
+    "code": "RKSarpsborg",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:47+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
+  "eventCount": 37,
+  "changes": {
+    "added": 29,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "c18a4a67e6842727",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Sted: Røde kors-huset Førstehjelpskurs Røde kors-butikken",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "aff8b7245a3eb7d3",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "For aksjon- og lagledergruppa samt lokalråd. Starter kl. 18:30 hos FRKH Workshop - Ivaretakelse av hjelperen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "f287348c074ec144",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "fd523c1130660e82",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Vakt: 11:00-14:00. Vi står i start-/målområdet Løp Fredriksten festning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "bf04762c5111b423",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "bd5929faa79fca33",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "29e6734adc4c7922",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Fagdag ambulanse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "aea220ff585e172e",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Søksøvelse Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "905c8a2e35d4f0ab",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "e55a8127c50f5ae1",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "22:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "cbcd9c3544610c53",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Høstferie Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "ad1a3005d5d82209",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "19:30",
+      "type": "Interne møter",
+      "description": "Troika AU-møte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "a2dffaa380fafc5b",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Sambandskveld Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "19719b6c95d8a1de",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:30",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte Oktober Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "32cc1427571fbb01",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Grunnleggende ATV kjøring og vedlikehold Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "6a68ad7f471cd58d",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "489db5dc46bac4b4",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00 *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Rosenborg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "7e9b3b16ebe09818",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "22:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "9ff78a05e55cd84f",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Forflytning av pasient Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "8df86063088e17f6",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00 S08-vakt: Aalesund",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "3e54aa5c435395fa",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Ringløype Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "b20832cb7e1aa3e6",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "19:30",
+      "type": "Interne møter",
+      "description": "Troika AU-møte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "74b3e97c6273c40a",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00 *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Kristiansund",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "590582377a6cea64",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Rus Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "804e17a3231c9860",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "18:30",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte November Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "314a3d43f1e8d65b",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Kart og kompass Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "1f752cbdf22c6834",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Felles korpskveld for alle korspene, arrangert av D-rådet Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "f5a16eec090d6191",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Lillestrøm",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "540764c7f5a1ced8",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Fagdag ambulanse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "69abf52494c95eee",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Oppstart av aksjon Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "66bc19848e54cec9",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "19:30",
+      "type": "Interne møter",
+      "description": "Troika AU-møte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "931509d25dd0f1ea",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Ringløype med overrakselse Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "32d2efc2f61cb631",
+      "dateIso": "2026-12-03",
+      "dateLabel": "tor. 3.12",
+      "time": "18:30",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte Desember Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "c1a483d4c0077817",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "5d7da16d4d60b7e0",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Hypotermi Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "88eb3e87c0742e55",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Juleavslutning Korpsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
+      "id": "0d1b34cc98d29100",
+      "dateIso": "2027-01-16",
+      "dateLabel": "lør. 16.1",
+      "time": "12:00",
+      "type": "Aktivitet",
+      "description": "Vi arrangerer - blir i januar, dato kommer! Vintersamling for ØRKH",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    }
+  ]
+}

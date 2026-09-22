@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Os Røde Kors",
+    "code": "OSRK",
+    "category": "annet"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:49+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK",
+  "eventCount": 11,
+  "changes": {
+    "added": 4,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "846ea3ca0a701c7e",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "4924a40d4f321ccd",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "6733b4cebdfcfd8f",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "35e5bffa4b5af1f2",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "08c84b640b1f984d",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "afa047dcea5dfa86",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "03:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "56fcc8333725e292",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "06:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "7d0a77c229c7a0bc",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet Stafett for livet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "dd4af0cec5485b94",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Nore Neset Karate Nore Neset karate",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "cf2903d01655f74f",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "HJERTEBANK PÅ KUVENTRÆ Bergen Live",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    },
+    {
+      "id": "7ff3b36e209935c7",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe løp Rosa sløyfe Nore Neset",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+    }
+  ]
+}

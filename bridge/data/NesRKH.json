@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Nes Røde Kors Hjelpekorps",
+    "code": "NesRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:15:45+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH",
+  "eventCount": 14,
+  "changes": {
+    "added": 14,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "f3dc7475d19df486",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "10:15",
+      "type": "Aktivitet",
+      "description": "Oppmøte lokalet 10:15 Avreise lokalet 10.45 Åpen dag på brannstasjonen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "c391b09a35f60609",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte lokalet: 11:00 - Avreise lokalet: 11:30 Vålerenga - Fredrikstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "6406882a62b3ea70",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "FAKS Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "29a4bb4712116e77",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Søksøvelse Koprskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "2d733539782709d4",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Samband Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "a1bd00c94beddee2",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "17:45",
+      "type": "Aktivitet",
+      "description": "Oppmøte lokalet 17.45 - avreise lokalet 18.00 Kulturnatt fakkeltog til nes kirkeruiner",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "a479b5af9a25d9a9",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Førstehjelp i krevende terreng Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "48dd55d59e39b86a",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "oppmøte 13.30 - avreise 14.00 Vålerenga - Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "b17cdfa0d1e151d8",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Kjøretøy/ATV Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "289b595f82b8adb0",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Hypotermi Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "040202df75f591e4",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "oppmøte 15.30 - avreise 16.00 Vålerenga - Tromsø",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "0b801caa9bd73d4f",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Stor scenarioøvelse Koprskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "7e947b857a70f303",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "oppmøte 14.40 - avreise 15.00 Vålerenga - Start",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    },
+    {
+      "id": "1a60a706afd4337a",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "oppmøte 14.30 - avreise 15.00 Vålerenga - Rosenborg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+    }
+  ]
+}
