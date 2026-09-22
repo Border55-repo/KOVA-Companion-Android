@@ -1,0 +1,53 @@
+name: KOVA Bridge sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    paths:
+      - "bridge/sync.py"
+      - "bridge/test_sync.py"
+      - "bridge/requirements.txt"
+      - ".github/workflows/kova-bridge.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kova-bridge-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install bridge dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Bridge unit tests
+        working-directory: bridge
+        run: python -m unittest -v test_sync.py
+
+      - name: Sync public KOVA schedules
+        run: python bridge/sync.py
+
+      - name: Commit changed snapshots
+        run: |
+          if git diff --quiet -- bridge/data; then
+            echo "No KOVA changes."
+            exit 0
+          fi
+
+          git config user.name "KOVA Companion Bridge"
+          git config user.email "actions@users.noreply.github.com"
+          git add bridge/data
+          git commit -m "Update KOVA Bridge snapshots"
+          git push
