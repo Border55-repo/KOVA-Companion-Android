@@ -97,3 +97,5 @@ jobs:
           else
             gh release create "$TAG"               release-assets/*               --target "$GITHUB_SHA"               --title "KOVA Companion $TAG"               --generate-notes
           fi
+
+# release trigger: v0.7.0 reliability
