@@ -79,16 +79,28 @@ class FavoriteStore(private val context: Context) {
         val current = list().toMutableList()
         var changed = false
 
-        current.indices.forEach { index ->
-            val favorite = current[index]
-            if (favorite.organization != organization) return@forEach
+        val iterator = current.listIterator()
+        while (iterator.hasNext()) {
+            val favorite = iterator.next()
+            if (favorite.organization != organization) continue
 
             val fresh = events.firstOrNull {
                 it.semanticKey == favorite.event.semanticKey
-            } ?: return@forEach
+            }
+
+            if (fresh == null) {
+                ReminderScheduler.cancel(
+                    context,
+                    favorite.organization,
+                    favorite.event
+                )
+                iterator.remove()
+                changed = true
+                continue
+            }
 
             if (fresh != favorite.event) {
-                current[index] = FavoriteActivity(organization, fresh)
+                iterator.set(FavoriteActivity(organization, fresh))
                 ReminderScheduler.syncFavorite(context, organization, fresh, true)
                 changed = true
             }
