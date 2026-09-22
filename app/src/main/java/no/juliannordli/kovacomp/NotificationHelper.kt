@@ -7,25 +7,39 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 
 object NotificationHelper {
     private const val CHANNEL = "kova_changes"
+    private const val UPDATE_CHANNEL = "kova_updates"
 
     fun init(context: Context) {
         if (Build.VERSION.SDK_INT >= 26) {
-            context.getSystemService(NotificationManager::class.java)
-                .createNotificationChannel(
-                    NotificationChannel(
-                        CHANNEL,
-                        "KOVA-endringer",
-                        NotificationManager.IMPORTANCE_DEFAULT
-                    )
+            val manager = context.getSystemService(NotificationManager::class.java)
+            manager.createNotificationChannel(
+                NotificationChannel(
+                    CHANNEL,
+                    "KOVA-endringer",
+                    NotificationManager.IMPORTANCE_DEFAULT
                 )
+            )
+            manager.createNotificationChannel(
+                NotificationChannel(
+                    UPDATE_CHANNEL,
+                    "KOVA Companion-oppdateringer",
+                    NotificationManager.IMPORTANCE_DEFAULT
+                )
+            )
         }
     }
+
+    private fun allowed(context: Context): Boolean =
+        Build.VERSION.SDK_INT < 33 ||
+            context.checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) ==
+            PackageManager.PERMISSION_GRANTED
 
     private fun pendingIntent(
         context: Context,
@@ -65,10 +79,7 @@ object NotificationHelper {
         text: String,
         target: NotificationTarget? = null
     ) {
-        if (
-            Build.VERSION.SDK_INT >= 33 &&
-            context.checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
-        ) return
+        if (!allowed(context)) return
 
         val notification = NotificationCompat.Builder(context, CHANNEL)
             .setSmallIcon(android.R.drawable.ic_dialog_info)
@@ -81,6 +92,35 @@ object NotificationHelper {
 
         NotificationManagerCompat.from(context)
             .notify((System.nanoTime() and 0xFFFFFF).toInt(), notification)
+    }
+
+    fun postUrl(
+        context: Context,
+        title: String,
+        text: String,
+        url: String
+    ) {
+        if (!allowed(context)) return
+
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        val pending = PendingIntent.getActivity(
+            context,
+            url.hashCode(),
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        val notification = NotificationCompat.Builder(context, UPDATE_CHANNEL)
+            .setSmallIcon(android.R.drawable.stat_sys_download_done)
+            .setContentTitle(title)
+            .setContentText(text)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(text))
+            .setContentIntent(pending)
+            .setAutoCancel(true)
+            .build()
+
+        NotificationManagerCompat.from(context)
+            .notify(("update|" + url).hashCode(), notification)
     }
 
     private fun targetFor(
