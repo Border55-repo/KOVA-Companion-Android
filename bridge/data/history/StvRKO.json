@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "989bb7291e4165fb33d75d60",
+      "observedAt": "2026-09-22T23:07:53+02:00",
+      "organization": "StvRKO",
+      "kind": "added",
+      "event": {
+        "id": "f51dc2ba6e4da7ba",
+        "dateIso": "2026-12-22",
+        "dateLabel": "tir. 22.12",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-22T23:07:53+02:00"
+}

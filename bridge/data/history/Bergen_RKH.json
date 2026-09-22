@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "3b37fe876be2241719b7cba1",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "9c13040380aa2a8c",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen opp, bedriftsarrangement PWC Stoltzen opp, PWC",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "3e285c827980603daa89b369",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "fbf852e63417e4c8",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "17:45",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Bodø/Glimt Brann mot Bodø/Glimt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "11bd7d22291b2fd88992d36c",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "d0208dc189a6e336",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "07:15",
+        "type": "Sanitetsvakt",
+        "description": "stoltzen opp varegg fredag dag Stoltzen opp Varegg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "3f709fa7a3f6e4fcf456171b",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "97de820b039140c2",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen opp varegg fredag kveld Stoltzen opp Varegg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "8f53e2526a381b0ca227e89f",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "6ad1a2df2f3a9752",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "02:30",
+        "type": "Sanitetsvakt",
+        "description": "NHH Konsert og kjellerfest NHH Konsert og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "8ee7be1f65261b14d13cf856",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "eaaac7af3a908329",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "07:15",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen opp Lørdag dag Stoltzen opp Varegg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "da8cfbeb026155e0793e988a",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "ffee33501c00a780",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:15",
+        "type": "Sanitetsvakt",
+        "description": "Teknas Veldedighetsløp Teknas Veldedighetsløp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "98861373fbc0fd6e474b1187",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "07e290d01c6cf33d",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen opp lørdag kveld Stoltzen opp Varegg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "6eeab5ae3c1beb6e6636be84",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "2672c42ad59add3b",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "02:30",
+        "type": "Sanitetsvakt",
+        "description": "NHH Kjellerfest NHH Konsert og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "2a74b15937bde08aa7eec232",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "ef1eb12c9fda4f92",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Rosa Sløyfe løpet Rosa Sløyfe løpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "a25a1f1df6e6adc506d32322",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "8715b5a59b09938e",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Oktober Mandagsmiddag og infomøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "fbec28932e91cdbf9d1d50df",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "be1633eaf68d74a5",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "03:00",
+        "type": "Sanitetsvakt",
+        "description": "NHH kjellerfest NHH Sportsshow og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "49b89f1355d0d5e901088352",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "2878f8e3e8129d0c",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "19:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Lincoln Red Imps Brann mot Lincoln Red Imps",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "b2f66768debcc9df64026859",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "c28b42a557f5e529",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "03:00",
+        "type": "Sanitetsvakt",
+        "description": "NHH Show og kjellerfest NHH Show og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "48a2ebfbf2ebdf2c6975d783",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "35d79b2dd811c293",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "08:45",
+        "type": "Interne møter",
+        "description": "KSAM Stab KSAM dag 2",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "0c4e043ab2f0575de14585ca",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "53fead5225a60a1f",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "08:45",
+        "type": "Interne kurs",
+        "description": "Stab KSAM KSAM dag 1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "a6701adc3c5f5eeccb87437d",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "f5948a6594217dac",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR Teori dag 1 KSOR Teori dag 1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "1e3d373f6fd215e6da67b576",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "c064683b7744abde",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR Teori dag 2 KSOR Teori dag 2",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "3c03364fc9925ee6bd6b986a",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "cb08430984df23b6",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR fredag - veileder KSOR Fredag - Interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "48577d386bb95c378abdce67",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "4fd49c8b599e7a63",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR Lørdag - Veileder KSOR Lørdag - interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "65b87f6f266779f42d443073",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "dd425fc740a1af3c",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "09:15",
+        "type": "Sanitetsvakt",
+        "description": "Fremming av sjåføryrket Fremming av sjåføryrket ved Tide",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "16609c1875f9c86eaf05fda6",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "a8f44321e335143e",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR søndag - Veileder KSOR søndag - Interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "6f91692dc61bae322382f016",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "d334b2ff41201148",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Nightrun Bergen Nightrun Bergen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "79e5c8dc6f8db79271b6b901",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "e3b310d1a7be90d7",
+        "dateIso": "2026-11-02",
+        "dateLabel": "man. 2.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "November Mandagsmiddag og infomøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "62d403ab62e4b1da6c111b88",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "1cbb5ffb6c0ed47d",
+        "dateIso": "2026-11-13",
+        "dateLabel": "fre. 13.11",
+        "time": "16:30",
+        "type": "Interne kurs",
+        "description": "Fredag Helg 1 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "3a033468e3cbdac462068108",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "93d5a1d1bb6c5742",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "Lørdag Helg 1 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "87b3db1d0071f94592084a07",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "6831b0497995fd33",
+        "dateIso": "2026-11-15",
+        "dateLabel": "søn. 15.11",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "Søndag Helg 1 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "53fc51f28d25dbd8c451921a",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "ed8fd7c4f60ed3e4",
+        "dateIso": "2026-11-20",
+        "dateLabel": "fre. 20.11",
+        "time": "16:30",
+        "type": "Interne kurs",
+        "description": "Fredag Helg 2 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "9e5dfdc7e2dfc58bb694ffe0",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "ec4a091658343ca3",
+        "dateIso": "2026-11-21",
+        "dateLabel": "lør. 21.11",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "Lørdag Helg 2 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "2991e3b939ed9ad188043b82",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "c864539bdaa87d2a",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "Søndag Helg 2 KFØR H26 Stab",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "ea5d886699e5aebc6f321610",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "20318003ba145d44",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot AGF Aarhus Brann mot AGF Aarhus",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "9b65ea99a98a14ca3b50aa1c",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "63db7ecdc6cdbefa",
+        "dateIso": "2026-12-07",
+        "dateLabel": "man. 7.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Desember Mandagsmiddag og infomøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "341f326a8e30f9254c389d31",
+      "observedAt": "2026-09-22T23:07:46+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "03841ff5e155c26d",
+        "dateIso": "2026-12-10",
+        "dateLabel": "tor. 10.12",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Braga Brann mot Braga",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-22T23:07:46+02:00"
+}

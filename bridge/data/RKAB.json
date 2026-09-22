@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Bergen Røde Kors Ambulansen",
+    "code": "RKAB",
+    "category": "ambulanse"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:52+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
+  "eventCount": 42,
+  "changes": {
+    "added": 23,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "2daff29ae7e299ad",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "13:00",
+      "type": "Øvelse",
+      "description": "Plivo øvelse PLIVO øvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "2d055bbfe3f3e784",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "a73fcd1ad984ac33",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "AMK AMK 2026 (august/september)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "f6a9a81138239e89",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "12:00",
+      "type": "Beredskapsvakt",
+      "description": "Stafett for livet Os Kombovakt sanitet og Amk",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "70252d105a27574c",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "00:00",
+      "type": "Beredskapsvakt",
+      "description": "Stafett for livet Os / AMK Kombovakt sanitet og AMK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "ecfa8100d48e536c",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "Brann - Bodø/Glimt. Tilstede stadion kl 1815 SK Brann Herrer 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "d43e356f7194be20",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "AMK AMK 2026 (august/september)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "a196d85df2bf9593",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "13:00",
+      "type": "Øvelse",
+      "description": "Plivo Øvelse Plivo Øvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "539a61cf212d386c",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "13:00",
+      "type": "Øvelse",
+      "description": "Plivo Øvelse Plivo Øvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "21be5f91a924edab",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "AMK AMK 2026 (august/september)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "d6087e9c0552574c",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "365447baba86e817",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "AMK AMK 2026 (august/september)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "66b3aa095ab8ff2a",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "13:00",
+      "type": "Øvelse",
+      "description": "Plivo Øvelse Plivo Øvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "1fdfac749758a84f",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA damer trening (tidspunkt ikke bekreftet) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "ab4145e385f8d6f1",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp damer (tidlig, kampstart 1800, tilstede 2 timer før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "3f1164976ade9d04",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp damer (sein, kampstart 1800, tilstede 1 time før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "e4b6ad9d01b1f942",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "06:30",
+      "type": "Øvelse",
+      "description": "Katastrofeøvelse Haakonsvern Katastrofe øvelse Haakonsvern",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "a427738f64a490ad",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "Brann - Viking. Tilstede stadion kl 1800 SK Brann Herrer 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "6e54aad7ae3b16cd",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V75 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "b07000ab6394d72c",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA trening (tidspunkt ikke bekreftet) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "1c56b4da090401c3",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (tidlig, kampstart 2100, tilstede 2 timer før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "3ad0d5e964ff96f4",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (sein, kampstart 2100, tilstede 1 time før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "7827150f91e72bfe",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Klubbløp Bilcross / Rallycross EIKÅS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "26bfc9b2826d19ff",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "88513b6bc46cddd0",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Regodkjenning AFØR Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "60bfe3c9400a8b73",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Regodkjenning AFØR Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "0909bd997320f50c",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "723dfb0782c84571",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "12:15",
+      "type": "Ambulansevakt",
+      "description": "Brann - Molde. Tilstede stadion kl 1330 SK Brann Herrer 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "2018927e65281197",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "d6b752b33b19fce0",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "78b2cd55f14b0738",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA trening (tidspunkt ikke bekreftet) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "8a47d04fd7d79fbf",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (tidlig, kl 1845, tilstede 2 timer før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "f1f6ea3cdb4f0c05",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (sein, kampstart kl 1845, tilstede 1 time før til 1 etter) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "35eebbaca75628c4",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "Brann - Kristiansund. Tilstede stadion kl 1600 SK Brann Herrer 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "aa1ab7a54dd10b27",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "0281434012c2ac46",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "f9388b76ef4d7c6a",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA trening (tidspunkt ikke bekreftet) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "bf54e3075dfbca38",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (tidlig, kampstart kl 1845, tilstede 2 timer før) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "3b28e8c1ca6a4974",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "UEFA kamp (sein, kampstart kl 1845, tilstede 1 time før til 1 etter) Brann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "d3915decf12484f0",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "Brann - AaFK. Tilstede stadion kl 1600 SK Brann Herrer 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "0f1b7c1a83b828cd",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V75 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "e4acce9005071156",
+      "dateIso": "2026-12-27",
+      "dateLabel": "søn. 27.12",
+      "time": "17:00",
+      "type": "Ambulansevakt",
+      "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    }
+  ]
+}

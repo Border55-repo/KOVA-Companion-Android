@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "source": "https://www.kova.no/Events.aspx",
+  "updatedAt": "2026-09-22T23:07:45+02:00",
+  "count": 42,
+  "helpCorpsCount": 38,
+  "organizations": [
+    {
+      "name": "Arna og Åsane Røde Kors Hjelpekorps",
+      "code": "AÅRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Asker Røde Kors Hjelpekorps",
+      "code": "AskerRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
+      "code": "AHRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Bergen Røde Kors Hjelpekorps",
+      "code": "Bergen RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Brandbu Røde Kors Hjelpekorps",
+      "code": "BrandbuRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Bærum Røde Kors Hjelpekorps",
+      "code": "BærumRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Bø og Sauherad Røde Kors Hjelpekorps",
+      "code": "BøSauheradRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Drangedal Røde Kors Hjelpekorps",
+      "code": "DRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps",
+      "code": "EHRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Fana Røde Kors Hjelpekorps",
+      "code": "Fana RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Gjøvik Røde Kors Hjelpekorps",
+      "code": "GRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Halden Røde Kors Hjelpekorps",
+      "code": "HaldenRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Hamar Røde Kors Hjelpekorps",
+      "code": "Hamar RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Haugesund Røde Kors Hjelpekorps",
+      "code": "Haugesund",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Laksevåg Røde Kors Hjelpekorps",
+      "code": "LaksevaagRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Lardal Røde Kors Hjelpekorps",
+      "code": "LardalRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Lillehammer Røde Kors Hjelpekorps",
+      "code": "LillehammerRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Lunner Røde Kors Hjelpekorps",
+      "code": "Lunner RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Moss Røde Kors Hjelpekorps",
+      "code": "MossRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Mysen og Omegn Røde Kors Hjelpekorps",
+      "code": "MORKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Nes Røde Kors Hjelpekorps",
+      "code": "NesRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Nittedal Røde Kors Hjelpekorps",
+      "code": "Nittedal RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Nordhordland Røde Kors Hjelpekorps",
+      "code": "NRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Oppegård/Ski Røde Kors Hjelpekorps",
+      "code": "OppSkiRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Oslo Røde Kors Hjelpekorps Beredskapsambulanse",
+      "code": "OsloRKHBA",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Porsgrunn Røde Kors Hjelpekorps",
+      "code": "PorsgrunnRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Ringerike og Hole Røde Kors Hjelpekorps",
+      "code": "RingerikeHoleRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Sarpsborg Røde Kors Hjelpekorps",
+      "code": "RKSarpsborg",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Skedsmo Røde Kors Hjelpekorps",
+      "code": "Skedsmo RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Ski Røde Kors Hjelpekorps Ambulanse",
+      "code": "SRKH AMB",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Skien Røde Kors Hjelpekorps",
+      "code": "SkienRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Sotra Røde Kors Hjelpekorps",
+      "code": "SRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Steinkjer Røde Kors Hjelpekorps",
+      "code": "SteinkjerRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Tromsø Røde Kors Hjelpekorps",
+      "code": "TRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Ullensaker Røde Kors Hjelpekorps",
+      "code": "UllensakerRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Vennesla Røde Kors Hjelpekorps",
+      "code": "VenneslaRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Vestby og Ås Røde Kors Hjelpekorps",
+      "code": "VÅRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Voss Røde Kors Hjelpekorps",
+      "code": "VossRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Bergen Røde Kors Ambulansen",
+      "code": "RKAB",
+      "category": "ambulanse"
+    },
+    {
+      "name": "Os Røde Kors",
+      "code": "OSRK",
+      "category": "annet"
+    },
+    {
+      "name": "Røde Kors Båten Bjørgvin",
+      "code": "RCB",
+      "category": "bat"
+    },
+    {
+      "name": "Stavanger Røde Kors Omsorg",
+      "code": "StvRKO",
+      "category": "omsorg"
+    }
+  ]
+}

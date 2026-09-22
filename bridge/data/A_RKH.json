@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Arna og Åsane Røde Kors Hjelpekorps",
+    "code": "AÅRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:46+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH",
+  "eventCount": 8,
+  "changes": {
+    "added": 7,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "00fd53243ae109aa",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane - Bryne Åsane Fotball",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "450127f376630057",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "NHH AID AVLYST - NHH AID",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "5200ec6431d42ade",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "02:30",
+      "type": "Sanitetsvakt",
+      "description": "NHH AID AVLYST - NHH AID",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "aaaed00aa4d33436",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane Karateklubb JKA cup, karate",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "6ad9f62f5fe2dbfa",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Sørfjorden Halvmaraton Sørfjorden Halvmaraton",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "b2102e588fdc44df",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane - Sogndal | Tentativt tidspunkt Åsane Fotball",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "1d42bbe4aadfe4ac",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane - Stabæk | Tentativt tidspunkt Åsane Fotball",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "17038bf8a67ffdb8",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane - Haugesund | Tentativt tidspunkt Åsane Fotball",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    }
+  ]
+}

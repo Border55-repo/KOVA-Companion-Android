@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Skien Røde Kors Hjelpekorps",
+    "code": "SkienRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:51+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
+  "eventCount": 32,
+  "changes": {
+    "added": 24,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "baee9e9d31f2d744",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "17:30",
+      "type": "Aktivitet",
+      "description": "Befalsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "802f257cd2a26096",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Odd - Egersund Skagerak arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "5dd95efc8a662932",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Korpsmøte/ den nye søksveilederen Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "82ae0e32099bc859",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "20ea205bd6e37045",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "07:00",
+      "type": "Sanitetsvakt",
+      "description": "Grenlansløpet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "8705a0c85fa4c13f",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Kjentmannstur m/Vegard og Andres Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "54cc947858ceee4b",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "8470501bfb1e61d3",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Odd - Bryne Skagerak Arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "04fae4ea6fd50f56",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "usikkert tidspunkt Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "5885c9660ca21320",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Vedlikehold av utstyr/m Anders og Per Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "47355f8020f93521",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Odd - Strømmen Skagerak Arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "7df84abd3c9cab27",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Befalsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "e991305b3e95a7dd",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "usikkert tidspunkt Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "b1187c255698246d",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "17:30",
+      "type": "Aktivitet",
+      "description": "Faks øvelse/m Sondre Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "a4b21511e4dde832",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "KSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "01326c2c72ac40c2",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "KSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "c98d808c6f13b43d",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Odd - Sannes-Ulf Skagerak Arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "3c0c9d3c3c3b53dd",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Korpsmøte Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "45e821ef95def4df",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "usikkert tidspunkt Klosterskogen Travbane",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "b20cadfdb57c9421",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Høstsamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "0788601674d0a071",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "16:00",
+      "type": "Aktivitet",
+      "description": "Høstsamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "1b7f84d81c5a1f74",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Hypotermi /m Olav Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "641627e0d6fb70de",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Barnas idrettsdag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "362000dc6d83eb8e",
+      "dateIso": "2026-11-23",
+      "dateLabel": "man. 23.11",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Førstehjelp /m Michael og Nathaniel Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "acde0a6a4509d041",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Geiteryggenløpet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "1b3b3c06c2fd8f17",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Befalsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "0f785083983b814a",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Julebord???",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "0eec5514b884006e",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "05:00",
+      "type": "Aktivitet",
+      "description": "Julebord???",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "d7a57cf2cdf978b6",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Vintervakt/pulk Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "94b3d6286a7ea75e",
+      "dateIso": "2026-12-14",
+      "dateLabel": "man. 14.12",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Korpsmøte/Juleavsluttning Temakveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "236c004be1e32b5a",
+      "dateIso": "2026-12-19",
+      "dateLabel": "lør. 19.12",
+      "time": "09:00",
+      "type": "Aktivitet",
+      "description": "Juleaksjon",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "217eb1c1ee24a145",
+      "dateIso": "2027-01-04",
+      "dateLabel": "man. 4.1",
+      "time": "18:30",
+      "type": "Aktivitet",
+      "description": "Oppstart/Vårplan Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    }
+  ]
+}

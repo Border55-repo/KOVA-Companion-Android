@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Røde Kors Båten Bjørgvin",
+    "code": "RCB",
+    "category": "bat"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:53+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB",
+  "eventCount": 4,
+  "changes": {
+    "added": 1,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "7d182639703d1cc0",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+    },
+    {
+      "id": "c790cd98fde5a75e",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+    },
+    {
+      "id": "d3a66cf627c762e6",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+    },
+    {
+      "id": "1057adc3a149f8b8",
+      "dateIso": "2026-12-30",
+      "dateLabel": "ons. 30.12",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+    }
+  ]
+}

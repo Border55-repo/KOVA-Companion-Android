@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Laksevåg Røde Kors Hjelpekorps",
+    "code": "LaksevaagRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:48+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
+  "eventCount": 41,
+  "changes": {
+    "added": 36,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "045070a74c54dfa7",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "10:00",
+      "type": "Dugnad",
+      "description": "Arbeid depot Arbeid depot",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "80be0a75a066767d",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "15:00",
+      "type": "Eksterne møter",
+      "description": "Møte med FORF Møte med FORF",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "02b0ef623ddd1908",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "FAKS: Teoretiske og praktiske øvelser Korpskveld: FAKS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "811c1f10c37dd1f2",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Terje lærer oss ATV-teori Korpskveld: ATV-teori",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "6dee0d309c62391f",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelp ved selvmordsfare TRØKK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "a9a7490553e56e8b",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Grunnkurs beredskap TRØKK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3fbe21dca4e80435",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Videregående psykososial førstehjelp TRØKK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4f74155d4e42de9f",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Lagunen. Samarbeid med Fana RKH. Kjekt om flere blir med! Sanitetsvakt: Verdens Hjertedag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "f7f685fbd8e414a0",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Dagsturhytten i Siglingavatnet Friluftspark SANITETSVAKT: Rosa-sløyfe løp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3d70c85353e82032",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "14:00",
+      "type": "Eksterne kurs",
+      "description": "Prinsippene i praksis TRØKK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "c87e932d3fffbe05",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "10:00",
+      "type": "Eksterne kurs",
+      "description": "Ivaretakelse av førstehjelperen TRØKK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "645400d43e511c9e",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Alvøen Idrettspark. Løp for barn og voksne. SANITETSVAKT: Loddefjordløpet 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "118d1ac11283c0d6",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "8dc82f65416bf545",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Anestesisykepleier fra Haukeland kommer å undervise oss Korpskveld: Rus og luftveishåndtering",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ffa8633d4a906671",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Fana. Del 1/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4326e9923f19740c",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Kranselegging i sivilforsvarsparken Minnevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "a61292df19eb5dce",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Fana. Del 1/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "e4b5f432468d4945",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "19:00",
+      "type": "Eksterne møter",
+      "description": "Aksjonsledermøte Aksjonsledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "03566820caaae02f",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Høstferie",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "7bc985e61eecab03",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "484c97eacd663f1f",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3566895b5c5264e2",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Savnetadferd og LPB Korpskveld: Savnetadferd og LPB",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "572759dd47368b99",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 1/2. Påmeldingsfrist 10. OKT. GRUNNKURS: Kvalifisert Samband (KSAM)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "19677e8ed1a9d1fd",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 2/2. Påmeldingsfrist 10. OKT. GRUNNKURS: Kvalifisert Samband (KSAM)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "cb1e0b3b19f6b885",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "Del 1/3. Teori. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "544676c83c30e336",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Del 2/3. Teori. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "8829849f4cfb6697",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Åpning av og gjennomgang av nytt depot :-) Korpskveld: Åpning av nytt depot",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "38be150f1bd0c908",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "1d7c156267136d75",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "37631acdce1ae8cd",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Teori og praktisk trening Korpskveld: Hjerte, hjertestans og HLR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "7c914611aaf1d336",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Arosha har sminke og markørkveld. Sammen med Sotra Korpskveld: Sminke og markør",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "af482bf0f8e59b40",
+      "dateIso": "2026-11-13",
+      "dateLabel": "fre. 13.11",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "f938f2b7c9265c17",
+      "dateIso": "2026-11-15",
+      "dateLabel": "søn. 15.11",
+      "time": "20:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0c2832c3fad63baa",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vær, uvær og farevarsler. På Meteorologisk institutt. Korpskveld: Meteorologikveld på MET",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "b66f5f5d0dcebe28",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "f3be48f48a85658d",
+      "dateIso": "2026-11-22",
+      "dateLabel": "søn. 22.11",
+      "time": "20:00",
+      "type": "Interne kurs",
+      "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "22974cbb38f790b9",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse EPS (evakuerte og pårørende senter) Korpskveld: Øvelse EPS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0fba4b1b04f0a047",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Klargjøring til julebord",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "96b63057cacbb7f1",
+      "dateIso": "2026-12-11",
+      "dateLabel": "fre. 11.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Julebord / Årsfest",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "a5d52538b2a8a5cd",
+      "dateIso": "2027-02-07",
+      "dateLabel": "søn. 7.2",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Alvøen SANITETSVAKT: Kom-deg-ut-dagen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "6ef372d80e7ccad7",
+      "dateIso": "2027-02-15",
+      "dateLabel": "man. 15.2",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Valgmøte Hjelpekorps Valgmøte Hjelpekorps",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "3934cc82de8bd23faf937579",
+      "observedAt": "2026-09-22T23:07:47+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "b3ea46e2c6a45d0c",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "NM rulleskiskyting",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
+      "changeId": "f78ddf5bc7813413342c54c9",
+      "observedAt": "2026-09-22T23:07:47+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "c7b61c0688cdfccd",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "19:30",
+        "type": "Sanitetsvakt",
+        "description": "Elvelangs Vigga",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
+      "changeId": "3a22b8c38a2cd9f9dd404b25",
+      "observedAt": "2026-09-22T23:07:47+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "c9fe76a1c366864c",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "02:00",
+        "type": "Sanitetsvakt",
+        "description": "Oktoberfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
+      "changeId": "93636daa6c4af964bc8107e0",
+      "observedAt": "2026-09-22T23:07:47+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "542e94c76ca2f568",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "12:00",
+        "type": "Eksterne kurs",
+        "description": "Førsthjelpsundervisning RM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
+      "changeId": "35bb6175edbb478b6c64deb4",
+      "observedAt": "2026-09-22T23:07:47+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "84faaddb4605d92f",
+        "dateIso": "2026-12-21",
+        "dateLabel": "man. 21.12",
+        "time": "19:00",
+        "type": "Korpskveld",
+        "description": "Medlemsmøtet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-22T23:07:47+02:00"
+}

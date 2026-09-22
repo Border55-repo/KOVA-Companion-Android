@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "6c541c165040240a7899506f",
+      "observedAt": "2026-09-22T23:07:48+02:00",
+      "organization": "GRKH",
+      "kind": "added",
+      "event": {
+        "id": "5a8da3c19bbec90d",
+        "dateIso": "2026-12-22",
+        "dateLabel": "tir. 22.12",
+        "time": "01:00",
+        "type": "Dugnad",
+        "description": "Smjlv Spond SMJLV",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=GRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-22T23:07:48+02:00"
+}

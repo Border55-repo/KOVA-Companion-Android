@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Porsgrunn Røde Kors Hjelpekorps",
+    "code": "PorsgrunnRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:07:50+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH",
+  "eventCount": 20,
+  "changes": {
+    "added": 16,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "be32d8868739daed",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "NM cup 2 runde Pors - vakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "b057f233e89ce869",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Temakveld: Vakter Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "822b1da5ff5aa02a",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Pors kamp, Tid er oppmøte huset Pors - vakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "11f7afabb3365d4a",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Pors kamp, Tid er oppmøte huset Pors - vakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "0eafc4afdf664c8d",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Fagressursmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "1fe0fa2dc023bc36",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Tid er oppmøte på huset Grenlandsløpet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "738034b2386a09fa",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Korpsmøte / rutiner på huset",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "e41b1b9abdb166a3",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Pors kamp, Tid er oppmøte huset Pors - vakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "924d401339dcc2ab",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Gatemegling - miniverksted Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "9421c9eece2b21d5",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Pors kamp, Tid er oppmøte huset Pors - vakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "2d7b7d41a3816ab4",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Tid er oppmøte på huset, oppmnøte vaktsted kl 16:30 Hjertebank for Grenland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "c0c6f65963219f92",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "FAKS / Samband - vi skal være ute Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "00532843e968c731",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Tid er oppmøte på huset E18-løpet Langangen-Grenlandsbrua",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "a6327c589f9b4fa2",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Felles påmelding innen onsdag 16.september Høstsamling 6-8.november",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "e9b46a494ad629f7",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "14:00",
+      "type": "Aktivitet",
+      "description": "Felles påmelding innen onsdag 16.september Høstsamling 6-8.november",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "86f79284414b30d0",
+      "dateIso": "2026-11-11",
+      "dateLabel": "ons. 11.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Grunnlende beredskap Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "2153d2f9bf34ec4b",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Korpsmøte / bekledning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "36542f8a0daa5ed9",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Felles juleavslutning Juleavsluttning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "627b48dc33697f41",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 17:00 Adventsmila",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "5d11dce8bbf6364b",
+      "dateIso": "2026-12-27",
+      "dateLabel": "søn. 27.12",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Tid er oppmøte på huset Juleenduro",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    }
+  ]
+}
