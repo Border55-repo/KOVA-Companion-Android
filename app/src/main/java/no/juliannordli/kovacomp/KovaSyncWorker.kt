@@ -11,12 +11,29 @@ class KovaSyncWorker(
     params: WorkerParameters
 ) : CoroutineWorker(context, params) {
 
+    companion object {
+        private const val FALLBACK_BUCKETS = 4
+        private const val FIFTEEN_MINUTES_MS = 15L * 60L * 1000L
+    }
+
     override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
         runCatching {
             val repo = KovaRepository(applicationContext)
             val settings = AppSettings(applicationContext)
-            val organizations = settings.subscribedOrganizations
-                .ifEmpty { setOf(repo.organization()) }
+            val current = repo.organization()
+            val subscribed = settings.subscribedOrganizations
+                .ifEmpty { setOf(current) }
+
+            val bucket = ((System.currentTimeMillis() / FIFTEEN_MINUTES_MS) %
+                FALLBACK_BUCKETS).toInt()
+
+            val organizations = subscribed
+                .filter { code ->
+                    code == current ||
+                        Math.floorMod(code.hashCode(), FALLBACK_BUCKETS) == bucket
+                }
+                .toSet()
+                .ifEmpty { setOf(current) }
 
             organizations.forEach { org ->
                 val old = repo.loadCache(org)
