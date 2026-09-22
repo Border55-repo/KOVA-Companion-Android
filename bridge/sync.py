@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -13,12 +14,27 @@ import requests
 from bs4 import BeautifulSoup
 
 from push import send_diff_notification
+from reliability import (
+    append_history,
+    change_records,
+    enqueue_pending,
+    load_push_state,
+    mark_sent,
+    pending_records,
+    read_json,
+    suspicious_snapshot,
+)
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
+HISTORY_DIR = DATA_DIR / "history"
+HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+PUSH_STATE_PATH = DATA_DIR / "push_state.json"
+HEALTH_PATH = DATA_DIR / "health.json"
 
 OSLO = ZoneInfo("Europe/Oslo")
+HEALTH_HEARTBEAT_SECONDS = 3600
 
 ORGANIZATIONS = [
     {"name": "Ullensaker Røde Kors Hjelpekorps", "code": "UllensakerRKH"},
@@ -70,8 +86,8 @@ def event_semantic_key(event: dict) -> str:
     return normalize(event["type"]) + "|" + normalize(event["description"])
 
 
-def event_id(date_iso: str, time: str, type_name: str, description: str) -> str:
-    raw = f"{date_iso}|{time}|{type_name}|{description}".encode("utf-8")
+def event_id(date_iso: str, time_value: str, type_name: str, description: str) -> str:
+    raw = f"{date_iso}|{time_value}|{type_name}|{description}".encode("utf-8")
     return hashlib.sha256(raw).hexdigest()[:16]
 
 
@@ -153,7 +169,10 @@ def parse_schedule(html: str, url: str, now: datetime | None = None) -> list[dic
         )
 
     unique = {event["id"]: event for event in events}
-    return sorted(unique.values(), key=lambda item: (item["dateIso"], item["time"], item["description"]))
+    return sorted(
+        unique.values(),
+        key=lambda item: (item["dateIso"], item["time"], item["description"]),
+    )
 
 
 def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
@@ -177,20 +196,13 @@ def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
     }
 
 
-def read_json(path: Path) -> dict | None:
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
-        return None
-
-
 def canonical_events(events: list[dict]) -> str:
     return json.dumps(events, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
 def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dict]:
     path = DATA_DIR / f"{slug(org['code'])}.json"
-    old = read_json(path)
+    old = read_json(path, None)
     old_events = old.get("events", []) if old else []
 
     changed = canonical_events(old_events) != canonical_events(events)
@@ -200,7 +212,7 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
     if changed:
         now_iso = datetime.now(OSLO).isoformat(timespec="seconds")
         payload = {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "organization": org,
             "status": "ok",
             "updatedAt": now_iso,
@@ -222,22 +234,42 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
     return False, old
 
 
-def fetch_org(org: dict) -> tuple[list[dict], str]:
+def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
     url = source_url(org["code"])
-    response = requests.get(
-        url,
-        timeout=20,
-        headers={
-            "User-Agent": "KOVA-Companion-Bridge/0.1 (+https://github.com/Border55-repo/KOVA-Companion-Android)"
-        },
-    )
-    response.raise_for_status()
-    return parse_schedule(response.text, url), url
+    last_error: Exception | None = None
+
+    for attempt in range(attempts):
+        try:
+            response = requests.get(
+                url,
+                timeout=20,
+                headers={
+                    "User-Agent": (
+                        "KOVA-Companion-Bridge/0.7 "
+                        "(+https://github.com/Border55-repo/KOVA-Companion-Android)"
+                    )
+                },
+            )
+            response.raise_for_status()
+            html = response.text
+            return parse_schedule(html, url), url, len(html)
+        except (requests.RequestException, ValueError) as exc:
+            last_error = exc
+            if attempt < attempts - 1:
+                delay = 2 ** attempt
+                print(
+                    f"{org['code']}: transient fetch error; retrying in {delay}s: {exc}",
+                    file=sys.stderr,
+                )
+                time.sleep(delay)
+
+    assert last_error is not None
+    raise last_error
 
 
 def write_index(summaries: list[dict], changed_any: bool) -> None:
     path = DATA_DIR / "index.json"
-    previous = read_json(path)
+    previous = read_json(path, None)
     stable_summary = [
         {
             "name": item["name"],
@@ -255,35 +287,170 @@ def write_index(summaries: list[dict], changed_any: bool) -> None:
         return
 
     payload = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "bridge": "KOVA Companion Bridge",
         "updatedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
         "organizations": stable_summary,
     }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def records_to_diff(records: list[dict]) -> dict:
+    added = []
+    changed = []
+    removed = []
+
+    for record in records:
+        kind = record.get("kind")
+        if kind == "added":
+            added.append(record["event"])
+        elif kind == "changed":
+            changed.append(
+                {
+                    "old": record.get("oldEvent", {}),
+                    "new": record["event"],
+                }
+            )
+        elif kind == "removed":
+            removed.append(record["event"])
+
+    return {"added": added, "changed": changed, "removed": removed}
+
+
+def parse_iso(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def write_health(
+    summaries: list[dict],
+    failures: int,
+    changed_any: bool,
+    push_count: int,
+    pending_count: int,
+) -> bool:
+    now = datetime.now(OSLO)
+    now_iso = now.isoformat(timespec="seconds")
+    previous = read_json(HEALTH_PATH, {})
+
+    status = (
+        "error"
+        if failures == len(ORGANIZATIONS)
+        else "degraded"
+        if failures
+        else "ok"
+    )
+
+    previous_status = previous.get("status")
+    previous_checked = parse_iso(previous.get("checkedAt"))
+    heartbeat_due = (
+        previous_checked is None
+        or (now - previous_checked).total_seconds() >= HEALTH_HEARTBEAT_SECONDS
+    )
+
+    force_write = (
+        changed_any
+        or failures > 0
+        or push_count > 0
+        or pending_count > 0
+        or status != previous_status
+        or heartbeat_due
+    )
+    if not force_write:
+        return False
+
+    previous_failure_runs = int(previous.get("consecutiveFailureRuns", 0) or 0)
+    consecutive_failure_runs = previous_failure_runs + 1 if failures else 0
+
+    payload = {
+        "schemaVersion": 1,
+        "bridge": "KOVA Companion Bridge",
+        "status": status,
+        "checkedAt": now_iso,
+        "lastSuccessfulRunAt": (
+            now_iso if failures < len(ORGANIZATIONS) else previous.get("lastSuccessfulRunAt")
+        ),
+        "lastFullySuccessfulRunAt": (
+            now_iso if failures == 0 else previous.get("lastFullySuccessfulRunAt")
+        ),
+        "consecutiveFailureRuns": consecutive_failure_runs,
+        "pendingPushes": pending_count,
+        "lastPushAt": (
+            now_iso if push_count > 0 else previous.get("lastPushAt")
+        ),
+        "lastPushCount": push_count if push_count > 0 else previous.get("lastPushCount", 0),
+        "organizations": summaries,
+    }
+
+    HEALTH_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return True
 
 
 def main() -> int:
     summaries = []
     changed_any = False
     failures = 0
+    total_pushes = 0
+
+    push_state = load_push_state(PUSH_STATE_PATH)
 
     for org in ORGANIZATIONS:
         path = DATA_DIR / f"{slug(org['code'])}.json"
-        old = read_json(path) or {}
+        old = read_json(path, {})
         old_events = old.get("events", [])
+        error_text = None
 
         try:
-            events, _ = fetch_org(org)
+            events, _, html_length = fetch_org(org)
+
+            suspect = suspicious_snapshot(
+                old_count=len(old_events),
+                new_count=len(events),
+                html_length=html_length,
+            )
+            if suspect:
+                raise RuntimeError(suspect)
+
             diff = compute_diff(old_events, events)
+            records = change_records(org, diff)
+
+            if records:
+                append_history(
+                    HISTORY_DIR / f"{slug(org['code'])}.json",
+                    records,
+                )
+                push_state, _ = enqueue_pending(PUSH_STATE_PATH, push_state, records)
+
             changed, payload = write_snapshot(org, events, diff)
             changed_any = changed_any or changed
 
-            if old and changed:
-                try:
-                    send_diff_notification(org, diff, source_url(org["code"]))
-                except Exception as push_exc:
-                    print(f"{org['code']}: FCM warning: {push_exc}", file=sys.stderr)
+            pending_for_org = [
+                item
+                for item in pending_records(push_state)
+                if item.get("organization") == org["code"]
+            ]
+
+            if old and pending_for_org:
+                pending_diff = records_to_diff(pending_for_org)
+                sent_ids = send_diff_notification(
+                    org,
+                    pending_diff,
+                    source_url(org["code"]),
+                )
+                if sent_ids:
+                    total_pushes += len(sent_ids)
+                    mark_sent(PUSH_STATE_PATH, push_state, sent_ids)
+                    push_state = load_push_state(PUSH_STATE_PATH)
 
             summaries.append(
                 {
@@ -293,14 +460,17 @@ def main() -> int:
                     "status": "ok",
                     "eventCount": len(events),
                     "updatedAt": payload.get("updatedAt"),
+                    "error": None,
                 }
             )
             print(
                 f"{org['code']}: {len(events)} events "
-                f"(+{len(diff['added'])}/-{len(diff['removed'])}/~{len(diff['changed'])})"
+                f"(+{len(diff['added'])}/-{len(diff['removed'])}/~{len(diff['changed'])}) "
+                f"pending={len([x for x in pending_records(push_state) if x.get('organization') == org['code']])}"
             )
         except Exception as exc:
             failures += 1
+            error_text = str(exc)[:240]
             summaries.append(
                 {
                     "name": org["name"],
@@ -309,13 +479,27 @@ def main() -> int:
                     "status": "error",
                     "eventCount": len(old_events),
                     "updatedAt": old.get("updatedAt"),
+                    "error": error_text,
                 }
             )
-            print(f"{org['code']}: ERROR {exc}", file=sys.stderr)
+            print(f"{org['code']}: ERROR {error_text}", file=sys.stderr)
 
     write_index(summaries, changed_any or failures > 0)
 
-    # Do not destroy a working bridge just because one organization was temporarily unavailable.
+    remaining_pending = len(pending_records(push_state))
+    health_written = write_health(
+        summaries=summaries,
+        failures=failures,
+        changed_any=changed_any,
+        push_count=total_pushes,
+        pending_count=remaining_pending,
+    )
+
+    print(
+        f"Bridge summary: failures={failures}, pushes={total_pushes}, "
+        f"pending={remaining_pending}, health_written={health_written}"
+    )
+
     return 1 if failures == len(ORGANIZATIONS) else 0
 
 
