@@ -44,6 +44,12 @@ class MainActivity : ComponentActivity() {
             PeriodicWorkRequestBuilder<KovaSyncWorker>(15, TimeUnit.MINUTES).build()
         )
 
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+            "kova-update-check",
+            ExistingPeriodicWorkPolicy.UPDATE,
+            PeriodicWorkRequestBuilder<UpdateCheckWorker>(1, TimeUnit.DAYS).build()
+        )
+
         setContent {
             KovaTheme {
                 KovaScreen(
@@ -112,6 +118,8 @@ fun KovaScreen(
     var disabledTypes by remember { mutableStateOf(settings.disabledEventTypes) }
     var pushReady by remember(org) { mutableStateOf(false) }
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
+    var latestRelease by remember { mutableStateOf<ReleaseInfo?>(null) }
+    var checkingUpdate by remember { mutableStateOf(false) }
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
@@ -125,6 +133,17 @@ fun KovaScreen(
             bridgeHealth = runCatching {
                 withContext(Dispatchers.IO) { BridgeHealthRepository.fetch() }
             }.getOrNull()
+        }
+    }
+
+    fun checkForUpdate() {
+        if (checkingUpdate) return
+        checkingUpdate = true
+        scope.launch {
+            latestRelease = runCatching {
+                withContext(Dispatchers.IO) { ReleaseChecker.fetchLatest() }
+            }.getOrNull()
+            checkingUpdate = false
         }
     }
 
@@ -163,6 +182,7 @@ fun KovaScreen(
             permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
         refreshHealth()
+        checkForUpdate()
     }
 
     LaunchedEffect(org) {
@@ -214,7 +234,7 @@ fun KovaScreen(
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v0.5.0 • Push + Health",
+                            "Android v" + BuildConfig.VERSION_NAME + " • Release + Update",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
@@ -273,6 +293,48 @@ fun KovaScreen(
                             onClick = { refreshHealth() },
                             label = { Text(bridgeHealth?.label() ?: "Bridge: sjekker…") }
                         )
+                    }
+                }
+
+                latestRelease?.takeIf { it.isNewerThan(BuildConfig.VERSION_NAME) }?.let { release ->
+                    item {
+                        ElevatedCard(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.elevatedCardColors(
+                                containerColor = MaterialTheme.colorScheme.tertiaryContainer
+                            )
+                        ) {
+                            Column(
+                                modifier = Modifier.padding(16.dp),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Text(
+                                    "NY VERSJON TILGJENGELIG",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    release.name,
+                                    style = MaterialTheme.typography.titleMedium,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    "Du har v" + BuildConfig.VERSION_NAME +
+                                        ". " + release.tagName + " kan lastes ned nå.",
+                                    style = MaterialTheme.typography.bodyMedium
+                                )
+                                Button(
+                                    onClick = {
+                                        val url = release.apkUrl ?: release.htmlUrl
+                                        context.startActivity(
+                                            Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                                        )
+                                    }
+                                ) {
+                                    Text("Last ned oppdatering")
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -369,6 +431,17 @@ fun KovaScreen(
                                     "Push filtreres på telefonen. Bridge og direkte KOVA beholdes som doble sikkerhetsnett.",
                                     style = MaterialTheme.typography.bodySmall
                                 )
+
+                                Text(
+                                    "Installert versjon: v" + BuildConfig.VERSION_NAME,
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+
+                                OutlinedButton(
+                                    onClick = { checkForUpdate() }
+                                ) {
+                                    Text(if (checkingUpdate) "Sjekker…" else "Sjekk etter oppdatering")
+                                }
 
                                 OutlinedButton(
                                     onClick = {
