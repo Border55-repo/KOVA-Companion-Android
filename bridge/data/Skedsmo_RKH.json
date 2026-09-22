@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "name": "Skedsmo Røde Kors Hjelpekorps",
+    "code": "Skedsmo RKH"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T15:56:58+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
+  "eventCount": 60,
+  "changes": {
+    "added": 38,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "11b234f367774d62",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Øving til KFØR KFØR øving",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "3b8c0d5cf4658113",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:45",
+      "type": "Sanitetsvakt",
+      "description": "Ambulanse LSK- SCU Torreense Ambulanse LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "872040b42fbb6b02",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "LSK- SCU Torreense LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "6d77f7bb24837170",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "08:00",
+      "type": "Aktivitet",
+      "description": "Norges RK Ressursgruppe vann låner 51",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "7ff92b1e6f8ee296",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "KFØR - Ullensaker KFØR Ullensaker",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "e240fd1145801227",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "cfde14b20dbd4208",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "10:00",
+      "type": "Profilering",
+      "description": "Stand åpen brannstasjon",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "365661925406df57",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "KFØR hos Ullensaker",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "d3b42a927b5356d8",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "51 i bruk Atif Aslam i Nova Spektrum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "8851f2494eab98e7",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "080fc14211873206",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Søksøvelse Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "71d2764649fdb047",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Ungdom låner hjelpekorpsrommet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "f1ae247f71e52e46",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Sosialt - spill og fanteri! Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "f0f03fc273b7c5b9",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "17:30",
+      "type": "Eksterne kurs",
+      "description": "KSAM i Nittedal KSAM - Nittedal",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "493f962c3a716a7e",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Ingen korpskveld denne tirsdagen Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "103ea5117950e712",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "bda94220366d8f9a",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "f2c97595e951ed1a",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "LSK-Molde Ambulanse LSK kamper høst 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "059ba3f706a00415",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "15:15",
+      "type": "Sanitetsvakt",
+      "description": "Lillestrøm – Molde LSK-kamper Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "0d21ae5a4980f5c6",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "1ec02f4f8d623365",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Ungdom låner hjelpekorpsrommet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "2525a13947a31be3",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "19:00",
+      "type": "Interne kurs",
+      "description": "Styremøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "d1d20d889e79d5b4",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "87f797819b78577d",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "18:45",
+      "type": "Sanitetsvakt",
+      "description": "Ambulanse LSK- Real Sociedad de Fùtbol Ambulanse LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "e2ce76de486f2d64",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "LSK- Real Sociedad de Fùtbol LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "bee82550aafe62de",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "14:45",
+      "type": "Ambulansevakt",
+      "description": "LSK-Brann HØYRISIKO Ambulanse LSK kamper høst 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "60c6aeca9ea674d7",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "LSK-Brann HØYRISIKO LSK-kamper Eliteserien vår 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a17225ac0d7043ea",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "00a233e9b8349f20",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Ungdom låner hjelpekorpsrommet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a72017f4a320f146",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "b68b1f23806d1086",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "5e432244fdd2ea7e",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "9172a3ece94a8ce6",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Ambulanse LSK- FC Viktoria Plzen Ambulanse LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "40f4c4bd5ea7f2bf",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "LSK- FC Viktoria Plzen LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "2aad9ca39392ca35",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "19:00",
+      "type": "Interne kurs",
+      "description": "Styremøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "757b27260fae31a5",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "Utehelg - Stabmiddag KSOR - Operasjon Myrvann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "1ed000f772b5e0f2",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "07:00",
+      "type": "Interne kurs",
+      "description": "Utehelg - Stab KSOR - Operasjon Myrvann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "1d2941b4b91ab1c8",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "LSK-Ålesund Ambulanse LSK kamper høst 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "c4e273674489e3a3",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "15:15",
+      "type": "Sanitetsvakt",
+      "description": "Lillestrøm – Aalesund LSK-kamper Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a0f10354f319f4cc",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "19:00",
+      "type": "Interne kurs",
+      "description": "Utehelg - Stab KSOR - Operasjon Myrvann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "ae8817d13104f86b",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "7a0d31b726eb2634",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "041f6e603a554be3",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a0b01b2066af408b",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "10:00",
+      "type": "Interne møter",
+      "description": "For troika og fagansvarlige Ledersamling Skedsmo Røde Kors",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "5cb02eca06ece1e3",
+      "dateIso": "2026-11-22",
+      "dateLabel": "søn. 22.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "d6bc06074b5009cb",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer... Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "1679864104bfa91e",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "LSK-Hamkam Ambulanse LSK kamper høst 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "85fd3f3cb0af1e41",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "15:15",
+      "type": "Sanitetsvakt",
+      "description": "Lillestrøm – HamKam LSK-kamper Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "b5f6a71f85a90ee8",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Fangene på fortet! Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "6b9c3e3c4d848516",
+      "dateIso": "2026-12-02",
+      "dateLabel": "ons. 2.12",
+      "time": "19:00",
+      "type": "Interne kurs",
+      "description": "Styremøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "daa1319d6773dc26",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Grøfest i lokalforeningen Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "28dc7317da7c2a6a",
+      "dateIso": "2026-12-12",
+      "dateLabel": "lør. 12.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "c705107bb03875a1",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "15:00",
+      "type": "Ambulansevakt",
+      "description": "LSK-Tromsø Ambulanse LSK kamper høst 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "0badce896f228bfc",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "15:15",
+      "type": "Sanitetsvakt",
+      "description": "Lillestrøm – Tromsø LSK-kamper Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "99312f953c5714f5",
+      "dateIso": "2026-12-14",
+      "dateLabel": "man. 14.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "bedb1b72f5c9c09f",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Pepperkakebaking og konkurranse! Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "d3de428d95086ae1",
+      "dateIso": "2026-12-16",
+      "dateLabel": "ons. 16.12",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Ungdom låner hjelpekorpsrommet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "9857792131d1d0ce",
+      "dateIso": "2026-12-21",
+      "dateLabel": "man. 21.12",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Ungdom låner hjelpekorpsrommet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "427f624482a5fd42",
+      "dateIso": "2027-01-21",
+      "dateLabel": "tor. 21.1",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Ambulanse LSK- AFC Bournemouth Ambulanse LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "9f501f54a48cafe4",
+      "dateIso": "2027-01-21",
+      "dateLabel": "tor. 21.1",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "LSK- AFC Bournemouth LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    }
+  ]
+}

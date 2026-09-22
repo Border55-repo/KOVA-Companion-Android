@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "name": "Nittedal Røde Kors Hjelpekorps",
+    "code": "Nittedal RKH"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T15:56:58+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
+  "eventCount": 58,
+  "changes": {
+    "added": 33,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "c8626f7b0c0b5444",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "09:30",
+      "type": "Eksterne møter",
+      "description": "Se egen link for påmelding, i beskrivelse Webinar: Gjennomgang av nytt KSAM",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "1ecb20d45abb8bf0",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Drop-in",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "b668d4f3a8d9ab3e",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "19:30",
+      "type": "Eksterne møter",
+      "description": "Se egen link for påmelding i beskrivelse Webinar: Gjennomgang av nytt KSAM",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "710f7d0780c327c7",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Solvang/Ullensaker, ny modell med e-læring Kurs: Kvalifisert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "40558ad2cb99407c",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Stand med sanitet Sanitet: Nittedalsdagene / Matfestivalen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "a638d893d7b1b4fa",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "84530919e3f11cca",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "Fotballkamp Vålerenga Sanitetsvakt for NES",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "f306f384c41c10ee",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Sanitestvakt for Skedsmo RKH",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "682b06c487f63d44",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Solvang/Ullensaker, ny modell med e-læring Kurs: Kvalifisert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "f8a0ebbd83fba900",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "21:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "392083727a5ff1f8",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "08:00",
+      "type": "Transport",
+      "description": "Utbedring karosseriskade Transport: RK32 på verksted",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "1411e2da7fad3627",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Trening Regodkjenning AFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "f3824c31803ca170",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Beredskapsmøte, oppmøte ved rådhuset Korpskveld: Åpent møte i Nittedal kommune",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "f94e778453fb17f7",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "For alle frivillige i hele lokalforeningen Møte: Beredskapskveld Nittedal RK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "801b34902fc5573f",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:30",
+      "type": "Rådsmøte",
+      "description": "Møte: Arbeidsmøte i Lokalråd + Fagansvarlige",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "a498280381d28278",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "16:00",
+      "type": "Transport",
+      "description": "Utbedring karosseriskade Transport: RK32 på verksted",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "71f6a87cea215ca9",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Trening AFØR Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "8db3f473b6a2a788",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Fotballkamp VIF 2 - Bærum",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "9eda5241fdb04fcd",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "17:30",
+      "type": "Eksterne kurs",
+      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "b8dacdde7b5c938b",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "21:30",
+      "type": "Eksterne kurs",
+      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "63f6161911ec8428",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Trening AFØR Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "c271aa7a5b404883",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Se beskrivelse/detaljer for møtelink Webinar: Ny veileder for søk - KSOR og LSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "68677321526b53ae",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "19:30",
+      "type": "Eksterne møter",
+      "description": "Se beskrivelse/detaljer for møtelink Webinar: Ny veileder for søk - Aksjonsledelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "31aeb59a7ff9e7cc",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "2eb57415673ecb83",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambualansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "10a9483c9f703883",
+      "dateIso": "2026-10-05",
+      "dateLabel": "man. 5.10",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Trening AFØR Regodkjenning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "27b5e3d3deccfdf1",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "E-læring på Didac må være gjennomført før oppmøte Kurs: Kvalifisert Samband",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "e6c1856acdfe3a0f",
+      "dateIso": "2026-10-07",
+      "dateLabel": "ons. 7.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Fagkveld Ambulanse OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "563c11e6fd251260",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Fotballkamp VIF 2 - Frigg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "6219890abea51982",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "5179c1f30a9f9c1d",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "21:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "f4c10ca6bec1586e",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "17:30",
+      "type": "Eksterne kurs",
+      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "6d638ffee8c21a84",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "93f90bbaef08a2ac",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "16:00",
+      "type": "Eksterne kurs",
+      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "0bfc3e5d9ec2715f",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "21:00",
+      "type": "Eksterne kurs",
+      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "2ecfb60dfe20aa3c",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Teorikveld 1 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "a1845934a7cf3b99",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "09:00",
+      "type": "Eksterne møter",
+      "description": "OBS: Ekstern påmelding, se detaljer for link Seminar: FORF 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "fa8e74bd5eeb5b58",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "14:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "dd119b225f8d8a96",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "02:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "debf3a5addea2c13",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "16:00",
+      "type": "Eksterne møter",
+      "description": "OBS: Ekstern påmelding, se detaljer for link Seminar: FORF 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "81fc17c06f6b65aa",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "9f6cbd1bb4fa1d98",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Teorikveld 2 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "2a692ec21b8ac1b6",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Fotballkamp VIF 2 - KFUM 2",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "4a945cb236ac32dc",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Teorikveld 3 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "80b57985bde9934f",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Teorikveld 4 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "c245465c4bf963d0",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Statsforvalterens øvelse i kommunens beredskapsråd Øvelse: \"Norge Øver\", Nittedals kriseledelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "1cd565a713349fb7",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Utehelg - Fellemyra, Rælingen Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "793c076be3e4d956",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "16:00",
+      "type": "Eksterne kurs",
+      "description": "Utehelg - Fellemyra, Rælingen Kurs: KSOR – Kvalifisert Søk og Redning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "eec6e69b4a9117b1",
+      "dateIso": "2026-11-13",
+      "dateLabel": "fre. 13.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "653915faf2d0c7a1",
+      "dateIso": "2026-11-15",
+      "dateLabel": "søn. 15.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "823471450fab0566",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "14:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "fc1417697bb89cd5",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "02:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "19a021383321b471",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "12bed5239ba6b20c",
+      "dateIso": "2026-12-25",
+      "dateLabel": "fre. 25.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "70ce1e7da102613f",
+      "dateIso": "2026-12-27",
+      "dateLabel": "søn. 27.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "62de2a4be6f26be7",
+      "dateIso": "2027-02-12",
+      "dateLabel": "fre. 12.2",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Grenaderittet Sanitetsvakt med Scooter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "caef40d450b94828",
+      "dateIso": "2027-02-12",
+      "dateLabel": "fre. 12.2",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Påbyggingsmodul for vintertjeneste, i Telemark Kurs: KSOR Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "b5377d0a93a96154",
+      "dateIso": "2027-02-14",
+      "dateLabel": "søn. 14.2",
+      "time": "15:00",
+      "type": "Eksterne kurs",
+      "description": "Påbyggingsmodul for vintertjeneste, i Telemark Kurs: KSOR Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    }
+  ]
+}

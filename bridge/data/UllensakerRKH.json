@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "name": "Ullensaker Røde Kors Hjelpekorps",
+    "code": "UllensakerRKH"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T15:56:57+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
+  "eventCount": 42,
+  "changes": {
+    "added": 26,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "66488c9c71dc569a",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "48854e97c459d04a",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "09:00",
+      "type": "Profilering",
+      "description": "Arrangementet er fra 10:00 til 14:00. Oppmøte på huset kl 09:00 for pakking. Åpen brannstasjon",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "9d5c3161bf7d56b8",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "8f7c7a4175c65d02",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "5c59112842f32c39",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "9d7fb4c176831ead",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Øvre Rommerike Brann og Redning Internt Opplæring",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "e94954bf8f7bd009",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse med EHRKH Korskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "056040ecd575dcaa",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Omsorg låner vito",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "d117da79895cbe63",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "79fd0546690f5545",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "09:15",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 09:15, vakta starter kl 10:00. Landsmøte, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "3c5e153de7c67f04",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 15:30, vakta starter kl 16:00. Landsmøte, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "d35e4ddb6a107051",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "09:15",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 09:15, vakta starter kl 10:00 Landsmøte, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "5cb5e95d7fc2c88d",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 15:30, vakta starter kl 16:00. Landsmøte, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "3c4475958350f899",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "07:15",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte på huset kl 07:15, vakta starter kl 08:00. Landsmøte, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "2834d2096ddd43e3",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "10:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 LC Norges Løpet Norges Løpet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "cbba4d351fe6a70d",
+      "dateIso": "2026-10-05",
+      "dateLabel": "man. 5.10",
+      "time": "08:00",
+      "type": "Aktivitet",
+      "description": "ATV 6x6 Service",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "3790d80d3ae1ee56",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Stående ordre Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "a9bb2f1536a5fa63",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Klubbløp NMK Gardermoen - Ambulanse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "91d73f4e68963b2c",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "c455402a0b31a73f",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "ae1b184f3592c166",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Kart og kompass med EHRKH Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "cb1314b15f60a723",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Nødnett og nettbrett Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "011ce8442ba5890b",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "50edb1a8bfa41cd9",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse med EHRKH Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "26cbd944d61a2538",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "1d3f58bc958271df",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "8e304c06138b0236",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Psykososial Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "796fc2cd977a8887",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Tema kommer Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "52e85128f88bc44d",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "HLR/DHLR hos EHRKH Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "132865d242823e50",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "ledermøte med øvre og fagleder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "65654ae07a6e9d94",
+      "dateIso": "2026-11-23",
+      "dateLabel": "man. 23.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "7d485d6a453a6ea9",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Førstehjelp på barn Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "24012e0aa097b7d2",
+      "dateIso": "2026-12-11",
+      "dateLabel": "fre. 11.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "05aebaa9f387b84f",
+      "dateIso": "2027-01-02",
+      "dateLabel": "lør. 2.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "3119056aa65f968b",
+      "dateIso": "2027-01-04",
+      "dateLabel": "man. 4.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "28ddbf1e413bd7e8",
+      "dateIso": "2027-01-19",
+      "dateLabel": "tir. 19.1",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Anlegg Norge, Thon Hotel Oslo Airport",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "cf8d490547d15674",
+      "dateIso": "2027-01-20",
+      "dateLabel": "ons. 20.1",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Anlegg Norge, Thon Hotel Oslo Airport",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "698d004ed4c072e8",
+      "dateIso": "2027-01-22",
+      "dateLabel": "fre. 22.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "ec5107ce29653c7b",
+      "dateIso": "2027-01-24",
+      "dateLabel": "søn. 24.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulansevakt OUS - turnus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "bc37847719fcf419",
+      "dateIso": "2027-08-13",
+      "dateLabel": "fre. 13.8",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "Ambulanse vakt SCC Gardermoen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "2cda965f04d67344",
+      "dateIso": "2027-08-14",
+      "dateLabel": "lør. 14.8",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "SCC Gardermoen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "24ad887aff52399c",
+      "dateIso": "2027-08-15",
+      "dateLabel": "søn. 15.8",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "SCC Gardermoen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    }
+  ]
+}

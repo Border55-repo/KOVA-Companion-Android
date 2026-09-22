@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "organization": {
+    "name": "Eidsvoll/Hurdal Røde Kors Hjelpekorps",
+    "code": "EHRKH"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T15:56:57+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH",
+  "eventCount": 24,
+  "changes": {
+    "added": 16,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "820bfddb3550b9f3",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpsdag Eidsvoll VGS Førstehjelpskurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "9decf01d2e85fc63",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Åpent hus Kickoff",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "a5322573fea51a74",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Åpen brannstasjon Sanitetsvakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "80bf0af3d8dc94cf",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse/Ringløype Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "769487687ff1bd0f",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "08:00",
+      "type": "Transport",
+      "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sanitetsvakt / Oppdrag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "52ce5e7b1447bd28",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "08:00",
+      "type": "Transport",
+      "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sanitetsvakt / Oppdrag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "7827a2050441adf5",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "08:00",
+      "type": "Transport",
+      "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sanitetsvakt / Oppdrag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "18b463094390d4b7",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Nettbrett og samband Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "bf9ecbb0a906031f",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Kart og kompass - Mikkel holder hos Ullensaker Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "c2f977b73327fa93",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "INFORMASJON KOMMER Reflekskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "f511ab7eb64b796a",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "19:00",
+      "type": "Rådsmøte",
+      "description": "Teams Rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "08bb7eb5915a050a",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Beredskap Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "1799c14e20423cdf",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "16:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "81d1432f084481ae",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "16:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "995e328eacfc591d",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Øvelse Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "ffa2418a72cae0ca",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "16:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "c6b92bad4170a849",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "16:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "1cb29da54f141587",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "18:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "56f0b2488c2f406d",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "10:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "db00b23530afbdd2",
+      "dateIso": "2026-11-15",
+      "dateLabel": "søn. 15.11",
+      "time": "19:00",
+      "type": "Rådsmøte",
+      "description": "Fysisk Rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "8190737c037a98d4",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Hos Ullensaker Felles lokalrådsmøte m/fagledere Øvre Romerike",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "4730f04a35d4c0aa",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Førstehjelp barn - Ullensaker Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "6e3043a9a56d7cc4",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "19:00",
+      "type": "Rådsmøte",
+      "description": "Teams Rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "ab2944741854f53b",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Juleavslutning Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    }
+  ]
+}
