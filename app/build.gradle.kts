@@ -3,6 +3,11 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
 }
+
+if (file("google-services.json").exists()) {
+    apply(plugin = "com.google.gms.google-services")
+}
+
 android {
     namespace = "no.juliannordli.kovacomp"
     compileSdk = 35
@@ -10,8 +15,8 @@ android {
         applicationId = "no.juliannordli.kovacomp"
         minSdk = 26
         targetSdk = 35
-        versionCode = 4
-        versionName = "0.3.0"
+        versionCode = 5
+        versionName = "0.4.0"
     }
     buildFeatures { compose = true }
 
@@ -24,6 +29,7 @@ android {
 kotlin {
     jvmToolchain(17)
 }
+
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2025.02.00"))
     implementation("androidx.activity:activity-compose:1.10.1")
@@ -35,5 +41,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
     implementation("androidx.work:work-runtime-ktx:2.10.0")
     implementation("org.jsoup:jsoup:1.18.3")
+
+    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+    implementation("com.google.firebase:firebase-messaging")
+
     testImplementation("junit:junit:4.13.2")
 }
