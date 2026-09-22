@@ -39,8 +39,11 @@ class KovaRepository(private val context: Context) {
     fun sourceUrl(org: String = organization()): String =
         BASE_URL + java.net.URLEncoder.encode(org, "UTF-8")
 
+    private fun bridgeSlug(org: String): String =
+        org.replace(Regex("[^A-Za-z0-9._-]+"), "_").trim('_')
+
     fun bridgeUrl(org: String = organization()): String =
-        BRIDGE_BASE + org.replace(" ", "_") + ".json"
+        BRIDGE_BASE + bridgeSlug(org) + ".json"
 
     fun fetch(org: String = organization()): List<KovaEvent> {
         return runCatching {
