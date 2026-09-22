@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-22T22:14:58+02:00",
+  "updatedAt": "2026-09-22T22:32:24+02:00",
   "organizations": [
     {
       "name": "Ullensaker Røde Kors Hjelpekorps",
       "code": "UllensakerRKH",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "eventCount": 43,
-      "updatedAt": "2026-09-22T22:14:57+02:00"
+      "eventCount": 42,
+      "updatedAt": "2026-09-22T22:32:22+02:00"
     },
     {
       "name": "Eidsvoll/Hurdal Røde Kors Hjelpekorps",
