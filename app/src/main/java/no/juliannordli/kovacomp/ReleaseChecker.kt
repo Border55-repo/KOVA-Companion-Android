@@ -26,7 +26,9 @@ object ReleaseChecker {
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
         connection.setRequestProperty("Accept", "application/vnd.github+json")
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.0")
+        connection.setRequestProperty("Cache-Control", "no-cache")
+        connection.setRequestProperty("Pragma", "no-cache")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.9.1")
 
         try {
             val code = connection.responseCode
