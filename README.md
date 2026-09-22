@@ -14,17 +14,15 @@ Uoffisiell Android-app for offentlig KOVA-kalenderdata.
 
 ## Firebase-oppsett
 
-Android-buildet støtter valgfri GitHub-secret:
+Firebase Android-klientkonfigurasjonen er registrert i appen for package `no.juliannordli.kovacomp`.
 
-- `GOOGLE_SERVICES_JSON` – innholdet fra Firebase sin `google-services.json`
+Bridge trenger én privat GitHub repository secret:
 
-Bridge støtter:
+- `FIREBASE_SERVICE_ACCOUNT_JSON` – hele JSON-innholdet fra Firebase Admin SDK-servicekontoen.
 
-- `FIREBASE_SERVICE_ACCOUNT_JSON` – JSON fra en Firebase/Google Cloud service account med tilgang til Firebase Cloud Messaging
+Servicekonto eller privat nøkkel skal aldri legges inn i repositoryet.
 
-Ingen servicekonto eller privat nøkkel skal legges inn i repositoryet.
-
-Når begge secrets er lagt inn, bygger GitHub Actions en FCM-aktivert APK og Bridge kan sende push til topic for valgt korps.
+Når secretet finnes, kan Bridge sende push via FCM HTTP v1 til topic for valgt korps.
 
 ## Topic-format
 
@@ -41,7 +39,6 @@ KOVA Companion v0.4 bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord
 
 ## Neste steg
 
-- aktivere Firebase-prosjektet med app-id `no.juliannordli.kovacomp`
-- legge inn GitHub-secrets
-- sende første ekte push-test
+- legge inn `FIREBASE_SERVICE_ACCOUNT_JSON` som GitHub Actions-secret
+- sende første ekte push-test med `FCM smoke test`
 - senere autentisert KOVA-modul dersom offisiell API/OIDC-tilgang blir tilgjengelig
