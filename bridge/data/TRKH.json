@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:44:03+02:00",
+  "updatedAt": "2026-09-23T01:04:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
   "eventCount": 52,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 2
+    "changed": 0
   },
   "events": [
     {
@@ -46,7 +46,7 @@
       "id": "3f6a8abebe1710cf",
       "dateIso": "2026-09-20",
       "dateLabel": "søn. 20.9",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 1 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -178,19 +178,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
-      "id": "94006876f36aa31f",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "02:00",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 4 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
       "id": "24d916d17644a64e",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
-      "time": "02:15",
+      "time": "-> 02:15",
       "type": "Sanitetsvakt",
       "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -199,9 +190,18 @@
       "id": "be9facd349c8f5a3",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
-      "time": "17:00",
+      "time": "-> 17:00",
       "type": "Interne kurs",
       "description": "Kvalifisert søk og redning (KSOR) - Barmarkshelg Grunnkursrekken 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "94006876f36aa31f",
+      "dateIso": "2026-10-04",
+      "dateLabel": "søn. 4.10",
+      "time": "02:00",
+      "type": "Sanitetsvakt",
+      "description": "Backyard Ultra - Vakt 4 MSM - Tromsø Backyard Ultra",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {
@@ -271,7 +271,7 @@
       "id": "977d45b89b5db6e3",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 2 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -307,7 +307,7 @@
       "id": "1a919d714154f565",
       "dateIso": "2026-11-15",
       "dateLabel": "søn. 15.11",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 3 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -334,7 +334,7 @@
       "id": "d8a1ffc38045fde5",
       "dateIso": "2026-12-13",
       "dateLabel": "søn. 13.12",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Interne kurs",
       "description": "AFØR - stab helg 4 AFØR H2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -406,7 +406,7 @@
       "id": "47d7d547189386bd",
       "dateIso": "2027-06-20",
       "dateLabel": "søn. 20.6",
-      "time": "00:30",
+      "time": "-> 00:30",
       "type": "Sanitetsvakt",
       "description": "Stasjonær post - Solstrand Midnight Sun Marathon",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -415,7 +415,7 @@
       "id": "5d0de6e89ac2adc5",
       "dateIso": "2027-06-20",
       "dateLabel": "søn. 20.6",
-      "time": "02:00",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "Stasjonær post - Vangberg Midnight Sun Marathon",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -424,7 +424,7 @@
       "id": "1f41b0c8a7006c71",
       "dateIso": "2027-06-20",
       "dateLabel": "søn. 20.6",
-      "time": "02:00",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "Stasjonær post - kysten Midnight Sun Marathon",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -433,7 +433,7 @@
       "id": "22b66ee6721ffb45",
       "dateIso": "2027-06-20",
       "dateLabel": "søn. 20.6",
-      "time": "03:00",
+      "time": "-> 03:00",
       "type": "Sanitetsvakt",
       "description": "Målområdet og Mobile poster - Vakt 2 Midnight Sun Marathon",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -460,7 +460,7 @@
       "id": "7261fcd00bbbd7e8",
       "dateIso": "2027-08-28",
       "dateLabel": "lør. 28.8",
-      "time": "00:30",
+      "time": "-> 00:30",
       "type": "Sanitetsvakt",
       "description": "Vaktlag - Fredag Rakettnatt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
@@ -478,7 +478,7 @@
       "id": "4445aa28e1cadde3",
       "dateIso": "2027-08-29",
       "dateLabel": "søn. 29.8",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Vaktlag - Lørdag Rakettnatt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"

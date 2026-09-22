@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T00:44:04+02:00",
+  "updatedAt": "2026-09-23T01:04:32+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -93,7 +93,7 @@
       "file": "Fana_RKH.json",
       "status": "ok",
       "eventCount": 14,
-      "updatedAt": "2026-09-23T00:43:59+02:00"
+      "updatedAt": "2026-09-23T01:04:28+02:00"
     },
     {
       "name": "Gjøvik Røde Kors Hjelpekorps",
@@ -165,7 +165,7 @@
       "file": "Lunner_RKH.json",
       "status": "ok",
       "eventCount": 29,
-      "updatedAt": "2026-09-23T00:44:00+02:00"
+      "updatedAt": "2026-09-23T01:04:29+02:00"
     },
     {
       "name": "Moss Røde Kors Hjelpekorps",
@@ -174,7 +174,7 @@
       "file": "MossRKH.json",
       "status": "ok",
       "eventCount": 37,
-      "updatedAt": "2026-09-23T00:44:00+02:00"
+      "updatedAt": "2026-09-23T01:04:29+02:00"
     },
     {
       "name": "Mysen og Omegn Røde Kors Hjelpekorps",
@@ -201,7 +201,7 @@
       "file": "Nittedal_RKH.json",
       "status": "ok",
       "eventCount": 64,
-      "updatedAt": "2026-09-23T00:39:59+02:00"
+      "updatedAt": "2026-09-23T01:04:29+02:00"
     },
     {
       "name": "Nordhordland Røde Kors Hjelpekorps",
@@ -219,7 +219,7 @@
       "file": "OppSkiRKH.json",
       "status": "ok",
       "eventCount": 15,
-      "updatedAt": "2026-09-23T00:44:02+02:00"
+      "updatedAt": "2026-09-23T01:04:30+02:00"
     },
     {
       "name": "Oslo Røde Kors Hjelpekorps Beredskapsambulanse",
@@ -264,7 +264,7 @@
       "file": "Skedsmo_RKH.json",
       "status": "ok",
       "eventCount": 59,
-      "updatedAt": "2026-09-23T00:14:41+02:00"
+      "updatedAt": "2026-09-23T01:04:30+02:00"
     },
     {
       "name": "Ski Røde Kors Hjelpekorps Ambulanse",
@@ -309,7 +309,7 @@
       "file": "TRKH.json",
       "status": "ok",
       "eventCount": 52,
-      "updatedAt": "2026-09-23T00:44:03+02:00"
+      "updatedAt": "2026-09-23T01:04:31+02:00"
     },
     {
       "name": "Ullensaker Røde Kors Hjelpekorps",

@@ -6,7 +6,7 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:44:00+02:00",
+  "updatedAt": "2026-09-23T01:04:29+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
   "eventCount": 29,
   "changes": {
@@ -73,7 +73,7 @@
       "id": "4a28db80d1159c74",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
-      "time": "20:00",
+      "time": "-> 20:00",
       "type": "Eksterne møter",
       "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
@@ -199,7 +199,7 @@
       "id": "15bc052afaf46078",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
-      "time": "18:00",
+      "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "Scandic Lillehammer Hotel Røde Kors-helga",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
@@ -208,7 +208,7 @@
       "id": "09666a4cce69c75d",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
-      "time": "18:00",
+      "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
@@ -271,7 +271,7 @@
       "id": "669c17ad9b153ad4",
       "dateIso": "2027-01-24",
       "dateLabel": "søn. 24.1",
-      "time": "18:00",
+      "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "Gjøvik Fagsamling",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
