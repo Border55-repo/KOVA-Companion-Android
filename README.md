@@ -2,57 +2,63 @@
 
 Uoffisiell Android-app for offentlig KOVA-kalenderdata.
 
-## v0.4.0
+## v0.5.0
+- Trykk på pushvarsel åpner riktig aktivitet i appen
+- Egen detaljside for aktiviteter
+- Push bruker data-only FCM slik at appens filtre alltid respekteres
+- Varslingsfiltre for nye, endrede og fjernede aktiviteter
+- Varslingsfiltre per aktivitetstype
+- Bridge health/status vises i appen fra siste GitHub Actions-kjøring
 - KOVA Bridge sjekker offentlige KOVA-kalendere hvert 15. minutt
 - Android bruker Bridge først og direkte KOVA som fallback
-- Firebase Cloud Messaging-klient er bygget inn
-- Appen abonnerer automatisk på valgt hjelpekorps sitt FCM-topic når Firebase er konfigurert
-- Bridge kan sende push via FCM HTTP v1 når GitHub-secret er satt
-- Lokal 15-minutters synk fungerer fortsatt dersom Firebase ikke er konfigurert
-- Push-status vises i appen
+- Lokal WorkManager-synk hvert 15. minutt beholdes som sikkerhetsnett
 - Ullensaker, Eidsvoll/Hurdal, Nittedal og Skedsmo støttes
+
+## Pushflyt
+
+Produksjonsflyten er:
+
+1. KOVA Bridge oppdager en reell endring.
+2. Bridge sender data-only FCM via HTTP v1.
+3. Android mottar meldingen i KovaFirebaseMessagingService.
+4. Appen sjekker brukerens varslingstype- og aktivitetstypefiltre.
+5. Varslet opprettes lokalt med riktig event-ID og korps.
+6. Trykk på varselet åpner detaljvisningen for riktig aktivitet.
+
+Ved store endringer begrenses push-bursts for å unngå varselspam.
 
 ## Firebase-oppsett
 
-Firebase Android-klientkonfigurasjonen er registrert i appen for package `no.juliannordli.kovacomp`.
+Firebase Android-klientkonfigurasjonen er registrert i appen for package no.juliannordli.kovacomp.
 
-Bridge trenger én privat GitHub repository secret:
+Bridge bruker privat GitHub repository secret:
 
-- `FIREBASE_SERVICE_ACCOUNT_JSON` – hele JSON-innholdet fra Firebase Admin SDK-servicekontoen.
+- FIREBASE_SERVICE_ACCOUNT_JSON
 
 Servicekonto eller privat nøkkel skal aldri legges inn i repositoryet.
-
-Når secretet finnes, kan Bridge sende push via FCM HTTP v1 til topic for valgt korps.
 
 ## Topic-format
 
 App og Bridge bruker samme topic-format:
 
-- `kova_ullensakerrkh`
-- `kova_ehrkh`
-- `kova_nittedal_rkh`
-- `kova_skedsmo_rkh`
+- kova_ullensakerrkh
+- kova_ehrkh
+- kova_nittedal_rkh
+- kova_skedsmo_rkh
 
 ## Datasikkerhet
 
-KOVA Companion v0.4 bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord, Okta-cookies og private KOVA-data behandles ikke.
-
-## Neste steg
-
-- legge inn `FIREBASE_SERVICE_ACCOUNT_JSON` som GitHub Actions-secret
-- sende første ekte push-test med `FCM smoke test`
-- senere autentisert KOVA-modul dersom offisiell API/OIDC-tilgang blir tilgjengelig
-
+KOVA Companion bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord, Okta-cookies og private KOVA-data behandles ikke.
 
 ## Produksjonsstatus
 
-Firebase Cloud Messaging er aktivert og verifisert ende-til-ende.
+Firebase Cloud Messaging er verifisert ende-til-ende på fysisk Android-enhet.
 
-Produksjonsflyt:
-- KOVA Bridge kontrollerer offentlig KOVA-data hvert 15. minutt
-- Ved reelle endringer sender Bridge FCM via HTTP v1
-- Android-appen mottar push på topic for valgt hjelpekorps
-- Lokal WorkManager-synk hvert 15. minutt beholdes som fallback
-- Første verifiserte FCM smoke-test til Ullensaker ble mottatt på fysisk Android-enhet
+Bridge health leses fra siste kova-bridge.yml workflow-run i det offentlige GitHub-repoet. Appen viser om Bridge er grønn, kjører eller har feilet.
 
-Push sendes bare når Bridge oppdager nye, endrede eller fjernede aktiviteter.
+## Videre plan
+
+- signert release-APK/AAB og automatisk GitHub Release
+- versjonssjekk i appen
+- endringshistorikk/audit-logg i Bridge
+- flere hjelpekorps uten ny APK
