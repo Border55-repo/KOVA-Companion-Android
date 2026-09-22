@@ -269,7 +269,7 @@ fun KovaScreen(
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v" + BuildConfig.VERSION_NAME + " • Multi-korps",
+                            "Android v" + BuildConfig.VERSION_NAME + " • Mine aktiviteter",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
