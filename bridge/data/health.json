@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "bridge": "KOVA Companion Bridge",
+  "status": "ok",
+  "checkedAt": "2026-09-22T22:55:49+02:00",
+  "lastSuccessfulRunAt": "2026-09-22T22:55:49+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-22T22:55:49+02:00",
+  "consecutiveFailureRuns": 0,
+  "pendingPushes": 0,
+  "lastPushAt": null,
+  "lastPushCount": 0,
+  "organizations": [
+    {
+      "name": "Ullensaker Røde Kors Hjelpekorps",
+      "code": "UllensakerRKH",
+      "file": "UllensakerRKH.json",
+      "status": "ok",
+      "eventCount": 42,
+      "updatedAt": "2026-09-22T22:32:22+02:00",
+      "error": null
+    },
+    {
+      "name": "Eidsvoll/Hurdal Røde Kors Hjelpekorps",
+      "code": "EHRKH",
+      "file": "EHRKH.json",
+      "status": "ok",
+      "eventCount": 24,
+      "updatedAt": "2026-09-22T18:27:19+02:00",
+      "error": null
+    },
+    {
+      "name": "Nittedal Røde Kors Hjelpekorps",
+      "code": "Nittedal RKH",
+      "file": "Nittedal_RKH.json",
+      "status": "ok",
+      "eventCount": 59,
+      "updatedAt": "2026-09-22T17:14:43+02:00",
+      "error": null
+    },
+    {
+      "name": "Skedsmo Røde Kors Hjelpekorps",
+      "code": "Skedsmo RKH",
+      "file": "Skedsmo_RKH.json",
+      "status": "ok",
+      "eventCount": 60,
+      "updatedAt": "2026-09-22T15:56:58+02:00",
+      "error": null
+    }
+  ]
+}
