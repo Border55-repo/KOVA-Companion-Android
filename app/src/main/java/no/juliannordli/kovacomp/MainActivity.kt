@@ -720,6 +720,56 @@ fun KovaScreen(
                                     style = MaterialTheme.typography.bodySmall
                                 )
 
+                                HorizontalDivider()
+
+                                Text(
+                                    "Om KOVA Companion",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+
+                                Text(
+                                    "Uoffisiell app for offentlig KOVA-kalenderdata. Appen er ikke en offisiell Røde Kors- eller KOVA-app.",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    OutlinedButton(
+                                        modifier = Modifier.weight(1f),
+                                        onClick = {
+                                            context.startActivity(
+                                                Intent(
+                                                    Intent.ACTION_VIEW,
+                                                    Uri.parse(
+                                                        "https://github.com/Border55-repo/KOVA-Companion-Android/blob/main/docs/privacy-policy.md"
+                                                    )
+                                                )
+                                            )
+                                        }
+                                    ) {
+                                        Text("Personvern", maxLines = 1)
+                                    }
+
+                                    OutlinedButton(
+                                        modifier = Modifier.weight(1f),
+                                        onClick = {
+                                            context.startActivity(
+                                                Intent(
+                                                    Intent.ACTION_VIEW,
+                                                    Uri.parse(
+                                                        "https://github.com/Border55-repo/KOVA-Companion-Android"
+                                                    )
+                                                )
+                                            )
+                                        }
+                                    ) {
+                                        Text("Prosjekt", maxLines = 1)
+                                    }
+                                }
+
                                 OutlinedButton(
                                     enabled = !checkingUpdate,
                                     onClick = { checkForUpdate(showFeedback = true) }
