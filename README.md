@@ -2,32 +2,46 @@
 
 Uoffisiell Android-app for offentlig KOVA-kalenderdata.
 
-## v0.3.0
-- KOVA Bridge med sentral kontroll av offentlige KOVA-kalendere hvert 15. minutt
-- Android bruker Bridge JSON først
-- Automatisk fallback til direkte KOVA dersom Bridge er utilgjengelig
-- Datakilden vises i appen
-- Lokal bakgrunnssynk hvert 15. minutt
-- Ullensaker, Eidsvoll/Hurdal, Nittedal og Skedsmo
-- Neste aktivitet, filtre, kalenderhandling og KOVA-lenke
-- Varslingsvalg for nye, endrede og fjernede aktiviteter
-- Lokal cache for offline-visning
+## v0.4.0
+- KOVA Bridge sjekker offentlige KOVA-kalendere hvert 15. minutt
+- Android bruker Bridge først og direkte KOVA som fallback
+- Firebase Cloud Messaging-klient er bygget inn
+- Appen abonnerer automatisk på valgt hjelpekorps sitt FCM-topic når Firebase er konfigurert
+- Bridge kan sende push via FCM HTTP v1 når GitHub-secret er satt
+- Lokal 15-minutters synk fungerer fortsatt dersom Firebase ikke er konfigurert
+- Push-status vises i appen
+- Ullensaker, Eidsvoll/Hurdal, Nittedal og Skedsmo støttes
 
-## Bridge
-Bridge-koden ligger under `bridge/`.
+## Firebase-oppsett
 
-GitHub Actions-workflowen `kova-bridge.yml`:
-1. kjører parser-tester,
-2. henter offentlige KOVA-kalendere,
-3. lager normaliserte JSON-snapshots,
-4. committer kun når KOVA-data faktisk endres.
+Android-buildet støtter valgfri GitHub-secret:
 
-Android-klienten leser snapshots fra `bridge/data/`.
+- `GOOGLE_SERVICES_JSON` – innholdet fra Firebase sin `google-services.json`
+
+Bridge støtter:
+
+- `FIREBASE_SERVICE_ACCOUNT_JSON` – JSON fra en Firebase/Google Cloud service account med tilgang til Firebase Cloud Messaging
+
+Ingen servicekonto eller privat nøkkel skal legges inn i repositoryet.
+
+Når begge secrets er lagt inn, bygger GitHub Actions en FCM-aktivert APK og Bridge kan sende push til topic for valgt korps.
+
+## Topic-format
+
+App og Bridge bruker samme topic-format:
+
+- `kova_ullensakerrkh`
+- `kova_ehrkh`
+- `kova_nittedal_rkh`
+- `kova_skedsmo_rkh`
 
 ## Datasikkerhet
-Denne versjonen bruker bare offentlig KOVA-data. Den lagrer ikke Røde Kors-passord, Okta-cookies eller private KOVA-data.
+
+KOVA Companion v0.4 bruker fortsatt bare offentlig KOVA-data. Røde Kors-passord, Okta-cookies og private KOVA-data behandles ikke.
 
 ## Neste steg
-- Firebase Cloud Messaging for umiddelbare pushvarsler fra Bridge
-- Flere hjelpekorps
-- Senere autentisert KOVA-modul dersom offisiell API/OIDC-tilgang blir tilgjengelig
+
+- aktivere Firebase-prosjektet med app-id `no.juliannordli.kovacomp`
+- legge inn GitHub-secrets
+- sende første ekte push-test
+- senere autentisert KOVA-modul dersom offisiell API/OIDC-tilgang blir tilgjengelig
