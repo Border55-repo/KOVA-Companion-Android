@@ -77,9 +77,11 @@ object NotificationHelper {
         context: Context,
         title: String,
         text: String,
-        target: NotificationTarget? = null
+        target: NotificationTarget? = null,
+        changeId: String? = null
     ) {
         if (!allowed(context)) return
+        if (!NotificationDedup.shouldNotify(context, changeId)) return
 
         val notification = NotificationCompat.Builder(context, CHANNEL)
             .setSmallIcon(android.R.drawable.ic_dialog_info)
@@ -156,7 +158,8 @@ object NotificationHelper {
                         "KOVA-aktivitet endret",
                         it.new.description + ": " + it.old.dateLabel + " " + it.old.time +
                             " → " + it.new.dateLabel + " " + it.new.time,
-                        targetFor(organization, "changed", it.new)
+                        targetFor(organization, "changed", it.new),
+                        ChangeFingerprint.of(organization, "changed", it.new, it.old)
                     )
                 }
         }
@@ -170,7 +173,8 @@ object NotificationHelper {
                         context,
                         "Ny KOVA-aktivitet",
                         it.description + " • " + it.dateLabel + " " + it.time,
-                        targetFor(organization, "added", it)
+                        targetFor(organization, "added", it),
+                        ChangeFingerprint.of(organization, "added", it)
                     )
                 }
         }
@@ -184,7 +188,8 @@ object NotificationHelper {
                         context,
                         "KOVA-aktivitet fjernet",
                         it.description + " • " + it.dateLabel + " " + it.time,
-                        targetFor(organization, "removed", it)
+                        targetFor(organization, "removed", it),
+                        ChangeFingerprint.of(organization, "removed", it)
                     )
                 }
         }
