@@ -1,3 +1,13 @@
+## v0.11.0 – Mer korrekt KOVA-kalender
+
+- bevarer KOVA sin tidsmarkering for avslutning, for eksempel `-> 17:00`
+- viser slike tider som «Til 17:00» i appen
+- beholder aktiviteter uten oppgitt klokkeslett
+- viser uke og måned på aktivitetsdetaljer
+- sammenligner normalisert klokkeslett for å unngå falske endringsvarsler
+- kalenderintegrasjonen bruker normalisert klokkeslett
+- Bridge- og Android-testene er verifisert etter endringen
+
 ## v0.10.0 – v1.0-polering
 
 - første gangs onboarding
