@@ -94,6 +94,7 @@ fun KovaScreen() {
     var notifyChanged by remember { mutableStateOf(settings.notifyChanged) }
     var notifyRemoved by remember { mutableStateOf(settings.notifyRemoved) }
     var showPast by remember { mutableStateOf(settings.showPastEvents) }
+    var pushReady by remember(org) { mutableStateOf(false) }
 
     val permissionLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.RequestPermission()
@@ -136,6 +137,10 @@ fun KovaScreen() {
     LaunchedEffect(org) {
         events = repo.loadCache(org)
         dataSource = repo.lastSourceLabel(org)
+        pushReady = false
+        PushManager.subscribeToOrganization(context, org) { success ->
+            pushReady = success
+        }
         refresh()
     }
 
@@ -160,7 +165,7 @@ fun KovaScreen() {
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v0.3.0 • Bridge",
+                            "Android v0.4.0 • Bridge + Push",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
@@ -190,7 +195,7 @@ fun KovaScreen() {
                     )
                     AssistChip(
                         onClick = { },
-                        label = { Text("↻ 15 min") }
+                        label = { Text(if (pushReady) "Push: aktiv" else "Push: ikke konfigurert") }
                     )
                 }
             }
@@ -260,6 +265,15 @@ fun KovaScreen() {
 
                             Text(
                                 "Bridge prøves først. Hvis den ikke kan nås, går appen automatisk direkte til KOVA.",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+
+                            Text(
+                                if (pushReady) {
+                                    "FCM er aktivert for " + Organizations.nameFor(org) + "."
+                                } else {
+                                    "FCM er ikke aktivert i denne APK-en ennå. Lokal 15-minutters synk fortsetter å fungere."
+                                },
                                 style = MaterialTheme.typography.bodySmall
                             )
 
