@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
@@ -24,10 +25,13 @@ import androidx.compose.ui.unit.dp
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
+import androidx.core.app.NotificationManagerCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.time.LocalDate
+import java.text.DateFormat
+import java.util.Date
 import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
@@ -141,9 +145,16 @@ fun KovaScreen(
     var selectedKind by remember { mutableStateOf<String?>(null) }
     var selectedOrganization by remember { mutableStateOf<String?>(null) }
 
+    var notificationEnabled by remember {
+        mutableStateOf(NotificationManagerCompat.from(context).areNotificationsEnabled())
+    }
+
     val permissionLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.RequestPermission()
-    ) { }
+    ) {
+        notificationEnabled =
+            NotificationManagerCompat.from(context).areNotificationsEnabled()
+    }
 
     fun refreshOrganizations() {
         scope.launch {
@@ -427,27 +438,70 @@ fun KovaScreen(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 item {
-                    Row(
-                        modifier = Modifier.horizontalScroll(rememberScrollState()),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        AssistChip(
-                            onClick = { },
-                            label = { Text("Datakilde: " + dataSource) }
-                        )
-                        AssistChip(
-                            onClick = { },
-                            label = {
-                                Text(
-                                    if (pushReady) "Push: " + subscribedOrganizations.size + " korps"
-                                    else "Push: synker abonnement"
-                                )
+                    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                        Column(
+                            modifier = Modifier.padding(16.dp),
+                            verticalArrangement = Arrangement.spacedBy(6.dp)
+                        ) {
+                            Text(
+                                "Appstatus",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.Bold
+                            )
+                            Text("KOVA-data: " + dataSource)
+                            Text(
+                                "Bridge: " +
+                                    (bridgeHealth?.label() ?: "sjekker…")
+                            )
+                            Text(
+                                if (pushReady) {
+                                    "Push: aktiv for " +
+                                        subscribedOrganizations.size +
+                                        " korps"
+                                } else {
+                                    "Push: synkroniserer abonnement"
+                                }
+                            )
+                            Text(
+                                "Varsler: " +
+                                    if (notificationEnabled) "på" else "av"
+                            )
+
+                            val lastSync = repo.lastSync(org)
+                            Text(
+                                "Sist synk: " +
+                                    if (lastSync > 0L) {
+                                        DateFormat.getDateTimeInstance(
+                                            DateFormat.SHORT,
+                                            DateFormat.SHORT
+                                        ).format(Date(lastSync))
+                                    } else {
+                                        "ikke synkronisert"
+                                    }
+                            )
+
+                            if (!notificationEnabled) {
+                                OutlinedButton(
+                                    onClick = {
+                                        val intent = Intent(
+                                            Settings.ACTION_APP_NOTIFICATION_SETTINGS
+                                        ).apply {
+                                            putExtra(
+                                                Settings.EXTRA_APP_PACKAGE,
+                                                context.packageName
+                                            )
+                                        }
+                                        context.startActivity(intent)
+                                    }
+                                ) {
+                                    Text("Åpne varselinnstillinger")
+                                }
                             }
-                        )
-                        AssistChip(
-                            onClick = { refreshHealth() },
-                            label = { Text(bridgeHealth?.label() ?: "Bridge: sjekker…") }
-                        )
+
+                            TextButton(onClick = { refreshHealth() }) {
+                                Text("Oppdater status")
+                            }
+                        }
                     }
                 }
 
