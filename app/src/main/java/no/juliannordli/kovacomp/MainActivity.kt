@@ -812,6 +812,55 @@ private fun SettingSwitch(
 }
 
 @Composable
+private fun MyActivityRow(
+    favorite: FavoriteActivity,
+    organizationName: String,
+    onDetails: () -> Unit,
+    onRemove: () -> Unit,
+    onCalendar: () -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Column(
+            modifier = Modifier.padding(12.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            Text(
+                organizationName,
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.primary,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                favorite.event.description,
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold
+            )
+            Text(
+                favorite.event.dateLabel + " • " +
+                    favorite.event.time + " • " +
+                    favorite.event.type,
+                style = MaterialTheme.typography.bodySmall
+            )
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                TextButton(onClick = onDetails) {
+                    Text("Detaljer")
+                }
+                TextButton(onClick = onCalendar) {
+                    Text("＋ Kalender")
+                }
+                TextButton(onClick = onRemove) {
+                    Text("★ Fjern")
+                }
+            }
+        }
+    }
+}
+
+@Composable
 private fun EventCard(
     event: KovaEvent,
     isFavorite: Boolean,
