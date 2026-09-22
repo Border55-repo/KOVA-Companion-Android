@@ -1,6 +1,7 @@
 <resources>
     <style name="Theme.KOVACompanion" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="android:statusBarColor">#071626</item>
         <item name="android:navigationBarColor">#071626</item>
     </style>

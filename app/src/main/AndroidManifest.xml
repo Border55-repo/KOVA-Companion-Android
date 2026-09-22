@@ -6,6 +6,8 @@
     <application
         android:theme="@style/Theme.KOVACompanion"
         android:label="KOVA Companion"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:usesCleartextTraffic="false">
 
         <activity
