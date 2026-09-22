@@ -1,2 +1,2 @@
 manual sync trigger
-reason=verify-time-semantics-fix
+reason=verify-corrected-time-regex
