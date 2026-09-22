@@ -270,8 +270,8 @@ def parse_schedule(html: str, url: str, now: datetime | None = None) -> list[dic
             if match:
                 time_value = match.group(1)
                 break
-        if not time_value:
-            continue
+        if time_value is None:
+            time_value = ""
 
         for candidate in reversed(before_type):
             if DATE_RE.search(candidate):

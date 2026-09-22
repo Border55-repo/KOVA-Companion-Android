@@ -9,6 +9,9 @@ data class KovaEvent(
     val description: String,
     val sourceUrl: String
 ) {
+    val displayTime: String
+        get() = time.ifBlank { "Tid ikke oppgitt" }
+
     val semanticKey: String
         get() = (type.trim().lowercase() + "|" + description.trim().lowercase()).replace(Regex("\\s+"), " ")
 }

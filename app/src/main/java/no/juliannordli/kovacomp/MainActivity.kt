@@ -787,7 +787,7 @@ fun KovaScreen(
                                     style = MaterialTheme.typography.titleLarge,
                                     fontWeight = FontWeight.Bold
                                 )
-                                Text(event.dateLabel + " • " + event.time + " • " + event.type)
+                                Text(event.dateLabel + " • " + event.displayTime + " • " + event.type)
                                 Column(
                                     verticalArrangement = Arrangement.spacedBy(2.dp)
                                 ) {
@@ -1072,7 +1072,7 @@ private fun MyActivityRow(
             )
             Text(
                 favorite.event.dateLabel + " • " +
-                    favorite.event.time + " • " +
+                    favorite.event.displayTime + " • " +
                     favorite.event.type,
                 style = MaterialTheme.typography.bodySmall
             )
@@ -1121,7 +1121,7 @@ private fun EventCard(
                 fontWeight = FontWeight.SemiBold
             )
             Text(
-                event.dateLabel + " • " + event.time,
+                event.dateLabel + " • " + event.displayTime,
                 style = MaterialTheme.typography.bodyMedium
             )
             Column(
@@ -1226,7 +1226,7 @@ private fun EventDetailScreen(
 
                     Text("Type: " + event.type)
                     Text("Dato: " + event.dateLabel)
-                    Text("Tid: " + event.time)
+                    Text("Tid: " + event.displayTime)
                     Text("Korps: " + organizationName)
 
                     if (kind == "removed") {

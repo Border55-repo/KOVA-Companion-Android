@@ -5,9 +5,9 @@ import java.time.LocalDate
 
 object KovaParser {
     private val knownTypes = setOf(
-        "Aktivitet","Ambulansevakt","Båtvakt","Beredskap","Beredskapsvakt","Dugnad",
+        "Aksjon","Aktivitet","Ambulansevakt","Båtvakt","Beredskap","Beredskapsvakt","Dugnad",
         "Eksterne kurs","Eksterne møter","Forebygging","Interne kurs","Interne møter",
-        "Korpskveld","Øvelse","Profilering","Rådsmøte","Sanitetsvakt","Sommervakt","Transport","Vintervakt"
+        "Korpskveld","RØFF","Øvelse","Profilering","Rådsmøte","Sanitetsvakt","Sommervakt","Transport","Vintervakt"
     )
 
     fun parse(html: String, sourceUrl: String, today: LocalDate = LocalDate.now()): List<KovaEvent> {
@@ -23,8 +23,9 @@ object KovaParser {
             val typeIndex = cells.indexOfFirst { c -> knownTypes.any { it.equals(c, true) } }
             if (typeIndex < 0) continue
             val before = cells.take(typeIndex)
-            val time = before.lastOrNull { it.matches(Regex("(?:->\\s*)?\\d{1,2}:\\d{2}")) }
-                ?.replace("->","")?.trim() ?: continue
+            val time = before.lastOrNull {
+                it.matches(Regex("(?:->\\s*)?\\d{1,2}:\\d{2}"))
+            }?.replace("->", "")?.trim().orEmpty()
             before.lastOrNull { Regex(".*\\d{1,2}\\.\\d{1,2}.*").matches(it) }?.let { lastDateText = it }
             val dateText = lastDateText ?: continue
             val m = Regex("(\\d{1,2})\\.(\\d{1,2})").find(dateText) ?: continue
