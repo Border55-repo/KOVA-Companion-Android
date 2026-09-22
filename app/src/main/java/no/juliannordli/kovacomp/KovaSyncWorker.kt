@@ -19,7 +19,7 @@ class KovaSyncWorker(
             val firstSync = old.isEmpty()
             val diff = repo.diff(old, fresh)
             repo.saveCache(fresh)
-            if (!firstSync) NotificationHelper.postDiff(applicationContext, diff)
+            if (!firstSync) NotificationHelper.postDiff(applicationContext, diff, repo.organization())
         }.fold(
             onSuccess = { Result.success() },
             onFailure = { Result.retry() }
