@@ -114,6 +114,7 @@ fun KovaScreen(
     var typeFilter by remember { mutableStateOf("Alle") }
     var activitySearch by remember { mutableStateOf("") }
     var orgSearch by remember { mutableStateOf("") }
+    var calendarView by remember { mutableStateOf(false) }
 
     var notifyAdded by remember { mutableStateOf(settings.notifyAdded) }
     var notifyChanged by remember { mutableStateOf(settings.notifyChanged) }
@@ -886,6 +887,23 @@ fun KovaScreen(
 
                 item {
                     Row(
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        FilterChip(
+                            selected = !calendarView,
+                            onClick = { calendarView = false },
+                            label = { Text("Liste") }
+                        )
+                        FilterChip(
+                            selected = calendarView,
+                            onClick = { calendarView = true },
+                            label = { Text("Kalender") }
+                        )
+                    }
+                }
+
+                item {
+                    Row(
                         modifier = Modifier.horizontalScroll(rememberScrollState()),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
@@ -908,27 +926,100 @@ fun KovaScreen(
                     }
                 }
 
-                items(displayed, key = { it.id }) { event ->
-                    EventCard(
-                        event = event,
-                        isFavorite = favoriteStore.isFavorite(org, event),
-                        onFavorite = {
-                            val newValue = !favoriteStore.isFavorite(org, event)
-                            favoriteStore.setFavorite(org, event, newValue)
-                            favorites = favoriteStore.list()
-                        },
-                        onDetails = {
-                            selectedEvent = event
-                            selectedOrganization = org
-                            selectedKind = null
-                        },
-                        onCalendar = { CalendarHelper.addEvent(context, event) },
-                        onOpen = {
-                            context.startActivity(
-                                Intent(Intent.ACTION_VIEW, Uri.parse(event.sourceUrl))
+                if (calendarView) {
+                    var previousWeek: Int? = null
+
+                    displayed
+                        .groupBy { it.dateIso }
+                        .forEach { (_, dayEvents) ->
+                            val first = dayEvents.first()
+                            val date = runCatching {
+                                LocalDate.parse(first.dateIso)
+                            }.getOrNull()
+                            val week = date?.get(
+                                java.time.temporal.WeekFields.ISO.weekOfWeekBasedYear()
                             )
+
+                            if (week != null && week != previousWeek) {
+                                item(key = "week-" + week + "-" + first.dateIso) {
+                                    Text(
+                                        "Uke " + week,
+                                        style = MaterialTheme.typography.titleMedium,
+                                        color = MaterialTheme.colorScheme.primary,
+                                        fontWeight = FontWeight.Bold
+                                    )
+                                }
+                                previousWeek = week
+                            }
+
+                            item(key = "day-" + first.dateIso) {
+                                Text(
+                                    first.dateLabel,
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
+
+                            items(
+                                dayEvents,
+                                key = { "calendar-" + it.id }
+                            ) { event ->
+                                EventCard(
+                                    event = event,
+                                    isFavorite = favoriteStore.isFavorite(org, event),
+                                    onFavorite = {
+                                        val newValue =
+                                            !favoriteStore.isFavorite(org, event)
+                                        favoriteStore.setFavorite(org, event, newValue)
+                                        favorites = favoriteStore.list()
+                                    },
+                                    onDetails = {
+                                        selectedEvent = event
+                                        selectedOrganization = org
+                                        selectedKind = null
+                                    },
+                                    onCalendar = {
+                                        CalendarHelper.addEvent(context, event)
+                                    },
+                                    onOpen = {
+                                        context.startActivity(
+                                            Intent(
+                                                Intent.ACTION_VIEW,
+                                                Uri.parse(event.sourceUrl)
+                                            )
+                                        )
+                                    }
+                                )
+                            }
                         }
-                    )
+                } else {
+                    items(displayed, key = { it.id }) { event ->
+                        EventCard(
+                            event = event,
+                            isFavorite = favoriteStore.isFavorite(org, event),
+                            onFavorite = {
+                                val newValue = !favoriteStore.isFavorite(org, event)
+                                favoriteStore.setFavorite(org, event, newValue)
+                                favorites = favoriteStore.list()
+                            },
+                            onDetails = {
+                                selectedEvent = event
+                                selectedOrganization = org
+                                selectedKind = null
+                            },
+                            onCalendar = {
+                                CalendarHelper.addEvent(context, event)
+                            },
+                            onOpen = {
+                                context.startActivity(
+                                    Intent(
+                                        Intent.ACTION_VIEW,
+                                        Uri.parse(event.sourceUrl)
+                                    )
+                                )
+                            }
+                        )
+                    }
                 }
             }
         }
