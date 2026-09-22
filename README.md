@@ -10,6 +10,6 @@ Uoffisiell Android-prototype for offentlig KOVA-kalenderdata.
 - Bakgrunnssynk via WorkManager
 - Varsler ved nye, endrede og fjernede aktiviteter
 - Testvarsel
-- GitHub Actions bygger APK
+- GitHub Actions bygger APK automatisk ved push til main
 
 Ingen Røde Kors-passord, Okta-cookies eller private KOVA-data lagres i denne versjonen.
