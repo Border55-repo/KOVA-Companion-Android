@@ -1,9 +1,14 @@
-## v0.10.0 – v1.0-polering påbegynt
+## v0.10.0 – v1.0-polering
 
 - første gangs onboarding
 - forklarer korpsvalg, varsler, favoritter og personvern før normal bruk
 - varslingssamtykke flyttes inn i oppstartssekvensen
-- neste del av hovedplanen er appikon, splash og Google Play testklargjøring
+- adaptivt KOVA Companion-appikon og launch/splash-bakgrunn
+- aktivitetssøk og søk i hjelpekorps
+- Liste-, Uke- og Måned-visning
+- aktiviteter uten klokkeslett beholdes og legges som heldagsaktivitet i kalender
+- targetSdk/compileSdk 36 og oppdatert Android build toolchain for Google Play
+- personvern-, Data Safety- og Play-testdokumentasjon i `docs/`
 
 ## v0.9.5 – Søk, kalender og mobilforbedringer
 
@@ -125,8 +130,8 @@ KOVA Companion bruker bare offentlig KOVA-data. Røde Kors-passord, Okta-cookies
 
 ## Videre plan
 
-- bedre søk/filter i korpslisten
-- kalenderlignende uke-/månedsoppsett
-- søk i aktiviteter
-- Google Play intern/closed testing
-- ikon, splash, onboarding og v1.0-polering
+- signert v0.10.0 testrelease
+- fysisk test av onboarding, ikon, Liste/Uke/Måned og aktiviteter uten klokkeslett
+- Google Play intern testing
+- lukket testing og feilretting
+- siste v1.0-polering og produksjonsklar release
