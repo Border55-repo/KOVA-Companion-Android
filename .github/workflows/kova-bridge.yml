@@ -41,7 +41,7 @@ jobs:
 
       - name: Commit changed snapshots
         run: |
-          if git diff --quiet -- bridge/data; then
+          if [ -z "$(git status --porcelain -- bridge/data)" ]; then
             echo "No KOVA changes."
             exit 0
           fi
