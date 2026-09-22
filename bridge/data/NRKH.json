@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Nordhordland Røde Kors Hjelpekorps",
+    "code": "NRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:20+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
+  "eventCount": 74,
+  "changes": {
+    "added": 39,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "116de3ac283d2c37",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Gjennomgang av ny søksveileder Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "ed1af5aa365a88b9",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Temakveld - Førstehjelp Seim Helselag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f3199f07a4f5a0d9",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "10:00",
+      "type": "Profilering",
+      "description": "Åpen brannstasjon! Profilering 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "e09094a3f6f73ffe",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt - Eldsfjellturen NHIL",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "9904c797f1a999ac",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "12:30",
+      "type": "Eksterne kurs",
+      "description": "Øvelse for industrivern FRAMO Øvelse industrivern FRAMO",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "29ea8a99123e6cd2",
+      "dateIso": "2026-09-21",
+      "dateLabel": "man. 21.9",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøte 8 Lokalrådsmøte 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "08882f2623b36d00",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Førtehjelpstrening Alver kyrkje Førstehjelpskurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "bf38fe3cb3fa5580",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Omvisning, Brannstasjonen Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "2d6205149146ea65",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "4ee8b0f86d134cb1",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "09:00",
+      "type": "Profilering",
+      "description": "Landbruksdagane Austrheim Landbruksdagane på Austrheim",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "721bee86ff78a2f0",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "12:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "49e00e8cb69fb354",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "d989db537668ec7e",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "01:30",
+      "type": "Sanitetsvakt",
+      "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "7e17483aa1aa6004",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Områdemøte 2026 - AÅ RKH Områdemøte 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "d0c56b2c195f6e0c",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "7237ef0d60d396e8",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Høstsamling! Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "3471c00bcbaa86f8",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Dåp av RC Nordhordland RC Nordhordland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f873077196bd9fe6",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "73d274a89294c7ce",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "12:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f83515ec7ab67ea6",
+      "dateIso": "2026-10-05",
+      "dateLabel": "man. 5.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "656bd73e379df0d9",
+      "dateIso": "2026-10-07",
+      "dateLabel": "ons. 7.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Samband Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "2cf393678ee00705",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for påmelding! Norges Handelshøyskole Studentsamfunn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "75039f13c1f6f33d",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "6c3838db6984d308",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for påmelding! Norges Handelshøyskole Studentsamfunn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "25b7b3b423199b34",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "12:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "25868ea0f38d9082",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "12:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "b8b4dd7f25b657f1",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "3ba7659ebe62d8c6",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Felleskveld med Omsorg! Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "d641cf31848cd55e",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "5fda44f5149dcc2c",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "12:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "01ae8fdbf4235655",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Norge øver - Alver Norge øver!",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f246779a4d6d2985",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "7b97101f5609301a",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "182b17fdc1e9b78a",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Norge øver - Masfjorden Norge øver!",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "2fbb24f196371892",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Bil og dekkskift Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "00b31a69f9f5bee6",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Norge øver - Austrheim + Fedje + Modalen Norge øver!",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "c5eb7b5c16afd20e",
+      "dateIso": "2026-10-22",
+      "dateLabel": "tor. 22.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "fa8cabadcd3028c2",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "12:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "55dd8d6f5030c991",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "be9febfbc069ce79",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "e0a1c29856bb5f06",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Teori KSOR Teori",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "40bd4bf2df0445e5",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema kommer Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "962c9cb42f8fd6f6",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "18:00",
+      "type": "Båtvakt",
+      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "47f0661b95a45286",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f6d5c53a5d87c866",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Totalberedskapsdagen i Knarvik senter Totalberedskapsdagen 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "60e59674018a2e32",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Høst 2026 KSOR - Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "5f46130cf7e4b6b8",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "15:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Høst 2026 KSOR - Høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "84ba09375e38e1ed",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "12:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "585cc908a9462b1f",
+      "dateIso": "2026-11-04",
+      "dateLabel": "ons. 4.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Dykkerelatert førstehjelp og praktiske redningstips Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "6fe33b9002dfb8be",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "Gunslingers - Hordabøhallen Hordabø IL",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "8a32551596262d27",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "02:30",
+      "type": "Sanitetsvakt",
+      "description": "Gunslingers - Hordabøhallen Hordabø IL",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "337faf43239f845d",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "69f63df4e8d8e544",
+      "dateIso": "2026-11-11",
+      "dateLabel": "ons. 11.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Klargjøring til vinter Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "a60e5804a1d1f5c2",
+      "dateIso": "2026-11-13",
+      "dateLabel": "fre. 13.11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Helg 1 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "3f4dd5a4adba08a5",
+      "dateIso": "2026-11-14",
+      "dateLabel": "lør. 14.11",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Helg 1 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "8c8160edaefcb6ce",
+      "dateIso": "2026-11-15",
+      "dateLabel": "søn. 15.11",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Helg 1 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "5464769b6e5c1fff",
+      "dateIso": "2026-11-16",
+      "dateLabel": "man. 16.11",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "e4d3a44e796aee4a",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema kommer Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f1cf27023bf0228b",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Vaksinasjonsvakt Alver kommune",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "84334ee5bf0fa542",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs Førstehjelpskurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "35e4cfb461dd4563",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Vaksinasjonsvakt Alver kommune",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "8509881f1744e41f",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Vaksinasjonsvakt Alver kommune",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "3f63524efa9fe9ae",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "08:30",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs RNH Førstehjelpskurs Region Nordhordland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "b016591d6e5e808f",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "12:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs RNH Førstehjelpskurs Region Nordhordland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f052a1ea940b5b92",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema kommer Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f1d8a69841e7a60a",
+      "dateIso": "2026-11-27",
+      "dateLabel": "fre. 27.11",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternt førstehjelpskurs RNH Førstehjelpskurs Region Nordhordland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "3173631a4652b792",
+      "dateIso": "2026-11-27",
+      "dateLabel": "fre. 27.11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Helg 2 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "5e78cc36777474c9",
+      "dateIso": "2026-11-28",
+      "dateLabel": "lør. 28.11",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Helg 2 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "45540536f807a340",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Helg 2 - Kvalifisert Førstehjelp (KFØR) Kvalifisert førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "f5c3786f62318440",
+      "dateIso": "2026-12-02",
+      "dateLabel": "ons. 2.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Medlemskveld - Julepynting Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "116001ab0cdcd281",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Juleavslutning! Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "b67611277ac2908b",
+      "dateIso": "2026-12-31",
+      "dateLabel": "tor. 31.12",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt - Bergen Sentrum - (Tidspunkt ikke bekreftet) Nyttårsvakt 2026!",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "96e78522842215f0",
+      "dateIso": "2027-01-01",
+      "dateLabel": "fre. 1.1",
+      "time": "03:00",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt - Bergen Sentrum - (Tidspunkt ikke bekreftet) Nyttårsvakt 2026!",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "2387b2ece6d3da06",
+      "dateIso": "2027-08-22",
+      "dateLabel": "søn. 22.8",
+      "time": "07:00",
+      "type": "Sanitetsvakt",
+      "description": "Bjørn West-Marsjen 2027 Bjørn West-Marsjen 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    }
+  ]
+}

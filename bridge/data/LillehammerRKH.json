@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Lillehammer Røde Kors Hjelpekorps",
+    "code": "LillehammerRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:19+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
+  "eventCount": 8,
+  "changes": {
+    "added": 8,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "15893c8b6ef48175",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "dd4c4f04a86f5681",
+      "dateIso": "2026-09-19",
+      "dateLabel": "lør. 19.9",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Lillehammer rulleskirenn/ Rekrutteringsdag skikrets Lillehammer rulleskirenn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "226b85fae0e12c3d",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Punkter fra: Nasjonal veileder for redningstjenesten ved søk etter savnet person på land",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "ab9a6f00cfa49f7c",
+      "dateIso": "2026-10-15",
+      "dateLabel": "tor. 15.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Samband",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "ac0b2e93b36bf1bd",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Forberedelse til vintertjeneste",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "8919d71c9a687d6f",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Ettersøkning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "68ada4909955675a",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Klargjøring av hytta til vintertjeneste",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "3c93e7841a99029e",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Medlemskveld Vinterøvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    }
+  ]
+}

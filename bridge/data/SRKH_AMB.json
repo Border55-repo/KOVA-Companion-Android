@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Ski Røde Kors Hjelpekorps Ambulanse",
+    "code": "SRKH AMB",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:21+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB",
+  "eventCount": 14,
+  "changes": {
+    "added": 2,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "dce036aac4903160",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "d47333c1809bdcf6",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "a247e9a6fa970921",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "2e0d406643f96edf",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "MC Arrangement Enebakk",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "412fc37dc2eb6eb3",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "2816fdb5c16014d9",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "5110ad9d07457c82",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "1ab979ad1a86f86b",
+      "dateIso": "2026-11-27",
+      "dateLabel": "fre. 27.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "404b1ad1c160ed8f",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "ab680f1d0ce352a9",
+      "dateIso": "2026-12-19",
+      "dateLabel": "lør. 19.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "cdc9e9ca4a2a049e",
+      "dateIso": "2026-12-21",
+      "dateLabel": "man. 21.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "7e3cb87baa063157",
+      "dateIso": "2027-01-08",
+      "dateLabel": "fre. 8.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "523ebaf7e51a5d01",
+      "dateIso": "2027-01-10",
+      "dateLabel": "søn. 10.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    },
+    {
+      "id": "6598aa9099636ab6",
+      "dateIso": "2027-01-30",
+      "dateLabel": "lør. 30.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+    }
+  ]
+}

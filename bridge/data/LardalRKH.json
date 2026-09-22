@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Lardal Røde Kors Hjelpekorps",
+    "code": "LardalRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:19+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LardalRKH",
+  "eventCount": 0,
+  "changes": {
+    "added": 0,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": []
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Bærum Røde Kors Hjelpekorps",
+    "code": "BærumRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:17+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
+  "eventCount": 40,
+  "changes": {
+    "added": 19,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "1937b637e151a84f",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Gjest: Norsk Radio Relæ Liga (NRRL) Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "097e7dbb025e7ead",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Stabæk - Sogndal OBOS-ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "7181d45b7c061649",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: A$AP Rocky",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "a9d9fb6bf1364f53",
+      "dateIso": "2026-09-25",
+      "dateLabel": "fre. 25.9",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "a3fe21965f68a22b",
+      "dateIso": "2026-09-27",
+      "dateLabel": "søn. 27.9",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "e207444e2844c074",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Søksøvelse på korpshytta Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "cf2cb1d3db3c5046",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: Duran Duran",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "359d704df64eb4c4",
+      "dateIso": "2026-10-07",
+      "dateLabel": "ons. 7.10",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "v/OUS RK34: Fagkveld ambulanse v/OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "150d77e7316cae90",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Teorikveld (Gartnerveien 8, Bekkestua) KFØR Asker og Bærum - info kommer",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "a023c25b66f1e6c1",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Stabæk - Strømmen OBOS-ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "0bbcd30718976ea0",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "db87d0633fbec830",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Teorikveld (Gartnerveien 8, Bekkestua) KFØR Asker og Bærum - info kommer",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "58c7644efae03f3b",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Stabæk - Sandnes Ulf OBOS-ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "cb633eb70255124a",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Fysisk helg (Elias Smith vei 1, Sandvika) KFØR Asker og Bærum - info kommer",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "829132ac0eee4d7b",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Fysisk helg (Elias Smith vei 1, Sandvika) KFØR Asker og Bærum - info kommer",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "f33c68722b457d97",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "3dbc0e3688218034",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Fysisk helg (Elias Smith vei 1, Sandvika) KFØR Asker og Bærum - info kommer",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "3fd6edae99d951dc",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "1a6b1e19d71b76d7",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Hot Wheels Stunt Show",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "2c8e8b1ac48cf092",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Stabæk - Odd OBOS-ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "7d8726e8f68077c9",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Hot Wheels Stunt Show",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "f5503771d618eaef",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer. Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "cc38f317e168d442",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "fe42d1ab517b9f23",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "9d684f8f0b1bd3af",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Stabæk - Strømsgodset OBOS-ligaen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "1ec245f262c33b78",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: Don Toliver",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "dd621c73d4609d75",
+      "dateIso": "2026-11-11",
+      "dateLabel": "ons. 11.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer. Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "8f4a66bc1f6e0ad0",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: J. Cole",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "e166451f7409127d",
+      "dateIso": "2026-11-14",
+      "dateLabel": "lør. 14.11",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: The Prodigy",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "b8ead9d916373ce9",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer. Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "4b6dfc23cd3e19ae",
+      "dateIso": "2026-11-28",
+      "dateLabel": "lør. 28.11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "f50d9cb60bd8df42",
+      "dateIso": "2026-11-30",
+      "dateLabel": "man. 30.11",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "cbc0a6073e4dafcb",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer. Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "7275d479ec090f53",
+      "dateIso": "2026-12-18",
+      "dateLabel": "fre. 18.12",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "3c899095a020ed99",
+      "dateIso": "2026-12-20",
+      "dateLabel": "søn. 20.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "e6b17b3fb589fcc9",
+      "dateIso": "2027-01-09",
+      "dateLabel": "lør. 9.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "fb973c21664c4419",
+      "dateIso": "2027-01-11",
+      "dateLabel": "man. 11.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "d611bc98e335ec0e",
+      "dateIso": "2027-01-29",
+      "dateLabel": "fre. 29.1",
+      "time": "18:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "96697dcf4fe980b7",
+      "dateIso": "2027-01-31",
+      "dateLabel": "søn. 31.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "b112d6f1f0711fa8",
+      "dateIso": "2027-03-24",
+      "dateLabel": "ons. 24.3",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "v/OUS RK34: Fagkveld ambulanse v/OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    }
+  ]
+}

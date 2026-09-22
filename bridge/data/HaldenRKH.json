@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 2,
+  "organization": {
+    "name": "Halden Røde Kors Hjelpekorps",
+    "code": "HaldenRKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-22T23:31:18+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
+  "eventCount": 46,
+  "changes": {
+    "added": 33,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "58abd13ed48d2bd4",
+      "dateIso": "2026-06-09",
+      "dateLabel": "ons. 9.6",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "Generalprøve (tilstede i Festningen kl.21-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "ebdd5ba722993ebc",
+      "dateIso": "2026-06-11",
+      "dateLabel": "fre. 11.6",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Premiere (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "5a7393f1a0b90d06",
+      "dateIso": "2026-06-12",
+      "dateLabel": "lør. 12.6",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "e0490be1f050681d",
+      "dateIso": "2026-06-18",
+      "dateLabel": "fre. 18.6",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "323595c0127b7b44",
+      "dateIso": "2026-06-19",
+      "dateLabel": "lør. 19.6",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "7a74713e7e4efd1a",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Kun for de med LSOR kompetanse - Fysisk Lagledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "39bf68d2615fea32",
+      "dateIso": "2026-09-16",
+      "dateLabel": "ons. 16.9",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Aksjonsgruppemøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "e1fd931379c3f878",
+      "dateIso": "2026-09-17",
+      "dateLabel": "tor. 17.9",
+      "time": "18:30",
+      "type": "Øvelse",
+      "description": "Avlyst Fagdag for ambulansepersonell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "4769017c2a89e593",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Lørdag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "f83bf57209f5137b",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "09:45",
+      "type": "Aktivitet",
+      "description": "Vise frem ambulansen til barnefamilier, tilstede på brannstasjonen kl.10-14 Åpen dag på brannstasjonen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "788972c119c52aa2",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Lørdag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "07e8b756dd948b91",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "143930cf090c89df",
+      "dateIso": "2026-09-18",
+      "dateLabel": "fre. 18.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Lørdag tredje vakt (tilstede Halden Arena 17-21) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "21fb87f6f9cca033",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Søndag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "580262987fcc1bf1",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Søndag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "b0b9ee5a87019f4a",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Søndag tredje vakt (tilstede Halden Arena 17-21) ble dimmitert tidligere Sanitetsvakt: Kretsmesterskap i turn",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "54ddc0d6ab0ac87c",
+      "dateIso": "2026-09-20",
+      "dateLabel": "søn. 20.9",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "997a19bc34fcff40",
+      "dateIso": "2026-09-22",
+      "dateLabel": "tir. 22.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "VHF samband, Arve Hermansen kommer (Jörg ansvar) Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "679905e6835f81f7",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "15:00",
+      "type": "Interne møter",
+      "description": "Møte i Halden Røde Kors' beredskapsutvalg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "040f9c9f16d0677e",
+      "dateIso": "2026-09-29",
+      "dateLabel": "tir. 29.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Høstferie - de som vil kan møtes på huset for sosialt (Ole ansvar) Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "6a9523487d86c417",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Møte om KFØR Samarbeidsmøte med D-råd og korpsene",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "317ef91598a77640",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema mangler. Jonas ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "7df182a692d55491",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "173022b4aa067d88",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "790a8d23b61fbbdc",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Røde Kors rebus. Thea ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "244604379a4b6800",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "78368b87783c6e5a",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "fb39628f810eb9aa",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "D-rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "12a6046b6e5de03d",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "568f91f10092f47f",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "When shits hits the fan (Ida ansvar) Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "0ea5fdd77c7c4841",
+      "dateIso": "2026-10-21",
+      "dateLabel": "ons. 21.10",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Aksjonsgruppemøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "b6346fc90798b9f1",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "ATV. Ole ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "32d29ce3dfc9e966",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Beredskapssamling ØRK (Robin ansvar) Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "d0e1bb815c3e4749",
+      "dateIso": "2026-11-10",
+      "dateLabel": "tir. 10.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema mangler. Mathilde ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "218e509a839cc0b3",
+      "dateIso": "2026-11-11",
+      "dateLabel": "ons. 11.11",
+      "time": "09:30",
+      "type": "Øvelse",
+      "description": "Øvelse med IFE",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "a62045b49f1c347f",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Felles korpskveld med alle korpsene (D-rådet) Jörg ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "51835a9739c7290d",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Kun for de med LSOR kompetanse - Fysisk Lagledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "29bf733b721f9c57",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:30",
+      "type": "Øvelse",
+      "description": "Fagdag for ambulansepersonell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "54d68fec9b008118",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Tema mangler. Jonas ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "28194d8a5321d1c8",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "D-rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "2051834d0851509e",
+      "dateIso": "2026-11-28",
+      "dateLabel": "lør. 28.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "På Fredriksten Hotell. Påmeldingsfrist 25.oktober. Julebord Halden Røde Kors",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "b6c4c9e899ebed1c",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Brr! It's cold in here! (hypotermi) Mathilde ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "734fe7cb705f1253",
+      "dateIso": "2026-12-02",
+      "dateLabel": "ons. 2.12",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "3e2d453eb0e2033c",
+      "dateIso": "2026-12-02",
+      "dateLabel": "ons. 2.12",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Aksjonsgruppemøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "a629dcf86f7fc737",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Kommunikasjon. Ole ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "ce5858796670f55b",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Grøtfest med oppsummering av året (Ida ansvar) Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    }
+  ]
+}
