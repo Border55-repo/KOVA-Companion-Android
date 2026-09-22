@@ -759,39 +759,71 @@ fun KovaScreen(
                                     fontWeight = FontWeight.Bold
                                 )
                                 Text(event.dateLabel + " • " + event.time + " • " + event.type)
-                                Row(
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                Column(
+                                    verticalArrangement = Arrangement.spacedBy(2.dp)
                                 ) {
-                                    TextButton(onClick = {
-                                        selectedEvent = event
-                                        selectedOrganization = org
-                                        selectedKind = null
-                                    }) {
-                                        Text("Detaljer")
-                                    }
-                                    TextButton(onClick = {
-                                        val newValue = !favoriteStore.isFavorite(org, event)
-                                        favoriteStore.setFavorite(org, event, newValue)
-                                        favorites = favoriteStore.list()
-                                    }) {
-                                        Text(
-                                            if (favoriteStore.isFavorite(org, event)) "★ Favoritt"
-                                            else "☆ Favoritt"
-                                        )
-                                    }
-                                    TextButton(
-                                        onClick = { CalendarHelper.addEvent(context, event) }
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(4.dp)
                                     ) {
-                                        Text("＋ Kalender")
-                                    }
-                                    TextButton(
-                                        onClick = {
-                                            context.startActivity(
-                                                Intent(Intent.ACTION_VIEW, Uri.parse(event.sourceUrl))
+                                        TextButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                selectedEvent = event
+                                                selectedOrganization = org
+                                                selectedKind = null
+                                            }
+                                        ) {
+                                            Text("Detaljer", maxLines = 1)
+                                        }
+                                        TextButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                val newValue =
+                                                    !favoriteStore.isFavorite(org, event)
+                                                favoriteStore.setFavorite(
+                                                    org,
+                                                    event,
+                                                    newValue
+                                                )
+                                                favorites = favoriteStore.list()
+                                            }
+                                        ) {
+                                            Text(
+                                                if (favoriteStore.isFavorite(org, event)) {
+                                                    "★ Favoritt"
+                                                } else {
+                                                    "☆ Favoritt"
+                                                },
+                                                maxLines = 1
                                             )
                                         }
+                                    }
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(4.dp)
                                     ) {
-                                        Text("KOVA")
+                                        TextButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                CalendarHelper.addEvent(context, event)
+                                            }
+                                        ) {
+                                            Text("＋ Kalender", maxLines = 1)
+                                        }
+                                        TextButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                context.startActivity(
+                                                    Intent(
+                                                        Intent.ACTION_VIEW,
+                                                        Uri.parse(event.sourceUrl)
+                                                    )
+                                                )
+                                            }
+                                        ) {
+                                            Text("KOVA", maxLines = 1)
+                                        }
                                     }
                                 }
                             }
@@ -962,20 +994,45 @@ private fun EventCard(
                 event.dateLabel + " • " + event.time,
                 style = MaterialTheme.typography.bodyMedium
             )
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            Column(
+                verticalArrangement = Arrangement.spacedBy(2.dp)
             ) {
-                TextButton(onClick = onFavorite) {
-                    Text(if (isFavorite) "★" else "☆")
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    TextButton(
+                        modifier = Modifier.weight(1f),
+                        onClick = onDetails
+                    ) {
+                        Text("Detaljer", maxLines = 1)
+                    }
+                    TextButton(
+                        modifier = Modifier.weight(1f),
+                        onClick = onFavorite
+                    ) {
+                        Text(
+                            if (isFavorite) "★ Favoritt" else "☆ Favoritt",
+                            maxLines = 1
+                        )
+                    }
                 }
-                TextButton(onClick = onDetails) {
-                    Text("Detaljer")
-                }
-                TextButton(onClick = onCalendar) {
-                    Text("＋ Kalender")
-                }
-                TextButton(onClick = onOpen) {
-                    Text("KOVA")
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    TextButton(
+                        modifier = Modifier.weight(1f),
+                        onClick = onCalendar
+                    ) {
+                        Text("＋ Kalender", maxLines = 1)
+                    }
+                    TextButton(
+                        modifier = Modifier.weight(1f),
+                        onClick = onOpen
+                    ) {
+                        Text("KOVA", maxLines = 1)
+                    }
                 }
             }
         }
@@ -1050,19 +1107,36 @@ private fun EventDetailScreen(
                         )
                     }
 
-                    Row(
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    Column(
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        Button(onClick = onFavorite) {
-                            Text(if (isFavorite) "★ Favoritt" else "☆ Favoritt")
-                        }
-                        if (kind != "removed") {
-                            OutlinedButton(onClick = onCalendar) {
-                                Text("＋ Kalender")
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Button(
+                                modifier = Modifier.weight(1f),
+                                onClick = onFavorite
+                            ) {
+                                Text(
+                                    if (isFavorite) "★ Favoritt" else "☆ Favoritt",
+                                    maxLines = 1
+                                )
+                            }
+                            if (kind != "removed") {
+                                OutlinedButton(
+                                    modifier = Modifier.weight(1f),
+                                    onClick = onCalendar
+                                ) {
+                                    Text("＋ Kalender", maxLines = 1)
+                                }
                             }
                         }
-                        OutlinedButton(onClick = onOpen) {
-                            Text("Åpne KOVA")
+                        OutlinedButton(
+                            modifier = Modifier.fillMaxWidth(),
+                            onClick = onOpen
+                        ) {
+                            Text("Åpne KOVA", maxLines = 1)
                         }
                     }
                 }
