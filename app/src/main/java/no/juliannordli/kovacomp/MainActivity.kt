@@ -165,7 +165,7 @@ fun KovaScreen() {
                     Column {
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
-                            "Android v0.4.0 • Bridge + Push",
+                            "Android v0.4.1 • Firebase aktiv",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
