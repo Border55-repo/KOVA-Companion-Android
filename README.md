@@ -2,27 +2,55 @@
 
 Uoffisiell Android-app for offentlig KOVA-kalenderdata.
 
+## v0.8.0 – Alle korps / dynamisk register
+
+KOVA Companion henter nå korpslisten dynamisk fra KOVAs offentlige organisasjonsside.
+
+### Korpsregister
+- Bridge oppdager KOVA-enheter automatisk fra `https://www.kova.no/Events.aspx`
+- produksjonstesten fant 42 offentlige KOVA-enheter
+- 38 av disse er klassifisert som hjelpekorps
+- appen viser alle tilgjengelige hjelpekorps i korpsvelgeren
+- nye korps som dukker opp i offentlig KOVA kan legges til registeret uten ny Android-versjon
+- de fire opprinnelige korpsene beholdes som offline-fallback dersom registeret ikke kan hentes
+
+### Flere korps samtidig
+- brukeren kan velge flere hjelpekorps under Innstillinger
+- Firebase abonnerer på ett topic per valgt korps
+- FCM kontrolleres i tillegg lokalt mot valgt korps
+- hovedkalender og push-abonnement er nå separate konsepter
+- du kan for eksempel vise Ullensaker som hovedkalender og samtidig få varsler fra andre korps
+
+### Skalerbar polling
+- Ullensaker, Eidsvoll/Hurdal, Nittedal og Skedsmo beholder 5-minutters prioritet
+- øvrige offentlige KOVA-enheter fordeles i fire stabile Bridge-bøtter
+- hvert ikke-prioritert korps kontrolleres omtrent hvert 20. minutt
+- dette gir landsdekkende støtte uten å hente alle kalendere hvert 5. minutt
+- Android-fallbacken fordeler også valgte korps i rotasjon og prioriterer korpset som er åpent i appen
+
+### Sikker onboarding
+- første snapshot for et nytt korps behandles alltid som baseline
+- eksisterende kalenderaktiviteter blir ikke varslet som nye når korpset tas inn første gang
+- baseline-historikk blir ikke lagt i push-kø
+- produksjonstest bekreftet 0 falske push og 0 pending etter onboarding
+
 ## v0.7.0 – Bridge Reliability
 
-Denne versjonen gjør varslingskjeden robust nok for daglig bruk.
-
 ### Varslingssikkerhet
-- samme KOVA-endring får en stabil `changeId`
+- samme KOVA-endring får stabil `changeId`
 - Android og Bridge beregner samme fingerprint
 - FCM og lokal WorkManager-fallback dedupliseres mot hverandre
-- samme aktivitet skal derfor ikke varsles to ganger selv om begge kanalene oppdager endringen
 - Firebase har retry/backoff ved HTTP 429/5xx
 
 ### Varig push-kø
-- nye/endret/fjernede aktiviteter legges i en persistent push-kø
+- nye/endret/fjernede aktiviteter legges i persistent push-kø
 - hvis Firebase feiler, ligger endringen som `pending`
 - neste Bridge-kjøring prøver igjen selv om KOVA-snapshotet allerede er oppdatert
 - sendte change IDs beholdes som dedup-historikk
 
 ### Endringshistorikk
-- Bridge lagrer faktisk observerte KOVA-endringer per korps under `bridge/data/history/`
+- Bridge lagrer observerte KOVA-endringer per korps under `bridge/data/history/`
 - historikken inneholder changeId, tidspunkt, type endring og aktivitetsdata
-- historikken begrenses for å unngå ukontrollert repo-vekst
 
 ### Sikrere KOVA-henting
 - KOVA-henting bruker retry/backoff
@@ -35,32 +63,25 @@ Denne versjonen gjør varslingskjeden robust nok for daglig bruk.
 - `bridge/data/health.json` viser faktisk Bridge-status
 - status: ok / degraded / error
 - siste vellykkede kjøring
-- siste helt vellykkede kjøring
 - antall påfølgende feilkjøringer
 - antall ventende push-meldinger
 - siste push-tidspunkt
-- status per hjelpekorps
-- Android leser health-filen direkte og bruker GitHub Actions bare som fallback
+- status per pollrunde
+- Android leser health-filen direkte og bruker GitHub Actions som fallback
 
-## Polling
-
-KOVA Bridge kontrollerer offentlig KOVA hvert 5. minutt.
-
-KOVA kan ha en publiseringsforsinkelse mellom lagring i KOVA og tidspunktet arrangementet blir synlig i offentlig kalender. Bridge kan først oppdage aktiviteten når den offentlige kalenderen faktisk viser den.
-
-Lokal Android WorkManager-synk kjører fortsatt hvert 15. minutt som fallback.
-
-## Pushflyt
+## KOVA-varslingsflyt
 
 1. KOVA publiserer aktiviteten offentlig.
-2. Bridge oppdager diff.
-3. Endringen får stabil `changeId`.
-4. Endringen skrives til historikk og persistent push-kø.
-5. Bridge forsøker data-only FCM.
-6. Ved suksess fjernes endringen fra pending-køen.
-7. Android kontrollerer lokale varslingsfiltre.
+2. Bridge oppdager korps og kalendere fra KOVAs offentlige sider.
+3. Relevant kalender polles etter sin rotasjon.
+4. Endringen får stabil `changeId`.
+5. Endringen skrives til historikk og persistent push-kø.
+6. Bridge forsøker data-only FCM til korpsets topic.
+7. Android kontrollerer valgte korps og lokale varslingsfiltre.
 8. Android dedupliserer changeId.
 9. Trykk på varselet åpner riktig aktivitetsdetalj.
+
+KOVA kan ha en publiseringsforsinkelse mellom lagring i KOVA og tidspunktet aktiviteten blir synlig offentlig.
 
 ## Firebase
 
@@ -72,11 +93,9 @@ Bridge bruker privat GitHub repository secret:
 
 - `FIREBASE_SERVICE_ACCOUNT_JSON`
 
-Servicekonto eller privat nøkkel skal aldri legges inn i repositoryet.
-
 ## Release-signering
 
-Release-workflowen bruker disse GitHub Actions-secrets:
+Release-workflowen bruker:
 
 - `ANDROID_KEYSTORE_BASE64`
 - `ANDROID_KEYSTORE_PASSWORD`
@@ -86,33 +105,22 @@ Release-workflowen bruker disse GitHub Actions-secrets:
 Release-signeringen er verifisert med Android `apksigner`.
 
 Ved release bygges:
-
 - signert APK
 - Android App Bundle (AAB)
 - SHA256SUMS.txt
 - GitHub Release
 
-Private signing keys skal aldri committes til repositoryet.
-
 ## Oppdateringskontroll
 
-Appen bruker GitHub Releases som kilde for tilgjengelige versjoner. Den sammenligner installert `BuildConfig.VERSION_NAME` mot siste release-tag og viser oppdateringsbanner når en nyere versjon finnes.
+Appen bruker GitHub Releases som kilde for tilgjengelige versjoner og viser oppdateringsbanner når en nyere release finnes.
 
 ## Datasikkerhet
 
 KOVA Companion bruker bare offentlig KOVA-data. Røde Kors-passord, Okta-cookies og private KOVA-data behandles ikke.
 
-## Produksjonsstatus
-
-- Firebase Cloud Messaging er verifisert på fysisk Android-enhet
-- push → korrekt aktivitetsdetalj er verifisert
-- permanent release-signering er aktiv
-- Bridge poller hvert 5. minutt
-- Bridge Reliability v0.7 har persistent kø, historikk, deduplisering og health-status
-
 ## Videre plan
 
-- dynamisk korpsregister og flere samtidige korps
+- bedre søk/filter i korpslisten
 - personlige favoritter / «Mine aktiviteter»
 - lokale aktivitets-påminnelser
 - uke- og månedsvisning
