@@ -230,7 +230,7 @@ def event_semantic_key(event: dict) -> str:
 
 
 def normalized_time(value: str) -> str:
-    match = re.search(r"\\d{1,2}:\\d{2}", value or "")
+    match = re.search(r"\d{1,2}:\d{2}", value or "")
     return match.group(0) if match else ""
 
 
