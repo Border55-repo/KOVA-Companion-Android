@@ -253,6 +253,7 @@ def send_web_notification(
             "kind": kind,
             "organization": organization,
             "changeId": change_id_value,
+            "changeSummary": body if kind == "changed" else "",
             "event": event or {},
         },
         ensure_ascii=False,
