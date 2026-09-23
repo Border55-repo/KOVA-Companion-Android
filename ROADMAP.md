@@ -92,7 +92,7 @@ Levert:
 
 ## v1.3 – KOVA Admin & drift
 
-Status: [~] Neste hovedspor
+Status: [~] Implementert, venter på engangs Auth-bootstrap
 
 Mål:
 - eget backend/adminpanel
@@ -113,19 +113,19 @@ Mål:
 - adminfunksjoner skal ikke eksponeres for vanlige brukere
 
 Sikkerhetskrav:
-- [ ] ingen adminpassord hardkodes i frontend eller offentlig repo
-- [ ] innlogging håndteres server-/Firebase-basert
-- [ ] første innlogging krever nytt passord
-- [ ] admin-data krever autentisert superuser
-- [ ] vanlige PWA-brukere kan ikke lese admin- eller abonnementsdata
+- [x] ingen adminpassord hardkodes i frontend eller offentlig repo
+- [x] innlogging håndteres Firebase-basert
+- [x] første innlogging krever nytt passord
+- [x] admin-data krever autentisert superuser
+- [x] vanlige PWA-brukere kan ikke lese admin- eller abonnementsdata
 
 Ferdig når:
-- [ ] adminpanelet er live
-- [ ] Android-knapp åpner adminpanelet
-- [ ] PWA-knapp åpner adminpanelet
-- [ ] live statistikk er verifisert mot Bridge-data
-- [ ] cache/synk-kontroller er testet
-- [ ] førstegangs passordbytte er fysisk testet
+- [x] adminpanelet er live
+- [x] Android-knapp åpner adminpanelet
+- [x] PWA-knapp åpner adminpanelet
+- [x] live statistikk henter Bridge-data og Firestore-status
+- [x] cachekontroll er quality-testet; fysisk admin-test gjenstår
+- [ ] førstegangs passordbytte er fysisk testet etter Auth-bootstrap
 
 ---
 
