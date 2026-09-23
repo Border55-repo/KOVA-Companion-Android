@@ -186,6 +186,36 @@ def _disable_subscription(credentials, document_name: str) -> None:
         print(f"Could not disable stale Web Push subscription: {response.status_code}")
 
 
+def _quiet_now(document: dict) -> bool:
+    if not _bool_field(document, "quietHoursEnabled", False):
+        return False
+    start = _integer_field(document, "quietStartHour", 22)
+    end = _integer_field(document, "quietEndHour", 7)
+    hour = datetime.now(OSLO).hour
+    if start == end:
+        return True
+    if start < end:
+        return start <= hour < end
+    return hour >= start or hour < end
+
+
+def _subscription_allows(
+    document: dict,
+    kind: str,
+    event: dict | None,
+) -> bool:
+    kinds = _array_strings(document, "notificationKinds")
+    if kinds and kind not in kinds:
+        return False
+    disabled_types = set(_array_strings(document, "disabledEventTypes"))
+    event_type = str((event or {}).get("type", "")).strip()
+    if event_type and event_type in disabled_types:
+        return False
+    if kind != "reminder" and _quiet_now(document):
+        return False
+    return True
+
+
 def send_web_notification(
     organization: str,
     title: str,
@@ -206,6 +236,7 @@ def send_web_notification(
         for document in documents
         if _bool_field(document, "enabled", True)
         and organization in _array_strings(document, "organizations")
+        and _subscription_allows(document, kind, event)
     ]
 
     print(
