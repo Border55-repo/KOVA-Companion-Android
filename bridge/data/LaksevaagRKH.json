@@ -1,29 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Laksevåg Røde Kors Hjelpekorps",
     "code": "LaksevaagRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:26:27+02:00",
+  "updatedAt": "2026-09-24T00:29:05+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 45,
+  "eventCount": 44,
   "changes": {
-    "added": 1,
-    "removed": 2,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "02b0ef623ddd1908",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "FAKS: Teoretiske og praktiske øvelser Korpskveld: FAKS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "811c1f10c37dd1f2",
       "dateIso": "2026-09-24",
