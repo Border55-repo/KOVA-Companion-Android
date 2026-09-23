@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T14:28:20+02:00",
+  "updatedAt": "2026-09-23T15:40:06+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -363,7 +363,7 @@
       "file": "OSRK.json",
       "status": "ok",
       "eventCount": 11,
-      "updatedAt": "2026-09-22T23:15:49+02:00"
+      "updatedAt": "2026-09-23T15:40:02+02:00"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",
