@@ -92,7 +92,7 @@ Levert:
 
 ## v1.3 – KOVA Admin & drift
 
-Status: [~] Implementert, venter på engangs Auth-bootstrap
+Status: [~] Implementert, fysisk admin-test pågår
 
 Mål:
 - eget backend/adminpanel
@@ -125,7 +125,7 @@ Ferdig når:
 - [x] PWA-knapp åpner adminpanelet
 - [x] live statistikk henter Bridge-data og Firestore-status
 - [x] cachekontroll er quality-testet; fysisk admin-test gjenstår
-- [ ] førstegangs passordbytte er fysisk testet etter Auth-bootstrap
+- [ ] førstegangs passordbytte er fysisk testet
 
 ---
 
