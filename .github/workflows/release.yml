@@ -154,3 +154,5 @@ jobs:
 # release trigger: v0.13.0 release candidate hardening
 
 # release trigger: v0.13.1 network identity fix
+
+# release trigger: v0.13.2 update checker identity fix
