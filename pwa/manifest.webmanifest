@@ -1,0 +1,14 @@
+{
+  "name": "KOVA Companion",
+  "short_name": "KOVA",
+  "description": "Mobil oversikt over offentlig KOVA-kalenderdata for Røde Kors Hjelpekorps.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071626",
+  "theme_color": "#c9152b",
+  "lang": "nb-NO",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
