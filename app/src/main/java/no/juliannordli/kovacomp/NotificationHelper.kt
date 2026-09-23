@@ -81,7 +81,23 @@ object NotificationHelper {
         changeId: String? = null
     ) {
         if (!allowed(context)) return
-        if (!NotificationDedup.shouldNotify(context, changeId)) return
+        val kind = target?.kind ?: "local"
+        val organization = target?.organization ?: ""
+        val eventId = target?.eventId ?: ""
+        if (kind != "reminder" && AppSettings(context).isQuietNow()) {
+            NotificationHistoryStore.record(
+                context, title, text, kind, organization, eventId, "filtered",
+                changeId.orEmpty()
+            )
+            return
+        }
+        if (!NotificationDedup.shouldNotify(context, changeId)) {
+            NotificationHistoryStore.record(
+                context, title, text, kind, organization, eventId, "deduplicated",
+                changeId.orEmpty()
+            )
+            return
+        }
 
         val notification = NotificationCompat.Builder(context, CHANNEL)
             .setSmallIcon(android.R.drawable.ic_dialog_info)
@@ -94,6 +110,10 @@ object NotificationHelper {
 
         NotificationManagerCompat.from(context)
             .notify((System.nanoTime() and 0xFFFFFF).toInt(), notification)
+        NotificationHistoryStore.record(
+            context, title, text, kind, organization, eventId, "delivered",
+            changeId.orEmpty()
+        )
     }
 
     fun postUrl(
