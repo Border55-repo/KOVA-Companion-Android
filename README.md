@@ -1,3 +1,9 @@
+## v0.13.2 – Update checker identity fix
+
+- bruker faktisk appversjon også i oppdateringssjekkens nettverksidentitet
+- fjerner siste hardkodede gammelversjon i appens nettverkskall
+- fortsetter release-candidate-oppryddingen før v1.0
+
 ## v0.13.1 – Release candidate network identity fix
 
 - bruker faktisk appversjon i Bridge-statuskall i stedet for gammel hardkodet versjon
