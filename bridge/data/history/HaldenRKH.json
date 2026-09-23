@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e625240504ae60090b8ca961",
+      "observedAt": "2026-09-23T10:53:33+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "9189d81dbd767783",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Mentale forberedelser. Jonas ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "448ed0bf7f07525d64aecfad",
       "observedAt": "2026-09-23T01:11:47+02:00",
       "organization": "HaldenRKH",
@@ -152,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T01:11:47+02:00"
+  "updatedAt": "2026-09-23T10:53:33+02:00"
 }

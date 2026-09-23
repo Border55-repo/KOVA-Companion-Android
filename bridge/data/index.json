@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T10:21:15+02:00",
+  "updatedAt": "2026-09-23T10:53:39+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -111,7 +111,7 @@
       "file": "HaldenRKH.json",
       "status": "ok",
       "eventCount": 53,
-      "updatedAt": "2026-09-23T01:11:47+02:00"
+      "updatedAt": "2026-09-23T10:53:33+02:00"
     },
     {
       "name": "Hamar Røde Kors Hjelpekorps",
@@ -227,8 +227,8 @@
       "category": "hjelpekorps",
       "file": "OsloRKHBA.json",
       "status": "ok",
-      "eventCount": 3,
-      "updatedAt": "2026-09-22T23:31:20+02:00"
+      "eventCount": 2,
+      "updatedAt": "2026-09-23T10:53:37+02:00"
     },
     {
       "name": "Porsgrunn Røde Kors Hjelpekorps",
