@@ -11,7 +11,8 @@ data class NotificationTarget(
     val time: String,
     val type: String,
     val description: String,
-    val sourceUrl: String
+    val sourceUrl: String,
+    val changeSummary: String = ""
 ) {
     fun toEvent(): KovaEvent = KovaEvent(
         id = eventId,
@@ -33,6 +34,7 @@ data class NotificationTarget(
         const val EXTRA_TYPE = "kova_type"
         const val EXTRA_DESCRIPTION = "kova_description"
         const val EXTRA_SOURCE_URL = "kova_source_url"
+        const val EXTRA_CHANGE_SUMMARY = "kova_change_summary"
 
         fun fromIntent(intent: Intent?): NotificationTarget? {
             intent ?: return null
@@ -47,7 +49,8 @@ data class NotificationTarget(
                 type = intent.getStringExtra(EXTRA_TYPE) ?: "Aktivitet",
                 description = intent.getStringExtra(EXTRA_DESCRIPTION) ?: "KOVA-aktivitet",
                 sourceUrl = intent.getStringExtra(EXTRA_SOURCE_URL)
-                    ?: KovaRepository.BASE_URL + "UllensakerRKH"
+                    ?: KovaRepository.BASE_URL + "UllensakerRKH",
+                changeSummary = intent.getStringExtra(EXTRA_CHANGE_SUMMARY) ?: ""
             )
         }
     }
