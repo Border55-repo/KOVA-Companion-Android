@@ -26,8 +26,17 @@ object ReminderScheduler {
         if (settings.remind24Hours) {
             schedule(context, organization, event, 24 * 60, "24 timer")
         }
+        if (settings.remind6Hours) {
+            schedule(context, organization, event, 6 * 60, "6 timer")
+        }
         if (settings.remind2Hours) {
             schedule(context, organization, event, 2 * 60, "2 timer")
+        }
+        if (settings.remind1Hour) {
+            schedule(context, organization, event, 60, "1 time")
+        }
+        if (settings.remind30Minutes) {
+            schedule(context, organization, event, 30, "30 minutter")
         }
     }
 
@@ -84,7 +93,10 @@ object ReminderScheduler {
     ) {
         val manager = WorkManager.getInstance(context)
         manager.cancelUniqueWork(workName(organization, event, 24 * 60))
+        manager.cancelUniqueWork(workName(organization, event, 6 * 60))
         manager.cancelUniqueWork(workName(organization, event, 2 * 60))
+        manager.cancelUniqueWork(workName(organization, event, 60))
+        manager.cancelUniqueWork(workName(organization, event, 30))
     }
 
     private fun eventDateTime(event: KovaEvent): LocalDateTime? {
