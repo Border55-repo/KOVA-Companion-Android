@@ -178,6 +178,10 @@ def send_web_notification(
         and organization in _array_strings(document, "organizations")
     ]
 
+    print(
+        f"Web Push subscriptions: total={len(documents)}, "
+        f"matching={len(targets)} for {organization}."
+    )
     if not targets:
         return True
 
