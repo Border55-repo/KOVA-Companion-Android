@@ -644,6 +644,20 @@ fun KovaScreen(
                             ) {
                                 Text("Logg inn / Åpne KOVA")
                             }
+
+                            OutlinedButton(
+                                modifier = Modifier.fillMaxWidth(),
+                                onClick = {
+                                    context.startActivity(
+                                        Intent(
+                                            Intent.ACTION_VIEW,
+                                            Uri.parse("https://border55-repo.github.io/KlarX/kova/admin/")
+                                        )
+                                    )
+                                }
+                            ) {
+                                Text("KOVA Admin")
+                            }
                             Text(
                                 "Innlogging skjer hos KOVA / Røde Kors. KOVA Companion lagrer ikke brukernavn eller passord.",
                                 style = MaterialTheme.typography.bodySmall
