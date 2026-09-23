@@ -135,12 +135,12 @@ Ferdig når:
 Status: [~] Pågår
 
 Mål:
-- bedre favoritter
+- [x] bedre favoritter
 - egendefinerte påminnelser
 - enklere oversikt når brukeren har mange vakter
-- lokale notater per vakt
+- [x] lokale notater per vakt
 - bedre kalenderflyt
-- kommende favorittvakter tydeligere på forsiden
+- [x] kommende favorittvakter tydeligere på forsiden
 
 Ferdig når:
 - [ ] favoritter er stabile over synk og oppdatering
