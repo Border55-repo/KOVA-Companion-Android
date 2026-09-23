@@ -26,6 +26,7 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 - Kontroller aktivitet med vanlig klokkeslett.
 - Kontroller aktivitet uten klokkeslett.
 - Kontroller KOVA-tid med `-> HH:mm` og at den vises som «Til HH:mm».
+- [x] Automatisk test: `-> HH:mm` normaliseres for kalender og 24t/2t-påminnelser.
 - Kontroller direkte KOVA-fallback dersom Bridge ikke kan brukes.
 
 ## Visninger og søk
