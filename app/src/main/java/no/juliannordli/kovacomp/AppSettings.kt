@@ -1,6 +1,7 @@
 package no.juliannordli.kovacomp
 
 import android.content.Context
+import java.time.LocalTime
 
 class AppSettings(context: Context) {
     private val prefs = context.getSharedPreferences("kova_companion_settings", Context.MODE_PRIVATE)
@@ -45,6 +46,18 @@ class AppSettings(context: Context) {
         get() = prefs.getBoolean("onboarding_complete", false)
         set(value) = prefs.edit().putBoolean("onboarding_complete", value).apply()
 
+    var quietHoursEnabled: Boolean
+        get() = prefs.getBoolean("quiet_hours_enabled", false)
+        set(value) = prefs.edit().putBoolean("quiet_hours_enabled", value).apply()
+
+    var quietStartHour: Int
+        get() = prefs.getInt("quiet_start_hour", 22).coerceIn(0, 23)
+        set(value) = prefs.edit().putInt("quiet_start_hour", value.coerceIn(0, 23)).apply()
+
+    var quietEndHour: Int
+        get() = prefs.getInt("quiet_end_hour", 7).coerceIn(0, 23)
+        set(value) = prefs.edit().putInt("quiet_end_hour", value.coerceIn(0, 23)).apply()
+
     var disabledEventTypes: Set<String>
         get() = prefs.getStringSet("disabled_event_types", emptySet())?.toSet() ?: emptySet()
         set(value) = prefs.edit().putStringSet("disabled_event_types", value.toSet()).apply()
@@ -56,6 +69,15 @@ class AppSettings(context: Context) {
         )?.toSet() ?: setOf(KovaRepository.DEFAULT_ORG)
         set(value) = prefs.edit()
             .putStringSet("subscribed_organizations", value.toSet())
+            .apply()
+
+    var favoriteOrganizations: Set<String>
+        get() = prefs.getStringSet(
+            "favorite_organizations",
+            setOf(KovaRepository.DEFAULT_ORG)
+        )?.toSet() ?: setOf(KovaRepository.DEFAULT_ORG)
+        set(value) = prefs.edit()
+            .putStringSet("favorite_organizations", value.toSet())
             .apply()
 
     fun isEventTypeEnabled(type: String): Boolean =
@@ -76,6 +98,15 @@ class AppSettings(context: Context) {
         subscribedOrganizations = updated
     }
 
+    fun isFavoriteOrganization(code: String): Boolean =
+        code in favoriteOrganizations
+
+    fun setFavoriteOrganization(code: String, favorite: Boolean) {
+        val updated = favoriteOrganizations.toMutableSet()
+        if (favorite) updated.add(code) else updated.remove(code)
+        favoriteOrganizations = updated
+    }
+
     fun isKindEnabled(kind: String): Boolean =
         when (kind) {
             "added" -> notifyAdded
@@ -83,4 +114,17 @@ class AppSettings(context: Context) {
             "removed" -> notifyRemoved
             else -> true
         }
+
+    fun isQuietNow(now: LocalTime = LocalTime.now()): Boolean {
+        if (!quietHoursEnabled) return false
+        val start = quietStartHour
+        val end = quietEndHour
+        if (start == end) return true
+        val hour = now.hour
+        return if (start < end) {
+            hour in start until end
+        } else {
+            hour >= start || hour < end
+        }
+    }
 }
