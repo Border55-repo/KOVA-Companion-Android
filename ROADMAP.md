@@ -283,7 +283,7 @@ Ferdig når:
 
 ## v2.0 – KOVA Companion 2
 
-Status: [~] 2.0.0 releasekandidat bygges
+Status: [x] 2.0.0 publisert
 
 Retning:
 - større arkitekturgjennomgang
@@ -299,9 +299,9 @@ Retning:
 
 ## Nærmeste prioritering
 
-1. **Fullfør grønn 2.0.0 CI og signert release**
-2. **Fysisk sluttkontroll på Android og iPhone/PWA**
-3. **Google Play intern/lukket test når Play Console-servicekonto er tilgjengelig**
+1. **Fysisk sluttkontroll av 2.0.0 på Android og iPhone/PWA**
+2. **Koble Google Play Console/servicekonto og kjør intern test**
+3. **Kjør lukket Google Play-test etter bestått intern test**
 4. **Samle faktisk 2.0-bruk og prioritere videre arbeid derfra**
 
 Kritiske feil, synkproblemer og manglende vakter skal alltid prioriteres foran nye funksjoner.
