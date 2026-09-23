@@ -92,7 +92,7 @@ Levert:
 
 ## v1.3 – KOVA Admin & drift
 
-Status: [~] Implementert, fysisk admin-test pågår
+Status: [x] Levert og fysisk testet
 
 Mål:
 - eget backend/adminpanel
@@ -124,7 +124,7 @@ Ferdig når:
 - [x] Android-knapp åpner adminpanelet
 - [x] PWA-knapp åpner adminpanelet
 - [x] live statistikk henter Bridge-data og Firestore-status
-- [x] cachekontroll er quality-testet; fysisk admin-test gjenstår
+- [x] cachekontroll er quality-testet og fysisk testet
 - [x] førstegangs passordbytte er fysisk testet
 
 ---
