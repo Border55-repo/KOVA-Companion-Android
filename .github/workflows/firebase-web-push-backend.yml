@@ -6,12 +6,14 @@ on:
     paths:
       - "bridge/firestore_setup.py"
       - "bridge/deploy_firestore_rules.py"
+      - "bridge/requirements.txt"
+      - "bridge/webpush.py"
       - "firestore.rules"
       - "firebase.json"
       - ".github/workflows/firebase-web-push-backend.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: firebase-web-push-backend
@@ -40,3 +42,21 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
         run: python bridge/deploy_firestore_rules.py
+
+      - name: Ensure persistent VAPID config
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: PYTHONPATH=bridge python -c "from webpush import ensure_vapid_config; ensure_vapid_config()"
+
+      - name: Commit public Web Push config
+        run: |
+          if [ -z "$(git status --porcelain -- bridge/data/webpush-config.json)" ]; then
+            echo "Web Push public config unchanged."
+            exit 0
+          fi
+          git config user.name "KOVA Companion Web Push"
+          git config user.email "actions@users.noreply.github.com"
+          git add bridge/data/webpush-config.json
+          git commit -m "Update Web Push public config"
+          git pull --rebase origin main
+          git push origin HEAD:main
