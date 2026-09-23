@@ -1,3 +1,11 @@
+## v1.3.0 – KOVA Admin
+
+- legger inn KOVA Admin-knapp i Android
+- peker til separat adminpanel for drift og live statistikk
+- adminpanelet får Bridge-, push-, release- og korpsstatus
+- fjernstyrt PWA cache-generasjon er klargjort
+- admininnlogging holdes separat fra vanlig brukerflyt
+
 ## v1.2.0 – Enkel hverdag
 
 - ny forside med Neste vakt, Denne uka og Senere
