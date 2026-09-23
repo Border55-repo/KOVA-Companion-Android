@@ -1,3 +1,9 @@
+## v0.13.6 – Push diagnostics
+
+- registrerer siste mottatte FCM-push lokalt
+- viser om push ble godkjent eller filtrert og hvorfor
+- gjør feilsøking av manglende «Ny aktivitet»-varsler konkret i Appstatus
+
 ## v0.13.5 – Notification diagnostics
 
 - viser status for Ny / Endret / Fjernet direkte i Appstatus
