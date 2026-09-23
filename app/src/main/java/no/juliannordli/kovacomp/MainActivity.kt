@@ -466,6 +466,11 @@ fun KovaScreen(
                                 "Varsler: " +
                                     if (notificationEnabled) "på" else "av"
                             )
+                            val pushDiagnostic = PushDiagnostics.snapshot(context)
+                            Text(
+                                "Siste push: " + pushDiagnostic.label(),
+                                style = MaterialTheme.typography.bodySmall
+                            )
                             Text(
                                 "Varseltyper: Ny " + if (notifyAdded) "på" else "av" +
                                     " • Endret " + if (notifyChanged) "på" else "av" +
