@@ -43,7 +43,7 @@ class KovaRepository(private val context: Context) {
         org.replace(Regex("[^A-Za-z0-9._-]+"), "_").trim('_')
 
     fun bridgeUrl(org: String = organization()): String =
-        BRIDGE_BASE + bridgeSlug(org) + ".json"
+        BRIDGE_BASE + bridgeSlug(org) + ".json?ts=" + System.currentTimeMillis()
 
     fun fetch(org: String = organization()): List<KovaEvent> {
         return runCatching {
@@ -63,6 +63,9 @@ class KovaRepository(private val context: Context) {
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
         connection.setRequestProperty("User-Agent", "KOVA Companion Android/${BuildConfig.VERSION_NAME}")
+        connection.setRequestProperty("Cache-Control", "no-cache, no-store, max-age=0")
+        connection.setRequestProperty("Pragma", "no-cache")
+        connection.useCaches = false
 
         try {
             val status = connection.responseCode
