@@ -6,12 +6,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T13:35:59+02:00",
+  "updatedAt": "2026-09-23T13:50:34+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 43,
+  "eventCount": 42,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -391,15 +391,6 @@
       "time": "09:00",
       "type": "Ambulansevakt",
       "description": "SCC Gardermoen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
-    },
-    {
-      "id": "0c6a4d2d053a23b5",
-      "dateIso": "2027-09-01",
-      "dateLabel": "ons. 1.9",
-      "time": "00:00",
-      "type": "Aktivitet",
-      "description": "TEST",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     }
   ]
