@@ -13,9 +13,29 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
 
         val settings = AppSettings(this)
         val organization = data["organization"] ?: KovaRepository.DEFAULT_ORG
-        if (!settings.isOrganizationSubscribed(organization)) return
-        if (!settings.isKindEnabled(kind)) return
-        if (!settings.isEventTypeEnabled(eventType)) return
+
+        PushDiagnostics.recordReceived(this, kind, organization, eventType)
+
+        if (!settings.isOrganizationSubscribed(organization)) {
+            PushDiagnostics.recordStatus(this, "filtrert: korps ikke fulgt")
+            return
+        }
+        if (!settings.isKindEnabled(kind)) {
+            val reason = when (kind) {
+                "added" -> "filtrert: Nye aktiviteter er av"
+                "changed" -> "filtrert: Endrede aktiviteter er av"
+                "removed" -> "filtrert: Fjernede aktiviteter er av"
+                else -> "filtrert: varseltype er av"
+            }
+            PushDiagnostics.recordStatus(this, reason)
+            return
+        }
+        if (!settings.isEventTypeEnabled(eventType)) {
+            PushDiagnostics.recordStatus(this, "filtrert: aktivitetstype er av")
+            return
+        }
+
+        PushDiagnostics.recordStatus(this, "godkjent av lokale filtre")
 
         val eventId = data["eventId"]
         val target = if (!eventId.isNullOrBlank()) {
