@@ -2,35 +2,45 @@
   "schemaVersion": 2,
   "bridge": "KOVA Companion Bridge",
   "status": "ok",
-  "checkedAt": "2026-09-23T15:40:06+02:00",
-  "lastSuccessfulRunAt": "2026-09-23T15:40:06+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-23T15:40:06+02:00",
+  "checkedAt": "2026-09-23T16:47:23+02:00",
+  "lastSuccessfulRunAt": "2026-09-23T16:47:23+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-23T16:47:23+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-09-23T15:40:06+02:00",
   "lastPushCount": 2,
   "organizationCount": 42,
   "helpCorpsCount": 38,
-  "polledThisRun": 10,
+  "polledThisRun": 19,
   "organizations": [
     {
-      "name": "Asker Røde Kors Hjelpekorps",
-      "code": "AskerRKH",
+      "name": "Arna og Åsane Røde Kors Hjelpekorps",
+      "code": "AÅRKH",
       "category": "hjelpekorps",
-      "file": "AskerRKH.json",
+      "file": "A_RKH.json",
       "status": "ok",
-      "eventCount": 10,
-      "updatedAt": "2026-09-22T23:15:43+02:00",
+      "eventCount": 9,
+      "updatedAt": "2026-09-23T01:26:23+02:00",
       "error": null
     },
     {
-      "name": "Bø og Sauherad Røde Kors Hjelpekorps",
-      "code": "BøSauheradRKH",
+      "name": "Bergen Røde Kors Hjelpekorps",
+      "code": "Bergen RKH",
       "category": "hjelpekorps",
-      "file": "B_SauheradRKH.json",
+      "file": "Bergen_RKH.json",
       "status": "ok",
-      "eventCount": 22,
-      "updatedAt": "2026-09-23T03:19:35+02:00",
+      "eventCount": 39,
+      "updatedAt": "2026-09-23T01:26:24+02:00",
+      "error": null
+    },
+    {
+      "name": "Brandbu Røde Kors Hjelpekorps",
+      "code": "BrandbuRKH",
+      "category": "hjelpekorps",
+      "file": "BrandbuRKH.json",
+      "status": "ok",
+      "eventCount": 15,
+      "updatedAt": "2026-09-23T01:26:25+02:00",
       "error": null
     },
     {
@@ -44,13 +54,43 @@
       "error": null
     },
     {
-      "name": "Nes Røde Kors Hjelpekorps",
-      "code": "NesRKH",
+      "name": "Gjøvik Røde Kors Hjelpekorps",
+      "code": "GRKH",
       "category": "hjelpekorps",
-      "file": "NesRKH.json",
+      "file": "GRKH.json",
       "status": "ok",
-      "eventCount": 14,
-      "updatedAt": "2026-09-22T23:15:45+02:00",
+      "eventCount": 19,
+      "updatedAt": "2026-09-23T01:26:26+02:00",
+      "error": null
+    },
+    {
+      "name": "Hamar Røde Kors Hjelpekorps",
+      "code": "Hamar RKH",
+      "category": "hjelpekorps",
+      "file": "Hamar_RKH.json",
+      "status": "ok",
+      "eventCount": 6,
+      "updatedAt": "2026-09-23T01:26:27+02:00",
+      "error": null
+    },
+    {
+      "name": "Laksevåg Røde Kors Hjelpekorps",
+      "code": "LaksevaagRKH",
+      "category": "hjelpekorps",
+      "file": "LaksevaagRKH.json",
+      "status": "ok",
+      "eventCount": 45,
+      "updatedAt": "2026-09-23T01:26:27+02:00",
+      "error": null
+    },
+    {
+      "name": "Mysen og Omegn Røde Kors Hjelpekorps",
+      "code": "MORKH",
+      "category": "hjelpekorps",
+      "file": "MORKH.json",
+      "status": "ok",
+      "eventCount": 53,
+      "updatedAt": "2026-09-23T14:28:11+02:00",
       "error": null
     },
     {
@@ -64,13 +104,23 @@
       "error": null
     },
     {
-      "name": "Sarpsborg Røde Kors Hjelpekorps",
-      "code": "RKSarpsborg",
+      "name": "Porsgrunn Røde Kors Hjelpekorps",
+      "code": "PorsgrunnRKH",
       "category": "hjelpekorps",
-      "file": "RKSarpsborg.json",
+      "file": "PorsgrunnRKH.json",
       "status": "ok",
-      "eventCount": 47,
-      "updatedAt": "2026-09-23T03:19:38+02:00",
+      "eventCount": 19,
+      "updatedAt": "2026-09-23T01:26:32+02:00",
+      "error": null
+    },
+    {
+      "name": "Ringerike og Hole Røde Kors Hjelpekorps",
+      "code": "RingerikeHoleRKH",
+      "category": "hjelpekorps",
+      "file": "RingerikeHoleRKH.json",
+      "status": "ok",
+      "eventCount": 16,
+      "updatedAt": "2026-09-22T23:07:50+02:00",
       "error": null
     },
     {
@@ -84,6 +134,36 @@
       "error": null
     },
     {
+      "name": "Skien Røde Kors Hjelpekorps",
+      "code": "SkienRKH",
+      "category": "hjelpekorps",
+      "file": "SkienRKH.json",
+      "status": "ok",
+      "eventCount": 33,
+      "updatedAt": "2026-09-23T14:28:15+02:00",
+      "error": null
+    },
+    {
+      "name": "Sotra Røde Kors Hjelpekorps",
+      "code": "SRKH",
+      "category": "hjelpekorps",
+      "file": "SRKH.json",
+      "status": "ok",
+      "eventCount": 26,
+      "updatedAt": "2026-09-23T01:26:35+02:00",
+      "error": null
+    },
+    {
+      "name": "Steinkjer Røde Kors Hjelpekorps",
+      "code": "SteinkjerRKH",
+      "category": "hjelpekorps",
+      "file": "SteinkjerRKH.json",
+      "status": "ok",
+      "eventCount": 18,
+      "updatedAt": "2026-09-23T01:26:37+02:00",
+      "error": null
+    },
+    {
       "name": "Ullensaker Røde Kors Hjelpekorps",
       "code": "UllensakerRKH",
       "category": "hjelpekorps",
@@ -94,23 +174,33 @@
       "error": null
     },
     {
-      "name": "Vennesla Røde Kors Hjelpekorps",
-      "code": "VenneslaRKH",
-      "category": "hjelpekorps",
-      "file": "VenneslaRKH.json",
+      "name": "Bergen Røde Kors Ambulansen",
+      "code": "RKAB",
+      "category": "ambulanse",
+      "file": "RKAB.json",
       "status": "ok",
-      "eventCount": 16,
-      "updatedAt": "2026-09-23T00:40:05+02:00",
+      "eventCount": 41,
+      "updatedAt": "2026-09-23T01:26:38+02:00",
       "error": null
     },
     {
-      "name": "Os Røde Kors",
-      "code": "OSRK",
-      "category": "annet",
-      "file": "OSRK.json",
+      "name": "Røde Kors Båten Bjørgvin",
+      "code": "RCB",
+      "category": "bat",
+      "file": "RCB.json",
       "status": "ok",
-      "eventCount": 11,
-      "updatedAt": "2026-09-23T15:40:02+02:00",
+      "eventCount": 4,
+      "updatedAt": "2026-09-22T23:07:53+02:00",
+      "error": null
+    },
+    {
+      "name": "Stavanger Røde Kors Omsorg",
+      "code": "StvRKO",
+      "category": "omsorg",
+      "file": "StvRKO.json",
+      "status": "ok",
+      "eventCount": 14,
+      "updatedAt": "2026-09-22T23:07:53+02:00",
       "error": null
     }
   ]
