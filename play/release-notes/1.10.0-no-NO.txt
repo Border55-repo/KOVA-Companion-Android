@@ -1,0 +1,7 @@
+KOVA Companion 1.10 samler 1.x-forbedringene:
+• Varsler 2.0 med stille perioder og historikk
+• Favorittkorps og bedre støtte for mange korps
+• Forbedret vaktdetaljside og endringsvisning
+• Robust offline/synk-gjenoppretting
+• UI- og tilgjengelighetsforbedringer
+• Klargjort for Google Play testspor
