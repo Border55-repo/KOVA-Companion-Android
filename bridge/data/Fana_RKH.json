@@ -6,11 +6,11 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:04:28+02:00",
+  "updatedAt": "2026-09-23T10:21:10+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 14,
+  "eventCount": 15,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -94,6 +94,15 @@
       "time": "08:30",
       "type": "Interne kurs",
       "description": "KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "999eea8da918954f",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "OBS! Holdes hos Bergen RKH Stabsmøte KSOR",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
     },
     {

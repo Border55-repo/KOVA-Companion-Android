@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T09:48:47+02:00",
+  "updatedAt": "2026-09-23T10:21:15+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -92,8 +92,8 @@
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
       "status": "ok",
-      "eventCount": 14,
-      "updatedAt": "2026-09-23T01:04:28+02:00"
+      "eventCount": 15,
+      "updatedAt": "2026-09-23T10:21:10+02:00"
     },
     {
       "name": "Gjøvik Røde Kors Hjelpekorps",
