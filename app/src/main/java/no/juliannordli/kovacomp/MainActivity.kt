@@ -20,6 +20,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -111,6 +112,12 @@ fun KovaScreen(
     onTargetConsumed: () -> Unit = {}
 ) {
     val context = androidx.compose.ui.platform.LocalContext.current
+    val screenWidthDp = LocalConfiguration.current.screenWidthDp
+    val horizontalContentPadding = when {
+        screenWidthDp >= 840 -> 96.dp
+        screenWidthDp >= 600 -> 48.dp
+        else -> 16.dp
+    }
     val repo = remember { KovaRepository(context) }
     val settings = remember { AppSettings(context) }
     val registry = remember { OrganizationRegistry(context) }
@@ -499,7 +506,10 @@ fun KovaScreen(
                 modifier = Modifier
                     .padding(padding)
                     .fillMaxSize(),
-                contentPadding = PaddingValues(16.dp),
+                contentPadding = PaddingValues(
+                    horizontal = horizontalContentPadding,
+                    vertical = 16.dp
+                ),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
                 nextEvent?.let { event ->
