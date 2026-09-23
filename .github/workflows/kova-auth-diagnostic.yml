@@ -23,3 +23,5 @@ jobs:
         env:
           FIREBASE_WEB_CONFIG_JSON: ${{ secrets.FIREBASE_WEB_CONFIG_JSON }}
         run: python bridge/check_auth_provider.py
+
+# trigger 2
