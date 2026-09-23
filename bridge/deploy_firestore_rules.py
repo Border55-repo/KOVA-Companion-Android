@@ -80,7 +80,13 @@ def main():
         release_response = requests.patch(
             f"{RULES_API}/{release_name}",
             headers=headers(creds),
-            json=payload,
+            json={
+                "release": {
+                    "name": release_name,
+                    "rulesetName": ruleset_name,
+                },
+                "updateMask": "rulesetName",
+            },
             timeout=30,
         )
 
