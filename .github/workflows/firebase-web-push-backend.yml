@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "bridge/firestore_setup.py"
+      - "bridge/deploy_firestore_rules.py"
       - "firestore.rules"
       - "firebase.json"
       - ".github/workflows/firebase-web-push-backend.yml"
