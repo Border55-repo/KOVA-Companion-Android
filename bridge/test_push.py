@@ -42,8 +42,8 @@ def main() -> int:
         "dateIso": "2026-09-23",
         "dateLabel": "ons. 23.9",
         "time": "18:30",
-        "type": "Aktivitet",
-        "description": "FCM smoke test",
+        "type": os.getenv("TEST_EVENT_TYPE", "Aktivitet"),
+        "description": os.getenv("TEST_DESCRIPTION", "FCM smoke test"),
         "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
     }
     smoke_change_id = change_id(org, kind, event_data)
