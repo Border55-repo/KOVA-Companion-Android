@@ -36,8 +36,9 @@ def main() -> int:
     )
 
     endpoint = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
+    event_id = os.getenv("TEST_EVENT_ID", f"smoke-test-{kind}-v1")
     event_data = {
-        "id": f"smoke-test-{kind}-v1",
+        "id": event_id,
         "dateIso": "2026-09-23",
         "dateLabel": "ons. 23.9",
         "time": "18:30",
