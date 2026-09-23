@@ -173,6 +173,14 @@ def _list_subscription_documents(credentials, project_id: str) -> list[dict]:
     )
 
 
+def _webpush_status(exc: WebPushException) -> int | None:
+    direct = getattr(exc, "status_code", None)
+    if direct is not None:
+        return direct
+    response = getattr(exc, "response", None)
+    return getattr(response, "status_code", None)
+
+
 def _disable_subscription(credentials, document_name: str) -> None:
     url = f"https://firestore.googleapis.com/v1/{document_name}"
     response = requests.patch(
@@ -282,7 +290,7 @@ def send_web_notification(
             )
             sent += 1
         except WebPushException as exc:
-            status = exc.status_code
+            status = _webpush_status(exc)
             if status in (404, 410):
                 _disable_subscription(credentials, document["name"])
                 print(f"Disabled stale Web Push subscription ({status}).")
@@ -430,7 +438,7 @@ def _send_to_subscription(
         )
         return True, True
     except WebPushException as exc:
-        status = exc.status_code
+        status = _webpush_status(exc)
         if status in (404, 410):
             _disable_subscription(credentials, document["name"])
             print(f"Disabled stale reminder subscription ({status}).")
