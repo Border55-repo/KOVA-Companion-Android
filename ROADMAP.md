@@ -125,7 +125,7 @@ Ferdig når:
 - [x] PWA-knapp åpner adminpanelet
 - [x] live statistikk henter Bridge-data og Firestore-status
 - [x] cachekontroll er quality-testet; fysisk admin-test gjenstår
-- [ ] førstegangs passordbytte er fysisk testet
+- [x] førstegangs passordbytte er fysisk testet
 
 ---
 
