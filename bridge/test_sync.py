@@ -214,3 +214,13 @@ class WebPushPreferenceTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BridgeV2ContractTests(unittest.TestCase):
+    def test_v2_contract_is_declared_in_bridge_writer(self):
+        from pathlib import Path
+        source = Path("sync.py").read_text(encoding="utf-8")
+        self.assertIn('"apiVersion": "2.0"', source)
+        self.assertIn('"multiCorps": True', source)
+        self.assertIn('"scheduledReminders": True', source)
+        self.assertIn('"snapshotFallback": True', source)
