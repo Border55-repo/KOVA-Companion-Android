@@ -2,8 +2,53 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function adminIdentity() {
+      return signedIn() &&
+        request.auth.token.email == "superuser@kova-companion.local";
+    }
+
+    function adminReady() {
+      return adminIdentity() &&
+        exists(/databases/$(database)/documents/adminUsers/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/adminUsers/$(request.auth.uid)).data.mustChangePassword == false;
+    }
+
+    match /adminUsers/{uid} {
+      allow read: if adminIdentity() && request.auth.uid == uid;
+
+      allow create: if adminIdentity() &&
+        request.auth.uid == uid &&
+        request.resource.data.keys().hasOnly([
+          'username', 'email', 'role', 'mustChangePassword',
+          'createdAt', 'updatedAt'
+        ]) &&
+        request.resource.data.username == "superuser" &&
+        request.resource.data.email == "superuser@kova-companion.local" &&
+        request.resource.data.role == "superuser" &&
+        request.resource.data.mustChangePassword == true &&
+        request.resource.data.createdAt == request.time &&
+        request.resource.data.updatedAt == request.time;
+
+      allow update: if adminIdentity() &&
+        request.auth.uid == uid &&
+        resource.data.mustChangePassword == true &&
+        request.resource.data.username == resource.data.username &&
+        request.resource.data.email == resource.data.email &&
+        request.resource.data.role == resource.data.role &&
+        request.resource.data.mustChangePassword == false &&
+        request.resource.data.updatedAt == request.time &&
+        request.resource.data.passwordChangedAt == request.time;
+
+      allow delete: if false;
+    }
+
     match /webPushSubscriptions/{subscriptionId} {
-      allow read, delete: if false;
+      allow read: if adminReady();
+      allow delete: if false;
 
       allow create, update: if
         request.resource.data.keys().hasOnly([
@@ -28,6 +73,15 @@ service cloud.firestore {
         request.resource.data.organizations.size() <= 20 &&
         request.resource.data.enabled is bool &&
         request.resource.data.platform == 'pwa' &&
+        request.resource.data.updatedAt == request.time;
+    }
+
+    match /publicConfig/pwa {
+      allow read: if true;
+      allow write: if adminReady() &&
+        request.resource.data.keys().hasOnly(['cacheEpoch', 'updatedAt']) &&
+        request.resource.data.cacheEpoch is int &&
+        request.resource.data.cacheEpoch > 0 &&
         request.resource.data.updatedAt == request.time;
     }
 
