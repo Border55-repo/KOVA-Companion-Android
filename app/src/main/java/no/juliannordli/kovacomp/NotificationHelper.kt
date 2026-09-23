@@ -109,6 +109,12 @@ object NotificationHelper {
             .setAutoCancel(true)
             .build()
 
+        if (
+            Build.VERSION.SDK_INT >= 33 &&
+            context.checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) !=
+            PackageManager.PERMISSION_GRANTED
+        ) return
+
         NotificationManagerCompat.from(context)
             .notify((System.nanoTime() and 0xFFFFFF).toInt(), notification)
         NotificationHistoryStore.record(
@@ -141,6 +147,12 @@ object NotificationHelper {
             .setContentIntent(pending)
             .setAutoCancel(true)
             .build()
+
+        if (
+            Build.VERSION.SDK_INT >= 33 &&
+            context.checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) !=
+            PackageManager.PERMISSION_GRANTED
+        ) return
 
         NotificationManagerCompat.from(context)
             .notify(("update|" + url).hashCode(), notification)
