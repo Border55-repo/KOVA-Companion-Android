@@ -1,0 +1,11 @@
+KOVA Companion 2.0
+
+• Ny Varsler 2.0 med varselfiltre, stille perioder og historikk
+• Bedre støtte for flere hjelpekorps og favorittkorps
+• Forbedrede aktivitetsdetaljer, deling og kalender
+• Mine vakter med lokale notater og tilpassbare påminnelser
+• Bedre offline-støtte og automatisk gjenoppretting
+• Oppdatert tilgjengelighet, dark mode og nettbrettstøtte
+• Ny Bridge 2.0-kompatibilitetsmodell for mer robust synk
+
+KOVA Companion er et uavhengig prosjekt og ikke en offisiell Røde Kors-app.
