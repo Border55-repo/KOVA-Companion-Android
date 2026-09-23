@@ -143,6 +143,17 @@ class ReliabilityTests(unittest.TestCase):
 
 
 class WebPushPreferenceTests(unittest.TestCase):
+    def test_webpush_status_reads_response(self):
+        from webpush import _webpush_status
+
+        class FakeResponse:
+            status_code = 410
+
+        class FakeError(Exception):
+            response = FakeResponse()
+
+        self.assertEqual(410, _webpush_status(FakeError()))
+
     @staticmethod
     def document(**fields):
         encoded = {}
