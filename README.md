@@ -1,3 +1,9 @@
+## v0.13.1 – Release candidate network identity fix
+
+- bruker faktisk appversjon i Bridge-statuskall i stedet for gammel hardkodet versjon
+- holder nettverksidentiteten synkron med BuildConfig ved senere releaser
+- liten stabilitetsfiks før v1.0 fysisk test og Google Play intern testing
+
 ## v0.13.0 – Release candidate-hardening
 
 - samler siste stabilitetsarbeid før v1.0
