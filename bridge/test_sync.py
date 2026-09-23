@@ -16,6 +16,7 @@ from reliability import (
     suspicious_snapshot,
 )
 from sync import compute_diff, parse_schedule
+from webpush import _quiet_now, _subscription_allows
 
 
 def event(
@@ -139,6 +140,61 @@ class ReliabilityTests(unittest.TestCase):
     def test_allows_normal_small_change(self):
         warning = suspicious_snapshot(old_count=42, new_count=43, html_length=5000)
         self.assertIsNone(warning)
+
+
+class WebPushPreferenceTests(unittest.TestCase):
+    @staticmethod
+    def document(**fields):
+        encoded = {}
+        for key, value in fields.items():
+            if isinstance(value, bool):
+                encoded[key] = {"booleanValue": value}
+            elif isinstance(value, int):
+                encoded[key] = {"integerValue": str(value)}
+            elif isinstance(value, list):
+                encoded[key] = {
+                    "arrayValue": {
+                        "values": [{"stringValue": item} for item in value]
+                    }
+                }
+            else:
+                encoded[key] = {"stringValue": str(value)}
+        return {"fields": encoded}
+
+    def test_kind_filter(self):
+        document = self.document(notificationKinds=["added", "changed"])
+        self.assertTrue(_subscription_allows(document, "added", event()))
+        self.assertFalse(_subscription_allows(document, "removed", event()))
+
+    def test_activity_type_filter(self):
+        document = self.document(disabledEventTypes=["Korpskveld"])
+        self.assertFalse(_subscription_allows(document, "added", event()))
+        self.assertTrue(
+            _subscription_allows(
+                document,
+                "added",
+                event(type_name="Sanitetsvakt"),
+            )
+        )
+
+    def test_quiet_hours_across_midnight(self):
+        document = self.document(
+            quietHoursEnabled=True,
+            quietStartHour=22,
+            quietEndHour=7,
+        )
+        self.assertTrue(
+            _quiet_now(
+                document,
+                datetime(2026, 9, 23, 23, 0, tzinfo=ZoneInfo("Europe/Oslo")),
+            )
+        )
+        self.assertFalse(
+            _quiet_now(
+                document,
+                datetime(2026, 9, 23, 12, 0, tzinfo=ZoneInfo("Europe/Oslo")),
+            )
+        )
 
 
 if __name__ == "__main__":
