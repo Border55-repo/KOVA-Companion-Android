@@ -40,7 +40,9 @@ Pågår:
 - [x] varig VAPID-nøkkel lagret server-side og offentlig nøkkel publisert
 - [x] live Firestore rules-probe i CI
 - [x] dedikert PWA Web Push-smoketest
-- [ ] fysisk iPhone-test av installasjon, abonnement, mottatt push, offline og kalender
+- [x] samtidig fysisk Android FCM- og iPhone Web Push-test
+- [x] fysisk iPhone-test av installasjon, abonnement og mottatt Web Push
+- [ ] fysisk iPhone-test av offline og kalender
 
 ---
 
