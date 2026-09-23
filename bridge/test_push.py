@@ -28,15 +28,16 @@ def main() -> int:
     credentials.refresh(Request())
 
     org = os.getenv("TEST_ORG", "UllensakerRKH")
-    title = os.getenv("TEST_TITLE", "KOVA Companion – push test")
+    kind = os.getenv("TEST_KIND", "added").strip().lower() or "added"
+    title = os.getenv("TEST_TITLE", f"KOVA Companion – {kind}-test")
     body = os.getenv(
         "TEST_BODY",
-        "Ekte Firebase-push fungerer fra KOVA Bridge til Android.",
+        f"FCM {kind}-test fra KOVA Bridge til Android.",
     )
 
     endpoint = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
     event_data = {
-        "id": "smoke-test-v1",
+        "id": f"smoke-test-{kind}-v1",
         "dateIso": "2026-09-23",
         "dateLabel": "ons. 23.9",
         "time": "18:30",
@@ -44,7 +45,7 @@ def main() -> int:
         "description": "FCM smoke test",
         "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
     }
-    smoke_change_id = change_id(org, "test", event_data)
+    smoke_change_id = change_id(org, kind, event_data)
 
     payload = {
         "message": {
@@ -52,7 +53,7 @@ def main() -> int:
             "data": {
                 "title": title,
                 "body": body,
-                "kind": "test",
+                "kind": kind,
                 "organization": org,
                 "eventId": event_data["id"],
                 "dateIso": event_data["dateIso"],
