@@ -13,6 +13,38 @@ KOVA Companion v1.0.0 er første stabile hovedrelease. Videre utvikling skal pri
 
 ---
 
+## KOVA Companion PWA / iPhone
+
+Status: [~] Aktiv utvikling
+
+Live:
+- https://border55-repo.github.io/KlarX/kova/
+
+Ferdig:
+- [x] installérbar PWA for iPhone/Android-nettleser
+- [x] offline app-shell og cache av siste KOVA-data
+- [x] hjelpekorpsvalg og søk
+- [x] 7-dagers og 30-dagers visning
+- [x] følge flere hjelpekorps og samlet Fulgte-visning
+- [x] favoritter på tvers av korps
+- [x] aktivitetstypefilter
+- [x] deling av aktivitet
+- [x] kalenderfil, inkludert heldagsaktivitet når klokkeslett mangler
+- [x] sikker snarvei til KOVA/Røde Kors-innlogging
+- [x] Firebase Web App opprettet i eksisterende kova-companion-prosjekt
+- [x] PWA Quality-test og automatisk GitHub Pages-deploy
+
+Pågår:
+- [ ] Web Push for Ny / Endret / Fjernet aktivitet
+- [ ] sikkert abonnementregister for PWA-enheter
+- [ ] fysisk iPhone-test av installasjon, offline og kalender
+
+Blokkering for Web Push:
+- Firestore API må aktiveres én gang i Google Cloud-prosjektet `kova-companion`.
+- CI har bekreftet at servicekontoen ikke har `serviceusage.services.enable`, så denne engangsaktiveringen må gjøres med prosjekt-eierkonto.
+
+---
+
 ## v1.1 – Stabilitet og drift
 
 Status: [~] Pågår
