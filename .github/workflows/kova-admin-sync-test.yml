@@ -1,0 +1,25 @@
+name: KOVA Admin Sync Request Test
+
+on:
+  push:
+    paths:
+      - "bridge/test_admin_sync_request.py"
+      - ".github/workflows/kova-admin-sync-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+      - name: Create admin sync test request
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/test_admin_sync_request.py
