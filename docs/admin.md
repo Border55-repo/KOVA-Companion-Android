@@ -55,3 +55,15 @@ Adminpanelet har nå et live driftslag i Firestore.
 - anonyme brukere kan verken lese admin-runtime eller lese/skrive Bridge-synkkommandoer
 
 Ingen GitHub-token, Firebase service account eller annen backendhemmelighet eksponeres i admin-nettleseren.
+
+
+## Admin Drift 1.2
+
+- Bridge-synkknappen overvåkes automatisk i adminpanelet
+- status går synlig gjennom `requested` → `running` → `completed` / `failed`
+- knappen låses mens synk pågår, slik at samme fullsynk ikke bestilles flere ganger ved et uhell
+- ferdig status viser tidspunkt, antall kontrollerte korps og antall feil
+- dashboardet oppdateres hvert 10. sekund mens en fullsynk pågår og hvert 60. sekund ellers
+- adminressurser hentes network-first slik at driftspanelet ikke blir hengende på gammel PWA-cache
+- fysisk cache-generasjonstest er godkjent med cache-generasjon 3
+- gjenstående v1.3-kvalitetssikring: fysisk test av Bridge-synkknappen i adminpanelet
