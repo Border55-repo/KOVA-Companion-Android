@@ -58,6 +58,7 @@ object NotificationHelper {
                 putExtra(NotificationTarget.EXTRA_TYPE, target.type)
                 putExtra(NotificationTarget.EXTRA_DESCRIPTION, target.description)
                 putExtra(NotificationTarget.EXTRA_SOURCE_URL, target.sourceUrl)
+                putExtra(NotificationTarget.EXTRA_CHANGE_SUMMARY, target.changeSummary)
             }
         }
 
