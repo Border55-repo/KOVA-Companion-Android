@@ -168,3 +168,5 @@ jobs:
 # release trigger: v1.0.0 stable
 
 # release trigger: v1.1.0 KOVA login shortcut
+
+# release trigger: v1.1.1 fresh-data fix
