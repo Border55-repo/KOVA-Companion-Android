@@ -186,12 +186,12 @@ def _disable_subscription(credentials, document_name: str) -> None:
         print(f"Could not disable stale Web Push subscription: {response.status_code}")
 
 
-def _quiet_now(document: dict) -> bool:
+def _quiet_now(document: dict, now: datetime | None = None) -> bool:
     if not _bool_field(document, "quietHoursEnabled", False):
         return False
     start = _integer_field(document, "quietStartHour", 22)
     end = _integer_field(document, "quietEndHour", 7)
-    hour = datetime.now(OSLO).hour
+    hour = (now or datetime.now(OSLO)).astimezone(OSLO).hour
     if start == end:
         return True
     if start < end:
