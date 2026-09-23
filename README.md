@@ -1,3 +1,8 @@
+## v1.1.2 – Project ownership info
+
+- viser tydelig prosjekteier: Julian Nordli
+- presiserer at KOVA Companion er et uavhengig prosjekt og ikke en offisiell Røde Kors-app
+
 ## v1.1.1 – Fresh KOVA data fix
 
 - bypasser GitHub Raw/CDN-cache ved KOVA Bridge-henting
