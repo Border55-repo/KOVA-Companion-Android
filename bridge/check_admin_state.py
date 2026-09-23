@@ -31,3 +31,13 @@ print("ADMIN_ROLE=" + str(profile.get("role", "")))
 print("ADMIN_MUST_CHANGE_PASSWORD=" + str(bool(profile.get("mustChangePassword", True))).lower())
 if profile.get("mustChangePassword", True):
     raise SystemExit("Password change flag is still true")
+
+
+cache_doc = db.collection("publicConfig").document("pwa").get()
+if not cache_doc.exists:
+    raise SystemExit("PWA cache control document missing")
+cache = cache_doc.to_dict() or {}
+epoch = int(cache.get("cacheEpoch", 0))
+print("PWA_CACHE_EPOCH=" + str(epoch))
+if epoch < 2:
+    raise SystemExit("PWA cache generation was not incremented")
