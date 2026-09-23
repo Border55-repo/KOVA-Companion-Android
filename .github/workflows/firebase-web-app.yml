@@ -1,0 +1,46 @@
+name: Provision Firebase Web App
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "bridge/firebase_web_setup.py"
+      - ".github/workflows/firebase-web-app.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: firebase-web-app-setup
+  cancel-in-progress: true
+
+jobs:
+  provision:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Create or refresh Firebase Web App config
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/firebase_web_setup.py
+
+      - name: Commit public web config
+        run: |
+          if [ -z "$(git status --porcelain -- bridge/data/firebase-web-config.json)" ]; then
+            echo "Firebase Web config unchanged."
+            exit 0
+          fi
+          git config user.name "KOVA Companion Firebase Setup"
+          git config user.email "actions@users.noreply.github.com"
+          git add bridge/data/firebase-web-config.json
+          git commit -m "Update Firebase Web App config"
+          git pull --rebase origin main
+          git push origin HEAD:main
