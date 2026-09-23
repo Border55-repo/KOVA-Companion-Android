@@ -497,6 +497,24 @@ fun KovaScreen(
                                     }
                             )
 
+                            Button(
+                                modifier = Modifier.fillMaxWidth(),
+                                onClick = {
+                                    context.startActivity(
+                                        Intent(
+                                            Intent.ACTION_VIEW,
+                                            Uri.parse("https://www.kova.no/")
+                                        )
+                                    )
+                                }
+                            ) {
+                                Text("Logg inn / Åpne KOVA")
+                            }
+                            Text(
+                                "Innlogging skjer hos KOVA / Røde Kors. KOVA Companion lagrer ikke brukernavn eller passord.",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+
                             if (!notificationEnabled) {
                                 OutlinedButton(
                                     onClick = {
