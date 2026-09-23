@@ -70,7 +70,21 @@ Ferdig når:
 
 ---
 
-## v1.2 – Mine aktiviteter 2.0
+## v1.2 – Enkel hverdag
+
+Status: [x] Levert i Android 1.2.0 / PWA 1.8
+
+- [x] Neste vakt øverst
+- [x] Denne uka
+- [x] Senere (30 dager)
+- [x] Mine vakter
+- [x] teknisk status tones ned for vanlige brukere
+- [x] automatisk PWA-refresh i forgrunn og hvert 5. minutt
+- [x] søk, filtre, favoritter og kalender beholdt
+
+---
+
+## v1.3 – Mine vakter 2.0
 
 Status: [ ] Planlagt
 
@@ -90,7 +104,7 @@ Ferdig når:
 
 ---
 
-## v1.3 – Varsler 2.0
+## v1.4 – Varsler 2.0
 
 Status: [ ] Planlagt
 
@@ -111,7 +125,7 @@ Ferdig når:
 
 ---
 
-## v1.4 – Flere korps og skalering
+## v1.5 – Flere korps og skalering
 
 Status: [ ] Planlagt
 
@@ -130,7 +144,7 @@ Ferdig når:
 
 ---
 
-## v1.5 – Arrangementdetaljer 2.0
+## v1.6 – Arrangementdetaljer 2.0
 
 Status: [ ] Planlagt
 
@@ -149,7 +163,7 @@ Ferdig når:
 
 ---
 
-## v1.6 – Offline og robusthet
+## v1.7 – Offline og robusthet
 
 Status: [ ] Planlagt
 
@@ -167,7 +181,7 @@ Ferdig når:
 
 ---
 
-## v1.7 – Personlig Companion
+## v1.8 – Personlig Companion
 
 Status: [ ] Planlagt
 
@@ -186,7 +200,7 @@ Ferdig når:
 
 ---
 
-## v1.8 – UI 2.0 og tilgjengelighet
+## v1.9 – UI 2.0 og tilgjengelighet
 
 Status: [ ] Planlagt
 
@@ -206,7 +220,7 @@ Ferdig når:
 
 ---
 
-## v1.9 – Distribusjon og Google Play
+## v1.10 – Distribusjon og Google Play
 
 Status: [ ] Planlagt
 
