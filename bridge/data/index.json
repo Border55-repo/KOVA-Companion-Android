@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T00:43:47+02:00",
+  "updatedAt": "2026-09-24T00:55:20+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -263,8 +263,8 @@
       "category": "hjelpekorps",
       "file": "RKSarpsborg.json",
       "status": "ok",
-      "eventCount": 47,
-      "updatedAt": "2026-09-23T03:19:38+02:00"
+      "eventCount": 46,
+      "updatedAt": "2026-09-24T00:55:19+02:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",
