@@ -58,7 +58,8 @@ service cloud.firestore {
           'organizations',
           'enabled',
           'updatedAt',
-          'platform'
+          'platform',
+          'reminderToken'
         ]) &&
         request.resource.data.endpoint is string &&
         request.resource.data.endpoint.size() > 20 &&
@@ -73,7 +74,70 @@ service cloud.firestore {
         request.resource.data.organizations.size() <= 20 &&
         request.resource.data.enabled is bool &&
         request.resource.data.platform == 'pwa' &&
+        (
+          !request.resource.data.keys().hasAny(['reminderToken']) ||
+          (
+            request.resource.data.reminderToken is string &&
+            request.resource.data.reminderToken.size() >= 32 &&
+            request.resource.data.reminderToken.size() <= 128
+          )
+        ) &&
         request.resource.data.updatedAt == request.time;
+    }
+
+    match /webPushReminders/{reminderId} {
+      allow read: if adminReady();
+      allow delete: if false;
+
+      allow create, update: if
+        request.resource.data.keys().hasOnly([
+          'subscriptionId',
+          'reminderToken',
+          'organization',
+          'eventId',
+          'semanticKey',
+          'dateIso',
+          'time',
+          'description',
+          'leadMinutes',
+          'enabled',
+          'updatedAt'
+        ]) &&
+        request.resource.data.subscriptionId is string &&
+        request.resource.data.subscriptionId.size() == 64 &&
+        request.resource.data.reminderToken is string &&
+        request.resource.data.reminderToken.size() >= 32 &&
+        request.resource.data.reminderToken.size() <= 128 &&
+        exists(
+          /databases/$(database)/documents/webPushSubscriptions/$(request.resource.data.subscriptionId)
+        ) &&
+        get(
+          /databases/$(database)/documents/webPushSubscriptions/$(request.resource.data.subscriptionId)
+        ).data.reminderToken == request.resource.data.reminderToken &&
+        request.resource.data.organization is string &&
+        request.resource.data.organization.size() > 0 &&
+        request.resource.data.organization.size() <= 128 &&
+        request.resource.data.eventId is string &&
+        request.resource.data.eventId.size() > 0 &&
+        request.resource.data.eventId.size() <= 128 &&
+        request.resource.data.semanticKey is string &&
+        request.resource.data.semanticKey.size() > 2 &&
+        request.resource.data.semanticKey.size() <= 1000 &&
+        request.resource.data.dateIso is string &&
+        request.resource.data.dateIso.size() <= 16 &&
+        request.resource.data.time is string &&
+        request.resource.data.time.size() <= 64 &&
+        request.resource.data.description is string &&
+        request.resource.data.description.size() <= 1000 &&
+        request.resource.data.leadMinutes is int &&
+        request.resource.data.leadMinutes >= 5 &&
+        request.resource.data.leadMinutes <= 10080 &&
+        request.resource.data.enabled is bool &&
+        request.resource.data.updatedAt == request.time;
+    }
+
+    match /webPushReminderState/{reminderId} {
+      allow read, write: if false;
     }
 
     match /publicConfig/pwa {
