@@ -53,6 +53,16 @@ jobs:
           TEST_BODY: "Test av varsel for endret aktivitet."
         run: python bridge/test_push.py
 
+      - name: Send added bypass diagnostic to Ullensaker
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_KIND: diagnostic-added-bypass
+          TEST_EVENT_ID: smoke-test-added-bypass-v1
+          TEST_TITLE: "Ny KOVA-aktivitet – diagnose"
+          TEST_BODY: "Diagnosetest av Ny aktivitet uten notifyAdded-filter."
+        run: python bridge/test_push.py
+
       - name: Send removed push to Ullensaker
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
