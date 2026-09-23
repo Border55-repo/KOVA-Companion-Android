@@ -1,3 +1,9 @@
+## v0.13.5 – Notification diagnostics
+
+- viser status for Ny / Endret / Fjernet direkte i Appstatus
+- varsler tydelig hvis nye aktiviteter er slått av lokalt
+- gjør det enklere å skille lokal filtrering fra Firebase-feil
+
 ## v0.13.4 – Calendar and reminder time fix
 
 - bruker normalisert KOVA-klokkeslett i kalender og lokale påminnelser
