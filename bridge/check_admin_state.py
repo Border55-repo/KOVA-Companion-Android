@@ -41,3 +41,19 @@ epoch = int(cache.get("cacheEpoch", 0))
 print("PWA_CACHE_EPOCH=" + str(epoch))
 if epoch < 2:
     raise SystemExit("PWA cache generation was not incremented")
+
+
+runtime_doc = db.collection("adminRuntime").document("bridge").get()
+if not runtime_doc.exists:
+    raise SystemExit("Admin runtime document missing")
+runtime = runtime_doc.to_dict() or {}
+print("ADMIN_RUNTIME_STATUS=" + str(runtime.get("status", "")))
+print("ADMIN_RUNTIME_LAST_RUN=" + str(runtime.get("lastRunAt", "")))
+print("ADMIN_RUNTIME_POLLED=" + str(runtime.get("polledThisRun", "")))
+print("ADMIN_RUNTIME_FAILURES=" + str(runtime.get("failures", "")))
+checks = runtime.get("organizationChecks") or {}
+print("ADMIN_RUNTIME_ORG_CHECKS=" + str(len(checks)))
+if runtime.get("status") not in ("ok", "degraded", "error"):
+    raise SystemExit("Unexpected admin runtime status")
+if not runtime.get("lastRunAt"):
+    raise SystemExit("Admin runtime lastRunAt missing")
