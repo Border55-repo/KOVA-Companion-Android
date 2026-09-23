@@ -18,6 +18,7 @@ from firebase_admin import credentials, firestore
 from bs4 import BeautifulSoup
 
 from push import send_diff_notification
+from webpush import send_due_reminders
 from reliability import (
     append_history,
     change_records,
@@ -813,6 +814,16 @@ def main() -> int:
         summaries,
         changed_any or failures > 0,
     )
+
+    reminder_events = {}
+    for organization in organizations:
+        payload = read_json(
+            DATA_DIR / f"{slug(organization['code'])}.json",
+            {},
+        )
+        reminder_events[organization["code"]] = payload.get("events", [])
+
+    total_pushes += send_due_reminders(reminder_events)
 
     remaining_pending = len(pending_records(push_state))
     health_written = write_health(
