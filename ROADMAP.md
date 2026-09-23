@@ -35,13 +35,12 @@ Ferdig:
 - [x] PWA Quality-test og automatisk GitHub Pages-deploy
 
 Pågår:
-- [ ] Web Push for Ny / Endret / Fjernet aktivitet
-- [ ] sikkert abonnementregister for PWA-enheter
-- [ ] fysisk iPhone-test av installasjon, offline og kalender
-
-Blokkering for Web Push:
-- Firestore API må aktiveres én gang i Google Cloud-prosjektet `kova-companion`.
-- CI har bekreftet at servicekontoen ikke har `serviceusage.services.enable`, så denne engangsaktiveringen må gjøres med prosjekt-eierkonto.
+- [x] Web Push-backend for Ny / Endret / Fjernet aktivitet
+- [x] sikkert write-only abonnementregister for PWA-enheter
+- [x] varig VAPID-nøkkel lagret server-side og offentlig nøkkel publisert
+- [x] live Firestore rules-probe i CI
+- [x] dedikert PWA Web Push-smoketest
+- [ ] fysisk iPhone-test av installasjon, abonnement, mottatt push, offline og kalender
 
 ---
 
