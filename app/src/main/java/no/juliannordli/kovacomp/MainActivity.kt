@@ -515,6 +515,22 @@ fun KovaScreen(
                                 style = MaterialTheme.typography.bodySmall
                             )
 
+                            HorizontalDivider()
+                            Text(
+                                "Om KOVA Companion",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold
+                            )
+                            Text(
+                                "Prosjekteier: Julian Nordli",
+                                style = MaterialTheme.typography.bodyMedium,
+                                fontWeight = FontWeight.SemiBold
+                            )
+                            Text(
+                                "KOVA Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+
                             if (!notificationEnabled) {
                                 OutlinedButton(
                                     onClick = {
