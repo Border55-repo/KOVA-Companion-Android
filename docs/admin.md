@@ -66,4 +66,7 @@ Ingen GitHub-token, Firebase service account eller annen backendhemmelighet eksp
 - dashboardet oppdateres hvert 10. sekund mens en fullsynk pågår og hvert 60. sekund ellers
 - adminressurser hentes network-first slik at driftspanelet ikke blir hengende på gammel PWA-cache
 - fysisk cache-generasjonstest er godkjent med cache-generasjon 3
-- gjenstående v1.3-kvalitetssikring: fysisk test av Bridge-synkknappen i adminpanelet
+- fysisk Bridge-synkknapp er testet og godkjent i adminpanelet
+
+
+v1.3 er dermed fullført og fysisk kvalitetssikret.
