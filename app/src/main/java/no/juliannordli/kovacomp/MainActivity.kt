@@ -138,8 +138,12 @@ fun KovaScreen(
     var favorites by remember { mutableStateOf(favoriteStore.list()) }
     var showMyActivities by remember { mutableStateOf(false) }
     var myRange by remember { mutableStateOf(MyActivitiesRange.MONTH) }
+    var myActivitiesLimit by remember { mutableStateOf(20) }
     var remind24Hours by remember { mutableStateOf(settings.remind24Hours) }
+    var remind6Hours by remember { mutableStateOf(settings.remind6Hours) }
     var remind2Hours by remember { mutableStateOf(settings.remind2Hours) }
+    var remind1Hour by remember { mutableStateOf(settings.remind1Hour) }
+    var remind30Minutes by remember { mutableStateOf(settings.remind30Minutes) }
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
@@ -421,6 +425,7 @@ fun KovaScreen(
                     .padding(padding)
                     .fillMaxSize(),
                 event = selectedEvent!!,
+                organizationCode = selectedOrganization ?: org,
                 organizationName = Organizations.nameFor(
                     selectedOrganization ?: org,
                     availableOrganizations
@@ -789,7 +794,10 @@ fun KovaScreen(
                                     MyActivitiesRange.values().forEach { range ->
                                         FilterChip(
                                             selected = myRange == range,
-                                            onClick = { myRange = range },
+                                            onClick = {
+                                                myRange = range
+                                                myActivitiesLimit = 20
+                                            },
                                             label = { Text(range.label) }
                                         )
                                     }
@@ -801,7 +809,7 @@ fun KovaScreen(
                                         style = MaterialTheme.typography.bodyMedium
                                     )
                                 } else {
-                                    myActivities.forEach { favorite ->
+                                    myActivities.take(myActivitiesLimit).forEach { favorite ->
                                         MyActivityRow(
                                             favorite = favorite,
                                             organizationName = Organizations.nameFor(
@@ -825,6 +833,20 @@ fun KovaScreen(
                                                 CalendarHelper.addEvent(context, favorite.event)
                                             }
                                         )
+                                    }
+                                    if (myActivities.size > myActivitiesLimit) {
+                                        OutlinedButton(
+                                            modifier = Modifier.fillMaxWidth(),
+                                            onClick = {
+                                                myActivitiesLimit += 20
+                                            }
+                                        ) {
+                                            Text(
+                                                "Vis flere (" +
+                                                    (myActivities.size - myActivitiesLimit) +
+                                                    " igjen)"
+                                            )
+                                        }
                                     }
                                 }
                             }
@@ -982,9 +1004,27 @@ fun KovaScreen(
                                     ReminderScheduler.rescheduleAll(context)
                                 }
 
+                                SettingSwitch("6 timer før", remind6Hours) {
+                                    remind6Hours = it
+                                    settings.remind6Hours = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
                                 SettingSwitch("2 timer før", remind2Hours) {
                                     remind2Hours = it
                                     settings.remind2Hours = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
+                                SettingSwitch("1 time før", remind1Hour) {
+                                    remind1Hour = it
+                                    settings.remind1Hour = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
+                                SettingSwitch("30 minutter før", remind30Minutes) {
+                                    remind30Minutes = it
+                                    settings.remind30Minutes = it
                                     ReminderScheduler.rescheduleAll(context)
                                 }
 
@@ -1472,6 +1512,12 @@ private fun OnboardingScreen(
     modifier: Modifier,
     onContinue: () -> Unit
 ) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val noteStore = remember { NoteStore(context) }
+    var localNote by remember(organizationCode, event.semanticKey) {
+        mutableStateOf(noteStore.get(organizationCode, event))
+    }
+
     LazyColumn(
         modifier = modifier,
         contentPadding = PaddingValues(20.dp),
@@ -1690,6 +1736,7 @@ private fun EventCard(
 private fun EventDetailScreen(
     modifier: Modifier,
     event: KovaEvent,
+    organizationCode: String,
     organizationName: String,
     kind: String?,
     isFavorite: Boolean,
@@ -1749,6 +1796,20 @@ private fun EventDetailScreen(
                     }
                     Text("Tid: " + event.displayTime)
                     Text("Korps: " + organizationName)
+
+                    OutlinedTextField(
+                        value = localNote,
+                        onValueChange = {
+                            localNote = it
+                            noteStore.set(organizationCode, event, it)
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+                        label = { Text("Lokal note") },
+                        supportingText = {
+                            Text("Lagres bare på denne telefonen.")
+                        },
+                        minLines = 2
+                    )
 
                     if (kind == "removed") {
                         Text(
