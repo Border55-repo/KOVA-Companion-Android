@@ -14,9 +14,9 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 ## Førstegangsoppsett
 
 - Installer appen rent på en testtelefon.
-- Bekreft ikon og splash.
-- Fullfør onboarding.
-- Gi eller avslå varslingstillatelse og kontroller at Appstatus viser riktig resultat.
+- [x] Bekreft ikon og splash.
+- [x] Fullfør onboarding.
+- [x] Gi eller avslå varslingstillatelse og kontroller at Appstatus viser riktig resultat.
 - Bekreft at snarveien til Androids varselinnstillinger fungerer ved avslåtte varsler.
 
 ## KOVA-data
@@ -30,13 +30,13 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 
 ## Visninger og søk
 
-- Listevisning.
-- Ukevisning.
-- Månedsvisning.
-- Søk på aktivitetsnavn.
-- Søk på aktivitetstype.
-- Filtrer aktivitetstype.
-- Søk og bytt hjelpekorps.
+- [x] Listevisning.
+- [x] Ukevisning.
+- [x] Månedsvisning.
+- [x] Søk på aktivitetsnavn.
+- [x] Søk på aktivitetstype.
+- [x] Filtrer aktivitetstype.
+- [x] Søk og bytt hjelpekorps.
 
 ## Varsler
 
