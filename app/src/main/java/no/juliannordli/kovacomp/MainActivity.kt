@@ -152,6 +152,7 @@ fun KovaScreen(
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
+    var selectedChangeSummary by remember { mutableStateOf("") }
     var selectedOrganization by remember { mutableStateOf<String?>(null) }
 
     var notificationEnabled by remember {
@@ -340,6 +341,7 @@ fun KovaScreen(
             ?: target.toEvent()
         selectedOrganization = target.organization
         selectedKind = target.kind
+        selectedChangeSummary = target.changeSummary
         onTargetConsumed()
     }
 
@@ -436,6 +438,7 @@ fun KovaScreen(
                     availableOrganizations
                 ),
                 kind = selectedKind,
+                changeSummary = if (selectedKind == "changed") selectedChangeSummary else "",
                 isFavorite = favoriteStore.isFavorite(
                     selectedOrganization ?: org,
                     selectedEvent!!
@@ -443,6 +446,7 @@ fun KovaScreen(
                 onBack = {
                     selectedEvent = null
                     selectedKind = null
+                    selectedChangeSummary = ""
                     selectedOrganization = null
                 },
                 onFavorite = {
@@ -1833,6 +1837,25 @@ private fun EventCard(
     }
 }
 
+private fun guessLocation(description: String): String? {
+    val parts = description.split(",")
+        .map { it.trim() }
+        .filter { it.isNotBlank() }
+    if (parts.size < 2) return null
+    val candidate = parts.last()
+    if (candidate.length !in 4..90) return null
+    if (Regex("^\\d{1,2}:\\d{2}").containsMatchIn(candidate)) return null
+    return candidate
+}
+
+private fun guessContact(description: String): String? {
+    val email = Regex("[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}", RegexOption.IGNORE_CASE)
+        .find(description)?.value
+    if (!email.isNullOrBlank()) return email
+    return Regex("(?:\\+47\\s*)?(?:\\d[\\s-]?){8}")
+        .find(description)?.value?.trim()
+}
+
 @Composable
 private fun EventDetailScreen(
     modifier: Modifier,
@@ -1840,6 +1863,7 @@ private fun EventDetailScreen(
     organizationCode: String,
     organizationName: String,
     kind: String?,
+    changeSummary: String,
     isFavorite: Boolean,
     onBack: () -> Unit,
     onFavorite: () -> Unit,
@@ -1851,6 +1875,8 @@ private fun EventDetailScreen(
     var localNote by remember(organizationCode, event.semanticKey) {
         mutableStateOf(noteStore.get(organizationCode, event))
     }
+    val locationHint = remember(event.description) { guessLocation(event.description) }
+    val contactHint = remember(event.description) { guessContact(event.description) }
 
     LazyColumn(
         modifier = modifier,
@@ -1903,6 +1929,36 @@ private fun EventDetailScreen(
                     }
                     Text("Tid: " + event.displayTime)
                     Text("Korps: " + organizationName)
+
+                    if (locationHint != null) {
+                        Text("Sted fra KOVA: " + locationHint)
+                        TextButton(
+                            onClick = {
+                                context.startActivity(
+                                    Intent(
+                                        Intent.ACTION_VIEW,
+                                        Uri.parse(
+                                            "https://www.google.com/maps/search/?api=1&query=" +
+                                                Uri.encode(locationHint)
+                                        )
+                                    )
+                                )
+                            }
+                        ) {
+                            Text("Åpne kart")
+                        }
+                    }
+                    if (contactHint != null) {
+                        Text("Kontakt fra KOVA: " + contactHint)
+                    }
+                    if (changeSummary.isNotBlank()) {
+                        Text(
+                            changeSummary,
+                            color = MaterialTheme.colorScheme.primary,
+                            style = MaterialTheme.typography.bodyMedium,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                    }
 
                     OutlinedTextField(
                         value = localNote,
