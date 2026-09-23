@@ -12,6 +12,7 @@ from google.auth.transport.requests import Request
 from google.oauth2 import service_account
 
 from reliability import change_id
+from webpush import send_web_notification
 
 FCM_SCOPE = "https://www.googleapis.com/auth/firebase.messaging"
 TRANSIENT_HTTP = {429, 500, 502, 503, 504}
@@ -199,7 +200,21 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
                 message["event"],
                 message["changeId"],
             )
-            sent_ids.append(message["changeId"])
+            web_ok = send_web_notification(
+                org["code"],
+                message["title"],
+                message["body"],
+                message["kind"],
+                message["event"],
+                message["changeId"],
+            )
+            if web_ok:
+                sent_ids.append(message["changeId"])
+            else:
+                print(
+                    f"Web Push transient failure keeps {message['changeId']} pending.",
+                    flush=True,
+                )
         except Exception as exc:
             print(
                 f"FCM send failed for {message['changeId']}: {exc}",
@@ -211,18 +226,34 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
         summary_raw = "|".join(item["changeId"] for item in remaining).encode("utf-8")
         summary_id = "summary-" + hashlib.sha256(summary_raw).hexdigest()[:24]
         try:
+            summary_title = "Flere KOVA-endringer"
+            summary_body = (
+                f"{len(remaining)} ytterligere endringer er registrert. "
+                "Åpne KOVA Companion for oversikt."
+            )
             _send(
                 credentials,
                 project_id,
                 org,
-                "Flere KOVA-endringer",
-                f"{len(remaining)} ytterligere endringer er registrert. Åpne KOVA Companion for oversikt.",
+                summary_title,
+                summary_body,
                 "summary",
                 source_url,
                 None,
                 summary_id,
             )
-            sent_ids.extend(item["changeId"] for item in remaining)
+            web_ok = send_web_notification(
+                org["code"],
+                summary_title,
+                summary_body,
+                "summary",
+                None,
+                summary_id,
+            )
+            if web_ok:
+                sent_ids.extend(item["changeId"] for item in remaining)
+            else:
+                print("Web Push summary failure keeps remaining changes pending.", flush=True)
         except Exception as exc:
             print(f"FCM summary send failed: {exc}", flush=True)
 
