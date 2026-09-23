@@ -7,8 +7,8 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 - Installer siste stabile versjon.
 - [x] Kjør «Sjekk etter oppdatering» i appen.
 - [x] Bekreft at nyere versjon oppdages uten HTTP 403.
-- Trykk «Last ned oppdatering».
-- Bekreft at Android DownloadManager starter nedlastingen uten å åpne direkte APK-lenke i Chrome.
+- [x] Trykk «Last ned oppdatering».
+- [x] Bekreft at Android DownloadManager starter nedlastingen uten å åpne direkte APK-lenke i Chrome.
 - Installer oppdateringen og bekreft at appdata, favoritter og innstillinger beholdes.
 
 ## Førstegangsoppsett
