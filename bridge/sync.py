@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -12,6 +13,8 @@ from urllib.parse import parse_qs, quote_plus, unquote_plus, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
+import firebase_admin
+from firebase_admin import credentials, firestore
 from bs4 import BeautifulSoup
 
 from push import send_diff_notification
@@ -81,6 +84,114 @@ KNOWN_TYPES = {
 
 DATE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})")
 TIME_RE = re.compile(r"(?:->\s*)?(\d{1,2}:\d{2})$")
+_ADMIN_DB = None
+
+
+def admin_db():
+    global _ADMIN_DB
+    if _ADMIN_DB is not None:
+        return _ADMIN_DB
+
+    raw = os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip()
+    if not raw:
+        return None
+
+    try:
+        info = json.loads(raw)
+        if not firebase_admin._apps:
+            firebase_admin.initialize_app(
+                credentials.Certificate(info),
+                {"projectId": info.get("project_id", "kova-companion")},
+            )
+        _ADMIN_DB = firestore.client()
+        return _ADMIN_DB
+    except Exception as exc:
+        print(f"Admin runtime unavailable: {exc}", file=sys.stderr)
+        return None
+
+
+def read_bridge_sync_request(db):
+    if db is None:
+        return None
+    try:
+        snap = db.collection("adminCommands").document("bridgeSync").get()
+        if not snap.exists:
+            return None
+        data = snap.to_dict() or {}
+        return data if data.get("status") == "requested" else None
+    except Exception as exc:
+        print(f"Could not read admin sync request: {exc}", file=sys.stderr)
+        return None
+
+
+def set_bridge_sync_command(db, command: dict | None, status: str, **extra) -> None:
+    if db is None or not command:
+        return
+    try:
+        payload = dict(command)
+        payload.update(extra)
+        payload["action"] = "bridgeSync"
+        payload["status"] = status
+        db.collection("adminCommands").document("bridgeSync").set(payload)
+    except Exception as exc:
+        print(f"Could not update admin sync request: {exc}", file=sys.stderr)
+
+
+def publish_admin_runtime(
+    db,
+    organizations: list[dict],
+    summaries: list[dict],
+    failures: int,
+    pushes: int,
+    pending: int,
+    full_sync: bool,
+) -> None:
+    if db is None:
+        return
+    try:
+        ref = db.collection("adminRuntime").document("bridge")
+        previous = ref.get().to_dict() or {}
+        checks = dict(previous.get("organizationChecks") or {})
+        now_iso = datetime.now(OSLO).isoformat(timespec="seconds")
+
+        for item in summaries:
+            checks[slug(item["code"])] = {
+                "name": item["name"],
+                "code": item["code"],
+                "status": item.get("status", "unknown"),
+                "eventCount": int(item.get("eventCount", 0) or 0),
+                "checkedAt": now_iso,
+                "error": item.get("error"),
+            }
+
+        status = (
+            "error"
+            if summaries and failures == len(summaries)
+            else "degraded"
+            if failures
+            else "ok"
+        )
+
+        ref.set(
+            {
+                "status": status,
+                "lastRunAt": now_iso,
+                "fullSync": bool(full_sync),
+                "organizationCount": len(organizations),
+                "helpCorpsCount": sum(
+                    1
+                    for item in organizations
+                    if item.get("category") == "hjelpekorps"
+                ),
+                "polledThisRun": len(summaries),
+                "failures": failures,
+                "pushesThisRun": pushes,
+                "pendingPushes": pending,
+                "organizationChecks": checks,
+            }
+        )
+    except Exception as exc:
+        print(f"Could not publish admin runtime: {exc}", file=sys.stderr)
 
 
 def slug(code: str) -> str:
@@ -581,7 +692,21 @@ def write_health(
 def main() -> int:
     organizations = discover_organizations()
     registry_changed = write_organization_registry(organizations)
-    polled = poll_batch(organizations)
+
+    db = admin_db()
+    sync_command = read_bridge_sync_request(db)
+    force_full_sync = bool(sync_command)
+    if force_full_sync:
+        set_bridge_sync_command(
+            db,
+            sync_command,
+            "running",
+            startedAt=datetime.now(OSLO).isoformat(timespec="seconds"),
+        )
+        polled = organizations
+        print("Admin requested full Bridge sync.")
+    else:
+        polled = poll_batch(organizations)
 
     print(
         f"Discovered {len(organizations)} public KOVA organizations "
@@ -699,10 +824,30 @@ def main() -> int:
         pending_count=remaining_pending,
     )
 
+    publish_admin_runtime(
+        db=db,
+        organizations=organizations,
+        summaries=summaries,
+        failures=failures,
+        pushes=total_pushes,
+        pending=remaining_pending,
+        full_sync=force_full_sync,
+    )
+
+    if force_full_sync:
+        set_bridge_sync_command(
+            db,
+            sync_command,
+            "completed" if failures < len(polled) else "failed",
+            completedAt=datetime.now(OSLO).isoformat(timespec="seconds"),
+            failures=failures,
+            polled=len(polled),
+        )
+
     print(
         f"Bridge summary: discovered={len(organizations)}, polled={len(polled)}, "
         f"failures={failures}, pushes={total_pushes}, pending={remaining_pending}, "
-        f"health_written={health_written}"
+        f"health_written={health_written}, full_sync={force_full_sync}"
     )
 
     return 1 if polled and failures == len(polled) else 0
