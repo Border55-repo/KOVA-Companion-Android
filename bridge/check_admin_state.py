@@ -57,3 +57,23 @@ if runtime.get("status") not in ("ok", "degraded", "error"):
     raise SystemExit("Unexpected admin runtime status")
 if not runtime.get("lastRunAt"):
     raise SystemExit("Admin runtime lastRunAt missing")
+
+
+command_doc = db.collection("adminCommands").document("bridgeSync").get()
+if not command_doc.exists:
+    raise SystemExit("Admin Bridge sync command document missing")
+command = command_doc.to_dict() or {}
+print("ADMIN_SYNC_COMMAND_STATUS=" + str(command.get("status", "")))
+print("ADMIN_SYNC_COMMAND_POLLED=" + str(command.get("polled", "")))
+print("ADMIN_SYNC_COMMAND_FAILURES=" + str(command.get("failures", "")))
+if command.get("status") != "completed":
+    raise SystemExit("Latest admin Bridge sync command is not completed")
+if int(command.get("polled", 0) or 0) < 42:
+    raise SystemExit("Admin full sync did not poll all organizations")
+if int(command.get("failures", 0) or 0) != 0:
+    raise SystemExit("Admin full sync completed with failures")
+
+if len(checks) < 38:
+    raise SystemExit(
+        f"Expected runtime checks for at least 38 hjelpekorps, found {len(checks)}"
+    )
