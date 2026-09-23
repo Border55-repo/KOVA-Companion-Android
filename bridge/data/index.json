@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T13:50:35+02:00",
+  "updatedAt": "2026-09-23T14:28:20+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -182,8 +182,8 @@
       "category": "hjelpekorps",
       "file": "MORKH.json",
       "status": "ok",
-      "eventCount": 52,
-      "updatedAt": "2026-09-23T09:48:42+02:00"
+      "eventCount": 53,
+      "updatedAt": "2026-09-23T14:28:11+02:00"
     },
     {
       "name": "Nes Røde Kors Hjelpekorps",
@@ -282,7 +282,7 @@
       "file": "SkienRKH.json",
       "status": "ok",
       "eventCount": 33,
-      "updatedAt": "2026-09-23T11:09:28+02:00"
+      "updatedAt": "2026-09-23T14:28:15+02:00"
     },
     {
       "name": "Sotra Røde Kors Hjelpekorps",

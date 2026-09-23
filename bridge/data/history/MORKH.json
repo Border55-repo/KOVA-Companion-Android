@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8f97be91a68e56e3337ca2d7",
+      "observedAt": "2026-09-23T14:28:11+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "881f5b486dfd386b",
+        "dateIso": "2026-12-01",
+        "dateLabel": "tir. 1.12",
+        "time": "17:30",
+        "type": "Eksterne møter",
+        "description": "Taugruppa møte grottegruppe Taugruppa til Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "a883f12a3754e755f9505e6a",
       "observedAt": "2026-09-23T09:48:42+02:00",
       "organization": "MORKH",
@@ -437,5 +452,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T09:48:42+02:00"
+  "updatedAt": "2026-09-23T14:28:11+02:00"
 }
