@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 import base64
+import hashlib
 import json
 import os
-from datetime import datetime, timezone
+import re
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import requests
 from cryptography.hazmat.primitives import serialization
@@ -18,6 +21,9 @@ FIRESTORE_SCOPE = "https://www.googleapis.com/auth/datastore"
 PUBLIC_CONFIG_PATH = Path(__file__).resolve().parent / "data" / "webpush-config.json"
 VAPID_DOC = "webPushConfig/vapid"
 SUBSCRIPTIONS_COLLECTION = "webPushSubscriptions"
+REMINDERS_COLLECTION = "webPushReminders"
+REMINDER_STATE_COLLECTION = "webPushReminderState"
+OSLO = ZoneInfo("Europe/Oslo")
 
 
 def _b64url(data: bytes) -> str:
@@ -63,6 +69,42 @@ def _bool_field(document: dict, key: str, default: bool = False) -> bool:
 def _array_strings(document: dict, key: str) -> list[str]:
     values = (((document.get("fields") or {}).get(key) or {}).get("arrayValue") or {}).get("values", [])
     return [str(item.get("stringValue", "")) for item in values if item.get("stringValue")]
+
+
+def _integer_field(document: dict, key: str, default: int = 0) -> int:
+    value = ((document.get("fields") or {}).get(key) or {}).get("integerValue")
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _document_id(document: dict) -> str:
+    return str(document.get("name", "")).rsplit("/", 1)[-1]
+
+
+def _list_collection_documents(
+    credentials,
+    project_id: str,
+    collection: str,
+) -> list[dict]:
+    url = _doc_url(project_id, collection)
+    documents: list[dict] = []
+    token = None
+
+    while True:
+        params: dict[str, Any] = {"pageSize": 500}
+        if token:
+            params["pageToken"] = token
+        response = requests.get(url, headers=_headers(credentials), params=params, timeout=30)
+        if response.status_code == 404:
+            return []
+        response.raise_for_status()
+        payload = response.json()
+        documents.extend(payload.get("documents", []))
+        token = payload.get("nextPageToken")
+        if not token:
+            return documents
 
 
 def ensure_vapid_config() -> dict[str, str]:
@@ -124,23 +166,11 @@ def ensure_vapid_config() -> dict[str, str]:
 
 
 def _list_subscription_documents(credentials, project_id: str) -> list[dict]:
-    url = _doc_url(project_id, SUBSCRIPTIONS_COLLECTION)
-    documents: list[dict] = []
-    token = None
-
-    while True:
-        params: dict[str, Any] = {"pageSize": 500}
-        if token:
-            params["pageToken"] = token
-        response = requests.get(url, headers=_headers(credentials), params=params, timeout=30)
-        if response.status_code == 404:
-            return []
-        response.raise_for_status()
-        payload = response.json()
-        documents.extend(payload.get("documents", []))
-        token = payload.get("nextPageToken")
-        if not token:
-            return documents
+    return _list_collection_documents(
+        credentials,
+        project_id,
+        SUBSCRIPTIONS_COLLECTION,
+    )
 
 
 def _disable_subscription(credentials, document_name: str) -> None:
@@ -230,3 +260,256 @@ def send_web_notification(
 
     print(f"Web Push sent to {sent}/{len(targets)} subscription(s) for {organization}.")
     return not transient_failure
+
+
+def _semantic_key(event: dict) -> str:
+    normalize = lambda value: re.sub(r"\s+", " ", str(value or "").strip().lower())
+    return normalize(event.get("type")) + "|" + normalize(event.get("description"))
+
+
+def _event_datetime(event: dict) -> datetime | None:
+    date_iso = str(event.get("dateIso", "")).strip()
+    time_match = re.search(r"\d{1,2}:\d{2}", str(event.get("time", "")))
+    if not date_iso or not time_match:
+        return None
+    try:
+        value = datetime.strptime(
+            date_iso + " " + time_match.group(0),
+            "%Y-%m-%d %H:%M",
+        )
+    except ValueError:
+        return None
+    return value.replace(tzinfo=OSLO)
+
+
+def reminder_due(
+    now: datetime,
+    event: dict,
+    lead_minutes: int,
+    grace_minutes: int = 20,
+) -> bool:
+    event_at = _event_datetime(event)
+    if event_at is None or lead_minutes <= 0:
+        return False
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=OSLO)
+    else:
+        now = now.astimezone(OSLO)
+    due_at = event_at - timedelta(minutes=lead_minutes)
+    return due_at <= now < event_at and now <= due_at + timedelta(minutes=grace_minutes)
+
+
+def _reminder_signature(
+    organization: str,
+    event: dict,
+    lead_minutes: int,
+) -> str:
+    raw = "|".join(
+        [
+            organization,
+            str(event.get("id", "")),
+            str(event.get("dateIso", "")),
+            str(event.get("time", "")),
+            str(lead_minutes),
+        ]
+    ).encode("utf-8")
+    return hashlib.sha256(raw).hexdigest()
+
+
+def _get_reminder_state_signature(
+    credentials,
+    project_id: str,
+    reminder_id: str,
+) -> str:
+    response = requests.get(
+        _doc_url(project_id, f"{REMINDER_STATE_COLLECTION}/{reminder_id}"),
+        headers=_headers(credentials),
+        timeout=30,
+    )
+    if response.status_code == 404:
+        return ""
+    response.raise_for_status()
+    return _string_field(response.json(), "signature")
+
+
+def _write_reminder_state(
+    credentials,
+    project_id: str,
+    reminder_id: str,
+    signature: str,
+    event: dict,
+) -> None:
+    payload = {
+        "fields": {
+            "signature": {"stringValue": signature},
+            "eventId": {"stringValue": str(event.get("id", ""))},
+            "sentAt": {"timestampValue": datetime.now(timezone.utc).isoformat()},
+        }
+    }
+    response = requests.patch(
+        _doc_url(project_id, f"{REMINDER_STATE_COLLECTION}/{reminder_id}"),
+        headers=_headers(credentials),
+        json=payload,
+        timeout=30,
+    )
+    response.raise_for_status()
+
+
+def _lead_label(minutes: int) -> str:
+    if minutes % (24 * 60) == 0:
+        days = minutes // (24 * 60)
+        return f"{days} dag" if days == 1 else f"{days} dager"
+    if minutes % 60 == 0:
+        hours = minutes // 60
+        return f"{hours} time" if hours == 1 else f"{hours} timer"
+    return f"{minutes} minutter"
+
+
+def _send_to_subscription(
+    document: dict,
+    payload: dict,
+    config: dict[str, str],
+    credentials,
+) -> tuple[bool, bool]:
+    subscription = {
+        "endpoint": _string_field(document, "endpoint"),
+        "keys": {
+            "p256dh": _string_field(document, "p256dh"),
+            "auth": _string_field(document, "auth"),
+        },
+    }
+    if not all(
+        [
+            subscription["endpoint"],
+            subscription["keys"]["p256dh"],
+            subscription["keys"]["auth"],
+        ]
+    ):
+        return True, False
+
+    try:
+        webpush(
+            subscription_info=subscription,
+            data=json.dumps(payload, ensure_ascii=False),
+            vapid_private_key=config["privateKey"],
+            vapid_claims={"sub": "mailto:kova-companion@users.noreply.github.com"},
+            ttl=3600,
+            timeout=20,
+        )
+        return True, True
+    except WebPushException as exc:
+        status = exc.status_code
+        if status in (404, 410):
+            _disable_subscription(credentials, document["name"])
+            print(f"Disabled stale reminder subscription ({status}).")
+            return True, False
+        print(f"Reminder Web Push failed ({status or 'unknown'}): {exc}", flush=True)
+        return False, False
+
+
+def send_due_reminders(
+    events_by_organization: dict[str, list[dict]],
+    now: datetime | None = None,
+) -> int:
+    credentials, project_id = _credentials()
+    if credentials is None:
+        return 0
+
+    reminders = _list_collection_documents(
+        credentials,
+        project_id,
+        REMINDERS_COLLECTION,
+    )
+    if not reminders:
+        return 0
+
+    subscriptions = {
+        _document_id(document): document
+        for document in _list_subscription_documents(credentials, project_id)
+    }
+    config = ensure_vapid_config()
+    now = (now or datetime.now(OSLO)).astimezone(OSLO)
+    sent = 0
+
+    for reminder in reminders:
+        if not _bool_field(reminder, "enabled", True):
+            continue
+
+        reminder_id = _document_id(reminder)
+        subscription_id = _string_field(reminder, "subscriptionId")
+        organization = _string_field(reminder, "organization")
+        event_id = _string_field(reminder, "eventId")
+        semantic_key = _string_field(reminder, "semanticKey")
+        lead_minutes = _integer_field(reminder, "leadMinutes")
+
+        subscription = subscriptions.get(subscription_id)
+        if subscription is None or not _bool_field(subscription, "enabled", True):
+            continue
+
+        events = events_by_organization.get(organization, [])
+        event = next(
+            (item for item in events if str(item.get("id", "")) == event_id),
+            None,
+        )
+        if event is None and semantic_key:
+            candidates = [
+                item for item in events
+                if _semantic_key(item) == semantic_key
+            ]
+            if len(candidates) == 1:
+                event = candidates[0]
+
+        if event is None or not reminder_due(now, event, lead_minutes):
+            continue
+
+        signature = _reminder_signature(
+            organization,
+            event,
+            lead_minutes,
+        )
+        if (
+            _get_reminder_state_signature(
+                credentials,
+                project_id,
+                reminder_id,
+            )
+            == signature
+        ):
+            continue
+
+        label = _lead_label(lead_minutes)
+        payload = {
+            "title": "Påminnelse om KOVA-vakt",
+            "body": (
+                f"{event.get('description', 'KOVA-aktivitet')} starter om {label} • "
+                f"{event.get('dateLabel', event.get('dateIso', ''))} "
+                f"{event.get('time', '')}"
+            ).strip(),
+            "kind": "reminder",
+            "organization": organization,
+            "changeId": "reminder-" + reminder_id + "-" + signature[:12],
+            "event": event,
+        }
+
+        ok, delivered = _send_to_subscription(
+            subscription,
+            payload,
+            config,
+            credentials,
+        )
+        if not ok:
+            continue
+
+        _write_reminder_state(
+            credentials,
+            project_id,
+            reminder_id,
+            signature,
+            event,
+        )
+        if delivered:
+            sent += 1
+
+    if sent:
+        print(f"Web Push reminders sent: {sent}.")
+    return sent
