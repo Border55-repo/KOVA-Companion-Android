@@ -6,7 +6,7 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:39:57+02:00",
+  "updatedAt": "2026-09-23T03:19:35+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
   "eventCount": 22,
   "changes": {
@@ -73,7 +73,7 @@
       "id": "99cb54d934512dea",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
-      "time": "16:00",
+      "time": "-> 16:00",
       "type": "Interne kurs",
       "description": "Ksor Stavern",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
@@ -100,7 +100,7 @@
       "id": "627a04dacacf2ad0",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
-      "time": "16:00",
+      "time": "-> 16:00",
       "type": "Interne kurs",
       "description": "Stab Lsor",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
@@ -172,7 +172,7 @@
       "id": "341cf5604b949dc2",
       "dateIso": "2027-02-14",
       "dateLabel": "søn. 14.2",
-      "time": "16:00",
+      "time": "-> 16:00",
       "type": "Interne kurs",
       "description": "Ksor Vinter",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
@@ -190,7 +190,7 @@
       "id": "1df8b9911fcfa34d",
       "dateIso": "2027-05-01",
       "dateLabel": "lør. 1.5",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Natt til 1. mai Sanitetsvakt - sentrum",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
@@ -208,7 +208,7 @@
       "id": "8ec567175980ca93",
       "dateIso": "2027-05-17",
       "dateLabel": "man. 17.5",
-      "time": "01:30",
+      "time": "-> 01:30",
       "type": "Sanitetsvakt",
       "description": "Natt til 17.mai Sanitetsvakt - sentrum",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"

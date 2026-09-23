@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T02:08:05+02:00",
+  "updatedAt": "2026-09-23T03:19:40+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -66,7 +66,7 @@
       "file": "B_SauheradRKH.json",
       "status": "ok",
       "eventCount": 22,
-      "updatedAt": "2026-09-23T00:39:57+02:00"
+      "updatedAt": "2026-09-23T03:19:35+02:00"
     },
     {
       "name": "Drangedal Røde Kors Hjelpekorps",
@@ -255,7 +255,7 @@
       "file": "RKSarpsborg.json",
       "status": "ok",
       "eventCount": 47,
-      "updatedAt": "2026-09-23T00:40:01+02:00"
+      "updatedAt": "2026-09-23T03:19:38+02:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",

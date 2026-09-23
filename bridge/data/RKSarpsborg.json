@@ -6,13 +6,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:40:01+02:00",
+  "updatedAt": "2026-09-23T03:19:38+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
   "eventCount": 47,
   "changes": {
-    "added": 4,
-    "removed": 2,
-    "changed": 3
+    "added": 0,
+    "removed": 0,
+    "changed": 0
   },
   "events": [
     {
@@ -145,7 +145,7 @@
       "id": "e55a8127c50f5ae1",
       "dateIso": "2026-09-27",
       "dateLabel": "søn. 27.9",
-      "time": "22:00",
+      "time": "-> 22:00",
       "type": "Eksterne kurs",
       "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
@@ -223,21 +223,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
+      "id": "7e9b3b16ebe09818",
+      "dateIso": "2026-10-18",
+      "dateLabel": "søn. 18.10",
+      "time": "-> 22:00",
+      "type": "Eksterne kurs",
+      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+    },
+    {
       "id": "489db5dc46bac4b4",
       "dateIso": "2026-10-18",
       "dateLabel": "søn. 18.10",
       "time": "15:00",
       "type": "Sanitetsvakt",
       "description": "Kampstart kl. 17:00 *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Rosenborg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "7e9b3b16ebe09818",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "22:00",
-      "type": "Eksterne kurs",
-      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
