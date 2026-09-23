@@ -67,7 +67,8 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
                 time = data["time"] ?: "",
                 type = eventType.ifBlank { "Aktivitet" },
                 description = data["description"] ?: body,
-                sourceUrl = data["sourceUrl"] ?: KovaRepository.BASE_URL + organization
+                sourceUrl = data["sourceUrl"] ?: KovaRepository.BASE_URL + organization,
+                changeSummary = data["changeSummary"] ?: ""
             )
         } else {
             null
