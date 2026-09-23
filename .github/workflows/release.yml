@@ -166,3 +166,5 @@ jobs:
 # release trigger: v0.13.6 push diagnostics
 
 # release trigger: v1.0.0 stable
+
+# release trigger: v1.1.0 KOVA login shortcut
