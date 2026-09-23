@@ -71,6 +71,10 @@ def _array_strings(document: dict, key: str) -> list[str]:
     return [str(item.get("stringValue", "")) for item in values if item.get("stringValue")]
 
 
+def _has_field(document: dict, key: str) -> bool:
+    return key in (document.get("fields") or {})
+
+
 def _integer_field(document: dict, key: str, default: int = 0) -> int:
     value = ((document.get("fields") or {}).get(key) or {}).get("integerValue")
     try:
@@ -213,7 +217,7 @@ def _subscription_allows(
     event: dict | None,
 ) -> bool:
     kinds = _array_strings(document, "notificationKinds")
-    if kinds and kind not in kinds:
+    if _has_field(document, "notificationKinds") and kind not in kinds:
         return False
     disabled_types = set(_array_strings(document, "disabledEventTypes"))
     event_type = str((event or {}).get("type", "")).strip()
