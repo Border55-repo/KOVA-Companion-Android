@@ -57,6 +57,7 @@ def main():
         return
 
     if response.status_code != 404:
+        print("Firestore metadata check failed:", response.status_code, response.text[:1200], flush=True)
         response.raise_for_status()
 
     create = requests.post(
@@ -70,6 +71,8 @@ def main():
         },
         timeout=30,
     )
+    if not create.ok:
+        print("Firestore create failed:", create.status_code, create.text[:1200], flush=True)
     create.raise_for_status()
     operation = create.json()
     wait_operation(operation["name"], creds)
