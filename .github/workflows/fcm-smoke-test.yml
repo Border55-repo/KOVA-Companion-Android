@@ -34,10 +34,29 @@ jobs:
             exit 2
           fi
 
-      - name: Send test push to Ullensaker
+      - name: Send added push to Ullensaker
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TEST_ORG: UllensakerRKH
-          TEST_TITLE: "KOVA Companion – push test"
-          TEST_BODY: "Ekte Firebase-push fungerer fra KOVA Bridge til Android."
+          TEST_KIND: added
+          TEST_TITLE: "Ny KOVA-aktivitet – test"
+          TEST_BODY: "Test av varsel for ny aktivitet."
+        run: python bridge/test_push.py
+
+      - name: Send changed push to Ullensaker
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_KIND: changed
+          TEST_TITLE: "KOVA-aktivitet endret – test"
+          TEST_BODY: "Test av varsel for endret aktivitet."
+        run: python bridge/test_push.py
+
+      - name: Send removed push to Ullensaker
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_KIND: removed
+          TEST_TITLE: "KOVA-aktivitet fjernet – test"
+          TEST_BODY: "Test av varsel for fjernet aktivitet."
         run: python bridge/test_push.py
