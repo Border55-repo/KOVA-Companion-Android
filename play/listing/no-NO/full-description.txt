@@ -1,0 +1,22 @@
+KOVA Companion gir en rask og mobilvennlig oversikt over offentlig tilgjengelige KOVA-kalenderdata.
+
+Se kommende aktiviteter uten å lete gjennom kalenderen hver gang. Velg hjelpekorps, følg flere korps og merk vakter som Mine vakter.
+
+Funksjoner:
+• Neste vakt, denne uka og kommende aktiviteter
+• Mine vakter og favoritter på tvers av hjelpekorps
+• Lokale notater per vakt
+• Påminnelser før favorittvakter
+• Varsler om nye, endrede og fjernede aktiviteter
+• Varselinnstillinger per aktivitetstype
+• Stille perioder og varselhistorikk
+• Søk, filtre og kalenderintegrasjon
+• Lokal cache og tilgang til sist lagrede data uten nett
+• Direkte lenke tilbake til offentlig KOVA-side
+• Automatisk kontroll av nye KOVA Companion-versjoner
+
+KOVA Companion bruker offentlig KOVA-kalenderdata og ber ikke om Røde Kors-passord eller Okta-innlogging.
+
+KOVA Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors- eller KOVA-app.
+
+Prosjekteier: Julian Nordli
