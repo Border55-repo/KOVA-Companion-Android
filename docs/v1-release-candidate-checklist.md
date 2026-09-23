@@ -1,6 +1,6 @@
 # KOVA Companion – v1.0 release candidate test
 
-Denne sjekklisten brukes før v1.0.0 publiseres.
+Denne sjekklisten brukes for v1.0.0. GitHub 1.0-release kan publiseres når teknisk release-gate er grønn; intern Google Play-test er fortsatt distribusjonsgate før Play-utrulling.
 
 ## Oppgradering
 
