@@ -8,6 +8,7 @@ on:
       - "bridge/deploy_firestore_rules.py"
       - "bridge/requirements.txt"
       - "bridge/webpush.py"
+      - "bridge/test_webpush_rules.py"
       - "firestore.rules"
       - "firebase.json"
       - ".github/workflows/firebase-web-push-backend.yml"
@@ -42,6 +43,11 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
         run: python bridge/deploy_firestore_rules.py
+
+      - name: Live Web Push rules probe
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/test_webpush_rules.py
 
       - name: Ensure persistent VAPID config
         env:
