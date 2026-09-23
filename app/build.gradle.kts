@@ -21,8 +21,8 @@ android {
         applicationId = "no.juliannordli.kovacomp"
         minSdk = 26
         targetSdk = 36
-        versionCode = 34
-        versionName = "1.4.0"
+        versionCode = 35
+        versionName = "2.0.0"
     }
 
     buildFeatures {
