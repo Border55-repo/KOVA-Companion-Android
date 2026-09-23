@@ -46,8 +46,8 @@ Levert:
 - [x] synlig prosjekteier og prosjektstatus
 
 Gjenstår fysisk kvalitetssikring:
-- [ ] offline-bruk på fysisk iPhone
-- [ ] kalenderflyt på fysisk iPhone
+- [x] offline-bruk på fysisk iPhone
+- [x] kalenderflyt på fysisk iPhone
 
 ---
 
@@ -132,7 +132,7 @@ Ferdig når:
 
 ## v1.4 – Mine vakter 2.0
 
-Status: [ ] Planlagt
+Status: [~] Pågår
 
 Mål:
 - bedre favoritter
@@ -289,9 +289,9 @@ v2.0 skal ikke startes før 1.x-serien har bevist stabil drift og de viktigste b
 
 ## Nærmeste prioritering
 
-1. **v1.3 KOVA Admin & drift**
-2. Fysisk iPhone-test av offline og kalender
-3. **v1.4 Mine vakter 2.0**
+1. **v1.4 Mine vakter 2.0**
+2. **v1.5 Varsler 2.0**
+3. **v1.6 Flere korps og skalering**
 4. **v1.5 Varsler 2.0**
 5. Google Play intern test når brukerflyten er moden nok
 
