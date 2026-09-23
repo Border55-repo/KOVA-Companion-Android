@@ -1512,12 +1512,6 @@ private fun OnboardingScreen(
     modifier: Modifier,
     onContinue: () -> Unit
 ) {
-    val context = androidx.compose.ui.platform.LocalContext.current
-    val noteStore = remember { NoteStore(context) }
-    var localNote by remember(organizationCode, event.semanticKey) {
-        mutableStateOf(noteStore.get(organizationCode, event))
-    }
-
     LazyColumn(
         modifier = modifier,
         contentPadding = PaddingValues(20.dp),
@@ -1745,6 +1739,12 @@ private fun EventDetailScreen(
     onCalendar: () -> Unit,
     onOpen: () -> Unit
 ) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val noteStore = remember { NoteStore(context) }
+    var localNote by remember(organizationCode, event.semanticKey) {
+        mutableStateOf(noteStore.get(organizationCode, event))
+    }
+
     LazyColumn(
         modifier = modifier,
         contentPadding = PaddingValues(16.dp),
