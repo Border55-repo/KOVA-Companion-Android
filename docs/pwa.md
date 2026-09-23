@@ -53,3 +53,13 @@ Gjenstår før PWA-push er fysisk godkjent:
 4. tillat varsler
 5. kjør PWA-smoketesten og bekreft mottatt varsel
 
+
+
+## Fysisk push-test
+
+Fysisk push-test: bestått.
+
+- Android FCM mottatt på fysisk Android-enhet
+- PWA Web Push mottatt på fysisk iPhone
+- backend viste 1 registrert PWA-enhet og leverte til 1/1 abonnement
+- samtidig dobbeltest Android + PWA er bekreftet mottatt
