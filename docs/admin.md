@@ -37,3 +37,21 @@ GitHub-servicekontoen mangler prosjekt-rettigheten som kreves for å aktivere Fi
 Admin-knappen **Publiser ny PWA-cache** øker en offentlig, ikke-sensitiv cache-generasjon i Firestore. PWA-klienter sjekker denne automatisk når de åpnes eller kommer i forgrunnen. Hvis generasjonen er nyere enn den lokale, slettes gammel KOVA-PWA-cache, service worker sjekkes på nytt og klienten lastes inn på nytt.
 
 Vanlige brukere skal derfor ikke måtte tømme cache manuelt.
+
+
+## Admin Drift 1.1
+
+Adminpanelet har nå et live driftslag i Firestore.
+
+- systemhelse vises som Grønn / Advarsel / Feil
+- Bridge skriver live runtime-status ved hver kjøring
+- status viser siste kjøring, poll-antall, feil, pending push og fullsynk
+- korps får egen siste-kontroll-status uten å blande dette med tidspunktet KOVA-data sist endret seg
+- korps eldre enn 35 minutter markeres som gamle
+- admin kan be om full Bridge-synk
+- synkforespørselen lagres autentisert i Firestore og plukkes opp av neste 5-minutters Bridge-runde
+- fullsynk er ende-til-ende testet med 42/42 organisasjoner og 0 feil
+- live runtime viste 42 organisasjonskontroller etter fullsynk
+- anonyme brukere kan verken lese admin-runtime eller lese/skrive Bridge-synkkommandoer
+
+Ingen GitHub-token, Firebase service account eller annen backendhemmelighet eksponeres i admin-nettleseren.
