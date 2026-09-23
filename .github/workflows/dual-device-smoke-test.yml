@@ -13,6 +13,9 @@ permissions:
 jobs:
   android:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        org: [UllensakerRKH, EHRKH]
     steps:
       - uses: actions/checkout@v4
 
@@ -26,17 +29,20 @@ jobs:
       - name: Send Android app test
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-          TEST_ORG: UllensakerRKH
+          TEST_ORG: ${{ matrix.org }}
           TEST_KIND: device-smoke
           TEST_EVENT_TYPE: ""
-          TEST_EVENT_ID: android-device-smoke-${{ github.run_id }}
-          TEST_DESCRIPTION: "Android test ${{ github.run_id }}"
+          TEST_EVENT_ID: android-device-smoke-${{ matrix.org }}-${{ github.run_id }}
+          TEST_DESCRIPTION: "Android test ${{ matrix.org }} ${{ github.run_id }}"
           TEST_TITLE: "KOVA Companion – Android test"
           TEST_BODY: "Testsignal til Android-appen."
         run: PYTHONPATH=bridge python bridge/test_push.py
 
   pwa:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        org: [UllensakerRKH, EHRKH]
     steps:
       - uses: actions/checkout@v4
 
@@ -50,6 +56,6 @@ jobs:
       - name: Send PWA Web Push test
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-          TEST_ORG: UllensakerRKH
-          TEST_CHANGE_ID: pwa-device-smoke-${{ github.run_id }}
+          TEST_ORG: ${{ matrix.org }}
+          TEST_CHANGE_ID: pwa-device-smoke-${{ matrix.org }}-${{ github.run_id }}
         run: PYTHONPATH=bridge python bridge/test_webpush.py
