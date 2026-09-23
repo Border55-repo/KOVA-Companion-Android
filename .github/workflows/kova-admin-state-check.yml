@@ -1,0 +1,25 @@
+name: KOVA Admin State Check
+
+on:
+  push:
+    paths:
+      - "bridge/check_admin_state.py"
+      - ".github/workflows/kova-admin-state-check.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+      - name: Check admin state
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/check_admin_state.py
