@@ -40,6 +40,7 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 
 ## Varsler
 
+- [x] FCM-smoketest fra Bridge til Ullensaker-topic.
 - Ny aktivitet.
 - Endret aktivitet.
 - Fjernet aktivitet.
