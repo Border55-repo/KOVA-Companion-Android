@@ -39,6 +39,7 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TEST_ORG: UllensakerRKH
           TEST_KIND: added
+          TEST_EVENT_ID: smoke-test-added-v2
           TEST_TITLE: "Ny KOVA-aktivitet – test"
           TEST_BODY: "Test av varsel for ny aktivitet."
         run: python bridge/test_push.py
