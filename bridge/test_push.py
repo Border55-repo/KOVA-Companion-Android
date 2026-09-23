@@ -10,6 +10,7 @@ from google.auth.transport.requests import Request
 from google.oauth2 import service_account
 
 from push import FCM_SCOPE, topic_for
+from reliability import change_id
 
 
 def main() -> int:
@@ -34,6 +35,17 @@ def main() -> int:
     )
 
     endpoint = f"https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
+    event_data = {
+        "id": "smoke-test-v1",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "FCM smoke test",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
+    }
+    smoke_change_id = change_id(org, "test", event_data)
+
     payload = {
         "message": {
             "topic": topic_for(org),
@@ -42,13 +54,14 @@ def main() -> int:
                 "body": body,
                 "kind": "test",
                 "organization": org,
-                "eventId": "smoke-test-v05",
-                "dateIso": "2026-09-22",
-                "dateLabel": "tir. 22.9",
-                "time": "18:30",
-                "eventType": "Aktivitet",
-                "description": "FCM smoke test",
-                "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
+                "eventId": event_data["id"],
+                "dateIso": event_data["dateIso"],
+                "dateLabel": event_data["dateLabel"],
+                "time": event_data["time"],
+                "eventType": event_data["type"],
+                "description": event_data["description"],
+                "sourceUrl": event_data["sourceUrl"],
+                "changeId": smoke_change_id,
             },
             "android": {
                 "priority": "high",
