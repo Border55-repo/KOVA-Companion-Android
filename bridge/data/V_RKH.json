@@ -1,17 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Vestby og Ås Røde Kors Hjelpekorps",
     "code": "VÅRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:11:55+02:00",
+  "updatedAt": "2026-09-23T21:41:59+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
   "eventCount": 43,
   "changes": {
-    "added": 0,
-    "removed": 0,
+    "added": 1,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -43,12 +44,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
-      "id": "0fc45c0b0f7242e3",
+      "id": "b050a0c2e28e94c9",
       "dateIso": "2026-09-29",
       "dateLabel": "tir. 29.9",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Sosialkveld - brettspill Korpskveld",
+      "description": "Sosialkveld - brettspill og pizza Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {

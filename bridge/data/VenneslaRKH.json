@@ -1,65 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Vennesla Røde Kors Hjelpekorps",
     "code": "VenneslaRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:40:05+02:00",
+  "updatedAt": "2026-09-23T21:41:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH",
-  "eventCount": 16,
+  "eventCount": 17,
   "changes": {
-    "added": 0,
-    "removed": 1,
-    "changed": 0
+    "added": 1,
+    "removed": 0,
+    "changed": 5
   },
   "events": [
-    {
-      "id": "996ba72030211828",
-      "dateIso": "2026-05-17",
-      "dateLabel": "man. 17.5",
-      "time": "07:45",
-      "type": "Aktivitet",
-      "description": "Bauta",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "573803c5f186d064",
-      "dateIso": "2026-05-17",
-      "dateLabel": "man. 17.5",
-      "time": "10:45",
-      "type": "Sanitetsvakt",
-      "description": "Moseidmoen vakt kl 11-12",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "28564e0b2515f672",
-      "dateIso": "2026-05-17",
-      "dateLabel": "man. 17.5",
-      "time": "13:30",
-      "type": "Aktivitet",
-      "description": "Folketog , oppmøte i god tid",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "17c32e9f7e6a006c",
-      "dateIso": "2026-05-17",
-      "dateLabel": "man. 17.5",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Moseidmoen vakt 17-18",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "d07a8b740cdcfc12",
-      "dateIso": "2026-05-17",
-      "dateLabel": "man. 17.5",
-      "time": "19:45",
-      "type": "Sanitetsvakt",
-      "description": "Vakt Moseidstranda",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
-    },
     {
       "id": "cf805316c0241e43",
       "dateIso": "2026-09-19",
@@ -157,6 +113,60 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "f5d9dec1d8391c1c",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Juleavslutning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "5e78d17d84eed7ac",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "07:45",
+      "type": "Aktivitet",
+      "description": "Bauta",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "2f9c0da29f3b042e",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "10:45",
+      "type": "Sanitetsvakt",
+      "description": "Moseidmoen vakt kl 11-12",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "94888678a80cc1c1",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "13:30",
+      "type": "Aktivitet",
+      "description": "Folketog , oppmøte i god tid",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "183339fed95416d5",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Moseidmoen vakt 17-18",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "3337276150da7f2c",
+      "dateIso": "2027-05-17",
+      "dateLabel": "man. 17.5",
+      "time": "19:45",
+      "type": "Sanitetsvakt",
+      "description": "Vakt Moseidstranda",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
     }
   ]

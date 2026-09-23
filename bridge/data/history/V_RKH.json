@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "823c4f38462368b11de3c887",
+      "observedAt": "2026-09-23T21:41:59+02:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "b050a0c2e28e94c9",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Sosialkveld - brettspill og pizza Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "6ec17f95dc34570a705c720f",
+      "observedAt": "2026-09-23T21:41:59+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0fc45c0b0f7242e3",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Sosialkveld - brettspill Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T21:41:59+02:00"
+}
