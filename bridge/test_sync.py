@@ -177,6 +177,10 @@ class WebPushPreferenceTests(unittest.TestCase):
         self.assertTrue(_subscription_allows(document, "added", event()))
         self.assertFalse(_subscription_allows(document, "removed", event()))
 
+    def test_empty_kind_list_disables_normal_notifications(self):
+        document = self.document(notificationKinds=[])
+        self.assertFalse(_subscription_allows(document, "added", event()))
+
     def test_activity_type_filter(self):
         document = self.document(disabledEventTypes=["Korpskveld"])
         self.assertFalse(_subscription_allows(document, "added", event()))
