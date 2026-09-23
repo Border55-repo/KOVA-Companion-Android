@@ -90,6 +90,8 @@ def _send(
 
     if change_id_value:
         data["changeId"] = change_id_value
+    if kind == "changed":
+        data["changeSummary"] = body
 
     if event:
         data.update(
