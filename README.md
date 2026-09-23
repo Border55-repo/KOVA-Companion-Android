@@ -1,3 +1,9 @@
+## v1.1.1 – Fresh KOVA data fix
+
+- bypasser GitHub Raw/CDN-cache ved KOVA Bridge-henting
+- sender eksplisitte no-cache-headere på Android
+- sikrer at nyopprettede vakter som «Norges Løpet» vises så snart Bridge har dem
+
 ## v1.1.0 – KOVA login shortcut
 
 - legger til «Logg inn / Åpne KOVA» direkte i Appstatus
