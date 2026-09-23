@@ -162,3 +162,5 @@ jobs:
 # release trigger: v0.13.4 calendar and reminder time fix
 
 # release trigger: v0.13.5 notification diagnostics
+
+# release trigger: v0.13.6 push diagnostics
