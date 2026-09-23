@@ -1,1 +1,1 @@
-pwa subscription diagnostic retry-1
+pwa firebase-sdk diagnostic retry-2
