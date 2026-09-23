@@ -67,6 +67,7 @@ Denne sjekklisten brukes for v1.0.0. GitHub 1.0-release kan publiseres når tekn
 
 ## Release
 
+- [x] GitHub v1.0.0 publisert.
 - [x] Android unit tests grønne.
 - [x] Bridge unit tests grønne.
 - [x] Signert APK verifisert med apksigner.
