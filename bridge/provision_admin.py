@@ -76,18 +76,22 @@ def main() -> None:
         })
         print("Created PWA public cache control document.")
 
+    try:
+        user = auth.get_user_by_email(ADMIN_EMAIL)
+        print("Admin user exists in Firebase Authentication.")
+    except auth.UserNotFoundError:
+        user = None
+        print("Admin user does NOT exist in Firebase Authentication.")
+
     temp_password = os.getenv("KOVA_ADMIN_TEMP_PASSWORD", "").strip()
-    if not temp_password:
+    if not temp_password and user is None:
         print(
             "KOVA_ADMIN_TEMP_PASSWORD is not configured. "
             "Admin account provisioning is intentionally skipped."
         )
         return
 
-    try:
-        user = auth.get_user_by_email(ADMIN_EMAIL)
-        print("Existing KOVA Admin superuser found.")
-    except auth.UserNotFoundError:
+    if user is None:
         user = auth.create_user(
             email=ADMIN_EMAIL,
             password=temp_password,
