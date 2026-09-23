@@ -1,7 +1,16 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
+  "apiVersion": "2.0",
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T18:06:54+02:00",
+  "capabilities": {
+    "multiCorps": true,
+    "offlineSnapshots": true,
+    "eventChangeTracking": true,
+    "webPushPreferences": true,
+    "scheduledReminders": true,
+    "adminHealth": true
+  },
+  "updatedAt": "2026-09-23T19:32:22+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -218,8 +227,8 @@
       "category": "hjelpekorps",
       "file": "OppSkiRKH.json",
       "status": "ok",
-      "eventCount": 15,
-      "updatedAt": "2026-09-23T01:04:30+02:00"
+      "eventCount": 16,
+      "updatedAt": "2026-09-23T19:32:09+02:00"
     },
     {
       "name": "Oslo Røde Kors Hjelpekorps Beredskapsambulanse",

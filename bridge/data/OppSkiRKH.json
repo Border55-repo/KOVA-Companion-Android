@@ -1,16 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Oppegård/Ski Røde Kors Hjelpekorps",
     "code": "OppSkiRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:04:30+02:00",
+  "updatedAt": "2026-09-23T19:32:09+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH",
-  "eventCount": 15,
+  "eventCount": 16,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -103,6 +104,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Kjøretøy/utstyrsgjennomgang Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "60e22e75fa879687",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte F3: kl 08.15 Oslo Cheer Team Galaxy",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
     },
     {

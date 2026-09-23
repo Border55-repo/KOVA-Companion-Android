@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "e596fd9acc588920255d80ea",
+      "observedAt": "2026-09-23T19:32:09+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "added",
+      "event": {
+        "id": "60e22e75fa879687",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte F3: kl 08.15 Oslo Cheer Team Galaxy",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-23T19:32:09+02:00"
+}
