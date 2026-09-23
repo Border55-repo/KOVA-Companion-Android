@@ -1,0 +1,31 @@
+name: PWA Web Push smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "bridge/test_webpush.py"
+      - "bridge/webpush-smoke-trigger.txt"
+      - ".github/workflows/webpush-smoke-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Send Web Push smoke test to Ullensaker
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+        run: PYTHONPATH=bridge python bridge/test_webpush.py
