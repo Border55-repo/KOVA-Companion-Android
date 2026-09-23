@@ -8,7 +8,6 @@ import androidx.work.WorkManager
 import java.time.Duration
 import java.time.LocalDate
 import java.time.LocalDateTime
-import java.time.LocalTime
 import java.util.concurrent.TimeUnit
 
 object ReminderScheduler {
@@ -90,7 +89,7 @@ object ReminderScheduler {
 
     private fun eventDateTime(event: KovaEvent): LocalDateTime? {
         val date = runCatching { LocalDate.parse(event.dateIso) }.getOrNull() ?: return null
-        val time = runCatching { LocalTime.parse(event.time) }.getOrNull() ?: return null
+        val time = event.parsedTime ?: return null
         return LocalDateTime.of(date, time)
     }
 
