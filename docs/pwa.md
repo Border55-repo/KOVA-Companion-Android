@@ -31,13 +31,25 @@ PWA-en krever ingen Apple Developer-konto og distribueres uten App Store.
 
 ## Push-status
 
-Firebase Web App er opprettet i Firebase-prosjektet `kova-companion`.
+Web Push-backenden er ferdig og bruker standard Web Push for best mulig PWA-kompatibilitet.
 
-Web Push-backenden er klargjort med:
-- Firestore-provisjoneringsscript
+Ferdig:
+- Firestore `(default)` i `eur3`
 - write-only sikkerhetsregler for PWA-abonnementer
-- egen CI-workflow
+- klienter kan ikke lese abonnementregisteret
+- ugyldige abonnement-writes blokkeres
+- varig VAPID privatnøkkel ligger kun server-side i Firestore
+- offentlig VAPID-nøkkel publiseres til PWA-en
+- Bridge sender samme KOVA-endringer til Android FCM og PWA Web Push
+- dedupe bruker samme `changeId`
+- stale push-abonnement deaktiveres server-side
+- egen live rules-probe i CI
+- egen Web Push-smoketest-workflow
 
-Firestore API er foreløpig deaktivert. Servicekontoen som brukes av GitHub Actions har ikke tillatelsen `serviceusage.services.enable`, så prosjekt-eier må aktivere Firestore API én gang. Etter dette kan CI fullføre database og regler uten at Firebase-hemmeligheter eksponeres.
+Gjenstår før PWA-push er fysisk godkjent:
+1. installer PWA-en på iPhone
+2. åpne appen fra Hjem-skjermen
+3. trykk **Aktiver varsler**
+4. tillat varsler
+5. kjør PWA-smoketesten og bekreft mottatt varsel
 
-PWA-en viser ikke en halvferdig varselknapp før backend er klar.
