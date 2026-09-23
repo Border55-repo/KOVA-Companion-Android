@@ -1,3 +1,13 @@
+## v1.0.0 – KOVA Companion
+
+- første stabile 1.0-release
+- dynamiske hjelpekorps og flere fulgte korps
+- nye, endrede og fjernede KOVA-varsler via Firebase
+- Liste / Uke / Måned, søk og filtre
+- Mine aktiviteter med favoritter og lokale 24t/2t-påminnelser
+- kalenderintegrasjon, onboarding og Appstatus
+- signert APK/AAB, innebygd oppdatering og direkte KOVA-fallback
+
 ## v0.13.6 – Push diagnostics
 
 - registrerer siste mottatte FCM-push lokalt
