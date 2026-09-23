@@ -64,11 +64,11 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 
 ## Release
 
-- Android unit tests grønne.
-- Bridge unit tests grønne.
-- Signert APK verifisert med apksigner.
-- AAB bygget.
-- SHA256SUMS publisert.
-- app-update.json peker på riktig release.
-- Personvernerklæring og Data Safety-notater kontrollert.
+- [x] Android unit tests grønne.
+- [x] Bridge unit tests grønne.
+- [x] Signert APK verifisert med apksigner.
+- [x] AAB bygget.
+- [x] SHA256SUMS publisert.
+- [x] app-update.json peker på riktig release.
+- [x] Personvernerklæring og Data Safety-notater kontrollert.
 - Intern Google Play-test gjennomført før v1.0.0.
