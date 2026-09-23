@@ -1,0 +1,55 @@
+name: KOVA dual device smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "bridge/dual-smoke-trigger.txt"
+      - ".github/workflows/dual-device-smoke-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Send Android app test
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_KIND: device-smoke
+          TEST_EVENT_TYPE: ""
+          TEST_EVENT_ID: android-device-smoke-${{ github.run_id }}
+          TEST_DESCRIPTION: "Android test ${{ github.run_id }}"
+          TEST_TITLE: "KOVA Companion – Android test"
+          TEST_BODY: "Testsignal til Android-appen."
+        run: PYTHONPATH=bridge python bridge/test_push.py
+
+  pwa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Send PWA Web Push test
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          TEST_ORG: UllensakerRKH
+          TEST_CHANGE_ID: pwa-device-smoke-${{ github.run_id }}
+        run: PYTHONPATH=bridge python bridge/test_webpush.py
