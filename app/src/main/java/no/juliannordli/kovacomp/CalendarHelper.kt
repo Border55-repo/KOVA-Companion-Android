@@ -5,16 +5,13 @@ import android.content.Intent
 import android.provider.CalendarContract
 import java.time.LocalDate
 import java.time.LocalDateTime
-import java.time.LocalTime
 import java.time.ZoneId
 import java.time.ZoneOffset
 
 object CalendarHelper {
     fun addEvent(context: Context, event: KovaEvent) {
         val date = runCatching { LocalDate.parse(event.dateIso) }.getOrNull() ?: return
-        val parsedTime = event.time
-            .takeIf { it.isNotBlank() }
-            ?.let { runCatching { LocalTime.parse(it) }.getOrNull() }
+        val parsedTime = event.parsedTime
 
         val intent = Intent(Intent.ACTION_INSERT).apply {
             data = CalendarContract.Events.CONTENT_URI
