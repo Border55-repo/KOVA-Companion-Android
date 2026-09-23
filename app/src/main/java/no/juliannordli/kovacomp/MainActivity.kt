@@ -353,8 +353,27 @@ fun KovaScreen(
             event.time.contains(query, ignoreCase = true)
         dateOk && typeOk && searchOk
     }
-    val nextEvent = events.firstOrNull {
-        runCatching { !LocalDate.parse(it.dateIso).isBefore(today) }.getOrDefault(false)
+    val upcomingEvents = events
+        .filter {
+            runCatching { !LocalDate.parse(it.dateIso).isBefore(today) }
+                .getOrDefault(false)
+        }
+        .sortedWith(
+            compareBy<KovaEvent> { it.dateIso }
+                .thenBy { it.normalizedTime.ifBlank { "99:99" } }
+        )
+    val nextEvent = upcomingEvents.firstOrNull()
+    val thisWeekEvents = upcomingEvents.filter {
+        runCatching {
+            !LocalDate.parse(it.dateIso).isAfter(today.plusDays(7))
+        }.getOrDefault(false)
+    }
+    val laterEvents = upcomingEvents.filter {
+        runCatching {
+            val date = LocalDate.parse(it.dateIso)
+            date.isAfter(today.plusDays(7)) &&
+                !date.isAfter(today.plusDays(30))
+        }.getOrDefault(false)
     }
     val myActivities = remember(favorites, myRange) {
         MyActivities.filter(favorites, myRange, today)
@@ -368,7 +387,7 @@ fun KovaScreen(
                         Text("KOVA Companion", fontWeight = FontWeight.Bold)
                         Text(
                             "Android v" + BuildConfig.VERSION_NAME +
-                                if (showOnboarding) " • Velkommen" else " • Mine aktiviteter",
+                                if (showOnboarding) " • Velkommen" else " • Kommende vakter",
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
@@ -437,14 +456,129 @@ fun KovaScreen(
                 contentPadding = PaddingValues(16.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                item {
-                    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
-                        Column(
-                            modifier = Modifier.padding(16.dp),
-                            verticalArrangement = Arrangement.spacedBy(6.dp)
+                nextEvent?.let { event ->
+                    item {
+                        ElevatedCard(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.elevatedCardColors(
+                                containerColor = MaterialTheme.colorScheme.primaryContainer
+                            )
                         ) {
-                            Text(
-                                "Appstatus",
+                            Column(
+                                modifier = Modifier.padding(16.dp),
+                                verticalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Text(
+                                    "NESTE VAKT",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    event.description,
+                                    style = MaterialTheme.typography.titleLarge,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    event.dateLabel + " • " + event.displayTime,
+                                    style = MaterialTheme.typography.bodyMedium
+                                )
+                                Button(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    onClick = {
+                                        selectedEvent = event
+                                        selectedOrganization = org
+                                        selectedKind = null
+                                    }
+                                ) {
+                                    Text("Se vakten")
+                                }
+                            }
+                        }
+                    }
+                }
+
+                item {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(10.dp)
+                    ) {
+                        ElevatedCard(modifier = Modifier.weight(1f)) {
+                            Column(
+                                modifier = Modifier.padding(14.dp),
+                                verticalArrangement = Arrangement.spacedBy(4.dp)
+                            ) {
+                                Text(
+                                    "Denne uka",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    thisWeekEvents.size.toString() +
+                                        if (thisWeekEvents.size == 1) " vakt" else " vakter",
+                                    style = MaterialTheme.typography.titleMedium
+                                )
+                            }
+                        }
+                        ElevatedCard(modifier = Modifier.weight(1f)) {
+                            Column(
+                                modifier = Modifier.padding(14.dp),
+                                verticalArrangement = Arrangement.spacedBy(4.dp)
+                            ) {
+                                Text(
+                                    "Senere",
+                                    style = MaterialTheme.typography.labelMedium,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Text(
+                                    laterEvents.size.toString() +
+                                        if (laterEvents.size == 1) " vakt" else " vakter",
+                                    style = MaterialTheme.typography.titleMedium
+                                )
+                            }
+                        }
+                    }
+                }
+
+                if (thisWeekEvents.isNotEmpty()) {
+                    item {
+                        Text(
+                            "Denne uka",
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                    items(thisWeekEvents.take(4), key = { "week-" + it.id }) { event ->
+                        ElevatedCard(
+                            modifier = Modifier.fillMaxWidth(),
+                            onClick = {
+                                selectedEvent = event
+                                selectedOrganization = org
+                                selectedKind = null
+                            }
+                        ) {
+                            Column(
+                                modifier = Modifier.padding(14.dp),
+                                verticalArrangement = Arrangement.spacedBy(3.dp)
+                            ) {
+                                Text(event.description, fontWeight = FontWeight.SemiBold)
+                                Text(
+                                    event.dateLabel + " • " + event.displayTime,
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                            }
+                        }
+                    }
+                }
+
+                if (showSettings) {
+                    item {
+                        ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                            Column(
+                                modifier = Modifier.padding(16.dp),
+                                verticalArrangement = Arrangement.spacedBy(6.dp)
+                            ) {
+                                Text(
+                                    "Teknisk status",
                                 style = MaterialTheme.typography.titleMedium,
                                 fontWeight = FontWeight.Bold
                             )
@@ -550,10 +684,11 @@ fun KovaScreen(
                             }
 
                             TextButton(onClick = { refreshHealth() }) {
-                                Text("Oppdater status")
+                                Text("Oppdater teknisk status")
                             }
                         }
                     }
+                }
                 }
 
                 latestRelease?.takeIf { it.isNewerThan(BuildConfig.VERSION_NAME) }?.let { release ->
@@ -618,7 +753,7 @@ fun KovaScreen(
                             ) {
                                 Column {
                                     Text(
-                                        "Mine aktiviteter",
+                                        "Mine vakter",
                                         style = MaterialTheme.typography.titleMedium,
                                         fontWeight = FontWeight.Bold
                                     )
@@ -648,7 +783,7 @@ fun KovaScreen(
 
                                 if (myActivities.isEmpty()) {
                                     Text(
-                                        "Ingen favorittaktiviteter i valgt periode.",
+                                        "Ingen favorittvakter i valgt periode.",
                                         style = MaterialTheme.typography.bodyMedium
                                     )
                                 } else {
@@ -1354,7 +1489,7 @@ private fun OnboardingScreen(
                     )
                     Text("• Velg hjelpekorps og følg flere korps samtidig")
                     Text("• Varsler om nye, endrede og fjernede aktiviteter")
-                    Text("• Favoritter, Mine aktiviteter og lokale påminnelser")
+                    Text("• Mine vakter, favoritter og lokale påminnelser")
                     Text("• Søk, filtre og kalenderoversikt")
                     Text("• Direkte KOVA-fallback hvis Bridge ikke er tilgjengelig")
                 }
