@@ -144,6 +144,11 @@ fun KovaScreen(
     var remind2Hours by remember { mutableStateOf(settings.remind2Hours) }
     var remind1Hour by remember { mutableStateOf(settings.remind1Hour) }
     var remind30Minutes by remember { mutableStateOf(settings.remind30Minutes) }
+    var quietHoursEnabled by remember { mutableStateOf(settings.quietHoursEnabled) }
+    var quietStartHour by remember { mutableStateOf(settings.quietStartHour) }
+    var quietEndHour by remember { mutableStateOf(settings.quietEndHour) }
+    var showNotificationHistory by remember { mutableStateOf(false) }
+    var notificationHistory by remember { mutableStateOf(NotificationHistoryStore.list(context)) }
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
@@ -968,6 +973,57 @@ fun KovaScreen(
                                 HorizontalDivider()
 
                                 Text(
+                                    "Stille perioder",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+
+                                SettingSwitch("Bruk stille periode", quietHoursEnabled) {
+                                    quietHoursEnabled = it
+                                    settings.quietHoursEnabled = it
+                                }
+
+                                if (quietHoursEnabled) {
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        OutlinedButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                quietStartHour = (quietStartHour + 1) % 24
+                                                settings.quietStartHour = quietStartHour
+                                            }
+                                        ) {
+                                            Text(
+                                                "Fra " +
+                                                    quietStartHour.toString().padStart(2, '0') +
+                                                    ":00"
+                                            )
+                                        }
+                                        OutlinedButton(
+                                            modifier = Modifier.weight(1f),
+                                            onClick = {
+                                                quietEndHour = (quietEndHour + 1) % 24
+                                                settings.quietEndHour = quietEndHour
+                                            }
+                                        ) {
+                                            Text(
+                                                "Til " +
+                                                    quietEndHour.toString().padStart(2, '0') +
+                                                    ":00"
+                                            )
+                                        }
+                                    }
+                                    Text(
+                                        "Påminnelser for Mine vakter slipper gjennom. Andre varsler registreres i historikken uten å forstyrre.",
+                                        style = MaterialTheme.typography.bodySmall
+                                    )
+                                }
+
+                                HorizontalDivider()
+
+                                Text(
                                     "Varsle for aktivitetstyper",
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.SemiBold
@@ -1032,6 +1088,57 @@ fun KovaScreen(
                                     "Påminnelser planlegges lokalt på telefonen. Android kan forskyve tidspunktet litt ved strømsparing.",
                                     style = MaterialTheme.typography.bodySmall
                                 )
+
+                                HorizontalDivider()
+
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    Column {
+                                        Text(
+                                            "Varselhistorikk",
+                                            style = MaterialTheme.typography.titleSmall,
+                                            fontWeight = FontWeight.SemiBold
+                                        )
+                                        Text(
+                                            notificationHistory.size.toString() + " nylige hendelser",
+                                            style = MaterialTheme.typography.bodySmall
+                                        )
+                                    }
+                                    TextButton(
+                                        onClick = {
+                                            notificationHistory = NotificationHistoryStore.list(context)
+                                            showNotificationHistory = !showNotificationHistory
+                                        }
+                                    ) {
+                                        Text(if (showNotificationHistory) "Skjul" else "Vis")
+                                    }
+                                }
+
+                                if (showNotificationHistory) {
+                                    notificationHistory.take(20).forEach { item ->
+                                        Text(
+                                            DateFormat.getDateTimeInstance(
+                                                DateFormat.SHORT,
+                                                DateFormat.SHORT
+                                            ).format(Date(item.timestamp)) +
+                                                " • " + item.state +
+                                                " • " + item.title,
+                                            style = MaterialTheme.typography.bodySmall
+                                        )
+                                    }
+                                    if (notificationHistory.isNotEmpty()) {
+                                        TextButton(
+                                            onClick = {
+                                                NotificationHistoryStore.clear(context)
+                                                notificationHistory = emptyList()
+                                            }
+                                        ) {
+                                            Text("Tøm historikk")
+                                        }
+                                    }
+                                }
 
                                 HorizontalDivider()
 
