@@ -15,7 +15,7 @@ KOVA Companion v1.0.0 er første stabile hovedrelease. Videre utvikling skal pri
 
 ## v1.1 – Stabilitet og drift
 
-Status: [ ] Planlagt
+Status: [~] Pågår
 
 Mål:
 - rydde test- og diagnosekode fra RC-perioden
@@ -25,8 +25,10 @@ Mål:
 - bedre håndtering av midlertidige KOVA-feil
 - crash- og feilrapportering uten å samle unødvendige personopplysninger
 - kvalitetssikre oppdateringsløpet fra 1.0.x
+- sikker snarvei til KOVA / Røde Kors-innlogging
 
 Ferdig når:
+- [x] KOVA-innlogging åpnes sikkert uten at appen lagrer passord
 - [ ] push og synk har tydelig status
 - [ ] nettverksfeil håndteres uten at appen stopper
 - [ ] ingen kjente kritiske 1.0-feil står åpne
