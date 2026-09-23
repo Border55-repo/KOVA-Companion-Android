@@ -2,35 +2,25 @@
   "schemaVersion": 2,
   "bridge": "KOVA Companion Bridge",
   "status": "ok",
-  "checkedAt": "2026-09-23T06:40:04+02:00",
-  "lastSuccessfulRunAt": "2026-09-23T06:40:04+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-23T06:40:04+02:00",
+  "checkedAt": "2026-09-23T07:42:56+02:00",
+  "lastSuccessfulRunAt": "2026-09-23T07:42:56+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-23T07:42:56+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-09-23T01:26:40+02:00",
   "lastPushCount": 38,
   "organizationCount": 42,
   "helpCorpsCount": 38,
-  "polledThisRun": 10,
+  "polledThisRun": 11,
   "organizations": [
     {
-      "name": "Asker Røde Kors Hjelpekorps",
-      "code": "AskerRKH",
+      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
+      "code": "AHRKH",
       "category": "hjelpekorps",
-      "file": "AskerRKH.json",
+      "file": "AHRKH.json",
       "status": "ok",
-      "eventCount": 10,
-      "updatedAt": "2026-09-22T23:15:43+02:00",
-      "error": null
-    },
-    {
-      "name": "Bø og Sauherad Røde Kors Hjelpekorps",
-      "code": "BøSauheradRKH",
-      "category": "hjelpekorps",
-      "file": "B_SauheradRKH.json",
-      "status": "ok",
-      "eventCount": 22,
-      "updatedAt": "2026-09-23T03:19:35+02:00",
+      "eventCount": 23,
+      "updatedAt": "2026-09-22T23:44:59+02:00",
       "error": null
     },
     {
@@ -44,13 +34,33 @@
       "error": null
     },
     {
-      "name": "Nes Røde Kors Hjelpekorps",
-      "code": "NesRKH",
+      "name": "Fana Røde Kors Hjelpekorps",
+      "code": "Fana RKH",
       "category": "hjelpekorps",
-      "file": "NesRKH.json",
+      "file": "Fana_RKH.json",
       "status": "ok",
       "eventCount": 14,
-      "updatedAt": "2026-09-22T23:15:45+02:00",
+      "updatedAt": "2026-09-23T01:04:28+02:00",
+      "error": null
+    },
+    {
+      "name": "Lunner Røde Kors Hjelpekorps",
+      "code": "Lunner RKH",
+      "category": "hjelpekorps",
+      "file": "Lunner_RKH.json",
+      "status": "ok",
+      "eventCount": 29,
+      "updatedAt": "2026-09-23T01:04:29+02:00",
+      "error": null
+    },
+    {
+      "name": "Moss Røde Kors Hjelpekorps",
+      "code": "MossRKH",
+      "category": "hjelpekorps",
+      "file": "MossRKH.json",
+      "status": "ok",
+      "eventCount": 37,
+      "updatedAt": "2026-09-23T01:04:29+02:00",
       "error": null
     },
     {
@@ -64,13 +74,13 @@
       "error": null
     },
     {
-      "name": "Sarpsborg Røde Kors Hjelpekorps",
-      "code": "RKSarpsborg",
+      "name": "Oppegård/Ski Røde Kors Hjelpekorps",
+      "code": "OppSkiRKH",
       "category": "hjelpekorps",
-      "file": "RKSarpsborg.json",
+      "file": "OppSkiRKH.json",
       "status": "ok",
-      "eventCount": 47,
-      "updatedAt": "2026-09-23T03:19:38+02:00",
+      "eventCount": 15,
+      "updatedAt": "2026-09-23T01:04:30+02:00",
       "error": null
     },
     {
@@ -84,6 +94,16 @@
       "error": null
     },
     {
+      "name": "Tysnes Røde Kors Hjelpekorps",
+      "code": "TRKH",
+      "category": "hjelpekorps",
+      "file": "TRKH.json",
+      "status": "ok",
+      "eventCount": 52,
+      "updatedAt": "2026-09-23T01:04:31+02:00",
+      "error": null
+    },
+    {
       "name": "Ullensaker Røde Kors Hjelpekorps",
       "code": "UllensakerRKH",
       "category": "hjelpekorps",
@@ -94,23 +114,13 @@
       "error": null
     },
     {
-      "name": "Vennesla Røde Kors Hjelpekorps",
-      "code": "VenneslaRKH",
+      "name": "Voss Røde Kors Hjelpekorps",
+      "code": "VossRKH",
       "category": "hjelpekorps",
-      "file": "VenneslaRKH.json",
+      "file": "VossRKH.json",
       "status": "ok",
-      "eventCount": 16,
-      "updatedAt": "2026-09-23T00:40:05+02:00",
-      "error": null
-    },
-    {
-      "name": "Os Røde Kors",
-      "code": "OSRK",
-      "category": "annet",
-      "file": "OSRK.json",
-      "status": "ok",
-      "eventCount": 11,
-      "updatedAt": "2026-09-22T23:15:49+02:00",
+      "eventCount": 1,
+      "updatedAt": "2026-09-22T23:45:03+02:00",
       "error": null
     }
   ]
