@@ -32,7 +32,7 @@ object ReleaseChecker {
         connection.setRequestProperty("Accept", "application/json")
         connection.setRequestProperty("Cache-Control", "no-cache, no-store")
         connection.setRequestProperty("Pragma", "no-cache")
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.13.0")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/${BuildConfig.VERSION_NAME}")
 
         try {
             val code = connection.responseCode
