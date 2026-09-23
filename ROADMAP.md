@@ -162,7 +162,7 @@ Ferdig når:
 
 ## v1.5 – Varsler 2.0
 
-Status: [ ] Planlagt
+Status: [x] Levert i 1.x-sluttpakken
 
 Mål:
 - varsler per hjelpekorps
@@ -183,7 +183,7 @@ Ferdig når:
 
 ## v1.6 – Flere korps og skalering
 
-Status: [ ] Planlagt
+Status: [x] Levert i 1.x-sluttpakken
 
 Mål:
 - bedre støtte for mange fulgte korps
@@ -202,7 +202,7 @@ Ferdig når:
 
 ## v1.7 – Arrangementdetaljer 2.0
 
-Status: [ ] Planlagt
+Status: [x] Levert i 1.x-sluttpakken
 
 Mål:
 - forbedret vaktdetaljside
@@ -221,7 +221,7 @@ Ferdig når:
 
 ## v1.8 – Offline og robusthet
 
-Status: [ ] Planlagt
+Status: [x] Levert i 1.x-sluttpakken
 
 Mål:
 - full lokal cache av siste synk
@@ -242,7 +242,7 @@ Ferdig når:
 
 ## v1.9 – UI 2.0 og tilgjengelighet
 
-Status: [ ] Planlagt
+Status: [x] Levert i 1.x-sluttpakken
 
 Mål:
 - mer konsekvent design
@@ -262,7 +262,7 @@ Ferdig når:
 
 ## v1.10 – Distribusjon og Google Play
 
-Status: [ ] Planlagt
+Status: [~] Teknisk klargjort – Play Console-test avhenger av ekstern konto/servicekonto
 
 Mål:
 - intern Google Play-test
@@ -283,7 +283,7 @@ Ferdig når:
 
 ## v2.0 – KOVA Companion 2
 
-Status: [ ] Fremtid
+Status: [~] 2.0.0 releasekandidat bygges
 
 Retning:
 - større arkitekturgjennomgang
@@ -293,16 +293,15 @@ Retning:
 - bedre skalerbarhet
 - utvikling basert på faktisk 1.x-bruk
 
-v2.0 skal ikke startes før 1.x-serien har bevist stabil drift og de viktigste brukerbehovene er kjent.
+2.0 bygger videre på den ferdige 1.x-funksjonaliteten med en eksplisitt Bridge 2.0-kompatibilitetskontrakt, capability discovery og fortsatt bakoverkompatible snapshots.
 
 ---
 
 ## Nærmeste prioritering
 
-1. **v1.5 Varsler 2.0**
-2. **v1.6 Flere korps og skalering**
-3. **v1.7 Arrangementdetaljer 2.0**
-4. **v1.8 Offline og robusthet**
-5. Google Play intern test når brukerflyten er moden nok
+1. **Fullfør grønn 2.0.0 CI og signert release**
+2. **Fysisk sluttkontroll på Android og iPhone/PWA**
+3. **Google Play intern/lukket test når Play Console-servicekonto er tilgjengelig**
+4. **Samle faktisk 2.0-bruk og prioritere videre arbeid derfra**
 
 Kritiske feil, synkproblemer og manglende vakter skal alltid prioriteres foran nye funksjoner.
