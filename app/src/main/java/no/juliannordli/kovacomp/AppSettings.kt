@@ -25,9 +25,21 @@ class AppSettings(context: Context) {
         get() = prefs.getBoolean("remind_24h", true)
         set(value) = prefs.edit().putBoolean("remind_24h", value).apply()
 
+    var remind6Hours: Boolean
+        get() = prefs.getBoolean("remind_6h", false)
+        set(value) = prefs.edit().putBoolean("remind_6h", value).apply()
+
     var remind2Hours: Boolean
         get() = prefs.getBoolean("remind_2h", true)
         set(value) = prefs.edit().putBoolean("remind_2h", value).apply()
+
+    var remind1Hour: Boolean
+        get() = prefs.getBoolean("remind_1h", false)
+        set(value) = prefs.edit().putBoolean("remind_1h", value).apply()
+
+    var remind30Minutes: Boolean
+        get() = prefs.getBoolean("remind_30m", false)
+        set(value) = prefs.edit().putBoolean("remind_30m", value).apply()
 
     var onboardingComplete: Boolean
         get() = prefs.getBoolean("onboarding_complete", false)
