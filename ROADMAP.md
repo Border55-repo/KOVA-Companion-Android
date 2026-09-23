@@ -132,21 +132,31 @@ Ferdig når:
 
 ## v1.4 – Mine vakter 2.0
 
-Status: [~] Pågår
+Status: [x] Levert i Android 1.4.0 / PWA 1.12
 
 Mål:
 - [x] bedre favoritter
-- egendefinerte påminnelser
-- enklere oversikt når brukeren har mange vakter
+- [x] egendefinerte påminnelser
+- [x] enklere oversikt når brukeren har mange vakter
 - [x] lokale notater per vakt
-- bedre kalenderflyt
+- [x] bedre kalenderflyt
 - [x] kommende favorittvakter tydeligere på forsiden
 
+Levert:
+- [x] favoritter følger samme aktivitet gjennom vanlige KOVA-endringer
+- [x] Android-påminnelser: 30 min, 1 t, 2 t, 6 t og 24 t før
+- [x] PWA-påminnelser via Bridge/Web Push: 15 min til 2 dager før
+- [x] server-side deduplisering av PWA-påminnelser
+- [x] valgt påminnelse legges også inn som VALARM i PWA-kalenderfil
+- [x] lokale notater per vakt i Android og PWA
+- [x] Mine vakter grupperes og kan lastes trinnvis ved mange aktiviteter
+- [x] neste favorittvakt vises tydelig på PWA-forsiden
+
 Ferdig når:
-- [ ] favoritter er stabile over synk og oppdatering
-- [ ] påminnelser kan tilpasses
-- [ ] Mine vakter fungerer godt med mange aktiviteter
-- [ ] kalenderintegrasjon er fysisk kvalitetssikret
+- [x] favoritter er stabile over synk og oppdatering
+- [x] påminnelser kan tilpasses
+- [x] Mine vakter fungerer godt med mange aktiviteter
+- [x] kalenderintegrasjon er fysisk kvalitetssikret
 
 ---
 
@@ -289,10 +299,10 @@ v2.0 skal ikke startes før 1.x-serien har bevist stabil drift og de viktigste b
 
 ## Nærmeste prioritering
 
-1. **v1.4 Mine vakter 2.0**
-2. **v1.5 Varsler 2.0**
-3. **v1.6 Flere korps og skalering**
-4. **v1.5 Varsler 2.0**
+1. **v1.5 Varsler 2.0**
+2. **v1.6 Flere korps og skalering**
+3. **v1.7 Arrangementdetaljer 2.0**
+4. **v1.8 Offline og robusthet**
 5. Google Play intern test når brukerflyten er moden nok
 
 Kritiske feil, synkproblemer og manglende vakter skal alltid prioriteres foran nye funksjoner.
