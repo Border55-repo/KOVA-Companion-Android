@@ -27,3 +27,5 @@ db.collection("adminCommands").document("bridgeSync").set({
 })
 print("ADMIN_SYNC_TEST_REQUESTED=true")
 print("ADMIN_SYNC_TEST_ID=" + request_id)
+
+# trigger 2
