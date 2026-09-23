@@ -1,3 +1,9 @@
+## v0.13.3 – KOVA network identity cleanup
+
+- bruker faktisk appversjon i både Bridge-kall og direkte KOVA-kall
+- fjerner siste hardkodede 0.13.0-identitet fra KOVARepository
+- siste release-candidate-opprydding før v1.0 fysisk slutt-test
+
 ## v0.13.2 – Update checker identity fix
 
 - bruker faktisk appversjon også i oppdateringssjekkens nettverksidentitet
