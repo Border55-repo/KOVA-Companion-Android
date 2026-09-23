@@ -145,6 +145,49 @@ def main():
         )
     print("Anonymous admin profile read blocked.")
 
+    # 7) Live admin runtime must remain private.
+    runtime_probe = requests.get(
+        f"{BASE}/documents/adminRuntime/bridge",
+        timeout=30,
+    )
+    if runtime_probe.status_code not in (401, 403, 404):
+        raise RuntimeError(
+            f"Anonymous admin runtime read was not blocked: "
+            f"{runtime_probe.status_code} {runtime_probe.text[:500]}"
+        )
+    print("Anonymous admin runtime read blocked.")
+
+    # 8) Bridge sync commands must remain private and unwritable anonymously.
+    command_url = f"{BASE}/documents/adminCommands/bridgeSync"
+    command_read = requests.get(command_url, timeout=30)
+    if command_read.status_code not in (401, 403, 404):
+        raise RuntimeError(
+            f"Anonymous admin command read was not blocked: "
+            f"{command_read.status_code} {command_read.text[:500]}"
+        )
+    print("Anonymous admin command read blocked.")
+
+    command_write = requests.patch(
+        command_url,
+        headers={"Content-Type": "application/json"},
+        json={
+            "fields": {
+                "action": {"stringValue": "bridgeSync"},
+                "status": {"stringValue": "requested"},
+                "requestId": {"stringValue": "anonymous-test-request"},
+                "requestedBy": {"stringValue": "superuser"},
+                "requestedAt": {"timestampValue": "2026-09-23T15:00:00Z"},
+            }
+        },
+        timeout=30,
+    )
+    if command_write.status_code not in (401, 403):
+        raise RuntimeError(
+            f"Anonymous admin command write was not blocked: "
+            f"{command_write.status_code} {command_write.text[:500]}"
+        )
+    print("Anonymous admin command write blocked.")
+
     # Cleanup with service account; server credentials bypass client rules via IAM.
     creds = admin_credentials()
     delete_response = requests.delete(
