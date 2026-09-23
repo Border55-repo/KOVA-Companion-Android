@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
   "bridge": "KOVA Companion Bridge",
-  "updatedAt": "2026-09-23T17:58:18+02:00",
+  "updatedAt": "2026-09-23T18:06:54+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -20,8 +20,8 @@
       "category": "hjelpekorps",
       "file": "AskerRKH.json",
       "status": "ok",
-      "eventCount": 9,
-      "updatedAt": "2026-09-23T17:57:56+02:00"
+      "eventCount": 10,
+      "updatedAt": "2026-09-23T18:06:37+02:00"
     },
     {
       "name": "Aurskog-Høland Røde Kors Hjelpekorps",
