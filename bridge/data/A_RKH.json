@@ -1,14 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Arna og Åsane Røde Kors Hjelpekorps",
     "code": "AÅRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:26:23+02:00",
+  "updatedAt": "2026-09-23T21:09:03+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH",
-  "eventCount": 9,
+  "eventCount": 11,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -43,12 +44,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
     },
     {
+      "id": "88608d9890161045",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Teamgym turnkonkurranse Turnkonkuranse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
       "id": "aaaed00aa4d33436",
       "dateIso": "2026-09-26",
       "dateLabel": "lør. 26.9",
       "time": "09:00",
       "type": "Sanitetsvakt",
       "description": "Åsane Karateklubb JKA cup, karate",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+    },
+    {
+      "id": "80dbd6b5258f1b7b",
+      "dateIso": "2026-09-26",
+      "dateLabel": "lør. 26.9",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Teamgym turnkonkurranse Turnkonkuranse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
     },
     {

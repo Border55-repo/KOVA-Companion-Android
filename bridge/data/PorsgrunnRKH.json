@@ -1,17 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Porsgrunn Røde Kors Hjelpekorps",
     "code": "PorsgrunnRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:26:32+02:00",
+  "updatedAt": "2026-09-23T21:09:10+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH",
-  "eventCount": 19,
+  "eventCount": 20,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -94,6 +95,15 @@
       "time": "15:30",
       "type": "Sanitetsvakt",
       "description": "Tid er oppmøte på huset, oppmnøte vaktsted kl 16:30 Hjertebank for Grenland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "0d7f3cf9bd981587",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Tid er oppmøte på huset Pors - kamp 3.runde NM cup",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
     },
     {
