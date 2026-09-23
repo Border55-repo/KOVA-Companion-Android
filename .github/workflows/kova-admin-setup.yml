@@ -7,6 +7,7 @@ on:
       - "bridge/provision_admin.py"
       - "bridge/requirements.txt"
       - "firestore.rules"
+      - "firebase.json"
       - ".github/workflows/kova-admin-setup.yml"
 
 permissions:
@@ -28,6 +29,23 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r bridge/requirements.txt
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Install Firebase CLI
+        run: npm install --global firebase-tools@latest
+
+      - name: Enable Email/Password auth provider
+        continue-on-error: true
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT_JSON" > "$RUNNER_TEMP/firebase-service-account.json"
+          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/firebase-service-account.json"
+          firebase deploy --only auth --project kova-companion --non-interactive
+          rm -f "$RUNNER_TEMP/firebase-service-account.json"
 
       - name: Provision KOVA Admin
         env:
