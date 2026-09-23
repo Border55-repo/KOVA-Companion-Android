@@ -1,6 +1,7 @@
 package no.juliannordli.kovacomp
 
 import android.Manifest
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -477,6 +478,16 @@ fun KovaScreen(
                     favorites = favoriteStore.list()
                 },
                 onCalendar = { CalendarHelper.addEvent(context, selectedEvent!!) },
+                onShare = {
+                    shareKovaEvent(
+                        context,
+                        selectedEvent!!,
+                        Organizations.nameFor(
+                            selectedOrganization ?: org,
+                            availableOrganizations
+                        )
+                    )
+                },
                 onOpen = {
                     context.startActivity(
                         Intent(Intent.ACTION_VIEW, Uri.parse(selectedEvent!!.sourceUrl))
@@ -1904,6 +1915,30 @@ private fun EventCard(
     }
 }
 
+private fun shareKovaEvent(
+    context: Context,
+    event: KovaEvent,
+    organizationName: String
+) {
+    val text = buildString {
+        append(event.description)
+        append("\n")
+        append(event.dateLabel)
+        append(" • ")
+        append(event.displayTime)
+        append("\n")
+        append(organizationName)
+        append("\n")
+        append(event.sourceUrl)
+    }
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, event.description)
+        putExtra(Intent.EXTRA_TEXT, text)
+    }
+    context.startActivity(Intent.createChooser(intent, "Del KOVA-aktivitet"))
+}
+
 private fun guessLocation(description: String): String? {
     val parts = description.split(",")
         .map { it.trim() }
@@ -1935,6 +1970,7 @@ private fun EventDetailScreen(
     onBack: () -> Unit,
     onFavorite: () -> Unit,
     onCalendar: () -> Unit,
+    onShare: () -> Unit,
     onOpen: () -> Unit
 ) {
     val context = androidx.compose.ui.platform.LocalContext.current
@@ -2074,11 +2110,22 @@ private fun EventDetailScreen(
                                 }
                             }
                         }
-                        OutlinedButton(
+                        Row(
                             modifier = Modifier.fillMaxWidth(),
-                            onClick = onOpen
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
-                            Text("Åpne KOVA", maxLines = 1)
+                            OutlinedButton(
+                                modifier = Modifier.weight(1f),
+                                onClick = onShare
+                            ) {
+                                Text("Del", maxLines = 1)
+                            }
+                            OutlinedButton(
+                                modifier = Modifier.weight(1f),
+                                onClick = onOpen
+                            ) {
+                                Text("Åpne KOVA", maxLines = 1)
+                            }
                         }
                     }
                 }
