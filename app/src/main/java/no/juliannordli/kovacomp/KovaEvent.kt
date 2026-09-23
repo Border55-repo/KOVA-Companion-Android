@@ -1,6 +1,7 @@
 package no.juliannordli.kovacomp
 
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.format.TextStyle
 import java.time.temporal.WeekFields
 import java.util.Locale
@@ -16,6 +17,11 @@ data class KovaEvent(
 ) {
     val normalizedTime: String
         get() = Regex("\\d{1,2}:\\d{2}").find(time)?.value.orEmpty()
+
+    val parsedTime: LocalTime?
+        get() = normalizedTime
+            .takeIf { it.isNotBlank() }
+            ?.let { runCatching { LocalTime.parse(it) }.getOrNull() }
 
     val displayTime: String
         get() = when {
