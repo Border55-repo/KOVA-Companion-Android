@@ -473,7 +473,8 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
     if changed:
         now_iso = datetime.now(OSLO).isoformat(timespec="seconds")
         payload = {
-            "schemaVersion": 2,
+            "schemaVersion": 3,
+            "apiVersion": "2.0",
             "organization": org,
             "status": "ok",
             "updatedAt": now_iso,
@@ -568,8 +569,17 @@ def write_index(organizations: list[dict], summaries: list[dict], changed_any: b
         return
 
     payload = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
+        "apiVersion": "2.0",
         "bridge": "KOVA Companion Bridge",
+        "capabilities": {
+            "multiCorps": True,
+            "offlineSnapshots": True,
+            "eventChangeTracking": True,
+            "webPushPreferences": True,
+            "scheduledReminders": True,
+            "adminHealth": True,
+        },
         "updatedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
         "organizationCount": len(organizations),
         "helpCorpsCount": sum(
@@ -658,8 +668,15 @@ def write_health(
     consecutive_failure_runs = previous_failure_runs + 1 if failures else 0
 
     payload = {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
+        "apiVersion": "2.0",
         "bridge": "KOVA Companion Bridge",
+        "capabilities": {
+            "snapshotFallback": True,
+            "pushQueue": True,
+            "webPush": True,
+            "fcm": True,
+        },
         "status": status,
         "checkedAt": now_iso,
         "lastSuccessfulRunAt": (
