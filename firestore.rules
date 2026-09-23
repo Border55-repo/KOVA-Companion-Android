@@ -85,6 +85,27 @@ service cloud.firestore {
         request.resource.data.updatedAt == request.time;
     }
 
+    match /adminRuntime/{documentId} {
+      allow read: if adminReady();
+      allow write: if false;
+    }
+
+    match /adminCommands/bridgeSync {
+      allow read: if adminReady();
+      allow create, update: if adminReady() &&
+        request.resource.data.keys().hasOnly([
+          'action', 'status', 'requestId', 'requestedBy', 'requestedAt'
+        ]) &&
+        request.resource.data.action == 'bridgeSync' &&
+        request.resource.data.status == 'requested' &&
+        request.resource.data.requestId is string &&
+        request.resource.data.requestId.size() >= 8 &&
+        request.resource.data.requestId.size() <= 128 &&
+        request.resource.data.requestedBy == 'superuser' &&
+        request.resource.data.requestedAt == request.time;
+      allow delete: if false;
+    }
+
     match /webPushConfig/{documentId} {
       allow read, write: if false;
     }
