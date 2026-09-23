@@ -43,6 +43,9 @@ jobs:
       - name: Android unit tests
         run: gradle :app:testDebugUnitTest
 
+      - name: Android lint and accessibility checks
+        run: gradle :app:lintDebug
+
   bridge-unit-tests:
     runs-on: ubuntu-latest
     steps:
