@@ -1,3 +1,9 @@
+## v0.13.4 – Calendar and reminder time fix
+
+- bruker normalisert KOVA-klokkeslett i kalender og lokale påminnelser
+- retter `-> HH:mm` slik at det ikke blir heldagsaktivitet eller mister 24t/2t-påminnelse
+- legger tester for vanlig tid, pil-tid og aktivitet uten klokkeslett
+
 ## v0.13.3 – KOVA network identity cleanup
 
 - bruker faktisk appversjon i både Bridge-kall og direkte KOVA-kall
