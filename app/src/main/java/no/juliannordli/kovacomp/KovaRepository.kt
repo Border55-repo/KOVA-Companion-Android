@@ -62,7 +62,7 @@ class KovaRepository(private val context: Context) {
         connection.requestMethod = "GET"
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.13.0")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/${BuildConfig.VERSION_NAME}")
 
         try {
             val status = connection.responseCode
@@ -97,7 +97,7 @@ class KovaRepository(private val context: Context) {
     private fun fetchDirect(org: String): List<KovaEvent> {
         val url = sourceUrl(org)
         val html = Jsoup.connect(url)
-            .userAgent("KOVA Companion Android/0.13.0")
+            .userAgent("KOVA Companion Android/${BuildConfig.VERSION_NAME}")
             .timeout(15000)
             .get()
             .html()
