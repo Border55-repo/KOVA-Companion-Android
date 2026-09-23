@@ -35,4 +35,38 @@ class MyActivitiesTest {
 
         assertEquals(listOf("A", "B"), result.map { it.event.description })
     }
+    @Test
+    fun monthFilterIncludesThirtyDayBoundary() {
+        val today = LocalDate.of(2026, 9, 23)
+        val items = listOf(
+            favorite("2026-10-23", "Boundary"),
+            favorite("2026-10-24", "Too late")
+        )
+
+        val result = MyActivities.filter(
+            items,
+            MyActivitiesRange.MONTH,
+            today
+        )
+
+        assertEquals(listOf("Boundary"), result.map { it.event.description })
+    }
+
+    @Test
+    fun allRangeKeepsAllUpcomingFavoritesAndExcludesPast() {
+        val today = LocalDate.of(2026, 9, 23)
+        val items = listOf(
+            favorite("2026-09-22", "Past"),
+            favorite("2026-09-23", "Today"),
+            favorite("2027-01-01", "Future")
+        )
+
+        val result = MyActivities.filter(
+            items,
+            MyActivitiesRange.ALL,
+            today
+        )
+
+        assertEquals(listOf("Today", "Future"), result.map { it.event.description })
+    }
 }
