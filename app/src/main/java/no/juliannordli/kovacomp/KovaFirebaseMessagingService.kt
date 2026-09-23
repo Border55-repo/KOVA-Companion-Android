@@ -10,14 +10,30 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
         val body = data["body"] ?: message.notification?.body ?: "Det er en ny oppdatering i KOVA."
         val kind = data["kind"] ?: "unknown"
         val eventType = data["eventType"] ?: ""
+        val changeId = data["changeId"] ?: ""
 
         val settings = AppSettings(this)
         val organization = data["organization"] ?: KovaRepository.DEFAULT_ORG
+        val eventId = data["eventId"] ?: ""
 
         PushDiagnostics.recordReceived(this, kind, organization, eventType)
 
+        fun filtered(reason: String) {
+            PushDiagnostics.recordStatus(this, reason)
+            NotificationHistoryStore.record(
+                this,
+                title,
+                body,
+                kind,
+                organization,
+                eventId,
+                "filtered",
+                changeId
+            )
+        }
+
         if (!settings.isOrganizationSubscribed(organization)) {
-            PushDiagnostics.recordStatus(this, "filtrert: korps ikke fulgt")
+            filtered("filtrert: korps ikke fulgt")
             return
         }
         if (!settings.isKindEnabled(kind)) {
@@ -27,18 +43,21 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
                 "removed" -> "filtrert: Fjernede aktiviteter er av"
                 else -> "filtrert: varseltype er av"
             }
-            PushDiagnostics.recordStatus(this, reason)
+            filtered(reason)
             return
         }
         if (!settings.isEventTypeEnabled(eventType)) {
-            PushDiagnostics.recordStatus(this, "filtrert: aktivitetstype er av")
+            filtered("filtrert: aktivitetstype er av")
+            return
+        }
+        if (kind != "reminder" && settings.isQuietNow()) {
+            filtered("filtrert: stille periode")
             return
         }
 
         PushDiagnostics.recordStatus(this, "godkjent av lokale filtre")
 
-        val eventId = data["eventId"]
-        val target = if (!eventId.isNullOrBlank()) {
+        val target = if (eventId.isNotBlank()) {
             NotificationTarget(
                 organization = organization,
                 eventId = eventId,
@@ -48,7 +67,7 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
                 time = data["time"] ?: "",
                 type = eventType.ifBlank { "Aktivitet" },
                 description = data["description"] ?: body,
-                sourceUrl = data["sourceUrl"] ?: KovaRepository.BASE_URL + "UllensakerRKH"
+                sourceUrl = data["sourceUrl"] ?: KovaRepository.BASE_URL + organization
             )
         } else {
             null
@@ -59,7 +78,7 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
             title,
             body,
             target,
-            data["changeId"]
+            changeId.ifBlank { null }
         )
     }
 
