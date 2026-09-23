@@ -59,7 +59,12 @@ service cloud.firestore {
           'enabled',
           'updatedAt',
           'platform',
-          'reminderToken'
+          'reminderToken',
+          'notificationKinds',
+          'disabledEventTypes',
+          'quietHoursEnabled',
+          'quietStartHour',
+          'quietEndHour'
         ]) &&
         request.resource.data.endpoint is string &&
         request.resource.data.endpoint.size() > 20 &&
@@ -71,8 +76,42 @@ service cloud.firestore {
         request.resource.data.auth.size() > 5 &&
         request.resource.data.auth.size() < 512 &&
         request.resource.data.organizations is list &&
-        request.resource.data.organizations.size() <= 20 &&
+        request.resource.data.organizations.size() <= 100 &&
         request.resource.data.enabled is bool &&
+        (
+          !request.resource.data.keys().hasAny(['notificationKinds']) ||
+          (
+            request.resource.data.notificationKinds is list &&
+            request.resource.data.notificationKinds.size() <= 4
+          )
+        ) &&
+        (
+          !request.resource.data.keys().hasAny(['disabledEventTypes']) ||
+          (
+            request.resource.data.disabledEventTypes is list &&
+            request.resource.data.disabledEventTypes.size() <= 100
+          )
+        ) &&
+        (
+          !request.resource.data.keys().hasAny(['quietHoursEnabled']) ||
+          request.resource.data.quietHoursEnabled is bool
+        ) &&
+        (
+          !request.resource.data.keys().hasAny(['quietStartHour']) ||
+          (
+            request.resource.data.quietStartHour is int &&
+            request.resource.data.quietStartHour >= 0 &&
+            request.resource.data.quietStartHour <= 23
+          )
+        ) &&
+        (
+          !request.resource.data.keys().hasAny(['quietEndHour']) ||
+          (
+            request.resource.data.quietEndHour is int &&
+            request.resource.data.quietEndHour >= 0 &&
+            request.resource.data.quietEndHour <= 23
+          )
+        ) &&
         request.resource.data.platform == 'pwa' &&
         (
           !request.resource.data.keys().hasAny(['reminderToken']) ||
