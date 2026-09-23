@@ -9,7 +9,11 @@ import java.net.URL
 data class KovaOrganization(
     val name: String,
     val code: String,
-    val category: String = "hjelpekorps"
+    val category: String = "hjelpekorps",
+    val district: String = "",
+    val status: String = "unknown",
+    val eventCount: Int = 0,
+    val updatedAt: String = ""
 )
 
 object Organizations {
@@ -32,7 +36,7 @@ object Organizations {
 class OrganizationRegistry(private val context: Context) {
     companion object {
         private const val URL_STRING =
-            "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data/organizations.json"
+            "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data/index.json"
         private const val PREFS = "kova_organization_registry"
         private const val CACHE = "organizations_json"
     }
@@ -49,7 +53,7 @@ class OrganizationRegistry(private val context: Context) {
         connection.requestMethod = "GET"
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/0.13.0")
+        connection.setRequestProperty("User-Agent", "KOVA Companion Android/1.x")
 
         try {
             val code = connection.responseCode
@@ -81,14 +85,27 @@ class OrganizationRegistry(private val context: Context) {
                 val name = item.optString("name").trim()
                 val code = item.optString("code").trim()
                 val category = item.optString("category", "annet").trim()
+                val district = item.optString("district", "").trim()
+                val status = item.optString("status", "unknown").trim()
+                val eventCount = item.optInt("eventCount", 0)
+                val updatedAt = item.optString("updatedAt", "").trim()
 
                 if (name.isBlank() || code.isBlank()) null
-                else KovaOrganization(name, code, category)
+                else KovaOrganization(
+                    name = name,
+                    code = code,
+                    category = category,
+                    district = district,
+                    status = status,
+                    eventCount = eventCount,
+                    updatedAt = updatedAt
+                )
             }
             .distinctBy { it.code }
             .sortedWith(
                 compareBy<KovaOrganization>(
                     { if (it.category == "hjelpekorps") 0 else 1 },
+                    { it.district.lowercase() },
                     { it.name.lowercase() }
                 )
             )
