@@ -21,8 +21,8 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 
 ## KOVA-data
 
-- Synk Ullensaker.
-- Sammenlign antall og synlige aktiviteter med offentlig KOVA.
+- [x] Synk Ullensaker.
+- [x] Sammenlign antall og synlige aktiviteter med KOVA (bekreftet manuelt av prosjektansvarlig mot innlogget KOVA).
 - Kontroller aktivitet med vanlig klokkeslett.
 - Kontroller aktivitet uten klokkeslett.
 - Kontroller KOVA-tid med `-> HH:mm` og at den vises som «Til HH:mm».
