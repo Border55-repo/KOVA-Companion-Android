@@ -1,0 +1,41 @@
+name: Provision KOVA Admin
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "bridge/provision_admin.py"
+      - "bridge/requirements.txt"
+      - "firestore.rules"
+      - ".github/workflows/kova-admin-setup.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kova-admin-setup
+  cancel-in-progress: true
+
+jobs:
+  provision:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt
+
+      - name: Provision KOVA Admin
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          KOVA_ADMIN_TEMP_PASSWORD: ${{ secrets.KOVA_ADMIN_TEMP_PASSWORD }}
+        run: python bridge/provision_admin.py
+
+      - name: Deploy Firestore rules
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/deploy_firestore_rules.py
