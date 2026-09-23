@@ -175,6 +175,7 @@ def publish_admin_runtime(
         ref.set(
             {
                 "status": status,
+                "runtimeStartedAt": previous.get("runtimeStartedAt") or now_iso,
                 "lastRunAt": now_iso,
                 "fullSync": bool(full_sync),
                 "organizationCount": len(organizations),
