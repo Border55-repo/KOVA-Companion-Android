@@ -9,25 +9,35 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-23T22:44:02+02:00",
-  "lastSuccessfulRunAt": "2026-09-23T22:44:02+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-23T22:44:02+02:00",
+  "checkedAt": "2026-09-23T23:56:04+02:00",
+  "lastSuccessfulRunAt": "2026-09-23T23:56:04+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-23T23:56:04+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-09-23T21:42:05+02:00",
   "lastPushCount": 8,
   "organizationCount": 42,
   "helpCorpsCount": 38,
-  "polledThisRun": 11,
+  "polledThisRun": 10,
   "organizations": [
     {
-      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
-      "code": "AHRKH",
+      "name": "Asker Røde Kors Hjelpekorps",
+      "code": "AskerRKH",
       "category": "hjelpekorps",
-      "file": "AHRKH.json",
+      "file": "AskerRKH.json",
       "status": "ok",
-      "eventCount": 23,
-      "updatedAt": "2026-09-22T23:44:59+02:00",
+      "eventCount": 10,
+      "updatedAt": "2026-09-23T18:06:37+02:00",
+      "error": null
+    },
+    {
+      "name": "Bø og Sauherad Røde Kors Hjelpekorps",
+      "code": "BøSauheradRKH",
+      "category": "hjelpekorps",
+      "file": "B_SauheradRKH.json",
+      "status": "ok",
+      "eventCount": 22,
+      "updatedAt": "2026-09-23T03:19:35+02:00",
       "error": null
     },
     {
@@ -41,33 +51,13 @@
       "error": null
     },
     {
-      "name": "Fana Røde Kors Hjelpekorps",
-      "code": "Fana RKH",
+      "name": "Nes Røde Kors Hjelpekorps",
+      "code": "NesRKH",
       "category": "hjelpekorps",
-      "file": "Fana_RKH.json",
+      "file": "NesRKH.json",
       "status": "ok",
-      "eventCount": 15,
-      "updatedAt": "2026-09-23T10:21:10+02:00",
-      "error": null
-    },
-    {
-      "name": "Lunner Røde Kors Hjelpekorps",
-      "code": "Lunner RKH",
-      "category": "hjelpekorps",
-      "file": "Lunner_RKH.json",
-      "status": "ok",
-      "eventCount": 29,
-      "updatedAt": "2026-09-23T01:04:29+02:00",
-      "error": null
-    },
-    {
-      "name": "Moss Røde Kors Hjelpekorps",
-      "code": "MossRKH",
-      "category": "hjelpekorps",
-      "file": "MossRKH.json",
-      "status": "ok",
-      "eventCount": 37,
-      "updatedAt": "2026-09-23T01:04:29+02:00",
+      "eventCount": 14,
+      "updatedAt": "2026-09-22T23:15:45+02:00",
       "error": null
     },
     {
@@ -81,13 +71,13 @@
       "error": null
     },
     {
-      "name": "Oppegård/Ski Røde Kors Hjelpekorps",
-      "code": "OppSkiRKH",
+      "name": "Sarpsborg Røde Kors Hjelpekorps",
+      "code": "RKSarpsborg",
       "category": "hjelpekorps",
-      "file": "OppSkiRKH.json",
+      "file": "RKSarpsborg.json",
       "status": "ok",
-      "eventCount": 16,
-      "updatedAt": "2026-09-23T19:32:09+02:00",
+      "eventCount": 47,
+      "updatedAt": "2026-09-23T03:19:38+02:00",
       "error": null
     },
     {
@@ -101,16 +91,6 @@
       "error": null
     },
     {
-      "name": "Tysnes Røde Kors Hjelpekorps",
-      "code": "TRKH",
-      "category": "hjelpekorps",
-      "file": "TRKH.json",
-      "status": "ok",
-      "eventCount": 52,
-      "updatedAt": "2026-09-23T01:04:31+02:00",
-      "error": null
-    },
-    {
       "name": "Ullensaker Røde Kors Hjelpekorps",
       "code": "UllensakerRKH",
       "category": "hjelpekorps",
@@ -121,13 +101,23 @@
       "error": null
     },
     {
-      "name": "Voss Røde Kors Hjelpekorps",
-      "code": "VossRKH",
+      "name": "Vennesla Røde Kors Hjelpekorps",
+      "code": "VenneslaRKH",
       "category": "hjelpekorps",
-      "file": "VossRKH.json",
+      "file": "VenneslaRKH.json",
       "status": "ok",
-      "eventCount": 1,
-      "updatedAt": "2026-09-22T23:45:03+02:00",
+      "eventCount": 17,
+      "updatedAt": "2026-09-23T21:41:51+02:00",
+      "error": null
+    },
+    {
+      "name": "Os Røde Kors",
+      "code": "OSRK",
+      "category": "annet",
+      "file": "OSRK.json",
+      "status": "ok",
+      "eventCount": 11,
+      "updatedAt": "2026-09-23T15:40:02+02:00",
       "error": null
     }
   ]
