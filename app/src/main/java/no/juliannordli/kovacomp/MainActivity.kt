@@ -128,6 +128,7 @@ fun KovaScreen(
     var disabledTypes by remember { mutableStateOf(settings.disabledEventTypes) }
     var availableOrganizations by remember { mutableStateOf(registry.loadCache()) }
     var subscribedOrganizations by remember { mutableStateOf(settings.subscribedOrganizations) }
+    var favoriteOrganizations by remember { mutableStateOf(settings.favoriteOrganizations) }
     var pushReady by remember { mutableStateOf(false) }
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
     var latestRelease by remember { mutableStateOf<ReleaseInfo?>(null) }
@@ -389,6 +390,18 @@ fun KovaScreen(
     val myActivities = remember(favorites, myRange) {
         MyActivities.filter(favorites, myRange, today)
     }
+    val sortedHelpCorps = remember(availableOrganizations, favoriteOrganizations) {
+        availableOrganizations
+            .filter { it.category == "hjelpekorps" }
+            .sortedWith(
+                compareBy<KovaOrganization>(
+                    { if (it.code in favoriteOrganizations) 0 else 1 },
+                    { it.district.lowercase() },
+                    { it.name.lowercase() }
+                )
+            )
+    }
+    val currentOrgMeta = availableOrganizations.firstOrNull { it.code == org }
 
     Scaffold(
         topBar = {
@@ -864,49 +877,95 @@ fun KovaScreen(
                 }
 
                 item {
-                    Box {
-                        OutlinedButton(
-                            onClick = { orgMenu = true },
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Text("🚑 " + Organizations.nameFor(org, availableOrganizations))
+                    Column(
+                        verticalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        Box {
+                            OutlinedButton(
+                                onClick = { orgMenu = true },
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Text(
+                                    (if (org in favoriteOrganizations) "★ " else "🚑 ") +
+                                        Organizations.nameFor(org, availableOrganizations)
+                                )
+                            }
+
+                            DropdownMenu(
+                                expanded = orgMenu,
+                                onDismissRequest = {
+                                    orgMenu = false
+                                    orgSearch = ""
+                                }
+                            ) {
+                                OutlinedTextField(
+                                    value = orgSearch,
+                                    onValueChange = { orgSearch = it },
+                                    modifier = Modifier
+                                        .padding(horizontal = 8.dp, vertical = 4.dp)
+                                        .widthIn(min = 280.dp),
+                                    label = { Text("Søk etter hjelpekorps") },
+                                    singleLine = true
+                                )
+
+                                sortedHelpCorps
+                                    .filter {
+                                        orgSearch.isBlank() ||
+                                            it.name.contains(orgSearch, ignoreCase = true) ||
+                                            it.code.contains(orgSearch, ignoreCase = true) ||
+                                            it.district.contains(orgSearch, ignoreCase = true)
+                                    }
+                                    .forEach { item ->
+                                    DropdownMenuItem(
+                                        text = {
+                                            Text(
+                                                (if (item.code in favoriteOrganizations) "★ " else "") +
+                                                    item.name +
+                                                    if (item.district.isNotBlank()) " • " + item.district else ""
+                                            )
+                                        },
+                                        onClick = {
+                                            orgMenu = false
+                                            orgSearch = ""
+                                            org = item.code
+                                            repo.setOrganization(item.code)
+                                            typeFilter = "Alle"
+                                            activitySearch = ""
+                                            selectedEvent = null
+                                        }
+                                    )
+                                }
+                            }
                         }
 
-                        DropdownMenu(
-                            expanded = orgMenu,
-                            onDismissRequest = {
-                                orgMenu = false
-                                orgSearch = ""
-                            }
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
                         ) {
-                            OutlinedTextField(
-                                value = orgSearch,
-                                onValueChange = { orgSearch = it },
-                                modifier = Modifier
-                                    .padding(horizontal = 8.dp, vertical = 4.dp)
-                                    .widthIn(min = 280.dp),
-                                label = { Text("Søk etter hjelpekorps") },
-                                singleLine = true
+                            Text(
+                                "Datakvalitet: " +
+                                    when (currentOrgMeta?.status) {
+                                        "ok" -> "OK"
+                                        "", null, "unknown" -> "ukjent"
+                                        else -> currentOrgMeta?.status
+                                    } +
+                                    (currentOrgMeta?.let { " • " + it.eventCount + " aktiviteter" } ?: ""),
+                                style = MaterialTheme.typography.bodySmall
                             )
-
-                            availableOrganizations
-                                .filter { it.category == "hjelpekorps" }
-                                .filter {
-                                    orgSearch.isBlank() ||
-                                        it.name.contains(orgSearch, ignoreCase = true) ||
-                                        it.code.contains(orgSearch, ignoreCase = true)
+                            TextButton(
+                                onClick = {
+                                    settings.setFavoriteOrganization(
+                                        org,
+                                        org !in favoriteOrganizations
+                                    )
+                                    favoriteOrganizations = settings.favoriteOrganizations
                                 }
-                                .forEach { item ->
-                                DropdownMenuItem(
-                                    text = { Text(item.name) },
-                                    onClick = {
-                                        orgMenu = false
-                                        orgSearch = ""
-                                        org = item.code
-                                        repo.setOrganization(item.code)
-                                        typeFilter = "Alle"
-                                        activitySearch = ""
-                                        selectedEvent = null
+                            ) {
+                                Text(
+                                    if (org in favoriteOrganizations) {
+                                        "★ Favoritt"
+                                    } else {
+                                        "☆ Favorittkorps"
                                     }
                                 )
                             }
