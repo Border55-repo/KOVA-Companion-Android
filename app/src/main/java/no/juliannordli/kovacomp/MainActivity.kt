@@ -466,6 +466,18 @@ fun KovaScreen(
                                 "Varsler: " +
                                     if (notificationEnabled) "på" else "av"
                             )
+                            Text(
+                                "Varseltyper: Ny " + if (notifyAdded) "på" else "av" +
+                                    " • Endret " + if (notifyChanged) "på" else "av" +
+                                    " • Fjernet " + if (notifyRemoved) "på" else "av"
+                            )
+                            if (!notifyAdded) {
+                                Text(
+                                    "Nye aktiviteter er slått av i Innstillinger.",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    fontWeight = FontWeight.SemiBold
+                                )
+                            }
 
                             val lastSync = repo.lastSync(org)
                             Text(
