@@ -1,3 +1,11 @@
+## v1.2.0 – Enkel hverdag
+
+- ny forside med Neste vakt, Denne uka og Senere
+- Mine aktiviteter heter nå Mine vakter
+- teknisk Appstatus skjules når Innstillinger er lukket
+- vanlige brukere møter vakter først, ikke Bridge/Firebase-detaljer
+- beholder søk, filtre, favoritter, kalender og avanserte innstillinger
+
 ## v1.1.2 – Project ownership info
 
 - viser tydelig prosjekteier: Julian Nordli
