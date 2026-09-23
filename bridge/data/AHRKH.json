@@ -1,29 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Aurskog-Høland Røde Kors Hjelpekorps",
     "code": "AHRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:44:59+02:00",
+  "updatedAt": "2026-09-24T00:43:42+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
-  "eventCount": 23,
+  "eventCount": 22,
   "changes": {
-    "added": 16,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "f0c5a3e080e7a062",
-      "dateIso": "2026-09-17",
-      "dateLabel": "tor. 17.9",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Korpskveld: Førstehjelp tiltakskort korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
-    },
     {
       "id": "3352045ec36ade56",
       "dateIso": "2026-09-19",
