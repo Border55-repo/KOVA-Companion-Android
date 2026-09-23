@@ -1,3 +1,9 @@
+## v1.1.0 – KOVA login shortcut
+
+- legger til «Logg inn / Åpne KOVA» direkte i Appstatus
+- åpner ekte kova.no i nettleser og lar Røde Kors/Okta håndtere innlogging
+- KOVA Companion lagrer ikke brukernavn eller passord
+
 ## v1.0.0 – KOVA Companion
 
 - første stabile 1.0-release
