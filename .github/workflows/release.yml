@@ -152,3 +152,5 @@ jobs:
 # release trigger: v0.12.0 app status polish
 
 # release trigger: v0.13.0 release candidate hardening
+
+# release trigger: v0.13.1 network identity fix
