@@ -126,7 +126,7 @@ Ferdig når:
 - [x] live statistikk henter Bridge-data og Firestore-status
 - [x] cachekontroll er quality-testet og fysisk testet
 - [x] førstegangs passordbytte er fysisk testet
-- [ ] Bridge-synkknappen er fysisk testet i adminpanelet
+- [x] Bridge-synkknappen er fysisk testet i adminpanelet
 
 ---
 
