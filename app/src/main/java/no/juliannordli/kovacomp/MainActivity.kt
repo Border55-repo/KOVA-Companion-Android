@@ -22,7 +22,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.work.Constraints
 import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.core.app.NotificationManagerCompat
@@ -42,10 +44,16 @@ class MainActivity : ComponentActivity() {
         NotificationHelper.init(this)
         notificationTargetState.value = NotificationTarget.fromIntent(intent)
 
+        val syncConstraints = Constraints.Builder()
+            .setRequiredNetworkType(NetworkType.CONNECTED)
+            .build()
+
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
             "kova-sync",
             ExistingPeriodicWorkPolicy.UPDATE,
-            PeriodicWorkRequestBuilder<KovaSyncWorker>(15, TimeUnit.MINUTES).build()
+            PeriodicWorkRequestBuilder<KovaSyncWorker>(15, TimeUnit.MINUTES)
+                .setConstraints(syncConstraints)
+                .build()
         )
 
         WorkManager.getInstance(this).enqueueUniquePeriodicWork(
