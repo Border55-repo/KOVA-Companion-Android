@@ -43,7 +43,7 @@ Denne sjekklisten brukes før v1.0.0 publiseres.
 
 - [x] FCM-smoketest fra Bridge til Ullensaker-topic.
 - [x] FCM-testvarsel mottatt på fysisk Android-enhet.
-- Ny aktivitet.
+- [x] Ny aktivitet.
 - [x] Endret aktivitet.
 - [x] Fjernet aktivitet.
 - Trykk på varselet og bekreft at riktig aktivitet åpnes.
