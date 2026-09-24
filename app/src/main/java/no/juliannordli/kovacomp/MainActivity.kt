@@ -328,6 +328,7 @@ fun KovaScreen(
         }
         refreshOrganizations()
         refreshHealth()
+        refreshChangelog()
         checkForUpdate(showFeedback = false)
     }
 
@@ -726,6 +727,29 @@ fun KovaScreen(
                                 "Innlogging skjer hos KOVA / Røde Kors. KOVA Companion lagrer ikke brukernavn eller passord.",
                                 style = MaterialTheme.typography.bodySmall
                             )
+
+                            HorizontalDivider()
+                            Text(
+                                "Endringslogg",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold
+                            )
+                            changelog?.let { entry ->
+                                Text(entry.title, fontWeight = FontWeight.SemiBold)
+                                Text(
+                                    if (showChangelog) entry.body else entry.body.take(180) + if (entry.body.length > 180) "…" else "",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                                TextButton(onClick = { showChangelog = !showChangelog }) {
+                                    Text(if (showChangelog) "Vis mindre" else "Vis hele endringsloggen")
+                                }
+                            } ?: Text(
+                                "Ingen publisert endringslogg tilgjengelig ennå.",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                            TextButton(onClick = { refreshChangelog() }) {
+                                Text("Oppdater endringslogg")
+                            }
 
                             HorizontalDivider()
                             Text(
