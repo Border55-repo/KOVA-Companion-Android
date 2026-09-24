@@ -29,7 +29,8 @@ object PushManager {
         }
 
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-        val desiredTopics = organizations.map(::topicFor).toSet()
+        // Global topic is used for release notes and important app-wide changes.
+        val desiredTopics = organizations.map(::topicFor).toSet() + "kova_all_users"
         val currentTopics = prefs.getStringSet(TOPICS, emptySet())?.toSet() ?: emptySet()
 
         val toSubscribe = desiredTopics - currentTopics
