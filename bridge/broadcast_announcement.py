@@ -9,7 +9,7 @@ TITLE = os.getenv("ANNOUNCEMENT_TITLE", "Nytt i KOVA Companion")
 BODY = os.getenv("ANNOUNCEMENT_BODY", "Nye forbedringer er tilgjengelige.")
 CHANGE_ID = os.getenv("ANNOUNCEMENT_ID", f"announcement-{int(time.time())}")
 
-def main():
+def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str = CHANGE_ID):
     credentials, project_id = _credentials()
     if credentials is None:
         raise SystemExit("Firebase is not configured")
@@ -17,11 +17,8 @@ def main():
     organizations = registry.get("organizations", [])
     # Existing Android versions subscribe per corps, so announce on every known corps topic.
     for org in organizations:
-        _send(credentials, project_id, org, TITLE, BODY, "announcement", "https://border55-repo.github.io/KlarX/kova/", None, CHANGE_ID)
+        _send(credentials, project_id, org, title, body, "announcement", "https://border55-repo.github.io/KlarX/kova/", None, change_id)
     # PWA subscriptions are filtered by corps. Sending per corps reaches all existing subscriptions.
     for org in organizations:
-        send_web_notification(org["code"], TITLE, BODY, "announcement", None, CHANGE_ID)
-    print(f"Announcement dispatched across {len(organizations)} KOVA organizations.")
-
-if __name__ == "__main__":
-    main()
+        send_web_notification(org["code"], title, body, "announcement", None, change_id)
+    print(f"Announcement dispatched across {len(organizations)} KOVA organizations.")\n\ndef main():\n    dispatch_announcement()\n\nif __name__ == "__main__":\n    main()
