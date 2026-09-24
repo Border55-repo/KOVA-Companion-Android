@@ -9,47 +9,17 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-24T22:46:00+02:00",
-  "lastSuccessfulRunAt": "2026-09-24T22:46:00+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-24T22:46:00+02:00",
+  "checkedAt": "2026-09-24T23:46:21+02:00",
+  "lastSuccessfulRunAt": "2026-09-24T23:46:21+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-24T23:46:21+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-09-24T22:46:00+02:00",
   "lastPushCount": 4,
   "organizationCount": 43,
   "helpCorpsCount": 39,
-  "polledThisRun": 19,
+  "polledThisRun": 14,
   "organizations": [
-    {
-      "name": "Arna og Åsane Røde Kors Hjelpekorps",
-      "code": "AÅRKH",
-      "category": "hjelpekorps",
-      "file": "A_RKH.json",
-      "status": "ok",
-      "eventCount": 11,
-      "updatedAt": "2026-09-23T21:09:03+02:00",
-      "error": null
-    },
-    {
-      "name": "Bergen Røde Kors Hjelpekorps",
-      "code": "Bergen RKH",
-      "category": "hjelpekorps",
-      "file": "Bergen_RKH.json",
-      "status": "ok",
-      "eventCount": 39,
-      "updatedAt": "2026-09-23T01:26:24+02:00",
-      "error": null
-    },
-    {
-      "name": "Brandbu Røde Kors Hjelpekorps",
-      "code": "BrandbuRKH",
-      "category": "hjelpekorps",
-      "file": "BrandbuRKH.json",
-      "status": "ok",
-      "eventCount": 15,
-      "updatedAt": "2026-09-23T01:26:25+02:00",
-      "error": null
-    },
     {
       "name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps",
       "code": "EHRKH",
@@ -58,46 +28,6 @@
       "status": "ok",
       "eventCount": 24,
       "updatedAt": "2026-09-22T18:27:19+02:00",
-      "error": null
-    },
-    {
-      "name": "Gjøvik Røde Kors Hjelpekorps",
-      "code": "GRKH",
-      "category": "hjelpekorps",
-      "file": "GRKH.json",
-      "status": "ok",
-      "eventCount": 19,
-      "updatedAt": "2026-09-23T01:26:26+02:00",
-      "error": null
-    },
-    {
-      "name": "Hamar Røde Kors Hjelpekorps",
-      "code": "Hamar RKH",
-      "category": "hjelpekorps",
-      "file": "Hamar_RKH.json",
-      "status": "ok",
-      "eventCount": 6,
-      "updatedAt": "2026-09-23T01:26:27+02:00",
-      "error": null
-    },
-    {
-      "name": "Laksevåg Røde Kors Hjelpekorps",
-      "code": "LaksevaagRKH",
-      "category": "hjelpekorps",
-      "file": "LaksevaagRKH.json",
-      "status": "ok",
-      "eventCount": 44,
-      "updatedAt": "2026-09-24T00:29:05+02:00",
-      "error": null
-    },
-    {
-      "name": "Mysen og Omegn Røde Kors Hjelpekorps",
-      "code": "MORKH",
-      "category": "hjelpekorps",
-      "file": "MORKH.json",
-      "status": "ok",
-      "eventCount": 49,
-      "updatedAt": "2026-09-24T00:29:08+02:00",
       "error": null
     },
     {
@@ -111,26 +41,6 @@
       "error": null
     },
     {
-      "name": "Porsgrunn Røde Kors Hjelpekorps",
-      "code": "PorsgrunnRKH",
-      "category": "hjelpekorps",
-      "file": "PorsgrunnRKH.json",
-      "status": "ok",
-      "eventCount": 20,
-      "updatedAt": "2026-09-23T21:09:10+02:00",
-      "error": null
-    },
-    {
-      "name": "Ringerike og Hole Røde Kors Hjelpekorps",
-      "code": "RingerikeHoleRKH",
-      "category": "hjelpekorps",
-      "file": "RingerikeHoleRKH.json",
-      "status": "ok",
-      "eventCount": 16,
-      "updatedAt": "2026-09-22T23:07:50+02:00",
-      "error": null
-    },
-    {
       "name": "Skedsmo Røde Kors Hjelpekorps",
       "code": "Skedsmo RKH",
       "category": "hjelpekorps",
@@ -138,36 +48,6 @@
       "status": "ok",
       "eventCount": 57,
       "updatedAt": "2026-09-24T00:13:45+02:00",
-      "error": null
-    },
-    {
-      "name": "Skien Røde Kors Hjelpekorps",
-      "code": "SkienRKH",
-      "category": "hjelpekorps",
-      "file": "SkienRKH.json",
-      "status": "ok",
-      "eventCount": 33,
-      "updatedAt": "2026-09-23T14:28:15+02:00",
-      "error": null
-    },
-    {
-      "name": "Sotra Røde Kors Hjelpekorps",
-      "code": "SRKH",
-      "category": "hjelpekorps",
-      "file": "SRKH.json",
-      "status": "ok",
-      "eventCount": 25,
-      "updatedAt": "2026-09-24T22:45:51+02:00",
-      "error": null
-    },
-    {
-      "name": "Steinkjer Røde Kors Hjelpekorps",
-      "code": "SteinkjerRKH",
-      "category": "hjelpekorps",
-      "file": "SteinkjerRKH.json",
-      "status": "ok",
-      "eventCount": 18,
-      "updatedAt": "2026-09-23T01:26:37+02:00",
       "error": null
     },
     {
@@ -181,13 +61,23 @@
       "error": null
     },
     {
-      "name": "Bergen Røde Kors Ambulansen",
-      "code": "RKAB",
-      "category": "ambulanse",
-      "file": "RKAB.json",
+      "name": "Mysen og Omegn Røde Kors Hjelpekorps",
+      "code": "MORKH",
+      "category": "hjelpekorps",
+      "file": "MORKH.json",
       "status": "ok",
-      "eventCount": 40,
-      "updatedAt": "2026-09-24T00:29:18+02:00",
+      "eventCount": 49,
+      "updatedAt": "2026-09-24T00:29:08+02:00",
+      "error": null
+    },
+    {
+      "name": "Porsgrunn Røde Kors Hjelpekorps",
+      "code": "PorsgrunnRKH",
+      "category": "hjelpekorps",
+      "file": "PorsgrunnRKH.json",
+      "status": "ok",
+      "eventCount": 20,
+      "updatedAt": "2026-09-23T21:09:10+02:00",
       "error": null
     },
     {
@@ -201,6 +91,56 @@
       "error": null
     },
     {
+      "name": "Bergen Røde Kors Ambulansen",
+      "code": "RKAB",
+      "category": "ambulanse",
+      "file": "RKAB.json",
+      "status": "ok",
+      "eventCount": 40,
+      "updatedAt": "2026-09-24T00:29:18+02:00",
+      "error": null
+    },
+    {
+      "name": "Ringerike og Hole Røde Kors Hjelpekorps",
+      "code": "RingerikeHoleRKH",
+      "category": "hjelpekorps",
+      "file": "RingerikeHoleRKH.json",
+      "status": "ok",
+      "eventCount": 16,
+      "updatedAt": "2026-09-22T23:07:50+02:00",
+      "error": null
+    },
+    {
+      "name": "Sotra Røde Kors Hjelpekorps",
+      "code": "SRKH",
+      "category": "hjelpekorps",
+      "file": "SRKH.json",
+      "status": "ok",
+      "eventCount": 25,
+      "updatedAt": "2026-09-24T22:45:51+02:00",
+      "error": null
+    },
+    {
+      "name": "Skien Røde Kors Hjelpekorps",
+      "code": "SkienRKH",
+      "category": "hjelpekorps",
+      "file": "SkienRKH.json",
+      "status": "ok",
+      "eventCount": 33,
+      "updatedAt": "2026-09-23T14:28:15+02:00",
+      "error": null
+    },
+    {
+      "name": "Steinkjer Røde Kors Hjelpekorps",
+      "code": "SteinkjerRKH",
+      "category": "hjelpekorps",
+      "file": "SteinkjerRKH.json",
+      "status": "ok",
+      "eventCount": 18,
+      "updatedAt": "2026-09-23T01:26:37+02:00",
+      "error": null
+    },
+    {
       "name": "Stavanger Røde Kors Omsorg",
       "code": "StvRKO",
       "category": "omsorg",
@@ -208,6 +148,16 @@
       "status": "ok",
       "eventCount": 14,
       "updatedAt": "2026-09-22T23:07:53+02:00",
+      "error": null
+    },
+    {
+      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
+      "code": "AHRKH",
+      "category": "hjelpekorps",
+      "file": "AHRKH.json",
+      "status": "ok",
+      "eventCount": 23,
+      "updatedAt": "2026-09-24T17:40:13+02:00",
       "error": null
     }
   ]
