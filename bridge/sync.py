@@ -741,6 +741,7 @@ def main() -> int:
     registry_changed = write_organization_registry(organizations)
 
     db = admin_db()
+    process_announcement_request(db)
     sync_command = read_bridge_sync_request(db)
     force_full_sync = bool(sync_command)
     if force_full_sync:
