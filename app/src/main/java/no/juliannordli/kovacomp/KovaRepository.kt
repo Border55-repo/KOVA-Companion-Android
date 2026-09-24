@@ -6,6 +6,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
+import java.time.LocalDate
 
 class KovaRepository(private val context: Context) {
     companion object {
@@ -45,8 +46,15 @@ class KovaRepository(private val context: Context) {
     fun bridgeUrl(org: String = organization()): String =
         BRIDGE_BASE + bridgeSlug(org) + ".json?ts=" + System.currentTimeMillis()
 
+    private fun upcoming(events: List<KovaEvent>): List<KovaEvent> {
+        val today = LocalDate.now()
+        return events.filter { event ->
+            runCatching { !LocalDate.parse(event.dateIso).isBefore(today) }.getOrDefault(false)
+        }
+    }
+
     fun fetch(org: String = organization()): List<KovaEvent> {
-        return runCatching {
+        val events = runCatching {
             fetchBridge(org).also {
                 prefs.edit().putString(sourceKey(org), "bridge").apply()
             }
@@ -55,6 +63,7 @@ class KovaRepository(private val context: Context) {
                 prefs.edit().putString(sourceKey(org), "direct").apply()
             }
         }
+        return upcoming(events)
     }
 
     private fun fetchBridge(org: String): List<KovaEvent> {
@@ -110,7 +119,7 @@ class KovaRepository(private val context: Context) {
     fun loadCache(org: String = organization()): List<KovaEvent> {
         val raw = prefs.getString(cacheKey(org), "[]") ?: "[]"
         val arr = JSONArray(raw)
-        return (0 until arr.length()).map { i ->
+        return upcoming((0 until arr.length()).map { i ->
             val o = arr.getJSONObject(i)
             KovaEvent(
                 o.getString("id"),
@@ -121,7 +130,7 @@ class KovaRepository(private val context: Context) {
                 o.getString("description"),
                 o.getString("sourceUrl")
             )
-        }
+        })
     }
 
     fun saveCache(events: List<KovaEvent>, org: String = organization()) {
