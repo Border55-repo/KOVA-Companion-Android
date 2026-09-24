@@ -2,6 +2,11 @@ name: KOVA Bridge sync
 
 on:
   workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for immediate Bridge run"
+        required: false
+        default: "manual"
   schedule:
     - cron: "*/5 * * * *"
   push:
