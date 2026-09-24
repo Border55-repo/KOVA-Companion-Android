@@ -8,6 +8,8 @@ on:
     paths:
       - "bridge/sync.py"
       - "bridge/push.py"
+      - "bridge/broadcast_announcement.py"
+      - "bridge/webpush.py"
       - "bridge/test_sync.py"
       - "bridge/requirements.txt"
       - "bridge/manual-trigger.txt"
