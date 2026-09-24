@@ -1028,8 +1028,8 @@ fun KovaScreen(
                                 )
 
                                 Text(
-                                    "Velg ett hovedkorps og eventuelle aktivitetskorps. " +
-                                        "Hovedkorpset brukes som standard og kan ikke slås av.",
+                                    "Velg ett Hoved Korps og eventuelle Korps med Aktivitetstilknytning. " +
+                                        "Hoved Korpset brukes som standard og kan ikke slås av.",
                                     style = MaterialTheme.typography.bodySmall
                                 )
 
@@ -1038,7 +1038,7 @@ fun KovaScreen(
                                     modifier = Modifier.fillMaxWidth()
                                 ) {
                                     Text(
-                                        "Hovedkorps: " +
+                                        "Hoved Korps: " +
                                             Organizations.nameFor(primaryOrganization, availableOrganizations)
                                     )
                                 }
@@ -1064,7 +1064,7 @@ fun KovaScreen(
                                 }
 
                                 Text(
-                                    "Aktivitetskorps (" + subscribedOrganizations.size + " valgt)",
+                                    "Korps med Aktivitetstilknytning (" + subscribedOrganizations.size + " valgt)",
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.SemiBold
                                 )
