@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3f6ac5a9c1b00aa322451b5e",
+      "observedAt": "2026-09-25T00:01:24+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "224fa661d06b14c6",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Mikki og 385 til Sarp 08 Mikki og 385 til Sarpsborg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "753d3ce8541a715a38ca3359",
+      "observedAt": "2026-09-25T00:01:24+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "abcb00363a6e91aa",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "AVLYST!! KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "3187951705701182ac62a5d5",
       "observedAt": "2026-09-24T00:29:08+02:00",
       "organization": "MORKH",
@@ -482,5 +512,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T00:29:08+02:00"
+  "updatedAt": "2026-09-25T00:01:24+02:00"
 }

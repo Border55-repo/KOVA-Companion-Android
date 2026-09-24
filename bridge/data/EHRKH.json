@@ -1,37 +1,21 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
-    "name": "Eidsvoll/Hurdal Røde Kors Hjelpekorps",
-    "code": "EHRKH"
+    "name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps",
+    "code": "EHRKH",
+    "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T18:27:19+02:00",
+  "updatedAt": "2026-09-25T00:01:17+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH",
-  "eventCount": 24,
+  "eventCount": 22,
   "changes": {
-    "added": 1,
-    "removed": 1,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "820bfddb3550b9f3",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "08:00",
-      "type": "Eksterne kurs",
-      "description": "Førstehjelpsdag Eidsvoll VGS Førstehjelpskurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
-    },
-    {
-      "id": "9decf01d2e85fc63",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "Åpent hus Kickoff",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
-    },
     {
       "id": "a5322573fea51a74",
       "dateIso": "2026-09-19",

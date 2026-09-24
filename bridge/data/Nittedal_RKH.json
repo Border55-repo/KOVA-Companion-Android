@@ -1,38 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Nittedal Røde Kors Hjelpekorps",
     "code": "Nittedal RKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T01:04:29+02:00",
+  "updatedAt": "2026-09-25T00:01:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 64,
+  "eventCount": 61,
   "changes": {
     "added": 0,
     "removed": 0,
     "changed": 0
   },
   "events": [
-    {
-      "id": "a638d893d7b1b4fa",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "b07daf4e8fe54cea",
-      "dateIso": "2026-09-19",
-      "dateLabel": "lør. 19.9",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "941d6c0f797ed3ba",
       "dateIso": "2026-09-19",
@@ -58,15 +41,6 @@
       "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "Solvang/Ullensaker, ny modell med e-læring Kurs: Kvalifisert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "f8a0ebbd83fba900",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "-> 21:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {

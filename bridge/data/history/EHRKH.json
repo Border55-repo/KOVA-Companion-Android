@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "c0ebc540961ff66b77f30a9f",
+      "observedAt": "2026-09-25T00:01:17+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "820bfddb3550b9f3",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "08:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpsdag Eidsvoll VGS Førstehjelpskurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "e6451ec961183498c6ecb6f1",
+      "observedAt": "2026-09-25T00:01:17+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9decf01d2e85fc63",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Åpent hus Kickoff",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-25T00:01:17+02:00"
+}
