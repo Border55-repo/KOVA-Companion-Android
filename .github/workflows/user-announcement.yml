@@ -21,7 +21,7 @@ jobs:
       - name: Send latest changes to KOVA Companion users
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-          ANNOUNCEMENT_ID: "kova-2-0-1-latest-changes"
-          ANNOUNCEMENT_TITLE: "Nytt i KOVA Companion 2.0.1 🎉"
-          ANNOUNCEMENT_BODY: "Nytt nå: påminnelse 7 og 14 dager før vakten, automatisk aktivert etter oppdatering, samt forbedret varslingsflyt i app og PWA."
+          ANNOUNCEMENT_ID: "kova-corps-affiliation-20260924"
+          ANNOUNCEMENT_TITLE: "Nytt i KOVA Companion 🚑"
+          ANNOUNCEMENT_BODY: "Nytt: medlemmer med flere korps kan velge Hoved Korps og Korps med Aktivitetstilknytning. Valgene brukes for vakter og varsler."
         run: PYTHONPATH=bridge python bridge/broadcast_announcement.py
