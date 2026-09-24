@@ -224,3 +224,9 @@ class BridgeV2ContractTests(unittest.TestCase):
         self.assertIn('"multiCorps": True', source)
         self.assertIn('"scheduledReminders": True', source)
         self.assertIn('"snapshotFallback": True', source)
+
+
+class AnnouncementImportTests(unittest.TestCase):
+    def test_broadcaster_imports(self):
+        import broadcast_announcement
+        self.assertTrue(callable(broadcast_announcement.dispatch_announcement))
