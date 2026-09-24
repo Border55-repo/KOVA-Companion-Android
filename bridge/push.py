@@ -7,8 +7,7 @@ import time
 from typing import Any
 
 import requests
-from google.auth.transport.requests import Request
-from google.oauth2 import service_account
+from runtime_credentials import credentials_for
 
 from reliability import change_id
 from webpush import send_web_notification
@@ -23,25 +22,11 @@ def topic_for(code: str) -> str:
 
 
 def _credentials():
-    raw = os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip()
-    if not raw:
-        return None, None
-
-    info = json.loads(raw)
-    project_id = info.get("project_id")
-    if not project_id:
-        raise RuntimeError("Firebase service account is missing project_id")
-
-    credentials = service_account.Credentials.from_service_account_info(
-        info,
-        scopes=[FCM_SCOPE],
-    )
-    credentials.refresh(Request())
-    return credentials, project_id
+    return credentials_for([FCM_SCOPE])
 
 
 def configured() -> bool:
-    return bool(os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip())
+    return bool(os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip() or os.getenv("K_SERVICE"))
 
 
 def _post_with_retry(endpoint: str, headers: dict, payload: dict, attempts: int = 4):
