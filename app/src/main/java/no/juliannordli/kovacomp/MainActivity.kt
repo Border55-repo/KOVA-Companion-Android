@@ -143,7 +143,9 @@ fun KovaScreen(
     var showPast by remember { mutableStateOf(settings.showPastEvents) }
     var disabledTypes by remember { mutableStateOf(settings.disabledEventTypes) }
     var availableOrganizations by remember { mutableStateOf(registry.loadCache()) }
-    var subscribedOrganizations by remember { mutableStateOf(settings.subscribedOrganizations) }
+    var subscribedOrganizations by remember { mutableStateOf(settings.activityOrganizations) }
+    var primaryOrganization by remember { mutableStateOf(settings.primaryOrganization) }
+    var primaryOrgMenu by remember { mutableStateOf(false) }
     var favoriteOrganizations by remember { mutableStateOf(settings.favoriteOrganizations) }
     var pushReady by remember { mutableStateOf(false) }
     var bridgeHealth by remember { mutableStateOf<BridgeHealth?>(null) }
@@ -1026,11 +1028,45 @@ fun KovaScreen(
                                 )
 
                                 Text(
-                                    subscribedOrganizations.size.toString() +
-                                        " av " +
-                                        availableOrganizations.count { it.category == "hjelpekorps" } +
-                                        " hjelpekorps valgt",
+                                    "Velg ett hovedkorps og eventuelle aktivitetskorps. " +
+                                        "Hovedkorpset brukes som standard og kan ikke slås av.",
                                     style = MaterialTheme.typography.bodySmall
+                                )
+
+                                OutlinedButton(
+                                    onClick = { primaryOrgMenu = true },
+                                    modifier = Modifier.fillMaxWidth()
+                                ) {
+                                    Text(
+                                        "Hovedkorps: " +
+                                            Organizations.nameFor(primaryOrganization, availableOrganizations)
+                                    )
+                                }
+                                DropdownMenu(
+                                    expanded = primaryOrgMenu,
+                                    onDismissRequest = { primaryOrgMenu = false }
+                                ) {
+                                    availableOrganizations
+                                        .filter { it.category == "hjelpekorps" }
+                                        .forEach { organization ->
+                                            DropdownMenuItem(
+                                                text = { Text(organization.name) },
+                                                onClick = {
+                                                    primaryOrgMenu = false
+                                                    settings.setPrimaryOrganization(organization.code)
+                                                    primaryOrganization = settings.primaryOrganization
+                                                    subscribedOrganizations = settings.activityOrganizations
+                                                    org = organization.code
+                                                    repo.setOrganization(organization.code)
+                                                }
+                                            )
+                                        }
+                                }
+
+                                Text(
+                                    "Aktivitetskorps (" + subscribedOrganizations.size + " valgt)",
+                                    style = MaterialTheme.typography.titleSmall,
+                                    fontWeight = FontWeight.SemiBold
                                 )
 
                                 availableOrganizations
@@ -1040,12 +1076,12 @@ fun KovaScreen(
                                             label = organization.name,
                                             checked = organization.code in subscribedOrganizations
                                         ) { enabled ->
-                                            settings.setOrganizationSubscribed(
+                                            settings.setActivityOrganization(
                                                 organization.code,
                                                 enabled
                                             )
                                             subscribedOrganizations =
-                                                settings.subscribedOrganizations
+                                                settings.activityOrganizations
                                         }
                                     }
 
