@@ -23,6 +23,12 @@ object ReminderScheduler {
         if (!favorite) return
 
         val settings = AppSettings(context)
+        if (settings.remind14Days) {
+            schedule(context, organization, event, 14 * 24 * 60, "14 dager")
+        }
+        if (settings.remind7Days) {
+            schedule(context, organization, event, 7 * 24 * 60, "7 dager")
+        }
         if (settings.remind24Hours) {
             schedule(context, organization, event, 24 * 60, "24 timer")
         }
@@ -92,6 +98,8 @@ object ReminderScheduler {
         event: KovaEvent
     ) {
         val manager = WorkManager.getInstance(context)
+        manager.cancelUniqueWork(workName(organization, event, 14 * 24 * 60))
+        manager.cancelUniqueWork(workName(organization, event, 7 * 24 * 60))
         manager.cancelUniqueWork(workName(organization, event, 24 * 60))
         manager.cancelUniqueWork(workName(organization, event, 6 * 60))
         manager.cancelUniqueWork(workName(organization, event, 2 * 60))
