@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071626">
+  <title>Kova Companion – Admin</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Kova Companion</p>
+      <h1>Kova Companion – Admin</h1>
+      <p class="version">Adminpanel 1.3</p>
+    </div>
+    <a class="ghost" href="../">Til Companion</a>
+  </header>
+
+  <main class="shell">
+    <section id="loginView" class="auth-card card">
+      <span class="label">Admininnlogging</span>
+      <h2>Superuser</h2>
+      <p class="muted">Logg inn med superuser-kontoen. Førstegangspassord må byttes før dashboardet åpnes.</p>
+      <form id="loginForm">
+        <label>Brukernavn<input id="username" autocomplete="username" value="superuser"></label>
+        <label>Passord<input id="password" type="password" autocomplete="current-password"></label>
+        <button class="primary" type="submit">Logg inn</button>
+      </form>
+      <p id="loginError" class="error hidden"></p>
+    </section>
+
+    <section id="passwordView" class="auth-card card hidden">
+      <span class="label">Første innlogging</span>
+      <h2>Bytt midlertidig passord</h2>
+      <p class="muted">Velg et nytt passord på minst 12 tegn. Dashboardet låses opp etter passordbyttet.</p>
+      <form id="passwordForm">
+        <label>Nytt passord<input id="newPassword" type="password" autocomplete="new-password" minlength="12"></label>
+        <label>Gjenta nytt passord<input id="confirmPassword" type="password" autocomplete="new-password" minlength="12"></label>
+        <button class="primary" type="submit">Bytt passord og åpne admin</button>
+      </form>
+      <p id="passwordError" class="error hidden"></p>
+    </section>
+
+    <section id="dashboardView" class="hidden">
+      <section class="toolbar card">
+        <div>
+          <span class="label">Innlogget</span>
+          <strong>superuser</strong>
+          <span id="lastRefresh" class="muted">Laster…</span>
+        </div>
+        <div class="toolbar-actions">
+          <button id="refreshBtn" class="small">Oppdater dashboard</button>
+          <button id="signOutBtn" class="small">Logg ut</button>
+        </div>
+      </section>
+
+      <section id="systemHealth" class="health-banner card health-unknown">
+        <div>
+          <span class="label">Systemhelse</span>
+          <strong id="systemHealthLabel">Sjekker…</strong>
+          <span id="systemHealthHint" class="muted">Henter live Bridge-status.</span>
+        </div>
+        <span id="systemHealthDot" class="health-dot"></span>
+      </section>
+
+      <section class="stats" id="stats">
+        <article class="stat card"><span>Bridge</span><strong id="bridgeStatus">–</strong><small id="bridgeTime">–</small></article>
+        <article class="stat card"><span>Hjelpekorps</span><strong id="corpsCount">–</strong><small>KOVA Bridge</small></article>
+        <article class="stat card"><span>Aktiviteter</span><strong id="eventTotal">–</strong><small>kommende + lagrede snapshots</small></article>
+        <article class="stat card"><span>PWA-enheter</span><strong id="pwaDevices">–</strong><small id="pwaActive">–</small></article>
+        <article class="stat card"><span>Pending push</span><strong id="pendingPush">–</strong><small id="lastPush">–</small></article>
+        <article class="stat card"><span>Android</span><strong id="androidVersion">–</strong><small>siste release</small></article>
+        <article class="stat card"><span>PWA cache</span><strong id="cacheEpoch">–</strong><small>cache-generasjon</small></article>
+        <article class="stat card"><span>Poll denne runden</span><strong id="polledThisRun">–</strong><small>korps</small></article>
+      </section>
+
+      <section class="actions card">
+        <div>
+          <span class="label">Drift</span>
+          <h2>Bridge-synk</h2>
+          <p class="muted">Be Bridge kjøre en full synk av alle korps. Admin forsøker å starte jobben med en gang. Den planlagte kjøringen er reserve; køtid kan forekomme.</p>
+          <p id="bridgeSyncStatus" class="muted">Ingen aktiv synkforespørsel.</p>
+          <p id="dispatchStatus" class="muted" role="status"></p>
+        </div>
+        <button id="bridgeSyncBtn" class="primary">Be om Bridge-synk</button>
+      </section>
+
+      <section class="actions card">
+        <div>
+          <span class="label">Drift</span>
+          <h2>PWA cache & oppdatering</h2>
+          <p class="muted">Dette skal normalt ikke brukes. Ved behov kan alle PWA-klienter få beskjed om å gå over på en ny cache-generasjon neste gang de åpnes eller kommer i forgrunnen.</p>
+        </div>
+        <button id="cacheRefreshBtn" class="danger">Publiser ny PWA-cache</button>
+        <p id="cacheMessage" class="muted"></p>
+      </section>
+
+      <section class="actions card">
+        <div>
+          <span class="label">Publisering</span>
+          <h2>Endringslogg & push</h2>
+          <p class="muted">Publiser en endringslogg til Kova Companion. Samme publisering kan brukes som grunnlag for push til brukerne når endringen er live.</p>
+          <label>Tittel<input id="changelogTitle" maxlength="80" placeholder="F.eks. Nytt i Kova Companion"></label>
+          <label>Endringer<textarea id="changelogBody" rows="6" maxlength="2000" placeholder="Beskriv kort hva som er nytt eller rettet."></textarea></label>
+          <label><input id="changelogPush" type="checkbox" checked> Send push om endringen</label>
+          <p id="changelogMessage" class="muted" role="status"></p>
+          <p id="announcementStatus" class="muted" role="status"></p>
+        </div>
+        <button id="publishChangelogBtn" class="primary">Publiser endringslogg</button>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <div>
+            <span class="label">Korpsstatus</span>
+            <h2>Bridge snapshots</h2>
+          </div>
+          <input id="orgSearch" type="search" placeholder="Søk korps">
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Korps</th><th>Status</th><th>Aktiviteter</th><th>Sist kontrollert</th><th>Data endret</th></tr></thead>
+            <tbody id="orgRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <span class="label">Prosjekt</span>
+        <h2>Kova Companion</h2>
+        <p>Prosjekteier: <strong>Julian Nordli</strong></p>
+        <p class="muted">Uavhengig prosjekt. Ikke en offisiell Røde Kors-app.</p>
+      </section>
+    </section>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

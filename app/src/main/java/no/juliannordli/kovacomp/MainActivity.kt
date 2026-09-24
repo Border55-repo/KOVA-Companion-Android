@@ -272,7 +272,7 @@ fun KovaScreen(
                         if (showFeedback) {
                             NotificationHelper.postUrl(
                                 context,
-                                "Ny KOVA Companion-versjon",
+                                "Ny Kova Companion-versjon",
                                 latest.name +
                                     " er tilgjengelig. Trykk for å oppdatere.",
                                 latest.htmlUrl
@@ -443,7 +443,7 @@ fun KovaScreen(
             TopAppBar(
                 title = {
                     Column {
-                        Text("KOVA Companion", fontWeight = FontWeight.Bold)
+                        Text("Kova Companion", fontWeight = FontWeight.Bold)
                         Text(
                             "Android v" + BuildConfig.VERSION_NAME +
                                 if (showOnboarding) " • Velkommen" else " • Kommende vakter",
@@ -726,7 +726,7 @@ fun KovaScreen(
                                     context.startActivity(
                                         Intent(
                                             Intent.ACTION_VIEW,
-                                            Uri.parse("https://border55-repo.github.io/KlarX/kova/admin/")
+                                            Uri.parse("https://border55-repo.github.io/KOVA-Companion-Android/admin/")
                                         )
                                     )
                                 }
@@ -734,7 +734,7 @@ fun KovaScreen(
                                 Text("KOVA Admin")
                             }
                             Text(
-                                "Innlogging skjer hos KOVA / Røde Kors. KOVA Companion lagrer ikke brukernavn eller passord.",
+                                "Innlogging skjer hos KOVA / Røde Kors. Kova Companion lagrer ikke brukernavn eller passord.",
                                 style = MaterialTheme.typography.bodySmall
                             )
 
@@ -763,7 +763,7 @@ fun KovaScreen(
 
                             HorizontalDivider()
                             Text(
-                                "Om KOVA Companion",
+                                "Om Kova Companion",
                                 style = MaterialTheme.typography.titleSmall,
                                 fontWeight = FontWeight.Bold
                             )
@@ -773,7 +773,7 @@ fun KovaScreen(
                                 fontWeight = FontWeight.SemiBold
                             )
                             Text(
-                                "KOVA Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.",
+                                "Kova Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.",
                                 style = MaterialTheme.typography.bodySmall
                             )
 
@@ -1306,7 +1306,7 @@ fun KovaScreen(
                                 HorizontalDivider()
 
                                 Text(
-                                    "Om KOVA Companion",
+                                    "Om Kova Companion",
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.SemiBold
                                 )
@@ -1385,7 +1385,7 @@ fun KovaScreen(
                                     onClick = {
                                         NotificationHelper.post(
                                             context,
-                                            "KOVA Companion",
+                                            "Kova Companion",
                                             "Testvarsel fungerer. Trykk åpner appen."
                                         )
                                     }
@@ -1772,7 +1772,7 @@ private fun OnboardingScreen(
     ) {
         item {
             Text(
-                "Velkommen til KOVA Companion",
+                "Velkommen til Kova Companion",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold
             )

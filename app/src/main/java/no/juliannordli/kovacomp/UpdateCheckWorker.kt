@@ -29,7 +29,7 @@ class UpdateCheckWorker(
             if (lastNotified != latest.tagName) {
                 NotificationHelper.postUrl(
                     applicationContext,
-                    "Ny KOVA Companion-versjon",
+                    "Ny Kova Companion-versjon",
                     latest.name + " er tilgjengelig. Trykk for å oppdatere.",
                     latest.apkUrl ?: latest.htmlUrl
                 )

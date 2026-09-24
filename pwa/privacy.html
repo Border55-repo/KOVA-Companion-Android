@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#c9152b">
+  <title>Personvern – Kova Companion</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <article class="card">
+      <p class="eyebrow">Kova Companion</p>
+      <h1>Personvern</h1>
+      <p class="muted">Sist oppdatert 23. september 2026</p>
+
+      <h2>Kort fortalt</h2>
+      <p>Kova Companion er et uavhengig verktøy for å vise offentlig KOVA-kalenderdata. Appen ber ikke om Røde Kors-passord, Okta-konto, posisjon, kontakter, bilder eller helseopplysninger.</p>
+
+      <h2>Data på enheten</h2>
+      <p>Favoritter, lokale notater, varselinnstillinger og lokal varselhistorikk lagres på enheten. Disse brukes for å gi deg Mine vakter, påminnelser og en enklere oversikt.</p>
+
+      <h2>Varsler</h2>
+      <p>Android-utgaven bruker Firebase Cloud Messaging. Firebase bruker en installasjonsidentifikator og tekniske app-/enhetsopplysninger som er nødvendige for å levere varsler. Kova Companion bruker ikke Firebase Analytics og eksporterer ikke FCM-leveringsdata til BigQuery.</p>
+      <p>PWA/iPhone-utgaven lagrer et Web Push-abonnement i Kova Companions Firebase-prosjekt. Abonnementet inneholder tekniske pushnøkler, hvilke hjelpekorps du følger og varselpreferanser. Det brukes bare til KOVA-varsler.</p>
+
+      <h2>Kilder</h2>
+      <p>KOVA-data hentes fra offentlig tilgjengelige KOVA-kalendersider via Kova Companion Bridge. Kova Companion er ikke en offisiell Røde Kors- eller KOVA-app.</p>
+
+      <h2>Sikkerhet og sletting</h2>
+      <p>Dataoverføring skjer kryptert over HTTPS. Du kan slå av varsler og slette lokale appdata via enhetens innstillinger. Web Push-abonnement deaktiveres når du slår av varsler i PWA-en.</p>
+
+      <h2>Prosjekteier</h2>
+      <p>Prosjekteier: Julian Nordli.</p>
+
+      <p><a class="secondary-action" href="./">Tilbake til Kova Companion</a></p>
+    </article>
+  </main>
+</body>
+</html>

@@ -328,7 +328,7 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[s
         "organization": "",
         "changeId": change_id_value,
         "changeSummary": body,
-        "url": "https://border55-repo.github.io/KlarX/kova/#changelogCard",
+        "url": "https://border55-repo.github.io/KOVA-Companion-Android/#changelogCard",
         "event": {},
     }
 

@@ -9,7 +9,7 @@ from pathlib import Path
 from push import _credentials, _send
 from webpush import send_web_announcement
 
-TITLE = os.getenv("ANNOUNCEMENT_TITLE", "Nytt i KOVA Companion")
+TITLE = os.getenv("ANNOUNCEMENT_TITLE", "Nytt i Kova Companion")
 BODY = os.getenv("ANNOUNCEMENT_BODY", "Nye forbedringer er tilgjengelige.")
 CHANGE_ID = os.getenv("ANNOUNCEMENT_ID", f"announcement-{int(time.time())}")
 REGISTRY_PATH = Path(__file__).resolve().parent / "data" / "organizations.json"
@@ -38,7 +38,7 @@ def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str =
         for org in organizations:
             try:
                 _send(credentials, project_id, org, title, body, "announcement",
-                      "https://border55-repo.github.io/KlarX/kova/#changelogCard", None, change_id)
+                      "https://border55-repo.github.io/KOVA-Companion-Android/#changelogCard", None, change_id)
                 android["accepted"] += 1
             except Exception:
                 android["failed"] += 1

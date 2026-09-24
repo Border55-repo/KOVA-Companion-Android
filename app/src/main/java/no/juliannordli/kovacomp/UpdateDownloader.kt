@@ -19,7 +19,7 @@ object UpdateDownloader {
             .replace(Regex("[^A-Za-z0-9._-]+"), "-")
 
         val request = DownloadManager.Request(Uri.parse(url))
-            .setTitle("KOVA Companion " + versionTag)
+            .setTitle("Kova Companion " + versionTag)
             .setDescription("Laster ned oppdatering")
             .setMimeType("application/vnd.android.package-archive")
             .setAllowedOverMetered(true)

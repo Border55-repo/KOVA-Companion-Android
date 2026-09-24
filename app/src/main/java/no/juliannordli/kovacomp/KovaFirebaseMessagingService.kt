@@ -6,7 +6,7 @@ import com.google.firebase.messaging.RemoteMessage
 class KovaFirebaseMessagingService : FirebaseMessagingService() {
     override fun onMessageReceived(message: RemoteMessage) {
         val data = message.data
-        val title = data["title"] ?: message.notification?.title ?: "KOVA Companion"
+        val title = data["title"] ?: message.notification?.title ?: "Kova Companion"
         val body = data["body"] ?: message.notification?.body ?: "Det er en ny oppdatering i KOVA."
         val kind = data["kind"] ?: "unknown"
         val eventType = data["eventType"] ?: ""
