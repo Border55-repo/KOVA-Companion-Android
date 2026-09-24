@@ -209,6 +209,53 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    match /changelog/{entryId} {
+      allow read: if true;
+      allow create: if adminReady() &&
+        request.resource.data.keys().hasOnly(['id','title','body','publishedAt','publishedBy','sendPush']) &&
+        request.resource.data.id == entryId &&
+        request.resource.data.title is string &&
+        request.resource.data.title.size() > 0 &&
+        request.resource.data.title.size() <= 80 &&
+        request.resource.data.body is string &&
+        request.resource.data.body.size() > 0 &&
+        request.resource.data.body.size() <= 2000 &&
+        request.resource.data.publishedBy == 'superuser' &&
+        request.resource.data.sendPush is bool &&
+        request.resource.data.publishedAt == request.time;
+      allow update, delete: if false;
+    }
+
+    match /publicConfig/changelog {
+      allow read: if true;
+      allow create, update: if adminReady() &&
+        request.resource.data.keys().hasOnly(['latestId','title','body','updatedAt']) &&
+        request.resource.data.latestId is string &&
+        request.resource.data.title is string &&
+        request.resource.data.body is string &&
+        request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+
+    match /adminCommands/announcement {
+      allow read: if adminReady();
+      allow create, update: if adminReady() &&
+        request.resource.data.keys().hasOnly([
+          'action','status','requestId','title','body','topic',
+          'requestedBy','requestedAt','source'
+        ]) &&
+        request.resource.data.action == 'announcement' &&
+        request.resource.data.status == 'requested' &&
+        request.resource.data.requestId is string &&
+        request.resource.data.title is string &&
+        request.resource.data.body is string &&
+        request.resource.data.topic == 'kova_all_users' &&
+        request.resource.data.requestedBy == 'superuser' &&
+        request.resource.data.source == 'changelog' &&
+        request.resource.data.requestedAt == request.time;
+      allow delete: if false;
+    }
+
     match /webPushConfig/{documentId} {
       allow read, write: if false;
     }
