@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d4404066f3e505b96ef1d223",
+      "observedAt": "2026-09-24T22:45:51+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "f70cf60b59f5049b",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "Ikke bekreftet enda, tidspunkt kan endre seg, men dato er riktig VAKT AVLYST- Vakt - Lysfestival på fjell festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "d31dddb80c4f08ec29dee00b",
+      "observedAt": "2026-09-24T22:45:51+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "6f4c1917e6aacd06",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "VAKT AVLYST- Vakt - Lysfestival på fjell festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "3fbc2ddef6b508990a5271a5",
+      "observedAt": "2026-09-24T22:45:51+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9f1423040379c4fd",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "Ikke bekreftet enda, tidspunkt kan endre seg, men dato er riktig VAKT AVKYST- Vakt - Lysfestival på fjell festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "ec7763f85387b4d9d224cb63",
+      "observedAt": "2026-09-24T22:45:51+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0e08cfeca1b88a17",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "VAKT AVKYST- Vakt - Lysfestival på fjell festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "453b3a9f9bb14ccf52b5c1af",
       "observedAt": "2026-09-24T00:29:15+02:00",
       "organization": "SRKH",
@@ -71,5 +131,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T00:29:15+02:00"
+  "updatedAt": "2026-09-24T22:45:51+02:00"
 }

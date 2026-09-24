@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T20:37:54+02:00",
+  "updatedAt": "2026-09-24T22:45:59+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -309,7 +309,7 @@
       "file": "SRKH.json",
       "status": "ok",
       "eventCount": 25,
-      "updatedAt": "2026-09-24T00:29:15+02:00"
+      "updatedAt": "2026-09-24T22:45:51+02:00"
     },
     {
       "name": "Steinkjer Røde Kors Hjelpekorps",
