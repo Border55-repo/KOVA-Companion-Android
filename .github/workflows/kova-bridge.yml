@@ -8,7 +8,7 @@ on:
         required: false
         default: "manual"
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
   push:
     paths:
       - "bridge/sync.py"
