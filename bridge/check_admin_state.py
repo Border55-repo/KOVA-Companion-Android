@@ -19,6 +19,28 @@ if not firebase_admin._apps:
     )
 
 db = firestore.client()
+
+# Read-only delivery diagnostics. Never log endpoints, keys, tokens or message text.
+from urllib.parse import urlparse
+announcement_snap = db.collection("adminCommands").document("announcement").get()
+announcement = announcement_snap.to_dict() or {}
+for key in ("status", "requestId", "requestedAt", "startedAt", "completedAt", "delivery"):
+    print("ANNOUNCEMENT_" + key.upper() + "=" + json.dumps(announcement.get(key), default=str))
+
+counts = {}
+for snap in db.collection("webPushSubscriptions").stream():
+    row = snap.to_dict() or {}
+    host = urlparse(str(row.get("endpoint", ""))).hostname or ""
+    platform = "apple" if host.endswith(".push.apple.com") else ("fcm" if host == "fcm.googleapis.com" else "other")
+    group = platform + ("_enabled" if row.get("enabled", True) else "_disabled")
+    counts[group] = counts.get(group, 0) + 1
+    # Aggregate health only; no identifiers belonging to a subscriber.
+    if row.get("enabled", True) and not row.get("organizations"):
+        counts[platform + "_without_favorite_corps"] = counts.get(platform + "_without_favorite_corps", 0) + 1
+    if not all(row.get(field) for field in ("endpoint", "p256dh", "auth")):
+        counts[platform + "_invalid"] = counts.get(platform + "_invalid", 0) + 1
+print("PWA_SUBSCRIPTION_COUNTS=" + json.dumps(counts, sort_keys=True))
+
 docs = list(db.collection("adminUsers").stream())
 matches = [d.to_dict() for d in docs if (d.to_dict() or {}).get("email") == ADMIN_EMAIL]
 
