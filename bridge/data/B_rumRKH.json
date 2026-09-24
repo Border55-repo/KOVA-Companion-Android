@@ -1,17 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Bærum Røde Kors Hjelpekorps",
     "code": "BærumRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T00:14:35+02:00",
+  "updatedAt": "2026-09-24T14:58:54+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 39,
+  "eventCount": 41,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -196,6 +197,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
+      "id": "b4d7b1b8ca6de101",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Nadderud Stadion Europa Youth League G19",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
       "id": "f5503771d618eaef",
       "dateIso": "2026-10-28",
       "dateLabel": "ons. 28.10",
@@ -292,6 +302,15 @@
       "time": "18:00",
       "type": "Ambulansevakt",
       "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "8c66180632295409",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Nadderud stadion Europa Youth League G19",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {

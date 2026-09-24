@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T14:42:20+02:00",
+  "updatedAt": "2026-09-24T14:59:09+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -65,8 +65,8 @@
       "category": "hjelpekorps",
       "file": "B_rumRKH.json",
       "status": "ok",
-      "eventCount": 39,
-      "updatedAt": "2026-09-23T00:14:35+02:00"
+      "eventCount": 41,
+      "updatedAt": "2026-09-24T14:58:54+02:00"
     },
     {
       "name": "Bø og Sauherad Røde Kors Hjelpekorps",
@@ -100,9 +100,9 @@
       "code": "ERKH",
       "category": "hjelpekorps",
       "file": "ERKH.json",
-      "status": "pending",
-      "eventCount": 0,
-      "updatedAt": null
+      "status": "ok",
+      "eventCount": 3,
+      "updatedAt": "2026-09-24T14:58:56+02:00"
     },
     {
       "name": "Fana Røde Kors Hjelpekorps",

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
+  "organization": {
+    "name": "Etne Røde Kors Hjelpekorps",
+    "code": "ERKH",
+    "category": "hjelpekorps"
+  },
+  "status": "ok",
+  "updatedAt": "2026-09-24T14:58:56+02:00",
+  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH",
+  "eventCount": 3,
+  "changes": {
+    "added": 2,
+    "removed": 0,
+    "changed": 0
+  },
+  "events": [
+    {
+      "id": "31458923f433bda6",
+      "dateIso": "2026-09-23",
+      "dateLabel": "ons. 23.9",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs Førstehjelpskurs sept 26",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
+    },
+    {
+      "id": "10a3ad8428e3067e",
+      "dateIso": "2026-09-24",
+      "dateLabel": "tor. 24.9",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Føstehjelpskurs Føstehjelpskurs Ølen Torg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
+    },
+    {
+      "id": "f4a1390816adb062",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "07:30",
+      "type": "Eksterne kurs",
+      "description": "Føstehjelpskurs Føstehjelpskurs Ølen Torg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
+    }
+  ]
+}

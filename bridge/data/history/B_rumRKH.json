@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "60f1487a5429b8ed174cdc94",
+      "observedAt": "2026-09-24T14:58:54+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "8c66180632295409",
+        "dateIso": "2026-12-09",
+        "dateLabel": "ons. 9.12",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Nadderud stadion Europa Youth League G19",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "98b1fba09f297a65df40f371",
       "observedAt": "2026-09-23T00:14:35+02:00",
       "organization": "BærumRKH",
@@ -17,5 +32,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T00:14:35+02:00"
+  "updatedAt": "2026-09-24T14:58:54+02:00"
 }
