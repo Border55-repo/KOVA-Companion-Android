@@ -15,7 +15,22 @@ from reliability import (
     pending_records,
     suspicious_snapshot,
 )
-from sync import compute_diff, parse_schedule
+from sync import compute_diff, parse_schedule, poll_batch, slug
+
+class PollFairnessTests(unittest.TestCase):
+    def test_delayed_runs_cover_all_corps_even_at_same_clock_bucket(self):
+        orgs = [{'code': 'UllensakerRKH'}] + [{'code': f'Corps {i}'} for i in range(12)]
+        checks = {}
+        seen = set()
+        now = datetime(2026, 9, 24, 12, tzinfo=ZoneInfo('Europe/Oslo'))
+        for run in range(4):
+            batch = poll_batch(orgs, now, checks)
+            self.assertEqual(4, len(batch))
+            self.assertIn(orgs[0], batch)
+            for org in batch:
+                seen.add(org['code'])
+                checks[slug(org['code'])] = {'checkedAt': now.replace(minute=run).isoformat()}
+        self.assertEqual({org['code'] for org in orgs}, seen)
 from webpush import _quiet_now, _subscription_allows
 
 

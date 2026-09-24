@@ -842,7 +842,7 @@ function updateReminderUi(message=""){
 async function fetchJson(url){
   const separator=url.includes("?")?"&":"?";
   const freshUrl=url+`${separator}ts=${Date.now()}`;
-  const response=await fetch(freshUrl,{cache:"no-store"});
+  const response=await fetch(freshUrl,{cache:"no-store",signal:AbortSignal.timeout(15000)});
   if(!response.ok)throw new Error("Kunne ikke hente oppdaterte KOVA-data");
   return response.json();
 }
@@ -866,8 +866,20 @@ async function loadOrganizations(){
   orgSelect.value=state.org;
   updateFollowUi();
 }
+function snapshotFile(code){
+  const indexed=state.orgIndex.get(code)?.file;
+  if(typeof indexed==="string" && /^[A-Za-z0-9._-]+\.json$/.test(indexed))return indexed;
+  return code.replace(/[^A-Za-z0-9._-]+/g,"_").replace(/^_+|_+$/g,"")+".json";
+}
+const pendingOrgLoads=new Map();
 async function loadOneOrg(code){
-  const payload=await fetchJson(`${DATA_BASE}/${encodeURIComponent(code)}.json`);
+  if(pendingOrgLoads.has(code))return pendingOrgLoads.get(code);
+  const task=loadOrgSnapshot(code);
+  pendingOrgLoads.set(code,task);
+  try{return await task}finally{pendingOrgLoads.delete(code)}
+}
+async function loadOrgSnapshot(code){
+  const payload=await fetchJson(`${DATA_BASE}/${snapshotFile(code)}`);
   const events=(payload.events||[]).map(event=>({
     ...event,
     orgCode:code,
@@ -1230,7 +1242,13 @@ $("shareBtn").onclick=async()=>{if(state.selected)await shareEvent(state.selecte
 $("notificationBtn").onclick=toggleNotifications;
 
 let lastForegroundRefresh=0;
-async function refreshOnForeground(){
+let foregroundRefresh=null;
+function refreshOnForeground(){
+  if(foregroundRefresh)return foregroundRefresh;
+  foregroundRefresh=runForegroundRefresh().catch(console.warn).finally(()=>{foregroundRefresh=null});
+  return foregroundRefresh;
+}
+async function runForegroundRefresh(){
   const reloading=await checkRemoteCacheEpoch();
   if(reloading)return;
   const now=Date.now();

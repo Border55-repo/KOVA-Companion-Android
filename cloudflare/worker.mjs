@@ -3,6 +3,28 @@ const ORIGIN = 'https://border55-repo.github.io';
 const FIRESTORE = 'https://firestore.googleapis.com/v1/projects/kova-companion/databases/(default)/documents';
 const WORKFLOW = 'https://api.github.com/repos/Border55-repo/KOVA-Companion-Android/actions/workflows/kova-bridge.yml';
 
+export async function scheduledSync(env, now=Date.now()) {
+  if(!env.GITHUB_TOKEN)throw new Error('Scheduler token is not configured');
+  const options={redirect:'manual',signal:AbortSignal.timeout(15000),headers:{
+    Authorization:`Bearer ${env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json',
+    'User-Agent':'Kova-Companion-Scheduler','X-GitHub-Api-Version':'2022-11-28',
+    'Content-Type':'application/json'
+  }};
+  const response=await fetch(WORKFLOW+'/runs?branch=main&per_page=10',options);
+  if(!response.ok)throw new Error('Could not inspect Bridge runs');
+  const runs=(await response.json()).workflow_runs;
+  if(!Array.isArray(runs))throw new Error('Invalid Bridge run response');
+  const active=['queued','in_progress','waiting','pending','requested'];
+  if(runs.some(run=>active.includes(run.status)))return 'busy';
+  if(runs.some(run=>run.conclusion==='success' && now-Date.parse(run.created_at)<240000))return 'recent';
+  const dispatched=await fetch(WORKFLOW+'/dispatches',{
+    ...options,signal:AbortSignal.timeout(15000),method:'POST',
+    body:JSON.stringify({ref:'main',inputs:{reason:'cloudflare-scheduled-sync'}})
+  });
+  if(!dispatched.ok)throw new Error('Could not schedule Bridge');
+  return 'queued';
+}
+
 function reply(status, body, origin) {
   const headers = {'Content-Type':'application/json', 'Cache-Control':'no-store', 'Vary':'Origin'};
   if (origin === ORIGIN) headers['Access-Control-Allow-Origin'] = ORIGIN;
@@ -28,6 +50,7 @@ async function smallJson(request) {
 }
 
 export default {
+  async scheduled(controller,env) { await scheduledSync(env); },
   async fetch(request, env) {
     const origin = request.headers.get('Origin');
     const path = new URL(request.url).pathname;
@@ -64,7 +87,7 @@ export default {
       // Never replace this with a public document read or an unverified JWT decode.
       const document = verify ? 'adminRuntime/bridge' : `adminCommands/${body.command}`;
       const result = await fetch(`${FIRESTORE}/${document}`, {
-        headers:{Authorization:authorization}, redirect:'error', signal:AbortSignal.timeout(10000)
+        headers:{Authorization:authorization}, redirect:'manual', signal:AbortSignal.timeout(10000)
       });
       if ([401,403].includes(result.status)) return respond(403, {error:'admin_required'});
       if (result.status === 404) return respond(409, {error:'command_not_found'});
@@ -80,7 +103,7 @@ export default {
       }
       if (!env.GITHUB_TOKEN) return respond(503, {error:'github_token_missing'});
       const github = await fetch(WORKFLOW + (verify ? '' : '/dispatches'), {
-        method:verify ? 'GET' : 'POST', redirect:'error', signal:AbortSignal.timeout(15000),
+        method:verify ? 'GET' : 'POST', redirect:'manual', signal:AbortSignal.timeout(15000),
         headers:{
           Authorization:`Bearer ${env.GITHUB_TOKEN}`, Accept:'application/vnd.github+json',
           'User-Agent':'KOVA-Cloudflare-Dispatch', 'X-GitHub-Api-Version':'2022-11-28',

@@ -4,10 +4,11 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths-ignore:
-      - "bridge/data/**"
-      - "docs/**"
-      - "README.md"
+    paths:
+      - "app/**"
+      - "*.gradle.kts"
+      - "gradle.properties"
+      - ".github/workflows/android-build.yml"
 
 permissions:
   contents: read
@@ -42,6 +43,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: KOVA-Companion-v0.13.0-debug
+          name: Kova-Companion-debug
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
