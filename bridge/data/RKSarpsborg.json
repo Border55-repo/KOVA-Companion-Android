@@ -7,42 +7,15 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T00:55:19+02:00",
+  "updatedAt": "2026-09-25T00:16:11+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
-  "eventCount": 46,
+  "eventCount": 42,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "0077a1e60308661b",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Kampstart kl. 19:00 S08-vakt: KFUM",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "c201f05e24b4a04c",
-      "dateIso": "2026-09-18",
-      "dateLabel": "fre. 18.9",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "745646d7c0c83fcb",
-      "dateIso": "2026-09-19",
-      "dateLabel": "lør. 19.9",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
     {
       "id": "b78546dba18192de",
       "dateIso": "2026-09-19",
@@ -68,15 +41,6 @@
       "time": "17:00",
       "type": "Sanitetsvakt",
       "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "fdaf04cefd412130",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "Påmeldingsfrist 01.09.26 for deltakere AVLYST: Kvalifisert førstehjelp (KFØR) Fredrikstad",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
