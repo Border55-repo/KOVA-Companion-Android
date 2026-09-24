@@ -1053,7 +1053,7 @@ fun KovaScreen(
                                                 text = { Text(organization.name) },
                                                 onClick = {
                                                     primaryOrgMenu = false
-                                                    settings.setPrimaryOrganization(organization.code)
+                                                    settings.choosePrimaryOrganization(organization.code)
                                                     primaryOrganization = settings.primaryOrganization
                                                     subscribedOrganizations = settings.activityOrganizations
                                                     org = organization.code
