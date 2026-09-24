@@ -53,7 +53,7 @@ class OrganizationRegistry(private val context: Context) {
         connection.requestMethod = "GET"
         connection.connectTimeout = 10000
         connection.readTimeout = 10000
-        connection.setRequestProperty("User-Agent", "KOVA Companion Android/1.x")
+        connection.setRequestProperty("User-Agent", "Kova Companion Android/1.x")
 
         try {
             val code = connection.responseCode

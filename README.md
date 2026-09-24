@@ -1,3 +1,9 @@
+# Kova Companion
+
+[Åpne Kova Companion](https://border55-repo.github.io/KOVA-Companion-Android/) · [Adminpanel](https://border55-repo.github.io/KOVA-Companion-Android/admin/)
+
+Android, nettapp og adminpanel tilhører dette produktet. URKH er et separat produkt. Se [nettpublisering og flytting](docs/WEB.md).
+
 ## v2.1.1 – Favorittkorps og PWA-varsler
 
 - Vaktvarsler og push-påminnelser gis bare for favorittkorps.

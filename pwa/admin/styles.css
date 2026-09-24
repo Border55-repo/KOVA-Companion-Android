@@ -1,0 +1,36 @@
+:root{
+  color-scheme:light dark;
+  --bg:#071626;--card:#102438;--card2:#163149;--text:#eef7ff;--muted:#a9bfce;
+  --border:#29465c;--red:#d31f3a;--blue:#3ca8f5;--green:#2fbd79;--amber:#e1a72e;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+button,input,textarea{font:inherit}
+button,a{touch-action:manipulation}
+.topbar{position:sticky;top:0;z-index:5;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(135deg,#071626,#173b58);border-bottom:1px solid var(--border)}
+.topbar h1{margin:2px 0;font-size:1.5rem}.eyebrow,.label{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--muted);margin:0}.version{margin:0;color:var(--muted);font-size:.8rem}
+.shell{max-width:1180px;margin:auto;padding:18px}.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:16px}
+.hidden{display:none!important}.muted{color:var(--muted);font-size:.88rem}.error{color:#ff8a9d}
+.ghost,.small,.primary,.danger{border:1px solid var(--border);border-radius:11px;padding:10px 13px;text-decoration:none;color:inherit;background:transparent;font-weight:750;cursor:pointer}
+.primary{background:var(--blue);border-color:var(--blue);color:#041421}.danger{background:var(--red);border-color:var(--red);color:white}
+.auth-card{max-width:480px;margin:60px auto}.auth-card h2{margin:5px 0 8px}.auth-card form{display:grid;gap:12px;margin-top:18px}.auth-card label{display:grid;gap:6px;color:var(--muted);font-size:.82rem;font-weight:700}
+input,textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px;color:var(--text)}\ntextarea{display:block;min-height:130px;resize:vertical;line-height:1.45}\n.actions label{display:grid;gap:6px;margin-top:12px;color:var(--text)}\n.actions label:has(input[type="checkbox"]){display:flex;align-items:center;gap:10px}\n.actions input[type="checkbox"]{width:20px;height:20px;margin:0;flex:0 0 auto}\n#publishChangelogBtn{align-self:center;min-width:220px}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:14px}.toolbar>div:first-child{display:flex;flex-direction:column;gap:3px}.toolbar-actions{display:flex;gap:8px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}.stat{display:flex;flex-direction:column;gap:5px}.stat span,.stat small{color:var(--muted)}.stat strong{font-size:1.8rem}
+.actions{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-bottom:14px}.actions h2{margin:4px 0}.actions p{margin:4px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:14px}.section-head h2{margin:3px 0}.section-head input{max-width:300px}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--border);font-size:.88rem}th{color:var(--muted);font-size:.72rem;text-transform:uppercase}.status-ok{color:var(--green);font-weight:800}.status-error{color:#ff8a9d;font-weight:800}
+#dashboardView{display:grid;gap:14px}
+@media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.actions{grid-template-columns:1fr}}
+@media(max-width:520px){.shell{padding:12px}.stats{grid-template-columns:1fr 1fr}.toolbar{align-items:flex-start;flex-direction:column}.toolbar-actions{width:100%}.toolbar-actions button{flex:1}.section-head{align-items:stretch;flex-direction:column}.section-head input{max-width:none}.stat strong{font-size:1.45rem}}
+
+.health-banner{display:flex;align-items:center;justify-content:space-between;gap:16px;border-left:6px solid var(--border)}
+.health-banner>div{display:flex;flex-direction:column;gap:4px}
+.health-banner strong{font-size:1.15rem}
+.health-dot{width:18px;height:18px;border-radius:999px;background:var(--muted);box-shadow:0 0 0 5px rgba(255,255,255,.04)}
+.health-ok{border-left-color:var(--green)}.health-ok .health-dot{background:var(--green)}
+.health-warning{border-left-color:var(--amber)}.health-warning .health-dot{background:var(--amber)}
+.health-error{border-left-color:#ff6279}.health-error .health-dot{background:#ff6279}
+.health-unknown{border-left-color:var(--muted)}
+.status-warning{color:var(--amber);font-weight:800}
+.freshness{font-size:.78rem}

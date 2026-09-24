@@ -29,7 +29,7 @@ object NotificationHelper {
             manager.createNotificationChannel(
                 NotificationChannel(
                     UPDATE_CHANNEL,
-                    "KOVA Companion-oppdateringer",
+                    "Kova Companion-oppdateringer",
                     NotificationManager.IMPORTANCE_DEFAULT
                 )
             )
