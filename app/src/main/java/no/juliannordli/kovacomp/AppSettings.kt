@@ -95,7 +95,7 @@ class AppSettings(context: Context) {
             subscribedOrganizations = normalized
         }
 
-    fun setPrimaryOrganization(code: String) {
+    fun choosePrimaryOrganization(code: String) {
         primaryOrganization = code
         activityOrganizations = activityOrganizations + code
         setFavoriteOrganization(code, true)
