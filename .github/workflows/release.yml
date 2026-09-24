@@ -125,7 +125,8 @@ jobs:
           fi
 
           git commit -m "Update app manifest for $TAG"
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase --strategy-option=theirs origin/main || { git rebase --abort; git reset --soft origin/main; git commit -m "Update app manifest for $TAG"; }
           git push origin HEAD:main
 
 # release trigger: v0.7.0 reliability
