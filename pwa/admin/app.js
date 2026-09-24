@@ -1,4 +1,4 @@
-import {requestDispatch} from './dispatch.js';
+import {requestDispatch,verifyConnection} from './dispatch.js';
 const DATA_BASE="https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
 const ADMIN_EMAIL="superuser@kova-companion.local";
 const $=id=>document.getElementById(id);
@@ -335,6 +335,14 @@ async function loadDashboard(){
 }
 
 $("refreshBtn").onclick=()=>loadDashboard().catch(e=>$("lastRefresh").textContent="Oppdatering feilet: "+e.message);
+$("verifyConnectionBtn").onclick=async()=>{
+  const button=$("verifyConnectionBtn");button.disabled=true;
+  $("dispatchStatus").textContent="Kontrollerer tilkoblingen…";
+  try {
+    const f=await initFirebase();
+    $("dispatchStatus").textContent=(await verifyConnection(f.auth.currentUser)).message;
+  } finally {button.disabled=false}
+};
 $("bridgeSyncBtn").onclick=async()=>{
   const f=await initFirebase();
   const button=$("bridgeSyncBtn");
