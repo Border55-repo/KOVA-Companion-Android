@@ -79,6 +79,34 @@ class AppSettings(context: Context) {
             .putStringSet("subscribed_organizations", value.toSet())
             .apply()
 
+    var primaryOrganization: String
+        get() = prefs.getString("primary_organization", KovaRepository.DEFAULT_ORG)
+            ?: KovaRepository.DEFAULT_ORG
+        set(value) = prefs.edit().putString("primary_organization", value).apply()
+
+    var activityOrganizations: Set<String>
+        get() = prefs.getStringSet(
+            "activity_organizations",
+            subscribedOrganizations
+        )?.toSet() ?: subscribedOrganizations
+        set(value) {
+            val normalized = value.toMutableSet().apply { add(primaryOrganization) }
+            prefs.edit().putStringSet("activity_organizations", normalized).apply()
+            subscribedOrganizations = normalized
+        }
+
+    fun setPrimaryOrganization(code: String) {
+        primaryOrganization = code
+        activityOrganizations = activityOrganizations + code
+        setFavoriteOrganization(code, true)
+    }
+
+    fun setActivityOrganization(code: String, enabled: Boolean) {
+        val updated = activityOrganizations.toMutableSet()
+        if (enabled || code == primaryOrganization) updated.add(code) else updated.remove(code)
+        activityOrganizations = updated
+    }
+
     var favoriteOrganizations: Set<String>
         get() = prefs.getStringSet(
             "favorite_organizations",
