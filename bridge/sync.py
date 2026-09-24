@@ -138,6 +138,34 @@ def set_bridge_sync_command(db, command: dict | None, status: str, **extra) -> N
         print(f"Could not update admin sync request: {exc}", file=sys.stderr)
 
 
+
+def process_announcement_request(db) -> None:
+    if db is None:
+        return
+    ref = db.collection("adminCommands").document("announcement")
+    try:
+        snap = ref.get()
+        if not snap.exists:
+            return
+        command = snap.to_dict() or {}
+        if command.get("status") != "requested":
+            return
+        from broadcast_announcement import dispatch_announcement
+        ref.set({**command, "status": "running", "startedAt": firestore.SERVER_TIMESTAMP})
+        dispatch_announcement(
+            title=str(command.get("title") or "Nytt i KOVA Companion"),
+            body=str(command.get("body") or "Nye forbedringer er tilgjengelige."),
+            change_id=str(command.get("requestId") or f"announcement-{int(time.time())}"),
+        )
+        ref.set({**command, "status": "completed", "completedAt": firestore.SERVER_TIMESTAMP})
+    except Exception as exc:
+        print(f"Could not process announcement request: {exc}", file=sys.stderr)
+        try:
+            current = ref.get().to_dict() or {}
+            ref.set({**current, "status": "failed", "error": str(exc), "completedAt": firestore.SERVER_TIMESTAMP})
+        except Exception:
+            pass
+
 def publish_admin_runtime(
     db,
     organizations: list[dict],
