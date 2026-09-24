@@ -306,6 +306,44 @@ def send_web_notification(
     return not transient_failure
 
 
+
+def send_web_announcement(title: str, body: str, change_id_value: str) -> bool:
+    """Send one global changelog announcement to every enabled PWA subscription."""
+    credentials, project_id = _credentials()
+    if credentials is None:
+        print("Web Push disabled: Firebase service account is not configured.")
+        return True
+
+    config = ensure_vapid_config()
+    documents = _list_subscription_documents(credentials, project_id)
+    targets = [
+        document for document in documents
+        if _bool_field(document, "enabled", True)
+    ]
+    print(f"Global Web Push announcement subscriptions: total={len(documents)}, enabled={len(targets)}.")
+    payload = {
+        "title": title,
+        "body": body,
+        "kind": "announcement",
+        "organization": "",
+        "changeId": change_id_value,
+        "changeSummary": body,
+        "url": "https://border55-repo.github.io/KlarX/kova/#changelogCard",
+        "event": {},
+    }
+
+    transient_failure = False
+    sent = 0
+    for document in targets:
+        ok, delivered = _send_to_subscription(document, payload, config, credentials)
+        if not ok:
+            transient_failure = True
+        if delivered:
+            sent += 1
+
+    print(f"Global Web Push announcement sent to {sent}/{len(targets)} enabled subscription(s).")
+    return not transient_failure
+
 def _semantic_key(event: dict) -> str:
     normalize = lambda value: re.sub(r"\s+", " ", str(value or "").strip().lower())
     return normalize(event.get("type")) + "|" + normalize(event.get("description"))
