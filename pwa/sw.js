@@ -1,4 +1,4 @@
-const CACHE="kova-companion-pwa-v32";
+const CACHE="kova-companion-pwa-v33";
 const SHELL=["./","./index.html","./styles.css","./app.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
 const HISTORY_DB="kova-companion-pwa-history";
 const HISTORY_STORE="notifications";
@@ -61,7 +61,9 @@ async function readHistory(){
 }
 
 self.addEventListener("install",event=>{
-  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)));
+  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(
+    SHELL.map(path=>new Request(new URL(path,self.location.href),{cache:"reload"}))
+  )));
   self.skipWaiting();
 });
 

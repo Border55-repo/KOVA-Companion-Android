@@ -4,6 +4,16 @@ import vm from 'node:vm';
 import {readFile} from 'node:fs/promises';
 const app=await readFile('pwa/app.js','utf8');
 const loading=app.slice(app.indexOf('function snapshotFile('),app.indexOf('async function loadCurrent('));
+test('new worker installs fresh shell assets instead of recycling the HTTP cache',async()=>{
+  const source=await readFile('pwa/sw.js','utf8');
+  const handlers={};let requested;
+  const ctx=vm.createContext({URL,Request,console,self:{location:{href:'https://example.test/app/sw.js'},skipWaiting(){},addEventListener:(name,fn)=>handlers[name]=fn},caches:{open:async()=>({addAll:async requests=>requested=requests})}});
+  vm.runInContext(source,ctx);
+  let done;handlers.install({waitUntil:p=>done=p});await done;
+  assert.ok(requested.length>0);
+  assert.ok(requested.every(request=>request.cache==='reload'));
+  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js'));
+});
 test('snapshot URLs follow Bridge filenames for spaces and Norwegian letters',()=>{
   const ctx=vm.createContext({state:{orgIndex:new Map([['AÅRKH',{file:'A_RKH.json'}]])}});
   vm.runInContext(loading,ctx);

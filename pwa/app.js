@@ -1291,11 +1291,12 @@ if("serviceWorker" in navigator){
     if(event.data?.type==="notificationclick") openNotificationTarget(event.data).catch(console.warn);
     if(event.data?.type==="notification-history-response") renderNotificationHistory(event.data.items||[]);
   });
-  navigator.serviceWorker.register("./sw.js").then(async registration=>{
+  let refreshingWorker=false;
+  navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(async registration=>{
     try{await registration.update()}catch{}
     navigator.serviceWorker.addEventListener("controllerchange",()=>{
-      if(sessionStorage.getItem("kova.pwa.reloadedForUpdate")==="1") return;
-      sessionStorage.setItem("kova.pwa.reloadedForUpdate","1");
+      if(refreshingWorker)return;
+      refreshingWorker=true;
       location.reload();
     });
   }).catch(()=>{});
