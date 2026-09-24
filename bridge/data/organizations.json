@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-09-23T02:07:57+02:00",
-  "count": 42,
-  "helpCorpsCount": 38,
+  "updatedAt": "2026-09-24T14:42:14+02:00",
+  "count": 43,
+  "helpCorpsCount": 39,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -48,6 +48,11 @@
     {
       "name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps",
       "code": "EHRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Etne Røde Kors Hjelpekorps",
+      "code": "ERKH",
       "category": "hjelpekorps"
     },
     {

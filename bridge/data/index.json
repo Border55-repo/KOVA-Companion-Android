@@ -10,9 +10,9 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T10:58:12+02:00",
-  "organizationCount": 42,
-  "helpCorpsCount": 38,
+  "updatedAt": "2026-09-24T14:42:20+02:00",
+  "organizationCount": 43,
+  "helpCorpsCount": 39,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -94,6 +94,15 @@
       "status": "ok",
       "eventCount": 24,
       "updatedAt": "2026-09-22T18:27:19+02:00"
+    },
+    {
+      "name": "Etne Røde Kors Hjelpekorps",
+      "code": "ERKH",
+      "category": "hjelpekorps",
+      "file": "ERKH.json",
+      "status": "pending",
+      "eventCount": 0,
+      "updatedAt": null
     },
     {
       "name": "Fana Røde Kors Hjelpekorps",
