@@ -39,9 +39,10 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TEST_ORG: UllensakerRKH
           TEST_KIND: added
-          TEST_EVENT_ID: smoke-test-added-v2
-          TEST_TITLE: "Ny KOVA-aktivitet – test"
-          TEST_BODY: "Test av varsel for ny aktivitet."
+          TEST_EVENT_ID: release-news-2-0-1
+          TEST_KIND: test
+          TEST_TITLE: "Nytt i KOVA Companion 2.0.1 🎉"
+          TEST_BODY: "Du kan nå velge påminnelse 7 eller 14 dager før vakten – i både appen og PWA."
         run: python bridge/test_push.py
 
       - name: Send changed push to Ullensaker
