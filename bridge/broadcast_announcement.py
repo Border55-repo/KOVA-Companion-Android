@@ -21,4 +21,10 @@ def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str =
     # PWA subscriptions are filtered by corps. Sending per corps reaches all existing subscriptions.
     for org in organizations:
         send_web_notification(org["code"], title, body, "announcement", None, change_id)
-    print(f"Announcement dispatched across {len(organizations)} KOVA organizations.")\n\ndef main():\n    dispatch_announcement()\n\nif __name__ == "__main__":\n    main()
+    print(f"Announcement dispatched across {len(organizations)} KOVA organizations.")
+
+def main():
+    dispatch_announcement()
+
+if __name__ == "__main__":
+    main()
