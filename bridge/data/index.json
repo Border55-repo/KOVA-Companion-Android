@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T17:40:21+02:00",
+  "updatedAt": "2026-09-24T20:37:54+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -74,8 +74,8 @@
       "category": "hjelpekorps",
       "file": "B_SauheradRKH.json",
       "status": "ok",
-      "eventCount": 22,
-      "updatedAt": "2026-09-23T03:19:35+02:00"
+      "eventCount": 23,
+      "updatedAt": "2026-09-24T20:37:45+02:00"
     },
     {
       "name": "Drangedal Røde Kors Hjelpekorps",
@@ -380,8 +380,8 @@
       "category": "annet",
       "file": "OSRK.json",
       "status": "ok",
-      "eventCount": 11,
-      "updatedAt": "2026-09-23T15:40:02+02:00"
+      "eventCount": 15,
+      "updatedAt": "2026-09-24T20:37:52+02:00"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",

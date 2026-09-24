@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7548c426872cf5c9fa404fe4",
+      "observedAt": "2026-09-24T20:37:52+02:00",
+      "organization": "OSRK",
+      "kind": "added",
+      "event": {
+        "id": "d74ada05dfde3e04",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "07:15",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen OPP Stoltzen OPP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
+      "changeId": "fc6b304a20992826d09a2d8f",
+      "observedAt": "2026-09-24T20:37:52+02:00",
+      "organization": "OSRK",
+      "kind": "added",
+      "event": {
+        "id": "aec3a7d795268803",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen OPP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
       "changeId": "c239d9f1268d8e32acf22aae",
       "observedAt": "2026-09-23T15:40:02+02:00",
       "organization": "OSRK",
@@ -32,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T15:40:02+02:00"
+  "updatedAt": "2026-09-24T20:37:52+02:00"
 }

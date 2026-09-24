@@ -1,16 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Bø og Sauherad Røde Kors Hjelpekorps",
     "code": "BøSauheradRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T03:19:35+02:00",
+  "updatedAt": "2026-09-24T20:37:45+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 22,
+  "eventCount": 23,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -175,6 +176,15 @@
       "time": "-> 16:00",
       "type": "Interne kurs",
       "description": "Ksor Vinter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "1da7175138e63525",
+      "dateIso": "2027-04-17",
+      "dateLabel": "lør. 17.4",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt Sanitetsvakt - Volleyballturnering i Gullbring",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {

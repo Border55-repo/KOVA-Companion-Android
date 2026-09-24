@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "0823db127cc76833be6d9f9b",
+      "observedAt": "2026-09-24T20:37:45+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "1da7175138e63525",
+        "dateIso": "2027-04-17",
+        "dateLabel": "lør. 17.4",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Sanitetsvakt - Volleyballturnering i Gullbring",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-24T20:37:45+02:00"
+}
