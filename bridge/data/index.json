@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-24T14:59:09+02:00",
+  "updatedAt": "2026-09-24T17:40:21+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -38,8 +38,8 @@
       "category": "hjelpekorps",
       "file": "AHRKH.json",
       "status": "ok",
-      "eventCount": 22,
-      "updatedAt": "2026-09-24T00:43:42+02:00"
+      "eventCount": 23,
+      "updatedAt": "2026-09-24T17:40:13+02:00"
     },
     {
       "name": "Bergen Røde Kors Hjelpekorps",
