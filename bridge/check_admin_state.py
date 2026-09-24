@@ -20,6 +20,31 @@ if not firebase_admin._apps:
 
 db = firestore.client()
 
+# Read-only deployment readiness; does not enable billing, services or resources.
+import requests
+from google.oauth2 import service_account as google_service_account
+from google.auth.transport.requests import Request as GoogleAuthRequest
+probe_credentials = google_service_account.Credentials.from_service_account_info(
+    info, scopes=["https://www.googleapis.com/auth/cloud-platform"])
+probe_credentials.refresh(GoogleAuthRequest())
+probe_headers = {"Authorization": "Bearer " + probe_credentials.token}
+billing_probe = requests.get(
+    "https://cloudbilling.googleapis.com/v1/projects/" + PROJECT_ID + "/billingInfo",
+    headers=probe_headers, timeout=30)
+print("FUNCTIONS_BILLING_CHECK_HTTP=" + str(billing_probe.status_code))
+if billing_probe.ok:
+    print("FUNCTIONS_BILLING_ENABLED=" + str(bool(billing_probe.json().get("billingEnabled"))).lower())
+permissions_probe = requests.post(
+    "https://cloudresourcemanager.googleapis.com/v1/projects/" + PROJECT_ID + ":testIamPermissions",
+    headers=probe_headers,
+    json={"permissions": ["cloudfunctions.functions.create", "cloudfunctions.functions.update",
+          "cloudbuild.builds.create", "serviceusage.services.enable", "iam.serviceAccounts.actAs"]},
+    timeout=30)
+print("FUNCTIONS_PERMISSIONS_CHECK_HTTP=" + str(permissions_probe.status_code))
+if permissions_probe.ok:
+    print("FUNCTIONS_DEPLOY_PERMISSIONS=" + json.dumps(permissions_probe.json().get("permissions", [])))
+
+
 # Read-only delivery diagnostics. Never log endpoints, keys, tokens or message text.
 from urllib.parse import urlparse
 announcement_snap = db.collection("adminCommands").document("announcement").get()
