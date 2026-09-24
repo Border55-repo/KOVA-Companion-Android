@@ -3,7 +3,7 @@ from __future__ import annotations
 import json, os, time
 from pathlib import Path
 from push import _credentials, _send
-from webpush import send_web_notification
+from webpush import send_web_notification, send_web_announcement
 
 TITLE = os.getenv("ANNOUNCEMENT_TITLE", "Nytt i KOVA Companion")
 BODY = os.getenv("ANNOUNCEMENT_BODY", "Nye forbedringer er tilgjengelige.")
@@ -18,9 +18,7 @@ def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str =
     # Existing Android versions subscribe per corps, so announce on every known corps topic.
     for org in organizations:
         _send(credentials, project_id, org, title, body, "announcement", "https://border55-repo.github.io/KlarX/kova/", None, change_id)
-    # PWA subscriptions are filtered by corps. Sending per corps reaches all existing subscriptions.
-    for org in organizations:
-        send_web_notification(org["code"], title, body, "announcement", None, change_id)
+    # Announcements are global product messages: send once to every enabled PWA subscription.\n    send_web_announcement(title, body, change_id)
     print(f"Announcement dispatched across {len(organizations)} KOVA organizations.")
 
 def main():
