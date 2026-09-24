@@ -1,7 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {requestDispatch} from '../admin/dispatch.js';
+import {requestDispatch,verifyConnection} from '../admin/dispatch.js';
 const user={getIdToken:async()=> 'firebase-test-token'};
+test('connection diagnosis uses read-only verification and exposes no upstream body',async t=>{
+  t.mock.method(globalThis,'fetch',async(url,options)=>{
+    assert.match(url,/\/verify$/);
+    assert.equal(options.body,'{}');
+    return Response.json({error:'github_rejected',upstreamStatus:401,body:'private-upstream-text'},{status:502});
+  });
+  const result=await verifyConnection(user);
+  assert.equal(result.ok,false);
+  assert.match(result.message,/GitHub avviser nøkkelen/);
+  assert.ok(!result.message.includes('private-upstream-text'));
+});
 test('admin starts an existing request with Firebase auth only',async t=>{
   t.mock.method(globalThis,'fetch',async(url,options)=>{
     assert.equal(url,'https://kova-dispatch.juliannordli.workers.dev/dispatch');
