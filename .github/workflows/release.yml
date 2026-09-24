@@ -115,6 +115,11 @@ jobs:
           }
           EOF
 
+          cp bridge/data/app-update.json "$RUNNER_TEMP/kova-app-update.json"
+          git fetch origin main
+          git restore bridge/data/app-update.json
+          git checkout -B release-manifest origin/main
+          cp "$RUNNER_TEMP/kova-app-update.json" bridge/data/app-update.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add bridge/data/app-update.json
@@ -126,7 +131,7 @@ jobs:
 
           git commit -m "Update app manifest for $TAG"
           git fetch origin main
-          git rebase --strategy-option=theirs origin/main || { git rebase --abort; git reset --soft origin/main; git commit -m "Update app manifest for $TAG"; }
+          git rebase origin/main
           git push origin HEAD:main
 
 # release trigger: v0.7.0 reliability

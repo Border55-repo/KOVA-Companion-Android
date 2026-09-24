@@ -300,29 +300,25 @@ def send_web_notification(
                 print(f"Disabled stale Web Push subscription ({status}).")
             else:
                 transient_failure = True
-                print(f"Web Push failed ({status or 'unknown'}): {exc}", flush=True)
+                print(f"Web Push failed ({status or 'unknown'}).", flush=True)
 
     print(f"Web Push sent to {sent}/{len(targets)} subscription(s) for {organization}.")
     return not transient_failure
 
 
 
-def send_web_announcement(title: str, body: str, change_id_value: str) -> bool:
+def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[str, int]:
     """Send one global changelog announcement to every enabled PWA subscription."""
     credentials, project_id = _credentials()
     if credentials is None:
-        print("Web Push disabled: Firebase service account is not configured.")
-        return True
+        raise RuntimeError("Firebase service account is not configured for Web Push")
 
     config = ensure_vapid_config()
     documents = _list_subscription_documents(credentials, project_id)
     targets = [
         document for document in documents
         if _bool_field(document, "enabled", True)
-        and (
-            not _has_field(document, "notificationKinds")
-            or "announcement" in _array_strings(document, "notificationKinds")
-        )
+
     ]
     print(f"Global Web Push announcement subscriptions: total={len(documents)}, enabled={len(targets)}.")
     payload = {
@@ -336,17 +332,21 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> bool:
         "event": {},
     }
 
-    transient_failure = False
-    sent = 0
+    result = {"targets": len(targets), "accepted": 0, "failed": 0, "expired": 0}
     for document in targets:
-        ok, delivered = _send_to_subscription(document, payload, config, credentials)
+        try:
+            ok, delivered = _send_to_subscription(document, payload, config, credentials)
+        except Exception:
+            ok, delivered = False, False
         if not ok:
-            transient_failure = True
-        if delivered:
-            sent += 1
+            result["failed"] += 1
+        elif delivered:
+            result["accepted"] += 1
+        else:
+            result["expired"] += 1
 
-    print(f"Global Web Push announcement sent to {sent}/{len(targets)} enabled subscription(s).")
-    return not transient_failure
+    print("Global Web Push announcement: " + json.dumps(result), flush=True)
+    return result
 
 def _semantic_key(event: dict) -> str:
     normalize = lambda value: re.sub(r"\s+", " ", str(value or "").strip().lower())
@@ -471,7 +471,7 @@ def _send_to_subscription(
             subscription["keys"]["auth"],
         ]
     ):
-        return True, False
+        return False, False
 
     try:
         webpush(
@@ -489,7 +489,7 @@ def _send_to_subscription(
             _disable_subscription(credentials, document["name"])
             print(f"Disabled stale reminder subscription ({status}).")
             return True, False
-        print(f"Reminder Web Push failed ({status or 'unknown'}): {exc}", flush=True)
+        print(f"Web Push failed ({status or 'unknown'}).", flush=True)
         return False, False
 
 
@@ -530,6 +530,8 @@ def send_due_reminders(
 
         subscription = subscriptions.get(subscription_id)
         if subscription is None or not _bool_field(subscription, "enabled", True):
+            continue
+        if organization not in _array_strings(subscription, "organizations"):
             continue
 
         events = events_by_organization.get(organization, [])

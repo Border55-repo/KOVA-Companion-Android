@@ -10,6 +10,7 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   push:
+    branches: [main]
     paths:
       - "bridge/sync.py"
       - "bridge/push.py"
@@ -25,7 +26,7 @@ permissions:
 
 concurrency:
   group: kova-bridge-sync
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -43,7 +44,7 @@ jobs:
 
       - name: Bridge unit tests
         working-directory: bridge
-        run: python -m unittest -v test_sync.py
+        run: python -m unittest -v test_sync.py test_reminders.py test_announcement.py
 
       - name: Sync public KOVA schedules
         env:

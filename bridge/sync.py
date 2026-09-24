@@ -143,28 +143,49 @@ def process_announcement_request(db) -> None:
     if db is None:
         return
     ref = db.collection("adminCommands").document("announcement")
+    command = None
+    claimed = None
     try:
         snap = ref.get()
         if not snap.exists:
             return
         command = snap.to_dict() or {}
-        if command.get("status") != "requested":
+        status = command.get("status")
+        if status == "running":
+            started = command.get("startedAt")
+            if started and (datetime.now(OSLO) - started).total_seconds() < 600:
+                return
+        elif status != "requested":
             return
         from broadcast_announcement import dispatch_announcement
-        ref.set({**command, "status": "running", "startedAt": firestore.SERVER_TIMESTAMP})
-        dispatch_announcement(
+        # Claim this exact version, and never overwrite a newer admin request.
+        claimed = ref.update(
+            {"status": "running", "startedAt": firestore.SERVER_TIMESTAMP},
+            option=db.write_option(last_update_time=snap.update_time),
+        )
+        delivery = dispatch_announcement(
             title=str(command.get("title") or "Nytt i KOVA Companion"),
             body=str(command.get("body") or "Nye forbedringer er tilgjengelige."),
             change_id=str(command.get("requestId") or f"announcement-{int(time.time())}"),
         )
-        ref.set({**command, "status": "completed", "completedAt": firestore.SERVER_TIMESTAMP})
+        ref.update(
+            {"status": "completed", "delivery": delivery, "error": "",
+             "completedAt": firestore.SERVER_TIMESTAMP},
+            option=db.write_option(last_update_time=claimed.update_time),
+        )
     except Exception as exc:
-        print(f"Could not process announcement request: {exc}", file=sys.stderr)
-        try:
-            current = ref.get().to_dict() or {}
-            ref.set({**current, "status": "failed", "error": str(exc), "completedAt": firestore.SERVER_TIMESTAMP})
-        except Exception:
-            pass
+        print(f"Could not process announcement request: {type(exc).__name__}", file=sys.stderr)
+        if claimed is not None:
+            try:
+                ref.update(
+                    {"status": "failed", "error": "Utsending feilet helt eller delvis.",
+                     "delivery": getattr(exc, "delivery", {}),
+                     "completedAt": firestore.SERVER_TIMESTAMP},
+                    option=db.write_option(last_update_time=claimed.update_time),
+                )
+            except Exception:
+                pass
+
 
 def publish_admin_runtime(
     db,

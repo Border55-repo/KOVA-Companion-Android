@@ -342,11 +342,11 @@ fun KovaScreen(
         checkForUpdate(showFeedback = false)
     }
 
-    LaunchedEffect(subscribedOrganizations) {
+    LaunchedEffect(favoriteOrganizations) {
         pushReady = false
         PushManager.setSubscriptions(
             context,
-            subscribedOrganizations
+            favoriteOrganizations
         ) { success ->
             pushReady = success
         }
@@ -665,7 +665,7 @@ fun KovaScreen(
                             Text(
                                 if (pushReady) {
                                     "Push: aktiv for " +
-                                        subscribedOrganizations.size +
+                                        favoriteOrganizations.size +
                                         " korps"
                                 } else {
                                     "Push: synkroniserer abonnement"
@@ -1060,13 +1060,13 @@ fun KovaScreen(
                                 )
 
                                 Text(
-                                    "Korps jeg følger",
+                                    "Favorittkorps – kun disse gir vaktvarsler",
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.SemiBold
                                 )
 
                                 Text(
-                                    subscribedOrganizations.size.toString() +
+                                    favoriteOrganizations.size.toString() +
                                         " av " +
                                         availableOrganizations.count { it.category == "hjelpekorps" } +
                                         " hjelpekorps valgt",
@@ -1078,14 +1078,14 @@ fun KovaScreen(
                                     .forEach { organization ->
                                         SettingSwitch(
                                             label = organization.name,
-                                            checked = organization.code in subscribedOrganizations
+                                            checked = organization.code in favoriteOrganizations
                                         ) { enabled ->
-                                            settings.setOrganizationSubscribed(
+                                            settings.setFavoriteOrganization(
                                                 organization.code,
                                                 enabled
                                             )
-                                            subscribedOrganizations =
-                                                settings.subscribedOrganizations
+                                            favoriteOrganizations =
+                                                settings.favoriteOrganizations
                                         }
                                     }
 

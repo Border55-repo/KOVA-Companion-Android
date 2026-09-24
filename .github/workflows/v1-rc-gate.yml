@@ -60,4 +60,4 @@ jobs:
 
       - name: Bridge unit tests
         working-directory: bridge
-        run: python -m unittest test_sync.py
+        run: python -m unittest test_sync.py test_reminders.py test_announcement.py
