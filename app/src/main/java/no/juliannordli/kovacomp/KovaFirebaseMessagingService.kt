@@ -32,8 +32,8 @@ class KovaFirebaseMessagingService : FirebaseMessagingService() {
             )
         }
 
-        if (!settings.isOrganizationSubscribed(organization)) {
-            filtered("filtrert: korps ikke fulgt")
+        if (!NotificationPolicy.allowsOrganization(kind, organization, settings.favoriteOrganizations)) {
+            filtered("filtrert: korps er ikke favoritt")
             return
         }
         if (!settings.isKindEnabled(kind)) {

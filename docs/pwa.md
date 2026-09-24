@@ -63,3 +63,7 @@ Fysisk push-test: bestått.
 - PWA Web Push mottatt på fysisk iPhone
 - backend viste 1 registrert PWA-enhet og leverte til 1/1 abonnement
 - samtidig dobbeltest Android + PWA er bekreftet mottatt
+
+## Kodegjennomgang 24.09.2026
+
+Tidligere fysisk test ovenfor gjelder en tidligere direkte smoketest, ikke den feilende adminflyten. Se [gjennomgangen](review-2026-09-24.md) for påviste feil, rettelser og hva som må bekreftes på nytt. Produksjons-PWA vedlikeholdes i KlarX `apps/kova/`; denne repoets `pwa/` er en eldre prototype.

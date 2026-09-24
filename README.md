@@ -1,3 +1,11 @@
+## v2.1.1 – Favorittkorps og PWA-varsler
+
+- Vaktvarsler og push-påminnelser gis bare for favorittkorps.
+- Ingen favoritter betyr ingen korpsvarsler; generelle appnyheter er separate.
+- Retter manglende PWA-utsending fra admin/endringslogg.
+- Separate resultater for Android/PWA og regresjonstester for varslingskjeden.
+- Se `docs/review-2026-09-24.md` for gjennomgang og gjenstående driftsbegrensninger.
+
 ## v1.3.0 – KOVA Admin
 
 - legger inn KOVA Admin-knapp i Android

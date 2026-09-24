@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import hashlib
 import json
 import os
 import re
@@ -142,10 +141,12 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
     if total == 0:
         return []
 
-    credentials, project_id = _credentials()
+    try:
+        credentials, project_id = _credentials()
+    except Exception:
+        credentials, project_id = None, None
     if credentials is None:
-        print("FCM disabled: FIREBASE_SERVICE_ACCOUNT_JSON is not configured.")
-        return []
+        print("FCM unavailable; Web Push will still be attempted.")
 
     messages: list[dict] = []
 
@@ -190,73 +191,27 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
     sent_ids: list[str] = []
 
     for message in messages[:10]:
+        android_ok = False
+        web_ok = False
         try:
-            _send(
-                credentials,
-                project_id,
-                org,
-                message["title"],
-                message["body"],
-                message["kind"],
-                source_url,
-                message["event"],
-                message["changeId"],
-            )
-            web_ok = send_web_notification(
-                org["code"],
-                message["title"],
-                message["body"],
-                message["kind"],
-                message["event"],
-                message["changeId"],
-            )
-            if web_ok:
-                sent_ids.append(message["changeId"])
-            else:
-                print(
-                    f"Web Push transient failure keeps {message['changeId']} pending.",
-                    flush=True,
+            if credentials is not None:
+                _send(
+                    credentials, project_id, org, message["title"], message["body"],
+                    message["kind"], source_url, message["event"], message["changeId"],
                 )
-        except Exception as exc:
-            print(
-                f"FCM send failed for {message['changeId']}: {exc}",
-                flush=True,
-            )
-
-    if len(messages) > 10:
-        remaining = messages[10:]
-        summary_raw = "|".join(item["changeId"] for item in remaining).encode("utf-8")
-        summary_id = "summary-" + hashlib.sha256(summary_raw).hexdigest()[:24]
+                android_ok = True
+        except Exception:
+            print(f"FCM send failed for {message['changeId']}; keeping pending.", flush=True)
         try:
-            summary_title = "Flere KOVA-endringer"
-            summary_body = (
-                f"{len(remaining)} ytterligere endringer er registrert. "
-                "Åpne KOVA Companion for oversikt."
-            )
-            _send(
-                credentials,
-                project_id,
-                org,
-                summary_title,
-                summary_body,
-                "summary",
-                source_url,
-                None,
-                summary_id,
-            )
             web_ok = send_web_notification(
-                org["code"],
-                summary_title,
-                summary_body,
-                "summary",
-                None,
-                summary_id,
+                org["code"], message["title"], message["body"], message["kind"],
+                message["event"], message["changeId"],
             )
-            if web_ok:
-                sent_ids.extend(item["changeId"] for item in remaining)
-            else:
-                print("Web Push summary failure keeps remaining changes pending.", flush=True)
-        except Exception as exc:
-            print(f"FCM summary send failed: {exc}", flush=True)
+        except Exception:
+            print(f"Web Push failed for {message['changeId']}; keeping pending.", flush=True)
+        if android_ok and web_ok:
+            sent_ids.append(message["changeId"])
 
+    # Remaining changes stay in the persistent queue for the next run. A generic
+    # summary is filtered by existing PWA preferences and must not mark them sent.
     return sent_ids

@@ -3,6 +3,7 @@ name: Provision PWA Push Backend
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "bridge/firestore_setup.py"
       - "bridge/deploy_firestore_rules.py"

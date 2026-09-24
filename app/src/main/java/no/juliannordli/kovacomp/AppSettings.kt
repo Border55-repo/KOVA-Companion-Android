@@ -82,8 +82,8 @@ class AppSettings(context: Context) {
     var favoriteOrganizations: Set<String>
         get() = prefs.getStringSet(
             "favorite_organizations",
-            setOf(KovaRepository.DEFAULT_ORG)
-        )?.toSet() ?: setOf(KovaRepository.DEFAULT_ORG)
+            emptySet()
+        )?.toSet() ?: emptySet()
         set(value) = prefs.edit()
             .putStringSet("favorite_organizations", value.toSet())
             .apply()

@@ -21,8 +21,7 @@ class KovaSyncWorker(
             val repo = KovaRepository(applicationContext)
             val settings = AppSettings(applicationContext)
             val current = repo.organization()
-            val subscribed = settings.subscribedOrganizations
-                .ifEmpty { setOf(current) }
+            val subscribed = settings.favoriteOrganizations
 
             val bucket = ((System.currentTimeMillis() / FIFTEEN_MINUTES_MS) %
                 FALLBACK_BUCKETS).toInt()
@@ -33,7 +32,6 @@ class KovaSyncWorker(
                         Math.floorMod(code.hashCode(), FALLBACK_BUCKETS) == bucket
                 }
                 .toSet()
-                .ifEmpty { setOf(current) }
 
             organizations.forEach { org ->
                 val old = repo.loadCache(org)

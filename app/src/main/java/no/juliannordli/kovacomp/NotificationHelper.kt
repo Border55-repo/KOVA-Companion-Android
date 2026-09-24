@@ -85,6 +85,9 @@ object NotificationHelper {
         val kind = target?.kind ?: "local"
         val organization = target?.organization ?: ""
         val eventId = target?.eventId ?: ""
+        if (target != null && !NotificationPolicy.allowsOrganization(
+                kind, organization, AppSettings(context).favoriteOrganizations
+            )) return
         if (kind != "reminder" && AppSettings(context).isQuietNow()) {
             NotificationHistoryStore.record(
                 context, title, text, kind, organization, eventId, "filtered",
