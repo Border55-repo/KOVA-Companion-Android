@@ -5,6 +5,7 @@ const $=id=>document.getElementById(id);
 let firebase=null;
 let currentOrgRows=[];
 let dashboardTimer=null;
+let dashboardLoad=null;
 
 async function initFirebase(){
   if(firebase)return firebase;
@@ -143,11 +144,12 @@ function renderBridgeSync(command){
 }
 function scheduleDashboardRefresh(command){
   if(dashboardTimer)clearTimeout(dashboardTimer);
-  if($("dashboardView").classList.contains("hidden"))return;
+  if(document.hidden||$("dashboardView").classList.contains("hidden"))return;
   const active=["requested","running"].includes(command?.status);
   dashboardTimer=setTimeout(()=>{
     loadDashboard().catch(error=>{
       $("lastRefresh").textContent="Automatisk oppdatering feilet: "+(error.message||String(error));
+      scheduleDashboardRefresh(command);
     });
   },active?10000:60000);
 }
@@ -282,7 +284,12 @@ function announcementStatusText(command){
   return parts.join(" ");
 }
 
-async function loadDashboard(){
+function loadDashboard(){
+  if(dashboardLoad)return dashboardLoad;
+  dashboardLoad=fetchDashboard().finally(()=>{dashboardLoad=null});
+  return dashboardLoad;
+}
+async function fetchDashboard(){
   const f=await initFirebase();
   $("lastRefresh").textContent="Oppdaterer…";
   const [health,orgData,release,pushSnap,cacheSnap,runtimeSnap,commandSnap,announcementSnap]=await Promise.all([
@@ -335,6 +342,12 @@ async function loadDashboard(){
 }
 
 $("refreshBtn").onclick=()=>loadDashboard().catch(e=>$("lastRefresh").textContent="Oppdatering feilet: "+e.message);
+document.addEventListener('visibilitychange',()=>{
+  if(document.hidden){clearTimeout(dashboardTimer);dashboardTimer=null;return}
+  if(!$("dashboardView").classList.contains('hidden')){
+    loadDashboard().catch(()=>scheduleDashboardRefresh(null));
+  }
+});
 $("verifyConnectionBtn").onclick=async()=>{
   const button=$("verifyConnectionBtn");button.disabled=true;
   $("dispatchStatus").textContent="Kontrollerer tilkoblingen…";

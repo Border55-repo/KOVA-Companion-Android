@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import worker from './worker.mjs';
+import worker, {scheduledSync} from './worker.mjs';
 const origin = 'https://border55-repo.github.io';
 const requestId = 'test-request-123';
 const fields = (status='requested', id=requestId) => ({fields:{
@@ -14,6 +14,8 @@ function request({path='/dispatch', method='POST', headers={}, body={command:'an
 function mock(t, responses) {
   const calls=[];
   t.mock.method(globalThis,'fetch',async (url,options)=>{
+    // workerd accepts manual/follow, but rejects error mode before networking.
+    assert.equal(options.redirect,'manual');
     calls.push({url,options});
     assert.ok(responses.length,'Unexpected external request');
     const response=responses.shift();
@@ -22,9 +24,32 @@ function mock(t, responses) {
   });
   return calls;
 }
+test('scheduler starts the fixed workflow only when idle',async t=>{
+  const calls=mock(t,[Response.json({workflow_runs:[]}),new Response(null,{status:204})]);
+  assert.equal(await scheduledSync({GITHUB_TOKEN:'test-secret'}),'queued');
+  assert.match(calls[0].url,/runs\?branch=main/);
+  assert.deepEqual(JSON.parse(calls[1].options.body),{ref:'main',inputs:{reason:'cloudflare-scheduled-sync'}});
+});
+test('scheduler avoids overlapping or recently successful jobs',async t=>{
+  const now=Date.now();
+  const calls=mock(t,[Response.json({workflow_runs:[{status:'in_progress'}]}),Response.json({workflow_runs:[{status:'completed',conclusion:'success',created_at:new Date(now-60000).toISOString()}]})]);
+  assert.equal(await scheduledSync({GITHUB_TOKEN:'test-secret'},now),'busy');
+  assert.equal(await scheduledSync({GITHUB_TOKEN:'test-secret'},now),'recent');
+  assert.equal(calls.length,2);
+});
+test('scheduler fails closed on unavailable run status',async t=>{
+  const calls=mock(t,[new Response('private upstream',{status:403})]);
+  await assert.rejects(scheduledSync({GITHUB_TOKEN:'test-secret'}),/Could not inspect Bridge runs/);
+  assert.equal(calls.length,1);
+});
 test('health reports unconfigured without leaking secrets',async()=>{
   const r=await worker.fetch(request({path:'/health',method:'GET'}),{});
   assert.equal((await r.json()).configured,false);
+});
+test('redirects are rejected without forwarding either credential',async t=>{
+  const calls=mock(t,[new Response(null,{status:302,headers:{Location:'https://untrusted.invalid'}})]);
+  assert.equal((await worker.fetch(request(),{GITHUB_TOKEN:'test-secret'})).status,502);
+  assert.equal(calls.length,1);
 });
 test('allowed preflight succeeds without authentication',async()=>{
   const r=await worker.fetch(request({method:'OPTIONS',headers:{Authorization:''}}),{});
@@ -71,7 +96,7 @@ test('dispatch uses fixed repository, workflow and main; tokens stay separated',
   assert.equal(r.status,202);
   assert.equal(calls[1].url,'https://api.github.com/repos/Border55-repo/KOVA-Companion-Android/actions/workflows/kova-bridge.yml/dispatches');
   assert.equal(calls[1].options.headers.Authorization,'Bearer test-secret');
-  assert.equal(calls[1].options.redirect,'error');
+  assert.equal(calls[1].options.redirect,'manual');
   assert.deepEqual(JSON.parse(calls[1].options.body),{ref:'main',inputs:{reason:'admin:announcement:'+requestId}});
   assert.deepEqual(await r.json(),{status:'queued'});
 });

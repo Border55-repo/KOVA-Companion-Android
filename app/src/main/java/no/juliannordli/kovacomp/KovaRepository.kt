@@ -118,19 +118,7 @@ class KovaRepository(private val context: Context) {
 
     fun loadCache(org: String = organization()): List<KovaEvent> {
         val raw = prefs.getString(cacheKey(org), "[]") ?: "[]"
-        val arr = JSONArray(raw)
-        return upcoming((0 until arr.length()).map { i ->
-            val o = arr.getJSONObject(i)
-            KovaEvent(
-                o.getString("id"),
-                o.getString("dateIso"),
-                o.getString("dateLabel"),
-                o.getString("time"),
-                o.getString("type"),
-                o.getString("description"),
-                o.getString("sourceUrl")
-            )
-        })
+        return upcoming(decodeCachedEvents(raw))
     }
 
     fun saveCache(events: List<KovaEvent>, org: String = organization()) {

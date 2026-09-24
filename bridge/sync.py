@@ -369,7 +369,21 @@ def write_organization_registry(organizations: list[dict]) -> bool:
     return True
 
 
-def poll_batch(organizations: list[dict], now: datetime | None = None) -> list[dict]:
+def poll_batch(organizations: list[dict], now: datetime | None = None, checks: dict | None = None) -> list[dict]:
+    if checks is not None:
+        priority = [org for org in organizations if org['code'] in PRIORITY_CODES]
+        others = [org for org in organizations if org['code'] not in PRIORITY_CODES]
+        def checked_at(org):
+            value = (checks.get(slug(org['code'])) or {}).get('checkedAt')
+            try:
+                return datetime.fromisoformat(value).timestamp() if value else float('-inf')
+            except (TypeError, ValueError):
+                return float('-inf')
+        # Select by actual previous attempts, not wall-clock buckets: delayed
+        # schedulers must not keep selecting the same subset indefinitely.
+        others.sort(key=lambda org: (checked_at(org), org['code']))
+        count = (len(others) + NON_PRIORITY_BUCKETS - 1) // NON_PRIORITY_BUCKETS
+        return priority + others[:count]
     now = now or datetime.now(OSLO)
     bucket = int(now.timestamp() // 300) % NON_PRIORITY_BUCKETS
     selected = []
@@ -775,7 +789,14 @@ def main() -> int:
         polled = organizations
         print("Admin requested full Bridge sync.")
     else:
-        polled = poll_batch(organizations)
+        checks = None
+        if db is not None:
+            try:
+                runtime = db.collection('adminRuntime').document('bridge').get().to_dict() or {}
+                checks = runtime.get('organizationChecks') or {}
+            except Exception:
+                print('Could not read polling history; using fallback rotation.', file=sys.stderr)
+        polled = poll_batch(organizations, checks=checks)
 
     print(
         f"Discovered {len(organizations)} public KOVA organizations "

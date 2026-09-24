@@ -81,7 +81,7 @@ test('announcement click navigates an existing app to the changelog',async()=>{
 
 test('admin status distinguishes queue, transport acceptance, and partial failure',async()=>{
   const app=await readFile('pwa/admin/app.js','utf8');
-  const fn=app.slice(app.indexOf('function announcementStatusText('),app.indexOf('async function loadDashboard('));
+  const fn=app.slice(app.indexOf('function announcementStatusText('),app.indexOf('function loadDashboard('));
   const context=vm.createContext({fmt:()=> '12:00'});
   vm.runInContext(fn,context);
   assert.match(context.announcementStatusText({status:'requested'}),/i kø/);

@@ -4,6 +4,8 @@ import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
 import java.time.OffsetDateTime
+import java.time.Instant
+import java.time.Duration
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
 
@@ -16,7 +18,15 @@ data class BridgeHealth(
     val source: String = "bridge-health"
 ) {
     val isHealthy: Boolean
-        get() = status == "ok"
+        get() = isHealthyAt(Instant.now())
+
+    fun isHealthyAt(now: Instant): Boolean =
+        status == "ok" && pendingPushes == 0 && consecutiveFailureRuns == 0 && isFreshAt(now)
+
+    fun isFreshAt(now: Instant): Boolean = runCatching {
+        val age = Duration.between(OffsetDateTime.parse(checkedAt).toInstant(), now)
+        age >= Duration.ofMinutes(-5) && age <= Duration.ofMinutes(90)
+    }.getOrDefault(false)
 
     private fun formatTime(value: String?): String? {
         value ?: return null
@@ -27,10 +37,12 @@ data class BridgeHealth(
         }.getOrNull()
     }
 
-    fun label(): String {
+    fun label(now: Instant = Instant.now()): String {
         val time = formatTime(checkedAt)
         val queue = if (pendingPushes > 0) " • $pendingPushes i kø" else ""
 
+        if (status == "ok" && !isFreshAt(now)) return "Bridge: status må oppdateres${time?.let { " • $it" } ?: ""}$queue"
+        if (status == "ok" && (pendingPushes > 0 || consecutiveFailureRuns > 0)) return "Bridge: oppfølging nødvendig$queue"
         return when (status) {
             "ok" -> if (time != null) "Bridge: OK • $time$queue" else "Bridge: OK$queue"
             "degraded" -> if (time != null) "Bridge: redusert • $time$queue" else "Bridge: redusert$queue"
