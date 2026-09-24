@@ -319,6 +319,10 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> bool:
     targets = [
         document for document in documents
         if _bool_field(document, "enabled", True)
+        and (
+            not _has_field(document, "notificationKinds")
+            or "announcement" in _array_strings(document, "notificationKinds")
+        )
     ]
     print(f"Global Web Push announcement subscriptions: total={len(documents)}, enabled={len(targets)}.")
     payload = {
