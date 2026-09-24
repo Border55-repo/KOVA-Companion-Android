@@ -230,3 +230,9 @@ class AnnouncementImportTests(unittest.TestCase):
     def test_broadcaster_imports(self):
         import broadcast_announcement
         self.assertTrue(callable(broadcast_announcement.dispatch_announcement))
+
+
+class GlobalAnnouncementTests(unittest.TestCase):
+    def test_global_announcement_sender_exists(self):
+        import webpush
+        self.assertTrue(callable(webpush.send_web_announcement))
