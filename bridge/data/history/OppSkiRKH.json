@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f344537171b131b1ae687017",
+      "observedAt": "2026-09-25T00:11:17+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "fc6616efbc95aafe",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte F3: kl. 17 Eventyrstien 2025",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "e596fd9acc588920255d80ea",
       "observedAt": "2026-09-23T19:32:09+02:00",
       "organization": "OppSkiRKH",
@@ -17,5 +32,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T19:32:09+02:00"
+  "updatedAt": "2026-09-25T00:11:17+02:00"
 }

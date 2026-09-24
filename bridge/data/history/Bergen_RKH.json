@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5c96b4f2520444ed48b708b7",
+      "observedAt": "2026-09-25T00:11:09+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "9c13040380aa2a8c",
+        "dateIso": "2026-09-18",
+        "dateLabel": "fre. 18.9",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Stoltzen opp, bedriftsarrangement PWC Stoltzen opp, PWC",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "6034e541f55c8162d0dab268",
       "observedAt": "2026-09-23T01:26:24+02:00",
       "organization": "Bergen RKH",
@@ -41,5 +56,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T01:26:24+02:00"
+  "updatedAt": "2026-09-25T00:11:09+02:00"
 }
