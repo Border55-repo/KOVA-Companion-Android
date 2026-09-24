@@ -168,6 +168,8 @@ fun KovaScreen(
     var quietEndHour by remember { mutableStateOf(settings.quietEndHour) }
     var showNotificationHistory by remember { mutableStateOf(false) }
     var notificationHistory by remember { mutableStateOf(NotificationHistoryStore.list(context)) }
+    var changelog by remember { mutableStateOf<ChangelogInfo?>(null) }
+    var showChangelog by remember { mutableStateOf(false) }
 
     var selectedEvent by remember { mutableStateOf<KovaEvent?>(null) }
     var selectedKind by remember { mutableStateOf<String?>(null) }
@@ -194,6 +196,14 @@ fun KovaScreen(
             if (!fresh.isNullOrEmpty()) {
                 availableOrganizations = fresh
             }
+        }
+    }
+
+    fun refreshChangelog() {
+        scope.launch {
+            changelog = runCatching {
+                withContext(Dispatchers.IO) { ChangelogRepository.fetch() }
+            }.getOrNull()
         }
     }
 
