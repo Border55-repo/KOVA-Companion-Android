@@ -28,4 +28,7 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           TEST_ORG: UllensakerRKH
+        env:
+          TEST_TITLE: "Nytt i KOVA Companion 2.0.1 🎉"
+          TEST_BODY: "Du kan nå velge påminnelse 7 eller 14 dager før vakten – i både appen og PWA."
         run: PYTHONPATH=bridge python bridge/test_webpush.py
