@@ -410,7 +410,13 @@ fun KovaScreen(
     }
     val sortedHelpCorps = remember(availableOrganizations, favoriteOrganizations) {
         availableOrganizations
-            .filter { it.category == "hjelpekorps" }
+            .filter {
+                it.category == "hjelpekorps" &&
+                    (it.eventCount > 0 ||
+                        it.code in subscribedOrganizations ||
+                        it.code in favoriteOrganizations ||
+                        it.code == org)
+            }
             .sortedWith(
                 compareBy<KovaOrganization>(
                     { if (it.code in favoriteOrganizations) 0 else 1 },
