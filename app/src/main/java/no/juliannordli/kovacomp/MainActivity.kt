@@ -156,6 +156,8 @@ fun KovaScreen(
     var showMyActivities by remember { mutableStateOf(false) }
     var myRange by remember { mutableStateOf(MyActivitiesRange.MONTH) }
     var myActivitiesLimit by remember { mutableStateOf(20) }
+    var remind14Days by remember { mutableStateOf(settings.remind14Days) }
+    var remind7Days by remember { mutableStateOf(settings.remind7Days) }
     var remind24Hours by remember { mutableStateOf(settings.remind24Hours) }
     var remind6Hours by remember { mutableStateOf(settings.remind6Hours) }
     var remind2Hours by remember { mutableStateOf(settings.remind2Hours) }
@@ -1145,6 +1147,18 @@ fun KovaScreen(
                                     style = MaterialTheme.typography.titleSmall,
                                     fontWeight = FontWeight.SemiBold
                                 )
+
+                                SettingSwitch("14 dager før", remind14Days) {
+                                    remind14Days = it
+                                    settings.remind14Days = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
+
+                                SettingSwitch("7 dager før", remind7Days) {
+                                    remind7Days = it
+                                    settings.remind7Days = it
+                                    ReminderScheduler.rescheduleAll(context)
+                                }
 
                                 SettingSwitch("24 timer før", remind24Hours) {
                                     remind24Hours = it
