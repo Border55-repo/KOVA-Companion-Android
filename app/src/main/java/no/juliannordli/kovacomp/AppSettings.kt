@@ -22,6 +22,14 @@ class AppSettings(context: Context) {
         get() = prefs.getBoolean("show_past", false)
         set(value) = prefs.edit().putBoolean("show_past", value).apply()
 
+    var remind14Days: Boolean
+        get() = prefs.getBoolean("remind_14d", false)
+        set(value) = prefs.edit().putBoolean("remind_14d", value).apply()
+
+    var remind7Days: Boolean
+        get() = prefs.getBoolean("remind_7d", false)
+        set(value) = prefs.edit().putBoolean("remind_7d", value).apply()
+
     var remind24Hours: Boolean
         get() = prefs.getBoolean("remind_24h", true)
         set(value) = prefs.edit().putBoolean("remind_24h", value).apply()
