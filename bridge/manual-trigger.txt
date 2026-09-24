@@ -1,1 +1,1 @@
-Immediate admin command processing 2026-09-24T18:36:15.803Z
+Process pending admin request 2026-09-24T19-24-23-440Z with per-platform diagnostics
