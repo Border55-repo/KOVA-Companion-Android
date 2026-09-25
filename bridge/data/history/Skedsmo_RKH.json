@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3322124f01ce93d08014819a",
+      "observedAt": "2026-09-26T00:01:42+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6d77f7bb24837170",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "08:00",
+        "type": "Aktivitet",
+        "description": "Norges RK Ressursgruppe vann låner 51",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "ae36c19421a611c00ddeb57c",
+      "observedAt": "2026-09-26T00:01:42+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "7ff92b1e6f8ee296",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "KFØR - Ullensaker KFØR Ullensaker",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "e0e5081bb4a0ce891fa5c454",
+      "observedAt": "2026-09-26T00:01:42+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "cfde14b20dbd4208",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "10:00",
+        "type": "Profilering",
+        "description": "Stand åpen brannstasjon",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "a2c9bbaa310e8a0e9ce7e0f6",
       "observedAt": "2026-09-24T00:13:45+02:00",
       "organization": "Skedsmo RKH",
@@ -47,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T00:13:45+02:00"
+  "updatedAt": "2026-09-26T00:01:42+02:00"
 }
