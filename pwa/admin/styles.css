@@ -34,3 +34,6 @@ input,textarea{width:100%;background:var(--bg);border:1px solid var(--border);bo
 .health-unknown{border-left-color:var(--muted)}
 .status-warning{color:var(--amber);font-weight:800}
 .freshness{font-size:.78rem}
+dialog{max-width:560px;width:calc(100% - 32px);border:1px solid var(--border);border-radius:16px;background:var(--surface,#102438);color:var(--text,#fff);padding:24px}
+dialog::backdrop{background:rgba(0,0,0,.65)}
+select{max-width:100%;padding:10px;border-radius:8px;background:#102438;color:#fff;border:1px solid var(--border)}

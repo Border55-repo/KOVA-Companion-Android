@@ -307,8 +307,15 @@ def send_web_notification(
 
 
 
-def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[str, int]:
-    """Send one global changelog announcement to every enabled PWA subscription."""
+def send_web_announcement(title: str, body: str, change_id_value: str, *,
+                          audience="all", organization="", subscription_id="") -> dict[str, int]:
+    """Deliver only to explicitly selected enabled subscriptions; fail closed."""
+    if audience not in ("all", "organization", "test"):
+        raise ValueError("Invalid audience")
+    if audience == "test" and not re.fullmatch(r"[a-f0-9]{64}", subscription_id):
+        raise ValueError("Invalid test device")
+    if audience == "organization" and not organization:
+        raise ValueError("Missing organization")
     credentials, project_id = _credentials()
     if credentials is None:
         raise RuntimeError("Firebase service account is not configured for Web Push")
@@ -318,7 +325,8 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[s
     targets = [
         document for document in documents
         if _bool_field(document, "enabled", True)
-
+        and (audience != "test" or document.get("name", "").rsplit("/", 1)[-1] == subscription_id)
+        and (audience != "organization" or organization in _array_strings(document, "organizations"))
     ]
     print(f"Global Web Push announcement subscriptions: total={len(documents)}, enabled={len(targets)}.")
     payload = {

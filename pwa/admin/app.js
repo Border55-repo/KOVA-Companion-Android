@@ -6,6 +6,7 @@ let firebase=null;
 let currentOrgRows=[];
 let dashboardTimer=null;
 let dashboardLoad=null;
+let approvedDraft=null;
 
 async function initFirebase(){
   if(firebase)return firebase;
@@ -316,7 +317,13 @@ async function fetchDashboard(){
     };
   }).sort((a,b)=>a.name.localeCompare(b.name,"nb"));
   renderOrgRows();
+  const selectedAudience=$("audienceOrg").value;
+  $("audienceOrg").replaceChildren(...currentOrgRows.map(row=>{const option=document.createElement('option');option.value=row.code;option.textContent=row.name;return option}));
+  if(currentOrgRows.some(row=>row.code===selectedAudience))$("audienceOrg").value=selectedAudience;
   renderSystemHealth(runtime);
+  $("lastSuccessfulSync").textContent=fmt(health.lastFullySuccessfulRunAt);
+  const issues=currentOrgRows.filter(row=>row.status==='error'||ageMinutes(row.lastCheckedAt)>35);
+  $("actionRequired").textContent=issues.length?`${issues.length} korps trenger kontroll. Se korpsstatus nedenfor.`:'Ingen korpsfeil eller forsinkede kontroller registrert.';
 
   const enabled=[...pushSnap.docs].filter(d=>d.data().enabled!==false).length;
   const totalEvents=currentOrgRows.reduce((sum,row)=>sum+row.eventCount,0);
@@ -337,6 +344,7 @@ async function fetchDashboard(){
   renderBridgeSync(command);
   const announcement=announcementSnap.exists()?announcementSnap.data():null;
   $("announcementStatus").textContent=announcementStatusText(announcement);
+  $("latestDelivery").textContent=announcementStatusText(announcement);
   $("lastRefresh").textContent="Oppdatert "+new Intl.DateTimeFormat("nb-NO",{timeStyle:"medium"}).format(new Date());
   scheduleDashboardRefresh(["requested","running"].includes(announcement?.status)?announcement:command);
 }
@@ -382,15 +390,37 @@ $("bridgeSyncBtn").onclick=async()=>{
     button.textContent="Prøv Bridge-synk igjen";
   }
 };
-$("publishChangelogBtn").onclick=async()=>{
-  const title=$("changelogTitle").value.trim();
-  const body=$("changelogBody").value.trim();
-  const sendPush=$("changelogPush").checked;
+function previewAnnouncement(testOnly=false){
+  const title=$("changelogTitle").value.trim(),body=$("changelogBody").value.trim();
+  const audience=testOnly?'test':$("audience").value;
+  const organization=audience==='organization'?$("audienceOrg").value:'';
+  const subscriptionId=testOnly?$("testDeviceId").value.trim():'';
+  if(!title||!body){$("changelogMessage").textContent='Fyll inn tittel og endringer.';return;}
+  if(testOnly&&!/^[a-f0-9]{64}$/.test(subscriptionId)){$("changelogMessage").textContent='Lim inn enhetskoden fra Varsler i nettappen på din egen testenhet.';return;}
+  if(audience==='organization'&&!organization){$("changelogMessage").textContent='Velg et korps.';return;}
+  approvedDraft={title,body,audience,organization,subscriptionId,sendPush:testOnly||$("changelogPush").checked};
+  $("previewTitle").textContent=title;
+  $("previewBody").textContent=body;
+  $("previewAudience").textContent=testOnly?'Kun valgt PWA-testenhet. Ingen offentlig endringslogg.':
+    'Endringsloggen er synlig for alle. '+(approvedDraft.sendPush?(audience==='all'?'Push til alle.':'Push bare til '+$("audienceOrg").selectedOptions[0].textContent+'.'):'Ingen push.');
+  $("previewDialog").showModal();
+}
+$("publishChangelogBtn").onclick=()=>previewAnnouncement(false);
+$("testPushBtn").onclick=()=>previewAnnouncement(true);
+$("cancelPreview").onclick=()=>{$("previewDialog").close();approvedDraft=null;};
+$("confirmPreview").onclick=async()=>{
+  if(!approvedDraft)return;
+  const draft=approvedDraft;approvedDraft=null;$("previewDialog").close();
+  await publishAnnouncement(draft);
+};
+async function publishAnnouncement(draft){
+  const {title,body,sendPush,audience,organization,subscriptionId}=draft;
+  const testOnly=audience==='test';
   const message=$("changelogMessage");
   if(!title||!body){message.textContent="Fyll inn tittel og endringer.";return}
   const f=await initFirebase();
   const id=new Date().toISOString().replace(/[:.]/g,"-");
-  $("publishChangelogBtn").disabled=true;
+  $("publishChangelogBtn").disabled=true;$("testPushBtn").disabled=true;
   message.textContent="Publiserer…";
   try{
     const payload={id,title,body,publishedAt:f.serverTimestamp(),publishedBy:"superuser",sendPush};
@@ -402,23 +432,25 @@ $("publishChangelogBtn").onclick=async()=>{
           throw new Error("En utsending venter fortsatt. Vent til den er ferdig før du sender en ny.");
         }
       }
-      transaction.set(f.doc(f.db,"changelog",id),payload);
-      transaction.set(f.doc(f.db,"publicConfig","changelog"),{latestId:id,title,body,updatedAt:f.serverTimestamp()});
+      if(!testOnly){
+        transaction.set(f.doc(f.db,"changelog",id),payload);
+        transaction.set(f.doc(f.db,"publicConfig","changelog"),{latestId:id,title,body,updatedAt:f.serverTimestamp()});
+      }
       if(sendPush)transaction.set(commandRef,{
         action:"announcement",status:"requested",requestId:id,title,
         body:body.length>180?body.slice(0,177)+"…":body,
         topic:"kova_all_users",requestedBy:"superuser",requestedAt:f.serverTimestamp(),
-        source:"changelog"
+        source:"changelog",audience,organization,subscriptionId
       });
     });
     const dispatch=sendPush?await requestDispatch(f.auth.currentUser,"announcement",id):null;
-    message.textContent=sendPush
+    message.textContent=testOnly?"Test bestilt for én PWA-enhet. "+dispatch.message:sendPush
       ? "Endringsloggen er publisert. "+dispatch.message
       : "Endringsloggen er publisert uten push.";
     await loadDashboard();
     $("changelogTitle").value="";$("changelogBody").value="";
   }catch(error){message.textContent="Publisering feilet: "+(error.message||String(error))}
-  finally{$("publishChangelogBtn").disabled=false}
+  finally{$("publishChangelogBtn").disabled=false;$("testPushBtn").disabled=false}
 };
 $("orgSearch").addEventListener("input",renderOrgRows);
 $("signOutBtn").onclick=async()=>{
