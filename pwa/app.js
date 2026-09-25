@@ -173,6 +173,7 @@ function dateInRange(dateIso,days){
 function orgName(code){return state.orgs.find(o=>o.code===code)?.name || code}
 function updateConnection(){
   $("connectionText").textContent=navigator.onLine ? "På nett" : "Frakoblet – viser cache hvis tilgjengelig";
+  updateDataQuality();
 }
 
 function base64UrlToUint8Array(value){
@@ -540,12 +541,12 @@ function updateFavoriteOrgUi(){
 }
 function updateDataQuality(){
   const row=state.orgIndex.get(state.org);
+  const check=row?.checkedAt;
+  $("dataFreshness").textContent=freshness(check,navigator.onLine)+(check?' • Sist kontrollert '+formatUpdated(check):'');
   if(!row){
     $("dataQuality").textContent="Datakvalitet: status ikke tilgjengelig ennå.";
     return;
   }
-  const check=row.checkedAt;
-  $("dataFreshness").textContent=freshness(check,navigator.onLine)+(check?' • Sist kontrollert '+formatUpdated(check):'');
   const status=row.status==="ok"?"OK":(row.status||"ukjent");
   $("dataQuality").textContent=[
     "Datakvalitet: "+status,
@@ -843,7 +844,9 @@ function updateReminderUi(message=""){
   const favorite=state.favorites.has(eventKey(state.selected));
   const hasTime=!!eventTime(state.selected);
   $("reminderSelect").value=String(reminderMinutesFor(state.selected)||0);
-  if(message){
+  if(DEMO){
+    $("reminderHint").textContent="Demovalg lagres bare i minnet. Ingen påminnelse sendes.";
+  }else if(message){
     $("reminderHint").textContent=message;
   }else if(!favorite){
     $("reminderHint").textContent="Legg vakten til Mine vakter først.";

@@ -151,3 +151,9 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
 }
+
+/* Keep navigation from covering onboarding and headings on small screens. */
+.quick-nav{position:static}
+.shell>section{scroll-margin-top:110px}
+.topbar{gap:8px;flex-wrap:wrap}
+@media(max-width:600px){.quick-nav{grid-template-columns:repeat(3,1fr)}}
