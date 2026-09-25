@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b4f7011a6fea33c63edc0662",
+      "observedAt": "2026-09-25T22:31:19+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "c5bdc8cce29e5b00",
+        "dateIso": "2026-11-13",
+        "dateLabel": "fre. 13.11",
+        "time": "17:00",
+        "type": "Ambulansevakt",
+        "description": "AMK November 2026 AMK November 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "53b39553773ec2f7e16d4013",
       "observedAt": "2026-09-25T21:51:12+02:00",
       "organization": "RKAB",
@@ -86,5 +101,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T21:51:12+02:00"
+  "updatedAt": "2026-09-25T22:31:19+02:00"
 }
