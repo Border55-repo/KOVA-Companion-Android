@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T21:51:16+02:00",
-  "checkedAt": "2026-09-25T22:31:22+02:00",
+  "updatedAt": "2026-09-25T22:51:16+02:00",
+  "checkedAt": "2026-09-25T22:51:16+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
   "eventCount": 25,
   "changes": {
-    "added": 0,
-    "removed": 0,
-    "changed": 1
+    "added": 1,
+    "removed": 1,
+    "changed": 0
   },
   "events": [
     {
@@ -153,12 +153,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
-      "id": "028ac658d6740309",
+      "id": "284b28dd510c2ee5",
       "dateIso": "2026-10-29",
       "dateLabel": "tor. 29.10",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld",
+      "description": "Tema kommer Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
@@ -180,21 +180,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
+      "id": "22c27e69d19ebf82",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Besøk fra Siren som skal snakke om diabetes, andre delen skal handle om møte med døve Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+    },
+    {
       "id": "b4efe2ab34cfb05f",
       "dateIso": "2026-11-19",
       "dateLabel": "tor. 19.11",
       "time": "18:00",
       "type": "Interne møter",
       "description": "Korpshuset - åpent for alle 4/2026 Rådsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
-    {
-      "id": "a0f701bfc0bc8b6a",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Tema kommer Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
