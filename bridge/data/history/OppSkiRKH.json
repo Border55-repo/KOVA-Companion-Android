@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c84e3ce56f7603a9ea213dd7",
+      "observedAt": "2026-09-25T07:31:25+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f030140b0041eac9",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søk og Redning Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "f344537171b131b1ae687017",
       "observedAt": "2026-09-25T00:11:17+02:00",
       "organization": "OppSkiRKH",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:11:17+02:00"
+  "updatedAt": "2026-09-25T07:31:25+02:00"
 }
