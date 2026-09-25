@@ -7,24 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T00:13:40+02:00",
+  "updatedAt": "2026-09-26T00:11:27+02:00",
+  "checkedAt": "2026-09-26T00:11:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
-  "eventCount": 7,
+  "eventCount": 6,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "dd4c4f04a86f5681",
-      "dateIso": "2026-09-19",
-      "dateLabel": "lør. 19.9",
-      "time": "08:30",
-      "type": "Sanitetsvakt",
-      "description": "Lillehammer rulleskirenn/ Rekrutteringsdag skikrets Lillehammer rulleskirenn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
-    },
     {
       "id": "226b85fae0e12c3d",
       "dateIso": "2026-10-01",
@@ -79,6 +71,5 @@
       "description": "Medlemskveld Vinterøvelse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
     }
-  ],
-  "checkedAt": "2026-09-25T23:56:08+02:00"
+  ]
 }

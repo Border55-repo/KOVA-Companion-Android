@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6458cc07f0e61000450417d3",
+      "observedAt": "2026-09-26T00:11:28+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f3199f07a4f5a0d9",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "10:00",
+        "type": "Profilering",
+        "description": "Åpen brannstasjon! Profilering 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "62db4b42c758c4865d87e5a3",
       "observedAt": "2026-09-24T00:13:43+02:00",
       "organization": "NRKH",
@@ -80,5 +95,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T00:13:43+02:00"
+  "updatedAt": "2026-09-26T00:11:28+02:00"
 }

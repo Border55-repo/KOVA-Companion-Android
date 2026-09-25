@@ -1,38 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Haugesund Røde Kors Hjelpekorps",
     "code": "Haugesund",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-22T23:31:18+02:00",
+  "updatedAt": "2026-09-26T00:11:24+02:00",
+  "checkedAt": "2026-09-26T00:11:24+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund",
-  "eventCount": 15,
+  "eventCount": 13,
   "changes": {
-    "added": 15,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "f51a84bda8929ad8",
-      "dateIso": "2026-09-19",
-      "dateLabel": "lør. 19.9",
-      "time": "08:00",
-      "type": "Øvelse",
-      "description": "Øvelse NRH m/Båt Øvelse NRH m/båt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
-    },
-    {
-      "id": "976976a287c98296",
-      "dateIso": "2026-09-19",
-      "dateLabel": "lør. 19.9",
-      "time": "09:45",
-      "type": "Forebygging",
-      "description": "Oppmøte på huset kl.09:45. Ferdig rigget på brannstasjonen kl.10:30 Åpen dag brannstasjonen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
-    },
     {
       "id": "de63f4e80c297778",
       "dateIso": "2026-09-20",
@@ -150,6 +134,5 @@
       "description": "Oppmøte på huset 10:45, vaktstart 11:30 FKH herrer - Odd",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
     }
-  ],
-  "checkedAt": "2026-09-25T23:56:07+02:00"
+  ]
 }
