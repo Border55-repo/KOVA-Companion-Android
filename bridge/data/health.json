@@ -9,13 +9,13 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-25T21:31:32+02:00",
-  "lastSuccessfulRunAt": "2026-09-25T21:31:32+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-25T21:31:32+02:00",
+  "checkedAt": "2026-09-25T21:51:19+02:00",
+  "lastSuccessfulRunAt": "2026-09-25T21:51:19+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-25T21:51:19+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-09-25T20:26:30+02:00",
-  "lastPushCount": 2,
+  "lastPushAt": "2026-09-25T21:51:19+02:00",
+  "lastPushCount": 5,
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "polledThisRun": 14,
@@ -28,7 +28,7 @@
       "status": "ok",
       "eventCount": 22,
       "updatedAt": "2026-09-25T00:01:17+02:00",
-      "checkedAt": "2026-09-25T21:31:21+02:00",
+      "checkedAt": "2026-09-25T21:51:09+02:00",
       "error": null
     },
     {
@@ -39,7 +39,7 @@
       "status": "ok",
       "eventCount": 61,
       "updatedAt": "2026-09-25T00:01:23+02:00",
-      "checkedAt": "2026-09-25T21:31:21+02:00",
+      "checkedAt": "2026-09-25T21:51:09+02:00",
       "error": null
     },
     {
@@ -50,7 +50,7 @@
       "status": "ok",
       "eventCount": 57,
       "updatedAt": "2026-09-24T00:13:45+02:00",
-      "checkedAt": "2026-09-25T21:31:22+02:00",
+      "checkedAt": "2026-09-25T21:51:10+02:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
       "status": "ok",
       "eventCount": 44,
       "updatedAt": "2026-09-25T15:31:33+02:00",
-      "checkedAt": "2026-09-25T21:31:22+02:00",
+      "checkedAt": "2026-09-25T21:51:10+02:00",
       "error": null
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "eventCount": 49,
       "updatedAt": "2026-09-25T15:41:12+02:00",
-      "checkedAt": "2026-09-25T21:31:23+02:00",
+      "checkedAt": "2026-09-25T21:51:11+02:00",
       "error": null
     },
     {
@@ -83,7 +83,7 @@
       "status": "ok",
       "eventCount": 20,
       "updatedAt": "2026-09-23T21:09:10+02:00",
-      "checkedAt": "2026-09-25T21:31:24+02:00",
+      "checkedAt": "2026-09-25T21:51:11+02:00",
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "eventCount": 4,
       "updatedAt": "2026-09-22T23:07:53+02:00",
-      "checkedAt": "2026-09-25T21:31:24+02:00",
+      "checkedAt": "2026-09-25T21:51:12+02:00",
       "error": null
     },
     {
@@ -103,9 +103,9 @@
       "category": "ambulanse",
       "file": "RKAB.json",
       "status": "ok",
-      "eventCount": 39,
-      "updatedAt": "2026-09-25T11:41:19+02:00",
-      "checkedAt": "2026-09-25T21:31:25+02:00",
+      "eventCount": 57,
+      "updatedAt": "2026-09-25T21:51:12+02:00",
+      "checkedAt": "2026-09-25T21:51:15+02:00",
       "error": null
     },
     {
@@ -116,7 +116,7 @@
       "status": "ok",
       "eventCount": 16,
       "updatedAt": "2026-09-22T23:07:50+02:00",
-      "checkedAt": "2026-09-25T21:31:25+02:00",
+      "checkedAt": "2026-09-25T21:51:15+02:00",
       "error": null
     },
     {
@@ -126,8 +126,8 @@
       "file": "SRKH.json",
       "status": "ok",
       "eventCount": 25,
-      "updatedAt": "2026-09-24T22:45:51+02:00",
-      "checkedAt": "2026-09-25T21:31:26+02:00",
+      "updatedAt": "2026-09-25T21:51:16+02:00",
+      "checkedAt": "2026-09-25T21:51:16+02:00",
       "error": null
     },
     {
@@ -138,7 +138,7 @@
       "status": "ok",
       "eventCount": 33,
       "updatedAt": "2026-09-23T14:28:15+02:00",
-      "checkedAt": "2026-09-25T21:31:27+02:00",
+      "checkedAt": "2026-09-25T21:51:17+02:00",
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "status": "ok",
       "eventCount": 18,
       "updatedAt": "2026-09-23T01:26:37+02:00",
-      "checkedAt": "2026-09-25T21:31:27+02:00",
+      "checkedAt": "2026-09-25T21:51:17+02:00",
       "error": null
     },
     {
@@ -160,18 +160,18 @@
       "status": "ok",
       "eventCount": 14,
       "updatedAt": "2026-09-22T23:07:53+02:00",
-      "checkedAt": "2026-09-25T21:31:28+02:00",
+      "checkedAt": "2026-09-25T21:51:18+02:00",
       "error": null
     },
     {
-      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
-      "code": "AHRKH",
+      "name": "Asker Røde Kors Hjelpekorps",
+      "code": "AskerRKH",
       "category": "hjelpekorps",
-      "file": "AHRKH.json",
+      "file": "AskerRKH.json",
       "status": "ok",
-      "eventCount": 23,
-      "updatedAt": "2026-09-24T17:40:13+02:00",
-      "checkedAt": "2026-09-25T21:31:28+02:00",
+      "eventCount": 10,
+      "updatedAt": "2026-09-23T18:06:37+02:00",
+      "checkedAt": "2026-09-25T21:51:18+02:00",
       "error": null
     }
   ]

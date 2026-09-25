@@ -7,13 +7,14 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T11:41:19+02:00",
+  "updatedAt": "2026-09-25T21:51:12+02:00",
+  "checkedAt": "2026-09-25T21:51:12+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
-  "eventCount": 39,
+  "eventCount": 57,
   "changes": {
-    "added": 0,
+    "added": 4,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -143,6 +144,33 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "3aa2c491766e6b55",
+      "dateIso": "2026-10-02",
+      "dateLabel": "fre. 2.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK Okotber 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "3deb5314db5ab000",
+      "dateIso": "2026-10-05",
+      "dateLabel": "man. 5.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK Oktober 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "56a1d95b25a632a6",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK Okotber 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "a427738f64a490ad",
       "dateIso": "2026-10-09",
       "dateLabel": "fre. 9.10",
@@ -158,6 +186,15 @@
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "V75 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "ad3d9572f9fc3c5d",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK Oktober 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
@@ -188,6 +225,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "a321f62eb3d8688b",
+      "dateIso": "2026-10-16",
+      "dateLabel": "fre. 16.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK Okotber 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "7827150f91e72bfe",
       "dateIso": "2026-10-17",
       "dateLabel": "lør. 17.10",
@@ -197,12 +243,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "2f3c43f259389fd2",
+      "dateIso": "2026-10-19",
+      "dateLabel": "man. 19.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK Oktober 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "26bfc9b2826d19ff",
       "dateIso": "2026-10-19",
       "dateLabel": "man. 19.10",
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "6a3d8b26cbe87a5c",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK Okotber 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
@@ -224,12 +288,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "821dfc1c064f8fd0",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK Oktober 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "0909bd997320f50c",
       "dateIso": "2026-10-29",
       "dateLabel": "tor. 29.10",
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "5140e49d732e00a1",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK Okotber 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
@@ -242,6 +324,24 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "4d00714492f5c4c5",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "8a68eb6dd85adfac",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "2018927e65281197",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
@@ -251,12 +351,57 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "093c36b3e64950b7",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "331d3067c150727e",
+      "dateIso": "2026-11-13",
+      "dateLabel": "fre. 13.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "d1f3c6b3c5fd5719",
+      "dateIso": "2026-11-16",
+      "dateLabel": "man. 16.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "d6b752b33b19fce0",
       "dateIso": "2026-11-19",
       "dateLabel": "tor. 19.11",
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "cef4727d59126815",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "9836654c74e497f2",
+      "dateIso": "2026-11-23",
+      "dateLabel": "man. 23.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK November 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
@@ -287,6 +432,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
+      "id": "1265572aa01f490a",
+      "dateIso": "2026-11-27",
+      "dateLabel": "fre. 27.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Fredag AMK November 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
       "id": "35eebbaca75628c4",
       "dateIso": "2026-11-29",
       "dateLabel": "søn. 29.11",
@@ -302,6 +456,15 @@
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "V65 Bergen Travpark 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+    },
+    {
+      "id": "0b7388cc9313bf93",
+      "dateIso": "2026-11-30",
+      "dateLabel": "man. 30.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Mandag AMK November 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
@@ -367,6 +530,5 @@
       "description": "V65 Bergen Travpark 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     }
-  ],
-  "checkedAt": "2026-09-25T21:31:25+02:00"
+  ]
 }

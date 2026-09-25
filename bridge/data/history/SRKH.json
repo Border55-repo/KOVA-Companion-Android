@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "56a0e4d3d6476cc570370da1",
+      "observedAt": "2026-09-25T21:51:16+02:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "bacb8de415c226e1",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Sminke og markør med Jeanett og Arosha, sammen med Laksevåg Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "2680b534685f34bd",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Sminke og markør med Jeanett og Arosha, sammen med Laksevåg Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "d4404066f3e505b96ef1d223",
       "observedAt": "2026-09-24T22:45:51+02:00",
       "organization": "SRKH",
@@ -131,5 +155,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T22:45:51+02:00"
+  "updatedAt": "2026-09-25T21:51:16+02:00"
 }

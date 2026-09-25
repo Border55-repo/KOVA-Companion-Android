@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "53b39553773ec2f7e16d4013",
+      "observedAt": "2026-09-25T21:51:12+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "821dfc1c064f8fd0",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Mandag AMK Oktober 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "3a14a18ee253ecd025f151db",
+      "observedAt": "2026-09-25T21:51:12+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "5140e49d732e00a1",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Fredag AMK Okotber 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "ee7194a1c8a0454185e2fa86",
+      "observedAt": "2026-09-25T21:51:12+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "1265572aa01f490a",
+        "dateIso": "2026-11-27",
+        "dateLabel": "fre. 27.11",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Fredag AMK November 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "d720ffc6d079fe3654c1bd86",
+      "observedAt": "2026-09-25T21:51:12+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "0b7388cc9313bf93",
+        "dateIso": "2026-11-30",
+        "dateLabel": "man. 30.11",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Mandag AMK November 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "ddeeff57aadaddf8055d76ef",
       "observedAt": "2026-09-25T11:41:19+02:00",
       "organization": "RKAB",
@@ -26,5 +86,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T11:41:19+02:00"
+  "updatedAt": "2026-09-25T21:51:12+02:00"
 }

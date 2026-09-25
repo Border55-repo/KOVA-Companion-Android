@@ -7,13 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T22:45:51+02:00",
+  "updatedAt": "2026-09-25T21:51:16+02:00",
+  "checkedAt": "2026-09-25T21:51:16+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
   "eventCount": 25,
   "changes": {
-    "added": 2,
-    "removed": 2,
-    "changed": 0
+    "added": 0,
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -161,12 +162,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
-      "id": "406017998c45742b",
+      "id": "bacb8de415c226e1",
       "dateIso": "2026-11-05",
       "dateLabel": "tor. 5.11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Tema kommer Korpskveld",
+      "description": "Sminke og markør med Jeanett og Arosha, sammen med Laksevåg Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
@@ -241,6 +242,5 @@
       "description": "Havgapfestivalen",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     }
-  ],
-  "checkedAt": "2026-09-25T21:31:26+02:00"
+  ]
 }
