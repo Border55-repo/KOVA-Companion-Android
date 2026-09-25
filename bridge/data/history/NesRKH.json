@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "47689bf7ac4434a2cc2613da",
+      "observedAt": "2026-09-25T20:26:19+02:00",
+      "organization": "NesRKH",
+      "kind": "added",
+      "event": {
+        "id": "2838e58d6d9aaa09",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "ksam kurs for aspirantene Ksam kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
+      "changeId": "e7e59453bae9f6fbcd875c97",
+      "observedAt": "2026-09-25T20:26:19+02:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "29a4bb4712116e77",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Søksøvelse Koprskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-25T20:26:19+02:00"
+}
