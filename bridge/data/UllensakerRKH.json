@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T12:04:06+02:00",
-  "checkedAt": "2026-09-25T12:04:06+02:00",
+  "updatedAt": "2026-09-25T12:11:09+02:00",
+  "checkedAt": "2026-09-25T12:11:09+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 43,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -261,10 +261,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "5ffdfab09f21349e",
+      "id": "56d855974569c242",
       "dateIso": "2026-11-14",
       "dateLabel": "lør. 14.11",
-      "time": "",
+      "time": "09:00",
       "type": "Sanitetsvakt",
       "description": "NM Brasiliansk jiu jitsu IKKE BEKREFTET NM Brasiliansk jiu jitsu",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
