@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ba7d09ebe6776ee61cce3041",
+      "observedAt": "2026-09-25T13:56:12+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ade78310a8ecc505",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "Rosa sløyfe-løpet Tromsø Rosa sløyfe-løpet Tromsø 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "58a8ede2fd6c01e2d5b95efc",
       "observedAt": "2026-09-25T00:16:14+02:00",
       "organization": "TRKH",
@@ -80,5 +95,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:16:14+02:00"
+  "updatedAt": "2026-09-25T13:56:12+02:00"
 }
