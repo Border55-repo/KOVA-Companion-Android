@@ -7,12 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T00:01:24+02:00",
+  "updatedAt": "2026-09-25T15:41:12+02:00",
+  "checkedAt": "2026-09-25T15:41:12+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 45,
+  "eventCount": 49,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 4,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -104,6 +105,42 @@
       "time": "",
       "type": "Ambulansevakt",
       "description": "Mannskap i KO bestemmes av Troika Rally Trøgstad 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "cc0be4789a6a5e85",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "",
+      "type": "Ambulansevakt",
+      "description": "Sarpsborg 383. På plass [KOMMER] Rally Trøgstad 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "968554694b357450",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "09:15",
+      "type": "Ambulansevakt",
+      "description": "KO. På plass kl. 10 Rally Trøgstad 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "585c03f78dab7400",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "10:15",
+      "type": "Ambulansevakt",
+      "description": "Mysen 385. På plass kl 11:00 Rally Trøgstad 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "f8c37b170416920f",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "10:30",
+      "type": "Ambulansevakt",
+      "description": "Fredrikstad 382. På plass 10:30 Rally Trøgstad 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -421,6 +458,5 @@
       "description": "Mer informasjon kommer når det nærmer seg. Grøtfest MORKH",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     }
-  ],
-  "checkedAt": "2026-09-25T15:21:27+02:00"
+  ]
 }

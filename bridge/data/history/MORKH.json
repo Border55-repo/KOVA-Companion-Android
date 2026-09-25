@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e9fb8f80af6e800cdfd5b030",
+      "observedAt": "2026-09-25T15:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "cc0be4789a6a5e85",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Ambulansevakt",
+        "description": "Sarpsborg 383. På plass [KOMMER] Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "367b0a205cf8f5b1d871d1b9",
+      "observedAt": "2026-09-25T15:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "968554694b357450",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "09:15",
+        "type": "Ambulansevakt",
+        "description": "KO. På plass kl. 10 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "687f3631d775af33d2cb4152",
+      "observedAt": "2026-09-25T15:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "585c03f78dab7400",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "10:15",
+        "type": "Ambulansevakt",
+        "description": "Mysen 385. På plass kl 11:00 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "524cf7816739377148939a44",
+      "observedAt": "2026-09-25T15:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "f8c37b170416920f",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "10:30",
+        "type": "Ambulansevakt",
+        "description": "Fredrikstad 382. På plass 10:30 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "3f6ac5a9c1b00aa322451b5e",
       "observedAt": "2026-09-25T00:01:24+02:00",
       "organization": "MORKH",
@@ -512,5 +572,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:01:24+02:00"
+  "updatedAt": "2026-09-25T15:41:12+02:00"
 }
