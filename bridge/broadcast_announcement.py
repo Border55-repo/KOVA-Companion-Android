@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import re
 import json
 import os
 import time
@@ -21,7 +22,22 @@ class AnnouncementDeliveryError(RuntimeError):
         self.delivery = delivery
 
 
-def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str = CHANGE_ID):
+def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str = CHANGE_ID,
+                          audience="all", organization="", subscription_id=""):
+    if audience not in ("all", "organization", "test"):
+        raise ValueError("Invalid announcement audience")
+    if audience == "test":
+        if not re.fullmatch(r"[a-f0-9]{64}", subscription_id):
+            raise ValueError("A test requires exactly one subscription ID")
+        result = send_web_announcement(title, body, change_id, audience="test", subscription_id=subscription_id)
+        delivery = {"android": {"targets": 0, "accepted": 0, "failed": 0}, "pwa": result}
+        if result["targets"] != 1 or result["accepted"] != 1:
+            raise AnnouncementDeliveryError(delivery)
+        return delivery
+    if audience == "organization":
+        registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8")).get("organizations", [])
+        if not organization or not any(o["code"] == organization for o in registry):
+            raise ValueError("Unknown organization")
     # Attempt both transports independently: an FCM failure must not suppress iPhone.
     delivery = {"android": {"targets": 0, "accepted": 0, "failed": 0}}
     android = delivery["android"]
@@ -32,7 +48,8 @@ def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str =
         organizations = json.loads(REGISTRY_PATH.read_text(encoding="utf-8")).get("organizations", [])
         if not organizations:
             raise RuntimeError("Organization registry is empty")
-        organizations = [{"code": "all_users"}, *organizations]
+        organizations = ([{"code": "all_users"}, *organizations] if audience == "all"
+                         else [o for o in organizations if o["code"] == organization])
         android["targets"] = len(organizations)
         # Per-corps topics support existing Android versions. changeId deduplicates.
         for org in organizations:
@@ -46,7 +63,8 @@ def dispatch_announcement(title: str = TITLE, body: str = BODY, change_id: str =
         android["failed"] += 1
 
     try:
-        delivery["pwa"] = send_web_announcement(title, body, change_id)
+        delivery["pwa"] = (send_web_announcement(title, body, change_id) if audience == "all"
+                           else send_web_announcement(title, body, change_id, audience=audience, organization=organization))
     except Exception:
         delivery["pwa"] = {"targets": 0, "accepted": 0, "failed": 1, "expired": 0}
 

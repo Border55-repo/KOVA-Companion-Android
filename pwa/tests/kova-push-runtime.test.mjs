@@ -109,7 +109,7 @@ for(const favorites of [['UllensakerRKH'],[]]){
       state:{org:'EHRKH',followed:new Set(['EHRKH','Skedsmo RKH']),favoriteOrgs:new Set(favorites),notificationKinds:new Set(['added']),disabledNotificationTypes:new Set(),quietEnabled:false,quietStartHour:22,quietEndHour:7},
       endpointId:async()=> 'test-id',reminderToken:()=> 'token',
       firestoreClient:async()=>({db:{},doc:()=>({}),setDoc:async(_,data)=>saved=data,serverTimestamp:()=> 'now'}),
-      localStorage:{setItem(){},removeItem(){}},syncAllReminders:async()=>{},console,
+      DEMO:false,storage:{setItem(){},removeItem(){}},syncAllReminders:async()=>{},console,
     });
     vm.runInContext(fn,context);
     await context.savePushSubscription({toJSON:()=>({endpoint:'https://example.test/push',keys:{p256dh:'key',auth:'auth'}})});
@@ -123,7 +123,7 @@ test('first permission request starts directly in the iPhone tap handler',async(
   const fn=app.slice(app.indexOf('async function toggleNotifications('),app.indexOf('function renderOrgOptions('));
   let prompted=false;
   const context=vm.createContext({
-    Notification:{permission:'default'},
+    DEMO:false,Notification:{permission:'default'},
     enableNotifications:async()=>{prompted=true},
     currentPushSubscription:async()=>assert.fail('Must not await subscription lookup before requesting permission'),
   });

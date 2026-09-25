@@ -20,8 +20,9 @@
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Web / iPhone PWA 2.1.2</p>
+      <p class="version">Web / iPhone PWA 2.2.0</p>
     </div>
+    <a id="demoLink" class="ghost" href="?demo=1">Prøv demo</a>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
 
@@ -30,10 +31,18 @@
     <button data-view-jump="favorites">Mine vakter</button>
     <button data-scroll="notificationSettings">Varsler</button>
     <button data-scroll="controlsCard">Korps</button>
-    <button data-scroll="changelogCard">Endringer</button>
+    <button data-scroll="changelogCard">Endringer</button><button id="setupOpen">Kom i gang</button>
   </nav>
 
   <main class="shell" id="mainContent">
+    <section id="demoBanner" class="notice hidden" role="status"><strong>DEMOMODUS · Eksempeldata</strong><p id="demoNotice">Ingen ekte varsler sendes. Endringer i demoen påvirker ikke dine lagrede valg.</p></section>
+    <section id="setupCard" class="card hidden">
+      <h2>Kom i gang</h2>
+      <p>1. Velg hjelpekorps under Korps og marker det som favoritt for korpsvarsler.</p>
+      <p id="setupHint"></p>
+      <p>3. Åpne en aktivitet og trykk Favoritt. Du finner den igjen under Mine vakter.</p>
+      <button id="setupDone" class="small">Ferdig / gjør dette senere</button>
+    </section>
     <section id="installHint" class="notice ios-only hidden">
       <strong>Installer på iPhone</strong>
       <span>Åpne i Safari → Del → Legg til på Hjem-skjermen.</span>
@@ -89,7 +98,7 @@
       <div class="status-copy">
         <span class="label">Oppdatert</span>
         <strong id="statusText">Laster KOVA…</strong>
-        <span id="connectionText" class="muted">Sjekker nett…</span>
+        <p id="dataFreshness" role="status">Sist kontrollert: ukjent</p><span id="connectionText" class="muted">Sjekker nett…</span>
       </div>
       <button id="refreshBtn" class="small">Oppdater</button>
     </section>
@@ -103,6 +112,7 @@
       <button id="notificationBtn" class="small">Aktiver varsler</button>
     </section>
 
+    <p><button id="showDeviceId" class="small">Vis enhetskode for admintest</button><span id="deviceId" style="overflow-wrap:anywhere"></span></p>
     <section id="notificationSettings" class="card notification-settings">
       <div class="section-line">
         <div>
@@ -256,6 +266,6 @@
     </article>
   </template>
 
-  <script src="./app.js" defer></script>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>

@@ -111,6 +111,8 @@ fun KovaScreen(
     openTarget: NotificationTarget? = null,
     onTargetConsumed: () -> Unit = {}
 ) {
+    var demo by remember { mutableStateOf(false) }
+    if (demo) { DemoScreen(onExit = { demo = false }); return }
     val context = androidx.compose.ui.platform.LocalContext.current
     val screenWidthDp = LocalConfiguration.current.screenWidthDp
     val horizontalContentPadding = when {
@@ -333,7 +335,7 @@ fun KovaScreen(
     }
 
     LaunchedEffect(Unit) {
-        if (settings.onboardingComplete && Build.VERSION.SDK_INT >= 33) {
+        if (settings.onboardingComplete && settings.favoriteOrganizations.isNotEmpty() && Build.VERSION.SDK_INT >= 33) {
             permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
         refreshOrganizations()
@@ -452,6 +454,7 @@ fun KovaScreen(
                     }
                 },
                 actions = {
+                    TextButton(onClick = { demo = true }) { Text("Demo") }
                     if (selectedEvent == null && !showOnboarding) {
                         TextButton(onClick = { showSettings = !showSettings }) {
                             Text(if (showSettings) "Lukk" else "⚙ Innstillinger")
@@ -462,14 +465,19 @@ fun KovaScreen(
         }
     ) { padding ->
         if (showOnboarding) {
-            OnboardingScreen(
+            SetupScreen(
+                organizations = availableOrganizations, initialOrg = org,
                 modifier = Modifier
                     .padding(padding)
                     .fillMaxSize(),
-                onContinue = {
+                onComplete = { selectedOrg, wantsNotifications ->
+                    repo.setOrganization(selectedOrg)
+                    org = selectedOrg
+                    favoriteOrganizations = if (wantsNotifications) favoriteOrganizations + selectedOrg else favoriteOrganizations - selectedOrg
+                    settings.favoriteOrganizations = favoriteOrganizations
                     settings.onboardingComplete = true
                     showOnboarding = false
-                    if (Build.VERSION.SDK_INT >= 33) {
+                    if (wantsNotifications && Build.VERSION.SDK_INT >= 33) {
                         permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
                     }
                 }
@@ -531,6 +539,16 @@ fun KovaScreen(
                 ),
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
+                item {
+                    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                        Column(Modifier.padding(16.dp)) {
+                            Text(dataFreshnessLabel(repo.lastChecked(org), error != null))
+                            Text("Sist kontrollert: " + (repo.lastChecked(org)?.let { stamp ->
+                                runCatching { java.time.OffsetDateTime.parse(stamp).format(java.time.format.DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm")) }.getOrDefault("ukjent")
+                            } ?: "ukjent"), style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                }
                 nextEvent?.let { event ->
                     item {
                         ElevatedCard(
@@ -1413,6 +1431,16 @@ fun KovaScreen(
                     }
                 }
 
+                item {
+                    ElevatedCard(modifier = Modifier.fillMaxWidth()) {
+                        Column(Modifier.padding(16.dp)) {
+                            Text(dataFreshnessLabel(repo.lastChecked(org), error != null))
+                            Text("Sist kontrollert: " + (repo.lastChecked(org)?.let { stamp ->
+                                runCatching { java.time.OffsetDateTime.parse(stamp).format(java.time.format.DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm")) }.getOrDefault("ukjent")
+                            } ?: "ukjent"), style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                }
                 nextEvent?.let { event ->
                     item {
                         ElevatedCard(

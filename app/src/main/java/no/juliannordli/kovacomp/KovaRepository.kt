@@ -8,7 +8,7 @@ import java.net.HttpURLConnection
 import java.net.URL
 import java.time.LocalDate
 
-class KovaRepository(private val context: Context) {
+class KovaRepository(private val context: Context, private val authorizedSource: ScheduleSource? = null) {
     companion object {
         const val DEFAULT_ORG = "UllensakerRKH"
         const val BASE_URL = "https://www.kova.no/public/schedule.aspx?Organization="
@@ -27,6 +27,8 @@ class KovaRepository(private val context: Context) {
     private fun cacheKey(org: String) = "cache_" + org.lowercase()
     private fun syncKey(org: String) = "sync_" + org.lowercase()
     private fun sourceKey(org: String) = "source_" + org.lowercase()
+
+    fun lastChecked(org: String = organization()): String? = prefs.getString("checked_" + org, null)
 
     fun lastSync(org: String = organization()): Long = prefs.getLong(syncKey(org), 0L)
 
@@ -54,13 +56,14 @@ class KovaRepository(private val context: Context) {
     }
 
     fun fetch(org: String = organization()): List<KovaEvent> {
+        authorizedSource?.let { return upcoming(it.fetch(org)) }
         val events = runCatching {
             fetchBridge(org).also {
                 prefs.edit().putString(sourceKey(org), "bridge").apply()
             }
         }.getOrElse {
             fetchDirect(org).also {
-                prefs.edit().putString(sourceKey(org), "direct").apply()
+                prefs.edit().putString(sourceKey(org), "direct").putString("checked_" + org, java.time.OffsetDateTime.now().toString()).apply()
             }
         }
         return upcoming(events)
@@ -88,6 +91,7 @@ class KovaRepository(private val context: Context) {
                 error("Bridge snapshot is not healthy")
             }
 
+            prefs.edit().putString("checked_" + org, root.optString("checkedAt").takeIf { it.isNotBlank() }).apply()
             val array = root.getJSONArray("events")
             return (0 until array.length()).map { i ->
                 val o = array.getJSONObject(i)

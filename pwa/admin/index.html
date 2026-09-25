@@ -12,7 +12,7 @@
     <div>
       <p class="eyebrow">Kova Companion</p>
       <h1>Kova Companion – Admin</h1>
-      <p class="version">Adminpanel 1.4</p>
+      <p class="version">Adminpanel 1.5</p>
     </div>
     <a class="ghost" href="../">Til Companion</a>
   </header>
@@ -64,6 +64,10 @@
         <span id="systemHealthDot" class="health-dot"></span>
       </section>
 
+      <section class="card" aria-live="polite"><h2>Dette bør du følge med på</h2>
+        <p>Siste fullstendig vellykkede synk: <strong id="lastSuccessfulSync">–</strong></p>
+        <p id="actionRequired">Sjekker korps…</p><p id="latestDelivery">Sjekker siste utsending…</p>
+        <a href="../?demo=1">Åpne trygg demonstrasjon med eksempeldata</a></section>
       <section class="stats" id="stats">
         <article class="stat card"><span>Bridge</span><strong id="bridgeStatus">–</strong><small id="bridgeTime">–</small></article>
         <article class="stat card"><span>Hjelpekorps</span><strong id="corpsCount">–</strong><small>KOVA Bridge</small></article>
@@ -104,11 +108,16 @@
           <p class="muted">Publiser en endringslogg til Kova Companion. Samme publisering kan brukes som grunnlag for push til brukerne når endringen er live.</p>
           <label>Tittel<input id="changelogTitle" maxlength="80" placeholder="F.eks. Nytt i Kova Companion"></label>
           <label>Endringer<textarea id="changelogBody" rows="6" maxlength="2000" placeholder="Beskriv kort hva som er nytt eller rettet."></textarea></label>
-          <label><input id="changelogPush" type="checkbox" checked> Send push om endringen</label>
+          <label>Mottakergruppe for push<select id="audience"><option value="all">Alle brukere</option><option value="organization">Ett hjelpekorps</option></select></label>
+          <label>Hjelpekorps<select id="audienceOrg"></select></label>
+          <label><input id="changelogPush" type="checkbox"> Send push om endringen</label>
+          <label>Din PWA-testenhet<input id="testDeviceId" maxlength="64" autocomplete="off" placeholder="Enhetskode fra din egen nettapp"></label>
+          <p class="muted">Åpne Varsler → Vis enhetskode for admintest på din egen telefon. En test sender bare til denne PWA-enheten, aldri til Android-korpskanaler eller alle brukere.</p>
+          <button id="testPushBtn" class="ghost">Forhåndsvis test til min enhet</button>
           <p id="changelogMessage" class="muted" role="status"></p>
           <p id="announcementStatus" class="muted" role="status"></p>
         </div>
-        <button id="publishChangelogBtn" class="primary">Publiser endringslogg</button>
+        <button id="publishChangelogBtn" class="primary">Forhåndsvis publisering</button>
       </section>
 
       <section class="card">
@@ -135,6 +144,7 @@
       </section>
     </section>
   </main>
+  <dialog id="previewDialog" aria-labelledby="previewTitle"><h2 id="previewTitle"></h2><p id="previewBody" style="white-space:pre-wrap"></p><p id="previewAudience"></p><button id="cancelPreview">Avbryt</button><button id="confirmPreview">Bekreft utsending / publisering</button></dialog>
   <script type="module" src="./app.js"></script>
 </body>
 </html>

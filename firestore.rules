@@ -242,7 +242,7 @@ service cloud.firestore {
       allow create, update: if adminReady() &&
         request.resource.data.keys().hasOnly([
           'action','status','requestId','title','body','topic',
-          'requestedBy','requestedAt','source'
+          'requestedBy','requestedAt','source','audience','organization','subscriptionId'
         ]) &&
         request.resource.data.action == 'announcement' &&
         request.resource.data.status == 'requested' &&
@@ -250,6 +250,13 @@ service cloud.firestore {
         request.resource.data.title is string &&
         request.resource.data.body is string &&
         request.resource.data.topic == 'kova_all_users' &&
+        (!('audience' in request.resource.data) || (
+          request.resource.data.audience in ['all','organization','test'] &&
+          request.resource.data.organization is string &&
+          request.resource.data.subscriptionId is string &&
+          (request.resource.data.audience != 'organization' || request.resource.data.organization.size() > 0) &&
+          (request.resource.data.audience != 'test' || request.resource.data.subscriptionId.matches('[a-f0-9]{64}'))
+        )) &&
         request.resource.data.requestedBy == 'superuser' &&
         request.resource.data.source == 'changelog' &&
         request.resource.data.requestedAt == request.time;

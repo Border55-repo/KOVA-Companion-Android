@@ -167,6 +167,9 @@ def process_announcement_request(db) -> None:
             title=str(command.get("title") or "Nytt i KOVA Companion"),
             body=str(command.get("body") or "Nye forbedringer er tilgjengelige."),
             change_id=str(command.get("requestId") or f"announcement-{int(time.time())}"),
+            audience=command.get("audience", "all"),
+            organization=str(command.get("organization") or ""),
+            subscription_id=str(command.get("subscriptionId") or ""),
         )
         ref.update(
             {"status": "completed", "delivery": delivery, "error": "",
@@ -541,6 +544,7 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
             "organization": org,
             "status": "ok",
             "updatedAt": now_iso,
+            "checkedAt": now_iso,
             "sourceUrl": source_url(org["code"]),
             "eventCount": len(events),
             "changes": {
@@ -556,6 +560,8 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
         )
         return True, payload
 
+    old["checkedAt"] = datetime.now(OSLO).isoformat(timespec="seconds")
+    path.write_text(json.dumps(old, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return False, old
 
 
@@ -614,6 +620,7 @@ def write_index(organizations: list[dict], summaries: list[dict], changed_any: b
                     if current
                     else previous_row.get("status", "pending")
                 ),
+                "checkedAt": current.get("checkedAt") if current else previous_row.get("checkedAt"),
                 "eventCount": (
                     current.get("eventCount")
                     if current
@@ -771,8 +778,10 @@ def write_health(
     return True
 
 
-def main() -> int:
-    organizations = discover_organizations()
+def main(source=None) -> int:
+    from sources import PublicCalendarSource
+    source = source or PublicCalendarSource(discover_organizations, fetch_org)
+    organizations = source.organizations()
     registry_changed = write_organization_registry(organizations)
 
     db = admin_db()
@@ -816,7 +825,7 @@ def main() -> int:
         old_events = old.get("events", [])
 
         try:
-            events, _, html_length = fetch_org(org)
+            events, _, html_length = source.fetch(org)
 
             suspect = suspicious_snapshot(
                 old_count=len(old_events),
@@ -872,6 +881,7 @@ def main() -> int:
                     "status": "ok",
                     "eventCount": len(events),
                     "updatedAt": payload.get("updatedAt"),
+                    "checkedAt": datetime.now(OSLO).isoformat(timespec="seconds"),
                     "error": None,
                 }
             )
