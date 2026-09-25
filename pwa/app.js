@@ -1316,14 +1316,13 @@ if(!DEMO && "serviceWorker" in navigator){
     if(event.data?.type==="notification-history-response") renderNotificationHistory(event.data.items||[]);
   });
   let refreshingWorker=false;
-  navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"}).then(async registration=>{
-    try{await registration.update()}catch{}
-    navigator.serviceWorker.addEventListener("controllerchange",()=>{
-      if(refreshingWorker)return;
-      refreshingWorker=true;
-      location.reload();
-    });
-  }).catch(()=>{});
+  navigator.serviceWorker.addEventListener("controllerchange",()=>{
+    if(refreshingWorker)return;
+    refreshingWorker=true;
+    location.reload();
+  });
+  navigator.serviceWorker.register("./sw.js",{updateViaCache:"none"})
+    .then(registration=>registration.update()).catch(()=>{});
 }
 
 (async()=>{
