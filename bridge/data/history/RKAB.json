@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "080bd856c8ed2bcc5916a66f",
+      "observedAt": "2026-09-26T00:06:19+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "f6a9a81138239e89",
+        "dateIso": "2026-09-19",
+        "dateLabel": "lør. 19.9",
+        "time": "12:00",
+        "type": "Beredskapsvakt",
+        "description": "Stafett for livet Os Kombovakt sanitet og Amk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "b4f7011a6fea33c63edc0662",
       "observedAt": "2026-09-25T22:31:19+02:00",
       "organization": "RKAB",
@@ -101,5 +116,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T22:31:19+02:00"
+  "updatedAt": "2026-09-26T00:06:19+02:00"
 }
