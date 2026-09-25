@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2b088bd94eeb6709abf91b46",
+      "observedAt": "2026-09-25T12:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "731da8b1cbf22bfb",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "For hele lokalrådet Ledersamling lokalt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "def4bec3454fb3994980e406",
       "observedAt": "2026-09-24T00:13:36+02:00",
       "organization": "HaldenRKH",
@@ -182,5 +197,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T00:13:36+02:00"
+  "updatedAt": "2026-09-25T12:46:18+02:00"
 }

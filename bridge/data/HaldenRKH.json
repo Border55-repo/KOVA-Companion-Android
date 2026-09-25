@@ -7,11 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T00:06:09+02:00",
+  "updatedAt": "2026-09-25T12:46:18+02:00",
+  "checkedAt": "2026-09-25T12:46:18+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 49,
+  "eventCount": 50,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -221,6 +222,15 @@
       "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "731da8b1cbf22bfb",
+      "dateIso": "2026-10-12",
+      "dateLabel": "man. 12.10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "For hele lokalrådet Ledersamling lokalt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -457,6 +467,5 @@
       "description": "Grøtfest med oppsummering av året (Ida ansvar) Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     }
-  ],
-  "checkedAt": "2026-09-25T12:26:08+02:00"
+  ]
 }
