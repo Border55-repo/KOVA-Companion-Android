@@ -9,9 +9,9 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-25T08:31:37+02:00",
-  "lastSuccessfulRunAt": "2026-09-25T08:31:37+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-25T08:31:37+02:00",
+  "checkedAt": "2026-09-25T09:31:47+02:00",
+  "lastSuccessfulRunAt": "2026-09-25T09:31:47+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-25T09:31:47+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-09-25T07:31:30+02:00",
