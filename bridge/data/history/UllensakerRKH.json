@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7e63e254abbf6818698bc301",
+      "observedAt": "2026-09-25T12:04:06+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "6958cf611a322bdd",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "NM Brasiliansk jiu jitsu IKKE BEKREFTET NM Brasiliansk jiu jitsu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "5ffdfab09f21349e",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "NM Brasiliansk jiu jitsu IKKE BEKREFTET NM Brasiliansk jiu jitsu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "40f2eb2d64883ff16f0a2f11",
       "observedAt": "2026-09-25T12:01:47+02:00",
       "organization": "UllensakerRKH",
@@ -71,5 +95,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T12:01:47+02:00"
+  "updatedAt": "2026-09-25T12:04:06+02:00"
 }

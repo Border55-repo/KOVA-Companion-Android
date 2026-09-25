@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T12:01:50+02:00",
+  "updatedAt": "2026-09-25T12:04:06+02:00",
   "sent": {
     "40f2eb2d64883ff16f0a2f11": "2026-09-25T12:01:50+02:00",
     "ddeeff57aadaddf8055d76ef": "2026-09-25T11:41:20+02:00",
@@ -142,5 +142,30 @@
     "8ccc066f6c5284f5ec072dcb": "2026-09-23T00:14:39+02:00",
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
-  "pending": {}
+  "pending": {
+    "7e63e254abbf6818698bc301": {
+      "changeId": "7e63e254abbf6818698bc301",
+      "observedAt": "2026-09-25T12:04:06+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "6958cf611a322bdd",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "NM Brasiliansk jiu jitsu IKKE BEKREFTET NM Brasiliansk jiu jitsu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "5ffdfab09f21349e",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "NM Brasiliansk jiu jitsu IKKE BEKREFTET NM Brasiliansk jiu jitsu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    }
+  }
 }
