@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-25T12:11:09+02:00",
-  "checkedAt": "2026-09-25T15:26:15+02:00",
+  "updatedAt": "2026-09-25T15:31:33+02:00",
+  "checkedAt": "2026-09-25T15:31:33+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 43,
+  "eventCount": 44,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -87,6 +87,15 @@
       "time": "18:00",
       "type": "Rådsmøte",
       "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "01aea66c9bd47ccd",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "17:45",
+      "type": "Aktivitet",
+      "description": "Oppmøte hos Nittedal RKH kl 17:45 Fagkveld ettersøkning - Nittedal RKH",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {

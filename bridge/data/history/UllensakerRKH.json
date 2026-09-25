@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6d570cab8ebdecf49d7095a7",
+      "observedAt": "2026-09-25T15:31:33+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "01aea66c9bd47ccd",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "17:45",
+        "type": "Aktivitet",
+        "description": "Oppmøte hos Nittedal RKH kl 17:45 Fagkveld ettersøkning - Nittedal RKH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "7e63e254abbf6818698bc301",
       "observedAt": "2026-09-25T12:04:06+02:00",
       "organization": "UllensakerRKH",
@@ -95,5 +110,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T12:04:06+02:00"
+  "updatedAt": "2026-09-25T15:31:33+02:00"
 }
