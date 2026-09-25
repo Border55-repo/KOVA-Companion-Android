@@ -12,7 +12,7 @@ test('new worker installs fresh shell assets instead of recycling the HTTP cache
   let done;handlers.install({waitUntil:p=>done=p});await done;
   assert.ok(requested.length>0);
   assert.ok(requested.every(request=>request.cache==='reload'));
-  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js'));
+  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js?v=2.2.0'));
 });
 test('snapshot URLs follow Bridge filenames for spaces and Norwegian letters',()=>{
   const ctx=vm.createContext({state:{orgIndex:new Map([['AÅRKH',{file:'A_RKH.json'}]])}});
