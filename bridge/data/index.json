@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-25T11:41:23+02:00",
+  "updatedAt": "2026-09-25T12:01:56+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -335,8 +335,8 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "eventCount": 43,
-      "updatedAt": "2026-09-25T00:01:24+02:00"
+      "eventCount": 42,
+      "updatedAt": "2026-09-25T12:01:47+02:00"
     },
     {
       "name": "Vennesla Røde Kors Hjelpekorps",

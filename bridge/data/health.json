@@ -9,12 +9,12 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-25T11:41:23+02:00",
-  "lastSuccessfulRunAt": "2026-09-25T11:41:23+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-25T11:41:23+02:00",
+  "checkedAt": "2026-09-25T12:01:58+02:00",
+  "lastSuccessfulRunAt": "2026-09-25T12:01:58+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-25T12:01:58+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-09-25T11:41:23+02:00",
+  "lastPushAt": "2026-09-25T12:01:58+02:00",
   "lastPushCount": 1,
   "organizationCount": 43,
   "helpCorpsCount": 39,
@@ -56,8 +56,8 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "eventCount": 43,
-      "updatedAt": "2026-09-25T00:01:24+02:00",
+      "eventCount": 42,
+      "updatedAt": "2026-09-25T12:01:47+02:00",
       "error": null
     },
     {
@@ -151,13 +151,13 @@
       "error": null
     },
     {
-      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
-      "code": "AHRKH",
+      "name": "Asker Røde Kors Hjelpekorps",
+      "code": "AskerRKH",
       "category": "hjelpekorps",
-      "file": "AHRKH.json",
+      "file": "AskerRKH.json",
       "status": "ok",
-      "eventCount": 23,
-      "updatedAt": "2026-09-24T17:40:13+02:00",
+      "eventCount": 10,
+      "updatedAt": "2026-09-23T18:06:37+02:00",
       "error": null
     }
   ]
