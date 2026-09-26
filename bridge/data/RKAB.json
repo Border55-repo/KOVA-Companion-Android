@@ -7,34 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-09-26T00:06:19+02:00",
-  "checkedAt": "2026-09-26T23:41:40+02:00",
+  "updatedAt": "2026-09-27T00:01:58+02:00",
+  "checkedAt": "2026-09-27T00:01:58+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
-  "eventCount": 56,
+  "eventCount": 54,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "70252d105a27574c",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "00:00",
-      "type": "Beredskapsvakt",
-      "description": "Stafett for livet Os / AMK Kombovakt sanitet og AMK",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
-    {
-      "id": "ecfa8100d48e536c",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "17:00",
-      "type": "Ambulansevakt",
-      "description": "Brann - Bodø/Glimt. Tilstede stadion kl 1815 SK Brann Herrer 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
     {
       "id": "d43e356f7194be20",
       "dateIso": "2026-09-21",
