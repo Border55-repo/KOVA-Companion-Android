@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ccac6b044b847858b7f89a74",
+      "observedAt": "2026-09-27T00:06:35+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "21fb87f6f9cca033",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Søndag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "3585017b9cab7c7c87c1e1d8",
+      "observedAt": "2026-09-27T00:06:35+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "580262987fcc1bf1",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Søndag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "7062a0dfd38a8589d152a33c",
+      "observedAt": "2026-09-27T00:06:35+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b0b9ee5a87019f4a",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Søndag tredje vakt (tilstede Halden Arena 17-21) ble dimmitert tidligere Sanitetsvakt: Kretsmesterskap i turn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "8d699da719a792a073e9f53f",
       "observedAt": "2026-09-26T00:11:19+02:00",
       "organization": "HaldenRKH",
@@ -257,5 +302,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-26T00:11:19+02:00"
+  "updatedAt": "2026-09-27T00:06:35+02:00"
 }

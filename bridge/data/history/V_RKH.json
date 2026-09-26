@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "30ac18c2225412933dc5fb82",
+      "observedAt": "2026-09-27T00:06:47+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5751ac8523daec4b",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "11:45",
+        "type": "Sanitetsvakt",
+        "description": "Generasjonslekene (sanitetsvakt + rekruttering) Generasjonslekene Follo Museum",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "823c4f38462368b11de3c887",
       "observedAt": "2026-09-23T21:41:59+02:00",
       "organization": "VÅRKH",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T21:41:59+02:00"
+  "updatedAt": "2026-09-27T00:06:47+02:00"
 }

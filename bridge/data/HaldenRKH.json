@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-26T00:11:19+02:00",
-  "checkedAt": "2026-09-26T23:46:29+02:00",
+  "updatedAt": "2026-09-27T00:06:35+02:00",
+  "checkedAt": "2026-09-27T00:06:35+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 46,
+  "eventCount": 43,
   "changes": {
     "added": 0,
-    "removed": 4,
+    "removed": 3,
     "changed": 0
   },
   "events": [
@@ -60,33 +60,6 @@
       "time": "18:30",
       "type": "Sanitetsvakt",
       "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "21fb87f6f9cca033",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "07:30",
-      "type": "Sanitetsvakt",
-      "description": "Søndag første vakt (tilstede Halden Arena 08-12) Sanitetsvakt: Kretsmesterskap i turn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "580262987fcc1bf1",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Søndag andre vakt (tilstede Halden Arena 12-17) Sanitetsvakt: Kretsmesterskap i turn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "b0b9ee5a87019f4a",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Søndag tredje vakt (tilstede Halden Arena 17-21) ble dimmitert tidligere Sanitetsvakt: Kretsmesterskap i turn",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
