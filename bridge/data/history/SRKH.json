@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ce82072501af3f234ba467ac",
+      "observedAt": "2026-09-26T11:41:32+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "2f80af7219505e2e",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Blødninger Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "912bc409340fdfd887c47d84",
       "observedAt": "2026-09-26T09:21:40+02:00",
       "organization": "SRKH",
@@ -200,5 +215,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-26T09:21:40+02:00"
+  "updatedAt": "2026-09-26T11:41:32+02:00"
 }
