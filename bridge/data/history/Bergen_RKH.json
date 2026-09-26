@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "96a36a011d27a1bd8ef95226",
+      "observedAt": "2026-09-27T00:11:40+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "fbf852e63417e4c8",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "17:45",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Bodø/Glimt Brann mot Bodø/Glimt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "5c96b4f2520444ed48b708b7",
       "observedAt": "2026-09-25T00:11:09+02:00",
       "organization": "Bergen RKH",
@@ -56,5 +71,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:11:09+02:00"
+  "updatedAt": "2026-09-27T00:11:40+02:00"
 }

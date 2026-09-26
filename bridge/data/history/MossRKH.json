@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "68b1752d3f4597b7b2901cb6",
+      "observedAt": "2026-09-27T00:11:44+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a72d6a24e5222ed4",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt Bistand Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "4aee083f205ed7cd3b686c9c",
       "observedAt": "2026-09-25T00:11:14+02:00",
       "organization": "MossRKH",
@@ -164,5 +179,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:11:14+02:00"
+  "updatedAt": "2026-09-27T00:11:44+02:00"
 }

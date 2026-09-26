@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "aa0203f8a352a2b3474ed6ec",
+      "observedAt": "2026-09-27T00:11:49+02:00",
+      "organization": "OSRK",
+      "kind": "removed",
+      "event": {
+        "id": "7d0a77c229c7a0bc",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Stafett for livet Stafett for livet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
+      "changeId": "45d0c85c60db906210c24658",
+      "observedAt": "2026-09-27T00:11:49+02:00",
+      "organization": "OSRK",
+      "kind": "removed",
+      "event": {
+        "id": "dd4af0cec5485b94",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Nore Neset Karate Nore Neset karate",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
       "changeId": "7548c426872cf5c9fa404fe4",
       "observedAt": "2026-09-24T20:37:52+02:00",
       "organization": "OSRK",
@@ -62,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T20:37:52+02:00"
+  "updatedAt": "2026-09-27T00:11:49+02:00"
 }
