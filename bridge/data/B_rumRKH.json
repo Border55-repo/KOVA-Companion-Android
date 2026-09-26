@@ -7,33 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T14:58:54+02:00",
+  "updatedAt": "2026-09-27T00:16:36+02:00",
+  "checkedAt": "2026-09-27T00:16:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 41,
+  "eventCount": 39,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "097e7dbb025e7ead",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Stabæk - Sogndal OBOS-ligaen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
-    {
-      "id": "7181d45b7c061649",
-      "dateIso": "2026-09-20",
-      "dateLabel": "søn. 20.9",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Unity Arena Konsert: A$AP Rocky",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "a9d9fb6bf1364f53",
       "dateIso": "2026-09-25",
@@ -385,6 +368,5 @@
       "description": "v/OUS RK34: Fagkveld ambulanse v/OUS",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     }
-  ],
-  "checkedAt": "2026-09-26T23:56:29+02:00"
+  ]
 }

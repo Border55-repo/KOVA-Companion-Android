@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f8145ddc8ad45c4e8fe8ccc2",
+      "observedAt": "2026-09-27T00:16:40+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "56e4d47a2e3c9c41",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Vakt: 11:00-14:00. Vi står i start-/målområdet Løp Fredriksten festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "77746065ea02b03683b92d7d",
+      "observedAt": "2026-09-27T00:16:40+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "4c26811bf5021a4e",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Kretsmesterskap i turn Halden Arena Bistand Halden RK - Kretsmesterskap i Turn Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "05477770bb848758f1a757ca",
       "observedAt": "2026-09-25T00:16:11+02:00",
       "organization": "RKSarpsborg",
@@ -194,5 +224,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T00:16:11+02:00"
+  "updatedAt": "2026-09-27T00:16:40+02:00"
 }

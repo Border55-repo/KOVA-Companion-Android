@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "330ec47ebf9f288368ccfbe4",
+      "observedAt": "2026-09-27T00:16:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "097e7dbb025e7ead",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - Sogndal OBOS-ligaen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "cbb4ddee54101a2f028ffcae",
+      "observedAt": "2026-09-27T00:16:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7181d45b7c061649",
+        "dateIso": "2026-09-20",
+        "dateLabel": "søn. 20.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Konsert: A$AP Rocky",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "60f1487a5429b8ed174cdc94",
       "observedAt": "2026-09-24T14:58:54+02:00",
       "organization": "BærumRKH",
@@ -32,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T14:58:54+02:00"
+  "updatedAt": "2026-09-27T00:16:36+02:00"
 }
