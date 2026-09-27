@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b0edae3912493090f630f52a",
+      "observedAt": "2026-09-28T00:01:59+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9d7fb4c176831ead",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Øvre Rommerike Brann og Redning Internt Opplæring",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "66bf7819dc74fc747e0f0b90",
       "observedAt": "2026-09-27T00:01:54+02:00",
       "organization": "UllensakerRKH",
@@ -140,5 +155,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:01:54+02:00"
+  "updatedAt": "2026-09-28T00:01:59+02:00"
 }

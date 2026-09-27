@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c4ced28d1525404218da4dac",
+      "observedAt": "2026-09-28T00:01:51+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "1411e2da7fad3627",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:00",
+        "type": "Øvelse",
+        "description": "Trening Regodkjenning AFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "baa639a0a25ed68a89619bea",
+      "observedAt": "2026-09-28T00:01:51+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "801b34902fc5573f",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Møte: Arbeidsmøte i Lokalråd + Fagansvarlige",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "d355eb1e97a49f5e07e64e04",
+      "observedAt": "2026-09-28T00:01:51+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a498280381d28278",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "-> 16:00",
+        "type": "Transport",
+        "description": "Utbedring karosseriskade Transport: RK32 på verksted",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "ec1dd53b6d18b417aeda2096",
       "observedAt": "2026-09-27T00:01:43+02:00",
       "organization": "Nittedal RKH",
@@ -251,5 +296,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:01:43+02:00"
+  "updatedAt": "2026-09-28T00:01:51+02:00"
 }
