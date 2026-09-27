@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-27T00:11:40+02:00",
-  "checkedAt": "2026-09-27T07:46:34+02:00",
+  "updatedAt": "2026-09-27T08:06:39+02:00",
+  "checkedAt": "2026-09-27T08:06:39+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 37,
+  "eventCount": 40,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 3,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -108,12 +108,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
+      "id": "6f08c73977910d3f",
+      "dateIso": "2026-09-28",
+      "dateLabel": "man. 28.9",
+      "time": "17:00",
+      "type": "Øvelse",
+      "description": "Øvelse Tauredning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
       "id": "8715b5a59b09938e",
       "dateIso": "2026-10-05",
       "dateLabel": "man. 5.10",
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Oktober Mandagsmiddag og infomøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "1e30938818a933c3",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "17:00",
+      "type": "Øvelse",
+      "description": "Tauredning Øvelse tauredning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
@@ -321,6 +339,15 @@
       "time": "08:30",
       "type": "Interne kurs",
       "description": "Søndag Helg 2 KFØR H26 Stab",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "2e4bef56a70e71ff",
+      "dateIso": "2026-11-23",
+      "dateLabel": "man. 23.11",
+      "time": "17:00",
+      "type": "Øvelse",
+      "description": "øvelse tauredning Øvelse tauredning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {

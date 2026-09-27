@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0537c69e0e5e141aee2789e3",
+      "observedAt": "2026-09-27T08:06:39+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "6f08c73977910d3f",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "17:00",
+        "type": "Øvelse",
+        "description": "Øvelse Tauredning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "08f2c1182dbc31975ee83171",
+      "observedAt": "2026-09-27T08:06:39+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "1e30938818a933c3",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:00",
+        "type": "Øvelse",
+        "description": "Tauredning Øvelse tauredning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "de5f9ac0f018d9e70b1c0e0b",
+      "observedAt": "2026-09-27T08:06:39+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "2e4bef56a70e71ff",
+        "dateIso": "2026-11-23",
+        "dateLabel": "man. 23.11",
+        "time": "17:00",
+        "type": "Øvelse",
+        "description": "øvelse tauredning Øvelse tauredning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "96a36a011d27a1bd8ef95226",
       "observedAt": "2026-09-27T00:11:40+02:00",
       "organization": "Bergen RKH",
@@ -71,5 +116,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:11:40+02:00"
+  "updatedAt": "2026-09-27T08:06:39+02:00"
 }
