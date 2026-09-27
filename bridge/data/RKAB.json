@@ -7,25 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-09-27T00:01:58+02:00",
-  "checkedAt": "2026-09-27T23:46:47+02:00",
+  "updatedAt": "2026-09-28T00:06:27+02:00",
+  "checkedAt": "2026-09-28T00:06:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
-  "eventCount": 54,
+  "eventCount": 53,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
-    {
-      "id": "d43e356f7194be20",
-      "dateIso": "2026-09-21",
-      "dateLabel": "man. 21.9",
-      "time": "16:00",
-      "type": "Ambulansevakt",
-      "description": "AMK AMK 2026 (august/september)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
     {
       "id": "a196d85df2bf9593",
       "dateIso": "2026-09-23",

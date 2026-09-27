@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a957928f3c2a810347358bf7",
+      "observedAt": "2026-09-28T00:06:31+02:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5dd95efc8a662932",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Korpsmøte/ den nye søksveilederen Temakveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "663ecd2219f51ed07843e973",
       "observedAt": "2026-09-27T00:02:01+02:00",
       "organization": "SkienRKH",
@@ -65,5 +80,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:02:01+02:00"
+  "updatedAt": "2026-09-28T00:06:31+02:00"
 }
