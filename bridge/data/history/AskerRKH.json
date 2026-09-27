@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0fd5446cdaf42f941d5a7890",
+      "observedAt": "2026-09-27T11:36:32+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "dd5304669656bb89",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld Bærum Søksøvelse Korpskveld Bærum",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "764fcdcaefa8930da106ff3f",
       "observedAt": "2026-09-23T18:06:37+02:00",
       "organization": "AskerRKH",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-23T18:06:37+02:00"
+  "updatedAt": "2026-09-27T11:36:32+02:00"
 }

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
+  "apiVersion": "2.0",
   "organization": {
     "name": "Asker Røde Kors Hjelpekorps",
     "code": "AskerRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-23T18:06:37+02:00",
+  "updatedAt": "2026-09-27T11:36:32+02:00",
+  "checkedAt": "2026-09-27T11:36:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH",
-  "eventCount": 10,
+  "eventCount": 11,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -22,6 +24,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Beredskap Korpskveld 17",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "dd5304669656bb89",
+      "dateIso": "2026-09-30",
+      "dateLabel": "ons. 30.9",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld Bærum Søksøvelse Korpskveld Bærum",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
     },
     {
@@ -105,6 +116,5 @@
       "description": "Søksøvelse Korpskveld 1",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
     }
-  ],
-  "checkedAt": "2026-09-27T11:21:44+02:00"
+  ]
 }
