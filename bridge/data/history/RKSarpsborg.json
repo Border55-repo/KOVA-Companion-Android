@@ -2,6 +2,126 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cf7ee3ce72d805d0d070e98e",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "6f5776b25f8055a4",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Rosenborg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "15e92e769a1a1ba3baf0c99d",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "d628f3773d2e22f5",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Kristiansund",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "c5d984b8f8a8b09120e9c780",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "7705eeb673a5e05c",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Lillestrøm",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "a29b578091cf4ad8c4b84052",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "5a7d0a44e1be7c90",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "b957800a762871421759025e",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "489db5dc46bac4b4",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Rosenborg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "3a01e6f7dc26c61bf453b8f9",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "74b3e97c6273c40a",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Kristiansund",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "ee70dafc13cd67e4c3232d89",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "96fb92fe3fefd8ac",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Lillestrøm",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "281f265871fbe11fbb2bf09f",
+      "observedAt": "2026-09-27T18:41:58+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "c1a483d4c0077817",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00. *OBS: Tidspunkt og dag kan bli flyttet S08-vakt: Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "f8145ddc8ad45c4e8fe8ccc2",
       "observedAt": "2026-09-27T00:16:40+02:00",
       "organization": "RKSarpsborg",
@@ -224,5 +344,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:16:40+02:00"
+  "updatedAt": "2026-09-27T18:41:58+02:00"
 }
