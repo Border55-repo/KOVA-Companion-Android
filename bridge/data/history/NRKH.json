@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "235d4bcafaf6ebf49a0abab7",
+      "observedAt": "2026-09-28T00:11:36+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9904c797f1a999ac",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "12:30",
+        "type": "Eksterne kurs",
+        "description": "Øvelse for industrivern FRAMO Øvelse industrivern FRAMO",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "0c1944a0e5396494cd339af3",
+      "observedAt": "2026-09-28T00:11:36+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "29ea8a99123e6cd2",
+        "dateIso": "2026-09-21",
+        "dateLabel": "man. 21.9",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøte 8 Lokalrådsmøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "bfa278e4c86fbd5aeb1eb157",
       "observedAt": "2026-09-27T00:06:44+02:00",
       "organization": "NRKH",
@@ -140,5 +170,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:06:44+02:00"
+  "updatedAt": "2026-09-28T00:11:36+02:00"
 }
