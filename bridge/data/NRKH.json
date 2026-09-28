@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T13:46:32+02:00",
-  "checkedAt": "2026-09-28T15:01:55+02:00",
+  "updatedAt": "2026-09-28T15:21:50+02:00",
+  "checkedAt": "2026-09-28T15:21:50+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 68,
+  "eventCount": 67,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -357,15 +357,6 @@
       "time": "",
       "type": "Interne kurs",
       "description": "KSOR - Høst 2026 KSOR - Høst 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
-      "id": "93d5b58f2d16996a",
-      "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
-      "time": "11:00",
-      "type": "Profilering",
-      "description": "Beredskapsdagen 2026 Amfi Knarvik Beredskapsdagen 2026 Amfi Knarvik",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
