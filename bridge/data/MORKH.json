@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T22:36:13+02:00",
-  "checkedAt": "2026-09-28T23:56:15+02:00",
+  "updatedAt": "2026-09-29T00:16:21+02:00",
+  "checkedAt": "2026-09-29T00:16:21+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 47,
+  "eventCount": 45,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "da4ef517428c636f",
-      "dateIso": "2026-09-22",
-      "dateLabel": "tir. 22.9",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Brystsmerter og DHLR (hva skjer under et infarkt m.m.) Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
-    {
-      "id": "d2f8ff2ffff44932",
-      "dateIso": "2026-09-22",
-      "dateLabel": "tir. 22.9",
-      "time": "20:00",
-      "type": "Dugnad",
-      "description": "Kveldens kakebaker til sosialt etter møte Kveldens kakebaker til sosialt etter møte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
     {
       "id": "adb45897155fb49c",
       "dateIso": "2026-09-24",

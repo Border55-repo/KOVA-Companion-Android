@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "620f717605b474822f71d547",
+      "observedAt": "2026-09-29T00:16:21+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "da4ef517428c636f",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Brystsmerter og DHLR (hva skjer under et infarkt m.m.) Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "2a9b1ea60923d64cc4fa0c26",
       "observedAt": "2026-09-28T22:36:13+02:00",
       "organization": "MORKH",
@@ -617,5 +632,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T22:36:13+02:00"
+  "updatedAt": "2026-09-29T00:16:21+02:00"
 }
