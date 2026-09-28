@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-26T00:06:13+02:00",
-  "checkedAt": "2026-09-28T22:16:05+02:00",
+  "updatedAt": "2026-09-28T22:36:13+02:00",
+  "checkedAt": "2026-09-28T22:36:13+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
   "eventCount": 47,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -162,12 +162,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "f4b8eb66c49b9839",
+      "id": "14fa80349db988ef",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
       "time": "12:00",
       "type": "Aktivitet",
-      "description": "Kun for tauredningsgruppa Mørkfoss Tauredningsgruppe",
+      "description": "Kun for tauredningsgruppa Rakkestad Tauredningsgruppe",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
