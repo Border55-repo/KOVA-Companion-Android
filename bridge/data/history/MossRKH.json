@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "79bbad3fb1435df86766c8c9",
+      "observedAt": "2026-09-28T21:06:37+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "619f00a555271cac",
+        "dateIso": "2026-12-05",
+        "dateLabel": "lør. 5.12",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Åpen julegård Tomb 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "68b1752d3f4597b7b2901cb6",
       "observedAt": "2026-09-27T00:11:44+02:00",
       "organization": "MossRKH",
@@ -179,5 +194,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:11:44+02:00"
+  "updatedAt": "2026-09-28T21:06:37+02:00"
 }
