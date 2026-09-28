@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0c8141b083ff6fb23fb7839e",
+      "observedAt": "2026-09-28T23:51:21+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "000a45197dfce50e",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "NLA Treningssenter Ås Møte: FORF Aksjonsledermøte Øst/Oslo PD",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "c4ced28d1525404218da4dac",
       "observedAt": "2026-09-28T00:01:51+02:00",
       "organization": "Nittedal RKH",
@@ -296,5 +311,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T00:01:51+02:00"
+  "updatedAt": "2026-09-28T23:51:21+02:00"
 }
