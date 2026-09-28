@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0588867bcb9e004051a6f733",
+      "observedAt": "2026-09-28T09:46:31+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "2e29b7010964b51a",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Hjelpekorpset i praksis. Thea ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "f8fb2c9e38516b8aa8787892",
+      "observedAt": "2026-09-28T09:46:31+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "790a8d23b61fbbdc",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Røde Kors rebus. Thea ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "ccac6b044b847858b7f89a74",
       "observedAt": "2026-09-27T00:06:35+02:00",
       "organization": "HaldenRKH",
@@ -302,5 +332,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:06:35+02:00"
+  "updatedAt": "2026-09-28T09:46:31+02:00"
 }
