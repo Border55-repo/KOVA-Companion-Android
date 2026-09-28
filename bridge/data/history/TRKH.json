@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8823b950523ce17965504f8c",
+      "observedAt": "2026-09-29T00:11:10+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ce5b14f59f3b6e9e",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Kvalifisert samband (KSAM) - tirsdag Grunnkursrekken 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "ba7d09ebe6776ee61cce3041",
       "observedAt": "2026-09-25T13:56:12+02:00",
       "organization": "TRKH",
@@ -95,5 +110,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-25T13:56:12+02:00"
+  "updatedAt": "2026-09-29T00:11:10+02:00"
 }

@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-27T18:41:58+02:00",
-  "checkedAt": "2026-09-28T23:51:28+02:00",
+  "updatedAt": "2026-09-29T00:11:08+02:00",
+  "checkedAt": "2026-09-29T00:11:08+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
-  "eventCount": 36,
+  "eventCount": 35,
   "changes": {
-    "added": 4,
-    "removed": 4,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "aea220ff585e172e",
-      "dateIso": "2026-09-22",
-      "dateLabel": "tir. 22.9",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Søksøvelse Korpsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
     {
       "id": "905c8a2e35d4f0ab",
       "dateIso": "2026-09-25",

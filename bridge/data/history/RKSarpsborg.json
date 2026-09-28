@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa69cf25856ecd9aefab7358",
+      "observedAt": "2026-09-29T00:11:08+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "aea220ff585e172e",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Søksøvelse Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "cf7ee3ce72d805d0d070e98e",
       "observedAt": "2026-09-27T18:41:58+02:00",
       "organization": "RKSarpsborg",
@@ -344,5 +359,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T18:41:58+02:00"
+  "updatedAt": "2026-09-29T00:11:08+02:00"
 }
