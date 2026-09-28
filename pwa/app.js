@@ -1,8 +1,6 @@
-import {createDemoSource,memoryStorage} from './demo-data.js';
 import {createSnapshotSource,freshness} from './data-source.js';
-const DEMO=new URLSearchParams(location.search).get('demo')==='1';
-const storage=DEMO?memoryStorage():localStorage;
-const dataSource=DEMO?createDemoSource():createSnapshotSource();
+const storage=localStorage;
+const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
 const WEBPUSH_CONFIG_URL = `${DATA_BASE}/webpush-config.json`;
 const FIREBASE_CONFIG_URL = "./firebase-web-config.json";
@@ -230,14 +228,12 @@ function pushSupported(){
 }
 
 async function currentPushSubscription(){
-  if(DEMO)return null;
   if(!pushSupported())return null;
   const registration=await navigator.serviceWorker.ready;
   return registration.pushManager.getSubscription();
 }
 
 async function savePushSubscription(subscription,enabled=true){
-  if(DEMO)return;
   const json=subscription.toJSON();
   const endpoint=json.endpoint||subscription.endpoint;
   const keys=json.keys||{};
@@ -284,10 +280,8 @@ async function reminderDocumentId(subscriptionId,event){
   );
 }
 async function syncReminderBackend(event,leadMinutes,enabled=true){
-  if(DEMO)return true;
   const subscription=await currentPushSubscription();
   if(!subscription || Notification.permission!=="granted")return false;
-  if(enabled && !state.favoriteOrgs.has(event.orgCode||state.org))return false;
   const json=subscription.toJSON();
   const endpoint=json.endpoint||subscription.endpoint;
   if(!endpoint)return false;
@@ -317,22 +311,28 @@ async function saveReminder(event,minutes){
   const key=eventKey(event);
   const current=reminderEntryFor(event);
   if(minutes>0){
+    state.favorites.add(key);
+    rememberFavoriteEvent(event);
+    saveSet("kova.pwa.favorites",state.favorites);
     state.reminders[key]={
       leadMinutes:minutes,
-      anchorDate:current?.anchorDate||state.favoriteMeta[key]?.anchorDate||event.dateIso||""
+      anchorDate:current?.anchorDate||state.favoriteMeta[key]?.anchorDate||event.dateIso||"",
+      synced:false
     };
     saveReminders();
-    return syncReminderBackend(event,minutes,true).catch(()=>false);
+    const registered=await syncReminderBackend(event,minutes,true);
+    state.reminders[key].synced=registered;
+    saveReminders();
+    return registered;
   }
-  if(current){
-    await syncReminderBackend(event,current.leadMinutes,false).catch(()=>false);
+  if(current && !await syncReminderBackend(event,current.leadMinutes,false)){
+    throw new Error("Avslåing er ikke bekreftet. Koble til nett og aktiver varsler, og prøv igjen.");
   }
   delete state.reminders[key];
   saveReminders();
   return true;
 }
 async function syncAllReminders(){
-  if(DEMO)return;
   if(Notification.permission!=="granted")return;
   const all=[...state.favoriteEvents,...state.events];
   const seen=new Set();
@@ -342,7 +342,12 @@ async function syncAllReminders(){
     seen.add(key);
     const minutes=reminderMinutesFor(event);
     if(minutes>0 && state.favorites.has(key)){
-      await syncReminderBackend(event,minutes,true);
+      const entry=state.reminders[key];
+      const synced=await syncReminderBackend(event,minutes,true);
+      if(state.reminders[key]===entry){
+        state.reminders[key]={...reminderEntryFor(event),synced};
+        saveReminders();
+      }
     }
   }
 }
@@ -359,7 +364,6 @@ async function syncPushOrganizations(){
 }
 
 async function checkRemoteCacheEpoch(){
-  if(DEMO)return false;
   try{
     const f=await firestoreClient();
     const snap=await f.getDoc(f.doc(f.db,"publicConfig","pwa"));
@@ -388,7 +392,6 @@ async function checkRemoteCacheEpoch(){
 }
 
 async function repairPushRegistration(){
-  if(DEMO)return;
   if(!pushSupported()) return false;
   if(isIOS() && !isStandalone()) return false;
   if(Notification.permission!=="granted") return false;
@@ -408,7 +411,6 @@ async function repairPushRegistration(){
 
 let repairingPush=false;
 async function repairPushOnResume(){
-  if(DEMO)return;
   if(repairingPush) return;
   repairingPush=true;
   try{
@@ -420,22 +422,21 @@ async function repairPushOnResume(){
 }
 
 async function refreshNotificationUi(){
-  if(DEMO){$("notificationStatus").textContent="Demovarsler – ingen utsending";$("notificationBtn").textContent="Vis eksempelvarsel";return;}
   const button=$("notificationBtn");
   const status=$("notificationStatus");
   const hint=$("notificationHint");
-
-  if(!pushSupported()){
-    status.textContent="Ikke støttet på denne enheten";
-    hint.textContent="";
-    button.disabled=true;
-    return;
-  }
 
   if(isIOS()&&!isStandalone()){
     status.textContent="Installer Kova Companion først";
     hint.textContent="På iPhone fungerer varsler etter at PWA-en er lagt på Hjem-skjermen.";
     button.textContent="Installer først";
+    button.disabled=true;
+    return;
+  }
+
+  if(!pushSupported()){
+    status.textContent="Ikke støttet på denne enheten";
+    hint.textContent="";
     button.disabled=true;
     return;
   }
@@ -446,14 +447,14 @@ async function refreshNotificationUi(){
   const registeredAt=storage.getItem("kova.pwa.pushRegisteredAt");
   const backendRegistered=enabled && !!registeredAt;
   status.textContent=backendRegistered
-    ? "Varsler er på – backend registrert"
+    ? "Pushvarsler er klare"
     : enabled
       ? "Varsler er på lokalt – registrering mangler"
       : (Notification.permission==="denied" ? "Varsler er blokkert" : "Varsler er av");
   hint.textContent=backendRegistered
-    ? `Varsler fra ${state.favoriteOrgs.size} favorittkorps • registrert ${new Intl.DateTimeFormat("nb-NO",{dateStyle:"short",timeStyle:"short"}).format(new Date(registeredAt))}`
+    ? `Påminnelser for vaktene du velger. Generelle korpsvarsler: ${state.favoriteOrgs.size} korps.`
     : enabled
-      ? "Trykk Registrer på nytt for å koble enheten til KOVA Bridge."
+      ? "Trykk Registrer på nytt for å fullføre oppsettet."
       : "Ny, endret og fjernet aktivitet";
   if(!backendRegistered && storage.getItem("kova.pwa.pushLastError")){
     hint.textContent="Siste registreringsfeil: "+storage.getItem("kova.pwa.pushLastError");
@@ -463,7 +464,6 @@ async function refreshNotificationUi(){
 }
 
 async function enableNotifications(){
-  if(DEMO){$("demoNotice").textContent="Eksempelvarsel: En vakt er endret. Dette er bare en demonstrasjon.";return;}
   if(isIOS()&&!isStandalone())return;
   const permission=await Notification.requestPermission();
   if(permission!=="granted"){
@@ -484,7 +484,6 @@ async function enableNotifications(){
 }
 
 async function disableNotifications(){
-  if(DEMO)return;
   const subscription=await currentPushSubscription();
   if(subscription){
     await savePushSubscription(subscription,false);
@@ -495,7 +494,6 @@ async function disableNotifications(){
 }
 
 async function toggleNotifications(){
-  if(DEMO){await enableNotifications();return;}
   try{
     // iOS requires the permission prompt directly in the tap handler.
     if(Notification.permission!=="granted"){
@@ -536,7 +534,7 @@ function renderOrgOptions(filter=""){
 }
 function updateFavoriteOrgUi(){
   const favorite=state.favoriteOrgs.has(state.org);
-  $("favoriteOrgBtn").textContent=favorite?"★ Favoritt":"☆ Favoritt";
+  $("favoriteOrgBtn").textContent=favorite?"Korpsvarsler: på":"Korpsvarsler: av";
   $("favoriteOrgBtn").classList.toggle("active",favorite);
 }
 function updateDataQuality(){
@@ -750,7 +748,12 @@ async function toggleFavorite(event){
   const key=eventKey(event);
   if(state.favorites.has(key)){
     const current=reminderEntryFor(event);
-    if(current)await syncReminderBackend(event,current.leadMinutes,false).catch(()=>false);
+    if(current){
+      try{await saveReminder(event,0)}catch(error){
+        alert("Vakten beholdes i Mine vakter fordi påminnelsen ikke kunne slås av. "+error.message);
+        return;
+      }
+    }
     state.favorites.delete(key);
     delete state.favoriteMeta[key];
     delete state.reminders[key];
@@ -836,28 +839,23 @@ function openDetail(event){
 function updateDialogFavorite(){
   if(!state.selected)return;
   const favorite=state.favorites.has(eventKey(state.selected));
-  $("favoriteDialogBtn").textContent=favorite ? "★ Fjern favoritt" : "☆ Legg til favoritt";
-  $("reminderSelect").disabled=!favorite||!eventTime(state.selected);
+  $("favoriteDialogBtn").textContent=favorite ? "Fjern fra Mine vakter" : "Lagre i Mine vakter";
+  $("reminderSelect").disabled=!eventTime(state.selected);
 }
 function updateReminderUi(message=""){
   if(!state.selected)return;
-  const favorite=state.favorites.has(eventKey(state.selected));
   const hasTime=!!eventTime(state.selected);
   $("reminderSelect").value=String(reminderMinutesFor(state.selected)||0);
-  if(DEMO){
-    $("reminderHint").textContent="Demovalg lagres bare i minnet. Ingen påminnelse sendes.";
-  }else if(message){
+  if(message){
     $("reminderHint").textContent=message;
-  }else if(!favorite){
-    $("reminderHint").textContent="Legg vakten til Mine vakter først.";
   }else if(!hasTime){
     $("reminderHint").textContent="KOVA må ha klokkeslett før push-påminnelse kan planlegges.";
-  }else if(!state.favoriteOrgs.has(state.selected.orgCode||state.org)){
-    $("reminderHint").textContent="Marker korpset som favoritt for å få pushvarsler. Kalenderpåminnelsen lagres uansett.";
   }else if(pushSupported()&&Notification.permission==="granted"&&storage.getItem("kova.pwa.pushRegisteredAt")){
-    $("reminderHint").textContent="Push-påminnelse er koblet til Bridge og tas også med i kalenderfilen.";
+    $("reminderHint").textContent=reminderMinutesFor(state.selected)
+      ? (reminderEntryFor(state.selected)?.synced ? "Push-påminnelsen er registrert." : "Valget er lagret lokalt. Push-påminnelsen er ennå ikke bekreftet; prøv å lagre på nytt når du har nett.")
+      : "Velg når du vil ha push. Vakten lagres automatisk i Mine vakter.";
   }else{
-    $("reminderHint").textContent="Valget lagres og tas med i kalender. Aktiver varsler for push-påminnelse.";
+    $("reminderHint").textContent="Aktiver varsler under Varsler. Velg deretter når du vil ha påminnelse; vakten lagres i Mine vakter.";
   }
 }
 async function fetchJson(url){
@@ -1077,9 +1075,15 @@ function renderNotificationHistory(items=[]){
     container.textContent="Ingen lokale pushvarsler er lagret ennå.";
     return;
   }
-  for(const item of items.slice(0,50)){
-    const row=document.createElement("div");
+  for(const item of items.slice(0,100)){
+    const row=document.createElement(item.eventId?"button":"div");
     row.className="history-item";
+    if(item.eventId){
+      row.type="button";
+      row.onclick=()=>openNotificationTarget(item).catch(()=>{
+        container.textContent="Kunne ikke åpne vakten. Prøv igjen når du har nett.";
+      });
+    }
     const title=document.createElement("strong");
     title.textContent=item.title||"KOVA-varsel";
     const body=document.createElement("span");
@@ -1088,17 +1092,16 @@ function renderNotificationHistory(items=[]){
     meta.textContent=[
       item.timestamp?formatUpdated(item.timestamp):"",
       item.organization?orgName(item.organization):"",
-      item.kind||""
+      ({reminder:"Påminnelse",added:"Ny aktivitet",changed:"Endret aktivitet",removed:"Fjernet aktivitet",announcement:"Beskjed"})[item.kind]||""
     ].filter(Boolean).join(" • ");
     row.append(title,body,meta);
     container.appendChild(row);
   }
 }
 function requestNotificationHistory(){
-  if(DEMO){renderNotificationHistory([]);return;}
   const controller=navigator.serviceWorker?.controller;
   if(!controller){
-    renderNotificationHistory([]);
+    $("notificationHistory").textContent="Historikken er ikke klar. Åpne appen på nytt og prøv igjen.";
     return;
   }
   controller.postMessage({type:"get-notification-history"});
@@ -1136,7 +1139,6 @@ async function openNotificationTarget(data={}){
 }
 
 async function loadChangelog(){
-  if(DEMO){$("changelogTitle").textContent="Demonstrasjon";$("changelogBody").textContent="Alle aktiviteter er eksempler. Favoritter og notater lagres bare i denne demoøkten.";return;}
   try{
     const url="https://firestore.googleapis.com/v1/projects/kova-companion/databases/(default)/documents/publicConfig/changelog";
     const response=await fetch(url,{cache:"no-store"});
@@ -1188,11 +1190,13 @@ for(const id of ["notifyAdded","notifyChanged","notifyRemoved","quietEnabled","q
   $(id).addEventListener("change",()=>syncNotificationPreferenceControls().catch(console.warn));
 }
 $("notificationHistoryBtn").onclick=()=>{
-  $("notificationHistory").classList.toggle("hidden");
   requestNotificationHistory();
 };
 document.querySelectorAll(".quick-nav button[data-scroll]").forEach(button=>{
-  button.onclick=()=>$(button.dataset.scroll)?.scrollIntoView({behavior:"smooth",block:"start"});
+  button.onclick=()=>{
+      if(button.dataset.scroll==="historyCard")requestNotificationHistory();
+      $(button.dataset.scroll)?.scrollIntoView({behavior:"smooth",block:"start"});
+    };
 });
 document.querySelectorAll(".quick-nav button[data-view-jump]").forEach(button=>{
   button.onclick=async()=>{
@@ -1248,6 +1252,8 @@ $("reminderSelect").addEventListener("change",async()=>{
     updateReminderUi("Kunne ikke lagre push-påminnelsen: "+(error.message||String(error)));
   }finally{
     updateDialogFavorite();
+    render();
+    await refreshFavoriteDashboard().catch(()=>{});
   }
 });
 $("loadMoreBtn").onclick=()=>{
@@ -1309,11 +1315,14 @@ $("installBtn").onclick=async()=>{
 };
 if(isIOS()&&!isStandalone())$("installHint").classList.remove("hidden");
 
-if(!DEMO && "serviceWorker" in navigator){
+if("serviceWorker" in navigator){
   navigator.serviceWorker.addEventListener("message",event=>{
     if(event.data?.type==="pwa-updated") repairPushOnResume();
     if(event.data?.type==="notificationclick") openNotificationTarget(event.data).catch(console.warn);
-    if(event.data?.type==="notification-history-response") renderNotificationHistory(event.data.items||[]);
+    if(event.data?.type==="notification-history-response"){
+      if(event.data.error)$("notificationHistory").textContent="Kunne ikke lese historikken. Prøv igjen.";
+      else renderNotificationHistory(event.data.items||[]);
+    }
   });
   let refreshingWorker=false;
   navigator.serviceWorker.addEventListener("controllerchange",()=>{
@@ -1339,6 +1348,7 @@ if(!DEMO && "serviceWorker" in navigator){
     warmOfflineCache().catch(()=>{});
     await repairPushRegistration();
     await refreshNotificationUi();
+    requestNotificationHistory();
     const params=new URLSearchParams(location.search);
     if(params.get("event")){
       await openNotificationTarget({
@@ -1354,10 +1364,10 @@ if(!DEMO && "serviceWorker" in navigator){
 // A non-blocking three-step checklist also remains accessible to existing users.
 function renderSetup(){
   const done=storage.getItem('kova.pwa.setupComplete')==='1';
-  $('setupCard').classList.toggle('hidden',done&&!DEMO);
+  $('setupCard').classList.toggle('hidden',done);
   $('setupHint').textContent=isIOS()&&!isStandalone()
     ?'2. På iPhone: åpne i Safari → Del → Legg til på Hjem-skjermen. Åpne snarveien og aktiver varsler.'
-    :'2. Velg hvilke varsler du vil ha. Du kan også bruke appen uten varsler.';
+    :'2. Aktiver push under Varsler for å motta påminnelser.';
 }
 $('setupDone').onclick=()=>{storage.setItem('kova.pwa.setupComplete','1');$('setupCard').classList.add('hidden')};
 $('setupOpen').onclick=()=>{$('setupCard').classList.remove('hidden');$('setupCard').scrollIntoView({behavior:'smooth'})};
@@ -1365,5 +1375,13 @@ $('showDeviceId').onclick=async()=>{
   const sub=await currentPushSubscription();
   $('deviceId').textContent=sub?'Enhetskode: '+await endpointId(sub.endpoint):'Aktiver varsler på denne enheten først.';
 };
-if(DEMO){$('demoBanner').classList.remove('hidden');$('demoLink').textContent='Avslutt demo';$('demoLink').href='./';}
 renderSetup();
+
+function revealLinkedSection(){
+  const target=document.getElementById(location.hash.slice(1));
+  for(let parent=target?.parentElement;parent;parent=parent.parentElement){
+    if(parent.tagName==="DETAILS")parent.open=true;
+  }
+}
+window.addEventListener("hashchange",revealLinkedSection);
+revealLinkedSection();

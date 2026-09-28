@@ -19,7 +19,7 @@ test("KOVA PWA manifest is installable and scoped", async () => {
 
 test("KOVA PWA contains core mobile actions", async () => {
   const html = await readFile("pwa/index.html", "utf8");
-  for (const text of ["Fulgte", "Legg i kalender", "Del aktivitet", "Logg inn / Åpne KOVA"]) {
+  for (const text of ["Fulgte", "Legg i kalender", "Del aktivitet", "Åpne Kova.no"]) {
     assert.ok(html.includes(text), "Missing UI text: " + text);
   }
 });
@@ -155,7 +155,7 @@ test("KOVA PWA stores local notes per event", async () => {
   const html = await readFile("pwa/index.html", "utf8");
   const app = await readFile("pwa/app.js", "utf8");
   assert.ok(html.includes('id="detailNote"'));
-  assert.ok(html.includes("Lagres bare på denne enheten"));
+  assert.ok(html.includes("Lagres automatisk, bare på denne enheten"));
   assert.ok(app.includes('"kova.pwa.notes"'));
   assert.ok(app.includes("saveNote"));
   assert.ok(app.includes("noteFor"));
@@ -252,7 +252,7 @@ test("KOVA PWA accessibility includes skip navigation focus and reduced motion",
 test("KOVA PWA consumes Bridge 2.0 capability contract", async () => {
   const html = await readFile("pwa/index.html", "utf8");
   const app = await readFile("pwa/app.js", "utf8");
-  assert.ok(html.includes("Web / iPhone PWA 2.2.0"));
+  assert.ok(html.includes("Web / iPhone PWA 2.2.1"));
   assert.ok(app.includes("bridgeApiVersion"));
   assert.ok(app.includes("bridgeCapabilities"));
   assert.ok(app.includes("indexResult.value.apiVersion"));

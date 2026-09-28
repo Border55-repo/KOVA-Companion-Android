@@ -539,9 +539,7 @@ def send_due_reminders(
         subscription = subscriptions.get(subscription_id)
         if subscription is None or not _bool_field(subscription, "enabled", True):
             continue
-        if organization not in _array_strings(subscription, "organizations"):
-            continue
-
+        # An explicit personal reminder is independent of general corps alerts.
         events = events_by_organization.get(organization, [])
         event = next(
             (item for item in events if str(item.get("id", "")) == event_id),
