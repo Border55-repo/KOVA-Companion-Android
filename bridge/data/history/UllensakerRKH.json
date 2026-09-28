@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a1b654eee40f14e66df1d1ef",
+      "observedAt": "2026-09-28T19:16:48+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "f43f33278e6c1deb",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "18:00",
+        "type": "Rådsmøte",
+        "description": "sammen med fagledere ledermøte med øvre og fagleder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "9c414b03e8ca1992eb2a62d9",
+      "observedAt": "2026-09-28T19:16:48+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "44cc9df55987c6a2",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "-> 16:00",
+        "type": "Eksterne kurs",
+        "description": "LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "95e820466e367532",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "-> 15:00",
+        "type": "Eksterne kurs",
+        "description": "LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "5e6b32f3975e728e26303750",
+      "observedAt": "2026-09-28T19:16:48+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "132865d242823e50",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "18:00",
+        "type": "Rådsmøte",
+        "description": "ledermøte med øvre og fagleder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "316ff31dda624846073c5e28",
       "observedAt": "2026-09-28T19:12:06+02:00",
       "organization": "UllensakerRKH",
@@ -200,5 +254,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T19:12:06+02:00"
+  "updatedAt": "2026-09-28T19:16:48+02:00"
 }
