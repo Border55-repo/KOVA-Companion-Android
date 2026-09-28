@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T00:01:59+02:00",
-  "checkedAt": "2026-09-28T19:02:09+02:00",
+  "updatedAt": "2026-09-28T19:06:47+02:00",
+  "checkedAt": "2026-09-28T19:06:47+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 39,
+  "eventCount": 42,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -213,6 +213,33 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Psykososial Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "d716798a389cbce2",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "LØFT",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "bb609f0286bd1789",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "",
+      "type": "Eksterne kurs",
+      "description": "LØFT",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "95e820466e367532",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "-> 15:00",
+      "type": "Eksterne kurs",
+      "description": "LØFT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
