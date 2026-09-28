@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=2.2.0">
+  <link rel="stylesheet" href="./styles.css?v=2.2.1">
 </head>
 <body>
   <a class="skip-link" href="#mainContent">Hopp til innhold</a>
@@ -20,32 +20,93 @@
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Web / iPhone PWA 2.2.0</p>
+      <p class="version">Web / iPhone PWA 2.2.1</p>
     </div>
-    <a id="demoLink" class="ghost" href="?demo=1">Prøv demo</a>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
 
   <nav class="quick-nav" aria-label="Hurtignavigasjon">
-    <button data-scroll="mainContent">Oversikt</button>
+    <button data-scroll="controlsCard">Korps og vakter</button>
     <button data-view-jump="favorites">Mine vakter</button>
-    <button data-scroll="notificationSettings">Varsler</button>
-    <button data-scroll="controlsCard">Korps</button>
-    <button data-scroll="changelogCard">Endringer</button><button id="setupOpen">Kom i gang</button>
+    <button data-scroll="historyCard">Varselhistorikk</button>
+    <button data-scroll="pushCard">Varsler</button>
+    <button id="setupOpen">Hjelp</button>
   </nav>
 
   <main class="shell" id="mainContent">
-    <section id="demoBanner" class="notice hidden" role="status"><strong>DEMOMODUS · Eksempeldata</strong><p id="demoNotice">Ingen ekte varsler sendes. Endringer i demoen påvirker ikke dine lagrede valg.</p></section>
+
     <section id="setupCard" class="card hidden">
       <h2>Kom i gang</h2>
-      <p>1. Velg hjelpekorps under Korps og marker det som favoritt for korpsvarsler.</p>
+      <p>1. Velg ditt hjelpekorps. Se vaktene uten å logge inn i KOVA.</p>
       <p id="setupHint"></p>
-      <p>3. Åpne en aktivitet og trykk Favoritt. Du finner den igjen under Mine vakter.</p>
+      <p>3. Åpne en vakt, velg påminnelse og skriv eventuelt et lokalt notat. Vakten finner du igjen under Mine vakter.</p>
       <button id="setupDone" class="small">Ferdig / gjør dette senere</button>
     </section>
+
     <section id="installHint" class="notice ios-only hidden">
       <strong>Installer på iPhone</strong>
       <span>Åpne i Safari → Del → Legg til på Hjem-skjermen.</span>
+    </section>
+
+    <section id="controlsCard" class="controls card">
+      <label>
+        <span>Velg ditt hjelpekorps</span>
+        <input id="orgSearchInput" type="search" placeholder="Søk etter hjelpekorps">
+      </label>
+      <div class="org-row">
+        <label>
+          <span>Hjelpekorps</span>
+          <select id="orgSelect"></select>
+        </label>
+
+      </div>
+      <p id="dataQuality" class="muted"></p>
+
+      <details><summary>Søk og filtrer vakter</summary>
+      <label>
+        <span>Søk</span>
+        <input id="searchInput" type="search" placeholder="Aktivitet, type eller dato">
+      </label>
+
+      <label>
+        <span>Aktivitetstype</span>
+        <select id="typeSelect">
+          <option value="">Alle typer</option>
+        </select>
+      </label>
+
+      </details>
+      <div class="segmented" id="viewTabs">
+        <button data-view="all" class="active">Alle</button>
+        <button data-view="week">7 dager</button>
+        <button data-view="month">30 dager</button>
+        <button data-view="favorites">Mine vakter</button>
+        <button data-view="followed">Fulgte</button>
+      </div>
+    </section>
+
+    <section class="status card compact-status" aria-live="polite">
+      <div class="status-copy">
+        <span class="label">Oppdatert</span>
+        <strong id="statusText">Laster KOVA…</strong>
+        <p id="dataFreshness" role="status">Sist kontrollert: ukjent</p><span id="connectionText" class="muted">Sjekker nett…</span>
+      </div>
+      <button id="refreshBtn" class="small">Oppdater</button>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <span class="label">Aktiviteter</span>
+          <h2 id="orgTitle">KOVA</h2>
+          <p id="followSummary" class="muted"></p>
+        <p class="muted">Åpne en vakt for å velge pushpåminnelse og skrive et lokalt notat. Ingen KOVA-innlogging nødvendig for denne oversikten.</p>
+        </div>
+        <span id="eventCount" class="badge">0</span>
+      </div>
+      <div id="events" class="event-list"></div>
+      <div id="empty" class="empty hidden">Ingen aktiviteter matcher valget.</div>
+      <button id="loadMoreBtn" class="small load-more hidden">Vis flere</button>
     </section>
 
     <section id="myShiftsCard" class="my-shifts card hidden">
@@ -64,15 +125,30 @@
       <p id="myShiftsEmpty" class="muted hidden">Ingen kommende favorittvakter akkurat nå.</p>
     </section>
 
-    <section id="nextShiftCard" class="next-shift card hidden">
+    <section id="pushCard" class="notify-card card">
+      <div>
+        <span class="label">Varsler</span>
+        <strong id="notificationStatus">Sjekker varsler…</strong>
+        <span id="notificationHint" class="muted"></span>
+      </div>
+      <button id="notificationBtn" class="small">Aktiver varsler</button>
+    </section>
+
+    <section id="historyCard" class="card">
+      <div class="section-line"><h2>Varselhistorikk</h2><button id="notificationHistoryBtn" class="small">Oppdater historikk</button></div>
+      <p class="muted">De siste 100 pushvarslene mottatt på denne enheten. Trykk på et vaktvarsel for å åpne vakten. Historikken følger ikke med til andre enheter.</p>
+      <div id="notificationHistory" class="notification-history" aria-live="polite">Laster historikk…</div>
+    </section>
+
+    <section class="actions"><a class="primary" href="https://www.kova.no/" target="_blank" rel="noopener">Åpne Kova.no</a></section>
+
+    <details class="card"><summary>Flere vaktoversikter</summary><section id="nextShiftCard" class="next-shift card hidden">
       <span class="label">Neste vakt</span>
       <button id="nextShiftButton" class="next-shift-button">
         <strong id="nextShiftTitle"></strong>
         <span id="nextShiftMeta"></span>
       </button>
-    </section>
-
-    <section class="upcoming-grid">
+    </section><section class="upcoming-grid">
       <section class="card compact-list-card">
         <div class="section-line">
           <div>
@@ -92,35 +168,20 @@
         </div>
         <div id="laterEvents" class="mini-list"></div>
       </section>
-    </section>
+    </section></details>
 
-    <section class="status card compact-status" aria-live="polite">
-      <div class="status-copy">
-        <span class="label">Oppdatert</span>
-        <strong id="statusText">Laster KOVA…</strong>
-        <p id="dataFreshness" role="status">Sist kontrollert: ukjent</p><span id="connectionText" class="muted">Sjekker nett…</span>
-      </div>
-      <button id="refreshBtn" class="small">Oppdater</button>
-    </section>
-
-    <section class="notify-card card">
-      <div>
-        <span class="label">Varsler</span>
-        <strong id="notificationStatus">Sjekker varsler…</strong>
-        <span id="notificationHint" class="muted"></span>
-      </div>
-      <button id="notificationBtn" class="small">Aktiver varsler</button>
-    </section>
-
-    <p><button id="showDeviceId" class="small">Vis enhetskode for admintest</button><span id="deviceId" style="overflow-wrap:anywhere"></span></p>
-    <section id="notificationSettings" class="card notification-settings">
+    <details class="card"><summary>Flere valg og om appen</summary><section id="notificationSettings" class="card notification-settings">
       <div class="section-line">
         <div>
-          <span class="label">Varsler 2.0</span>
-          <strong>Hva vil du få beskjed om?</strong>
+          <span class="label">Valgfritt</span>
+          <strong>Generelle varsler om korpset</strong>
         </div>
-        <button id="notificationHistoryBtn" class="small">Historikk</button>
+
       </div>
+      <div class="org-buttons">
+          <button id="favoriteOrgBtn" class="small" aria-label="Slå generelle korpsvarsler av eller på">☆ Favoritt</button>
+          <button id="followBtn" class="small follow-btn">☆ Følg</button>
+        </div><p class="muted">Korpsvarsler gjelder nye, endrede og fjernede aktiviteter i valgt korps. Påminnelser for enkeltvakter velger du inne på vakten. Følg samler flere korps i oversikten.</p>
       <div class="check-grid" aria-label="Varseltyper">
         <label><input id="notifyAdded" type="checkbox" checked> Nye aktiviteter</label>
         <label><input id="notifyChanged" type="checkbox" checked> Endrede aktiviteter</label>
@@ -136,79 +197,17 @@
         <p class="muted">Slå av typer du ikke vil ha pushvarsler om.</p>
         <div id="notificationTypes" class="check-grid"></div>
       </details>
-      <div id="notificationHistory" class="notification-history hidden"></div>
-    </section>
 
-    <section id="controlsCard" class="controls card">
-      <label>
-        <span>Finn hjelpekorps</span>
-        <input id="orgSearchInput" type="search" placeholder="Søk etter hjelpekorps">
-      </label>
-      <div class="org-row">
-        <label>
-          <span>Hjelpekorps</span>
-          <select id="orgSelect"></select>
-        </label>
-        <div class="org-buttons">
-          <button id="favoriteOrgBtn" class="small" aria-label="Favorittkorps">☆ Favoritt</button>
-          <button id="followBtn" class="small follow-btn">☆ Følg</button>
-        </div>
-      </div>
-      <p id="dataQuality" class="muted"></p>
-
-      <label>
-        <span>Søk</span>
-        <input id="searchInput" type="search" placeholder="Aktivitet, type eller dato">
-      </label>
-
-      <label>
-        <span>Aktivitetstype</span>
-        <select id="typeSelect">
-          <option value="">Alle typer</option>
-        </select>
-      </label>
-
-      <div class="segmented" id="viewTabs">
-        <button data-view="all" class="active">Alle</button>
-        <button data-view="week">7 dager</button>
-        <button data-view="month">30 dager</button>
-        <button data-view="favorites">Mine vakter</button>
-        <button data-view="followed">Fulgte</button>
-      </div>
-    </section>
-
-    <section class="actions">
-      <a class="primary" href="https://www.kova.no/" target="_blank" rel="noopener">Logg inn / Åpne KOVA</a>
-      <a class="secondary-action" href="./admin/">Kova Companion – Admin</a>
-    </section>
-
-    <section>
-      <div class="section-head">
-        <div>
-          <span class="label">Aktiviteter</span>
-          <h2 id="orgTitle">KOVA</h2>
-          <p id="followSummary" class="muted"></p>
-        <p class="muted">Vaktvarsler kommer bare fra korps du har merket som favoritt. Følg samler korps i oversikten.</p>
-        </div>
-        <span id="eventCount" class="badge">0</span>
-      </div>
-      <div id="events" class="event-list"></div>
-      <div id="empty" class="empty hidden">Ingen aktiviteter matcher valget.</div>
-      <button id="loadMoreBtn" class="small load-more hidden">Vis flere</button>
-    </section>
-
-    <section id="changelogCard" class="card">
+    </section><p><button id="showDeviceId" class="small">Vis enhetskode for admintest</button><span id="deviceId" style="overflow-wrap:anywhere"></span></p><section id="changelogCard" class="card">
       <div class="section-line"><div><span class="label">Endringslogg</span><strong id="changelogTitle">Sjekker siste oppdatering…</strong></div></div>
       <p id="changelogBody" class="muted">Laster endringslogg…</p>
       <span id="changelogDate" class="muted"></span>
-    </section>
-
-    <section class="about card">
+    </section><section class="about card">
       <span class="label">Om prosjektet</span>
       <strong>Prosjekteier: Julian Nordli</strong>
       <p class="muted">Kova Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.</p>
       <a href="./privacy.html">Personvern</a>
-    </section>
+    </section><p><a href="./admin/">Administrasjon</a></p></details>
   </main>
 
   <dialog id="detailDialog">
@@ -221,9 +220,9 @@
       <div id="detailExtra" class="detail-extra"></div>
       <p id="detailChange" class="change-summary hidden"></p>
       <label class="note-field">
-        <span>Lokal note</span>
+        <span>Lokalt notat</span>
         <textarea id="detailNote" rows="3" placeholder="For eksempel oppmøtested, utstyr eller noe du vil huske"></textarea>
-        <small>Lagres bare på denne enheten.</small>
+        <small>Lagres automatisk, bare på denne enheten.</small>
       </label>
       <label class="reminder-field">
         <span>Påminnelse før vakten</span>
@@ -237,7 +236,6 @@
           <option value="1440">1 dag før</option>
           <option value="2880">2 dager før</option>
           <option value="10080">7 dager før</option>
-          <option value="20160">14 dager før</option>
         </select>
         <small id="reminderHint">Påminnelsen brukes i push og tas med når vakten legges i kalender.</small>
       </label>
@@ -266,6 +264,6 @@
     </article>
   </template>
 
-  <script type="module" src="./app.js?v=2.2.0"></script>
+  <script type="module" src="./app.js?v=2.2.1"></script>
 </body>
 </html>

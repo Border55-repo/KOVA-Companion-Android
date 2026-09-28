@@ -1,5 +1,5 @@
-const CACHE="kova-companion-pwa-v35";
-const SHELL=["./","./index.html","./styles.css?v=2.2.0","./app.js?v=2.2.0","./data-source.js","./demo-data.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
+const CACHE="kova-companion-pwa-v36";
+const SHELL=["./","./index.html","./styles.css?v=2.2.1","./app.js?v=2.2.1","./data-source.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
 const HISTORY_DB="kova-companion-pwa-history";
 const HISTORY_STORE="notifications";
 
@@ -23,14 +23,17 @@ async function storeNotification(item){
   const duplicate=await new Promise((resolve,reject)=>{
     const tx=db.transaction(HISTORY_STORE,"readwrite");
     const store=tx.objectStore(HISTORY_STORE);
+    let exists=false;
+    tx.oncomplete=()=>resolve(exists);
+    tx.onerror=()=>reject(tx.error);
+    tx.onabort=()=>reject(tx.error||new Error("Historikken kunne ikke lagres"));
     const get=store.get(item.key);
     get.onsuccess=()=>{
       if(get.result){
-        resolve(true);
+        exists=true;
         return;
       }
       store.put(item);
-      resolve(false);
     };
     get.onerror=()=>reject(get.error);
   });
@@ -235,6 +238,8 @@ self.addEventListener("message",event=>{
       if(event.source?.postMessage){
         event.source.postMessage({type:"notification-history-response",items});
       }
+    }).catch(()=>{
+      event.source?.postMessage({type:"notification-history-response",error:true});
     }));
   }
 });

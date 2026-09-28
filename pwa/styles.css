@@ -157,3 +157,9 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .shell>section{scroll-margin-top:110px}
 .topbar{gap:8px;flex-wrap:wrap}
 @media(max-width:600px){.quick-nav{grid-template-columns:repeat(3,1fr)}}
+
+/* Personal shifts and received push history are the primary flow. */
+.history-item{width:100%;text-align:left;white-space:normal;color:inherit;background:transparent}
+button.history-item:hover{background:var(--bg)}
+.shell>details{margin-top:16px}
+summary{cursor:pointer;font-weight:600;padding:8px 0}
