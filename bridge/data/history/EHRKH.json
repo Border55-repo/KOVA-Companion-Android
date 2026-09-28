@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2559d906c09b98d16331ec56",
+      "observedAt": "2026-09-29T00:01:21+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "80bf0af3d8dc94cf",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Øvelse/Ringløype Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "22db54ee37a217469956755a",
       "observedAt": "2026-09-27T21:51:39+02:00",
       "organization": "EHRKH",
@@ -62,5 +77,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T21:51:39+02:00"
+  "updatedAt": "2026-09-29T00:01:21+02:00"
 }

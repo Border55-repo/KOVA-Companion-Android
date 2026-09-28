@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8b8dd3347955418fabc70797",
+      "observedAt": "2026-09-29T00:01:24+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "5ea11dd454e233f4",
+        "dateIso": "2026-09-22",
+        "dateLabel": "tir. 22.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "For alle frivillige i hele lokalforeningen Møte: Beredskapskveld Nittedal RK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "0c8141b083ff6fb23fb7839e",
       "observedAt": "2026-09-28T23:51:21+02:00",
       "organization": "Nittedal RKH",
@@ -311,5 +326,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T23:51:21+02:00"
+  "updatedAt": "2026-09-29T00:01:24+02:00"
 }
