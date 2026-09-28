@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "10a888b46326166b1125ca2f",
+      "observedAt": "2026-09-28T15:36:41+02:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "d5275a7eab55178a",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA damer trening (oppmøte 1445 på stadion) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "2a3696f99acecdb37673ce00",
+      "observedAt": "2026-09-28T15:36:41+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "1cb83499885322dd",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA damer trening (tidspunkt ikke bekreftet) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "27c74f9329ba21f2cb860900",
       "observedAt": "2026-09-27T00:01:58+02:00",
       "organization": "RKAB",
@@ -146,5 +176,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:01:58+02:00"
+  "updatedAt": "2026-09-28T15:36:41+02:00"
 }
