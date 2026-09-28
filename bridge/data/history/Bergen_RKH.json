@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "af980df189cf4c10eebd1c8b",
+      "observedAt": "2026-09-28T12:31:33+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "f33005da6eef3a38",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann damer mot HJK Helsinki",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "0537c69e0e5e141aee2789e3",
       "observedAt": "2026-09-27T08:06:39+02:00",
       "organization": "Bergen RKH",
@@ -116,5 +131,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T08:06:39+02:00"
+  "updatedAt": "2026-09-28T12:31:33+02:00"
 }
