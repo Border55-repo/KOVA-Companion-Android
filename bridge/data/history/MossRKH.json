@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cbd5f25b1d3246f1fafb9ded",
+      "observedAt": "2026-09-28T22:26:10+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "9e82a0002a24a2c3",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:30",
+        "type": "Korpskveld",
+        "description": "Øvelse Sarpsborg Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "c7cae493fc40c016b151d5cf",
+      "observedAt": "2026-09-28T22:26:10+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "a6e5785551c2535c",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Førstehjelp-ringløype Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "2db5d50985b339a7",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Førstehjelp-ringløype Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "524277b25568bd1a3f7019ee",
+      "observedAt": "2026-09-28T22:26:10+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8d05c3550221687f",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Øvelse Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "79bbad3fb1435df86766c8c9",
       "observedAt": "2026-09-28T21:06:37+02:00",
       "organization": "MossRKH",
@@ -194,5 +248,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T21:06:37+02:00"
+  "updatedAt": "2026-09-28T22:26:10+02:00"
 }

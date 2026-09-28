@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T21:06:37+02:00",
-  "checkedAt": "2026-09-28T22:06:18+02:00",
+  "updatedAt": "2026-09-28T22:26:10+02:00",
+  "checkedAt": "2026-09-28T22:26:10+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
   "eventCount": 33,
   "changes": {
     "added": 1,
-    "removed": 0,
-    "changed": 0
+    "removed": 1,
+    "changed": 1
   },
   "events": [
     {
@@ -117,12 +117,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
-      "id": "8d05c3550221687f",
+      "id": "a6e5785551c2535c",
       "dateIso": "2026-10-13",
       "dateLabel": "tir. 13.10",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Øvelse Korpskvelder",
+      "description": "Førstehjelp-ringløype Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
@@ -198,12 +198,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
-      "id": "2db5d50985b339a7",
+      "id": "9e82a0002a24a2c3",
       "dateIso": "2026-10-20",
       "dateLabel": "tir. 20.10",
-      "time": "18:30",
+      "time": "17:30",
       "type": "Korpskveld",
-      "description": "Førstehjelp-ringløype Korpskvelder",
+      "description": "Øvelse Sarpsborg Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
