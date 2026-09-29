@@ -1,4 +1,5 @@
 import {createSnapshotSource,freshness} from './data-source.js';
+import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.2.2';
 const storage=localStorage;
 const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
@@ -12,6 +13,8 @@ const state = {
   events: [],
   view: "all",
   search: "",
+  date: "",
+  calendarMonth: dateKey(new Date()).slice(0,7),
   type: "",
   favorites: new Set(JSON.parse(storage.getItem("kova.pwa.favorites") || "[]")),
   favoriteMeta: JSON.parse(storage.getItem("kova.pwa.favoriteMeta") || "{}"),
@@ -692,24 +695,78 @@ function renderEverydayDashboard(){
   renderMiniList("laterEvents",later);
 }
 
-function filteredEvents(){
+function selectCalendarDate(date){
+  state.date=date;
+  if(date)state.calendarMonth=date.slice(0,7);
+  state.displayLimit=20;
+  if(date && ["week","month"].includes(state.view)){
+    state.view="all";
+    document.querySelectorAll("#viewTabs button").forEach(button=>button.classList.toggle("active",button.dataset.view===state.view));
+  }
+  render();
+}
+function renderCalendar(){
+  $("calendarDate").value=state.date;
+  $("calendarClear").disabled=!state.date;
+  $("calendarMonth").textContent=new Intl.DateTimeFormat("nb-NO",{month:"long",year:"numeric"}).format(new Date(state.calendarMonth+"-01T12:00:00"));
+  const counts=new Map();
+  for(const event of filteredEvents("",true)){
+    if(event.dateIso)counts.set(event.dateIso,(counts.get(event.dateIso)||0)+1);
+  }
+  const grid=$("calendarDays");
+  grid.replaceChildren();
+  const today=dateKey(new Date());
+  for(const day of monthDays(state.calendarMonth)){
+    const cell=document.createElement(day?"button":"span");
+    if(day){
+      const count=counts.get(day)||0;
+      cell.type="button";
+      cell.className="calendar-day";
+      cell.textContent=String(Number(day.slice(-2)));
+      cell.setAttribute("aria-label",`${new Intl.DateTimeFormat("nb-NO",{dateStyle:"full"}).format(new Date(day+"T12:00:00"))}: ${count} ${count===1?"vakt":"vakter"}`);
+      cell.setAttribute("aria-pressed",String(day===state.date));
+      if(day===today)cell.setAttribute("aria-current","date");
+      cell.dataset.date=day;
+      if(count){
+        const badge=document.createElement("small");
+        badge.textContent=String(count);
+        badge.setAttribute("aria-hidden","true");
+        cell.appendChild(badge);
+      }
+      cell.onclick=()=>{
+        selectCalendarDate(day);
+        grid.querySelector(`[data-date="${day}"]`)?.focus();
+      };
+    }else cell.setAttribute("aria-hidden","true");
+    grid.appendChild(cell);
+  }
+}
+function filteredEvents(selectedDate=state.date,calendar=false){
   const q=state.search.trim().toLowerCase();
   return state.events.filter(event=>{
     if(state.view==="favorites" && !state.favorites.has(eventKey(event)))return false;
-    if(state.view==="week" && !dateInRange(event.dateIso,7))return false;
-    if(state.view==="month" && !dateInRange(event.dateIso,30))return false;
-    if(state.view==="all" && event.dateIso && !dateInRange(event.dateIso,3650))return false;
+    if(selectedDate && event.dateIso!==selectedDate)return false;
+    if(!selectedDate && !calendar){
+      if(state.view==="week" && !dateInRange(event.dateIso,7))return false;
+      if(state.view==="month" && !dateInRange(event.dateIso,30))return false;
+      if(state.view==="all" && event.dateIso && !dateInRange(event.dateIso,3650))return false;
+    }
     if(state.type && event.type!==state.type)return false;
     return !q || [event.description,event.type,event.dateLabel,event.time,event.orgName]
       .some(v=>(v||"").toLowerCase().includes(q));
   }).sort((a,b)=>(a.dateIso+a.time).localeCompare(b.dateIso+b.time));
 }
 function render(){
+  renderCalendar();
   eventsEl.innerHTML="";
   const all=filteredEvents();
   const list=state.view==="favorites" ? all.slice(0,state.displayLimit) : all;
   $("eventCount").textContent=all.length;
   emptyEl.classList.toggle("hidden",all.length!==0);
+  emptyEl.textContent=state.date ? "Ingen vakter på valgt dato med disse filtrene. Prøv en annen dag eller vis alle datoer." : "Ingen aktiviteter matcher valget.";
+  $("selectedDateSummary").textContent=state.date
+    ? `${all.length} ${all.length===1?"vakt":"vakter"} ${new Intl.DateTimeFormat("nb-NO",{dateStyle:"full"}).format(new Date(state.date+"T12:00:00"))}`
+    : "";
   $("loadMoreBtn").classList.toggle("hidden",state.view!=="favorites"||list.length>=all.length);
   $("loadMoreBtn").textContent=list.length<all.length ? `Vis flere (${all.length-list.length} igjen)` : "Vis flere";
   renderEverydayDashboard();
@@ -1209,6 +1266,10 @@ document.querySelectorAll(".quick-nav button[data-view-jump]").forEach(button=>{
 });
 typeSelect.addEventListener("change",()=>{state.type=typeSelect.value;state.displayLimit=20;render()});
 searchInput.addEventListener("input",()=>{state.search=searchInput.value;state.displayLimit=20;render()});
+$("calendarDate").addEventListener("change",()=>selectCalendarDate($("calendarDate").value));
+$("calendarClear").onclick=()=>selectCalendarDate("");
+$("calendarPrev").onclick=()=>{state.calendarMonth=moveMonth(state.calendarMonth,-1);renderCalendar()};
+$("calendarNext").onclick=()=>{state.calendarMonth=moveMonth(state.calendarMonth,1);renderCalendar()};
 $("refreshBtn").onclick=queuedRefresh;
 $("followBtn").onclick=async()=>{
   state.followed.has(state.org)?state.followed.delete(state.org):state.followed.add(state.org);
@@ -1221,6 +1282,7 @@ $("followBtn").onclick=async()=>{
 $("viewTabs").addEventListener("click",async event=>{
   const btn=event.target.closest("button[data-view]"); if(!btn)return;
   state.view=btn.dataset.view;
+  if(["all","week","month"].includes(state.view))state.date="";
   state.displayLimit=20;
   document.querySelectorAll("#viewTabs button").forEach(b=>b.classList.toggle("active",b===btn));
   await loadEvents();

@@ -163,3 +163,15 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 button.history-item:hover{background:var(--bg)}
 .shell>details{margin-top:16px}
 summary{cursor:pointer;font-weight:600;padding:8px 0}
+.calendar-card{margin:12px 0;scroll-margin-top:125px}
+.calendar-card h2{margin:0}
+.calendar-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0}
+.calendar-weekdays,.calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;text-align:center}
+.calendar-weekdays{color:var(--muted);font-size:.78rem;margin-bottom:6px}
+.calendar-day{min-height:48px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);padding:5px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.calendar-day small{font-size:.65rem;border-radius:8px;padding:0 5px;background:var(--blue);color:#fff}
+.calendar-day[aria-current=date]{border:2px solid var(--blue)}
+.calendar-day[aria-pressed=true]{background:var(--red);color:#fff;border-color:var(--red)}
+.calendar-selection{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin-top:12px}
+.calendar-selection label{display:grid;gap:6px;min-width:0;flex:1}
+.calendar-selection input{width:100%;min-width:0}
