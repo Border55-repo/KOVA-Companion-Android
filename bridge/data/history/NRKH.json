@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "117ecc50b3b6bb9a54709f11",
+      "observedAt": "2026-09-30T00:01:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "08882f2623b36d00",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Førtehjelpstrening Alver kyrkje Førstehjelpskurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "92f40322294cf4cb2f43de14",
+      "observedAt": "2026-09-30T00:01:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bf38fe3cb3fa5580",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Omvisning, Brannstasjonen Korpskvelder, høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "bb3c776b015fbf3388c7230b",
       "observedAt": "2026-09-28T15:21:50+02:00",
       "organization": "NRKH",
@@ -185,5 +215,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T15:21:50+02:00"
+  "updatedAt": "2026-09-30T00:01:17+02:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2daedd3e697424f23ffd441c",
+      "observedAt": "2026-09-30T00:01:10+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "056040ecd575dcaa",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "16:00",
+        "type": "Interne kurs",
+        "description": "Omsorg låner vito",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "7904535c8fa284864464097f",
       "observedAt": "2026-09-29T19:26:26+02:00",
       "organization": "UllensakerRKH",
@@ -398,5 +413,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T19:26:26+02:00"
+  "updatedAt": "2026-09-30T00:01:10+02:00"
 }
