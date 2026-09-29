@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa5946e4d28ad14edc398c42",
+      "observedAt": "2026-09-29T17:26:36+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "64e6c1e6ae52447a",
+        "dateIso": "2026-11-23",
+        "dateLabel": "man. 23.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Opplæring i nye samband Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "cf6f1175e6efbc08a05f5dc1",
+      "observedAt": "2026-09-29T17:26:36+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "983b3b27728ea7ac",
+        "dateIso": "2026-12-07",
+        "dateLabel": "man. 7.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Vinterklagjøring og sesongavslutning Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "e77d269387d59754faa9c07c",
+      "observedAt": "2026-09-29T17:26:36+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4c9a9c2f1c7c2d14",
+        "dateIso": "2026-11-23",
+        "dateLabel": "man. 23.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Besøke Seljord. Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "509de4faa1f024ce1609406c",
+      "observedAt": "2026-09-29T17:26:36+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a1504e07f450686d",
+        "dateIso": "2026-12-07",
+        "dateLabel": "man. 7.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Vinter klagjøring og sesong avslutning Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
       "changeId": "0823db127cc76833be6d9f9b",
       "observedAt": "2026-09-24T20:37:45+02:00",
       "organization": "BøSauheradRKH",
@@ -17,5 +77,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-24T20:37:45+02:00"
+  "updatedAt": "2026-09-29T17:26:36+02:00"
 }

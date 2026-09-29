@@ -7,12 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T20:37:45+02:00",
+  "updatedAt": "2026-09-29T17:26:36+02:00",
+  "checkedAt": "2026-09-29T17:26:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
   "eventCount": 23,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 2,
+    "removed": 2,
     "changed": 0
   },
   "events": [
@@ -134,21 +135,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "4c9a9c2f1c7c2d14",
+      "id": "64e6c1e6ae52447a",
       "dateIso": "2026-11-23",
       "dateLabel": "man. 23.11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Besøke Seljord. Korpskveld",
+      "description": "Opplæring i nye samband Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "a1504e07f450686d",
+      "id": "983b3b27728ea7ac",
       "dateIso": "2026-12-07",
       "dateLabel": "man. 7.12",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Vinter klagjøring og sesong avslutning Korpskveld",
+      "description": "Vinterklagjøring og sesongavslutning Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
@@ -223,6 +224,5 @@
       "description": "Natt til 17.mai Sanitetsvakt - sentrum",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     }
-  ],
-  "checkedAt": "2026-09-29T17:06:15+02:00"
+  ]
 }
