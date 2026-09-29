@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T17:46:23+02:00",
-  "checkedAt": "2026-09-29T17:46:23+02:00",
+  "updatedAt": "2026-09-29T17:51:33+02:00",
+  "checkedAt": "2026-09-29T17:51:33+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 44,
+  "eventCount": 46,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -301,6 +301,24 @@
       "dateIso": "2026-11-20",
       "dateLabel": "fre. 20.11",
       "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "EXPOV Arrangement, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "8b5ba073ed7f93c0",
+      "dateIso": "2026-11-20",
+      "dateLabel": "fre. 20.11",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "EXPOV Arrangement, The Qube",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "830ecfb2acd72a3e",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "-> 02:00",
       "type": "Sanitetsvakt",
       "description": "EXPOV Arrangement, The Qube",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
