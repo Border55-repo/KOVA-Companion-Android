@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5727ae30066b1469bc7d43c6",
+      "observedAt": "2026-09-29T13:31:13+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "c8868b54309052d9",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "ff1ab4cbf9eb49b9ad6816b8",
       "observedAt": "2026-09-28T00:06:33+02:00",
       "organization": "SteinkjerRKH",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T00:06:33+02:00"
+  "updatedAt": "2026-09-29T13:31:13+02:00"
 }
