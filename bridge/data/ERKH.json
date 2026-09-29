@@ -7,24 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-24T14:58:56+02:00",
+  "updatedAt": "2026-09-30T00:05:46+02:00",
+  "checkedAt": "2026-09-30T00:05:46+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH",
-  "eventCount": 3,
+  "eventCount": 2,
   "changes": {
-    "added": 2,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "31458923f433bda6",
-      "dateIso": "2026-09-23",
-      "dateLabel": "ons. 23.9",
-      "time": "17:00",
-      "type": "Eksterne kurs",
-      "description": "Førstehjelpskurs Førstehjelpskurs sept 26",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
-    },
     {
       "id": "10a3ad8428e3067e",
       "dateIso": "2026-09-24",
@@ -43,6 +35,5 @@
       "description": "Føstehjelpskurs Føstehjelpskurs Ølen Torg",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
     }
-  ],
-  "checkedAt": "2026-09-29T23:45:46+02:00"
+  ]
 }
