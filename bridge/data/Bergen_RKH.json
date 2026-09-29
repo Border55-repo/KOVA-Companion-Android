@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T12:31:33+02:00",
-  "checkedAt": "2026-09-29T18:06:24+02:00",
+  "updatedAt": "2026-09-29T18:26:41+02:00",
+  "checkedAt": "2026-09-29T18:26:41+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 41,
+  "eventCount": 44,
   "changes": {
-    "added": 1,
+    "added": 3,
     "removed": 0,
     "changed": 0
   },
@@ -141,6 +141,15 @@
       "time": "17:00",
       "type": "Øvelse",
       "description": "Tauredning Øvelse tauredning",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "013db53adc3c4878",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Viking Brann mot Viking",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
@@ -288,6 +297,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
+      "id": "19a87f97a3098e0c",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot molde Brann mot molde",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
       "id": "e3b310d1a7be90d7",
       "dateIso": "2026-11-02",
       "dateLabel": "man. 2.11",
@@ -366,6 +384,15 @@
       "time": "16:45",
       "type": "Sanitetsvakt",
       "description": "Brann mot AGF Aarhus Brann mot AGF Aarhus",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "5cebb63ccae1855b",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Kristiansund Brann mot Kristiansund",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
