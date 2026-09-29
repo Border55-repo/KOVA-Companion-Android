@@ -163,3 +163,32 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 button.history-item:hover{background:var(--bg)}
 .shell>details{margin-top:16px}
 summary{cursor:pointer;font-weight:600;padding:8px 0}
+.calendar-card{margin:12px 0;scroll-margin-top:125px}
+.calendar-card h2{margin:0}
+.calendar-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0}
+.calendar-weekdays,.calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;text-align:center}
+.calendar-weekdays{color:var(--muted);font-size:.78rem;margin-bottom:6px}
+.calendar-day{min-height:48px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);padding:5px 2px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.calendar-day small{font-size:.65rem;border-radius:8px;padding:0 5px;background:var(--blue);color:#fff}
+.calendar-day[aria-current=date]{border:2px solid var(--blue)}
+.calendar-day[aria-pressed=true]{background:var(--red);color:#fff;border-color:var(--red)}
+.calendar-selection{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin-top:12px}
+.calendar-selection label{display:grid;gap:6px;min-width:0;flex:1}
+.calendar-selection input{width:100%;min-width:0}
+
+/* Ambulance blue-light theme: opaque reading surfaces over slow alternating light. */
+:root{color-scheme:dark;--red:#0868c9;--blue:#147ac5;--bg:#061323;--card:#10243a;--text:#edf6ff;--muted:#afc5da;--border:#294763;--shadow:0 8px 28px rgba(0,0,0,.2)}
+body{isolation:isolate;background:linear-gradient(145deg,#061323,#071d34 60%,#061323);min-height:100vh}
+.topbar{background:linear-gradient(110deg,#061426,#103e66);border-bottom:3px solid #dfe65b;box-shadow:0 5px 25px #008dff30}
+.topbar .eyebrow{color:#e7eb85}
+.type{color:#6acbff}
+a{color:#82d4ff}
+.primary{color:#fff}
+.card,.event-card{box-shadow:var(--shadow)}
+.ambulance-lights{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.ambulance-lights span{position:absolute;top:9%;left:-22%;width:75vw;height:88vh;background:radial-gradient(ellipse,#168dff 0%,#006de990 28%,transparent 65%);opacity:.12;animation:ambulance-pulse 3.2s ease-in-out infinite;will-change:opacity}
+.ambulance-lights span+span{left:auto;right:-22%;background:radial-gradient(ellipse,#54c9ff 0%,#097cf590 28%,transparent 65%);animation-delay:-1.6s}
+@keyframes ambulance-pulse{0%,100%{opacity:.10}35%,50%{opacity:.42}70%{opacity:.10}}
+.lights-off .ambulance-lights{display:none}
+@media(prefers-reduced-motion:reduce){.ambulance-lights span{animation:none;opacity:.12;will-change:auto}}
+@media print{.ambulance-lights{display:none}}

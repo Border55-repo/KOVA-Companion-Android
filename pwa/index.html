@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#c9152b">
+  <meta name="theme-color" content="#071a30">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Kova Companion">
@@ -12,15 +12,16 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=2.2.1">
+  <link rel="stylesheet" href="./styles.css?v=2.2.2">
 </head>
 <body>
+  <div class="ambulance-lights" aria-hidden="true"><span></span><span></span></div>
   <a class="skip-link" href="#mainContent">Hopp til innhold</a>
   <header class="topbar">
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Web / iPhone PWA 2.2.1</p>
+      <p class="version">Web / iPhone PWA 2.2.2</p>
     </div>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
@@ -28,6 +29,7 @@
   <nav class="quick-nav" aria-label="Hurtignavigasjon">
     <button data-scroll="controlsCard">Korps og vakter</button>
     <button data-view-jump="favorites">Mine vakter</button>
+    <button data-scroll="calendarCard">Kalender</button>
     <button data-scroll="historyCard">Varselhistorikk</button>
     <button data-scroll="pushCard">Varsler</button>
     <button id="setupOpen">Hjelp</button>
@@ -83,6 +85,23 @@
         <button data-view="favorites">Mine vakter</button>
         <button data-view="followed">Fulgte</button>
       </div>
+    </section>
+
+    <section id="calendarCard" class="card calendar-card" aria-labelledby="calendarTitle">
+      <h2 id="calendarTitle">Kalender</h2>
+      <p class="muted">Velg en dag for å se vaktene. Tallene viser antall vakter som passer valgt korps og søk. Bare tilgjengelige KOVA-data vises.</p>
+      <div class="calendar-controls">
+        <button id="calendarPrev" class="small" aria-label="Forrige måned">‹</button>
+        <strong id="calendarMonth" aria-live="polite"></strong>
+        <button id="calendarNext" class="small" aria-label="Neste måned">›</button>
+      </div>
+      <div class="calendar-weekdays" aria-hidden="true"><span>Man</span><span>Tir</span><span>Ons</span><span>Tor</span><span>Fre</span><span>Lør</span><span>Søn</span></div>
+      <div id="calendarDays" class="calendar-days" role="group" aria-label="Velg dag"></div>
+      <div class="calendar-selection">
+        <label for="calendarDate">Velg dato<input id="calendarDate" type="date"></label>
+        <button id="calendarClear" class="small" disabled>Vis alle datoer</button>
+      </div>
+      <p id="selectedDateSummary" role="status"></p>
     </section>
 
     <section class="status card compact-status" aria-live="polite">
@@ -207,7 +226,7 @@
       <strong>Prosjekteier: Julian Nordli</strong>
       <p class="muted">Kova Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.</p>
       <a href="./privacy.html">Personvern</a>
-    </section><p><a href="./admin/">Administrasjon</a></p></details>
+    </section><p><button id="backgroundLightsBtn" class="small" aria-pressed="true">Blålys i bakgrunnen: på</button></p><p class="muted">Blålysene står stille når enheten er satt til redusert bevegelse.</p><p><a href="./admin/">Administrasjon</a></p></details>
   </main>
 
   <dialog id="detailDialog">
@@ -264,6 +283,6 @@
     </article>
   </template>
 
-  <script type="module" src="./app.js?v=2.2.1"></script>
+  <script type="module" src="./app.js?v=2.2.2"></script>
 </body>
 </html>
