@@ -9,13 +9,13 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-09-29T12:06:08+02:00",
-  "lastSuccessfulRunAt": "2026-09-29T12:06:08+02:00",
-  "lastFullySuccessfulRunAt": "2026-09-29T12:06:08+02:00",
+  "checkedAt": "2026-09-29T12:46:11+02:00",
+  "lastSuccessfulRunAt": "2026-09-29T12:46:11+02:00",
+  "lastFullySuccessfulRunAt": "2026-09-29T12:46:11+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-09-29T12:06:08+02:00",
-  "lastPushCount": 1,
+  "lastPushAt": "2026-09-29T12:46:11+02:00",
+  "lastPushCount": 2,
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "polledThisRun": 14,
@@ -28,7 +28,7 @@
       "status": "ok",
       "eventCount": 21,
       "updatedAt": "2026-09-29T00:01:21+02:00",
-      "checkedAt": "2026-09-29T12:05:56+02:00",
+      "checkedAt": "2026-09-29T12:46:02+02:00",
       "error": null
     },
     {
@@ -37,9 +37,9 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "eventCount": 50,
-      "updatedAt": "2026-09-29T00:01:24+02:00",
-      "checkedAt": "2026-09-29T12:05:57+02:00",
+      "eventCount": 54,
+      "updatedAt": "2026-09-29T12:46:02+02:00",
+      "checkedAt": "2026-09-29T12:46:04+02:00",
       "error": null
     },
     {
@@ -50,7 +50,7 @@
       "status": "ok",
       "eventCount": 49,
       "updatedAt": "2026-09-29T00:01:27+02:00",
-      "checkedAt": "2026-09-29T12:05:58+02:00",
+      "checkedAt": "2026-09-29T12:46:05+02:00",
       "error": null
     },
     {
@@ -61,7 +61,7 @@
       "status": "ok",
       "eventCount": 43,
       "updatedAt": "2026-09-29T00:01:28+02:00",
-      "checkedAt": "2026-09-29T12:05:58+02:00",
+      "checkedAt": "2026-09-29T12:46:05+02:00",
       "error": null
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "eventCount": 13,
       "updatedAt": "2026-09-27T00:16:34+02:00",
-      "checkedAt": "2026-09-29T12:05:59+02:00",
+      "checkedAt": "2026-09-29T12:46:06+02:00",
       "error": null
     },
     {
@@ -83,7 +83,7 @@
       "status": "ok",
       "eventCount": 40,
       "updatedAt": "2026-09-29T12:05:59+02:00",
-      "checkedAt": "2026-09-29T12:06:01+02:00",
+      "checkedAt": "2026-09-29T12:46:06+02:00",
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "eventCount": 19,
       "updatedAt": "2026-09-23T01:26:26+02:00",
-      "checkedAt": "2026-09-29T12:06:02+02:00",
+      "checkedAt": "2026-09-29T12:46:07+02:00",
       "error": null
     },
     {
@@ -105,7 +105,7 @@
       "status": "ok",
       "eventCount": 6,
       "updatedAt": "2026-09-23T01:26:27+02:00",
-      "checkedAt": "2026-09-29T12:06:02+02:00",
+      "checkedAt": "2026-09-29T12:46:07+02:00",
       "error": null
     },
     {
@@ -116,7 +116,7 @@
       "status": "ok",
       "eventCount": 46,
       "updatedAt": "2026-09-28T23:51:26+02:00",
-      "checkedAt": "2026-09-29T12:06:03+02:00",
+      "checkedAt": "2026-09-29T12:46:08+02:00",
       "error": null
     },
     {
@@ -127,7 +127,7 @@
       "status": "ok",
       "eventCount": 35,
       "updatedAt": "2026-09-29T00:11:08+02:00",
-      "checkedAt": "2026-09-29T12:06:03+02:00",
+      "checkedAt": "2026-09-29T12:46:08+02:00",
       "error": null
     },
     {
@@ -138,7 +138,7 @@
       "status": "ok",
       "eventCount": 42,
       "updatedAt": "2026-09-29T00:11:10+02:00",
-      "checkedAt": "2026-09-29T12:06:04+02:00",
+      "checkedAt": "2026-09-29T12:46:09+02:00",
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "status": "ok",
       "eventCount": 15,
       "updatedAt": "2026-09-27T16:06:55+02:00",
-      "checkedAt": "2026-09-29T12:06:05+02:00",
+      "checkedAt": "2026-09-29T12:46:09+02:00",
       "error": null
     },
     {
@@ -160,18 +160,18 @@
       "status": "ok",
       "eventCount": 1,
       "updatedAt": "2026-09-22T23:45:03+02:00",
-      "checkedAt": "2026-09-29T12:06:06+02:00",
+      "checkedAt": "2026-09-29T12:46:10+02:00",
       "error": null
     },
     {
-      "name": "Aurskog-Høland Røde Kors Hjelpekorps",
-      "code": "AHRKH",
+      "name": "Arna og Åsane Røde Kors Hjelpekorps",
+      "code": "AÅRKH",
       "category": "hjelpekorps",
-      "file": "AHRKH.json",
+      "file": "A_RKH.json",
       "status": "ok",
-      "eventCount": 20,
-      "updatedAt": "2026-09-27T00:06:49+02:00",
-      "checkedAt": "2026-09-29T12:06:07+02:00",
+      "eventCount": 8,
+      "updatedAt": "2026-09-26T00:06:24+02:00",
+      "checkedAt": "2026-09-29T12:46:10+02:00",
       "error": null
     }
   ]

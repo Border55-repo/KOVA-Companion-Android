@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4465c63eda2fe08a5c57b283",
+      "observedAt": "2026-09-29T12:46:02+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "da090b89a1edc868",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Ordinært arbeidsmøte, fokus beredskap Møte: Styremøte i lokalforeningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "ad953bdc34baf15eb67657b3",
+      "observedAt": "2026-09-29T12:46:02+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "d2ec39172474d434",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "-> 15:30",
+        "type": "Eksterne møter",
+        "description": "Røde Kors konferanse, Clarion Oslo Airport Konferanse: LØFT 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "8b8dd3347955418fabc70797",
       "observedAt": "2026-09-29T00:01:24+02:00",
       "organization": "Nittedal RKH",
@@ -326,5 +356,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T00:01:24+02:00"
+  "updatedAt": "2026-09-29T12:46:02+02:00"
 }
