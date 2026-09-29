@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6895bad3d0e1ad6760fdc280",
+      "observedAt": "2026-09-29T17:06:18+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "5ce1d7f03d6249bc",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Bowling Sosial kveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "cbd5f25b1d3246f1fafb9ded",
       "observedAt": "2026-09-28T22:26:10+02:00",
       "organization": "MossRKH",
@@ -248,5 +263,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T22:26:10+02:00"
+  "updatedAt": "2026-09-29T17:06:18+02:00"
 }

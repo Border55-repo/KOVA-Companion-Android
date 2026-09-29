@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-28T22:26:10+02:00",
-  "checkedAt": "2026-09-29T16:46:10+02:00",
+  "updatedAt": "2026-09-29T17:06:18+02:00",
+  "checkedAt": "2026-09-29T17:06:18+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 33,
+  "eventCount": 34,
   "changes": {
     "added": 1,
-    "removed": 1,
-    "changed": 1
+    "removed": 0,
+    "changed": 0
   },
   "events": [
     {
@@ -222,6 +222,15 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Finsøk/Grovsøk Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "5ce1d7f03d6249bc",
+      "dateIso": "2026-10-31",
+      "dateLabel": "lør. 31.10",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Bowling Sosial kveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
