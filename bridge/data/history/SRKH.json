@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "89637f5c0357e10ddfa96287",
+      "observedAt": "2026-09-29T19:31:43+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "395a36ca41082469",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Tur Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "6e7d8b26811c27e402e6fb93",
       "observedAt": "2026-09-28T12:02:10+02:00",
       "organization": "SRKH",
@@ -230,5 +245,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T12:02:10+02:00"
+  "updatedAt": "2026-09-29T19:31:43+02:00"
 }
