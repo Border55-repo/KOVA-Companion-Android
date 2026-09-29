@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "07cb52b2501df9f3104d308c",
+      "observedAt": "2026-09-29T17:46:23+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "65959a4ef69aa007",
+        "dateIso": "2026-11-20",
+        "dateLabel": "fre. 20.11",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "EXPOV Arrangement, The Qube",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "8b6e7dfbc4f91d0f58a4f111",
       "observedAt": "2026-09-29T00:01:28+02:00",
       "organization": "UllensakerRKH",
@@ -299,5 +314,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T00:01:28+02:00"
+  "updatedAt": "2026-09-29T17:46:23+02:00"
 }
