@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "642bbc501681500ff434d167",
+      "observedAt": "2026-09-29T12:05:59+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "9a4946bc1bf1c640",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "17:30",
+        "type": "Korpskveld",
+        "description": "Søksøvelse i Asker Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "330ec47ebf9f288368ccfbe4",
       "observedAt": "2026-09-27T00:16:36+02:00",
       "organization": "BærumRKH",
@@ -62,5 +77,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:16:36+02:00"
+  "updatedAt": "2026-09-29T12:05:59+02:00"
 }

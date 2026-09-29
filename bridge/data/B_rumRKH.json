@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-27T00:16:36+02:00",
-  "checkedAt": "2026-09-29T11:46:05+02:00",
+  "updatedAt": "2026-09-29T12:05:59+02:00",
+  "checkedAt": "2026-09-29T12:05:59+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 39,
+  "eventCount": 40,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -42,6 +42,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Søksøvelse på korpshytta Korpskveld 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "9a4946bc1bf1c640",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Søksøvelse i Asker Korpskveld 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
