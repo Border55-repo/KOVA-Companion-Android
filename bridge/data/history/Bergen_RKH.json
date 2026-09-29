@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6e26cca5dd079e8c0247d072",
+      "observedAt": "2026-09-29T18:41:43+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "e46d89e7454254b0",
+        "dateIso": "2026-12-13",
+        "dateLabel": "søn. 13.12",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Aalesund Brann mot Aalesund",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "78f565f6385bd2be696ab659",
       "observedAt": "2026-09-29T18:26:41+02:00",
       "organization": "Bergen RKH",
@@ -176,5 +191,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T18:26:41+02:00"
+  "updatedAt": "2026-09-29T18:41:43+02:00"
 }
