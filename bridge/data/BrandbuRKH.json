@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-27T00:16:34+02:00",
-  "checkedAt": "2026-09-29T23:50:56+02:00",
+  "updatedAt": "2026-09-30T00:10:39+02:00",
+  "checkedAt": "2026-09-30T00:10:39+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH",
-  "eventCount": 13,
+  "eventCount": 12,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "c7b61c0688cdfccd",
-      "dateIso": "2026-09-23",
-      "dateLabel": "ons. 23.9",
-      "time": "19:30",
-      "type": "Sanitetsvakt",
-      "description": "Elvelangs Vigga",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
-    },
     {
       "id": "88a0f545463f13b8",
       "dateIso": "2026-09-25",

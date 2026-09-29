@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "58815ea7e50accd478ed76f3",
+      "observedAt": "2026-09-30T00:10:39+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c7b61c0688cdfccd",
+        "dateIso": "2026-09-23",
+        "dateLabel": "ons. 23.9",
+        "time": "19:30",
+        "type": "Sanitetsvakt",
+        "description": "Elvelangs Vigga",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "7cf8a82ee6f67006066ba1e8",
       "observedAt": "2026-09-27T00:16:34+02:00",
       "organization": "BrandbuRKH",
@@ -17,5 +32,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:16:34+02:00"
+  "updatedAt": "2026-09-30T00:10:39+02:00"
 }
