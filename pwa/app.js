@@ -1447,3 +1447,15 @@ function revealLinkedSection(){
 }
 window.addEventListener("hashchange",revealLinkedSection);
 revealLinkedSection();
+
+function renderBackgroundLights(){
+  const enabled=storage.getItem("kova.pwa.backgroundLights")!=="off";
+  document.body.classList.toggle("lights-off",!enabled);
+  $("backgroundLightsBtn").setAttribute("aria-pressed",String(enabled));
+  $("backgroundLightsBtn").textContent="Blålys i bakgrunnen: "+(enabled?"på":"av");
+}
+$("backgroundLightsBtn").onclick=()=>{
+  storage.setItem("kova.pwa.backgroundLights",storage.getItem("kova.pwa.backgroundLights")==="off"?"on":"off");
+  renderBackgroundLights();
+};
+renderBackgroundLights();

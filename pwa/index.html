@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#c9152b">
+  <meta name="theme-color" content="#071a30">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Kova Companion">
@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./styles.css?v=2.2.2">
 </head>
 <body>
+  <div class="ambulance-lights" aria-hidden="true"><span></span><span></span></div>
   <a class="skip-link" href="#mainContent">Hopp til innhold</a>
   <header class="topbar">
     <div>
@@ -225,7 +226,7 @@
       <strong>Prosjekteier: Julian Nordli</strong>
       <p class="muted">Kova Companion er et uavhengig prosjekt og er ikke en offisiell Røde Kors-app.</p>
       <a href="./privacy.html">Personvern</a>
-    </section><p><a href="./admin/">Administrasjon</a></p></details>
+    </section><p><button id="backgroundLightsBtn" class="small" aria-pressed="true">Blålys i bakgrunnen: på</button></p><p class="muted">Blålysene står stille når enheten er satt til redusert bevegelse.</p><p><a href="./admin/">Administrasjon</a></p></details>
   </main>
 
   <dialog id="detailDialog">
