@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7904535c8fa284864464097f",
+      "observedAt": "2026-09-29T19:26:26+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "a1efbf713e1d704a",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "10:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 XC90 Norges Løpet Norges Løpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "4b607d0d60d9398d05424218",
+      "observedAt": "2026-09-29T19:26:26+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2834d2096ddd43e3",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "10:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 LC Norges Løpet Norges Løpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "b65eb85232f9d689c92ccc97",
       "observedAt": "2026-09-29T17:56:17+02:00",
       "organization": "UllensakerRKH",
@@ -368,5 +398,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T17:56:17+02:00"
+  "updatedAt": "2026-09-29T19:26:26+02:00"
 }

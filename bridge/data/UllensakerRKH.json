@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T17:56:17+02:00",
-  "checkedAt": "2026-09-29T19:21:40+02:00",
+  "updatedAt": "2026-09-29T19:26:26+02:00",
+  "checkedAt": "2026-09-29T19:26:26+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 46,
   "changes": {
@@ -90,12 +90,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "2834d2096ddd43e3",
+      "id": "a1efbf713e1d704a",
       "dateIso": "2026-10-04",
       "dateLabel": "søn. 4.10",
       "time": "10:30",
       "type": "Sanitetsvakt",
-      "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 LC Norges Løpet Norges Løpet",
+      "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 XC90 Norges Løpet Norges Løpet",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
