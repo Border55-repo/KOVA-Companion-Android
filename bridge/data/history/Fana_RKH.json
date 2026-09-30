@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a81f1e84efc4c022a67ac6b3",
+      "observedAt": "2026-09-30T19:11:19+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "8cf5cd90f89ac52c",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Eksterne møter",
+        "description": "Økonomi- og kasserersamling Økonomi- og kasserersamling",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "cc366f52689361431a2dd1c4",
+      "observedAt": "2026-09-30T19:11:19+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "6a84bf6c37f35aed",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Styremøte MH2 Styremøte MH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "767a6250b93e69f580ff380a",
       "observedAt": "2026-09-30T00:05:47+02:00",
       "organization": "Fana RKH",
@@ -122,5 +152,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T00:05:47+02:00"
+  "updatedAt": "2026-09-30T19:11:19+02:00"
 }
