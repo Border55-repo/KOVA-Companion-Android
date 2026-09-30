@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1b6efa713d22929f5ef0c6f3",
+      "observedAt": "2026-10-01T00:11:08+02:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6c90e4d577dba35c",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Regokjenning Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "bc7bc2b8df6ce53aa1c3a6c5",
       "observedAt": "2026-09-27T00:06:49+02:00",
       "organization": "AHRKH",
@@ -77,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-27T00:06:49+02:00"
+  "updatedAt": "2026-10-01T00:11:08+02:00"
 }
