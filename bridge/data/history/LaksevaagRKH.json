@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f9947d6a7f94e88359c11533",
+      "observedAt": "2026-10-01T00:16:02+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "811c1f10c37dd1f2",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Terje lærer oss ATV-teori Korpskveld: ATV-teori",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "5bcadb3c2d66b45f258a8228",
       "observedAt": "2026-09-29T15:11:15+02:00",
       "organization": "LaksevaagRKH",
@@ -167,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T15:11:15+02:00"
+  "updatedAt": "2026-10-01T00:16:02+02:00"
 }

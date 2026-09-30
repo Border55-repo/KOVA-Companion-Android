@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T15:11:15+02:00",
-  "checkedAt": "2026-09-30T23:55:57+02:00",
+  "updatedAt": "2026-10-01T00:16:02+02:00",
+  "checkedAt": "2026-10-01T00:16:02+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 47,
+  "eventCount": 46,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "811c1f10c37dd1f2",
-      "dateIso": "2026-09-24",
-      "dateLabel": "tor. 24.9",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Terje lærer oss ATV-teori Korpskveld: ATV-teori",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "6dee0d309c62391f",
       "dateIso": "2026-09-26",
