@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-30T00:01:10+02:00",
-  "checkedAt": "2026-09-30T11:56:04+02:00",
+  "updatedAt": "2026-09-30T12:01:17+02:00",
+  "checkedAt": "2026-09-30T12:01:17+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 44,
+  "eventCount": 50,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -153,12 +153,39 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
+      "id": "2a93f12d328feb75",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "794396161a5ecf7d",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
       "id": "50edb1a8bfa41cd9",
       "dateIso": "2026-10-27",
       "dateLabel": "tir. 27.10",
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Øvelse med EHRKH Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "7cc00bd3745d8c5c",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
@@ -315,12 +342,39 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
+      "id": "1d9ca692bc83700c",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
       "id": "7d485d6a453a6ea9",
       "dateIso": "2026-11-24",
       "dateLabel": "tir. 24.11",
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Førstehjelp på barn Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "8dc77d6b2d7f009a",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "04c8e7f69a72a1b7",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Handelshøyskolen BI sine gradueringsseremonier",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
