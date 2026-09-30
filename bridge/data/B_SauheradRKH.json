@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T17:26:36+02:00",
-  "checkedAt": "2026-09-30T19:11:18+02:00",
+  "updatedAt": "2026-09-30T19:31:09+02:00",
+  "checkedAt": "2026-09-30T19:31:09+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 23,
+  "eventCount": 24,
   "changes": {
-    "added": 2,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -141,6 +141,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Opplæring i nye samband Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "627eb15bb6c75b36",
+      "dateIso": "2026-11-30",
+      "dateLabel": "man. 30.11",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Grøtfest, Grøtfest",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {

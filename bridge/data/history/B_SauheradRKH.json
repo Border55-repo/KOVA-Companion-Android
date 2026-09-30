@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "62a2327aeb6d4a1635e77e49",
+      "observedAt": "2026-09-30T19:31:09+02:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "627eb15bb6c75b36",
+        "dateIso": "2026-11-30",
+        "dateLabel": "man. 30.11",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Grøtfest, Grøtfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
       "changeId": "fa5946e4d28ad14edc398c42",
       "observedAt": "2026-09-29T17:26:36+02:00",
       "organization": "BøSauheradRKH",
@@ -77,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T17:26:36+02:00"
+  "updatedAt": "2026-09-30T19:31:09+02:00"
 }
