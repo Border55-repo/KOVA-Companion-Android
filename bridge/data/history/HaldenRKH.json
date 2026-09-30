@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3da497cb3cffeb5cf7220fe3",
+      "observedAt": "2026-10-01T00:05:59+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "679905e6835f81f7",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "15:00",
+        "type": "Interne møter",
+        "description": "Møte i Halden Røde Kors' beredskapsutvalg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "05964a95b6bee15e38d45d91",
       "observedAt": "2026-09-29T22:01:36+02:00",
       "organization": "HaldenRKH",
@@ -362,5 +377,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T22:01:36+02:00"
+  "updatedAt": "2026-10-01T00:05:59+02:00"
 }
