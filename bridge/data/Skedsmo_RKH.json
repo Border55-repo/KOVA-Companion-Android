@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-30T00:01:09+02:00",
-  "checkedAt": "2026-09-30T08:46:29+02:00",
+  "updatedAt": "2026-09-30T08:51:36+02:00",
+  "checkedAt": "2026-09-30T08:51:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 48,
+  "eventCount": 49,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -24,6 +24,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Sosialt - spill og fanteri! Korpskvelder høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a86b5655d9bf2533",
+      "dateIso": "2026-10-01",
+      "dateLabel": "tor. 1.10",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "BAP møte BAP møte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
