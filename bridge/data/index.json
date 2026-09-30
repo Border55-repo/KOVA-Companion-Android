@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-09-30T17:51:12+02:00",
+  "updatedAt": "2026-09-30T17:56:35+02:00",
   "organizationCount": 43,
   "helpCorpsCount": 39,
   "organizations": [
@@ -40,7 +40,7 @@
       "category": "hjelpekorps",
       "file": "AHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:41:11+02:00",
+      "checkedAt": "2026-09-30T17:56:35+02:00",
       "eventCount": 20,
       "updatedAt": "2026-09-27T00:06:49+02:00"
     },
@@ -60,7 +60,7 @@
       "category": "hjelpekorps",
       "file": "BrandbuRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:02+02:00",
+      "checkedAt": "2026-09-30T17:56:28+02:00",
       "eventCount": 12,
       "updatedAt": "2026-09-30T00:10:39+02:00"
     },
@@ -70,7 +70,7 @@
       "category": "hjelpekorps",
       "file": "B_rumRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:03+02:00",
+      "checkedAt": "2026-09-30T17:56:29+02:00",
       "eventCount": 40,
       "updatedAt": "2026-09-30T12:35:58+02:00"
     },
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "EHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:51:03+02:00",
+      "checkedAt": "2026-09-30T17:56:26+02:00",
       "eventCount": 21,
       "updatedAt": "2026-09-29T00:01:21+02:00"
     },
@@ -130,7 +130,7 @@
       "category": "hjelpekorps",
       "file": "GRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:03+02:00",
+      "checkedAt": "2026-09-30T17:56:29+02:00",
       "eventCount": 19,
       "updatedAt": "2026-09-23T01:26:26+02:00"
     },
@@ -150,7 +150,7 @@
       "category": "hjelpekorps",
       "file": "Hamar_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:04+02:00",
+      "checkedAt": "2026-09-30T17:56:30+02:00",
       "eventCount": 6,
       "updatedAt": "2026-09-23T01:26:27+02:00"
     },
@@ -170,7 +170,7 @@
       "category": "hjelpekorps",
       "file": "LaksevaagRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:05+02:00",
+      "checkedAt": "2026-09-30T17:56:31+02:00",
       "eventCount": 47,
       "updatedAt": "2026-09-29T15:11:15+02:00"
     },
@@ -240,7 +240,7 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:51:04+02:00",
+      "checkedAt": "2026-09-30T17:56:26+02:00",
       "eventCount": 53,
       "updatedAt": "2026-09-30T00:01:06+02:00"
     },
@@ -300,9 +300,9 @@
       "category": "hjelpekorps",
       "file": "RKSarpsborg.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:05+02:00",
-      "eventCount": 46,
-      "updatedAt": "2026-09-30T14:16:07+02:00"
+      "checkedAt": "2026-09-30T17:56:33+02:00",
+      "eventCount": 47,
+      "updatedAt": "2026-09-30T17:56:31+02:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",
@@ -310,7 +310,7 @@
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:51:04+02:00",
+      "checkedAt": "2026-09-30T17:56:27+02:00",
       "eventCount": 49,
       "updatedAt": "2026-09-30T08:51:36+02:00"
     },
@@ -360,7 +360,7 @@
       "category": "hjelpekorps",
       "file": "TRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:06+02:00",
+      "checkedAt": "2026-09-30T17:56:33+02:00",
       "eventCount": 42,
       "updatedAt": "2026-09-29T00:11:10+02:00"
     },
@@ -370,7 +370,7 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:51:05+02:00",
+      "checkedAt": "2026-09-30T17:56:28+02:00",
       "eventCount": 50,
       "updatedAt": "2026-09-30T12:01:17+02:00"
     },
@@ -380,7 +380,7 @@
       "category": "hjelpekorps",
       "file": "VenneslaRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:06+02:00",
+      "checkedAt": "2026-09-30T17:56:34+02:00",
       "eventCount": 15,
       "updatedAt": "2026-09-27T16:06:55+02:00"
     },
@@ -400,7 +400,7 @@
       "category": "hjelpekorps",
       "file": "VossRKH.json",
       "status": "ok",
-      "checkedAt": "2026-09-30T17:36:07+02:00",
+      "checkedAt": "2026-09-30T17:56:34+02:00",
       "eventCount": 1,
       "updatedAt": "2026-09-22T23:45:03+02:00"
     },
