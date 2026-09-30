@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "dc0358798d6e0ba03daf504f",
+      "observedAt": "2026-09-30T13:56:10+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "60f7d882d3336ae2",
+        "dateIso": "2027-04-04",
+        "dateLabel": "søn. 4.4",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Praktisk helg Kvalifisert søk og redning (KSOR) Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "fa69cf25856ecd9aefab7358",
       "observedAt": "2026-09-29T00:11:08+02:00",
       "organization": "RKSarpsborg",
@@ -359,5 +374,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T00:11:08+02:00"
+  "updatedAt": "2026-09-30T13:56:10+02:00"
 }
