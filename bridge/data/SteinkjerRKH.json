@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T13:31:13+02:00",
-  "checkedAt": "2026-09-30T23:41:11+02:00",
+  "updatedAt": "2026-10-01T00:01:06+02:00",
+  "checkedAt": "2026-10-01T00:01:06+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 18,
+  "eventCount": 17,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "7ea3bd64f684e92a",
-      "dateIso": "2026-09-24",
-      "dateLabel": "tor. 24.9",
-      "time": "16:00",
-      "type": "Interne kurs",
-      "description": "Grunnkurs Psykososial Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
-    },
     {
       "id": "b90a68fa52016f46",
       "dateIso": "2026-09-27",

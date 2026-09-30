@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "de27e61be3425502c7efb13d",
+      "observedAt": "2026-10-01T00:01:03+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3f542abad4b89f0e",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Hvordan går vi fram hos pasienter med demens? Else har ansvar Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "df8f4edfe89352cf9cbf9af3",
       "observedAt": "2026-09-30T00:15:51+02:00",
       "organization": "SRKH",
@@ -260,5 +275,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T00:15:51+02:00"
+  "updatedAt": "2026-10-01T00:01:03+02:00"
 }

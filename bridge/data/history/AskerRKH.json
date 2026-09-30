@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5c2ba9a0dcc3807f971c9789",
+      "observedAt": "2026-10-01T00:01:08+02:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "252efc3e7e89ba69",
+        "dateIso": "2026-09-24",
+        "dateLabel": "tor. 24.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Beredskap Korpskveld 17",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "2b61e52e12bdd5f990b2f244",
       "observedAt": "2026-09-30T10:31:08+02:00",
       "organization": "AskerRKH",
@@ -137,5 +152,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T10:31:08+02:00"
+  "updatedAt": "2026-10-01T00:01:08+02:00"
 }
