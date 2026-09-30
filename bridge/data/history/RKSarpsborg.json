@@ -2,6 +2,150 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b1439c9cfbeb852527efd761",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "dc9b86a294484181",
+        "dateIso": "2027-01-14",
+        "dateLabel": "tor. 14.1",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte januar 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "ef2bc8f2b0825516eb484ffc",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "8931c4cd1d5632fa",
+        "dateIso": "2027-02-11",
+        "dateLabel": "tor. 11.2",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte februar 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "c03f7a87ce97812cfc81d2a5",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "9aa065d3f45ffa89",
+        "dateIso": "2027-03-11",
+        "dateLabel": "tor. 11.3",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte mars 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "b5a35a50064b233b490b9245",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "4fd6350df52b9de3",
+        "dateIso": "2027-04-08",
+        "dateLabel": "tor. 8.4",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte april 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "90a11fcdcce24b8835fd7c0d",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "48ae2cd510404ab1",
+        "dateIso": "2027-06-03",
+        "dateLabel": "tor. 3.6",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte juni 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "de47bea2e2ca6ee998c86ebd",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "80f31970c08a44e5",
+        "dateIso": "2027-07-01",
+        "dateLabel": "tor. 1.7",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte juli 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "27d8ab7cc5360dc486a4fe1e",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "c67d2f06d6c85422",
+        "dateIso": "2027-08-12",
+        "dateLabel": "tor. 12.8",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte august 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "2ac1938b277b190cab171da6",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "4f909d91dceec885",
+        "dateIso": "2027-09-09",
+        "dateLabel": "tor. 9.9",
+        "time": "18:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte september 2027 Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "25083f1f22f51fc94549d9b7",
+      "observedAt": "2026-09-30T14:16:07+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "changed",
+      "event": {
+        "id": "61538c416222c379",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Påmeldingsfrist 27.09.26 Kvalifisert samband (KSAM) Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      },
+      "oldEvent": {
+        "id": "1633b0eb3aa95d31",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Påmeldingsfrist 27.09.26 Kvalifisert samband (KSAM) Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "dc0358798d6e0ba03daf504f",
       "observedAt": "2026-09-30T13:56:10+02:00",
       "organization": "RKSarpsborg",
@@ -374,5 +518,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T13:56:10+02:00"
+  "updatedAt": "2026-09-30T14:16:07+02:00"
 }
