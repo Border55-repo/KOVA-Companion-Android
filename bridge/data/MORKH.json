@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T10:11:08+02:00",
-  "checkedAt": "2026-09-30T12:41:15+02:00",
+  "updatedAt": "2026-09-30T13:01:37+02:00",
+  "checkedAt": "2026-09-30T13:01:37+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
   "eventCount": 45,
   "changes": {
@@ -72,15 +72,6 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "cc0be4789a6a5e85",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "",
-      "type": "Ambulansevakt",
-      "description": "Sarpsborg 383. På plass [KOMMER] Rally Trøgstad 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
-    {
       "id": "968554694b357450",
       "dateIso": "2026-10-03",
       "dateLabel": "lør. 3.10",
@@ -105,6 +96,15 @@
       "time": "10:30",
       "type": "Ambulansevakt",
       "description": "Fredrikstad 382. På plass 10:30 Rally Trøgstad 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "886ebaed2c4f1bd3",
+      "dateIso": "2026-10-03",
+      "dateLabel": "lør. 3.10",
+      "time": "10:45",
+      "type": "Ambulansevakt",
+      "description": "Sarpsborg 383. På plass 10:45 Rally Trøgstad 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
