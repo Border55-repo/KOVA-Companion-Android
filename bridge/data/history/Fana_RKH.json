@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f651c633d85277e4aa792355",
+      "observedAt": "2026-09-30T20:10:58+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "4c69ef3ecd7b3950",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - KICKBOXING/NORGESCUP+ GALLA: 02.10.+03.10. 2026. SANITETSVAKT - KICKBOXING/NORGES CUP - 0210.+3.10. 2026.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "dad8dd32816cd6a8b5292be9",
+      "observedAt": "2026-09-30T20:10:58+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "85d49226b0df2b93",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - KICKBOXING/NORGES CUP - 0210.+3.10. 2026.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "a81f1e84efc4c022a67ac6b3",
       "observedAt": "2026-09-30T19:11:19+02:00",
       "organization": "Fana RKH",
@@ -152,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T19:11:19+02:00"
+  "updatedAt": "2026-09-30T20:10:58+02:00"
 }

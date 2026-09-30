@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T17:06:18+02:00",
-  "checkedAt": "2026-09-30T19:51:14+02:00",
+  "updatedAt": "2026-09-30T20:11:02+02:00",
+  "checkedAt": "2026-09-30T20:11:02+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
   "eventCount": 34,
   "changes": {
     "added": 1,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -306,12 +306,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
-      "id": "06fa0e2ee69bc423",
+      "id": "e8565428df6b4737",
       "dateIso": "2026-12-08",
       "dateLabel": "tir. 8.12",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Depot & rutiner Korpskvelder",
+      "description": "Depot & rutiner + Ekstern foredragsholder Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
