@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5f971d7314cca30864596829",
+      "observedAt": "2026-09-30T21:31:13+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "06fa0e2ee69bc423",
+        "dateIso": "2026-12-08",
+        "dateLabel": "tir. 8.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Depot & rutiner Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "d7076996d2541cb6e82bc780",
+      "observedAt": "2026-09-30T21:31:13+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e8565428df6b4737",
+        "dateIso": "2026-12-08",
+        "dateLabel": "tir. 8.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Depot & rutiner + Ekstern foredragsholder Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "3cc5badb47487cdf2274b02b",
       "observedAt": "2026-09-30T20:11:02+02:00",
       "organization": "MossRKH",
@@ -293,5 +323,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T20:11:02+02:00"
+  "updatedAt": "2026-09-30T21:31:13+02:00"
 }
