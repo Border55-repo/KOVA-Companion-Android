@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-01T15:42:31+02:00",
-  "checkedAt": "2026-10-01T15:42:31+02:00",
+  "updatedAt": "2026-10-01T15:56:31+02:00",
+  "checkedAt": "2026-10-01T15:56:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 19,
+  "eventCount": 20,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -150,6 +150,15 @@
       "time": "17:30",
       "type": "Interne kurs",
       "description": "Avsluttende øvelse KFØR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "0da65e541212a72a",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - AUSTEVOLL/AUSTEVOLLSLØPET - LØRDAG 17.10. SANITETSVAKT - AUSTEVOLL/AUSTEVOLLSLØPET - LØRDAG 17. OKTOBER.",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
     },
     {
