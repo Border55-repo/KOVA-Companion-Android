@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "816d5effd5e1764818c4c415",
+      "observedAt": "2026-10-01T12:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "08e89578ca284124",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "08:45",
+        "type": "Ambulansevakt",
+        "description": "KO. På plass kl. 09:30 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "b8f39b7b8645e10c8f85b7f8",
+      "observedAt": "2026-10-01T12:41:12+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "968554694b357450",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "09:15",
+        "type": "Ambulansevakt",
+        "description": "KO. På plass kl. 10 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "4f8be565a10b16efc1c30e08",
       "observedAt": "2026-09-30T13:41:00+02:00",
       "organization": "MORKH",
@@ -737,5 +767,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T13:41:00+02:00"
+  "updatedAt": "2026-10-01T12:41:12+02:00"
 }
