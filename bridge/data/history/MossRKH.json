@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "97da9aaf47d4fdf93f07b19b",
+      "observedAt": "2026-10-02T00:01:45+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "214f4a0c2503b4ed",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "-> 21:30",
+        "type": "Eksterne kurs",
+        "description": "Helg 1 Videregående Førstehjelp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "5f971d7314cca30864596829",
       "observedAt": "2026-09-30T21:31:13+02:00",
       "organization": "MossRKH",
@@ -323,5 +338,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T21:31:13+02:00"
+  "updatedAt": "2026-10-02T00:01:45+02:00"
 }
