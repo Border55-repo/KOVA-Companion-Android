@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8e2943fe4936bbde5dfbd2bf",
+      "observedAt": "2026-10-02T00:06:17+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "b7cb9c2f5bdc704d",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte RK huset 17:30 første løp 18:05 siste løp ca 21:25 Travvvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "816d5effd5e1764818c4c415",
       "observedAt": "2026-10-01T12:41:12+02:00",
       "organization": "MORKH",
@@ -767,5 +782,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T12:41:12+02:00"
+  "updatedAt": "2026-10-02T00:06:17+02:00"
 }

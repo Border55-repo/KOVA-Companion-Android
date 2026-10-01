@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "68c1d1c9782312675da96858",
+      "observedAt": "2026-10-02T00:06:22+02:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "991f27a2ff4767da",
+        "dateIso": "2026-09-25",
+        "dateLabel": "fre. 25.9",
+        "time": "15:00",
+        "type": "Beredskap",
+        "description": "Beredskap Beredskap",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "1b6efa713d22929f5ef0c6f3",
       "observedAt": "2026-10-01T00:11:08+02:00",
       "organization": "AHRKH",
@@ -92,5 +107,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T00:11:08+02:00"
+  "updatedAt": "2026-10-02T00:06:22+02:00"
 }

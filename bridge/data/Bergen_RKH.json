@@ -7,52 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-29T18:41:43+02:00",
-  "checkedAt": "2026-10-01T23:51:28+02:00",
+  "updatedAt": "2026-10-02T00:06:25+02:00",
+  "checkedAt": "2026-10-02T00:06:25+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 45,
+  "eventCount": 41,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "d0208dc189a6e336",
-      "dateIso": "2026-09-25",
-      "dateLabel": "fre. 25.9",
-      "time": "07:15",
-      "type": "Sanitetsvakt",
-      "description": "stoltzen opp varegg fredag dag Stoltzen opp Varegg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "97de820b039140c2",
-      "dateIso": "2026-09-25",
-      "dateLabel": "fre. 25.9",
-      "time": "12:30",
-      "type": "Sanitetsvakt",
-      "description": "Stoltzen opp varegg fredag kveld Stoltzen opp Varegg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "719ef4e707af32b3",
-      "dateIso": "2026-09-25",
-      "dateLabel": "fre. 25.9",
-      "time": "21:30",
-      "type": "Sanitetsvakt",
-      "description": "NHH Konsert og kjellerfest NHH Konsert og kjellerfest",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "6ad1a2df2f3a9752",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "-> 02:30",
-      "type": "Sanitetsvakt",
-      "description": "NHH Konsert og kjellerfest NHH Konsert og kjellerfest",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
     {
       "id": "eaaac7af3a908329",
       "dateIso": "2026-09-26",
