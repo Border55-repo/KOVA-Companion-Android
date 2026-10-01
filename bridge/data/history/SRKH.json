@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c1aa1fb2ffc711bf4e6093a3",
+      "observedAt": "2026-10-02T00:11:21+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c81a67f310529893",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "-> 15:00",
+        "type": "Eksterne kurs",
+        "description": "For påmelding kontakt ledelse, for både asprianter og godkjente TRØKK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "de27e61be3425502c7efb13d",
       "observedAt": "2026-10-01T00:01:03+02:00",
       "organization": "SRKH",
@@ -275,5 +290,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T00:01:03+02:00"
+  "updatedAt": "2026-10-02T00:11:21+02:00"
 }
