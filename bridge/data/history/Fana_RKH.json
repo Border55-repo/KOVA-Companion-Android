@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b7a36c4a59c2d4a603f7976b",
+      "observedAt": "2026-10-02T21:51:26+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "8c1f5827eda95099",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT KICKBOXING - GALLA SANITETSVAKT KICBOXING - GALLA",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "4cefdda75324d38134149fd0",
       "observedAt": "2026-10-02T21:31:44+02:00",
       "organization": "Fana RKH",
@@ -266,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T21:31:44+02:00"
+  "updatedAt": "2026-10-02T21:51:26+02:00"
 }
