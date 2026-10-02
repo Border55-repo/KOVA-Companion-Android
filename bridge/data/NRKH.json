@@ -7,52 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-01T00:06:02+02:00",
-  "checkedAt": "2026-10-02T23:46:25+02:00",
+  "updatedAt": "2026-10-03T00:06:28+02:00",
+  "checkedAt": "2026-10-03T00:06:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 64,
+  "eventCount": 60,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "4ee8b0f86d134cb1",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "09:00",
-      "type": "Profilering",
-      "description": "Landbruksdagane Austrheim Landbruksdagane på Austrheim",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
-      "id": "721bee86ff78a2f0",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "12:00",
-      "type": "Båtvakt",
-      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
-      "id": "49e00e8cb69fb354",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "20:00",
-      "type": "Sanitetsvakt",
-      "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
-    {
-      "id": "d989db537668ec7e",
-      "dateIso": "2026-09-27",
-      "dateLabel": "søn. 27.9",
-      "time": "-> 01:30",
-      "type": "Sanitetsvakt",
-      "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
     {
       "id": "7e17483aa1aa6004",
       "dateIso": "2026-09-28",

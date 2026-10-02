@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e30f48d7c3d9e97a08140c48",
+      "observedAt": "2026-10-03T00:06:35+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c9fe76a1c366864c",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "-> 02:00",
+        "type": "Sanitetsvakt",
+        "description": "Oktoberfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "58815ea7e50accd478ed76f3",
       "observedAt": "2026-09-30T00:10:39+02:00",
       "organization": "BrandbuRKH",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T00:10:39+02:00"
+  "updatedAt": "2026-10-03T00:06:35+02:00"
 }

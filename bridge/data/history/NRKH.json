@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2478a58ef993e8e5fa9a6485",
+      "observedAt": "2026-10-03T00:06:28+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4ee8b0f86d134cb1",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Profilering",
+        "description": "Landbruksdagane Austrheim Landbruksdagane på Austrheim",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "85a920d0181038a88efbd991",
+      "observedAt": "2026-10-03T00:06:28+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d989db537668ec7e",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "-> 01:30",
+        "type": "Sanitetsvakt",
+        "description": "Cover Me (Bruce Springsteen) - Hordabøhallen Hordabø IL",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "063ff534e063866859e65948",
       "observedAt": "2026-09-30T21:46:26+02:00",
       "organization": "NRKH",
@@ -245,5 +275,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T21:46:26+02:00"
+  "updatedAt": "2026-10-03T00:06:28+02:00"
 }
