@@ -7,61 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-02T23:46:28+02:00",
-  "checkedAt": "2026-10-02T23:46:28+02:00",
+  "updatedAt": "2026-10-03T00:01:44+02:00",
+  "checkedAt": "2026-10-03T00:01:44+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 44,
+  "eventCount": 39,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 4,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "eaaac7af3a908329",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "07:15",
-      "type": "Sanitetsvakt",
-      "description": "Stoltzen opp Lørdag dag Stoltzen opp Varegg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "ffee33501c00a780",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "09:15",
-      "type": "Sanitetsvakt",
-      "description": "Teknas Veldedighetsløp Teknas Veldedighetsløp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "07e290d01c6cf33d",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "12:30",
-      "type": "Sanitetsvakt",
-      "description": "Stoltzen opp lørdag kveld Stoltzen opp Varegg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "35d7cc3f33cd90a5",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "20:30",
-      "type": "Sanitetsvakt",
-      "description": "NHH Kjellerfest NHH Konsert og kjellerfest",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "2672c42ad59add3b",
-      "dateIso": "2026-09-27",
-      "dateLabel": "søn. 27.9",
-      "time": "-> 02:30",
-      "type": "Sanitetsvakt",
-      "description": "NHH Kjellerfest NHH Konsert og kjellerfest",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
     {
       "id": "ef1eb12c9fda4f92",
       "dateIso": "2026-09-28",

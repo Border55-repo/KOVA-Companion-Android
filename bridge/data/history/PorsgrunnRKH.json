@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4b20848da4a1d15823d0eca7",
+      "observedAt": "2026-10-03T00:01:36+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1fe0fa2dc023bc36",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Tid er oppmøte på huset Grenlandsløpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "8f7b313bbb7ce5e2d0a50f76",
       "observedAt": "2026-09-30T23:17:58+02:00",
       "organization": "PorsgrunnRKH",
@@ -77,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T23:17:58+02:00"
+  "updatedAt": "2026-10-03T00:01:36+02:00"
 }
