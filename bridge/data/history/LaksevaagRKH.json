@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2a082a695c861c1f2262da1e",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6dee0d309c62391f",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelp ved selvmordsfare TRØKK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "8868b46bfcb0ee77b325129f",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a9a7490553e56e8b",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Grunnkurs beredskap TRØKK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "0dd9b3e4c5b012927c7c973e",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3fbe21dca4e80435",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Videregående psykososial førstehjelp TRØKK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "8692a3d2abdd6ef817cef4fc",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4f74155d4e42de9f",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Lagunen. Samarbeid med Fana RKH. Kjekt om flere blir med! Sanitetsvakt: Verdens Hjertedag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "57fa495b24b2bac073c2098a",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f7f685fbd8e414a0",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Dagsturhytten i Siglingavatnet Friluftspark SANITETSVAKT: Rosa-sløyfe løp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "4c820a22b101fe22c3c5f119",
+      "observedAt": "2026-10-03T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3d70c85353e82032",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "14:00",
+        "type": "Eksterne kurs",
+        "description": "Prinsippene i praksis TRØKK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "7b303570acd7a1dcaaa44b34",
       "observedAt": "2026-10-02T16:16:39+02:00",
       "organization": "LaksevaagRKH",
@@ -197,5 +287,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T16:16:39+02:00"
+  "updatedAt": "2026-10-03T00:16:21+02:00"
 }
