@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f4e0795c3290ad37aa474eb4",
+      "observedAt": "2026-10-02T16:46:35+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "e485635fe2aa37bd",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "17:00",
+        "type": "Eksterne møter",
+        "description": "Ny nasjonal veileder for redningstjenesten. Påmeldingsfrist 30. oktober for å få middag Felles fagsamling FORF i Gjensidigegården",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "fa7583f56094ec8528ed0566",
       "observedAt": "2026-10-02T16:02:04+02:00",
       "organization": "Bergen RKH",
@@ -266,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T16:02:04+02:00"
+  "updatedAt": "2026-10-02T16:46:35+02:00"
 }
