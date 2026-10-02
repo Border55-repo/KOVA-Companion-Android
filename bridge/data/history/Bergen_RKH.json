@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa7583f56094ec8528ed0566",
+      "observedAt": "2026-10-02T16:02:04+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "2bdceac24cacf649",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "11:00",
+        "type": "Sanitetsvakt",
+        "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "801f52faebcaa1ba117ab8fe",
+      "observedAt": "2026-10-02T16:02:04+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "383fe7530dd7485c",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "DDE-konsert trekanttomta Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "3c6df6b567944b2b47b2e38d",
       "observedAt": "2026-10-02T00:06:25+02:00",
       "organization": "Bergen RKH",
@@ -236,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T00:06:25+02:00"
+  "updatedAt": "2026-10-02T16:02:04+02:00"
 }
