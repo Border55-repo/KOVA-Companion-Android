@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-02T00:11:21+02:00",
-  "checkedAt": "2026-10-02T08:16:19+02:00",
+  "updatedAt": "2026-10-02T08:36:22+02:00",
+  "checkedAt": "2026-10-02T08:36:22+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
-  "eventCount": 20,
+  "eventCount": 21,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -123,6 +123,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Sminke og markør med Jeanett og Arosha, sammen med Laksevåg Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+    },
+    {
+      "id": "2cb1480fb43172d6",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Vi skal feire den gode jobben som blir gjort hos lss FESTTTTTTT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
