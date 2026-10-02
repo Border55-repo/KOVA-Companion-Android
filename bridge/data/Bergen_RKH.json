@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-02T16:46:35+02:00",
-  "checkedAt": "2026-10-02T23:31:35+02:00",
+  "updatedAt": "2026-10-02T23:46:28+02:00",
+  "checkedAt": "2026-10-02T23:46:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
   "eventCount": 44,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -108,10 +108,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "2bdceac24cacf649",
+      "id": "fb6923c5ded617a2",
       "dateIso": "2026-10-08",
       "dateLabel": "tor. 8.10",
-      "time": "11:00",
+      "time": "09:00",
       "type": "Sanitetsvakt",
       "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
