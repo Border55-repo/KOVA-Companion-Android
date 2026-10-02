@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-09-26T00:06:24+02:00",
-  "checkedAt": "2026-10-02T23:56:19+02:00",
+  "updatedAt": "2026-10-03T00:11:32+02:00",
+  "checkedAt": "2026-10-03T00:11:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH",
-  "eventCount": 8,
+  "eventCount": 5,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "88608d9890161045",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "08:00",
-      "type": "Sanitetsvakt",
-      "description": "Teamgym turnkonkurranse Turnkonkuranse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
-    },
-    {
-      "id": "aaaed00aa4d33436",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "09:00",
-      "type": "Sanitetsvakt",
-      "description": "Åsane Karateklubb JKA cup, karate",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
-    },
-    {
-      "id": "80dbd6b5258f1b7b",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "Teamgym turnkonkurranse Turnkonkuranse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
-    },
     {
       "id": "e7c597e2b4f26c08",
       "dateIso": "2026-10-02",

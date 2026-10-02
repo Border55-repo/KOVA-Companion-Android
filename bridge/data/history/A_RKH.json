@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2982298bdbe0b7b6cb9b34f5",
+      "observedAt": "2026-10-03T00:11:32+02:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "aaaed00aa4d33436",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Karateklubb JKA cup, karate",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "221126592533839a08f2cb17",
+      "observedAt": "2026-10-03T00:11:32+02:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "80dbd6b5258f1b7b",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Teamgym turnkonkurranse Turnkonkuranse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    },
+    {
       "changeId": "9fa38fba692c04328f91d524",
       "observedAt": "2026-09-26T00:06:24+02:00",
       "organization": "AÅRKH",
@@ -62,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-26T00:06:24+02:00"
+  "updatedAt": "2026-10-03T00:11:32+02:00"
 }

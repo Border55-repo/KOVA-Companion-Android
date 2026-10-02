@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f28b514ba555a795afd11491",
+      "observedAt": "2026-10-03T00:11:27+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "65cae8a9db315ade",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Årefjorden rundt - sanitetsvakt Mossekarusellen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "a22b5a266438c07a1aadadb6",
       "observedAt": "2026-10-02T21:31:53+02:00",
       "organization": "MossRKH",
@@ -353,5 +368,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T21:31:53+02:00"
+  "updatedAt": "2026-10-03T00:11:27+02:00"
 }

@@ -7,34 +7,16 @@
     "category": "annet"
   },
   "status": "ok",
-  "updatedAt": "2026-10-02T00:01:47+02:00",
-  "checkedAt": "2026-10-02T23:51:26+02:00",
+  "updatedAt": "2026-10-03T00:11:29+02:00",
+  "checkedAt": "2026-10-03T00:11:29+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK",
-  "eventCount": 5,
+  "eventCount": 3,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "d74ada05dfde3e04",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "07:15",
-      "type": "Sanitetsvakt",
-      "description": "Stoltzen OPP Stoltzen OPP",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
-    },
-    {
-      "id": "aec3a7d795268803",
-      "dateIso": "2026-09-26",
-      "dateLabel": "lør. 26.9",
-      "time": "12:30",
-      "type": "Sanitetsvakt",
-      "description": "Stoltzen OPP",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
-    },
     {
       "id": "fa0f22f5045b8cd5",
       "dateIso": "2026-09-29",

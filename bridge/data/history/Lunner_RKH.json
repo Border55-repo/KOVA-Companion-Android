@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1a2465d57888a3b22843f6c9",
+      "observedAt": "2026-10-03T00:11:25+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "8c8d937edfb86339",
+        "dateIso": "2026-09-26",
+        "dateLabel": "lør. 26.9",
+        "time": "06:00",
+        "type": "Øvelse",
+        "description": "Øvelse Rosten",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "5a96aeeae280227eb804d0fd",
       "observedAt": "2026-10-02T18:31:34+02:00",
       "organization": "Lunner RKH",
@@ -17,5 +32,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T18:31:34+02:00"
+  "updatedAt": "2026-10-03T00:11:25+02:00"
 }
