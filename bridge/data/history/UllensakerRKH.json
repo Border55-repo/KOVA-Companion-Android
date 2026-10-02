@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "238fe238d48fc29efdf25ef8",
+      "observedAt": "2026-10-02T21:11:27+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "e19b436f2ea41e80",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Regodkjenning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "579cdd417bb612249c53405b",
       "observedAt": "2026-10-02T15:51:21+02:00",
       "organization": "UllensakerRKH",
@@ -458,5 +473,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T15:51:21+02:00"
+  "updatedAt": "2026-10-02T21:11:27+02:00"
 }
