@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "5a96aeeae280227eb804d0fd",
+      "observedAt": "2026-10-02T18:31:34+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "ceb79df6cf477c01",
+        "dateIso": "2027-02-06",
+        "dateLabel": "lør. 6.2",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Rally Hadeland",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-02T18:31:34+02:00"
+}
