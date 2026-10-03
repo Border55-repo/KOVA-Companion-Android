@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bdd5dfd33bd150ab859880f1",
+      "observedAt": "2026-10-03T14:51:17+02:00",
+      "organization": "NRKH",
+      "kind": "added",
+      "event": {
+        "id": "c970dae81f4a8f36",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "10:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpskurs Førstehjelpskurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "2478a58ef993e8e5fa9a6485",
       "observedAt": "2026-10-03T00:06:28+02:00",
       "organization": "NRKH",
@@ -275,5 +290,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T00:06:28+02:00"
+  "updatedAt": "2026-10-03T14:51:17+02:00"
 }
