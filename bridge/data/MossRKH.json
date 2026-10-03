@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T00:11:27+02:00",
-  "checkedAt": "2026-10-03T11:16:22+02:00",
+  "updatedAt": "2026-10-03T11:36:26+02:00",
+  "checkedAt": "2026-10-03T11:36:26+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 31,
+  "eventCount": 30,
   "changes": {
     "added": 0,
     "removed": 1,
@@ -24,15 +24,6 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Veiledning Korpskvelder",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
-    },
-    {
-      "id": "e48615cac3d396d6",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "",
-      "type": "Ambulansevakt",
-      "description": "Ambulansevakt Rally Trøgstad 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {

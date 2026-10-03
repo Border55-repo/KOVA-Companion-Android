@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3bc5e25b1be47c0e354e5325",
+      "observedAt": "2026-10-03T11:36:26+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e48615cac3d396d6",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "f28b514ba555a795afd11491",
       "observedAt": "2026-10-03T00:11:27+02:00",
       "organization": "MossRKH",
@@ -368,5 +383,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T00:11:27+02:00"
+  "updatedAt": "2026-10-03T11:36:26+02:00"
 }
