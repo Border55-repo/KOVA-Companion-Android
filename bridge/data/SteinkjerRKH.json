@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-01T00:01:06+02:00",
-  "checkedAt": "2026-10-03T23:41:15+02:00",
+  "updatedAt": "2026-10-04T00:06:20+02:00",
+  "checkedAt": "2026-10-04T00:06:20+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 17,
+  "eventCount": 16,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "b90a68fa52016f46",
-      "dateIso": "2026-09-27",
-      "dateLabel": "søn. 27.9",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Steinkjer Skogmaraton, oppmøte RK huset 12:00 Steinkjer Skogmaraton",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
-    },
     {
       "id": "28344cdc6c838909",
       "dateIso": "2026-09-28",
