@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2577c391ab5f2331f751fc83",
+      "observedAt": "2026-10-03T13:31:37+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "c13555ecba218f8c",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Fagansvarlig møte Fagansvarlig møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "318880854b120da3874e8223",
       "observedAt": "2026-10-02T00:16:26+02:00",
       "organization": "HaldenRKH",
@@ -392,5 +407,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T00:16:26+02:00"
+  "updatedAt": "2026-10-03T13:31:37+02:00"
 }
