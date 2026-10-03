@@ -13,8 +13,7 @@ from zoneinfo import ZoneInfo
 import requests
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import ec
-from google.auth.transport.requests import Request
-from google.oauth2 import service_account
+from runtime_credentials import credentials_for
 from pywebpush import WebPushException, webpush
 
 FIRESTORE_SCOPE = "https://www.googleapis.com/auth/datastore"
@@ -31,16 +30,7 @@ def _b64url(data: bytes) -> str:
 
 
 def _credentials():
-    raw = os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON", "").strip()
-    if not raw:
-        return None, None
-    info = json.loads(raw)
-    credentials = service_account.Credentials.from_service_account_info(
-        info,
-        scopes=[FIRESTORE_SCOPE],
-    )
-    credentials.refresh(Request())
-    return credentials, info["project_id"]
+    return credentials_for([FIRESTORE_SCOPE])
 
 
 def _headers(credentials) -> dict[str, str]:
@@ -157,11 +147,12 @@ def ensure_vapid_config() -> dict[str, str]:
         "schemaVersion": 1,
         "publicKey": public_key,
     }
-    PUBLIC_CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
-    PUBLIC_CONFIG_PATH.write_text(
-        json.dumps(public_payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    if not os.getenv("K_SERVICE"):
+        PUBLIC_CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        PUBLIC_CONFIG_PATH.write_text(
+            json.dumps(public_payload, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
     return {
         "publicKey": public_key,
         "privateKey": private_key_encoded,
