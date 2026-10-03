@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "65c3126264a461f0118eda28",
+      "observedAt": "2026-10-04T00:16:21+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "09bd000a2e2e156f",
+        "dateIso": "2026-09-27",
+        "dateLabel": "søn. 27.9",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "TRØKK-26 - DELTAKELSE PÅ KURS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "ff7014019c15f92959e7faba",
       "observedAt": "2026-10-03T17:21:15+02:00",
       "organization": "Fana RKH",
@@ -326,5 +341,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T17:21:15+02:00"
+  "updatedAt": "2026-10-04T00:16:21+02:00"
 }

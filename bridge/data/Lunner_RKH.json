@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T00:11:25+02:00",
-  "checkedAt": "2026-10-03T23:56:20+02:00",
+  "updatedAt": "2026-10-04T00:16:23+02:00",
+  "checkedAt": "2026-10-04T00:16:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 29,
+  "eventCount": 28,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
-    {
-      "id": "4751918ab7bf2850",
-      "dateIso": "2026-09-27",
-      "dateLabel": "søn. 27.9",
-      "time": "10:00",
-      "type": "Ambulansevakt",
-      "description": "Øvrevoll",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
     {
       "id": "81db81c8fd3282ef",
       "dateIso": "2026-10-01",
