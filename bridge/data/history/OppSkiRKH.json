@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "192a2457f262e7a61ca1bc53",
+      "observedAt": "2026-10-03T10:56:18+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "added",
+      "event": {
+        "id": "c761233607587a09",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Enduro Enebakk Enduro Enebakk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "7de013643c7c15e94a4869d8",
       "observedAt": "2026-10-01T00:11:05+02:00",
       "organization": "OppSkiRKH",
@@ -77,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-01T00:11:05+02:00"
+  "updatedAt": "2026-10-03T10:56:18+02:00"
 }
