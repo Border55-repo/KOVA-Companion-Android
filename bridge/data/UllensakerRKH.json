@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-02T21:11:27+02:00",
-  "checkedAt": "2026-10-03T23:01:50+02:00",
+  "updatedAt": "2026-10-03T23:11:13+02:00",
+  "checkedAt": "2026-10-03T23:11:13+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 51,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -45,10 +45,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "d35e4ddb6a107051",
+      "id": "d3fade87afb9034b",
       "dateIso": "2026-10-03",
       "dateLabel": "lør. 3.10",
-      "time": "09:15",
+      "time": "08:00",
       "type": "Sanitetsvakt",
       "description": "Oppmøte på huset kl 09:15, vakta starter kl 10:00 Landsmøte, The Qube",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
