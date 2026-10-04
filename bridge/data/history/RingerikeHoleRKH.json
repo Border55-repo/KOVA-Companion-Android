@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b3c11ceac54eb22966d24d93",
+      "observedAt": "2026-10-04T18:56:08+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "28a86fd93b9c7187",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "07:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitet for Holmekollmarsjen 2027 Holmekollmarsjen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
+      "changeId": "2055f0842e9d31e12b08f1bc",
+      "observedAt": "2026-10-04T18:56:08+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "0e911421ee55feae",
+        "dateIso": "2027-05-22",
+        "dateLabel": "lør. 22.5",
+        "time": "10:30",
+        "type": "Sanitetsvakt",
+        "description": "Mosjonløp Schjongs5er'n",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
+      "changeId": "ea0a0529a40283c4bc155785",
+      "observedAt": "2026-10-04T18:56:08+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "3fbc15f1f55a8c7f",
+        "dateIso": "2027-06-19",
+        "dateLabel": "lør. 19.6",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Hinderbaneløp Chicken Race/Bootcamp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
+      "changeId": "cc57926f24855e4c5a9fd38b",
+      "observedAt": "2026-10-04T18:56:08+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "c06e80158e7e0597",
+        "dateIso": "2027-08-22",
+        "dateLabel": "søn. 22.8",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Skogsløp Vikerfjell Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
+      "changeId": "12c4f2941338abe4b9b96a0d",
+      "observedAt": "2026-10-04T18:56:08+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a1170b2f9723dcab",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "07:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitet for Holmekollmarsjen 2026 Holmekollmarsjen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "0d492e99b1509c20366bf7fd",
       "observedAt": "2026-10-04T18:36:21+02:00",
       "organization": "RingerikeHoleRKH",
@@ -62,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-04T18:36:21+02:00"
+  "updatedAt": "2026-10-04T18:56:08+02:00"
 }
