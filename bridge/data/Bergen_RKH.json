@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T00:01:44+02:00",
-  "checkedAt": "2026-10-04T16:02:13+02:00",
+  "updatedAt": "2026-10-04T16:16:22+02:00",
+  "checkedAt": "2026-10-04T16:16:22+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
   "eventCount": 39,
   "changes": {
     "added": 0,
-    "removed": 4,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -63,21 +63,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "fb6923c5ded617a2",
-      "dateIso": "2026-10-08",
-      "dateLabel": "tor. 8.10",
-      "time": "09:00",
-      "type": "Sanitetsvakt",
-      "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
       "id": "383fe7530dd7485c",
       "dateIso": "2026-10-08",
       "dateLabel": "tor. 8.10",
       "time": "18:00",
       "type": "Sanitetsvakt",
       "description": "DDE-konsert trekanttomta Bergen Challenge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "2bab7ea346cb7a42",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
