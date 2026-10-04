@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0d492e99b1509c20366bf7fd",
+      "observedAt": "2026-10-04T18:36:21+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "ab2b95b693062471",
+        "dateIso": "2027-02-13",
+        "dateLabel": "lør. 13.2",
+        "time": "07:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitet for Grenaderløpet 2027 Grenaderløpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
+      "changeId": "601051ce2924e0c8e4e47efd",
+      "observedAt": "2026-10-04T18:36:21+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "added",
+      "event": {
+        "id": "a1170b2f9723dcab",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "07:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitet for Holmekollmarsjen 2026 Holmekollmarsjen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "cd5b4bcef1312318efd3720c",
       "observedAt": "2026-09-30T00:15:49+02:00",
       "organization": "RingerikeHoleRKH",
@@ -32,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T00:15:49+02:00"
+  "updatedAt": "2026-10-04T18:36:21+02:00"
 }
