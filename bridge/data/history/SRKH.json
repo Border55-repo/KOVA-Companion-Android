@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2850cae816a5e810cc0e8773",
+      "observedAt": "2026-10-05T00:17:00+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c4d51a52d4f00737",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Områdemøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "60eae28dd0a258e1a27e7544",
       "observedAt": "2026-10-03T00:01:39+02:00",
       "organization": "SRKH",
@@ -320,5 +335,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T00:01:39+02:00"
+  "updatedAt": "2026-10-05T00:17:00+02:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "050de7790cc638c709f9e601",
+      "observedAt": "2026-10-05T00:16:57+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "365447baba86e817",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "AMK AMK 2026 (august/september)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "10a888b46326166b1125ca2f",
       "observedAt": "2026-09-28T15:36:41+02:00",
       "organization": "RKAB",
@@ -176,5 +191,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-28T15:36:41+02:00"
+  "updatedAt": "2026-10-05T00:16:57+02:00"
 }
