@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T10:56:18+02:00",
-  "checkedAt": "2026-10-04T21:06:35+02:00",
+  "updatedAt": "2026-10-04T21:26:12+02:00",
+  "checkedAt": "2026-10-04T21:26:12+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH",
-  "eventCount": 10,
+  "eventCount": 11,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -33,6 +33,15 @@
       "time": "11:30",
       "type": "Sanitetsvakt",
       "description": "Nesodden På Langs, oppmøte F3: 10.40 Nesodden på Langs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "a44397696c3ac719",
+      "dateIso": "2026-10-14",
+      "dateLabel": "ons. 14.10",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte F3: 16 - oppmøte Østre Greverud: 16.30 Rosa Sløyfe-løpet 2026,",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
     },
     {
