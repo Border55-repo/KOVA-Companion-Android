@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e6248225169ee68c3b350e55",
+      "observedAt": "2026-10-04T16:41:12+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "eaca17812cf890ac",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "19:00",
+        "type": "Rådsmøte",
+        "description": "Fysisk møte Ekstraordinært rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "2559d906c09b98d16331ec56",
       "observedAt": "2026-09-29T00:01:21+02:00",
       "organization": "EHRKH",
@@ -77,5 +92,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-29T00:01:21+02:00"
+  "updatedAt": "2026-10-04T16:41:12+02:00"
 }
