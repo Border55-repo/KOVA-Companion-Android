@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d68113e4ac8707ec0d3e07c6",
+      "observedAt": "2026-10-05T00:01:45+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7e17483aa1aa6004",
+        "dateIso": "2026-09-28",
+        "dateLabel": "man. 28.9",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Områdemøte 2026 - AÅ RKH Områdemøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "bdd5dfd33bd150ab859880f1",
       "observedAt": "2026-10-03T14:51:17+02:00",
       "organization": "NRKH",
@@ -290,5 +305,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T14:51:17+02:00"
+  "updatedAt": "2026-10-05T00:01:45+02:00"
 }
