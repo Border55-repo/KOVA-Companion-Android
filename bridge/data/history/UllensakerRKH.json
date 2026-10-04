@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7aaed188e75e29da1a58df78",
+      "observedAt": "2026-10-04T18:11:27+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "13b169a9695c13cf",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "09:00",
+        "type": "Øvelse",
+        "description": "ATV Øvelse Sessvollmoen M/NRH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "4460286e56de9343a9ad4670",
+      "observedAt": "2026-10-04T18:11:27+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c674a99b9fbfe759",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "09:00",
+        "type": "Øvelse",
+        "description": "ATV Øvelse Sessvollmoen Med NRH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "fbb8d689403a8a8c808148f3",
       "observedAt": "2026-10-04T18:06:15+02:00",
       "organization": "UllensakerRKH",
@@ -512,5 +542,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-04T18:06:15+02:00"
+  "updatedAt": "2026-10-04T18:11:27+02:00"
 }
