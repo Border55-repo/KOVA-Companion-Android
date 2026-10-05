@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "39325457f3c7dba175401fa5",
+      "observedAt": "2026-10-06T00:16:21+02:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2838e58d6d9aaa09",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "ksam kurs for aspirantene Ksam kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "25b7b92132ab8de16e464fc2",
       "observedAt": "2026-10-05T20:51:20+02:00",
       "organization": "NesRKH",
@@ -125,5 +140,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T20:51:20+02:00"
+  "updatedAt": "2026-10-06T00:16:21+02:00"
 }

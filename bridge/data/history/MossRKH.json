@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0857b89645e8835277b06e1e",
+      "observedAt": "2026-10-06T00:16:19+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "422dc2dbf4ece335",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Veiledning Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "3bc5e25b1be47c0e354e5325",
       "observedAt": "2026-10-03T11:36:26+02:00",
       "organization": "MossRKH",
@@ -383,5 +398,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T11:36:26+02:00"
+  "updatedAt": "2026-10-06T00:16:19+02:00"
 }
