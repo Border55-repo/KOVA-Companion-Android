@@ -2,6 +2,7 @@ import tempfile
 import unittest
 from datetime import datetime
 from pathlib import Path
+from unittest.mock import patch, Mock
 from zoneinfo import ZoneInfo
 
 from push import topic_for
@@ -15,7 +16,7 @@ from reliability import (
     pending_records,
     suspicious_snapshot,
 )
-from sync import compute_diff, parse_schedule, poll_batch, slug
+from sync import compute_diff, parse_schedule, poll_batch, slug, include_new_organizations, discover_organizations
 
 class PollFairnessTests(unittest.TestCase):
     def test_delayed_runs_cover_all_corps_even_at_same_clock_bucket(self):
@@ -53,6 +54,45 @@ def event(
 
 
 class BridgeParserTests(unittest.TestCase):
+    def test_description_edit_is_one_change(self):
+        diff = compute_diff([event()], [event(event_id="new", description="Øvelse med nytt oppmøtested")])
+        self.assertEqual((0, 0, 1), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
+
+    def test_recurring_shifts_are_not_collapsed(self):
+        old = [event(event_id="a"), event(event_id="b", date="2026-09-29")]
+        new = [old[0], event(event_id="c", date="2026-09-29", time="19:00")]
+        diff = compute_diff(old, new)
+        self.assertEqual((0, 0, 1), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
+        self.assertEqual("b", diff["changed"][0]["old"]["id"])
+        removed = compute_diff(old, [old[0]])
+        self.assertEqual([old[1]], removed["removed"])
+
+    def test_ambiguous_replacements_are_not_guessed(self):
+        old = [event(description="Vakt A"), event(event_id="b", description="Vakt B")]
+        new = [event(event_id="c", description="Vakt C"), event(event_id="d", description="Vakt D")]
+        diff = compute_diff(old, new)
+        self.assertEqual((2, 2, 0), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
+
+    def test_recurring_dates_do_not_turn_real_removal_and_addition_into_edit(self):
+        old = [event(), event(event_id="b", date="2026-09-29")]
+        new = [old[1], event(event_id="c", date="2026-10-06")]
+        diff = compute_diff(old, new)
+        self.assertEqual((1, 1, 0), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
+
+    def test_new_public_calendar_is_fetched_outside_rotation(self):
+        with tempfile.TemporaryDirectory() as directory, patch("sync.DATA_DIR", Path(directory)):
+            Path(directory, "old.json").write_text("{}")
+            old, new = {"code": "old"}, {"code": "new"}
+            self.assertEqual([old, new], include_new_organizations([old, new], [old]))
+            self.assertEqual([new], include_new_organizations([old, new], [new]))
+
+    def test_discovery_includes_newly_public_help_corps(self):
+        response = Mock(text="".join(f'<a href="schedule.aspx?Organization=corps{i}">Korps {i} Hjelpekorps</a>' for i in range(5)))
+        with patch("sync.requests.get", return_value=response):
+            found = discover_organizations(attempts=1)
+        self.assertEqual(5, len(found))
+        self.assertTrue(all(org["category"] == "hjelpekorps" for org in found))
+
     def test_parses_two_rows(self):
         html = """
         <table>

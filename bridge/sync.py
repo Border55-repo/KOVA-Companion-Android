@@ -503,24 +503,55 @@ def parse_schedule(html: str, url: str, now: datetime | None = None) -> list[dic
 
 
 def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
-    old_by_key = {event_semantic_key(event): event for event in old_events}
-    new_by_key = {event_semantic_key(event): event for event in new_events}
+    # Public KOVA rows have content-derived IDs, not stable activity IDs.
+    # Keep every occurrence: a dictionary keyed by title loses recurring shifts.
+    def fields(event):
+        return (event["dateIso"], normalized_time(event["time"]),
+                normalize(event["type"]), normalize(event["description"]))
 
-    changed = []
-    for key in old_by_key.keys() & new_by_key.keys():
-        old = old_by_key[key]
-        new = new_by_key[key]
-        if old["dateIso"] != new["dateIso"] or normalized_time(old["time"]) != normalized_time(new["time"]):
-            changed.append({"old": old, "new": new})
+    old_left = list(old_events)
+    new_left = []
+    for new in new_events:
+        exact = next((i for i, old in enumerate(old_left) if fields(old) == fields(new)), None)
+        if exact is None:
+            new_left.append(new)
+        else:
+            old_left.pop(exact)
 
-    added = [event for key, event in new_by_key.items() if key not in old_by_key]
-    removed = [event for key, event in old_by_key.items() if key not in new_by_key]
+    def candidate(old, new):
+        a, b = fields(old), fields(new)
+        if a[0] == b[0]:
+            # On the same day, require at least two of time/type/description.
+            return sum(x == y for x, y in zip(a[1:], b[1:])) >= 2
+        # A unique named activity can move date. Recurring titles cannot safely
+        # be paired across dates without a stable source ID.
+        key = event_semantic_key(old)
+        return (key == event_semantic_key(new)
+                and sum(event_semantic_key(e) == key for e in old_events) == 1
+                and sum(event_semantic_key(e) == key for e in new_events) == 1)
+
+    candidates = {i: [j for j, new in enumerate(new_left) if candidate(old, new)]
+                  for i, old in enumerate(old_left)}
+    pairs = [(i, js[0]) for i, js in candidates.items()
+             if len(js) == 1 and sum(js[0] in other for other in candidates.values()) == 1]
+    changed = [{"old": old_left[i], "new": new_left[j]} for i, j in pairs]
+    matched_old = {i for i, _ in pairs}
+    matched_new = {j for _, j in pairs}
+    added = [e for j, e in enumerate(new_left) if j not in matched_new]
+    removed = [e for i, e in enumerate(old_left) if i not in matched_old]
 
     return {
         "added": sorted(added, key=lambda item: (item["dateIso"], item["time"])),
         "removed": sorted(removed, key=lambda item: (item["dateIso"], item["time"])),
         "changed": changed,
     }
+
+
+def include_new_organizations(organizations: list[dict], polled: list[dict]) -> list[dict]:
+    """Fetch newly public calendars on discovery, before normal rotation."""
+    codes = {org["code"] for org in polled}
+    return polled + [org for org in organizations if org["code"] not in codes
+                     and not (DATA_DIR / f"{slug(org['code'])}.json").exists()]
 
 
 def canonical_events(events: list[dict]) -> str:
@@ -805,7 +836,7 @@ def main(source=None) -> int:
                 checks = runtime.get('organizationChecks') or {}
             except Exception:
                 print('Could not read polling history; using fallback rotation.', file=sys.stderr)
-        polled = poll_batch(organizations, checks=checks)
+        polled = include_new_organizations(organizations, poll_batch(organizations, checks=checks))
 
     print(
         f"Discovered {len(organizations)} public KOVA organizations "

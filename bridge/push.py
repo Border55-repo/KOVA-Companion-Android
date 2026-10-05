@@ -168,8 +168,9 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
             {
                 "title": "KOVA-aktivitet endret",
                 "body": (
-                    f"{new['description']}: {old['dateLabel']} {old['time']} → "
-                    f"{new['dateLabel']} {new['time']}"
+                    f"{old['description']} → {new['description']} • {new['dateLabel']} {new['time']}"
+                    if old['description'] != new['description'] else
+                    f"{new['description']}: {old['dateLabel']} {old['time']} → {new['dateLabel']} {new['time']}"
                 ),
                 "kind": "changed",
                 "event": new,
