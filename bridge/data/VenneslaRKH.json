@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T18:26:24+02:00",
-  "checkedAt": "2026-10-05T17:21:23+02:00",
+  "updatedAt": "2026-10-05T17:41:32+02:00",
+  "checkedAt": "2026-10-05T17:41:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH",
-  "eventCount": 15,
+  "eventCount": 20,
   "changes": {
-    "added": 1,
+    "added": 5,
     "removed": 0,
     "changed": 0
   },
@@ -105,6 +105,51 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Juleavslutning Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "4019f380a0bc3ccf",
+      "dateIso": "2026-12-09",
+      "dateLabel": "ons. 9.12",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Julegada",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "87bede26accd753e",
+      "dateIso": "2026-12-10",
+      "dateLabel": "tor. 10.12",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Julegada",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "807d4f06cec9bae9",
+      "dateIso": "2026-12-11",
+      "dateLabel": "fre. 11.12",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Julegada",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "82756c00b2b465b3",
+      "dateIso": "2026-12-12",
+      "dateLabel": "lør. 12.12",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Julegada",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "63f5f91eed49ecc6",
+      "dateIso": "2026-12-13",
+      "dateLabel": "søn. 13.12",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Julegada",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
     },
     {

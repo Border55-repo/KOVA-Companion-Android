@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b6eeb7ce4229369dff2164e3",
+      "observedAt": "2026-10-05T17:41:32+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "4019f380a0bc3ccf",
+        "dateIso": "2026-12-09",
+        "dateLabel": "ons. 9.12",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Julegada",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "4b1712e2f2c8c39fa86f24c3",
+      "observedAt": "2026-10-05T17:41:32+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "87bede26accd753e",
+        "dateIso": "2026-12-10",
+        "dateLabel": "tor. 10.12",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Julegada",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "ca344e266466ad363e4aa32c",
+      "observedAt": "2026-10-05T17:41:32+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "807d4f06cec9bae9",
+        "dateIso": "2026-12-11",
+        "dateLabel": "fre. 11.12",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Julegada",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "9f9313bd20e69acb18d24c0d",
+      "observedAt": "2026-10-05T17:41:32+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "82756c00b2b465b3",
+        "dateIso": "2026-12-12",
+        "dateLabel": "lør. 12.12",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Julegada",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "8b83318445ae88d84440a74b",
+      "observedAt": "2026-10-05T17:41:32+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "63f5f91eed49ecc6",
+        "dateIso": "2026-12-13",
+        "dateLabel": "søn. 13.12",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Julegada",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "265a07810f5324958cd618f0",
       "observedAt": "2026-10-03T18:26:24+02:00",
       "organization": "VenneslaRKH",
@@ -182,5 +257,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T18:26:24+02:00"
+  "updatedAt": "2026-10-05T17:41:32+02:00"
 }
