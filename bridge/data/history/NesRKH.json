@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "25b7b92132ab8de16e464fc2",
+      "observedAt": "2026-10-05T20:51:20+02:00",
+      "organization": "NesRKH",
+      "kind": "changed",
+      "event": {
+        "id": "fc027b93f7b74575",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      },
+      "oldEvent": {
+        "id": "aa5c783d1afa3f17",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Bil rebus Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "4dbc63f30c399d5bdadf3744",
       "observedAt": "2026-10-05T20:31:47+02:00",
       "organization": "NesRKH",
@@ -101,5 +125,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T20:31:47+02:00"
+  "updatedAt": "2026-10-05T20:51:20+02:00"
 }
