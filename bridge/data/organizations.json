@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-10-01T02:01:02+02:00",
-  "count": 42,
-  "helpCorpsCount": 38,
+  "updatedAt": "2026-10-05T23:01:37+02:00",
+  "count": 43,
+  "helpCorpsCount": 39,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -163,6 +163,11 @@
     {
       "name": "Sotra Røde Kors Hjelpekorps",
       "code": "SRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Spjelkavik Røde Kors Hjelpekorps",
+      "code": "SpjelkavikRKH",
       "category": "hjelpekorps"
     },
     {

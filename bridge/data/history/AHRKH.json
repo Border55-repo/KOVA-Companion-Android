@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3e9a1ca70bca9bd8577d45fb",
+      "observedAt": "2026-10-05T23:01:45+02:00",
+      "organization": "AHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "c41e9321fd081a51",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Psykososial førstehjelp Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      },
+      "oldEvent": {
+        "id": "075cf5151313db5f",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelp Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "e24c9b0ec9388380e82e0a4e",
       "observedAt": "2026-10-05T11:26:34+02:00",
       "organization": "AHRKH",
@@ -122,5 +146,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T11:26:34+02:00"
+  "updatedAt": "2026-10-05T23:01:45+02:00"
 }
