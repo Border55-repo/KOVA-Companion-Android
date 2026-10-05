@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-04T00:06:24+02:00",
-  "checkedAt": "2026-10-05T10:21:23+02:00",
+  "updatedAt": "2026-10-05T10:36:25+02:00",
+  "checkedAt": "2026-10-05T10:36:25+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 38,
+  "eventCount": 43,
   "changes": {
-    "added": 0,
+    "added": 5,
     "removed": 0,
     "changed": 0
   },
@@ -42,6 +42,15 @@
       "time": "17:00",
       "type": "Sanitetsvakt",
       "description": "Unity Arena Konsert: Duran Duran",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "2666e8fb6e614fc4",
+      "dateIso": "2026-10-06",
+      "dateLabel": "tir. 6.10",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "Oktober Lokalrådsmøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
@@ -189,6 +198,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
+      "id": "cdcc404583b123de",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "November Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
       "id": "cc38f317e168d442",
       "dateIso": "2026-11-06",
       "dateLabel": "fre. 6.11",
@@ -279,6 +297,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
+      "id": "abee18120aea4b72",
+      "dateIso": "2026-12-01",
+      "dateLabel": "tir. 1.12",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "Desember Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
       "id": "8c66180632295409",
       "dateIso": "2026-12-09",
       "dateLabel": "ons. 9.12",
@@ -315,6 +342,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
+      "id": "4df70914a54a3864",
+      "dateIso": "2027-01-05",
+      "dateLabel": "tir. 5.1",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "Januar Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
       "id": "e6b17b3fb589fcc9",
       "dateIso": "2027-01-09",
       "dateLabel": "lør. 9.1",
@@ -348,6 +384,15 @@
       "time": "10:00",
       "type": "Ambulansevakt",
       "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "bff255dd57a43128",
+      "dateIso": "2027-02-02",
+      "dateLabel": "tir. 2.2",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "Februar Lokalrådsmøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
