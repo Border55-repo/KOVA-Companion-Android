@@ -7,6 +7,7 @@ import os
 import re
 import sys
 import time
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import parse_qs, quote_plus, unquote_plus, urlparse
@@ -518,6 +519,9 @@ def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
         else:
             old_left.pop(exact)
 
+    old_counts = Counter(event_semantic_key(e) for e in old_events)
+    new_counts = Counter(event_semantic_key(e) for e in new_events)
+
     def candidate(old, new):
         a, b = fields(old), fields(new)
         if a[0] == b[0]:
@@ -527,8 +531,7 @@ def compute_diff(old_events: list[dict], new_events: list[dict]) -> dict:
         # be paired across dates without a stable source ID.
         key = event_semantic_key(old)
         return (key == event_semantic_key(new)
-                and sum(event_semantic_key(e) == key for e in old_events) == 1
-                and sum(event_semantic_key(e) == key for e in new_events) == 1)
+                and old_counts[key] == 1 and new_counts[key] == 1)
 
     candidates = {i: [j for j, new in enumerate(new_left) if candidate(old, new)]
                   for i, old in enumerate(old_left)}

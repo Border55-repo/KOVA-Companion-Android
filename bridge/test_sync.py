@@ -58,6 +58,12 @@ class BridgeParserTests(unittest.TestCase):
         diff = compute_diff([event()], [event(event_id="new", description="Øvelse med nytt oppmøtested")])
         self.assertEqual((0, 0, 1), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
 
+    def test_unique_date_and_type_edits_are_changes(self):
+        for edited in [event(date="2026-09-24"), event(type_name="Sanitetsvakt")]:
+            with self.subTest(edited=edited):
+                diff = compute_diff([event()], [edited])
+                self.assertEqual((0, 0, 1), tuple(len(diff[k]) for k in ("added", "removed", "changed")))
+
     def test_recurring_shifts_are_not_collapsed(self):
         old = [event(event_id="a"), event(event_id="b", date="2026-09-29")]
         new = [old[0], event(event_id="c", date="2026-09-29", time="19:00")]
