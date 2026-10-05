@@ -2,6 +2,159 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9317e3c6f973e04d32be876e",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "afd47f00de3d4e1a",
+        "dateIso": "2027-02-22",
+        "dateLabel": "man. 22.2",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Nærmere informasjon kommer. Årsmøte i Halden Røde Kors",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "95089f92799068699964fb53",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "5b3aeaaadc3c8167",
+        "dateIso": "2027-06-12",
+        "dateLabel": "lør. 12.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "5c34e3a075767166d58d2b76",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "d1e4671f29dc2ea9",
+        "dateIso": "2027-06-18",
+        "dateLabel": "fre. 18.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "941ddf40141a3323ff9a3629",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "b53989d0addec680",
+        "dateIso": "2027-06-19",
+        "dateLabel": "lør. 19.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "4aae93cc12af4b63a0a2d757",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "0ee44b3e20de83d0",
+        "dateIso": "2027-06-09",
+        "dateLabel": "ons. 9.6",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "Generalprøve (tilstede i Festningen kl.21-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "58abd13ed48d2bd4",
+        "dateIso": "2026-06-09",
+        "dateLabel": "ons. 9.6",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "Generalprøve (tilstede i Festningen kl.21-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "70a65f8a480e60a5766290c7",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "78b3980e2707b169",
+        "dateIso": "2027-06-11",
+        "dateLabel": "fre. 11.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Premiere (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "ebdd5ba722993ebc",
+        "dateIso": "2026-06-11",
+        "dateLabel": "fre. 11.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Premiere (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "d152391662962642a1c62579",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5a7393f1a0b90d06",
+        "dateIso": "2026-06-12",
+        "dateLabel": "lør. 12.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "a450ad2d84e5ba15d2d0d65c",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e0490be1f050681d",
+        "dateIso": "2026-06-18",
+        "dateLabel": "fre. 18.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "cd5c03b1e1e5b373a4f832c5",
+      "observedAt": "2026-10-05T19:46:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "323595c0127b7b44",
+        "dateIso": "2026-06-19",
+        "dateLabel": "lør. 19.6",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "8a153c0a41fbb9702d478ce9",
       "observedAt": "2026-10-05T18:12:01+02:00",
       "organization": "HaldenRKH",
@@ -437,5 +590,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T18:12:01+02:00"
+  "updatedAt": "2026-10-05T19:46:18+02:00"
 }
