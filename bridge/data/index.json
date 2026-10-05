@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-10-05T12:06:52+02:00",
+  "updatedAt": "2026-10-05T12:11:51+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 38,
   "organizations": [
@@ -40,7 +40,7 @@
       "category": "hjelpekorps",
       "file": "AHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:56:18+02:00",
+      "checkedAt": "2026-10-05T12:11:50+02:00",
       "eventCount": 17,
       "updatedAt": "2026-10-05T11:26:34+02:00"
     },
@@ -50,7 +50,7 @@
       "category": "hjelpekorps",
       "file": "Bergen_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:56:19+02:00",
+      "checkedAt": "2026-10-05T12:11:51+02:00",
       "eventCount": 37,
       "updatedAt": "2026-10-05T00:01:49+02:00"
     },
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "EHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T12:06:46+02:00",
+      "checkedAt": "2026-10-05T12:11:44+02:00",
       "eventCount": 20,
       "updatedAt": "2026-10-04T16:41:12+02:00"
     },
@@ -230,7 +230,7 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T12:06:46+02:00",
+      "checkedAt": "2026-10-05T12:11:44+02:00",
       "eventCount": 46,
       "updatedAt": "2026-10-05T00:01:41+02:00"
     },
@@ -270,7 +270,7 @@
       "category": "hjelpekorps",
       "file": "PorsgrunnRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:20+02:00",
+      "checkedAt": "2026-10-05T12:11:46+02:00",
       "eventCount": 17,
       "updatedAt": "2026-10-03T00:01:36+02:00"
     },
@@ -280,7 +280,7 @@
       "category": "hjelpekorps",
       "file": "RingerikeHoleRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:21+02:00",
+      "checkedAt": "2026-10-05T12:11:47+02:00",
       "eventCount": 18,
       "updatedAt": "2026-10-05T00:16:59+02:00"
     },
@@ -300,7 +300,7 @@
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T12:06:47+02:00",
+      "checkedAt": "2026-10-05T12:11:45+02:00",
       "eventCount": 50,
       "updatedAt": "2026-10-01T20:21:51+02:00"
     },
@@ -320,7 +320,7 @@
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:22+02:00",
+      "checkedAt": "2026-10-05T12:11:48+02:00",
       "eventCount": 28,
       "updatedAt": "2026-10-05T00:17:01+02:00"
     },
@@ -330,7 +330,7 @@
       "category": "hjelpekorps",
       "file": "SRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:22+02:00",
+      "checkedAt": "2026-10-05T12:11:48+02:00",
       "eventCount": 23,
       "updatedAt": "2026-10-05T09:51:16+02:00"
     },
@@ -340,7 +340,7 @@
       "category": "hjelpekorps",
       "file": "SteinkjerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:22+02:00",
+      "checkedAt": "2026-10-05T12:11:49+02:00",
       "eventCount": 15,
       "updatedAt": "2026-10-05T00:17:03+02:00"
     },
@@ -360,7 +360,7 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T12:06:47+02:00",
+      "checkedAt": "2026-10-05T12:11:45+02:00",
       "eventCount": 52,
       "updatedAt": "2026-10-04T18:11:27+02:00"
     },
@@ -400,7 +400,7 @@
       "category": "ambulanse",
       "file": "RKAB.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:21+02:00",
+      "checkedAt": "2026-10-05T12:11:47+02:00",
       "eventCount": 48,
       "updatedAt": "2026-10-05T00:16:57+02:00"
     },
@@ -420,7 +420,7 @@
       "category": "bat",
       "file": "RCB.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:20+02:00",
+      "checkedAt": "2026-10-05T12:11:46+02:00",
       "eventCount": 4,
       "updatedAt": "2026-09-22T23:07:53+02:00"
     },
@@ -430,7 +430,7 @@
       "category": "omsorg",
       "file": "StvRKO.json",
       "status": "ok",
-      "checkedAt": "2026-10-05T11:51:23+02:00",
+      "checkedAt": "2026-10-05T12:11:50+02:00",
       "eventCount": 12,
       "updatedAt": "2026-10-05T00:17:05+02:00"
     }
