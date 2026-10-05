@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-04T00:16:23+02:00",
-  "checkedAt": "2026-10-05T18:56:19+02:00",
+  "updatedAt": "2026-10-05T19:16:38+02:00",
+  "checkedAt": "2026-10-05T19:16:38+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 28,
+  "eventCount": 33,
   "changes": {
-    "added": 0,
+    "added": 5,
     "removed": 0,
     "changed": 0
   },
@@ -267,6 +267,51 @@
       "time": "08:00",
       "type": "Ambulansevakt",
       "description": "Rally Hadeland",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "d3fbb5249a7d9bc5",
+      "dateIso": "2027-03-03",
+      "dateLabel": "ons. 3.3",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "20a5af0230d479a5",
+      "dateIso": "2027-03-04",
+      "dateLabel": "tor. 4.3",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "5df0463ab9f1172b",
+      "dateIso": "2027-03-05",
+      "dateLabel": "fre. 5.3",
+      "time": "09:00",
+      "type": "Ambulansevakt",
+      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "74d41b58aec63dd9",
+      "dateIso": "2027-03-06",
+      "dateLabel": "lør. 6.3",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "b5c83ccddbbc070a",
+      "dateIso": "2027-03-07",
+      "dateLabel": "søn. 7.3",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
     }
   ]
