@@ -7,34 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-10-05T00:16:57+02:00",
-  "checkedAt": "2026-10-05T23:46:18+02:00",
+  "updatedAt": "2026-10-06T00:06:11+02:00",
+  "checkedAt": "2026-10-06T00:06:11+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
-  "eventCount": 48,
+  "eventCount": 46,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "66b3aa095ab8ff2a",
-      "dateIso": "2026-09-29",
-      "dateLabel": "tir. 29.9",
-      "time": "13:00",
-      "type": "Øvelse",
-      "description": "Plivo Øvelse Plivo Øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
-    {
-      "id": "d5275a7eab55178a",
-      "dateIso": "2026-09-29",
-      "dateLabel": "tir. 29.9",
-      "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "UEFA damer trening (oppmøte 1445 på stadion) Brann",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
-    },
     {
       "id": "ab4145e385f8d6f1",
       "dateIso": "2026-09-30",

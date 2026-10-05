@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4a1301865208c370f71ffd30",
+      "observedAt": "2026-10-06T00:06:11+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "66b3aa095ab8ff2a",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "13:00",
+        "type": "Øvelse",
+        "description": "Plivo Øvelse Plivo Øvelse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "4f443e4b450df8e77a5aba2c",
+      "observedAt": "2026-10-06T00:06:11+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "d5275a7eab55178a",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA damer trening (oppmøte 1445 på stadion) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "050de7790cc638c709f9e601",
       "observedAt": "2026-10-05T00:16:57+02:00",
       "organization": "RKAB",
@@ -191,5 +221,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T00:16:57+02:00"
+  "updatedAt": "2026-10-06T00:06:11+02:00"
 }
