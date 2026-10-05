@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T13:31:37+02:00",
-  "checkedAt": "2026-10-05T17:51:29+02:00",
+  "updatedAt": "2026-10-05T18:12:01+02:00",
+  "checkedAt": "2026-10-05T18:12:01+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
   "eventCount": 40,
   "changes": {
     "added": 1,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -225,12 +225,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "568f91f10092f47f",
+      "id": "00e284b4fe14a52e",
       "dateIso": "2026-10-20",
       "dateLabel": "tir. 20.10",
-      "time": "18:00",
+      "time": "17:15",
       "type": "Korpskveld",
-      "description": "When shits hits the fan (Ida ansvar) Korpskvelder",
+      "description": "When shits hits the fan (Ida ansvar) Oppmøte på RK huset kl.17:15 Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
