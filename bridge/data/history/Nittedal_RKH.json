@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a71fb5755c979f0f2a6f84a8",
+      "observedAt": "2026-10-06T00:01:43+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "da090b89a1edc868",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Ordinært arbeidsmøte, fokus beredskap Møte: Styremøte i lokalforeningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "4922ca40b98aa1333eba7830",
       "observedAt": "2026-10-05T15:11:31+02:00",
       "organization": "Nittedal RKH",
@@ -416,5 +431,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T15:11:31+02:00"
+  "updatedAt": "2026-10-06T00:01:43+02:00"
 }

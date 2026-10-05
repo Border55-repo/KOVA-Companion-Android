@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a189684b2c046f8c8ed6516c",
+      "observedAt": "2026-10-06T00:02:01+02:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6ffc2d1d46495e14",
+        "dateIso": "2026-09-29",
+        "dateLabel": "tir. 29.9",
+        "time": "16:30",
+        "type": "Beredskap",
+        "description": "Tilstedeværelse Beredskap",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "3e9a1ca70bca9bd8577d45fb",
       "observedAt": "2026-10-05T23:01:45+02:00",
       "organization": "AHRKH",
@@ -146,5 +161,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T23:01:45+02:00"
+  "updatedAt": "2026-10-06T00:02:01+02:00"
 }
