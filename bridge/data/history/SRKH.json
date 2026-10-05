@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b3447766ef8ebe04c6136567",
+      "observedAt": "2026-10-05T09:51:16+02:00",
+      "organization": "SRKH",
+      "kind": "added",
+      "event": {
+        "id": "de3f856120ca2eb7",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "2850cae816a5e810cc0e8773",
       "observedAt": "2026-10-05T00:17:00+02:00",
       "organization": "SRKH",
@@ -335,5 +350,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T00:17:00+02:00"
+  "updatedAt": "2026-10-05T09:51:16+02:00"
 }
