@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "88cb4a4ab12948db88c43151",
+      "observedAt": "2026-10-06T22:01:33+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "b2166b8ca6d2fc89",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "17:15",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm – Molde LSK-kamper Høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "059ba3f706a00415",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "15:15",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm – Molde LSK-kamper Høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "53de775f982e636a45a9ee22",
       "observedAt": "2026-10-06T00:01:46+02:00",
       "organization": "Skedsmo RKH",
@@ -182,5 +206,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T00:01:46+02:00"
+  "updatedAt": "2026-10-06T22:01:33+02:00"
 }
