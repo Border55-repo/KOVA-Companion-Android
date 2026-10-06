@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-05T18:21:42+02:00",
-  "checkedAt": "2026-10-06T21:21:18+02:00",
+  "updatedAt": "2026-10-06T21:41:32+02:00",
+  "checkedAt": "2026-10-06T21:41:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 35,
+  "eventCount": 37,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -303,6 +303,24 @@
       "time": "15:30",
       "type": "Sanitetsvakt",
       "description": "Brann mot Kristiansund Brann mot Kristiansund",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "c075c61aabc79cd2",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Sted: Kalfarveien 79 Årsfest for 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "95198b85cb2ec237",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "-> 02:00",
+      "type": "Aktivitet",
+      "description": "Sted: Kalfarveien 79 Årsfest for 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {

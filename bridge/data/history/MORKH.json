@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8b8d901d4605d86a2764774d",
+      "observedAt": "2026-10-06T21:41:39+02:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "f93275515d698de0",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "12:00",
+        "type": "Øvelse",
+        "description": "Øvelse for KFØR ->AFØR - Aspiranter kan være med! Øvelse med tauruppa",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "37318add523d06d2",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "12:00",
+        "type": "Øvelse",
+        "description": "Øvelse i Rakkestad med tauruppa Øvelse med tauruppa",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "55d0c42b9522df7961143a74",
       "observedAt": "2026-10-06T19:36:22+02:00",
       "organization": "MORKH",
@@ -887,5 +911,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T19:36:22+02:00"
+  "updatedAt": "2026-10-06T21:41:39+02:00"
 }
