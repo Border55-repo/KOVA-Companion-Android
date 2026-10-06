@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c4a0e0ef8b9b05fb2a9e9da8",
+      "observedAt": "2026-10-06T15:51:31+02:00",
+      "organization": "EHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "36febbab12f4d705",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "19:00",
+        "type": "Rådsmøte",
+        "description": "Fysisk Rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      },
+      "oldEvent": {
+        "id": "f511ab7eb64b796a",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "19:00",
+        "type": "Rådsmøte",
+        "description": "Teams Rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "1493b7685525e2fa400becbd",
       "observedAt": "2026-10-06T15:46:17+02:00",
       "organization": "EHRKH",
@@ -137,5 +161,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T15:46:17+02:00"
+  "updatedAt": "2026-10-06T15:51:31+02:00"
 }
