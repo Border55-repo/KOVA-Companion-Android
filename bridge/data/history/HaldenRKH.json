@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e91396d9d1df0f48ebd50a46",
+      "observedAt": "2026-10-07T00:06:22+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "be5f4844afd02bac",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Møte om KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "35cebcf93e28be123e980b28",
       "observedAt": "2026-10-06T14:06:28+02:00",
       "organization": "HaldenRKH",
@@ -620,5 +635,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T14:06:28+02:00"
+  "updatedAt": "2026-10-07T00:06:22+02:00"
 }

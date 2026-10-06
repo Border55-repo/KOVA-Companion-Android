@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "01350c06f5f61531e62245c7",
+      "observedAt": "2026-10-07T00:06:20+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e207444e2844c074",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søksøvelse på korpshytta Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "8bd4c0f6e986b183a4373b0a",
       "observedAt": "2026-10-05T10:36:25+02:00",
       "organization": "BærumRKH",
@@ -275,5 +290,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T10:36:25+02:00"
+  "updatedAt": "2026-10-07T00:06:20+02:00"
 }
