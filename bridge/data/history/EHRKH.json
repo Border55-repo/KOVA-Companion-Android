@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1493b7685525e2fa400becbd",
+      "observedAt": "2026-10-06T15:46:17+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1a87d6d4835e4f85",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "08:00",
+        "type": "Transport",
+        "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sjåfør / Oppdrag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "999190aff3ad49213f5db0da",
+      "observedAt": "2026-10-06T15:46:17+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c69ca7e436406d78",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "08:00",
+        "type": "Transport",
+        "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sjåfør / Oppdrag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "9e02fa4fad6943eacad91f09",
+      "observedAt": "2026-10-06T15:46:17+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e23fb7c98fceeb1f",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "08:00",
+        "type": "Transport",
+        "description": "Transport for VIP/Gjester under Landsmøtet 2026 Sjåfør / Oppdrag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "e6248225169ee68c3b350e55",
       "observedAt": "2026-10-04T16:41:12+02:00",
       "organization": "EHRKH",
@@ -92,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-04T16:41:12+02:00"
+  "updatedAt": "2026-10-06T15:46:17+02:00"
 }
