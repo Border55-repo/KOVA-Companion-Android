@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b361ae4f7a9917c2dc24bd87",
+      "observedAt": "2026-10-06T10:11:26+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "8f436e9b54f8060b",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "08:00",
+        "type": "Transport",
+        "description": "RK32 ute av drift i arbeidstid, verksted Hvam Transport: EU-kontroll, RK32 Ambulanse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "a71fb5755c979f0f2a6f84a8",
       "observedAt": "2026-10-06T00:01:43+02:00",
       "organization": "Nittedal RKH",
@@ -431,5 +446,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T00:01:43+02:00"
+  "updatedAt": "2026-10-06T10:11:26+02:00"
 }
