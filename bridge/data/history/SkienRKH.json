@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7d40fd896cab1b2a09872255",
+      "observedAt": "2026-10-06T21:06:26+02:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "306c949d9abdf4a6",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Bålkveld på Kongensutsikt/m Anders og Vegard Temakveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "26ea22399b05bf43b3185349",
+      "observedAt": "2026-10-06T21:06:26+02:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5885c9660ca21320",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Vedlikehold av utstyr/m Anders og Per Temakveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "40deb4849d99830eee6d1124",
       "observedAt": "2026-10-05T00:17:01+02:00",
       "organization": "SkienRKH",
@@ -182,5 +212,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T00:17:01+02:00"
+  "updatedAt": "2026-10-06T21:06:26+02:00"
 }
