@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "90926b47447692b25736acd2",
+      "observedAt": "2026-10-07T00:01:47+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "738034b2386a09fa",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Korpsmøte / rutiner på huset",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "4b20848da4a1d15823d0eca7",
       "observedAt": "2026-10-03T00:01:36+02:00",
       "organization": "PorsgrunnRKH",
@@ -92,5 +107,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T00:01:36+02:00"
+  "updatedAt": "2026-10-07T00:01:47+02:00"
 }

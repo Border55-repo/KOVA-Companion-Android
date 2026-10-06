@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "52e3424f96b005a0d825c7f6",
+      "observedAt": "2026-10-07T00:01:50+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "ab4145e385f8d6f1",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA kamp damer (tidlig, kampstart 1800, tilstede 2 timer før) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "2250ee8deebd76cc20db4003",
+      "observedAt": "2026-10-07T00:01:50+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "3f1164976ade9d04",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA kamp damer (sein, kampstart 1800, tilstede 1 time før) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "4a1301865208c370f71ffd30",
       "observedAt": "2026-10-06T00:06:11+02:00",
       "organization": "RKAB",
@@ -221,5 +251,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T00:06:11+02:00"
+  "updatedAt": "2026-10-07T00:01:50+02:00"
 }

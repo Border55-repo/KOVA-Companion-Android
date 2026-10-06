@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T00:01:36+02:00",
-  "checkedAt": "2026-10-06T23:41:21+02:00",
+  "updatedAt": "2026-10-07T00:01:47+02:00",
+  "checkedAt": "2026-10-07T00:01:47+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH",
-  "eventCount": 17,
+  "eventCount": 16,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "738034b2386a09fa",
-      "dateIso": "2026-09-30",
-      "dateLabel": "ons. 30.9",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "Korpsmøte / rutiner på huset",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
-    },
     {
       "id": "e41b1b9abdb166a3",
       "dateIso": "2026-10-03",

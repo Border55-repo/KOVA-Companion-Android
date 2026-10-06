@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "21a7b8dbd05ba1a8a386e4c7",
+      "observedAt": "2026-10-07T00:01:48+02:00",
+      "organization": "RCB",
+      "kind": "removed",
+      "event": {
+        "id": "7d182639703d1cc0",
+        "dateIso": "2026-09-30",
+        "dateLabel": "ons. 30.9",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Månedlig FS-møte på Teams",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-07T00:01:48+02:00"
+}
