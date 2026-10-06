@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e4984338ecc1d51258bc90ad",
+      "observedAt": "2026-10-06T20:36:28+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "79347842588f5ae4",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Ny veileder (effektivt, grundig og dynamisk søk) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "687bd169da0572c8",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Finsøk/Grovsøk Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "0857b89645e8835277b06e1e",
       "observedAt": "2026-10-06T00:16:19+02:00",
       "organization": "MossRKH",
@@ -398,5 +422,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T00:16:19+02:00"
+  "updatedAt": "2026-10-06T20:36:28+02:00"
 }
