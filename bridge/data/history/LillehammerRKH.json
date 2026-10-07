@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "286a520f02586deb8e6e61ea",
+      "observedAt": "2026-10-08T00:16:24+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "226b85fae0e12c3d",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemskveld Punkter fra: Nasjonal veileder for redningstjenesten ved søk etter savnet person på land",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "90264ff2bb9d234b4adb71c1",
       "observedAt": "2026-10-02T16:46:31+02:00",
       "organization": "LillehammerRKH",
@@ -71,5 +86,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-02T16:46:31+02:00"
+  "updatedAt": "2026-10-08T00:16:24+02:00"
 }

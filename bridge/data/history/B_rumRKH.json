@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "53f11bb67a6dd57c9ae15a39",
+      "observedAt": "2026-10-08T00:16:16+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "22b3b3d9e0a52330",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "17:30",
+        "type": "Korpskveld",
+        "description": "Førstehjelpsøvelse i Asker Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "01350c06f5f61531e62245c7",
       "observedAt": "2026-10-07T00:06:20+02:00",
       "organization": "BærumRKH",
@@ -290,5 +305,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:06:20+02:00"
+  "updatedAt": "2026-10-08T00:16:16+02:00"
 }

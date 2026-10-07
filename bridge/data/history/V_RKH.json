@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6cb5fc595143e99a5a2ab884",
+      "observedAt": "2026-10-08T00:16:33+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6cf200b55591d5ed",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "21:00",
+        "type": "Sanitetsvakt",
+        "description": "Festkveld: åpning av UKA UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "bee5b903e71f22537784c965",
+      "observedAt": "2026-10-08T00:16:33+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b10d899f97b33591",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "-> 01:30",
+        "type": "Sanitetsvakt",
+        "description": "Festkveld: åpning av UKA UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "a40c70fd3025c2d1443aaa5e",
       "observedAt": "2026-10-06T00:11:36+02:00",
       "organization": "VÅRKH",
@@ -92,5 +122,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T00:11:36+02:00"
+  "updatedAt": "2026-10-08T00:16:33+02:00"
 }
