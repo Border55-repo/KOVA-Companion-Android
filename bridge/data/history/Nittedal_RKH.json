@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2e2dea1aac2003b329b6f00b",
+      "observedAt": "2026-10-07T14:46:20+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "f8caa164b1bd942e",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "09:30",
+        "type": "Eksterne kurs",
+        "description": "Regodkjenning AFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "b322b3e3132eb7bc84be4309",
       "observedAt": "2026-10-07T00:01:37+02:00",
       "organization": "Nittedal RKH",
@@ -491,5 +506,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:01:37+02:00"
+  "updatedAt": "2026-10-07T14:46:20+02:00"
 }
