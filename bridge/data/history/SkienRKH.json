@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3ebbe59ecceab78f8b297441",
+      "observedAt": "2026-10-08T00:11:16+02:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cb64dafd45c79d25",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Klosterskogen Travbane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "7d40fd896cab1b2a09872255",
       "observedAt": "2026-10-06T21:06:26+02:00",
       "organization": "SkienRKH",
@@ -212,5 +227,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T21:06:26+02:00"
+  "updatedAt": "2026-10-08T00:11:16+02:00"
 }

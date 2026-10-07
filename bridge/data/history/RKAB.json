@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9419def3112f54188e8a926e",
+      "observedAt": "2026-10-08T00:11:12+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "e4b6ad9d01b1f942",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "06:30",
+        "type": "Øvelse",
+        "description": "Katastrofeøvelse Haakonsvern Katastrofe øvelse Haakonsvern",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "52e3424f96b005a0d825c7f6",
       "observedAt": "2026-10-07T00:01:50+02:00",
       "organization": "RKAB",
@@ -251,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:01:50+02:00"
+  "updatedAt": "2026-10-08T00:11:12+02:00"
 }

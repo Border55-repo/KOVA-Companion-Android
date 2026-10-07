@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T00:01:56+02:00",
-  "checkedAt": "2026-10-07T23:56:17+02:00",
+  "updatedAt": "2026-10-08T00:11:19+02:00",
+  "checkedAt": "2026-10-08T00:11:19+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
-  "eventCount": 15,
+  "eventCount": 13,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "21e9a313d36c06e2",
-      "dateIso": "2026-10-01",
-      "dateLabel": "tor. 1.10",
-      "time": "16:30",
-      "type": "Beredskap",
-      "description": "Beredskap",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
-    },
-    {
-      "id": "6253c851cb4ec1fe",
-      "dateIso": "2026-10-01",
-      "dateLabel": "tor. 1.10",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Førstehjelp Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
-    },
     {
       "id": "e23cf3c02896e510",
       "dateIso": "2026-10-02",
