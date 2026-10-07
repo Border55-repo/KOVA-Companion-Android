@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "55e97739a0a3e3b9625e25a8",
+      "observedAt": "2026-10-07T17:51:23+02:00",
+      "organization": "NRKH",
+      "kind": "changed",
+      "event": {
+        "id": "1a4cedbe0d898b3c",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Norge øver - Alver + Masfjorden Norge øver!",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      },
+      "oldEvent": {
+        "id": "01ae8fdbf4235655",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Norge øver - Alver Norge øver!",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "d8b7f94e4742a533952f4bff",
+      "observedAt": "2026-10-07T17:51:23+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "182b17fdc1e9b78a",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Norge øver - Masfjorden Norge øver!",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "1a25e5eb4d9ae11758f05aaa",
       "observedAt": "2026-10-07T14:02:06+02:00",
       "organization": "NRKH",
@@ -359,5 +398,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T14:02:06+02:00"
+  "updatedAt": "2026-10-07T17:51:23+02:00"
 }
