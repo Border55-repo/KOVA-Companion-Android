@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-06T20:36:28+02:00",
-  "checkedAt": "2026-10-07T12:26:23+02:00",
+  "updatedAt": "2026-10-07T12:46:40+02:00",
+  "checkedAt": "2026-10-07T12:46:40+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 29,
+  "eventCount": 30,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -231,6 +231,15 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "DHLR Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "6d7e656e5ea1317f",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "16:00",
+      "type": "Profilering",
+      "description": "Promotering av Moss Røde Kors Nissetog i sentrum",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
