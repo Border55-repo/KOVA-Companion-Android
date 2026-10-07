@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-06T22:01:33+02:00",
-  "checkedAt": "2026-10-07T09:46:29+02:00",
+  "updatedAt": "2026-10-07T09:51:17+02:00",
+  "checkedAt": "2026-10-07T09:51:17+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
   "eventCount": 49,
   "changes": {
@@ -72,10 +72,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "f2c97595e951ed1a",
+      "id": "a97682411b5261bf",
       "dateIso": "2026-10-11",
       "dateLabel": "søn. 11.10",
-      "time": "15:00",
+      "time": "17:15",
       "type": "Ambulansevakt",
       "description": "LSK-Molde Ambulanse LSK kamper høst 26",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
