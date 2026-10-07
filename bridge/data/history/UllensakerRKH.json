@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7ddea057cf9159ff6a59a5a9",
+      "observedAt": "2026-10-07T09:31:40+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "891bad30d6f0ebb9",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Fagkveld OUS - RK 3.1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "0797e0fe4ffcd765",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Fagkveld OUS - Vito",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "eca53426f186ba608b6af83b",
       "observedAt": "2026-10-07T09:11:26+02:00",
       "organization": "UllensakerRKH",
@@ -611,5 +635,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T09:11:26+02:00"
+  "updatedAt": "2026-10-07T09:31:40+02:00"
 }

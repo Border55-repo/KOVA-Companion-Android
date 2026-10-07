@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T09:11:26+02:00",
-  "checkedAt": "2026-10-07T09:26:15+02:00",
+  "updatedAt": "2026-10-07T09:31:40+02:00",
+  "checkedAt": "2026-10-07T09:31:40+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 53,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -99,12 +99,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "0797e0fe4ffcd765",
+      "id": "891bad30d6f0ebb9",
       "dateIso": "2026-10-07",
       "dateLabel": "ons. 7.10",
       "time": "18:00",
       "type": "Eksterne kurs",
-      "description": "Fagkveld OUS - Vito",
+      "description": "Fagkveld OUS - RK 3.1",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
