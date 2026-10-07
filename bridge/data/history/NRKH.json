@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2e01e842f98b551adbf6c1f6",
+      "observedAt": "2026-10-08T01:16:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d0d380b1583b84ee",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "00:00",
+        "type": "Sanitetsvakt",
+        "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for informasjon ogpåmelding! Norges Handelshøyskole Studentsamfunn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "2253eff216d5a363114488c6",
+      "observedAt": "2026-10-08T01:16:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "03069896433483bb",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for informasjon ogpåmelding! Norges Handelshøyskole Studentsamfunn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "675d98d9ba26152a1c2cbc04",
+      "observedAt": "2026-10-08T01:16:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d2178cf6061fdc00",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "-> 00:00",
+        "type": "Sanitetsvakt",
+        "description": "OMRÅDESANITETSVAKT! --> Send Nikolai melding for informasjon ogpåmelding! Norges Handelshøyskole Studentsamfunn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "ad2cea89be3cbcfca2f3c4aa",
       "observedAt": "2026-10-08T00:16:27+02:00",
       "organization": "NRKH",
@@ -413,5 +458,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:16:27+02:00"
+  "updatedAt": "2026-10-08T01:16:17+02:00"
 }
