@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T13:41:24+02:00",
-  "checkedAt": "2026-10-07T13:41:24+02:00",
+  "updatedAt": "2026-10-07T14:02:06+02:00",
+  "checkedAt": "2026-10-07T14:02:06+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
   "eventCount": 59,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -135,12 +135,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
-      "id": "29eca2771655e3ed",
+      "id": "7990fb828567c77f",
       "dateIso": "2026-10-16",
       "dateLabel": "fre. 16.10",
       "time": "17:30",
       "type": "Interne kurs",
-      "description": "Sambandskurs KSAM Sambandskurs (KSAM)",
+      "description": "Sambandskurs KSAM KSAM",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
