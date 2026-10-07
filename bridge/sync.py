@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 
 from push import send_diff_notification
 from webpush import send_due_reminders
+from push_selftest import send_push_selftests
 from reliability import (
     append_history,
     change_records,
@@ -956,6 +957,10 @@ def main(source=None) -> int:
         reminder_events[organization["code"]] = payload.get("events", [])
 
     total_pushes += send_due_reminders(reminder_events)
+    try:
+        total_pushes += send_push_selftests()
+    except Exception:
+        print("Device push test processing failed; regular sync completed.", flush=True)
 
     remaining_pending = len(pending_records(push_state))
     health_written = write_health(

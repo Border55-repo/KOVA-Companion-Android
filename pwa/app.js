@@ -1,5 +1,5 @@
 import {createSnapshotSource,freshness} from './data-source.js';
-import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.2.2';
+import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.2.3';
 const storage=localStorage;
 const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
@@ -428,6 +428,7 @@ async function refreshNotificationUi(){
   const button=$("notificationBtn");
   const status=$("notificationStatus");
   const hint=$("notificationHint");
+  $("pushSelfTestBtn").disabled=true;
 
   if(isIOS()&&!isStandalone()){
     status.textContent="Installer Kova Companion først";
@@ -449,6 +450,8 @@ async function refreshNotificationUi(){
   const enabled=Notification.permission==="granted" && !!subscription;
   const registeredAt=storage.getItem("kova.pwa.pushRegisteredAt");
   const backendRegistered=enabled && !!registeredAt;
+  $("pushSelfTestBtn").disabled=!backendRegistered;
+  if(backendRegistered)$("pushSelfTestStatus").textContent="Testen sendes bare til denne enheten, ved neste synk. Vanligvis innen 5–10 minutter.";
   status.textContent=backendRegistered
     ? "Pushvarsler er klare"
     : enabled
@@ -464,6 +467,27 @@ async function refreshNotificationUi(){
   }
   button.textContent=backendRegistered ? "Slå av varsler" : (enabled ? "Registrer på nytt" : "Aktiver varsler");
   button.classList.toggle("active",backendRegistered);
+}
+
+async function requestPushSelfTest(){
+  const button=$("pushSelfTestBtn"), status=$("pushSelfTestStatus");
+  button.disabled=true;
+  try{
+    if(!navigator.onLine)throw new Error("Koble til nett før du bestiller en test.");
+    const last=Number(storage.getItem("kova.pwa.lastPushTest")||0);
+    if(Date.now()-last<600000)throw new Error("Vent 10 minutter mellom hver test. Se også Varselhistorikk.");
+    const subscription=await currentPushSubscription();
+    if(!subscription || Notification.permission!=="granted")throw new Error("Aktiver varsler først.");
+    const id=await endpointId(subscription.endpoint);
+    const firebase=await firestoreClient();
+    await firebase.setDoc(firebase.doc(firebase.db,"webPushTests",id),{
+      reminderToken:reminderToken(),requestedAt:firebase.serverTimestamp()
+    });
+    storage.setItem("kova.pwa.lastPushTest",String(Date.now()));
+    status.textContent="Test bestilt. Den sendes ved neste synk, vanligvis innen 5–10 minutter. Mottak er bekreftet først når varselet vises på enheten. Du kan lukke appen mens du venter.";
+  }catch(error){
+    status.textContent="Test ikke bestilt: "+(error.message||String(error));
+  }finally{button.disabled=false;}
 }
 
 async function enableNotifications(){
@@ -548,6 +572,7 @@ function updateDataQuality(){
     $("dataQuality").textContent="Datakvalitet: status ikke tilgjengelig ennå.";
     return;
   }
+  if(row.status==="error")$("dataFreshness").textContent+=" • Synk feilet – viser sist lagrede data";
   const status=row.status==="ok"?"OK":(row.status||"ukjent");
   $("dataQuality").textContent=[
     "Datakvalitet: "+status,
@@ -605,13 +630,17 @@ function updateTypes(){
 }
 function upcomingEvents(){
   return state.events
-    .filter(event=>event.dateIso && dateInRange(event.dateIso,3650))
+    .filter(event=>event.dateIso && !isPastShift(event))
     .sort((a,b)=>(a.dateIso+(eventTime(a)||"99:99")).localeCompare(b.dateIso+(eventTime(b)||"99:99")));
 }
 
+function isPastShift(event,now=new Date()){
+  const today=new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Oslo",year:"numeric",month:"2-digit",day:"2-digit"}).format(now);
+  return /^\d{4}-\d{2}-\d{2}$/.test(event.dateIso||"") && event.dateIso<today;
+}
 function sortUpcoming(events){
   return events
-    .filter(event=>event.dateIso && dateInRange(event.dateIso,3650))
+    .filter(event=>event.dateIso && !isPastShift(event))
     .sort((a,b)=>(a.dateIso+(eventTime(a)||"99:99")).localeCompare(b.dateIso+(eventTime(b)||"99:99")));
 }
 async function loadFavoriteEvents(){
@@ -744,7 +773,7 @@ function renderCalendar(){
 function filteredEvents(selectedDate=state.date,calendar=false){
   const q=state.search.trim().toLowerCase();
   return state.events.filter(event=>{
-    if(state.view==="favorites" && !state.favorites.has(eventKey(event)))return false;
+    if(state.view==="favorites" && (!state.favorites.has(eventKey(event)) || isPastShift(event)))return false;
     if(selectedDate && event.dateIso!==selectedDate)return false;
     if(!selectedDate && !calendar){
       if(state.view==="week" && !dateInRange(event.dateIso,7))return false;
@@ -902,6 +931,7 @@ function updateDialogFavorite(){
 function updateReminderUi(message=""){
   if(!state.selected)return;
   const hasTime=!!eventTime(state.selected);
+  $("calendarHint").textContent="Kalenderkopien oppdateres ikke automatisk. Sluttid må kontrolleres i kalenderappen når KOVA ikke oppgir den.";
   $("reminderSelect").value=String(reminderMinutesFor(state.selected)||0);
   if(message){
     $("reminderHint").textContent=message;
@@ -1058,14 +1088,37 @@ function icsStamp(date){
   const p=n=>String(n).padStart(2,"0");
   return `${icsDay(date)}T${p(date.getHours())}${p(date.getMinutes())}00`;
 }
-function escapeIcs(value=""){return String(value).replace(/\\/g,"\\\\").replace(/\n/g,"\\n").replace(/,/g,"\\,").replace(/;/g,"\\;")}
-async function addToCalendar(event){
+function escapeIcs(value=""){return String(value).replace(/\\/g,"\\\\").replace(/\r\n|\r|\n/g,"\\n").replace(/,/g,"\\,").replace(/;/g,"\\;")}
+function osloUtcStamp(dateIso,time){
+  const normalized=time.padStart(5,"0");
+  const target=Date.parse(dateIso+"T"+normalized+":00Z");
+  if(!Number.isFinite(target))throw new Error("Vakten har et ugyldig klokkeslett.");
+  let value=target;
+  const formatter=new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Oslo",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"});
+  for(let i=0;i<3;i++){
+    const parts=Object.fromEntries(formatter.formatToParts(new Date(value)).map(p=>[p.type,p.value]));
+    const wall=Date.parse(`${parts.year}-${parts.month}-${parts.day}T${parts.hour}:${parts.minute}:${parts.second}Z`);
+    value+=target-wall;
+  }
+  return new Date(value).toISOString().replace(/[-:]/g,"").replace(/\.\d{3}Z$/,"Z");
+}
+function foldIcs(line){
+  const encoder=new TextEncoder();let result="",bytes=0;
+  for(const char of line){
+    const size=encoder.encode(char).length;
+    if(bytes+size>75){result+="\r\n ";bytes=1;}
+    result+=char;bytes+=size;
+  }
+  return result;
+}
+function buildCalendarFile(event){
   const time=eventTime(event);
   const start=calendarDate(event,time);
+  if(!Number.isFinite(start.getTime()))throw new Error("Vakten mangler en gyldig dato.");
   const end=new Date(start);
   if(time)end.setHours(end.getHours()+1); else end.setDate(end.getDate()+1);
   const dateLines=time
-    ? [`DTSTART:${icsStamp(start)}`,`DTEND:${icsStamp(end)}`]
+    ? [`DTSTART:${osloUtcStamp(event.dateIso,time)}`]
     : [`DTSTART;VALUE=DATE:${icsDay(start)}`,`DTEND;VALUE=DATE:${icsDay(end)}`];
   const reminderMinutes=reminderMinutesFor(event);
   const alarmLines=time&&reminderMinutes>0
@@ -1078,7 +1131,8 @@ async function addToCalendar(event){
       ]
     : [];
   const ics=[
-    "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Kova Companion//PWA//NO","BEGIN:VEVENT",
+    "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Kova Companion//PWA//NO","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+    `DTSTAMP:${new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}Z$/,"Z")}`,
     `UID:${escapeIcs(eventKey(event))}@kova-companion`,
     ...dateLines,
     `SUMMARY:${escapeIcs(event.description||"KOVA-aktivitet")}`,
@@ -1086,15 +1140,27 @@ async function addToCalendar(event){
     `URL:${escapeIcs(event.sourceUrl||"https://www.kova.no/")}`,
     ...alarmLines,
     "END:VEVENT","END:VCALENDAR",""
-  ].join("\r\n");
-  const file=new File([ics],"kova-aktivitet.ics",{type:"text/calendar"});
-  if(navigator.canShare?.({files:[file]})){
-    await navigator.share({files:[file],title:event.description||"KOVA-aktivitet"});
-    return;
+  ].map(foldIcs).join("\r\n");
+  return new File([ics],"kova-aktivitet.ics",{type:"text/calendar;charset=utf-8"});
+}
+async function addToCalendar(event,downloadOnly=false){
+  const hint=$("calendarHint");
+  const file=buildCalendarFile(event);
+  if(!downloadOnly && navigator.canShare?.({files:[file]})){
+    try{
+      await navigator.share({files:[file],title:event.description||"KOVA-aktivitet"});
+      hint.textContent="Kalenderfil delt. Fullfør importen i kalenderappen. Hvis Kalender ikke vises, velg Last ned kalenderfil.";
+      return;
+    }catch(error){
+      if(error.name==="AbortError"){hint.textContent="Kalenderdeling avbrutt. Ingen kalenderoppføring er bekreftet.";return;}
+    }
   }
   const url=URL.createObjectURL(file);
-  const a=document.createElement("a"); a.href=url; a.download=file.name; a.click();
-  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const a=document.createElement("a");a.href=url;a.download=file.name;
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+  hint.textContent="Kalenderfil lastet ned. Åpne .ics-filen i kalenderappen og bekreft importen. På iPhone kan du åpne nettappen i Safari dersom import ikke tilbys fra Hjem-skjermen. Kalenderkopien oppdateres ikke automatisk.";
+
 }
 async function shareEvent(event){
   const text=`${event.description||"KOVA-aktivitet"}\n${event.dateLabel||event.dateIso} ${displayTime(event.time)}\n${event.orgName||orgName(event.orgCode)}`;
@@ -1144,12 +1210,12 @@ function renderNotificationHistory(items=[]){
     const title=document.createElement("strong");
     title.textContent=item.title||"KOVA-varsel";
     const body=document.createElement("span");
-    body.textContent=item.body||"";
+    body.textContent=(item.kind==="changed" ? item.changeSummary : "")||item.body||"";
     const meta=document.createElement("span");
     meta.textContent=[
       item.timestamp?formatUpdated(item.timestamp):"",
       item.organization?orgName(item.organization):"",
-      ({reminder:"Påminnelse",added:"Ny aktivitet",changed:"Endret aktivitet",removed:"Fjernet aktivitet",announcement:"Beskjed"})[item.kind]||""
+      ({test:"Testvarsel",reminder:"Påminnelse",added:"Ny aktivitet",changed:"Endret aktivitet",removed:"Fjernet aktivitet",announcement:"Beskjed"})[item.kind]||""
     ].filter(Boolean).join(" • ");
     row.append(title,body,meta);
     container.appendChild(row);
@@ -1329,7 +1395,13 @@ $("myShiftsAllBtn").onclick=async()=>{
   await loadEvents();
   $("orgTitle").scrollIntoView({behavior:"smooth",block:"start"});
 };
-$("calendarBtn").onclick=async()=>{if(state.selected)await addToCalendar(state.selected)};
+for(const [id,download] of [["calendarBtn",false],["calendarDownloadBtn",true]]){
+  $(id).onclick=async()=>{
+    if(!state.selected)return;
+    try{await addToCalendar(state.selected,download)}
+    catch(error){$("calendarHint").textContent="Kunne ikke lage kalenderfil: "+(error.message||String(error))}
+  };
+}
 $("shareBtn").onclick=async()=>{if(state.selected)await shareEvent(state.selected)};
 $("notificationBtn").onclick=toggleNotifications;
 
@@ -1459,3 +1531,11 @@ $("backgroundLightsBtn").onclick=()=>{
   renderBackgroundLights();
 };
 renderBackgroundLights();
+
+$("pushSelfTestBtn").addEventListener("click",requestPushSelfTest);
+
+let lastFavoriteDay=new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Oslo"}).format(new Date());
+setInterval(()=>{
+  const day=new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Oslo"}).format(new Date());
+  if(day!==lastFavoriteDay){lastFavoriteDay=day;render();refreshFavoriteDashboard();}
+},60000);
