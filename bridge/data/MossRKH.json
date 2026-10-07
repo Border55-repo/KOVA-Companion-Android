@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T12:46:40+02:00",
-  "checkedAt": "2026-10-07T19:02:01+02:00",
+  "updatedAt": "2026-10-07T19:21:22+02:00",
+  "checkedAt": "2026-10-07T19:21:22+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 30,
+  "eventCount": 31,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -60,6 +60,15 @@
       "time": "",
       "type": "Eksterne kurs",
       "description": "Helg 3/4 Avansert førstehjelp (AFØR) Vestfold",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "37cf8a69644cf38e",
+      "dateIso": "2026-10-11",
+      "dateLabel": "søn. 11.10",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "Praktisk del Kvalifisert samband",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {

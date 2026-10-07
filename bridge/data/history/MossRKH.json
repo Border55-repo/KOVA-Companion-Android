@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cf038d5542bcb8990e672f8f",
+      "observedAt": "2026-10-07T19:21:22+02:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "37cf8a69644cf38e",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Praktisk del Kvalifisert samband",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "5ac4b457149f987ffc6cd90e",
       "observedAt": "2026-10-07T12:46:40+02:00",
       "organization": "MossRKH",
@@ -437,5 +452,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T12:46:40+02:00"
+  "updatedAt": "2026-10-07T19:21:22+02:00"
 }
