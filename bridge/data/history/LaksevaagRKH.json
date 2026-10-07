@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "55081bc4e2fc605d6521b205",
+      "observedAt": "2026-10-08T00:06:13+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ea64f3eb1512d384",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "15:00",
+        "type": "Aktivitet",
+        "description": "Landsmøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "45584049d35785060a47a48a",
+      "observedAt": "2026-10-08T00:06:13+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8dc82f65416bf545",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Anestesisykepleier fra Haukeland kommer å undervise oss Korpskveld: Rus og luftveishåndtering",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "26d9306bc0805689ed067af6",
+      "observedAt": "2026-10-08T00:06:13+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "85ff4545521025cf",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Landsmøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "4bfe691954898f10481341ce",
+      "observedAt": "2026-10-08T00:06:13+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8336875f5e4ea337",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Landsmøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "47987d8e9a690b5d5fbb73dc",
+      "observedAt": "2026-10-08T00:06:13+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8e8316521bdbcbe4",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "-> 17:00",
+        "type": "Aktivitet",
+        "description": "Landsmøte 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "58525b963ff0947f0f4bd3ae",
       "observedAt": "2026-10-07T00:16:22+02:00",
       "organization": "LaksevaagRKH",
@@ -371,5 +446,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:16:22+02:00"
+  "updatedAt": "2026-10-08T00:06:13+02:00"
 }
