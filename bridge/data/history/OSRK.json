@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b2d5353d6148858e60868688",
+      "observedAt": "2026-10-08T00:02:02+02:00",
+      "organization": "OSRK",
+      "kind": "removed",
+      "event": {
+        "id": "cf2903d01655f74f",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "HJERTEBANK PÅ KUVENTRÆ Bergen Live",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
       "changeId": "9c5075ef34408681936f91f8",
       "observedAt": "2026-10-07T11:06:19+02:00",
       "organization": "OSRK",
@@ -167,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T11:06:19+02:00"
+  "updatedAt": "2026-10-08T00:02:02+02:00"
 }

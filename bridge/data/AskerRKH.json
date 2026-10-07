@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T00:06:33+02:00",
-  "checkedAt": "2026-10-07T23:46:17+02:00",
+  "updatedAt": "2026-10-08T00:02:05+02:00",
+  "checkedAt": "2026-10-08T00:02:05+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH",
-  "eventCount": 15,
+  "eventCount": 14,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "72608c5c000130aa",
-      "dateIso": "2026-10-01",
-      "dateLabel": "tor. 1.10",
-      "time": "17:30",
-      "type": "Korpskveld",
-      "description": "Førstehjelp Ekstraordinær korpskveld - kun godkjente",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
-    },
     {
       "id": "f3fe82edbec7cc24",
       "dateIso": "2026-10-05",

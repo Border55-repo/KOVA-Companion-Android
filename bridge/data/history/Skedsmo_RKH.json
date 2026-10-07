@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5c8d4d2573e6be72e2a7413d",
+      "observedAt": "2026-10-08T00:01:56+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a86b5655d9bf2533",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "BAP møte BAP møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "562c24ed3fe46f3322b86644",
       "observedAt": "2026-10-07T09:51:17+02:00",
       "organization": "Skedsmo RKH",
@@ -230,5 +245,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T09:51:17+02:00"
+  "updatedAt": "2026-10-08T00:01:56+02:00"
 }
