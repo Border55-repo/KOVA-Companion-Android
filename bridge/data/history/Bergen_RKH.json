@@ -2,6 +2,129 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f10fe4230a5c3cfeeb5d6816",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "f5cfb923b2d309b1",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Motbakkeløp Ulriken Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "3af6f9c64446177fec938060",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "3bd5f9c362803922",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena Laurdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "8cc681a0a44dacd3e5128c94",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "70c53a936050dc5c",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "Rollandsbanen Laurdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "85d44366db08da6e71f05f5c",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "42f0738a294eab11",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Bankett Grieghallen Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "dc7611f463780642b9ecec75",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "changed",
+      "event": {
+        "id": "4349ab8f813ced6b",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "DDE-konsert trekanttomta Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      },
+      "oldEvent": {
+        "id": "383fe7530dd7485c",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "DDE-konsert trekanttomta Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "b9a3e930bb07b28765b0750b",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "changed",
+      "event": {
+        "id": "df3f7f83c4ffaa6f",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Ado Arena halvmarathon Fredag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      },
+      "oldEvent": {
+        "id": "b633025190da4c6b",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Ado Arena halvmarathon Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "37fedff211c057d15b192914",
+      "observedAt": "2026-10-07T20:26:41+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "2e422529ad2df37d",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "08:45",
+        "type": "Sanitetsvakt",
+        "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "2a3f4c2b6268d08098e97486",
       "observedAt": "2026-10-07T20:06:23+02:00",
       "organization": "Bergen RKH",
@@ -578,5 +701,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T20:06:23+02:00"
+  "updatedAt": "2026-10-07T20:26:41+02:00"
 }

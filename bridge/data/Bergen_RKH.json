@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T20:06:23+02:00",
-  "checkedAt": "2026-10-07T20:06:23+02:00",
+  "updatedAt": "2026-10-07T20:26:41+02:00",
+  "checkedAt": "2026-10-07T20:26:41+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 40,
+  "eventCount": 43,
   "changes": {
     "added": 4,
-    "removed": 0,
-    "changed": 0
+    "removed": 1,
+    "changed": 2
   },
   "events": [
     {
@@ -36,12 +36,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "2e422529ad2df37d",
+      "id": "f5cfb923b2d309b1",
       "dateIso": "2026-10-08",
       "dateLabel": "tor. 8.10",
-      "time": "08:45",
+      "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Motbakkeløp Ulriken 3-2 Bergen Challenge",
+      "description": "Motbakkeløp Ulriken Torsdag Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
@@ -72,21 +72,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "383fe7530dd7485c",
+      "id": "4349ab8f813ced6b",
       "dateIso": "2026-10-08",
       "dateLabel": "tor. 8.10",
       "time": "18:00",
       "type": "Sanitetsvakt",
-      "description": "DDE-konsert trekanttomta Bergen Challenge",
+      "description": "DDE-konsert trekanttomta Torsdag Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
-      "id": "b633025190da4c6b",
+      "id": "df3f7f83c4ffaa6f",
       "dateIso": "2026-10-09",
       "dateLabel": "fre. 9.10",
       "time": "09:30",
       "type": "Sanitetsvakt",
-      "description": "Ado Arena halvmarathon Bergen Challenge",
+      "description": "Ado Arena halvmarathon Fredag Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
@@ -96,6 +96,33 @@
       "time": "17:30",
       "type": "Sanitetsvakt",
       "description": "Brann mot Viking Brann mot Viking",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "3bd5f9c362803922",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Åsane Arena Laurdag Bergen Challenge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "70c53a936050dc5c",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Rollandsbanen Laurdag Bergen Challenge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "42f0738a294eab11",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Bankett Grieghallen Bergen Challenge",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
