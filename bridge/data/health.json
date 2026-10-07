@@ -9,12 +9,12 @@
     "fcm": true
   },
   "status": "ok",
-  "checkedAt": "2026-10-07T09:51:25+02:00",
-  "lastSuccessfulRunAt": "2026-10-07T09:51:25+02:00",
-  "lastFullySuccessfulRunAt": "2026-10-07T09:51:25+02:00",
+  "checkedAt": "2026-10-07T10:51:24+02:00",
+  "lastSuccessfulRunAt": "2026-10-07T10:51:24+02:00",
+  "lastFullySuccessfulRunAt": "2026-10-07T10:51:24+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-10-07T09:51:25+02:00",
+  "lastPushAt": "2026-10-07T10:51:24+02:00",
   "lastPushCount": 1,
   "organizationCount": 43,
   "helpCorpsCount": 39,
@@ -28,7 +28,7 @@
       "status": "ok",
       "eventCount": 17,
       "updatedAt": "2026-10-06T15:51:31+02:00",
-      "checkedAt": "2026-10-07T09:51:16+02:00",
+      "checkedAt": "2026-10-07T10:51:13+02:00",
       "error": null
     },
     {
@@ -39,7 +39,7 @@
       "status": "ok",
       "eventCount": 44,
       "updatedAt": "2026-10-07T00:01:37+02:00",
-      "checkedAt": "2026-10-07T09:51:16+02:00",
+      "checkedAt": "2026-10-07T10:51:13+02:00",
       "error": null
     },
     {
@@ -50,7 +50,7 @@
       "status": "ok",
       "eventCount": 49,
       "updatedAt": "2026-10-07T09:51:17+02:00",
-      "checkedAt": "2026-10-07T09:51:18+02:00",
+      "checkedAt": "2026-10-07T10:51:14+02:00",
       "error": null
     },
     {
@@ -60,8 +60,8 @@
       "file": "UllensakerRKH.json",
       "status": "ok",
       "eventCount": 53,
-      "updatedAt": "2026-10-07T09:31:40+02:00",
-      "checkedAt": "2026-10-07T09:51:19+02:00",
+      "updatedAt": "2026-10-07T10:51:15+02:00",
+      "checkedAt": "2026-10-07T10:51:17+02:00",
       "error": null
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "eventCount": 36,
       "updatedAt": "2026-10-07T00:16:18+02:00",
-      "checkedAt": "2026-10-07T09:51:19+02:00",
+      "checkedAt": "2026-10-07T10:51:18+02:00",
       "error": null
     },
     {
@@ -83,7 +83,7 @@
       "status": "ok",
       "eventCount": 19,
       "updatedAt": "2026-09-23T01:26:26+02:00",
-      "checkedAt": "2026-10-07T09:51:20+02:00",
+      "checkedAt": "2026-10-07T10:51:18+02:00",
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "eventCount": 6,
       "updatedAt": "2026-09-23T01:26:27+02:00",
-      "checkedAt": "2026-10-07T09:51:21+02:00",
+      "checkedAt": "2026-10-07T10:51:19+02:00",
       "error": null
     },
     {
@@ -105,7 +105,7 @@
       "status": "ok",
       "eventCount": 41,
       "updatedAt": "2026-10-07T00:16:22+02:00",
-      "checkedAt": "2026-10-07T09:51:21+02:00",
+      "checkedAt": "2026-10-07T10:51:19+02:00",
       "error": null
     },
     {
@@ -116,7 +116,7 @@
       "status": "ok",
       "eventCount": 39,
       "updatedAt": "2026-10-06T21:41:39+02:00",
-      "checkedAt": "2026-10-07T09:51:22+02:00",
+      "checkedAt": "2026-10-07T10:51:20+02:00",
       "error": null
     },
     {
@@ -127,7 +127,7 @@
       "status": "ok",
       "eventCount": 42,
       "updatedAt": "2026-10-07T00:16:25+02:00",
-      "checkedAt": "2026-10-07T09:51:22+02:00",
+      "checkedAt": "2026-10-07T10:51:20+02:00",
       "error": null
     },
     {
@@ -138,7 +138,7 @@
       "status": "ok",
       "eventCount": 40,
       "updatedAt": "2026-10-06T00:01:56+02:00",
-      "checkedAt": "2026-10-07T09:51:23+02:00",
+      "checkedAt": "2026-10-07T10:51:21+02:00",
       "error": null
     },
     {
@@ -149,7 +149,7 @@
       "status": "ok",
       "eventCount": 20,
       "updatedAt": "2026-10-05T17:41:32+02:00",
-      "checkedAt": "2026-10-07T09:51:23+02:00",
+      "checkedAt": "2026-10-07T10:51:22+02:00",
       "error": null
     },
     {
@@ -160,7 +160,7 @@
       "status": "ok",
       "eventCount": 1,
       "updatedAt": "2026-09-22T23:45:03+02:00",
-      "checkedAt": "2026-10-07T09:51:24+02:00",
+      "checkedAt": "2026-10-07T10:51:22+02:00",
       "error": null
     },
     {
@@ -171,7 +171,7 @@
       "status": "ok",
       "eventCount": 5,
       "updatedAt": "2026-10-03T00:11:32+02:00",
-      "checkedAt": "2026-10-07T09:51:24+02:00",
+      "checkedAt": "2026-10-07T10:51:23+02:00",
       "error": null
     }
   ]
