@@ -251,7 +251,8 @@ async function loadOrganizations(){
 function renderOrgRows(){
   const q=$("orgSearch").value.trim().toLowerCase();
   $("orgRows").innerHTML=currentOrgRows.filter(row=>
-    !q||row.name.toLowerCase().includes(q)||row.code.toLowerCase().includes(q)
+    (!q||row.name.toLowerCase().includes(q)||row.code.toLowerCase().includes(q)) &&
+    (!$("orgIssuesOnly").checked || row.status==="error" || ageMinutes(row.lastCheckedAt)>35)
   ).map(row=>{
     const age=ageMinutes(row.lastCheckedAt);
     const freshness=!Number.isFinite(age)?"Venter":age>35?"Gammel":age>25?"Snart gammel":"Fersk";
@@ -259,7 +260,7 @@ function renderOrgRows(){
     const statusText=row.status==="error"?"Feil":freshness;
     return `<tr>
       <td><strong>${escapeHtml(row.name)}</strong><br><span class="muted">${escapeHtml(row.code)}</span></td>
-      <td class="${statusClass}">${escapeHtml(statusText)}</td>
+      <td class="${statusClass}">${escapeHtml(statusText)}${row.error?"<br><small>"+escapeHtml(row.error)+"</small>":""}</td>
       <td>${row.eventCount}</td>
       <td>${escapeHtml(fmt(row.lastCheckedAt))}</td>
       <td>${escapeHtml(fmt(row.updatedAt))}</td>
@@ -482,3 +483,5 @@ $("cacheRefreshBtn").onclick=async()=>{
     err("loginError","Adminpanelet kunne ikke starte: "+(error.message||String(error)));
   }
 })();
+
+$("orgIssuesOnly").addEventListener("change",renderOrgRows);

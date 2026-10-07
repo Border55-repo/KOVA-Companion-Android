@@ -23,7 +23,7 @@ function filterContext(){
     {id:'b',dateIso:'2026-12-31',time:'12:00',type:'Vakt',description:'Beredskap'},
     {id:'c',dateIso:'2026-12-31',time:'08:00',type:'Vakt',description:'Søk'},
   ]};
-  const context=vm.createContext({state,eventKey:e=>e.id,dateInRange:date=>date==='2026-10-01'});
+  const context=vm.createContext({state,isPastShift:e=>e.dateIso<'2026-10-01',eventKey:e=>e.id,dateInRange:date=>date==='2026-10-01'});
   vm.runInContext(app.slice(app.indexOf('function filteredEvents('),app.indexOf('function render(){')),context);
   return {state,filter:context.filteredEvents};
 }

@@ -175,6 +175,22 @@ service cloud.firestore {
         request.resource.data.updatedAt == request.time;
     }
 
+    match /webPushTests/{subscriptionId} {
+      allow read, delete: if false;
+      allow create, update: if
+        subscriptionId.matches('[a-f0-9]{64}') &&
+        request.resource.data.keys().hasOnly(['reminderToken', 'requestedAt']) &&
+        request.resource.data.reminderToken is string &&
+        request.resource.data.reminderToken.size() >= 32 &&
+        request.resource.data.reminderToken.size() <= 128 &&
+        request.resource.data.requestedAt == request.time &&
+        exists(/databases/$(database)/documents/webPushSubscriptions/$(subscriptionId)) &&
+        get(/databases/$(database)/documents/webPushSubscriptions/$(subscriptionId)).data.enabled == true &&
+        get(/databases/$(database)/documents/webPushSubscriptions/$(subscriptionId)).data.reminderToken == request.resource.data.reminderToken &&
+        (!exists(/databases/$(database)/documents/webPushTests/$(subscriptionId)) ||
+          request.time > resource.data.requestedAt + duration.value(10, 'm'));
+    }
+
     match /webPushReminderState/{reminderId} {
       allow read, write: if false;
     }

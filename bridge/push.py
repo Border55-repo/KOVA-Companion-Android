@@ -132,6 +132,14 @@ def _send(
     return message_name
 
 
+def change_summary(old: dict, new: dict) -> str:
+    labels = [("dateIso", "Dato", "dateLabel"), ("time", "Tid", "time"),
+              ("type", "Type", "type"), ("description", "Beskrivelse", "description")]
+    changes = [f"{label}: {old.get(display) or old.get(key) or 'ikke oppgitt'} → {new.get(display) or new.get(key) or 'ikke oppgitt'}"
+               for key, label, display in labels if old.get(key) != new.get(key)]
+    return f"{new.get('description') or 'KOVA-aktivitet'} • " + " • ".join(changes)
+
+
 def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
     added = diff["added"]
     removed = diff["removed"]
@@ -167,11 +175,7 @@ def send_diff_notification(org: dict, diff: dict, source_url: str) -> list[str]:
         messages.append(
             {
                 "title": "KOVA-aktivitet endret",
-                "body": (
-                    f"{old['description']} → {new['description']} • {new['dateLabel']} {new['time']}"
-                    if old['description'] != new['description'] else
-                    f"{new['description']}: {old['dateLabel']} {old['time']} → {new['dateLabel']} {new['time']}"
-                ),
+                "body": change_summary(old, new),
                 "kind": "changed",
                 "event": new,
                 "changeId": change_id(org["code"], "changed", new, old),

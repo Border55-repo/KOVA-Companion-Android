@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r bridge/requirements.txt
-      - run: python -m unittest test_announcement test_webpush test_targeted_announcement test_reminders test_personal_reminders
+      - run: python -m unittest test_announcement test_webpush test_targeted_announcement test_reminders test_personal_reminders test_push_selftest
         working-directory: bridge
   check:
     runs-on: ubuntu-latest

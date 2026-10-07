@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=2.2.2">
+  <link rel="stylesheet" href="./styles.css?v=2.2.3">
 </head>
 <body>
   <div class="ambulance-lights" aria-hidden="true"><span></span><span></span></div>
@@ -21,7 +21,7 @@
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Web / iPhone PWA 2.2.2</p>
+      <p class="version">Web / iPhone PWA 2.2.3</p>
     </div>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
@@ -141,6 +141,7 @@
         <strong id="myShiftsTitle"></strong>
         <span id="myShiftsMeta"></span>
       </button>
+      <p class="muted">Dine lagrede vakter og påminnelser. Passerte datoer skjules automatisk etter midnatt norsk tid. Dette melder deg ikke på vakten i KOVA.</p>
       <p id="myShiftsEmpty" class="muted hidden">Ingen kommende favorittvakter akkurat nå.</p>
     </section>
 
@@ -151,6 +152,8 @@
         <span id="notificationHint" class="muted"></span>
       </div>
       <button id="notificationBtn" class="small">Aktiver varsler</button>
+      <button id="pushSelfTestBtn" class="small" disabled>Send meg et testvarsel</button>
+      <p id="pushSelfTestStatus" class="muted" role="status">Aktiver varsler for å teste push på denne enheten.</p>
     </section>
 
     <section id="historyCard" class="card">
@@ -261,6 +264,8 @@
       <div class="dialog-actions">
         <button id="favoriteDialogBtn" class="small"></button>
         <button id="calendarBtn" class="small">Legg i kalender</button>
+        <button id="calendarDownloadBtn" class="small">Last ned kalenderfil</button>
+        <p id="calendarHint" class="muted" role="status"></p>
         <button id="shareBtn" class="small">Del aktivitet</button>
         <a id="detailKovaLink" class="primary" target="_blank" rel="noopener">Åpne KOVA</a>
       </div>
@@ -283,6 +288,6 @@
     </article>
   </template>
 
-  <script type="module" src="./app.js?v=2.2.2"></script>
+  <script type="module" src="./app.js?v=2.2.3"></script>
 </body>
 </html>

@@ -16,6 +16,7 @@ on:
       - "bridge/push.py"
       - "bridge/broadcast_announcement.py"
       - "bridge/webpush.py"
+      - "bridge/push_selftest.py"
       - "bridge/test_sync.py"
       - "bridge/requirements.txt"
       - "bridge/manual-trigger.txt"
