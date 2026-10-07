@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2a3f4c2b6268d08098e97486",
+      "observedAt": "2026-10-07T20:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "f3bd589c4b966b25",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena tidleg Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "f7e61686812c8c83fd389bb2",
+      "observedAt": "2026-10-07T20:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "9586f7eb5e7a4801",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena sein Fredag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "159326a5ca8d824e16cb2271",
+      "observedAt": "2026-10-07T20:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "73430c9e100029a9",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena sein Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "24142616a6fa70ddef9359d5",
+      "observedAt": "2026-10-07T20:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "b633025190da4c6b",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Ado Arena halvmarathon Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "75b815912285db390d45e00f",
       "observedAt": "2026-10-07T17:21:25+02:00",
       "organization": "Bergen RKH",
@@ -518,5 +578,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T17:21:25+02:00"
+  "updatedAt": "2026-10-07T20:06:23+02:00"
 }
