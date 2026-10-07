@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T14:46:20+02:00",
-  "checkedAt": "2026-10-07T14:46:20+02:00",
+  "updatedAt": "2026-10-07T14:51:19+02:00",
+  "checkedAt": "2026-10-07T14:51:19+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 45,
+  "eventCount": 46,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -87,6 +87,15 @@
       "time": "",
       "type": "Eksterne kurs",
       "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "be3225f0d19cf4f0",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "10:00",
+      "type": "Eksterne kurs",
+      "description": "Øvningsdag før Regodkjenning AFØR",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
