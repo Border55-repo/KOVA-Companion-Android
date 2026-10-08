@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f1b86cfde2cac6edc2de310f",
+      "observedAt": "2026-10-09T00:16:19+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cf2cb1d3db3c5046",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Konsert: Duran Duran",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "53f11bb67a6dd57c9ae15a39",
       "observedAt": "2026-10-08T00:16:16+02:00",
       "organization": "BærumRKH",
@@ -305,5 +320,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:16:16+02:00"
+  "updatedAt": "2026-10-09T00:16:19+02:00"
 }

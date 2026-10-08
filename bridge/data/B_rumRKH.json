@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T00:16:16+02:00",
-  "checkedAt": "2026-10-08T23:56:14+02:00",
+  "updatedAt": "2026-10-09T00:16:19+02:00",
+  "checkedAt": "2026-10-09T00:16:19+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 41,
+  "eventCount": 40,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "cf2cb1d3db3c5046",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Unity Arena Konsert: Duran Duran",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "2666e8fb6e614fc4",
       "dateIso": "2026-10-06",
