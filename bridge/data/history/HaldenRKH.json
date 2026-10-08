@@ -2,6 +2,105 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "594f9ea72e7e81fa70444409",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "bfec3723c976717d",
+        "dateIso": "2026-12-01",
+        "dateLabel": "tir. 1.12",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Fagansvarlig møte Fagansvarlig møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "b8a31bc1095878585697bc37",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "b410411864fe598f",
+        "dateIso": "2027-02-02",
+        "dateLabel": "tir. 2.2",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Fagansvarligmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "349e06584276c30a37b20674",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "8a61d3dfb283cc81",
+        "dateIso": "2027-04-06",
+        "dateLabel": "tir. 6.4",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Fagansvarligmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "5da558ce7ca96415b9068f5d",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "162ef1a58bfb0f19",
+        "dateIso": "2027-06-01",
+        "dateLabel": "tir. 1.6",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Fagansvarligmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "146224ee85ca7ba21537f6c4",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "cffbd06499f19eef",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Øvelse med IFE. Mathilde ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "d0e1bb815c3e4749",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Tema mangler. Mathilde ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "111a8d74cc221acb5499b6e0",
+      "observedAt": "2026-10-08T17:41:19+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "218e509a839cc0b3",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "09:30",
+        "type": "Øvelse",
+        "description": "Øvelse med IFE",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "f4ca05ba4df5e45be355ef15",
       "observedAt": "2026-10-08T16:41:17+02:00",
       "organization": "HaldenRKH",
@@ -752,5 +851,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T16:41:17+02:00"
+  "updatedAt": "2026-10-08T17:41:19+02:00"
 }
