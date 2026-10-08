@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "073c773a8de01e54a9702568",
+      "observedAt": "2026-10-08T22:16:15+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "b0d571d731d41ee2",
+        "dateIso": "2027-01-16",
+        "dateLabel": "lør. 16.1",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "På Rudskogen - nærmere informasjon kommer. Vintersamling/fest for alle Hjelpekorps i Østfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "594f9ea72e7e81fa70444409",
       "observedAt": "2026-10-08T17:41:19+02:00",
       "organization": "HaldenRKH",
@@ -851,5 +866,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T17:41:19+02:00"
+  "updatedAt": "2026-10-08T22:16:15+02:00"
 }
