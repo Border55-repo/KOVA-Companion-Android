@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c44d8a282c478a5d362413c4",
+      "observedAt": "2026-10-09T00:06:29+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3a715648f209a01f",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "16:00",
+        "type": "Interne kurs",
+        "description": "Kvalifisert søk og redning (KSOR) - Barmarkshelg Grunnkursrekken 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "c48128682aa7a9e18a6ff7b6",
+      "observedAt": "2026-10-09T00:06:29+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b74a3b6d0eb0bc53",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Kvalifisert søk og redning (KSOR) - Barmarkshelg Grunnkursrekken 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "e79aada1ef36765155cb5414",
+      "observedAt": "2026-10-09T00:06:29+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "be9facd349c8f5a3",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "-> 17:00",
+        "type": "Interne kurs",
+        "description": "Kvalifisert søk og redning (KSOR) - Barmarkshelg Grunnkursrekken 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "34561bbef23ff45a80bd8fa8",
       "observedAt": "2026-10-08T00:06:20+02:00",
       "organization": "TRKH",
@@ -236,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:06:20+02:00"
+  "updatedAt": "2026-10-09T00:06:29+02:00"
 }

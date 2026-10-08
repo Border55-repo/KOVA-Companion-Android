@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2416eac36fcb6b6bcee05164",
+      "observedAt": "2026-10-09T00:06:25+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "7d1ddf4ccf722d12",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Trav fredag oppmøte RK huset 16:45 første løp 17:15 siste løp ca 20:05 Travvakt LAG 4",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "7a12a129e87dc079aecbf5b2",
       "observedAt": "2026-10-08T12:01:50+02:00",
       "organization": "MORKH",
@@ -926,5 +941,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T12:01:50+02:00"
+  "updatedAt": "2026-10-09T00:06:25+02:00"
 }
