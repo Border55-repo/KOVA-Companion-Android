@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fd691dc4a257fe7c05914096",
+      "observedAt": "2026-10-09T00:11:18+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "306293e33aa4c1c6",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "b0687c1fc2bd9a1ae33da69f",
+      "observedAt": "2026-10-09T00:11:18+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f70cf60b59f5049b",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "20:00",
+        "type": "Sanitetsvakt",
+        "description": "Ikke bekreftet enda, tidspunkt kan endre seg, men dato er riktig VAKT AVLYST- Vakt - Lysfestival på fjell festning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "292e7e81e11f0465d95c64fd",
+      "observedAt": "2026-10-09T00:11:18+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2a0453003ffb44ad",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
+      "changeId": "8423805cd4cb2f11068df9f2",
+      "observedAt": "2026-10-09T00:11:18+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a3a6865917476821",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "-> 18:00",
+        "type": "Aktivitet",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "644c07214dfaa76dea60c9a9",
       "observedAt": "2026-10-08T22:51:24+02:00",
       "organization": "SRKH",
@@ -395,5 +455,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T22:51:24+02:00"
+  "updatedAt": "2026-10-09T00:11:18+02:00"
 }

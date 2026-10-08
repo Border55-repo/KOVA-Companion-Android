@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T22:51:24+02:00",
-  "checkedAt": "2026-10-08T23:51:12+02:00",
+  "updatedAt": "2026-10-09T00:11:18+02:00",
+  "checkedAt": "2026-10-09T00:11:18+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
-  "eventCount": 22,
+  "eventCount": 18,
   "changes": {
-    "added": 1,
-    "removed": 1,
+    "added": 0,
+    "removed": 4,
     "changed": 0
   },
   "events": [
-    {
-      "id": "306293e33aa4c1c6",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "KFØR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
-    {
-      "id": "f70cf60b59f5049b",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "20:00",
-      "type": "Sanitetsvakt",
-      "description": "Ikke bekreftet enda, tidspunkt kan endre seg, men dato er riktig VAKT AVLYST- Vakt - Lysfestival på fjell festning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
-    {
-      "id": "2a0453003ffb44ad",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "",
-      "type": "Aktivitet",
-      "description": "KFØR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
     {
       "id": "6f4c1917e6aacd06",
       "dateIso": "2026-10-03",
@@ -51,15 +24,6 @@
       "time": "20:00",
       "type": "Sanitetsvakt",
       "description": "VAKT AVLYST- Vakt - Lysfestival på fjell festning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
-    {
-      "id": "a3a6865917476821",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "-> 18:00",
-      "type": "Aktivitet",
-      "description": "KFØR",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
