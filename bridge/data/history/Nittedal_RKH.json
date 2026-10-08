@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "341b4fd2c4b0e8407ca8977b",
+      "observedAt": "2026-10-08T14:56:10+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "5a6280b17c174f43",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "18:00",
+        "type": "Profilering",
+        "description": "Markering med eksterne gjester og media Hold av datoen! Avdukingsfest - RK52",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "269245d2017bee1f061c6239",
       "observedAt": "2026-10-08T13:21:11+02:00",
       "organization": "Nittedal RKH",
@@ -536,5 +551,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T13:21:11+02:00"
+  "updatedAt": "2026-10-08T14:56:10+02:00"
 }
