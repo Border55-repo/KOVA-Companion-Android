@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=2.2.3">
+  <link rel="stylesheet" href="./styles.css?v=2.3.0">
 </head>
 <body>
   <div class="ambulance-lights" aria-hidden="true"><span></span><span></span></div>
@@ -21,7 +21,7 @@
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Web / iPhone PWA 2.2.3</p>
+      <p class="version">Webapp · Android og iPhone · 2.3.0</p>
     </div>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
@@ -30,6 +30,7 @@
     <button data-scroll="controlsCard">Korps og vakter</button>
     <button data-view-jump="favorites">Mine vakter</button>
     <button data-scroll="calendarCard">Kalender</button>
+    <button data-scroll="remindersCard">Mine påminnelser</button>
     <button data-scroll="historyCard">Varselhistorikk</button>
     <button data-scroll="pushCard">Varsler</button>
     <button id="setupOpen">Hjelp</button>
@@ -37,11 +38,37 @@
 
   <main class="shell" id="mainContent">
 
-    <section id="setupCard" class="card hidden">
-      <h2>Kom i gang</h2>
-      <p>1. Velg ditt hjelpekorps. Se vaktene uten å logge inn i KOVA.</p>
+    <section id="setupCard" class="card hidden" aria-labelledby="setupTitle">
+      <span class="label">Samme webapp på begge plattformer</span><h2 id="setupTitle">Kom i gang</h2>
+      <label for="guidePlatform">Veiledning for din enhet</label>
+      <select id="guidePlatform"><option value="auto">Velg automatisk</option><option value="android">Android</option><option value="ios">iPhone / iPad</option><option value="desktop">Datamaskin</option></select>
+      <p id="guideStatus" class="muted" role="status"></p>
+      <div data-guide="android" hidden>
+        <h3>Android · Chrome</h3><ol class="guide-steps">
+          <li>Åpne denne nettadressen i Chrome. Hvis du kom fra en melding, åpne lenken i Chrome først.</li>
+          <li>Trykk menyen ⋮ → «Legg til på startskjermen» → «Installer», eller bruk Installer-knappen her når den vises. Menynavn kan variere.</li>
+          <li>Åpne Kova Companion fra startskjermen. Velg korps, gå til Varsler og trykk «Aktiver varsler». Tillat varsler når telefonen spør.</li>
+          <li>Trykk «Send meg et testvarsel». Vent på neste synk, vanligvis 5–10 minutter. Sjekk både telefonens varsler og Varselhistorikk.</li>
+        </ol>
+        <details><summary>Android: Jeg får ikke varsler</summary><p>I Chrome: ⋮ → Innstillinger → Nettstedsinnstillinger → Varsler. Finn nettstedet og tillat varsler. Kontroller også Androids Innstillinger → Apper → Chrome eller Kova Companion → Varsler. Sjekk Ikke forstyrr. Åpne webappen igjen og prøv testen. Menyene varierer mellom telefoner.</p></details>
+        <p class="muted">Du bruker webappen – ingen APK eller Play Store-installasjon er nødvendig.</p>
+        <p><a href="https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid" target="_blank" rel="noopener">Googles installasjonsveiledning</a> · <a href="https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DAndroid" target="_blank" rel="noopener">Hjelp med Android-varsler</a></p>
+      </div>
+      <div data-guide="ios" hidden>
+        <h3>iPhone / iPad · Safari</h3><ol class="guide-steps">
+          <li>Åpne denne nettadressen i Safari. Hvis du kom fra en melding, åpne lenken i Safari først.</li>
+          <li>Åpne Del-menyen → «Legg til på Hjem-skjermen». La «Åpne som webapp» være på hvis valget vises, og trykk «Legg til».</li>
+          <li>Åpne Kova Companion fra Hjem-skjermen. Velg korps, gå til Varsler og trykk «Aktiver varsler», deretter «Tillat». Push krever iOS/iPadOS 16.4 eller nyere.</li>
+          <li>Trykk «Send meg et testvarsel». Vent på neste synk, vanligvis 5–10 minutter. Sjekk både telefonens varsler og Varselhistorikk.</li>
+        </ol>
+        <details><summary>iPhone: Jeg får ikke varsler</summary><p>Åpne den installerte webappen fra Hjem-skjermen, ikke bare Safari-fanen. Kontroller Innstillinger → Varslinger → Kova Companion og tillat varsler. Sjekk også Fokus / Ikke forstyrr. Hvis appen ikke vises der, åpne den fra Hjem-skjermen og trykk Aktiver varsler først. Prøv deretter testen.</p></details>
+        <p><a href="https://support.apple.com/guide/iphone/iphea86e5236/ios" target="_blank" rel="noopener">Apples installasjonsveiledning</a></p>
+      </div>
+      <div data-guide="desktop" hidden><h3>Datamaskin</h3><p>Velg korps og bruk webappen direkte. I en støttet nettleser kan du installere fra adressefeltet eller nettlesermenyen. Tillat varsler både i nettleseren og operativsystemet, og bestill et testvarsel. Velg Android eller iPhone ovenfor for mobilveiledning.</p></div>
       <p id="setupHint"></p>
-      <p>3. Åpne en vakt, velg påminnelse og skriv eventuelt et lokalt notat. Vakten finner du igjen under Mine vakter.</p>
+      <details><summary>Vakter, påminnelser og lokale notater</summary><p>Åpne en vakt og velg «Lagre i Mine vakter» eller en påminnelse. Dette er ditt eget valg og melder deg ikke på i KOVA. Notatet lagres automatisk på enheten. Under «Mine påminnelser» ser du planlagt tidspunkt og registreringsstatus.</p></details>
+      <details><summary>Kalender og varselhistorikk</summary><p>Åpne en vakt → Legg i kalender. Filen lastes ned direkte. Trykk på nedlastingen for å åpne .ics-filen, eller bruk «Åpne / del kalenderfil». Telefonen bestemmer hvilke kalenderapper som kan åpne filen. På Android kan du bruke kalenderens importfunksjon på datamaskin hvis mobilappen ikke støtter filer. På iPhone kan du prøve Safari hvis import ikke tilbys fra Hjem-skjermen. Bekreft lagringen i kalenderappen. Kalenderkopier oppdateres ikke automatisk.</p><p>Varselhistorikk viser de siste 100 pushvarslene mottatt på denne enheten. Trykk et vaktvarsel for å åpne vakten.</p></details>
+      <details><summary>Bytte telefon eller lagre en sikkerhetskopi</summary><p>Under Flere valg og om appen → Sikkerhetskopi kan du laste ned egne valg og notater. Last filen inn på den nye enheten. Aktiver varsler der og registrer påminnelsene på nytt. Slå av varsler på den gamle enheten hvis du ikke vil ha varsler begge steder. Varselhistorikken flyttes ikke.</p></details>
       <button id="setupDone" class="small">Ferdig / gjør dette senere</button>
     </section>
 
@@ -156,6 +183,14 @@
       <p id="pushSelfTestStatus" class="muted" role="status">Aktiver varsler for å teste push på denne enheten.</p>
     </section>
 
+    <section id="remindersCard" class="card" aria-labelledby="remindersTitle">
+      <h2 id="remindersTitle">Mine påminnelser</h2>
+      <p class="muted">Planlagte tidspunkt vises i norsk tid. «Registrert» betyr at serveren har mottatt valget, ikke at push er levert. Utsending følger synkroniseringen og kan bli forsinket.</p>
+      <div id="remindersList" class="personal-list"></div>
+      <button id="retryRemindersBtn" class="small">Registrer påminnelser på nytt</button>
+      <p id="remindersStatus" class="muted" role="status"></p>
+    </section>
+
     <section id="historyCard" class="card">
       <div class="section-line"><h2>Varselhistorikk</h2><button id="notificationHistoryBtn" class="small">Oppdater historikk</button></div>
       <p class="muted">De siste 100 pushvarslene mottatt på denne enheten. Trykk på et vaktvarsel for å åpne vakten. Historikken følger ikke med til andre enheter.</p>
@@ -224,6 +259,12 @@
       <div class="section-line"><div><span class="label">Endringslogg</span><strong id="changelogTitle">Sjekker siste oppdatering…</strong></div></div>
       <p id="changelogBody" class="muted">Laster endringslogg…</p>
       <span id="changelogDate" class="muted"></span>
+    </section><section id="backupCard" class="card">
+      <h2>Sikkerhetskopi</h2>
+      <p class="muted">Lagre egne vakter, påminnelsesvalg, korpsvalg og lokale notater i en fil. Filen inneholder notatene dine i klartekst – oppbevar den privat. Pushnøkler, innlogging og varselhistorikk tas ikke med.</p>
+      <button id="exportBackupBtn" class="small">Last ned sikkerhetskopi</button>
+      <label for="importBackupFile">Velg sikkerhetskopi som skal leses inn</label><input id="importBackupFile" type="file" accept=".json,application/json">
+      <p id="backupStatus" class="muted" role="status"></p>
     </section><section class="about card">
       <span class="label">Om prosjektet</span>
       <strong>Prosjekteier: Julian Nordli</strong>
@@ -264,7 +305,7 @@
       <div class="dialog-actions">
         <button id="favoriteDialogBtn" class="small"></button>
         <button id="calendarBtn" class="small">Legg i kalender</button>
-        <button id="calendarDownloadBtn" class="small">Last ned kalenderfil</button>
+        <button id="calendarDownloadBtn" class="small">Åpne / del kalenderfil</button>
         <p id="calendarHint" class="muted" role="status"></p>
         <button id="shareBtn" class="small">Del aktivitet</button>
         <a id="detailKovaLink" class="primary" target="_blank" rel="noopener">Åpne KOVA</a>
@@ -272,6 +313,11 @@
     </article>
   </dialog>
 
+  <dialog id="backupDialog" aria-labelledby="backupTitle">
+    <h2 id="backupTitle">Les inn sikkerhetskopi?</h2><p id="backupPreview"></p>
+    <p>Valgene legges til. Eksisterende notater og påminnelser beholdes ved konflikt. Importerte påminnelser må registreres på denne enheten før de kan sendes som push.</p>
+    <button id="backupCancel" class="small">Avbryt</button><button id="backupConfirm" class="primary">Legg til på denne enheten</button>
+  </dialog>
   <template id="eventTemplate">
     <article class="event-card">
       <div class="event-top">
@@ -288,6 +334,6 @@
     </article>
   </template>
 
-  <script type="module" src="./app.js?v=2.2.3"></script>
+  <script type="module" src="./app.js?v=2.3.0"></script>
 </body>
 </html>

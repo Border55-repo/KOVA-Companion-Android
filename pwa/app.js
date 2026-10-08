@@ -1,5 +1,7 @@
+import {detectPlatform} from './guidance.js?v=2.3.0';
+import {makeBackup,validateBackup,mergeBackup,storeBackup} from './personal-backup.js?v=2.3.0';
 import {createSnapshotSource,freshness} from './data-source.js';
-import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.2.3';
+import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.3.0';
 const storage=localStorage;
 const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
@@ -44,7 +46,7 @@ const statusText = $("statusText");
 const searchInput = $("searchInput");
 const template = $("eventTemplate");
 
-function isIOS(){return /iphone|ipad|ipod/i.test(navigator.userAgent)}
+function isIOS(){return detectPlatform(navigator.userAgent,navigator.maxTouchPoints)==="ios"}
 function isStandalone(){return window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true}
 function eventKey(event){return (event.orgCode || state.org) + "|" + event.id}
 function displayTime(value=""){
@@ -56,7 +58,7 @@ function displayTime(value=""){
 function saveSet(key,set){storage.setItem(key,JSON.stringify([...set]))}
 function saveFavoriteMeta(){storage.setItem("kova.pwa.favoriteMeta",JSON.stringify(state.favoriteMeta))}
 function saveNotes(){storage.setItem("kova.pwa.notes",JSON.stringify(state.notes))}
-function saveReminders(){storage.setItem("kova.pwa.reminders",JSON.stringify(state.reminders))}
+function saveReminders(){storage.setItem("kova.pwa.reminders",JSON.stringify(state.reminders));renderReminderOverview()}
 function saveNotificationPrefs(){
   saveSet("kova.pwa.notificationKinds",state.notificationKinds);
   saveSet("kova.pwa.disabledNotificationTypes",state.disabledNotificationTypes);
@@ -335,8 +337,8 @@ async function saveReminder(event,minutes){
   saveReminders();
   return true;
 }
-async function syncAllReminders(){
-  if(Notification.permission!=="granted")return;
+async function syncAllReminders({includeImported=false}={}){
+  if(typeof Notification==="undefined" || Notification.permission!=="granted")return;
   const all=[...state.favoriteEvents,...state.events];
   const seen=new Set();
   for(const event of all){
@@ -346,9 +348,10 @@ async function syncAllReminders(){
     const minutes=reminderMinutesFor(event);
     if(minutes>0 && state.favorites.has(key)){
       const entry=state.reminders[key];
+      if(entry?.needsRegistration && !includeImported)continue;
       const synced=await syncReminderBackend(event,minutes,true);
       if(state.reminders[key]===entry){
-        state.reminders[key]={...reminderEntryFor(event),synced};
+        state.reminders[key]={...reminderEntryFor(event),synced,needsRegistration:!synced && !!entry?.needsRegistration};
         saveReminders();
       }
     }
@@ -425,6 +428,8 @@ async function repairPushOnResume(){
 }
 
 async function refreshNotificationUi(){
+  renderReminderOverview();
+  renderGuide();
   const button=$("notificationBtn");
   const status=$("notificationStatus");
   const hint=$("notificationHint");
@@ -786,6 +791,7 @@ function filteredEvents(selectedDate=state.date,calendar=false){
   }).sort((a,b)=>(a.dateIso+a.time).localeCompare(b.dateIso+b.time));
 }
 function render(){
+  renderReminderOverview();
   renderCalendar();
   eventsEl.innerHTML="";
   const all=filteredEvents();
@@ -1149,7 +1155,7 @@ async function addToCalendar(event,downloadOnly=false){
   if(!downloadOnly && navigator.canShare?.({files:[file]})){
     try{
       await navigator.share({files:[file],title:event.description||"KOVA-aktivitet"});
-      hint.textContent="Kalenderfil delt. Fullfør importen i kalenderappen. Hvis Kalender ikke vises, velg Last ned kalenderfil.";
+      hint.textContent="Kalenderfil delt. Fullfør importen i kalenderappen. Hvis Kalender ikke vises, trykk Legg i kalender.";
       return;
     }catch(error){
       if(error.name==="AbortError"){hint.textContent="Kalenderdeling avbrutt. Ingen kalenderoppføring er bekreftet.";return;}
@@ -1159,7 +1165,7 @@ async function addToCalendar(event,downloadOnly=false){
   const a=document.createElement("a");a.href=url;a.download=file.name;
   document.body.appendChild(a);a.click();a.remove();
   setTimeout(()=>URL.revokeObjectURL(url),60000);
-  hint.textContent="Kalenderfil lastet ned. Åpne .ics-filen i kalenderappen og bekreft importen. På iPhone kan du åpne nettappen i Safari dersom import ikke tilbys fra Hjem-skjermen. Kalenderkopien oppdateres ikke automatisk.";
+  hint.textContent="Kalenderfil lastet ned. Trykk på nedlastingen for å åpne .ics-filen i kalenderappen og bekreft importen. På iPhone kan du åpne nettappen i Safari dersom import ikke tilbys fra Hjem-skjermen. Kalenderkopien oppdateres ikke automatisk.";
 
 }
 async function shareEvent(event){
@@ -1324,6 +1330,7 @@ document.querySelectorAll(".quick-nav button[data-scroll]").forEach(button=>{
 document.querySelectorAll(".quick-nav button[data-view-jump]").forEach(button=>{
   button.onclick=async()=>{
     state.view=button.dataset.viewJump;
+    state.date="";
     state.displayLimit=20;
     document.querySelectorAll("#viewTabs button").forEach(tab=>tab.classList.toggle("active",tab.dataset.view===state.view));
     await loadEvents();
@@ -1390,12 +1397,13 @@ $("loadMoreBtn").onclick=()=>{
 };
 $("myShiftsAllBtn").onclick=async()=>{
   state.view="favorites";
+  state.date="";
   state.displayLimit=20;
   document.querySelectorAll("#viewTabs button").forEach(button=>button.classList.toggle("active",button.dataset.view==="favorites"));
   await loadEvents();
   $("orgTitle").scrollIntoView({behavior:"smooth",block:"start"});
 };
-for(const [id,download] of [["calendarBtn",false],["calendarDownloadBtn",true]]){
+for(const [id,download] of [["calendarBtn",true],["calendarDownloadBtn",false]]){
   $(id).onclick=async()=>{
     if(!state.selected)return;
     try{await addToCalendar(state.selected,download)}
@@ -1495,14 +1503,21 @@ if("serviceWorker" in navigator){
   }
 })();
 
-// A non-blocking three-step checklist also remains accessible to existing users.
-function renderSetup(){
-  const done=storage.getItem('kova.pwa.setupComplete')==='1';
-  $('setupCard').classList.toggle('hidden',done);
-  $('setupHint').textContent=isIOS()&&!isStandalone()
-    ?'2. På iPhone: åpne i Safari → Del → Legg til på Hjem-skjermen. Åpne snarveien og aktiver varsler.'
-    :'2. Aktiver push under Varsler for å motta påminnelser.';
+function renderGuide(){
+  const choice=$("guidePlatform").value;
+  const platform=choice==="auto"?detectPlatform(navigator.userAgent,navigator.maxTouchPoints):choice;
+  document.querySelectorAll('[data-guide]').forEach(panel=>panel.hidden=panel.dataset.guide!==platform);
+  const name={android:"Android",ios:"iPhone / iPad",desktop:"datamaskin"}[platform];
+  $("guideStatus").textContent=`Viser veiledning for ${name}. ${isStandalone()?"Denne økten er åpnet som installert webapp.":"Du bruker nettleserfanen."}`;
+  $("setupHint").textContent="Velg ditt hjelpekorps for å se vaktene uten KOVA-innlogging. Du kan bruke oversikten før du aktiverer varsler.";
 }
+function renderSetup(){
+  $('setupCard').classList.toggle('hidden',storage.getItem('kova.pwa.setupComplete')==='1');
+  renderGuide();
+}
+$("guidePlatform").value=storage.getItem("kova.pwa.guidePlatform")||"auto";
+if(!$("guidePlatform").value)$("guidePlatform").value="auto";
+$("guidePlatform").onchange=()=>{storage.setItem("kova.pwa.guidePlatform",$("guidePlatform").value);renderGuide()};
 $('setupDone').onclick=()=>{storage.setItem('kova.pwa.setupComplete','1');$('setupCard').classList.add('hidden')};
 $('setupOpen').onclick=()=>{$('setupCard').classList.remove('hidden');$('setupCard').scrollIntoView({behavior:'smooth'})};
 $('showDeviceId').onclick=async()=>{
@@ -1539,3 +1554,93 @@ setInterval(()=>{
   const day=new Intl.DateTimeFormat("sv-SE",{timeZone:"Europe/Oslo"}).format(new Date());
   if(day!==lastFavoriteDay){lastFavoriteDay=day;render();refreshFavoriteDashboard();}
 },60000);
+
+function reminderOverviewEntries(){
+  const events=new Map([...state.favoriteEvents,...state.events].map(event=>[eventKey(event),event]));
+  return Object.entries(state.reminders).map(([key,entry])=>{
+    const meta=state.favoriteMeta[key];
+    const event=events.get(key)||(meta?{...meta,id:meta.eventId}:null);
+    return {key,entry:typeof entry==="number"?{leadMinutes:entry}:entry,event};
+  }).filter(row=>!row.event||!isPastShift(row.event)).sort((a,b)=>(a.event?.dateIso||"9999").localeCompare(b.event?.dateIso||"9999"));
+}
+function renderReminderOverview(){
+  const list=$("remindersList");
+  if(!list)return;
+  list.replaceChildren();
+  const rows=reminderOverviewEntries();
+  if(!rows.length){list.textContent="Ingen kommende påminnelser. Åpne en vakt og velg når du vil bli varslet.";return;}
+  const enabled=typeof Notification!=="undefined" && Notification.permission==="granted" && !!storage.getItem("kova.pwa.pushRegisteredAt");
+  for(const {entry,event} of rows){
+    const button=document.createElement(event?"button":"div");button.className="reminder-item";
+    if(event){button.type="button";button.onclick=()=>openDetail(event);}
+    const title=document.createElement("strong");title.textContent=event?.description||"Vaktinformasjon ikke tilgjengelig";
+    const schedule=document.createElement("span");
+    let due=null;
+    try{
+      if(event?.dateIso && eventTime(event)){
+        const stamp=osloUtcStamp(event.dateIso,eventTime(event));
+        due=new Date(Date.parse(stamp.replace(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/,'$1-$2-$3T$4:$5:$6Z'))-entry.leadMinutes*60000);
+      }
+    }catch{}
+    schedule.textContent=due&&Number.isFinite(due.getTime())
+      ?"Planlagt: "+new Intl.DateTimeFormat("nb-NO",{timeZone:"Europe/Oslo",dateStyle:"short",timeStyle:"short"}).format(due)+" · norsk tid"
+      :"Planlagt tidspunkt mangler – kontroller vakten.";
+    const status=document.createElement("small");
+    status.textContent=entry.needsRegistration?"Importert – må registreres på denne enheten":!enabled?"Aktiver varsler på denne enheten":entry.synced?"Registrert på serveren":"Kun lagret lokalt – registrering er ikke bekreftet";
+    if(!enabled||!entry.synced||entry.needsRegistration)status.className="pending";
+    if(due && due.getTime()<Date.now())status.textContent+=". Tidspunktet er passert; se Varselhistorikk for mottatte varsler.";
+    button.append(title,schedule,status);list.appendChild(button);
+  }
+}
+$("retryRemindersBtn").onclick=async()=>{
+  const button=$("retryRemindersBtn");button.disabled=true;
+  try{
+    if(!navigator.onLine)throw new Error("Koble til nett først.");
+    if(!await repairPushRegistration())throw new Error("Aktiver varsler på denne enheten først.");
+    await refreshFavoriteDashboard();
+    await syncAllReminders({includeImported:true});
+    const pending=reminderOverviewEntries().filter(({entry})=>!entry.synced||entry.needsRegistration).length;
+    $("remindersStatus").textContent=pending?`${pending} påminnelser er fortsatt ikke registrert. Åpne vakten og kontroller opplysningene.`:"Påminnelsesvalgene er registrert. Dette bekrefter ikke levering av push.";
+  }catch(error){$("remindersStatus").textContent=error.message||String(error)}
+  finally{button.disabled=false;renderReminderOverview()}
+};
+let pendingBackup=null;
+$("exportBackupBtn").onclick=()=>{
+  try{
+    const content=JSON.stringify(makeBackup(state),null,2);
+    const file=new Blob([content],{type:"application/json"});
+    if(file.size>2*1024*1024)throw new Error("Sikkerhetskopien overstiger grensen på 2 MB.");
+    const url=URL.createObjectURL(file),a=document.createElement("a");
+    a.href=url;a.download=`kova-companion-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
+    $("backupStatus").textContent="Sikkerhetskopi lastet ned. Oppbevar filen privat; den inneholder notatene dine.";
+  }catch(error){$("backupStatus").textContent="Kunne ikke lage sikkerhetskopi: "+(error.message||String(error))}
+};
+$("importBackupFile").onchange=async()=>{
+  pendingBackup=null;
+  try{
+    const file=$("importBackupFile").files[0];if(!file)return;
+    if(file.size>2*1024*1024)throw new Error("Filen er større enn 2 MB.");
+    pendingBackup=validateBackup(JSON.parse(await file.text()));
+    $("backupPreview").textContent=`Filen inneholder ${pendingBackup.favorites.length} lagrede vakter, ${Object.keys(pendingBackup.notes).length} notater og ${Object.keys(pendingBackup.reminders).length} påminnelsesvalg.`;
+    $("backupDialog").showModal();
+  }catch(error){$("backupStatus").textContent="Filen kunne ikke leses: "+(error.message||String(error))}
+  finally{$("importBackupFile").value=""}
+};
+$("backupCancel").onclick=()=>{$("backupDialog").close();pendingBackup=null};
+$("backupDialog").addEventListener("cancel",()=>pendingBackup=null);
+$("backupConfirm").onclick=async()=>{
+  if(!pendingBackup)return;
+  try{
+    const current={...makeBackup(state).data,reminders:state.reminders};
+    const merged=mergeBackup(current,pendingBackup);
+    storeBackup(storage,merged);
+    for(const field of ["favorites","followed","favoriteOrgs"])state[field]=new Set(merged[field]);
+    for(const field of ["notes","favoriteMeta","reminders"])state[field]=merged[field];
+    pendingBackup=null;$("backupDialog").close();
+    $("backupStatus").textContent="Sikkerhetskopien er lagt til. Eksisterende notater er beholdt. Aktiver varsler og bruk Registrer påminnelser på nytt for importerte valg.";
+    updateFollowUi();updateFavoriteOrgUi();render();
+    await refreshFavoriteDashboard();renderReminderOverview();
+  }catch(error){$("backupStatus").textContent="Import feilet: "+(error.message||String(error));$("backupDialog").close()}
+};
+renderReminderOverview();

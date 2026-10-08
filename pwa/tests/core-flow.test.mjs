@@ -72,3 +72,12 @@ test('history storage failure is reported to the app rather than shown as empty'
   await done;
   assert.equal(result.error,true);
 });
+
+test('imported reminder waits for explicit registration instead of automatic background repair',async()=>{
+  let calls=0;const r=reminders(async()=>{calls++;return true});
+  r.state.favorites.add('shift');r.state.reminders.shift={leadMinutes:60,synced:false,needsRegistration:true};
+  await r.context.syncAllReminders();assert.equal(calls,0);
+  await r.context.syncAllReminders({includeImported:true});assert.equal(calls,1);
+  assert.equal(r.state.reminders.shift.synced,true);
+  assert.equal(r.state.reminders.shift.needsRegistration,false);
+});

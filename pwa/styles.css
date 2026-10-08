@@ -192,3 +192,10 @@ a{color:#82d4ff}
 .lights-off .ambulance-lights{display:none}
 @media(prefers-reduced-motion:reduce){.ambulance-lights span{animation:none;opacity:.12;will-change:auto}}
 @media print{.ambulance-lights{display:none}}
+
+[hidden]{display:none!important}
+.guide-steps{padding-left:1.5rem;line-height:1.6}.guide-steps li+li{margin-top:.75rem}
+#setupCard details{margin-block:14px}#guidePlatform{width:100%;min-height:44px}
+.personal-list{display:grid;gap:10px;margin:14px 0}.reminder-item{display:grid;gap:5px;text-align:left;border:1px solid var(--border);border-radius:12px;padding:14px;background:var(--bg);color:var(--text)}
+.reminder-item small{color:var(--muted)}.reminder-item .pending{color:#ffdd8a}
+#backupCard{display:grid;gap:12px}#backupCard input{max-width:100%}#backupDialog{max-width:min(540px,92vw);color:var(--text);background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px}
