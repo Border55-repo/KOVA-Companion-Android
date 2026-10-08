@@ -11,7 +11,8 @@ Den primære brukerflyten i nettappen er:
 4. Motta push og åpne tidligere mottatte varsler i Varselhistorikk.
 5. Åpne Kova.no når det er behov for funksjoner i KOVA selv.
 
-Nettappen er hovedproduktet. Android-appen er et tillegg. Personlige påminnelser
+Nettappen er eneste produkt som videreutvikles, for både Android og iPhone.
+Den gamle Android-appen beholdes som historisk kode, uten nye APK-utgivelser. Personlige påminnelser
 skal ikke kreve abonnement på alle aktivitetsendringer for et helt korps.
 Korpsvarsler og oversikter på tvers av korps er sekundære, valgfrie funksjoner.
 
@@ -27,3 +28,7 @@ at et varsel faktisk har blitt vist på telefonen.
 
 Kova Companion er uavhengig av KlarX og URKH. Nye funksjoner skal vurderes opp
 mot denne hovedflyten før de legges til.
+
+Etter hver publisert og kontrollert oppdatering skal brukerne få en kort
+endringslogg og pushbeskjed om hva som er endret og eventuelle nødvendige tiltak.
+Veiledning for Android og iPhone skal være likeverdig og gjelde webappen.

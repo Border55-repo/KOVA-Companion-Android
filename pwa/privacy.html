@@ -12,7 +12,7 @@
     <article class="card">
       <p class="eyebrow">Kova Companion</p>
       <h1>Personvern</h1>
-      <p class="muted">Sist oppdatert 23. september 2026</p>
+      <p class="muted">Sist oppdatert 7. oktober 2026</p>
 
       <h2>Kort fortalt</h2>
       <p>Kova Companion er et uavhengig verktøy for å vise offentlig KOVA-kalenderdata. Appen ber ikke om Røde Kors-passord, Okta-konto, posisjon, kontakter, bilder eller helseopplysninger.</p>
@@ -21,8 +21,8 @@
       <p>Favoritter, lokale notater, varselinnstillinger og lokal varselhistorikk lagres på enheten. Disse brukes for å gi deg Mine vakter, påminnelser og en enklere oversikt.</p>
 
       <h2>Varsler</h2>
-      <p>Android-utgaven bruker Firebase Cloud Messaging. Firebase bruker en installasjonsidentifikator og tekniske app-/enhetsopplysninger som er nødvendige for å levere varsler. Kova Companion bruker ikke Firebase Analytics og eksporterer ikke FCM-leveringsdata til BigQuery.</p>
-      <p>PWA/iPhone-utgaven lagrer et Web Push-abonnement i Kova Companions Firebase-prosjekt. Abonnementet inneholder tekniske pushnøkler, hvilke hjelpekorps du følger og varselpreferanser. Det brukes bare til KOVA-varsler.</p>
+      <p>Webappen på Android og iPhone lagrer et Web Push-abonnement i Kova Companions Firebase-prosjekt. Dette inneholder tekniske pushnøkler, valgte korps og varselpreferanser. Personlige påminnelser lagrer også vaktreferanse og valgt tidspunkt på serveren for å kunne sende push. Lokale notater sendes ikke med.</p>
+      <h2>Sikkerhetskopi</h2><p>Du kan selv laste ned en JSON-fil med lagrede vakter, korpsvalg, påminnelsesvalg og notater. Filen er ikke kryptert. Oppbevar den privat. Import leses lokalt i nettleseren. Pushnøkler, innlogging og varselhistorikk eksporteres ikke. På en ny enhet må varsler aktiveres og påminnelsene registreres.</p>
 
       <h2>Kilder</h2>
       <p>KOVA-data hentes fra offentlig tilgjengelige KOVA-kalendersider via Kova Companion Bridge. Kova Companion er ikke en offisiell Røde Kors- eller KOVA-app.</p>
