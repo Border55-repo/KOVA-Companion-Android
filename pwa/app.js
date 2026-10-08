@@ -1,7 +1,7 @@
-import {detectPlatform} from './guidance.js?v=2.3.0';
-import {makeBackup,validateBackup,mergeBackup,storeBackup} from './personal-backup.js?v=2.3.0';
+import {detectPlatform} from './guidance.js?v=2.3.1';
+import {makeBackup,validateBackup,mergeBackup,storeBackup} from './personal-backup.js?v=2.3.1';
 import {createSnapshotSource,freshness} from './data-source.js';
-import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.3.0';
+import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.3.1';
 const storage=localStorage;
 const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";

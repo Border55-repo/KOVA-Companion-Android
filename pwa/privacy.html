@@ -1,40 +1,42 @@
 <!doctype html>
-<html lang="no">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#c9152b">
-  <title>Personvern – Kova Companion</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <main class="shell">
-    <article class="card">
-      <p class="eyebrow">Kova Companion</p>
-      <h1>Personvern</h1>
-      <p class="muted">Sist oppdatert 7. oktober 2026</p>
-
-      <h2>Kort fortalt</h2>
-      <p>Kova Companion er et uavhengig verktøy for å vise offentlig KOVA-kalenderdata. Appen ber ikke om Røde Kors-passord, Okta-konto, posisjon, kontakter, bilder eller helseopplysninger.</p>
-
-      <h2>Data på enheten</h2>
-      <p>Favoritter, lokale notater, varselinnstillinger og lokal varselhistorikk lagres på enheten. Disse brukes for å gi deg Mine vakter, påminnelser og en enklere oversikt.</p>
-
-      <h2>Varsler</h2>
-      <p>Webappen på Android og iPhone lagrer et Web Push-abonnement i Kova Companions Firebase-prosjekt. Dette inneholder tekniske pushnøkler, valgte korps og varselpreferanser. Personlige påminnelser lagrer også vaktreferanse og valgt tidspunkt på serveren for å kunne sende push. Lokale notater sendes ikke med.</p>
-      <h2>Sikkerhetskopi</h2><p>Du kan selv laste ned en JSON-fil med lagrede vakter, korpsvalg, påminnelsesvalg og notater. Filen er ikke kryptert. Oppbevar den privat. Import leses lokalt i nettleseren. Pushnøkler, innlogging og varselhistorikk eksporteres ikke. På en ny enhet må varsler aktiveres og påminnelsene registreres.</p>
-
-      <h2>Kilder</h2>
-      <p>KOVA-data hentes fra offentlig tilgjengelige KOVA-kalendersider via Kova Companion Bridge. Kova Companion er ikke en offisiell Røde Kors- eller KOVA-app.</p>
-
-      <h2>Sikkerhet og sletting</h2>
-      <p>Dataoverføring skjer kryptert over HTTPS. Du kan slå av varsler og slette lokale appdata via enhetens innstillinger. Web Push-abonnement deaktiveres når du slår av varsler i PWA-en.</p>
-
-      <h2>Prosjekteier</h2>
-      <p>Prosjekteier: Julian Nordli.</p>
-
-      <p><a class="secondary-action" href="./">Tilbake til Kova Companion</a></p>
-    </article>
-  </main>
-</body>
-</html>
+<html lang="nb"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#061323"><title>Personvern – Kova Companion</title>
+<link rel="stylesheet" href="./styles.css?v=2.3.1">
+</head><body><main class="shell privacy-page"><article class="card">
+<p class="eyebrow">Kova Companion</p><h1>Personvern</h1>
+<p class="muted">Sist oppdatert 8. oktober 2026 · nettappen på Android, iPhone og datamaskin.</p>
+<p>Kova Companion viser offentlige KOVA-kalendere og lar deg lagre egne vakter, notater og varselvalg. Prosjekteier er Julian Nordli. Prosjektet er uavhengig og er ikke en offisiell Røde Kors- eller KOVA-app.</p>
+<h2>På enheten din</h2>
+<ul><li>Mine vakter, fulgte korps, visningsvalg, lokale notater og påminnelsesvalg lagres i nettleserens lokale lagring.</li>
+<li>De siste 100 mottatte pushvarslene lagres i en lokal database for Varselhistorikk.</li>
+<li>Appfiler og hentede kalenderdata mellomlagres for raskere lasting og begrenset bruk uten nett.</li></ul>
+<p>Notater sendes ikke til Kova Companions server. Lokal lagring er knyttet til denne nettleseren/enheten og har ikke et eget app-passord. Andre med tilgang til enheten kan få tilgang til innholdet. Ikke skriv pasientopplysninger eller sensitive oppdragsdetaljer i notatfeltet.</p>
+<h2>På serveren når du aktiverer push</h2>
+<table class="privacy-table"><thead><tr><th>Opplysninger</th><th>Formål</th></tr></thead><tbody>
+<tr><td>Teknisk pushadresse, krypteringsnøkler og tilfeldig påminnelsesnøkkel</td><td>Registrere enheten og levere push til riktig abonnement.</td></tr>
+<tr><td>Valgte korps, varseltyper, stilleperiode, aktiv/inaktiv status og oppdateringstid</td><td>Respektere varselvalgene dine.</td></tr>
+<tr><td>Personlige påminnelser: vaktreferanse, korps, offentlig beskrivelse, dato/tid og minutter før vakten</td><td>Beregne og sende påminnelsen.</td></tr>
+<tr><td>Testvarsel: abonnementsreferanse og bestillingstid</td><td>Sende testen til din enhet og hindre gjentatt behandling.</td></tr>
+</tbody></table>
+<p>Data lagres i prosjektets Google Firebase/Firestore. Push går gjennom nettleserens pushleverandør. Vaktinformasjon kan vises på låseskjermen; du styrer forhåndsvisning i telefonens innstillinger. Kalenderoversikten kan brukes uten å aktivere push.</p>
+<h2>Kilder og tjenesteleverandører</h2>
+<p>Bridge henter offentlige kalendere fra KOVA. GitHub distribuerer appfiler og kalenderdata. Cloudflare brukes til driftsforespørsler fra adminpanelet. Nettleseren laster nødvendig Firebase-kode fra Google. Tjenesteleverandørene mottar vanlig teknisk forespørselsinformasjon, som IP-adresse, tidspunkt og nettleserinformasjon.</p>
+<p>Appen ber ikke om KOVA-/Okta-passord, posisjon, kontakter, bilder eller helseopplysninger. Nettappen har ingen egen annonse- eller besøksanalysefunksjon.</p>
+<h2>Sikkerhetskopi og kalenderdeling</h2>
+<p>Sikkerhetskopien er en ukryptert JSON-fil med vakter, korpsvalg, påminnelsesvalg og lokale notater. Pushnøkler, admininnlogging og varselhistorikk tas ikke med. Import leses lokalt i nettleseren. Oppbevar filen privat.</p>
+<p>Når du deler en aktivitet eller åpner kalenderfilen i en annen app, overlates opplysningene du velger å dele til den appen. Kalenderkopien oppdateres ikke automatisk ved KOVA-endringer.</p>
+<h2>Tilbakemeldinger via Google Forms</h2>
+<p>Skjemaet samler inn teksten og valgene du selv sender, som vurdering, enhet og feilbeskrivelse. Kontaktadresse er valgfri. Automatisk e-postinnsamling er slått av, og Google-innlogging er ikke påkrevd. Prosjekteier leser svarene for å rette feil, prioritere forbedringer og eventuelt svare deg. Resultatsammendraget deles ikke offentlig.</p>
+<p>Dette er en ekstern Google-tjeneste; <a href="https://policies.google.com/privacy?hl=no" target="_blank" rel="noopener noreferrer">Googles personvernregler</a> gjelder også. Ikke send passord, helseopplysninger eller opplysninger om pasienter/andre personer.</p>
+<h2>Lagringstid og sletting</h2>
+<p>Lokale valg og notater beholdes til du fjerner dem eller sletter nettstedsdata. Historikken begrenses til 100 oppføringer. Påminnelser og tekniske abonnementsdata kan bli liggende på serveren etter deaktivering. Det er foreløpig ingen fast automatisk slettefrist for alle serveropplysninger eller skjemasvar.</p>
+<ol><li>Slå av varsler i appen mens du er på nett. Serverabonnementet markeres inaktivt og nettleserens pushabonnement avsluttes.</li>
+<li>Fjern notat/påminnelse inne på vakten for å endre det enkelte valget.</li>
+<li>For å fjerne alle lokale opplysninger: slett nettstedsdata for <strong>border55-repo.github.io</strong> i nettleserinnstillingene. Dette kan også fjerne data for andre nettsteder på samme vert. Avinstallering alene er ikke alltid nok.</li>
+<li>Slett selv eksporterte sikkerhetskopier og kalenderfiler. Lokal sletting sletter ikke automatisk serverdata eller skjemasvar.</li></ol>
+<h2>Kontakt, innsyn, retting eller sletting</h2>
+<p>Kontakt Julian Nordli gjennom <a href="https://docs.google.com/forms/d/e/1FAIpQLScIwS0WhFuSaqREc855ETUI6vJIjLx2aqbqqZhXT_KA6fGv-Q/viewform" target="_blank" rel="noopener noreferrer">tilbakemeldingsskjemaet</a>. For abonnementsdata kan du oppgi enhetskoden fra «Flere valg og om appen → Vis enhetskode for admintest», samt valgfri kontaktadresse. Ikke send pushnøkler eller passord. For skjemasvar uten kontaktadresse, oppgi omtrentlig tidspunkt og hva svaret gjaldt, slik at det kan finnes.</p>
+<p>Overføring skjer over HTTPS. Dette dokumentet beskriver dagens funksjoner og lagring; endringer publiseres her og i endringsloggen.</p>
+<p><a class="secondary-action" href="./">Tilbake til Kova Companion</a></p>
+</article></main></body></html>
