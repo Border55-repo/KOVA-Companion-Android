@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5d8ca6caf3126d5fbaea8a34",
+      "observedAt": "2026-10-08T22:26:20+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "f340fffe351340cf",
+        "dateIso": "2026-11-02",
+        "dateLabel": "man. 2.11",
+        "time": "13:30",
+        "type": "Eksterne kurs",
+        "description": "Adresse: Torggata, Sarpsborg sentrum Førstehjelpskurs for Konfliktrådet Øst",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "b02b2ebe8ff2c301d3406af6",
+      "observedAt": "2026-10-08T22:26:20+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "0eab3c2bbfdaa948",
+        "dateIso": "2026-11-02",
+        "dateLabel": "man. 2.11",
+        "time": "19:30",
+        "type": "Interne møter",
+        "description": "Troika AU-møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "a496f92e137d31ab20fee67a",
+      "observedAt": "2026-10-08T22:26:20+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "b20832cb7e1aa3e6",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "19:30",
+        "type": "Interne møter",
+        "description": "Troika AU-møte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "55909fccf3a90b0ac6746724",
       "observedAt": "2026-10-07T00:16:25+02:00",
       "organization": "RKSarpsborg",
@@ -563,5 +608,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:16:25+02:00"
+  "updatedAt": "2026-10-08T22:26:20+02:00"
 }
