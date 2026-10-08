@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T00:11:17+02:00",
-  "checkedAt": "2026-10-08T23:41:21+02:00",
+  "updatedAt": "2026-10-09T00:01:37+02:00",
+  "checkedAt": "2026-10-09T00:01:37+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 17,
+  "eventCount": 16,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "6d4e683022e8fef0",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "17:30",
-      "type": "Interne kurs",
-      "description": "KFØR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
     {
       "id": "5050a10d40ec6215",
       "dateIso": "2026-10-03",

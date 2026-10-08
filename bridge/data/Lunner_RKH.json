@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T20:41:14+02:00",
-  "checkedAt": "2026-10-08T23:41:22+02:00",
+  "updatedAt": "2026-10-09T00:01:38+02:00",
+  "checkedAt": "2026-10-09T00:01:38+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 33,
+  "eventCount": 30,
   "changes": {
-    "added": 2,
-    "removed": 0,
+    "added": 0,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "dbb2e6432b603d54",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "07:00",
-      "type": "Eksterne møter",
-      "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "9aa09e2f08ef3b0e",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "",
-      "type": "Eksterne møter",
-      "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "4a28db80d1159c74",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "-> 20:00",
-      "type": "Eksterne møter",
-      "description": "Observatør Oppland RK Landsmøte Norges Røde Kors",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
     {
       "id": "d3bf27775d8c7096",
       "dateIso": "2026-10-11",

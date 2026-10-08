@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6581c74d6613179169763d37",
+      "observedAt": "2026-10-09T00:01:31+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "79fd0546690f5545",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "09:15",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset kl 09:15, vakta starter kl 10:00. Landsmøte, The Qube",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "dde10f26fdb0e9813f1e1851",
+      "observedAt": "2026-10-09T00:01:31+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3c5e153de7c67f04",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset kl 15:30, vakta starter kl 16:00. Landsmøte, The Qube",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "5311483ce73cc9ca4e0b2482",
       "observedAt": "2026-10-08T18:46:12+02:00",
       "organization": "UllensakerRKH",
@@ -818,5 +848,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T18:46:12+02:00"
+  "updatedAt": "2026-10-09T00:01:31+02:00"
 }

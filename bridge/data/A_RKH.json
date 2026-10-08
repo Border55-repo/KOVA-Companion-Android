@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-03T00:11:32+02:00",
-  "checkedAt": "2026-10-08T23:46:21+02:00",
+  "updatedAt": "2026-10-09T00:01:45+02:00",
+  "checkedAt": "2026-10-09T00:01:45+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH",
-  "eventCount": 5,
+  "eventCount": 4,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "e7c597e2b4f26c08",
-      "dateIso": "2026-10-02",
-      "dateLabel": "fre. 2.10",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Konsert fredag 2 oktober Vassendgutane konsert",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
-    },
     {
       "id": "6ad9f62f5fe2dbfa",
       "dateIso": "2026-10-03",

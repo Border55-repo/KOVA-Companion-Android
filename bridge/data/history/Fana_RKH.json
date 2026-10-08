@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "92780cf045410fc08f1c9c89",
+      "observedAt": "2026-10-09T00:01:37+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6d4e683022e8fef0",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "17:30",
+        "type": "Interne kurs",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "74ed221b965ccb2c37bfb4a5",
       "observedAt": "2026-10-07T00:11:17+02:00",
       "organization": "Fana RKH",
@@ -386,5 +401,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:11:17+02:00"
+  "updatedAt": "2026-10-09T00:01:37+02:00"
 }

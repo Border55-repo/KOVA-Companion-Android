@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cea6f1ff228c2d126a774f40",
+      "observedAt": "2026-10-09T00:01:29+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "31aeb59a7ff9e7cc",
+        "dateIso": "2026-10-02",
+        "dateLabel": "fre. 2.10",
+        "time": "18:00",
+        "type": "Ambulansevakt",
+        "description": "Suppleringsvakt for AMK Ambulansevakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "341b4fd2c4b0e8407ca8977b",
       "observedAt": "2026-10-08T14:56:10+02:00",
       "organization": "Nittedal RKH",
@@ -551,5 +566,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T14:56:10+02:00"
+  "updatedAt": "2026-10-09T00:01:29+02:00"
 }
