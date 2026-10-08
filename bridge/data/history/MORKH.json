@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7a12a129e87dc079aecbf5b2",
+      "observedAt": "2026-10-08T12:01:50+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "bce7c08fa36803ca",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "",
+        "type": "Transport",
+        "description": "Understellsbehandling - Ikke tilgjengelig for bruk Ambulanse på Service",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "8b8d901d4605d86a2764774d",
       "observedAt": "2026-10-06T21:41:39+02:00",
       "organization": "MORKH",
@@ -911,5 +926,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-06T21:41:39+02:00"
+  "updatedAt": "2026-10-08T12:01:50+02:00"
 }
