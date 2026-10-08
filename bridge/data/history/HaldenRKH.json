@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1d5788e880ddbce800aee758",
+      "observedAt": "2026-10-08T16:06:28+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "e436f3c421cb7da4",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Møte mellom korpsene angående vakter i 2027 Samarbeidsmøter i Østfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "f6e827d7f38a2b1efd45935f",
+      "observedAt": "2026-10-08T16:06:28+02:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "730024e12defebd3",
+        "dateIso": "2026-12-15",
+        "dateLabel": "tir. 15.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Grøtfest med oppsummering av året og et blikk på 2027 (Ida ansvar) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "ce5858796670f55b",
+        "dateIso": "2026-12-15",
+        "dateLabel": "tir. 15.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Grøtfest med oppsummering av året (Ida ansvar) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "4fffc9db970a4c9b0c5ed1e0",
       "observedAt": "2026-10-08T00:16:20+02:00",
       "organization": "HaldenRKH",
@@ -650,5 +689,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:16:20+02:00"
+  "updatedAt": "2026-10-08T16:06:28+02:00"
 }
