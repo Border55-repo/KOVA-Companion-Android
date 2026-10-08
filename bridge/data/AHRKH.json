@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T00:11:19+02:00",
-  "checkedAt": "2026-10-08T12:51:29+02:00",
+  "updatedAt": "2026-10-08T13:06:11+02:00",
+  "checkedAt": "2026-10-08T13:06:11+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
-  "eventCount": 13,
+  "eventCount": 14,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -51,6 +51,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Sambandsøvelse Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+    },
+    {
+      "id": "b5d20ac35e88aa06",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap (KM) i TeamGym 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
     },
     {

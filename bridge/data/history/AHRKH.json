@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8f580eb7dd4c1b24ff3c1862",
+      "observedAt": "2026-10-08T13:06:11+02:00",
+      "organization": "AHRKH",
+      "kind": "added",
+      "event": {
+        "id": "b5d20ac35e88aa06",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Kretsmesterskap (KM) i TeamGym 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "2dec2d955cf870ee484fae02",
       "observedAt": "2026-10-08T00:11:19+02:00",
       "organization": "AHRKH",
@@ -206,5 +221,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:11:19+02:00"
+  "updatedAt": "2026-10-08T13:06:11+02:00"
 }
