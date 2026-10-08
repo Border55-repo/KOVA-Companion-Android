@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "269245d2017bee1f061c6239",
+      "observedAt": "2026-10-08T13:21:11+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "2413d5388350350b",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "09:00",
+        "type": "Øvelse",
+        "description": "Trening av hunder i ATV-søk, med Ullensaker RKH Øvelse: Samtrening med NRH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "fbcd31a80b8d35cb96fd1c60",
       "observedAt": "2026-10-07T14:51:19+02:00",
       "organization": "Nittedal RKH",
@@ -521,5 +536,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T14:51:19+02:00"
+  "updatedAt": "2026-10-08T13:21:11+02:00"
 }
