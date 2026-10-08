@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5311483ce73cc9ca4e0b2482",
+      "observedAt": "2026-10-08T18:46:12+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "e78577b85d01f7b2",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Beredskap",
+        "description": "Beredskap Hus Telenett utfall",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "dbbd73ca4ba830d64cf9341b",
       "observedAt": "2026-10-08T16:16:21+02:00",
       "organization": "UllensakerRKH",
@@ -803,5 +818,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T16:16:21+02:00"
+  "updatedAt": "2026-10-08T18:46:12+02:00"
 }

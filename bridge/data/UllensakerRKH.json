@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T16:16:21+02:00",
-  "checkedAt": "2026-10-08T18:41:26+02:00",
+  "updatedAt": "2026-10-08T18:46:12+02:00",
+  "checkedAt": "2026-10-08T18:46:12+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 53,
+  "eventCount": 54,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 6
+    "changed": 0
   },
   "events": [
     {
@@ -105,6 +105,15 @@
       "time": "18:00",
       "type": "Eksterne kurs",
       "description": "Fagkveld OUS - RK 3.1",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "e78577b85d01f7b2",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:00",
+      "type": "Beredskap",
+      "description": "Beredskap Hus Telenett utfall",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
