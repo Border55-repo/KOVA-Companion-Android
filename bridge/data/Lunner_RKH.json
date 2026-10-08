@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T00:01:59+02:00",
-  "checkedAt": "2026-10-08T20:21:20+02:00",
+  "updatedAt": "2026-10-08T20:41:14+02:00",
+  "checkedAt": "2026-10-08T20:41:14+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 31,
+  "eventCount": 33,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -186,6 +186,24 @@
       "time": "18:00",
       "type": "Interne møter",
       "description": "Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "2584fa13404eb8d8",
+      "dateIso": "2026-11-28",
+      "dateLabel": "lør. 28.11",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Startkursholdersamling",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "8e53785eeca4edd5",
+      "dateIso": "2026-11-29",
+      "dateLabel": "søn. 29.11",
+      "time": "-> 17:00",
+      "type": "Eksterne kurs",
+      "description": "Scandic Lillehammer Hotel Startkursholdersamling",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
     },
     {
