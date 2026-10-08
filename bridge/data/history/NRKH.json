@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8be975a837a8198f8b7cef61",
+      "observedAt": "2026-10-08T03:31:24+02:00",
+      "organization": "NRKH",
+      "kind": "added",
+      "event": {
+        "id": "77f120c85ad52c30",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "10:00",
+        "type": "Eksterne møter",
+        "description": "Møte med NHBR (Drone) Samarbeid Nordhordland Brann og Redning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "2e01e842f98b551adbf6c1f6",
       "observedAt": "2026-10-08T01:16:17+02:00",
       "organization": "NRKH",
@@ -458,5 +473,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T01:16:17+02:00"
+  "updatedAt": "2026-10-08T03:31:24+02:00"
 }

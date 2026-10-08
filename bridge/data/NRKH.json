@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T01:16:17+02:00",
-  "checkedAt": "2026-10-08T03:11:26+02:00",
+  "updatedAt": "2026-10-08T03:31:24+02:00",
+  "checkedAt": "2026-10-08T03:31:24+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 54,
+  "eventCount": 55,
   "changes": {
-    "added": 0,
-    "removed": 3,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -276,6 +276,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Dykkerelatert førstehjelp og praktiske redningstips Korpskvelder, høst 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+    },
+    {
+      "id": "77f120c85ad52c30",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "10:00",
+      "type": "Eksterne møter",
+      "description": "Møte med NHBR (Drone) Samarbeid Nordhordland Brann og Redning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
