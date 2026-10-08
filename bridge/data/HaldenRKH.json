@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T16:06:28+02:00",
-  "checkedAt": "2026-10-08T16:06:28+02:00",
+  "updatedAt": "2026-10-08T16:21:23+02:00",
+  "checkedAt": "2026-10-08T16:21:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 40,
+  "eventCount": 41,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -60,6 +60,15 @@
       "time": "",
       "type": "Eksterne kurs",
       "description": "AFØR kurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "bdeabfe59cd8996e",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "På Røde Kors huset i Halden Startkurs",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -198,12 +207,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "32d29ce3dfc9e966",
+      "id": "0b32a7b6f6e7c6b5",
       "dateIso": "2026-11-03",
       "dateLabel": "tir. 3.11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Beredskapssamling ØRK (Robin ansvar) Korpskvelder",
+      "description": "Beredskapssamling ØRK påmelding innen 25.okt (Robin ansvar) Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
