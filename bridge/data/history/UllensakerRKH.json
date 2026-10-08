@@ -2,6 +2,150 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "dbbd73ca4ba830d64cf9341b",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "47fa401c8dc70b07",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "2a93f12d328feb75",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "097c1b2c7ff8bfc4df3ec62a",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "858c023ce849dbd8",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "794396161a5ecf7d",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "576bc75c3e94e2b992918889",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "e5c0ceb14f024c44",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "7cc00bd3745d8c5c",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "f6175b5e1e9722818267fe59",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "7edad410ce3b4c94",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "1d9ca692bc83700c",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "258b0cc372f5ee5dc52a2af1",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "ab99261289399ed9",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "8dc77d6b2d7f009a",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "127776170c2763e5a5224e07",
+      "observedAt": "2026-10-08T16:16:21+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "aee66fd7695eac9d",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 14:00 Oppmøte Lokalet 13:00 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "04c8e7f69a72a1b7",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "b07b55a290851bfb2c3c774a",
       "observedAt": "2026-10-07T10:51:15+02:00",
       "organization": "UllensakerRKH",
@@ -659,5 +803,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T10:51:15+02:00"
+  "updatedAt": "2026-10-08T16:16:21+02:00"
 }
