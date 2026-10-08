@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T13:36:12+02:00",
-  "checkedAt": "2026-10-08T13:36:12+02:00",
+  "updatedAt": "2026-10-08T13:51:24+02:00",
+  "checkedAt": "2026-10-08T13:51:24+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
   "eventCount": 16,
   "changes": {
-    "added": 2,
+    "added": 0,
     "removed": 0,
     "changed": 1
   },
@@ -72,12 +72,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
     },
     {
-      "id": "cc110c63b0405fcc",
+      "id": "70618a7df475e657",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Oppmøte på lokalet kl.: 07:45 Avreise fra lokalet kl.: 08:15 Kretsmesterskap (KM) i TeamGym 2026",
+      "description": "Oppmøte på lokalet kl.: 07:50 Avreise fra lokalet kl.: 08:15 Kretsmesterskap (KM) i TeamGym 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
     },
     {
