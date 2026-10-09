@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8d86f5ada2ad70f6155d465f",
+      "observedAt": "2026-10-10T00:06:10+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "5050a10d40ec6215",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "bcd9593d4fbfe5cc38181d4b",
+      "observedAt": "2026-10-10T00:06:10+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "64e7c0047105092c",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT KICKBOXING SANITETSVAKT - KICKBOXING",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "b227cbc3132f405cbd037edf",
+      "observedAt": "2026-10-10T00:06:10+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "8c1f5827eda95099",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT KICKBOXING - GALLA SANITETSVAKT KICBOXING - GALLA",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "92780cf045410fc08f1c9c89",
       "observedAt": "2026-10-09T00:01:37+02:00",
       "organization": "Fana RKH",
@@ -401,5 +446,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:01:37+02:00"
+  "updatedAt": "2026-10-10T00:06:10+02:00"
 }
