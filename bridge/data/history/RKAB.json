@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "37ece84eb2b08f487a17c00c",
+      "observedAt": "2026-10-09T13:15:54+02:00",
+      "organization": "RKAB",
+      "kind": "changed",
+      "event": {
+        "id": "a92524279ba54478",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "AVLYST Fredag AMK Okotber 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      },
+      "oldEvent": {
+        "id": "56a1d95b25a632a6",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Fredag AMK Okotber 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "338ee85fc972d88a44558aa2",
       "observedAt": "2026-10-09T00:11:16+02:00",
       "organization": "RKAB",
@@ -281,5 +305,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:11:16+02:00"
+  "updatedAt": "2026-10-09T13:15:54+02:00"
 }
