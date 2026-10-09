@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T14:41:12+02:00",
-  "checkedAt": "2026-10-09T14:41:12+02:00",
+  "updatedAt": "2026-10-09T14:46:12+02:00",
+  "checkedAt": "2026-10-09T14:46:12+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 56,
+  "eventCount": 60,
   "changes": {
-    "added": 2,
+    "added": 4,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -450,12 +450,48 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "3ab319bb62a67a5b",
+      "id": "ff0f77457c3b88ef",
       "dateIso": "2027-01-14",
       "dateLabel": "tor. 14.1",
       "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "DNB - The Qube - JCP",
+      "description": "Oppmøte 15:30 URKH vaktstart 16:00 The Qube DNB - The Qube - JCP",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "49049f2bc3a9152a",
+      "dateIso": "2027-01-15",
+      "dateLabel": "fre. 15.1",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte 08:30 URKH vaktstart 09:00 The Qube DNB - The Qube - JCP",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "63067c03c7bfe009",
+      "dateIso": "2027-01-15",
+      "dateLabel": "fre. 15.1",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte 15:30 URKH vaktstart 16:00 The Qube DNB - The Qube - JCP",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "b829ad43a645dcef",
+      "dateIso": "2027-01-16",
+      "dateLabel": "lør. 16.1",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte 08:30 URKH vaktstart 09:00 The Qube DNB - The Qube - JCP",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "946898b335df9489",
+      "dateIso": "2027-01-16",
+      "dateLabel": "lør. 16.1",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Oppmøte 15:30 URKH vaktstart 16:00 The Qube DNB - The Qube - JCP",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
