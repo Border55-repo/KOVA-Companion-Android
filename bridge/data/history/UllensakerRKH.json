@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bc5ace792b5f208a0e7754c5",
+      "observedAt": "2026-10-09T19:26:14+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "132865d242823e50",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "18:00",
+        "type": "Rådsmøte",
+        "description": "ledermøte med øvre og fagleder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "f43f33278e6c1deb",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "18:00",
+        "type": "Rådsmøte",
+        "description": "sammen med fagledere ledermøte med øvre og fagleder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "e3775e89d8261d1556853853",
       "observedAt": "2026-10-09T14:46:12+02:00",
       "organization": "UllensakerRKH",
@@ -992,5 +1016,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T14:46:12+02:00"
+  "updatedAt": "2026-10-09T19:26:14+02:00"
 }
