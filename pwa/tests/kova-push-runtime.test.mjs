@@ -91,6 +91,20 @@ test('admin status distinguishes queue, transport acceptance, and partial failur
   assert.match(status,/ikke bekreftelse på visning/);
 });
 
+test('admin system health warns when the latest push had a partial failure',async()=>{
+  const app=await readFile('pwa/admin/app.js','utf8');
+  const fn=app.slice(app.indexOf('function healthState('),app.indexOf('function renderSystemHealth('));
+  const context=vm.createContext({ageMinutes:()=>1,fmt:()=> '12:00'});
+  vm.runInContext(fn,context);
+  const runtime={lastRunAt:'2026-10-09T12:00:00Z',status:'ok',failures:0,pendingPushes:0};
+  const partial={status:'failed',delivery:{android:{failed:0},pwa:{failed:1}}};
+  const warning=context.healthState(runtime,partial);
+  assert.equal(warning.level,'warning');
+  assert.match(warning.hint,/1 PWA-feil/);
+  assert.equal(context.healthState(runtime,{status:'completed',delivery:{pwa:{failed:0}}}).level,'ok');
+  assert.equal(context.healthState({...runtime,status:'error'},partial).level,'error');
+});
+
 test('user navigation falls back to its own cached shell while offline',async()=>{
   const w=worker();
   w.context.fetch=async()=>{throw new Error('offline')};
