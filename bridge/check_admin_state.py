@@ -67,6 +67,8 @@ for snap in db.collection("webPushSubscriptions").stream():
     token = row.get("reminderToken")
     if not isinstance(token, str) or not 32 <= len(token) <= 128:
         counts[platform + "_without_valid_reminder_token"] = counts.get(platform + "_without_valid_reminder_token", 0) + 1
+        if row.get("enabled", True):
+            counts[platform + "_enabled_without_valid_reminder_token"] = counts.get(platform + "_enabled_without_valid_reminder_token", 0) + 1
 print("PWA_SUBSCRIPTION_COUNTS=" + json.dumps(counts, sort_keys=True))
 
 docs = list(db.collection("adminUsers").stream())
