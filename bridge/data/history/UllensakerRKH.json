@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "00c8dd7e428203d9348f49d3",
+      "observedAt": "2026-10-09T14:41:12+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "e9ade81f65159b34",
+        "dateIso": "2027-01-14",
+        "dateLabel": "tor. 14.1",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte 08:30 URKH vaktstart 09:00 The Qube DNB - The Qube - JCP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "1d8a977ab1343e6d843fc7fe",
+      "observedAt": "2026-10-09T14:41:12+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "3ab319bb62a67a5b",
+        "dateIso": "2027-01-14",
+        "dateLabel": "tor. 14.1",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "DNB - The Qube - JCP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "0fb04b2faca948860abe5846",
       "observedAt": "2026-10-09T13:01:35+02:00",
       "organization": "UllensakerRKH",
@@ -878,5 +908,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T13:01:35+02:00"
+  "updatedAt": "2026-10-09T14:41:12+02:00"
 }
