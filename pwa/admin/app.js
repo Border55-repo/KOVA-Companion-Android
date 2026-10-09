@@ -79,9 +79,8 @@ function healthState(runtime,announcement){
     return {level:"error",label:"Feil",hint:`Siste Bridge-kjøring: ${fmt(runtime.lastRunAt)} • ${runFailures} feil`};
   }
   const pwaFailures=Number(announcement?.delivery?.pwa?.failed||0);
-  const androidFailures=Number(announcement?.delivery?.android?.failed||0);
-  if(announcement?.status==="failed"||pwaFailures>0||androidFailures>0){
-    const details=[pwaFailures>0?`${pwaFailures} PWA-feil`:"",androidFailures>0?`${androidFailures} Android-feil`:""].filter(Boolean).join(" • ");
+  if(announcement?.status==="failed"||pwaFailures>0){
+    const details=pwaFailures>0?`${pwaFailures} PWA-feil`:"";
     return {level:"warning",label:"Varselfeil",hint:`Siste appmelding feilet helt eller delvis${details?` • ${details}`:""}. Se leveringsstatus nedenfor.`};
   }
   if(runtimeStatus==="degraded"||pending>0){
@@ -279,13 +278,11 @@ function announcementStatusText(command){
   if(!command)return "Ingen manuell utsending registrert.";
   const title=command.title||"Endringslogg";
   if(command.status==="requested")return `${title}: i kø siden ${fmt(command.requestedAt)}. GitHub-kjøringen kan bli forsinket.`;
-  if(command.status==="running")return `${title}: sender til Android og PWA…`;
+  if(command.status==="running")return `${title}: sender til PWA-enheter…`;
   const delivery=command.delivery;
   if(!delivery)return `${title}: ${command.status==="failed"?"utsending feilet":"eldre utsending uten separat leveringsstatus"}.`;
-  const android=delivery.android||{};
   const pwa=delivery.pwa||{};
   const parts=[`${title}: ${command.status==="failed"?"utsending feilet helt eller delvis":"utsending behandlet"}.`,
-    `Android: ${android.accepted||0}/${android.targets||0} korpskanaler akseptert.`,
     `PWA: ${pwa.accepted||0}/${pwa.targets||0} abonnement akseptert, ${pwa.failed||0} feil, ${pwa.expired||0} utløpt.`];
   if(!pwa.targets)parts.push("Ingen aktive PWA-abonnement nådd.");
   parts.push("Akseptert av push-tjenesten er ikke bekreftelse på visning på telefonen.");
@@ -300,10 +297,9 @@ function loadDashboard(){
 async function fetchDashboard(){
   const f=await initFirebase();
   $("lastRefresh").textContent="Oppdaterer…";
-  const [health,orgData,release,pushSnap,cacheSnap,runtimeSnap,commandSnap,announcementSnap]=await Promise.all([
+  const [health,orgData,pushSnap,cacheSnap,runtimeSnap,commandSnap,announcementSnap]=await Promise.all([
     fetchJson(`${DATA_BASE}/health.json`),
     loadOrganizations(),
-    fetchJson(`${DATA_BASE}/app-update.json`),
     f.getDocs(f.collection(f.db,"webPushSubscriptions")),
     f.getDoc(f.doc(f.db,"publicConfig","pwa")),
     f.getDoc(f.doc(f.db,"adminRuntime","bridge")),
@@ -346,7 +342,6 @@ async function fetchDashboard(){
   $("pwaActive").textContent=`${enabled} aktive abonnement`;
   $("pendingPush").textContent=runtime?.pendingPushes??health.pendingPushes??"–";
   $("lastPush").textContent=health.lastPushAt?`sist ${fmt(health.lastPushAt)} • ${health.lastPushCount??0}`:"ingen push registrert";
-  $("androidVersion").textContent=(release.tagName||"–").replace(/^v/,"");
   $("cacheEpoch").textContent=cache.cacheEpoch??"–";
   $("polledThisRun").textContent=runtime?.polledThisRun??health.polledThisRun??"–";
   renderBridgeSync(command);
@@ -491,3 +486,4 @@ $("cacheRefreshBtn").onclick=async()=>{
 })();
 
 $("orgIssuesOnly").addEventListener("change",renderOrgRows);
+

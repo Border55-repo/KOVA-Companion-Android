@@ -780,7 +780,6 @@ def write_health(
             "snapshotFallback": True,
             "pushQueue": True,
             "webPush": True,
-            "fcm": True,
         },
         "status": status,
         "checkedAt": now_iso,
@@ -1004,3 +1003,4 @@ def main(source=None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

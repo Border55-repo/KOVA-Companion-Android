@@ -5,7 +5,6 @@ from pathlib import Path
 from unittest.mock import patch, Mock
 from zoneinfo import ZoneInfo
 
-from push import topic_for
 from reliability import (
     already_sent_ids,
     change_id,
@@ -144,11 +143,6 @@ class BridgeParserTests(unittest.TestCase):
         self.assertEqual(0, len(diff["added"]))
         self.assertEqual(0, len(diff["removed"]))
         self.assertEqual(1, len(diff["changed"]))
-
-    def test_topic_names_match_android(self):
-        self.assertEqual("kova_ullensakerrkh", topic_for("UllensakerRKH"))
-        self.assertEqual("kova_nittedal_rkh", topic_for("Nittedal RKH"))
-        self.assertEqual("kova_skedsmo_rkh", topic_for("Skedsmo RKH"))
 
 
 class ReliabilityTests(unittest.TestCase):
@@ -297,3 +291,4 @@ class GlobalAnnouncementTests(unittest.TestCase):
     def test_global_announcement_sender_exists(self):
         import webpush
         self.assertTrue(callable(webpush.send_web_announcement))
+

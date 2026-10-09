@@ -12,7 +12,7 @@
     <div>
       <p class="eyebrow">Kova Companion</p>
       <h1>Kova Companion – Admin</h1>
-      <p class="version">Adminpanel 1.6</p>
+      <p class="version">Adminpanel 1.7</p>
     </div>
     <a class="ghost" href="../">Til Companion</a>
   </header>
@@ -74,7 +74,6 @@
         <article class="stat card"><span>Aktiviteter</span><strong id="eventTotal">–</strong><small>kommende + lagrede snapshots</small></article>
         <article class="stat card"><span>PWA-enheter</span><strong id="pwaDevices">–</strong><small id="pwaActive">–</small></article>
         <article class="stat card"><span>Push i kø</span><strong id="pendingPush">–</strong><small id="lastPush">–</small></article>
-        <article class="stat card"><span>Android</span><strong id="androidVersion">–</strong><small>siste release</small></article>
         <article class="stat card"><span>PWA cache</span><strong id="cacheEpoch">–</strong><small>cache-generasjon</small></article>
         <article class="stat card"><span>Poll denne runden</span><strong id="polledThisRun">–</strong><small>korps</small></article>
       </section>
@@ -130,7 +129,7 @@
           <label>Hjelpekorps<select id="audienceOrg"></select></label>
           <label><input id="changelogPush" type="checkbox"> Send push om endringen</label>
           <label>Din PWA-testenhet<input id="testDeviceId" maxlength="64" autocomplete="off" placeholder="Enhetskode fra din egen nettapp"></label>
-          <p class="muted">Åpne Flere valg og om appen → Vis enhetskode for admintest på din egen telefon. En test sender bare til denne PWA-enheten, aldri til Android-korpskanaler eller alle brukere.</p>
+          <p class="muted">Åpne Flere valg og om appen → Vis enhetskode for admintest på din egen telefon. En test sender bare til denne PWA-enheten, aldri til alle brukere.</p>
           <button id="testPushBtn" class="ghost">Forhåndsvis test til min enhet</button>
           <p id="changelogMessage" class="muted" role="status"></p>
           <p id="announcementStatus" class="muted" role="status"></p>
@@ -151,3 +150,4 @@
   <script type="module" src="./app.js?v=2.2.4"></script>
 </body>
 </html>
+
