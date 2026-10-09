@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T17:51:17+02:00",
-  "checkedAt": "2026-10-09T17:51:17+02:00",
+  "updatedAt": "2026-10-09T18:08:36+02:00",
+  "checkedAt": "2026-10-09T18:08:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 35,
+  "eventCount": 40,
   "changes": {
-    "added": 2,
+    "added": 5,
     "removed": 0,
     "changed": 0
   },
@@ -63,6 +63,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "035f80be558cf114",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "7bc985e61eecab03",
       "dateIso": "2026-10-09",
       "dateLabel": "fre. 9.10",
@@ -72,12 +81,48 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
+      "id": "c19f3ec516204ef5",
+      "dateIso": "2026-10-09",
+      "dateLabel": "fre. 9.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "V-Vann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
       "id": "bd44745cfcb14315",
       "dateIso": "2026-10-10",
       "dateLabel": "lør. 10.10",
       "time": "",
       "type": "Interne kurs",
       "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "7f8066819a718de1",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "967ff2b4c167b883",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "V-Vann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "06d88d714bca1953",
+      "dateIso": "2026-10-10",
+      "dateLabel": "lør. 10.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
