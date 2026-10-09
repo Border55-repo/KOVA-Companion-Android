@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import math
 import os
 import re
 from datetime import datetime, timedelta, timezone
@@ -380,7 +381,6 @@ def reminder_due(
     now: datetime,
     event: dict,
     lead_minutes: int,
-    grace_minutes: int = 20,
 ) -> bool:
     event_at = _event_datetime(event)
     if event_at is None or lead_minutes <= 0:
@@ -390,7 +390,7 @@ def reminder_due(
     else:
         now = now.astimezone(OSLO)
     due_at = event_at - timedelta(minutes=lead_minutes)
-    return due_at <= now < event_at and now <= due_at + timedelta(minutes=grace_minutes)
+    return due_at <= now < event_at
 
 
 def _reminder_signature(
@@ -571,11 +571,25 @@ def send_due_reminders(
         ):
             continue
 
-        label = _lead_label(lead_minutes)
+        event_at = _event_datetime(event)
+        due_at = event_at - timedelta(minutes=lead_minutes)
+        minutes_left = max(
+            1,
+            math.ceil(
+                (event_at.astimezone(timezone.utc) - now.astimezone(timezone.utc))
+                .total_seconds() / 60
+            ),
+        )
+        label = _lead_label(minutes_left)
+        late_prefix = (
+            "Påminnelsen kom senere enn planlagt. "
+            if now > due_at + timedelta(minutes=20)
+            else ""
+        )
         payload = {
             "title": "Påminnelse om KOVA-vakt",
             "body": (
-                f"{event.get('description', 'KOVA-aktivitet')} starter om {label} • "
+                f"{late_prefix}{event.get('description', 'KOVA-aktivitet')} starter om {label} • "
                 f"{event.get('dateLabel', event.get('dateIso', ''))} "
                 f"{event.get('time', '')}"
             ).strip(),
