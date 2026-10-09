@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e81e977e7de3a940b0bd27db",
+      "observedAt": "2026-10-09T17:56:14+02:00",
+      "organization": "SkienRKH",
+      "kind": "changed",
+      "event": {
+        "id": "b242a3732ecf2983",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Klosterskogen Travbane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      },
+      "oldEvent": {
+        "id": "b7bfdd5a48b5daf5",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Klosterskogen Travbane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "d4bb7328deb5639b8f80d9c3",
       "observedAt": "2026-10-09T10:46:24+02:00",
       "organization": "SkienRKH",
@@ -242,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T10:46:24+02:00"
+  "updatedAt": "2026-10-09T17:56:14+02:00"
 }
