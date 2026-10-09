@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6008acea31bbce8245a9c3ae",
+      "observedAt": "2026-10-10T00:01:37+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "69c8180d5649161a",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "13:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 13:45, vaktstart 14:30 FKH herrer - Stabæk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "c896b6d73efc0bdd4b919649",
       "observedAt": "2026-10-09T11:26:18+02:00",
       "organization": "Haugesund",
@@ -107,5 +122,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T11:26:18+02:00"
+  "updatedAt": "2026-10-10T00:01:37+02:00"
 }

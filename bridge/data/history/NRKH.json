@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "939a8e9ab2eb4cede03ed937",
+      "observedAt": "2026-10-10T00:01:40+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "73d274a89294c7ce",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "12:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "8be975a837a8198f8b7cef61",
       "observedAt": "2026-10-08T03:31:24+02:00",
       "organization": "NRKH",
@@ -473,5 +488,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T03:31:24+02:00"
+  "updatedAt": "2026-10-10T00:01:40+02:00"
 }

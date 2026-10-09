@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-08T03:31:24+02:00",
-  "checkedAt": "2026-10-09T23:41:20+02:00",
+  "updatedAt": "2026-10-10T00:01:40+02:00",
+  "checkedAt": "2026-10-10T00:01:40+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
-  "eventCount": 55,
+  "eventCount": 54,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "73d274a89294c7ce",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "12:00",
-      "type": "Båtvakt",
-      "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
-    },
     {
       "id": "c970dae81f4a8f36",
       "dateIso": "2026-10-05",
