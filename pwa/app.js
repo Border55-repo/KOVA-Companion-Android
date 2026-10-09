@@ -2,6 +2,7 @@ import {detectPlatform} from './guidance.js?v=2.3.1';
 import {makeBackup,validateBackup,mergeBackup,storeBackup} from './personal-backup.js?v=2.3.1';
 import {createSnapshotSource,freshness} from './data-source.js';
 import {dateKey,monthDays,moveMonth} from './calendar.js?v=2.3.1';
+import {readStoredStrings,readStoredRecord} from './local-state.js?v=2.3.2';
 const storage=localStorage;
 const dataSource=createSnapshotSource();
 const DATA_BASE = "https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
@@ -18,16 +19,16 @@ const state = {
   date: "",
   calendarMonth: dateKey(new Date()).slice(0,7),
   type: "",
-  favorites: new Set(JSON.parse(storage.getItem("kova.pwa.favorites") || "[]")),
-  favoriteMeta: JSON.parse(storage.getItem("kova.pwa.favoriteMeta") || "{}"),
-  notes: JSON.parse(storage.getItem("kova.pwa.notes") || "{}"),
-  reminders: JSON.parse(storage.getItem("kova.pwa.reminders") || "{}"),
+  favorites: new Set(readStoredStrings(storage,"kova.pwa.favorites")),
+  favoriteMeta: readStoredRecord(storage,"kova.pwa.favoriteMeta"),
+  notes: readStoredRecord(storage,"kova.pwa.notes"),
+  reminders: readStoredRecord(storage,"kova.pwa.reminders"),
   favoriteEvents: [],
   displayLimit: 20,
-  followed: new Set(JSON.parse(storage.getItem("kova.pwa.followed") || '["UllensakerRKH"]')),
-  favoriteOrgs: new Set(JSON.parse(storage.getItem("kova.pwa.favoriteOrgs") || "[]")),
-  notificationKinds: new Set(JSON.parse(storage.getItem("kova.pwa.notificationKinds") || '["added","changed","removed","announcement"]')),
-  disabledNotificationTypes: new Set(JSON.parse(storage.getItem("kova.pwa.disabledNotificationTypes") || "[]")),
+  followed: new Set(readStoredStrings(storage,"kova.pwa.followed",["UllensakerRKH"])),
+  favoriteOrgs: new Set(readStoredStrings(storage,"kova.pwa.favoriteOrgs")),
+  notificationKinds: new Set(readStoredStrings(storage,"kova.pwa.notificationKinds",["added","changed","removed","announcement"])),
+  disabledNotificationTypes: new Set(readStoredStrings(storage,"kova.pwa.disabledNotificationTypes")),
   quietEnabled: storage.getItem("kova.pwa.quietEnabled")==="1",
   quietStartHour: Number(storage.getItem("kova.pwa.quietStartHour")||22),
   quietEndHour: Number(storage.getItem("kova.pwa.quietEndHour")||7),
