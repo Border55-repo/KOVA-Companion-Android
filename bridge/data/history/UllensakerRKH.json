@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0fb04b2faca948860abe5846",
+      "observedAt": "2026-10-09T13:01:35+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "232334a669ca7918",
+        "dateIso": "2026-11-13",
+        "dateLabel": "fre. 13.11",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "NM Brasiliansk jiu jitsu (RIGG) NM Brasiliansk jiu jitsu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "0792c5915d39a6272741986c",
       "observedAt": "2026-10-09T10:56:14+02:00",
       "organization": "UllensakerRKH",
@@ -863,5 +878,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T10:56:14+02:00"
+  "updatedAt": "2026-10-09T13:01:35+02:00"
 }
