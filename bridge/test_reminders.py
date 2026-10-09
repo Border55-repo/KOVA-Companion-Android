@@ -32,8 +32,12 @@ class ReminderTests(unittest.TestCase):
         now = datetime(2026, 9, 24, 15, 39, tzinfo=OSLO)
         self.assertFalse(reminder_due(now, self.event, 120))
 
-    def test_reminder_is_not_sent_late_after_grace_window(self):
+    def test_late_reminder_is_due_until_event_starts(self):
         now = datetime(2026, 9, 24, 16, 21, tzinfo=OSLO)
+        self.assertTrue(reminder_due(now, self.event, 120))
+
+    def test_reminder_is_not_sent_after_event_starts(self):
+        now = datetime(2026, 9, 24, 18, 0, tzinfo=OSLO)
         self.assertFalse(reminder_due(now, self.event, 120))
 
     def test_reminder_requires_event_time(self):

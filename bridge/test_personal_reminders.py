@@ -6,7 +6,7 @@ import webpush
 
 
 class PersonalReminderTests(unittest.TestCase):
-    def run_reminder(self, enabled=True):
+    def run_reminder(self, enabled=True, now=None):
         event = {'id': 'shift', 'dateIso': '2026-10-01', 'time': '18:00', 'description': 'Vakt'}
         subscription = {'name': 'subscriptions/mine', 'fields': {
             'enabled': {'booleanValue': enabled},
@@ -29,7 +29,7 @@ class PersonalReminderTests(unittest.TestCase):
                 '_write_reminder_state': None,
             }
             mocks = {name: stack.enter_context(patch.object(webpush, name, return_value=value)) for name, value in values.items()}
-            count = webpush.send_due_reminders({'A': [event]}, now=datetime(2026, 10, 1, 17, 0, tzinfo=webpush.OSLO))
+            count = webpush.send_due_reminders({'A': [event]}, now=now or datetime(2026, 10, 1, 17, 0, tzinfo=webpush.OSLO))
             return count, mocks['_send_to_subscription']
 
     def test_explicit_reminder_works_without_general_corps_alerts(self):
@@ -42,6 +42,13 @@ class PersonalReminderTests(unittest.TestCase):
         count, send = self.run_reminder(enabled=False)
         self.assertEqual(count, 0)
         send.assert_not_called()
+
+    def test_late_reminder_uses_actual_time_left_and_marks_delay(self):
+        count, send = self.run_reminder(now=datetime(2026, 10, 1, 17, 21, tzinfo=webpush.OSLO))
+        self.assertEqual(count, 1)
+        body = send.call_args.args[1]['body']
+        self.assertIn('Påminnelsen kom senere enn planlagt.', body)
+        self.assertIn('starter om 39 minutter', body)
 
 
 if __name__ == '__main__':

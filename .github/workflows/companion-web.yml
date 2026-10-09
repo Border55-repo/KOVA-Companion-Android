@@ -4,7 +4,12 @@ on:
     branches: [main]
     paths: ['pwa/**', '.github/workflows/companion-web.yml']
   pull_request:
-    paths: ['pwa/**', '.github/workflows/companion-web.yml']
+    paths:
+      - 'pwa/**'
+      - 'bridge/webpush.py'
+      - 'bridge/test_reminders.py'
+      - 'bridge/test_personal_reminders.py'
+      - '.github/workflows/companion-web.yml'
   workflow_dispatch:
 permissions:
   contents: read
