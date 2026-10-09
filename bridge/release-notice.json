@@ -1,0 +1,6 @@
+{
+  "id": "kova-20261009-233",
+  "version": "2.3.3",
+  "title": "Kova Companion 2.3.3: bedre iPhone-visning",
+  "body": "Kalenderen vises nå uten overlapping på iPhone. Varsler prøves én gang til ved midlertidige feil hos push-tjenesten."
+}

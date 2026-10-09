@@ -1,0 +1,55 @@
+name: Publish KOVA release notice and push
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "bridge/release-notice.json"
+      - "bridge/release_notice.py"
+      - "bridge/test_release_notice.py"
+      - ".github/workflows/release-notice-push.yml"
+  push:
+    branches: [main]
+    paths:
+      - "bridge/release-notice.json"
+      - "bridge/release_notice.py"
+      - ".github/workflows/release-notice-push.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kova-release-notice
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install Bridge dependencies
+        run: pip install -r bridge/requirements.txt
+      - name: Validate notice and safeguards
+        run: |
+          python bridge/release_notice.py --validate
+          cd bridge
+          python -m unittest -v test_release_notice.py
+
+  send:
+    if: github.event_name == 'push' && github.actor == 'Border55-repo'
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install Bridge dependencies
+        run: pip install -r bridge/requirements.txt
+      - name: Publish changelog and send push
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: python bridge/release_notice.py
