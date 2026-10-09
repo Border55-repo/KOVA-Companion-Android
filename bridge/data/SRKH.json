@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T00:11:18+02:00",
-  "checkedAt": "2026-10-09T15:16:18+02:00",
+  "updatedAt": "2026-10-09T15:36:25+02:00",
+  "checkedAt": "2026-10-09T15:36:25+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
   "eventCount": 18,
   "changes": {
     "added": 0,
-    "removed": 4,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -153,12 +153,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
-      "id": "8ebe78ce794050d4",
+      "id": "6ff91f5564b9babf",
       "dateIso": "2026-12-10",
       "dateLabel": "tor. 10.12",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Tema kommer Korpskveld",
+      "description": "Må være ute eller i garasjen på grunn av jule aksjonen Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {

@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "04292e77b034a28080754804",
+      "observedAt": "2026-10-09T15:36:25+02:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "6ff91f5564b9babf",
+        "dateIso": "2026-12-10",
+        "dateLabel": "tor. 10.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Må være ute eller i garasjen på grunn av jule aksjonen Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "8ebe78ce794050d4",
+        "dateIso": "2026-12-10",
+        "dateLabel": "tor. 10.12",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Tema kommer Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "fd691dc4a257fe7c05914096",
       "observedAt": "2026-10-09T00:11:18+02:00",
       "organization": "SRKH",
@@ -455,5 +479,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:11:18+02:00"
+  "updatedAt": "2026-10-09T15:36:25+02:00"
 }
