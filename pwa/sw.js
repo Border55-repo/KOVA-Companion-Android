@@ -1,5 +1,5 @@
-const CACHE="kova-companion-pwa-v40";
-const SHELL=["./guidance.js?v=2.3.1","./personal-backup.js?v=2.3.1","./","./index.html","./styles.css?v=2.3.1","./app.js?v=2.3.1","./calendar.js?v=2.3.1","./data-source.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
+const CACHE="kova-companion-pwa-v41";
+const SHELL=["./guidance.js?v=2.3.1","./personal-backup.js?v=2.3.1","./","./index.html","./styles.css?v=2.3.1","./app.js?v=2.3.2","./local-state.js?v=2.3.2","./calendar.js?v=2.3.1","./data-source.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
 const HISTORY_DB="kova-companion-pwa-history";
 const HISTORY_STORE="notifications";
 
