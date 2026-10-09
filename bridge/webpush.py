@@ -6,6 +6,7 @@ import json
 import math
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -481,24 +482,29 @@ def _send_to_subscription(
     ):
         return False, False
 
-    try:
-        webpush(
-            subscription_info=subscription,
-            data=json.dumps(payload, ensure_ascii=False),
-            vapid_private_key=config["privateKey"],
-            vapid_claims={"sub": "mailto:kova-companion@users.noreply.github.com"},
-            ttl=3600,
-            timeout=20,
-        )
-        return True, True
-    except WebPushException as exc:
-        status = _webpush_status(exc)
-        if status in (404, 410):
-            _disable_subscription(credentials, document["name"])
-            print(f"Disabled stale reminder subscription ({status}).")
-            return True, False
-        print(f"Web Push failed ({status or 'unknown'}).", flush=True)
-        return False, False
+    for attempt in range(2):
+        try:
+            webpush(
+                subscription_info=subscription,
+                data=json.dumps(payload, ensure_ascii=False),
+                vapid_private_key=config["privateKey"],
+                vapid_claims={"sub": "mailto:kova-companion@users.noreply.github.com"},
+                ttl=3600,
+                timeout=20,
+            )
+            return True, True
+        except WebPushException as exc:
+            status = _webpush_status(exc)
+            if status in (404, 410):
+                _disable_subscription(credentials, document["name"])
+                print(f"Disabled stale reminder subscription ({status}).")
+                return True, False
+            if attempt == 0 and status in (429, 500, 502, 503, 504):
+                print(f"Web Push transient failure ({status}); retrying once.", flush=True)
+                time.sleep(1)
+                continue
+            print(f"Web Push failed ({status or 'unknown'}).", flush=True)
+            return False, False
 
 
 def send_due_reminders(

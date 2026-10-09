@@ -66,6 +66,58 @@ class AnnouncementTests(unittest.TestCase):
 
 
 class GlobalWebPushTests(unittest.TestCase):
+    @staticmethod
+    def subscription():
+        return {'name': 'subscriptions/one', 'fields': {
+            'endpoint': {'stringValue': 'https://push.example.invalid/one'},
+            'p256dh': {'stringValue': 'public-key'},
+            'auth': {'stringValue': 'auth-key'},
+        }}
+
+    @patch.object(webpush.time, 'sleep')
+    @patch.object(webpush, 'webpush')
+    def test_transient_push_500_retries_once(self, send, sleep):
+        class PushError(RuntimeError):
+            response = Mock(status_code=500)
+        with patch.object(webpush, 'WebPushException', PushError):
+            send.side_effect = [PushError('temporary'), None]
+            result = webpush._send_to_subscription(
+                self.subscription(), {'changeId': 'one'}, {'privateKey': 'key'}, Mock()
+            )
+        self.assertEqual(result, (True, True))
+        self.assertEqual(send.call_count, 2)
+        sleep.assert_called_once_with(1)
+
+    @patch.object(webpush.time, 'sleep')
+    @patch.object(webpush, 'webpush')
+    def test_persistent_push_500_remains_failed(self, send, sleep):
+        class PushError(RuntimeError):
+            response = Mock(status_code=500)
+        with patch.object(webpush, 'WebPushException', PushError):
+            send.side_effect = PushError('temporary')
+            result = webpush._send_to_subscription(
+                self.subscription(), {'changeId': 'one'}, {'privateKey': 'key'}, Mock()
+            )
+        self.assertEqual(result, (False, False))
+        self.assertEqual(send.call_count, 2)
+        sleep.assert_called_once_with(1)
+
+    @patch.object(webpush, '_disable_subscription')
+    @patch.object(webpush.time, 'sleep')
+    @patch.object(webpush, 'webpush')
+    def test_expired_push_does_not_retry(self, send, sleep, disable):
+        class PushError(RuntimeError):
+            response = Mock(status_code=410)
+        with patch.object(webpush, 'WebPushException', PushError):
+            send.side_effect = PushError('expired')
+            result = webpush._send_to_subscription(
+                self.subscription(), {'changeId': 'one'}, {'privateKey': 'key'}, Mock()
+            )
+        self.assertEqual(result, (True, False))
+        send.assert_called_once()
+        sleep.assert_not_called()
+        disable.assert_called_once()
+
     @patch.object(webpush, '_send_to_subscription', return_value=(True, True))
     @patch.object(webpush, '_list_subscription_documents')
     @patch.object(webpush, 'ensure_vapid_config', return_value={})
