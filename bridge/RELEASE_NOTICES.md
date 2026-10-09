@@ -3,7 +3,8 @@
 For each user-facing release, verify that the new PWA version is live, then update
 `bridge/release-notice.json` in a reviewed pull request. Give every notice a new
 ID. Merging to `main` runs `release-notice-push.yml`, which publishes the
-changelog and sends one announcement to Android and enabled PWA subscriptions.
+changelog and sends one announcement to enabled PWA subscriptions on iPhone
+and Android browsers. The retired Android app is not targeted.
 
 The workflow uses the existing Firebase service-account secret. It runs the
 send job only for a push to `main` by the repository owner. Other people with

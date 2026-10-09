@@ -73,6 +73,20 @@ class ReleaseNoticeTests(unittest.TestCase):
         self.assertEqual(ledger.update.call_args.args[0]["status"], "failed")
         self.assertEqual(ledger.update.call_args.args[0]["delivery"], error.delivery)
 
+    @patch("webpush.send_web_announcement")
+    def test_release_targets_pwa_without_android_topics(self, send):
+        send.return_value = {"targets": 9, "accepted": 9, "failed": 0, "expired": 0}
+        delivery = release_notice.send_pwa_notice("Title", "Body", "notice-id", audience="all")
+        self.assertEqual(delivery, {"pwa": send.return_value})
+        send.assert_called_once_with("Title", "Body", "notice-id", audience="all")
+
+    @patch("webpush.send_web_announcement")
+    def test_partial_pwa_failure_stays_visible(self, send):
+        send.return_value = {"targets": 9, "accepted": 8, "failed": 1, "expired": 0}
+        with self.assertRaises(release_notice.ReleaseDeliveryError) as raised:
+            release_notice.send_pwa_notice("Title", "Body", "notice-id", audience="all")
+        self.assertEqual(raised.exception.delivery["pwa"]["failed"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

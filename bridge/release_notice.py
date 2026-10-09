@@ -58,6 +58,23 @@ def firebase_client():
     return firestore.client()
 
 
+class ReleaseDeliveryError(RuntimeError):
+    def __init__(self, delivery: dict):
+        super().__init__("PWA release push was not fully accepted")
+        self.delivery = delivery
+
+
+def send_pwa_notice(title: str, body: str, notice_id: str, *, audience: str) -> dict:
+    from webpush import send_web_announcement
+
+    if audience != "all":
+        raise ValueError("Release notices must target all PWA users")
+    delivery = {"pwa": send_web_announcement(title, body, notice_id, audience="all")}
+    if delivery["pwa"]["failed"] or not delivery["pwa"]["targets"]:
+        raise ReleaseDeliveryError(delivery)
+    return delivery
+
+
 def publish_notice(notice: dict[str, str], db, deliver) -> dict:
     from google.cloud.exceptions import Conflict
 
@@ -115,9 +132,7 @@ def main() -> None:
         print(f"Release notice {notice['id']} is valid.")
         return
     verify_live_version(notice["version"])
-    from broadcast_announcement import dispatch_announcement
-
-    publish_notice(notice, firebase_client(), dispatch_announcement)
+    publish_notice(notice, firebase_client(), send_pwa_notice)
 
 
 if __name__ == "__main__":
