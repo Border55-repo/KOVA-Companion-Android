@@ -69,7 +69,7 @@ function ageMinutes(value){
   const date=dateValue(value);
   return date?Math.max(0,(Date.now()-date.getTime())/60000):Infinity;
 }
-function healthState(runtime){
+function healthState(runtime,announcement){
   if(!runtime?.lastRunAt)return {level:"unknown",label:"Ukjent",hint:"Venter på første live Bridge-status."};
   const age=ageMinutes(runtime.lastRunAt);
   const runFailures=Number(runtime.failures||0);
@@ -78,14 +78,20 @@ function healthState(runtime){
   if(runtimeStatus==="error"||runFailures>0){
     return {level:"error",label:"Feil",hint:`Siste Bridge-kjøring: ${fmt(runtime.lastRunAt)} • ${runFailures} feil`};
   }
+  const pwaFailures=Number(announcement?.delivery?.pwa?.failed||0);
+  const androidFailures=Number(announcement?.delivery?.android?.failed||0);
+  if(announcement?.status==="failed"||pwaFailures>0||androidFailures>0){
+    const details=[pwaFailures>0?`${pwaFailures} PWA-feil`:"",androidFailures>0?`${androidFailures} Android-feil`:""].filter(Boolean).join(" • ");
+    return {level:"warning",label:"Varselfeil",hint:`Siste appmelding feilet helt eller delvis${details?` • ${details}`:""}. Se leveringsstatus nedenfor.`};
+  }
   if(runtimeStatus==="degraded"||pending>0){
     return {level:"warning",label:"Advarsel",hint:`Siste Bridge-kjøring: ${fmt(runtime.lastRunAt)}${pending>0?` • ${pending} push venter`:""}`};
   }
   if(age>90)return {level:"warning",label:"Forsinket",hint:`Siste vellykkede Bridge-kjøring: ${fmt(runtime.lastRunAt)}`};
   return {level:"ok",label:"OK",hint:`Siste vellykkede Bridge-kjøring: ${fmt(runtime.lastRunAt)}`};
 }
-function renderSystemHealth(runtime){
-  const state=healthState(runtime);
+function renderSystemHealth(runtime,announcement){
+  const state=healthState(runtime,announcement);
   const card=$("systemHealth");
   card.classList.remove("health-ok","health-warning","health-error","health-unknown");
   card.classList.add("health-"+state.level);
@@ -321,7 +327,8 @@ async function fetchDashboard(){
   const selectedAudience=$("audienceOrg").value;
   $("audienceOrg").replaceChildren(...currentOrgRows.map(row=>{const option=document.createElement('option');option.value=row.code;option.textContent=row.name;return option}));
   if(currentOrgRows.some(row=>row.code===selectedAudience))$("audienceOrg").value=selectedAudience;
-  renderSystemHealth(runtime);
+  const announcement=announcementSnap.exists()?announcementSnap.data():null;
+  renderSystemHealth(runtime,announcement);
   $("lastSuccessfulSync").textContent=fmt(health.lastFullySuccessfulRunAt);
   const issues=currentOrgRows.filter(row=>row.status==='error'||ageMinutes(row.lastCheckedAt)>35);
   $("actionRequired").textContent=issues.length?`${issues.length} korps trenger kontroll. Se korpsstatus nedenfor.`:'Ingen korpsfeil eller forsinkede kontroller registrert.';
@@ -343,7 +350,6 @@ async function fetchDashboard(){
   $("cacheEpoch").textContent=cache.cacheEpoch??"–";
   $("polledThisRun").textContent=runtime?.polledThisRun??health.polledThisRun??"–";
   renderBridgeSync(command);
-  const announcement=announcementSnap.exists()?announcementSnap.data():null;
   $("announcementStatus").textContent=announcementStatusText(announcement);
   $("latestDelivery").textContent=announcementStatusText(announcement);
   $("lastRefresh").textContent="Oppdatert "+new Intl.DateTimeFormat("nb-NO",{timeStyle:"medium"}).format(new Date());
