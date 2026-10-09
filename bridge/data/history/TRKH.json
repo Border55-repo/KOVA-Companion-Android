@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2f69cf07a5c1bfcd6377f12d",
+      "observedAt": "2026-10-10T00:11:31+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c1a47368357faba5",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Ultra - Vakt 1 MSM - Tromsø Backyard Ultra",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "8c164caab48b7f6c89c06038",
+      "observedAt": "2026-10-10T00:11:31+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "775e02260bf36f9f",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Ultra - Vakt 2 MSM - Tromsø Backyard Ultra",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "52057fdce12c5e1be58534de",
+      "observedAt": "2026-10-10T00:11:31+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c6f28bf591ceaefe",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "21:00",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "4e8b6c54c193679f46f57602",
+      "observedAt": "2026-10-10T00:11:31+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "47466c5c8a19948b",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "-> 03:15",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "c44d8a282c478a5d362413c4",
       "observedAt": "2026-10-09T00:06:29+02:00",
       "organization": "TRKH",
@@ -281,5 +341,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:06:29+02:00"
+  "updatedAt": "2026-10-10T00:11:31+02:00"
 }

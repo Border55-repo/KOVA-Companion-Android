@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d7c9c1bed5ccbe6a07982fed",
+      "observedAt": "2026-10-10T00:11:25+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "08e89578ca284124",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "08:45",
+        "type": "Ambulansevakt",
+        "description": "KO. På plass kl. 09:30 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "9f8bed9dcb0c021ab9a857e9",
+      "observedAt": "2026-10-10T00:11:25+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "585c03f78dab7400",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "10:15",
+        "type": "Ambulansevakt",
+        "description": "Mysen 385. På plass kl 11:00 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "054f95e7ceb63a61d1ecb9b5",
+      "observedAt": "2026-10-10T00:11:25+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "886ebaed2c4f1bd3",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "10:45",
+        "type": "Ambulansevakt",
+        "description": "Sarpsborg 383. På plass 10:45 Rally Trøgstad 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "2416eac36fcb6b6bcee05164",
       "observedAt": "2026-10-09T00:06:25+02:00",
       "organization": "MORKH",
@@ -941,5 +986,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:06:25+02:00"
+  "updatedAt": "2026-10-10T00:11:25+02:00"
 }

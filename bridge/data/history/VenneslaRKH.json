@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "61b7be1f14df1c0d42e8b920",
+      "observedAt": "2026-10-10T00:11:36+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f59aafeaceb1fabc",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "14:45",
+        "type": "Sanitetsvakt",
+        "description": "Kamp 15.00 Vindbjart - Flekkerøy",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "b6eeb7ce4229369dff2164e3",
       "observedAt": "2026-10-05T17:41:32+02:00",
       "organization": "VenneslaRKH",
@@ -257,5 +272,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-05T17:41:32+02:00"
+  "updatedAt": "2026-10-10T00:11:36+02:00"
 }

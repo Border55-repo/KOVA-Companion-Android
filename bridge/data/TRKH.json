@@ -7,52 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T00:06:29+02:00",
-  "checkedAt": "2026-10-09T23:51:19+02:00",
+  "updatedAt": "2026-10-10T00:11:31+02:00",
+  "checkedAt": "2026-10-10T00:11:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
-  "eventCount": 36,
+  "eventCount": 32,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 4,
     "changed": 0
   },
   "events": [
-    {
-      "id": "c1a47368357faba5",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "08:30",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 1 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "775e02260bf36f9f",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "15:00",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 2 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c6f28bf591ceaefe",
-      "dateIso": "2026-10-03",
-      "dateLabel": "lør. 3.10",
-      "time": "21:00",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "47466c5c8a19948b",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "-> 03:15",
-      "type": "Sanitetsvakt",
-      "description": "Backyard Ultra - Vakt 3 MSM - Tromsø Backyard Ultra",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
     {
       "id": "1dd88698bb79b428",
       "dateIso": "2026-10-04",
