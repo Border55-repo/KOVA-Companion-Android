@@ -50,8 +50,8 @@ service cloud.firestore {
       allow read: if adminReady();
       allow delete: if false;
 
-      allow create, update: if
-        request.resource.data.keys().hasOnly([
+      function validSubscriptionWrite() {
+        return request.resource.data.keys().hasOnly([
           'endpoint',
           'p256dh',
           'auth',
@@ -113,15 +113,22 @@ service cloud.firestore {
           )
         ) &&
         request.resource.data.platform == 'pwa' &&
-        (
-          !request.resource.data.keys().hasAny(['reminderToken']) ||
-          (
-            request.resource.data.reminderToken is string &&
-            request.resource.data.reminderToken.size() >= 32 &&
-            request.resource.data.reminderToken.size() <= 128
-          )
-        ) &&
+        request.resource.data.reminderToken is string &&
+        request.resource.data.reminderToken.size() >= 32 &&
+        request.resource.data.reminderToken.size() <= 128 &&
         request.resource.data.updatedAt == request.time;
+      }
+
+      allow create: if validSubscriptionWrite();
+      allow update: if validSubscriptionWrite() &&
+        request.resource.data.endpoint == resource.data.endpoint &&
+        (
+          request.resource.data.reminderToken == resource.data.get('reminderToken', '') ||
+          (
+            request.resource.data.p256dh == resource.data.p256dh &&
+            request.resource.data.auth == resource.data.auth
+          )
+        );
     }
 
     match /webPushReminders/{reminderId} {
