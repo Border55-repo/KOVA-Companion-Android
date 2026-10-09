@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "67df6c7638c751939077c30d",
+      "observedAt": "2026-10-10T00:16:14+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e41b1b9abdb166a3",
+        "dateIso": "2026-10-03",
+        "dateLabel": "lør. 3.10",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Pors kamp, Tid er oppmøte huset Pors - vakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "90926b47447692b25736acd2",
       "observedAt": "2026-10-07T00:01:47+02:00",
       "organization": "PorsgrunnRKH",
@@ -107,5 +122,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:01:47+02:00"
+  "updatedAt": "2026-10-10T00:16:14+02:00"
 }
