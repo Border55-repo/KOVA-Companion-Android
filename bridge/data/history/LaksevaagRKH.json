@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "762caf9156ce8da2e587cf58",
+      "observedAt": "2026-10-09T17:51:17+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "0b7c0a59c0c4e9aa",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "eec0083b95589e10104acbd1",
+      "observedAt": "2026-10-09T17:51:17+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "6457ee12cc02f662",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "cf6e6af9d663a89198911fe0",
       "observedAt": "2026-10-09T00:06:18+02:00",
       "organization": "LaksevaagRKH",
@@ -491,5 +521,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:06:18+02:00"
+  "updatedAt": "2026-10-09T17:51:17+02:00"
 }

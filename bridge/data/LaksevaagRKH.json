@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T00:06:18+02:00",
-  "checkedAt": "2026-10-09T17:31:22+02:00",
+  "updatedAt": "2026-10-09T17:51:17+02:00",
+  "checkedAt": "2026-10-09T17:51:17+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 33,
+  "eventCount": 35,
   "changes": {
-    "added": 0,
-    "removed": 3,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -33,6 +33,24 @@
       "time": "19:00",
       "type": "Eksterne møter",
       "description": "Aksjonsledermøte Aksjonsledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0b7c0a59c0c4e9aa",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "6457ee12cc02f662",
+      "dateIso": "2026-10-08",
+      "dateLabel": "tor. 8.10",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
