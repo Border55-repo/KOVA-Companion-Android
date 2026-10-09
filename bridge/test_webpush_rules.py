@@ -13,6 +13,9 @@ BASE = f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}/databases/(de
 DOC_ID = "ci-" + uuid.uuid4().hex[:20]
 DOC_NAME = f"projects/{PROJECT_ID}/databases/(default)/documents/webPushSubscriptions/{DOC_ID}"
 DOC_URL = f"https://firestore.googleapis.com/v1/{DOC_NAME}"
+LEGACY_DOC_NAME = DOC_NAME + "-legacy"
+LEGACY_DOC_URL = f"https://firestore.googleapis.com/v1/{LEGACY_DOC_NAME}"
+REMINDER_TOKEN = "t" * 64
 
 
 def admin_credentials():
@@ -45,8 +48,9 @@ def valid_write_body():
                                 "values": [{"stringValue": "UllensakerRKH"}]
                             }
                         },
-                        "enabled": {"booleanValue": True},
+                        "enabled": {"booleanValue": False},
                         "platform": {"stringValue": "pwa"},
+                        "reminderToken": {"stringValue": REMINDER_TOKEN},
                     },
                 },
                 "updateTransforms": [
@@ -60,7 +64,7 @@ def valid_write_body():
     }
 
 
-def main():
+def run_checks(creds):
     # 1) Valid anonymous client-like write must be allowed by rules.
     response = requests.post(
         f"{BASE}/documents:commit",
@@ -101,7 +105,87 @@ def main():
         )
     print("Invalid anonymous subscription write blocked.")
 
-    # 4) Public PWA cache generation must be readable without auth.
+    # 4) Newly created subscriptions must carry a private recovery token.
+    missing_token = valid_write_body()
+    missing_token["writes"][0]["update"]["fields"].pop("reminderToken")
+    missing_token["writes"][0]["update"]["name"] = DOC_NAME + "-no-token"
+    missing_token_response = requests.post(
+        f"{BASE}/documents:commit",
+        headers={"Content-Type": "application/json"},
+        json=missing_token,
+        timeout=30,
+    )
+    if missing_token_response.status_code not in (401, 403):
+        raise RuntimeError(
+            f"Anonymous subscription create without token was not blocked: "
+            f"{missing_token_response.status_code} {missing_token_response.text[:500]}"
+        )
+    print("Subscription create without recovery token blocked.")
+
+    # 5) Knowing a document ID must not permit replacing its push keys and token.
+    takeover = valid_write_body()
+    takeover["writes"][0]["update"]["fields"]["auth"]["stringValue"] = "b" * 22
+    takeover["writes"][0]["update"]["fields"]["reminderToken"]["stringValue"] = "u" * 64
+    takeover_response = requests.post(
+        f"{BASE}/documents:commit",
+        headers={"Content-Type": "application/json"},
+        json=takeover,
+        timeout=30,
+    )
+    if takeover_response.status_code not in (401, 403):
+        raise RuntimeError(
+            f"Anonymous subscription takeover was not blocked: "
+            f"{takeover_response.status_code} {takeover_response.text[:500]}"
+        )
+    print("Subscription takeover with different keys and token blocked.")
+
+    # 6) The same browser subscription can recover after losing local storage.
+    recovery = valid_write_body()
+    recovery["writes"][0]["update"]["fields"]["reminderToken"]["stringValue"] = "v" * 64
+    recovery_response = requests.post(
+        f"{BASE}/documents:commit",
+        headers={"Content-Type": "application/json"},
+        json=recovery,
+        timeout=30,
+    )
+    if not recovery_response.ok:
+        raise RuntimeError(
+            f"Subscription recovery with unchanged push keys was rejected: "
+            f"{recovery_response.status_code} {recovery_response.text[:500]}"
+        )
+    print("Subscription token recovery with unchanged push keys allowed.")
+
+    # 7) An older subscription without a token can claim one using its original keys.
+    legacy = valid_write_body()
+    legacy["writes"][0]["update"]["name"] = LEGACY_DOC_NAME
+    legacy["writes"][0]["update"]["fields"].pop("reminderToken")
+    legacy_create = requests.post(
+        f"{BASE}/documents:commit",
+        headers={"Authorization": f"Bearer {creds.token}"},
+        json=legacy,
+        timeout=30,
+    )
+    if not legacy_create.ok:
+        raise RuntimeError(
+            f"Could not create legacy subscription probe: "
+            f"{legacy_create.status_code} {legacy_create.text[:500]}"
+        )
+    legacy_claim = valid_write_body()
+    legacy_claim["writes"][0]["update"]["name"] = LEGACY_DOC_NAME
+    legacy_claim_response = requests.post(
+        f"{BASE}/documents:commit",
+        headers={"Content-Type": "application/json"},
+        json=legacy_claim,
+        timeout=30,
+    )
+    if not legacy_claim_response.ok:
+        raise RuntimeError(
+            f"Legacy subscription token claim was rejected: "
+            f"{legacy_claim_response.status_code} {legacy_claim_response.text[:500]}"
+        )
+    print("Legacy subscription token claim with unchanged push keys allowed.")
+
+    # 8) Public PWA cache generation must be readable without auth.
     public_config_url = (
         "https://firestore.googleapis.com/v1/"
         f"projects/{PROJECT_ID}/databases/(default)/documents/publicConfig/pwa"
@@ -114,7 +198,7 @@ def main():
         )
     print("Public PWA cache config read allowed.")
 
-    # 5) Anonymous clients must not be able to change cache generation.
+    # 9) Anonymous clients must not be able to change cache generation.
     public_doc = public_read.json()
     current_epoch = int(
         ((public_doc.get("fields") or {}).get("cacheEpoch") or {}).get("integerValue", "1")
@@ -133,7 +217,7 @@ def main():
         )
     print("Anonymous PWA cache control write blocked.")
 
-    # 6) Admin profile collection must not be publicly readable.
+    # 10) Admin profile collection must not be publicly readable.
     admin_probe = requests.get(
         f"{BASE}/documents/adminUsers",
         timeout=30,
@@ -145,7 +229,7 @@ def main():
         )
     print("Anonymous admin profile read blocked.")
 
-    # 7) Live admin runtime must remain private.
+    # 11) Live admin runtime must remain private.
     runtime_probe = requests.get(
         f"{BASE}/documents/adminRuntime/bridge",
         timeout=30,
@@ -157,7 +241,7 @@ def main():
         )
     print("Anonymous admin runtime read blocked.")
 
-    # 8) Bridge sync commands must remain private and unwritable anonymously.
+    # 12) Bridge sync commands must remain private and unwritable anonymously.
     command_url = f"{BASE}/documents/adminCommands/bridgeSync"
     command_read = requests.get(command_url, timeout=30)
     if command_read.status_code not in (401, 403, 404):
@@ -188,19 +272,24 @@ def main():
         )
     print("Anonymous admin command write blocked.")
 
-    # Cleanup with service account; server credentials bypass client rules via IAM.
+def main():
     creds = admin_credentials()
-    delete_response = requests.delete(
-        DOC_URL,
-        headers={"Authorization": f"Bearer {creds.token}"},
-        timeout=30,
-    )
-    if delete_response.status_code not in (200, 404):
-        raise RuntimeError(
-            f"Could not clean up Web Push rules probe: "
-            f"{delete_response.status_code} {delete_response.text[:500]}"
-        )
-    print("Web Push rules probe cleaned up.")
+    try:
+        run_checks(creds)
+    finally:
+        # Server credentials bypass client rules via IAM. Clean up even if a check fails.
+        for doc_url in (DOC_URL, LEGACY_DOC_URL):
+            delete_response = requests.delete(
+                doc_url,
+                headers={"Authorization": f"Bearer {creds.token}"},
+                timeout=30,
+            )
+            if delete_response.status_code not in (200, 404):
+                raise RuntimeError(
+                    f"Could not clean up Web Push rules probe: "
+                    f"{delete_response.status_code} {delete_response.text[:500]}"
+                )
+        print("Web Push rules probe cleaned up.")
 
 
 if __name__ == "__main__":
