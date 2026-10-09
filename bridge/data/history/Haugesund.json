@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c896b6d73efc0bdd4b919649",
+      "observedAt": "2026-10-09T11:26:18+02:00",
+      "organization": "Haugesund",
+      "kind": "added",
+      "event": {
+        "id": "3cbf0380f8246510",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 12:45, vaktstart 13:30 HIL - Djupadalten 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "d1b58a90ad5b381668f38a90",
       "observedAt": "2026-10-07T00:06:24+02:00",
       "organization": "Haugesund",
@@ -92,5 +107,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-07T00:06:24+02:00"
+  "updatedAt": "2026-10-09T11:26:18+02:00"
 }
