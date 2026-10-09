@@ -175,6 +175,11 @@ summary{cursor:pointer;font-weight:600;padding:8px 0}
 .calendar-selection{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin-top:12px}
 .calendar-selection label{display:grid;gap:6px;min-width:0;flex:1}
 .calendar-selection input{width:100%;min-width:0}
+@media(max-width:600px){
+  .topbar{position:relative}
+  .calendar-selection{display:grid;grid-template-columns:minmax(0,1fr)}
+  .calendar-selection label,.calendar-selection input,.calendar-selection button{width:100%;max-width:100%}
+}
 
 /* Ambulance blue-light theme: opaque reading surfaces over slow alternating light. */
 :root{color-scheme:dark;--red:#0868c9;--blue:#147ac5;--bg:#061323;--card:#10243a;--text:#edf6ff;--muted:#afc5da;--border:#294763;--shadow:0 8px 28px rgba(0,0,0,.2)}
