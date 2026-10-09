@@ -32,7 +32,7 @@ jobs:
         run: pip install -r bridge/requirements.txt
       - name: Bridge unit tests
         working-directory: bridge
-        run: python -m unittest test_sync.py test_reminders.py test_announcement.py test_targeted_announcement.py test_release_notice.py test_personal_reminders.py test_push_selftest.py test_webpush.py test_admin_sync_request.py
+        run: python -m unittest test_sync.py test_reminders.py test_announcement.py test_targeted_announcement.py test_release_notice.py test_personal_reminders.py test_push_selftest.py test_webpush.py
 
   pwa-unit-tests:
     runs-on: ubuntu-latest

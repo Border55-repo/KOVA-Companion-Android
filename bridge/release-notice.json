@@ -1,6 +1,7 @@
 {
-  "id": "kova-20261009-233",
+  "id": "kova-20261009-androidpwa",
   "version": "2.3.3",
-  "title": "Kova Companion 2.3.3: bedre iPhone-visning",
-  "body": "Kalenderen vises nå uten overlapping på iPhone. Varsler prøves én gang til ved midlertidige feil hos push-tjenesten."
+  "title": "Android-appen avsluttes – bruk webappen",
+  "body": "Den gamle Android-appen videreutvikles ikke lenger. Åpne Kova Companion som webapp på Android eller iPhone, legg den til på startskjermen og aktiver varsler der."
 }
+
