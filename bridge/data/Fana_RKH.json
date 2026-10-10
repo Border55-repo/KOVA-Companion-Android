@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-10T00:06:10+02:00",
-  "checkedAt": "2026-10-10T23:51:15+02:00",
+  "updatedAt": "2026-10-11T00:11:14+02:00",
+  "checkedAt": "2026-10-11T00:11:14+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 13,
+  "eventCount": 11,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "4f9d31dc85b20221",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "KFØR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
-    {
-      "id": "6fc43ca41043131c",
-      "dateIso": "2026-10-04",
-      "dateLabel": "søn. 4.10",
-      "time": "09:30",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT KICKBOXING SANITETSVAKT - KICKBOXING",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
     {
       "id": "3b975f0c12bea2b1",
       "dateIso": "2026-10-06",
