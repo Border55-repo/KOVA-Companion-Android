@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T18:08:36+02:00",
-  "checkedAt": "2026-10-10T13:46:16+02:00",
+  "updatedAt": "2026-10-10T14:06:16+02:00",
+  "checkedAt": "2026-10-10T14:06:16+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
   "eventCount": 40,
   "changes": {
-    "added": 5,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -135,12 +135,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
-      "id": "3566895b5c5264e2",
+      "id": "863ad5f6e50eb478",
       "dateIso": "2026-10-15",
       "dateLabel": "tor. 15.10",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Savnetadferd og LPB Korpskveld: Savnetadferd og LPB",
+      "description": "Hva gjør du når du møter noen i akutt psykisk krise? Korpskveld: Psykososial førstehjelp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
