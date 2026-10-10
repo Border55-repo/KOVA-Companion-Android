@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T22:01:32+02:00",
-  "checkedAt": "2026-10-10T14:16:10+02:00",
+  "updatedAt": "2026-10-10T14:31:32+02:00",
+  "checkedAt": "2026-10-10T14:31:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 40,
+  "eventCount": 41,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -123,6 +123,15 @@
       "time": "18:00",
       "type": "Ambulansevakt",
       "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "c26ada2c1048583f",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Unity Arena Konsert: Stevie Wonder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {

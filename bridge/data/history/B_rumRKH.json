@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cef2c749ad3f68d1f8a55ffe",
+      "observedAt": "2026-10-10T14:31:32+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "c26ada2c1048583f",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Konsert: Stevie Wonder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "8a232bb3d81936e4bbaa1aec",
       "observedAt": "2026-10-09T22:01:32+02:00",
       "organization": "BærumRKH",
@@ -344,5 +359,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T22:01:32+02:00"
+  "updatedAt": "2026-10-10T14:31:32+02:00"
 }
