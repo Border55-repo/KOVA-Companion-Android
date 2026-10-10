@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4208f771ed192f070113817c",
+      "observedAt": "2026-10-11T00:16:20+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4326e9923f19740c",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Kranselegging i sivilforsvarsparken Minnevakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "d8db6db65edeb9792981e634",
       "observedAt": "2026-10-10T14:06:16+02:00",
       "organization": "LaksevaagRKH",
@@ -620,5 +635,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T14:06:16+02:00"
+  "updatedAt": "2026-10-11T00:16:20+02:00"
 }

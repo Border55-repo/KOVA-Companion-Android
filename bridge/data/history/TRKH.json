@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7f70caebbd7b8ce858cfbbb9",
+      "observedAt": "2026-10-11T00:16:22+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1dd88698bb79b428",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "03:00",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Ultra - Vakt 4 MSM - Tromsø Backyard Ultra",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "2f69cf07a5c1bfcd6377f12d",
       "observedAt": "2026-10-10T00:11:31+02:00",
       "organization": "TRKH",
@@ -341,5 +356,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:11:31+02:00"
+  "updatedAt": "2026-10-11T00:16:22+02:00"
 }
