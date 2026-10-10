@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "450e2c2c2f4c08a46a05cfee",
+      "observedAt": "2026-10-10T15:06:08+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "74a01df3e3f1232d",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:15",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm - Sogndal 2026 NM Menn 2027 - 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "931665ba40fc5a6a",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm - Sogndal 2026 NM Menn 2027 - 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "8104a2aaed1131fb0440940c",
       "observedAt": "2026-10-10T15:01:32+02:00",
       "organization": "Skedsmo RKH",
@@ -284,5 +308,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T15:01:32+02:00"
+  "updatedAt": "2026-10-10T15:06:08+02:00"
 }

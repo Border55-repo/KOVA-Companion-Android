@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-10T15:01:32+02:00",
-  "checkedAt": "2026-10-10T15:01:32+02:00",
+  "updatedAt": "2026-10-10T15:06:08+02:00",
+  "checkedAt": "2026-10-10T15:06:08+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
   "eventCount": 49,
   "changes": {
@@ -162,10 +162,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "931665ba40fc5a6a",
+      "id": "74a01df3e3f1232d",
       "dateIso": "2026-10-28",
       "dateLabel": "ons. 28.10",
-      "time": "16:30",
+      "time": "16:15",
       "type": "Sanitetsvakt",
       "description": "Lillestrøm - Sogndal 2026 NM Menn 2027 - 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
