@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "00e2d3649885b7237dd81c19",
+      "observedAt": "2026-10-11T00:01:38+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3c4475958350f899",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "07:15",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset kl 07:15, vakta starter kl 08:00. Landsmøte, The Qube",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "9f475b2439c50f80987c3351",
+      "observedAt": "2026-10-11T00:01:38+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a1efbf713e1d704a",
+        "dateIso": "2026-10-04",
+        "dateLabel": "søn. 4.10",
+        "time": "10:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte Jessheim Friidrett stadion 10:30 Oppmøte lokalet 09:30 Løpstart 11:00 XC90 Norges Løpet Norges Løpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "6f5d16006aa494b3ed7efd37",
       "observedAt": "2026-10-10T00:01:30+02:00",
       "organization": "UllensakerRKH",
@@ -1046,5 +1076,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:01:30+02:00"
+  "updatedAt": "2026-10-11T00:01:38+02:00"
 }
