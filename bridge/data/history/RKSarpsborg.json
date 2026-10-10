@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c98941a79f94fa59fef4a754",
+      "observedAt": "2026-10-10T16:01:32+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "7635b1e9fc7c91a7",
+        "dateIso": "2027-01-22",
+        "dateLabel": "fre. 22.1",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Kvalifisert førstehjelp (KFØR) Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "f2983a28728050edf10fd240",
+      "observedAt": "2026-10-10T16:01:32+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "de674b792cfa369d",
+        "dateIso": "2027-01-23",
+        "dateLabel": "lør. 23.1",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Kvalifisert førstehjelp (KFØR) Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "28306d023bbee1ed15017a1f",
+      "observedAt": "2026-10-10T16:01:32+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "c9ee54e05c929a6f",
+        "dateIso": "2027-01-24",
+        "dateLabel": "søn. 24.1",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Kvalifisert førstehjelp (KFØR) Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "5d8ca6caf3126d5fbaea8a34",
       "observedAt": "2026-10-08T22:26:20+02:00",
       "organization": "RKSarpsborg",
@@ -608,5 +653,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T22:26:20+02:00"
+  "updatedAt": "2026-10-10T16:01:32+02:00"
 }
