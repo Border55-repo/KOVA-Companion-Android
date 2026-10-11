@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6c3c31c721adf16d08e602fa",
+      "observedAt": "2026-10-12T00:16:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c970dae81f4a8f36",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "10:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpskurs Førstehjelpskurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "b5418b7a0a593552e8e6e7df",
+      "observedAt": "2026-10-12T00:16:17+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f83515ec7ab67ea6",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "18:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "939a8e9ab2eb4cede03ed937",
       "observedAt": "2026-10-10T00:01:40+02:00",
       "organization": "NRKH",
@@ -488,5 +518,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:01:40+02:00"
+  "updatedAt": "2026-10-12T00:16:17+02:00"
 }
