@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T00:01:38+02:00",
-  "checkedAt": "2026-10-11T11:46:18+02:00",
+  "updatedAt": "2026-10-11T12:06:13+02:00",
+  "checkedAt": "2026-10-11T12:06:13+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 30,
+  "eventCount": 28,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 2,
     "changed": 0
   },
   "events": [
@@ -69,15 +69,6 @@
       "time": "18:00",
       "type": "Interne møter",
       "description": "Medlemsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "b5e6e0503a115484",
-      "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
-      "time": "16:00",
-      "type": "Ambulansevakt",
-      "description": "Øvrevoll",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
     },
     {
@@ -141,15 +132,6 @@
       "time": "-> 18:00",
       "type": "Eksterne kurs",
       "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "38b003c4118dfcc4",
-      "dateIso": "2026-11-12",
-      "dateLabel": "tor. 12.11",
-      "time": "16:00",
-      "type": "Ambulansevakt",
-      "description": "Øvrevoll",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
     },
     {

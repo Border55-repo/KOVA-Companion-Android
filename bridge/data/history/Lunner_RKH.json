@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "39ca6ce8acf9b8963bee41a3",
+      "observedAt": "2026-10-11T12:06:13+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "b5e6e0503a115484",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Øvrevoll",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "678f6d0ead3cf1c5a9b04af4",
+      "observedAt": "2026-10-11T12:06:13+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "38b003c4118dfcc4",
+        "dateIso": "2026-11-12",
+        "dateLabel": "tor. 12.11",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Øvrevoll",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "5bc9c170137e04c3e2b8d15f",
       "observedAt": "2026-10-09T00:01:38+02:00",
       "organization": "Lunner RKH",
@@ -212,5 +242,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-09T00:01:38+02:00"
+  "updatedAt": "2026-10-11T12:06:13+02:00"
 }
