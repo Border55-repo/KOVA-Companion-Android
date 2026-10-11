@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "36f5cc7d79f643a479f8b8be",
+      "observedAt": "2026-10-11T12:11:14+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "02409e91e68dcb6f",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Oslo Motorshow",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "4e81f9c05dc8a4d4dec2b389",
+      "observedAt": "2026-10-11T12:11:14+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "45e80b000fbf68b8",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Oslo Motorshow",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "60e5217845e14e40101026fa",
+      "observedAt": "2026-10-11T12:11:14+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "bc644d690a9896b2",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Oslo Motorshow",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "00e2d3649885b7237dd81c19",
       "observedAt": "2026-10-11T00:01:38+02:00",
       "organization": "UllensakerRKH",
@@ -1076,5 +1121,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-11T00:01:38+02:00"
+  "updatedAt": "2026-10-11T12:11:14+02:00"
 }

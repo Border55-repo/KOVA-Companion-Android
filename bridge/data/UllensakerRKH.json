@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-11T00:01:38+02:00",
-  "checkedAt": "2026-10-11T12:06:11+02:00",
+  "updatedAt": "2026-10-11T12:11:14+02:00",
+  "checkedAt": "2026-10-11T12:11:14+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 56,
+  "eventCount": 59,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 3,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -141,6 +141,33 @@
       "time": "18:00",
       "type": "Rådsmøte",
       "description": "Lokalrådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "02409e91e68dcb6f",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Oslo Motorshow",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "45e80b000fbf68b8",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Oslo Motorshow",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+    },
+    {
+      "id": "bc644d690a9896b2",
+      "dateIso": "2026-10-25",
+      "dateLabel": "søn. 25.10",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Oslo Motorshow",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
