@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c257a4d7ca6eefcb2a691a15",
+      "observedAt": "2026-10-11T18:31:25+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "c2e7f41450ac4927",
+        "dateIso": "2026-12-03",
+        "dateLabel": "tor. 3.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Søk i urbant miljø på Laksevåg Korpskveld: Rodesøk / SAR-øvelse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "4208f771ed192f070113817c",
       "observedAt": "2026-10-11T00:16:20+02:00",
       "organization": "LaksevaagRKH",
@@ -635,5 +650,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-11T00:16:20+02:00"
+  "updatedAt": "2026-10-11T18:31:25+02:00"
 }

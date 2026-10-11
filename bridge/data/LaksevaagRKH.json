@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-11T00:16:20+02:00",
-  "checkedAt": "2026-10-11T18:11:21+02:00",
+  "updatedAt": "2026-10-11T18:31:25+02:00",
+  "checkedAt": "2026-10-11T18:31:25+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 39,
+  "eventCount": 40,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -312,6 +312,15 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Øvelse EPS (evakuerte og pårørende senter) Korpskveld: Øvelse EPS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "c2e7f41450ac4927",
+      "dateIso": "2026-12-03",
+      "dateLabel": "tor. 3.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Søk i urbant miljø på Laksevåg Korpskveld: Rodesøk / SAR-øvelse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
