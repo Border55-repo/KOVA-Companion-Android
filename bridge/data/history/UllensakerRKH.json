@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1972034a214550ceb177232d",
+      "observedAt": "2026-10-11T20:41:23+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "a23104ea1b2f4a91",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Ull/Kisa Fotballcup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "8ace075be70b9af5",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Ull/Kisa Fotballcup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "36f5cc7d79f643a479f8b8be",
       "observedAt": "2026-10-11T12:11:14+02:00",
       "organization": "UllensakerRKH",
@@ -1121,5 +1145,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-11T12:11:14+02:00"
+  "updatedAt": "2026-10-11T20:41:23+02:00"
 }

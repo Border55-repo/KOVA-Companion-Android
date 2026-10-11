@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-11T12:11:14+02:00",
-  "checkedAt": "2026-10-11T20:36:09+02:00",
+  "updatedAt": "2026-10-11T20:41:23+02:00",
+  "checkedAt": "2026-10-11T20:41:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 59,
   "changes": {
-    "added": 3,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -117,9 +117,9 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "8ace075be70b9af5",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
+      "id": "a23104ea1b2f4a91",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
       "time": "09:00",
       "type": "Sanitetsvakt",
       "description": "Ull/Kisa Fotballcup",
