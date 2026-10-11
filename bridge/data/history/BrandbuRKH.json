@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "691dee6a18c4bfa678803ffb",
+      "observedAt": "2026-10-12T00:11:15+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "542e94c76ca2f568",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "12:00",
+        "type": "Eksterne kurs",
+        "description": "Førsthjelpsundervisning RM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "e30f48d7c3d9e97a08140c48",
       "observedAt": "2026-10-03T00:06:35+02:00",
       "organization": "BrandbuRKH",
@@ -47,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-03T00:06:35+02:00"
+  "updatedAt": "2026-10-12T00:11:15+02:00"
 }

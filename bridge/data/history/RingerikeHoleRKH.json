@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "314eec48b43bc535afc8cf85",
+      "observedAt": "2026-10-12T00:11:20+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6365607cd992421f",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Søk og Redning: Tema Kommer! Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "b3c11ceac54eb22966d24d93",
       "observedAt": "2026-10-04T18:56:08+02:00",
       "organization": "RingerikeHoleRKH",
@@ -137,5 +152,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-04T18:56:08+02:00"
+  "updatedAt": "2026-10-12T00:11:20+02:00"
 }

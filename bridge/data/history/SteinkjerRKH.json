@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7365e5b649ff27e4c7a7b680",
+      "observedAt": "2026-10-12T00:11:23+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e317716414700e71",
+        "dateIso": "2026-10-05",
+        "dateLabel": "man. 5.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld 31 Korpskveld 31",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "3cf96f9b8bd5d8f22380604c",
       "observedAt": "2026-10-08T21:51:26+02:00",
       "organization": "SteinkjerRKH",
@@ -122,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T21:51:26+02:00"
+  "updatedAt": "2026-10-12T00:11:23+02:00"
 }
