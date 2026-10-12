@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "882e6c23a10c1150b8ae2fcc",
+      "observedAt": "2026-10-12T10:11:14+02:00",
+      "organization": "StvRKO",
+      "kind": "added",
+      "event": {
+        "id": "877a837bc90f6835",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "16:00",
+        "type": "Aktivitet",
+        "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      }
+    },
+    {
+      "changeId": "3f42f11912e7d5fae20b4243",
+      "observedAt": "2026-10-12T10:11:14+02:00",
+      "organization": "StvRKO",
+      "kind": "removed",
+      "event": {
+        "id": "661500b2f43f22a3",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-12T10:11:14+02:00"
+}
