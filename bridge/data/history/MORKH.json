@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6a31bff0b8597321c76fcbaa",
+      "observedAt": "2026-10-13T00:06:23+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "f2b59d79d15f0bc9",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "FAGLEDERMØTE FAGLEDERMØTE",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "d7c9c1bed5ccbe6a07982fed",
       "observedAt": "2026-10-10T00:11:25+02:00",
       "organization": "MORKH",
@@ -986,5 +1001,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:11:25+02:00"
+  "updatedAt": "2026-10-13T00:06:23+02:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0c8779eac919dc7fd3af8b0a",
+      "observedAt": "2026-10-13T00:06:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e4b5f432468d4945",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "19:00",
+        "type": "Eksterne møter",
+        "description": "Aksjonsledermøte Aksjonsledermøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "b90e9cee20186c7c1daeab0b",
       "observedAt": "2026-10-11T19:11:22+02:00",
       "organization": "LaksevaagRKH",
@@ -665,5 +680,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-11T19:11:22+02:00"
+  "updatedAt": "2026-10-13T00:06:21+02:00"
 }

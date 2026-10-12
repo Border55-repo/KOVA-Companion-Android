@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "774cd5cf88ed8e38d950a41b",
+      "observedAt": "2026-10-13T00:06:26+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "a2dffaa380fafc5b",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Sambandskveld Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "c98941a79f94fa59fef4a754",
       "observedAt": "2026-10-10T16:01:32+02:00",
       "organization": "RKSarpsborg",
@@ -653,5 +668,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T16:01:32+02:00"
+  "updatedAt": "2026-10-13T00:06:26+02:00"
 }

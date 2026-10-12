@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "dc0a941b88f639ab84bf5837",
+      "observedAt": "2026-10-13T00:06:17+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "1e30938818a933c3",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:00",
+        "type": "Øvelse",
+        "description": "Tauredning Øvelse tauredning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "ea40ddf26ad8dbd51320c77d",
       "observedAt": "2026-10-12T23:06:19+02:00",
       "organization": "Bergen RKH",
@@ -731,5 +746,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T23:06:19+02:00"
+  "updatedAt": "2026-10-13T00:06:17+02:00"
 }
