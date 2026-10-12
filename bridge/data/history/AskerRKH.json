@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e2606b76b24102f3b0254161",
+      "observedAt": "2026-10-13T00:01:34+02:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "983f8cf4a6becd9f",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "",
+        "type": "Dugnad",
+        "description": "Tirsdag Dugnad Solvik",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "5b0f7399a28431158449a808",
       "observedAt": "2026-10-12T00:01:35+02:00",
       "organization": "AskerRKH",
@@ -197,5 +212,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:01:35+02:00"
+  "updatedAt": "2026-10-13T00:01:34+02:00"
 }

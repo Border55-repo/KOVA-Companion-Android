@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ab3796a44136e4b00415dc89",
+      "observedAt": "2026-10-13T00:01:20+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "23252fc7b3519095",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSAM Nittedal",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "aee605595462d093c4c0ecbd",
+      "observedAt": "2026-10-13T00:01:20+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "84d1fc3e846ebd1d",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Stående ordre (Avlyst) Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "1888bef6a80e2cad7c0562c5",
       "observedAt": "2026-10-12T00:01:26+02:00",
       "organization": "UllensakerRKH",
@@ -1160,5 +1190,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:01:26+02:00"
+  "updatedAt": "2026-10-13T00:01:20+02:00"
 }

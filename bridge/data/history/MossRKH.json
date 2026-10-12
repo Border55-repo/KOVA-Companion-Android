@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0f8d7d2e5f6a2441bb3225d7",
+      "observedAt": "2026-10-13T00:01:29+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "36f5cc67ca94357b",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Hypotermiforebygging/Banak Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "303c6c59e1a0f3c56d7a8c4d",
       "observedAt": "2026-10-12T19:21:26+02:00",
       "organization": "MossRKH",
@@ -491,5 +506,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T19:21:26+02:00"
+  "updatedAt": "2026-10-13T00:01:29+02:00"
 }

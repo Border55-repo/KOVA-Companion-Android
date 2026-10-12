@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "db65cf677f5b39aa5414364e",
+      "observedAt": "2026-10-13T00:01:15+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "27b5e3d3deccfdf1",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:30",
+        "type": "Interne kurs",
+        "description": "E-læring på Didac må være gjennomført før oppmøte Kurs: Kvalifisert Samband",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "88e585806eeef70aa58d699a",
       "observedAt": "2026-10-12T00:01:24+02:00",
       "organization": "Nittedal RKH",
@@ -596,5 +611,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:01:24+02:00"
+  "updatedAt": "2026-10-13T00:01:15+02:00"
 }
