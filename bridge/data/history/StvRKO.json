@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f5940cf04feab45f6fab7f25",
+      "observedAt": "2026-10-13T00:11:18+02:00",
+      "organization": "StvRKO",
+      "kind": "removed",
+      "event": {
+        "id": "de5a4ecf2e65c500",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      }
+    },
+    {
       "changeId": "882e6c23a10c1150b8ae2fcc",
       "observedAt": "2026-10-12T10:11:14+02:00",
       "organization": "StvRKO",
@@ -32,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T10:11:14+02:00"
+  "updatedAt": "2026-10-13T00:11:18+02:00"
 }
