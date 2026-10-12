@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a42bde3c4cdbbcd8b958b78b",
+      "observedAt": "2026-10-12T18:41:25+02:00",
+      "organization": "Lunner RKH",
+      "kind": "changed",
+      "event": {
+        "id": "9d50f82e205f6720",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      },
+      "oldEvent": {
+        "id": "786dc89540c3959b",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "22:00",
+        "type": "Eksterne kurs",
+        "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "67e3abc51dc7b82b2e79e5ec",
       "observedAt": "2026-10-12T18:01:22+02:00",
       "organization": "Lunner RKH",
@@ -257,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T18:01:22+02:00"
+  "updatedAt": "2026-10-12T18:41:25+02:00"
 }
