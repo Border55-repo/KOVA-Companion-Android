@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3fcd90f87599933acea10bde",
+      "observedAt": "2026-10-12T19:51:22+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "05a3fc75c9cdde27",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "16:15",
+        "type": "Profilering",
+        "description": "Oppmøte tid er på huset Hallovenn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "67df6c7638c751939077c30d",
       "observedAt": "2026-10-10T00:16:14+02:00",
       "organization": "PorsgrunnRKH",
@@ -122,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:16:14+02:00"
+  "updatedAt": "2026-10-12T19:51:22+02:00"
 }
