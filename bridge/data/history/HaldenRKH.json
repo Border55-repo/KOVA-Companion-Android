@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "622be13384120f224dab1a47",
+      "observedAt": "2026-10-13T00:16:17+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "51294ca951c4af08",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "17:00",
+        "type": "Interne møter",
+        "description": "Møte i Halden Røde Kors' beredskapsutvalg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "11170930b4f6b991d05b2b0b",
+      "observedAt": "2026-10-13T00:16:17+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9189d81dbd767783",
+        "dateIso": "2026-10-06",
+        "dateLabel": "tir. 6.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Mentale forberedelser. Jonas ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "073c773a8de01e54a9702568",
       "observedAt": "2026-10-08T22:16:15+02:00",
       "organization": "HaldenRKH",
@@ -866,5 +896,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T22:16:15+02:00"
+  "updatedAt": "2026-10-13T00:16:17+02:00"
 }
