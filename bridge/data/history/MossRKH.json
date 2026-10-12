@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "303c6c59e1a0f3c56d7a8c4d",
+      "observedAt": "2026-10-12T19:21:26+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "1a5a6f7de20e86b9",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "17:30",
+        "type": "Korpskveld",
+        "description": "Beredskapssamling/alternativ korpskveld Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "edc34675f0554fdf",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Beredskapssamling/alternativ korpskveld Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "857e6b8796242ce79a4ad278",
       "observedAt": "2026-10-12T00:01:32+02:00",
       "organization": "MossRKH",
@@ -467,5 +491,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:01:32+02:00"
+  "updatedAt": "2026-10-12T19:21:26+02:00"
 }
