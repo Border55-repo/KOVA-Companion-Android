@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-10T15:06:08+02:00",
-  "checkedAt": "2026-10-12T11:36:14+02:00",
+  "updatedAt": "2026-10-12T11:41:21+02:00",
+  "checkedAt": "2026-10-12T11:41:21+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
   "eventCount": 49,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 1
+    "changed": 2
   },
   "events": [
     {
@@ -153,12 +153,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "a17225ac0d7043ea",
+      "id": "79f58065119268c5",
       "dateIso": "2026-10-27",
       "dateLabel": "tir. 27.10",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Info kommer... Korpskvelder høst 2026",
+      "description": "Førstehjelp Korpskvelder høst 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
@@ -198,12 +198,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "5e432244fdd2ea7e",
+      "id": "e9643fe471af0a44",
       "dateIso": "2026-11-03",
       "dateLabel": "tir. 3.11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Info kommer... Korpskvelder høst 2026",
+      "description": "Pakking og forberedelser til KSOR Korpskvelder høst 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {

@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3df5511a7e3e85baa97f469b",
+      "observedAt": "2026-10-12T11:41:21+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "79f58065119268c5",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelp Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "a17225ac0d7043ea",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer... Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "d076db32f5181213d00d35d3",
+      "observedAt": "2026-10-12T11:41:21+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "e9643fe471af0a44",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Pakking og forberedelser til KSOR Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "5e432244fdd2ea7e",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer... Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "450e2c2c2f4c08a46a05cfee",
       "observedAt": "2026-10-10T15:06:08+02:00",
       "organization": "Skedsmo RKH",
@@ -308,5 +356,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T15:06:08+02:00"
+  "updatedAt": "2026-10-12T11:41:21+02:00"
 }
