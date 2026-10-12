@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ec8ea1eed352cfbd41b565b8",
+      "observedAt": "2026-10-12T20:46:11+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "eeeb4d0632cffda9",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Ny veileder for søk etter savnet Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "0d21ae5a4980f5c6",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer... Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "3df5511a7e3e85baa97f469b",
       "observedAt": "2026-10-12T11:41:21+02:00",
       "organization": "Skedsmo RKH",
@@ -356,5 +380,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T11:41:21+02:00"
+  "updatedAt": "2026-10-12T20:46:11+02:00"
 }
