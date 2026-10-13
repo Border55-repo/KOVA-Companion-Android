@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e00e4583e1ae917470922402",
+      "observedAt": "2026-10-13T12:36:26+02:00",
+      "organization": "Haugesund",
+      "kind": "changed",
+      "event": {
+        "id": "1d999384aab2b967",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte huset 10:45, vaktstart 11:30 FKH damer - Molde",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      },
+      "oldEvent": {
+        "id": "ccacde76f3e3854d",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte huset 10:45, vaktstart 11:30 FKH damer - Molde",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "6008acea31bbce8245a9c3ae",
       "observedAt": "2026-10-10T00:01:37+02:00",
       "organization": "Haugesund",
@@ -122,5 +146,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:01:37+02:00"
+  "updatedAt": "2026-10-13T12:36:26+02:00"
 }
