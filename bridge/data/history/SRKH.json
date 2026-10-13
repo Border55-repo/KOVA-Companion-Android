@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0403fd1ea251c36eb2f460ed",
+      "observedAt": "2026-10-13T23:51:23+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2cb1480fb43172d6",
+        "dateIso": "2026-11-06",
+        "dateLabel": "fre. 6.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Vi skal feire den gode jobben som blir gjort hos lss FESTTTTTTT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "ea7779ee6b93fb9a2920971a",
       "observedAt": "2026-10-11T23:51:18+02:00",
       "organization": "SRKH",
@@ -509,5 +524,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-11T23:51:18+02:00"
+  "updatedAt": "2026-10-13T23:51:23+02:00"
 }
