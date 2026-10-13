@@ -2,6 +2,78 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1097898456a0f1d0c035869a",
+      "observedAt": "2026-10-13T19:46:22+02:00",
+      "organization": "Bergen RKH",
+      "kind": "changed",
+      "event": {
+        "id": "52a3d4679449414e",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR Fredag -Veileder KSOR - Fredag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      },
+      "oldEvent": {
+        "id": "cb08430984df23b6",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR fredag - veileder KSOR Fredag - Interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "2b77d6dd2c02272856d63729",
+      "observedAt": "2026-10-13T19:46:22+02:00",
+      "organization": "Bergen RKH",
+      "kind": "changed",
+      "event": {
+        "id": "18bc96ee26540fb2",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR Lørdag - Veileder KSOR Lørdag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      },
+      "oldEvent": {
+        "id": "4fd49c8b599e7a63",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR Lørdag - Veileder KSOR Lørdag - interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "d37b67f0feaf4c31849e87a0",
+      "observedAt": "2026-10-13T19:46:22+02:00",
+      "organization": "Bergen RKH",
+      "kind": "changed",
+      "event": {
+        "id": "605c70fbefe722b3",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR søndag - Veileder KSOR søndag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      },
+      "oldEvent": {
+        "id": "a8f44321e335143e",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR søndag - Veileder KSOR søndag - Interesse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "dc0a941b88f639ab84bf5837",
       "observedAt": "2026-10-13T00:06:17+02:00",
       "organization": "Bergen RKH",
@@ -746,5 +818,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T00:06:17+02:00"
+  "updatedAt": "2026-10-13T19:46:22+02:00"
 }
