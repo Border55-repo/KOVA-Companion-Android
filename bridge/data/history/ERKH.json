@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "85e6956e00cc35508e967aaf",
+      "observedAt": "2026-10-13T17:07:39+02:00",
+      "organization": "ERKH",
+      "kind": "added",
+      "event": {
+        "id": "57f15625ee0d2b7c",
+        "dateIso": "2026-11-09",
+        "dateLabel": "man. 9.11",
+        "time": "16:30",
+        "type": "Interne kurs",
+        "description": "Re-godkjenning Re-godkjenning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
+      }
+    },
+    {
+      "changeId": "aff578523721cbf7dd3ed913",
+      "observedAt": "2026-10-13T17:07:39+02:00",
+      "organization": "ERKH",
+      "kind": "removed",
+      "event": {
+        "id": "f4a1390816adb062",
+        "dateIso": "2026-10-01",
+        "dateLabel": "tor. 1.10",
+        "time": "07:30",
+        "type": "Eksterne kurs",
+        "description": "Føstehjelpskurs Føstehjelpskurs Ølen Torg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=ERKH"
+      }
+    },
+    {
       "changeId": "1af10b65e2712604e5bb9b0d",
       "observedAt": "2026-09-30T00:05:46+02:00",
       "organization": "ERKH",
@@ -17,5 +47,5 @@
       }
     }
   ],
-  "updatedAt": "2026-09-30T00:05:46+02:00"
+  "updatedAt": "2026-10-13T17:07:39+02:00"
 }
