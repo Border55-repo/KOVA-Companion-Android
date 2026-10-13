@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f2bceeef357108448363a9bc",
+      "observedAt": "2026-10-13T22:26:13+02:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "b539042fae5ad29e",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:00",
+        "type": "Dugnad",
+        "description": "Tømme pant og boss, ta ned stillas og se over hytten Dugnad Føykely",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "132f0c3aa843b896ae8324b9",
+      "observedAt": "2026-10-13T22:26:13+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "aa51dfea1d9afadc",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Vi kicker i gang vinteren med middag, fest & moro på Føykely Vinter kick-off",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "c3afeece04c711332bcea2d1",
+      "observedAt": "2026-10-13T22:26:13+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "5a4c99e5f6b3fe27",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "Vi kicker i gang vinteren med middag, fest & moro på Føykely Vinter kick-off",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "1097898456a0f1d0c035869a",
       "observedAt": "2026-10-13T19:46:22+02:00",
       "organization": "Bergen RKH",
@@ -818,5 +863,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T19:46:22+02:00"
+  "updatedAt": "2026-10-13T22:26:13+02:00"
 }
