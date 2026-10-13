@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T10:26:08+02:00",
-  "checkedAt": "2026-10-13T23:56:11+02:00",
+  "updatedAt": "2026-10-14T00:01:23+02:00",
+  "checkedAt": "2026-10-14T00:01:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 45,
+  "eventCount": 44,
   "changes": {
-    "added": 1,
-    "removed": 0,
-    "changed": 1
+    "added": 0,
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "e6c1856acdfe3a0f",
-      "dateIso": "2026-10-07",
-      "dateLabel": "ons. 7.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Fagkveld Ambulanse OUS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "193dc854f6d7cd94",
       "dateIso": "2026-10-08",

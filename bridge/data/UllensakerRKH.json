@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T00:01:20+02:00",
-  "checkedAt": "2026-10-13T23:56:12+02:00",
+  "updatedAt": "2026-10-14T00:01:27+02:00",
+  "checkedAt": "2026-10-14T00:01:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
-  "eventCount": 56,
+  "eventCount": 55,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "891bad30d6f0ebb9",
-      "dateIso": "2026-10-07",
-      "dateLabel": "ons. 7.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Fagkveld OUS - RK 3.1",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
-    },
     {
       "id": "e78577b85d01f7b2",
       "dateIso": "2026-10-08",

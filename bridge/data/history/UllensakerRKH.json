@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "adf65186c8d607c6c1dfd2dc",
+      "observedAt": "2026-10-14T00:01:27+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "891bad30d6f0ebb9",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Fagkveld OUS - RK 3.1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "ab3796a44136e4b00415dc89",
       "observedAt": "2026-10-13T00:01:20+02:00",
       "organization": "UllensakerRKH",
@@ -1190,5 +1205,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T00:01:20+02:00"
+  "updatedAt": "2026-10-14T00:01:27+02:00"
 }
