@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T00:01:17+02:00",
-  "checkedAt": "2026-10-13T19:16:08+02:00",
+  "updatedAt": "2026-10-13T19:21:21+02:00",
+  "checkedAt": "2026-10-13T19:21:21+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 47,
+  "eventCount": 48,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -114,6 +114,15 @@
       "time": "19:00",
       "type": "Sanitetsvakt",
       "description": "LSK- Real Sociedad de Fùtbol LSK kamper i Europa Leauge",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "a8df41cbceb9aec9",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "51 i bruk advokat Cup",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
