@@ -2,6 +2,180 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa8957e6798ac9320bf6d71c",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "e1e77aae8e102877",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "09:00",
+        "type": "Eksterne møter",
+        "description": "Møte beredskapsrådet Lunner kommune",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "d72b31948d01622cee562285",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "e978f7eba142676e",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Tema: leteaksjoner + FAKS Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "0c71d8982e3cf90fdc7dd3da",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "8119da6c6de5a432",
+        "dateIso": "2026-11-19",
+        "dateLabel": "tor. 19.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Tema: store blødninger Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "c279a3255f725381efa6ff6e",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "490fcc0b6faf3f11",
+        "dateIso": "2026-12-03",
+        "dateLabel": "tor. 3.12",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Tema: brudd og bruddskader Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "4007d3ae25a4e2843687d495",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "38bf40f4b8495f16",
+        "dateIso": "2026-12-17",
+        "dateLabel": "tor. 17.12",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "efecb0cc8f13ccef542c0e68",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "06da2f93ac29a97e",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "07:00",
+        "type": "Aktivitet",
+        "description": "TID IKKE BEKREFTET Holmenkollmarsjen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "33d1178e614826dc86cb6f92",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "changed",
+      "event": {
+        "id": "a901c115b7c2dbcc",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Tema: hypotermi Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      },
+      "oldEvent": {
+        "id": "a1cfb934e4975b9c",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "1f825d5a0a709286b8c48505",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "927b47340db37dee",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "53fa69e1341bad367546933c",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "cc1f61c3bcfb9111",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "a72b5bcafbf62c1f5246cb62",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "e1987509f2a94f81",
+        "dateIso": "2026-12-01",
+        "dateLabel": "tir. 1.12",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "eaa27d624666286e16a6aad7",
+      "observedAt": "2026-10-13T22:01:33+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "317de678f480d282",
+        "dateIso": "2026-12-15",
+        "dateLabel": "tir. 15.12",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "a42bde3c4cdbbcd8b958b78b",
       "observedAt": "2026-10-12T18:41:25+02:00",
       "organization": "Lunner RKH",
@@ -281,5 +455,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T18:41:25+02:00"
+  "updatedAt": "2026-10-13T22:01:33+02:00"
 }
