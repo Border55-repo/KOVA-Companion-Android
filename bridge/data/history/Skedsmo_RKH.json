@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "74975464a3c1b3291e2db047",
+      "observedAt": "2026-10-13T19:31:39+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "9deaed825cbefd26",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "51 i bruk Advokat Cup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "a8df41cbceb9aec9",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "51 i bruk advokat Cup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "eefb437baf559491d905cf5a",
       "observedAt": "2026-10-13T19:21:21+02:00",
       "organization": "Skedsmo RKH",
@@ -425,5 +449,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T19:21:21+02:00"
+  "updatedAt": "2026-10-13T19:31:39+02:00"
 }
