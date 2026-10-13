@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T12:36:26+02:00",
-  "checkedAt": "2026-10-13T12:56:29+02:00",
+  "updatedAt": "2026-10-13T13:16:15+02:00",
+  "checkedAt": "2026-10-13T13:16:15+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund",
   "eventCount": 9,
   "changes": {
@@ -36,10 +36,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
     },
     {
-      "id": "1d999384aab2b967",
+      "id": "ccacde76f3e3854d",
       "dateIso": "2026-10-17",
       "dateLabel": "lør. 17.10",
-      "time": "",
+      "time": "10:45",
       "type": "Sanitetsvakt",
       "description": "Oppmøte huset 10:45, vaktstart 11:30 FKH damer - Molde",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
