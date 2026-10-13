@@ -1,7 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T22:01:45+02:00",
+  "updatedAt": "2026-10-13T22:21:28+02:00",
   "sent": {
+    "e2af3d81892c323a21bf7c9e": "2026-10-13T22:21:28+02:00",
+    "eaa27d624666286e16a6aad7": "2026-10-13T22:21:28+02:00",
     "fa8957e6798ac9320bf6d71c": "2026-10-13T22:01:45+02:00",
     "d72b31948d01622cee562285": "2026-10-13T22:01:45+02:00",
     "0c71d8982e3cf90fdc7dd3da": "2026-10-13T22:01:45+02:00",
@@ -809,21 +811,5 @@
     "8ccc066f6c5284f5ec072dcb": "2026-09-23T00:14:39+02:00",
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
-  "pending": {
-    "eaa27d624666286e16a6aad7": {
-      "changeId": "eaa27d624666286e16a6aad7",
-      "observedAt": "2026-10-13T22:01:33+02:00",
-      "organization": "Lunner RKH",
-      "kind": "removed",
-      "event": {
-        "id": "317de678f480d282",
-        "dateIso": "2026-12-15",
-        "dateLabel": "tir. 15.12",
-        "time": "18:00",
-        "type": "Interne møter",
-        "description": "Medlemsmøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-      }
-    }
-  }
+  "pending": {}
 }
