@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "816af7e7b780a8060b193226",
+      "observedAt": "2026-10-14T00:11:23+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "148017954dc9872f",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpekurs Pensjonistforeningen Pensjonistforeningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "1afdd72d33539576886a5bb0",
+      "observedAt": "2026-10-14T00:11:23+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c8868b54309052d9",
+        "dateIso": "2026-10-07",
+        "dateLabel": "ons. 7.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "7365e5b649ff27e4c7a7b680",
       "observedAt": "2026-10-12T00:11:23+02:00",
       "organization": "SteinkjerRKH",
@@ -137,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:11:23+02:00"
+  "updatedAt": "2026-10-14T00:11:23+02:00"
 }
