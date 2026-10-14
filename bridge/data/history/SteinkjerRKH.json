@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8c9078d9305bfee32e27ebdd",
+      "observedAt": "2026-10-14T15:36:38+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "0e1b36c56752bb01",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "00:30",
+        "type": "Dugnad",
+        "description": "Dugnad - Generelt Dugnad - Oktober",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "816af7e7b780a8060b193226",
       "observedAt": "2026-10-14T00:11:23+02:00",
       "organization": "SteinkjerRKH",
@@ -167,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T00:11:23+02:00"
+  "updatedAt": "2026-10-14T15:36:38+02:00"
 }
