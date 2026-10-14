@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-14T15:31:41+02:00",
-  "checkedAt": "2026-10-14T23:55:47+02:00",
+  "updatedAt": "2026-10-15T00:16:27+02:00",
+  "checkedAt": "2026-10-15T00:16:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 44,
+  "eventCount": 43,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "150d77e7316cae90",
-      "dateIso": "2026-10-08",
-      "dateLabel": "tor. 8.10",
-      "time": "18:00",
-      "type": "Interne kurs",
-      "description": "Teorikveld (Gartnerveien 8, Bekkestua) KFØR Asker og Bærum - info kommer",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "a023c25b66f1e6c1",
       "dateIso": "2026-10-11",
