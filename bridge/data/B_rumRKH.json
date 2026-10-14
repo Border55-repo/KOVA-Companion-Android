@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-14T12:11:31+02:00",
-  "checkedAt": "2026-10-14T12:11:31+02:00",
+  "updatedAt": "2026-10-14T12:31:30+02:00",
+  "checkedAt": "2026-10-14T12:31:30+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 43,
+  "eventCount": 44,
   "changes": {
-    "added": 2,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -294,6 +294,15 @@
       "time": "18:00",
       "type": "Ambulansevakt",
       "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "aab8866fa2444131",
+      "dateIso": "2026-11-30",
+      "dateLabel": "man. 30.11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Røde Kors huset Sandvika Kurs i Psykososial førstehjelp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
