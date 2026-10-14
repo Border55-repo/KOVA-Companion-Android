@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a1aac1818821dc98aae5b95c",
+      "observedAt": "2026-10-15T00:01:45+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c6d50a21ac62e508",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "17:00",
+        "type": "Dugnad",
+        "description": "Dugnad - Dekkskifte Dugnad - Dekkskifte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "8c9078d9305bfee32e27ebdd",
       "observedAt": "2026-10-14T15:36:38+02:00",
       "organization": "SteinkjerRKH",
@@ -182,5 +197,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T15:36:38+02:00"
+  "updatedAt": "2026-10-15T00:01:45+02:00"
 }

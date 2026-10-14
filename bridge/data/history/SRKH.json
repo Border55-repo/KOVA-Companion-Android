@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "52c31efa679a7e678e47e6fc",
+      "observedAt": "2026-10-15T00:01:43+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "17c09f142c23d5de",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Brannvern kurs Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "0403fd1ea251c36eb2f460ed",
       "observedAt": "2026-10-13T23:51:23+02:00",
       "organization": "SRKH",
@@ -524,5 +539,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T23:51:23+02:00"
+  "updatedAt": "2026-10-15T00:01:43+02:00"
 }
