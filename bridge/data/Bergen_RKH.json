@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T22:26:13+02:00",
-  "checkedAt": "2026-10-14T13:06:32+02:00",
+  "updatedAt": "2026-10-14T13:26:30+02:00",
+  "checkedAt": "2026-10-14T13:26:30+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 41,
+  "eventCount": 42,
   "changes": {
     "added": 1,
-    "removed": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -213,6 +213,15 @@
       "time": "08:30",
       "type": "Interne kurs",
       "description": "KSOR søndag - Veileder KSOR søndag",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "cae97efbe37a7f6a",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann damer mot KKS Czarni Sosnowiec Brann damer mot KKS Czarni Sosnowiec",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
     },
     {
