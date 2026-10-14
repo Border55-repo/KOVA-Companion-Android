@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T00:16:17+02:00",
-  "checkedAt": "2026-10-14T15:11:34+02:00",
+  "updatedAt": "2026-10-14T15:31:44+02:00",
+  "checkedAt": "2026-10-14T15:31:44+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 43,
+  "eventCount": 44,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -222,6 +222,15 @@
       "time": "18:00",
       "type": "Eksterne møter",
       "description": "Kun for de med LSOR kompetanse - Fysisk Lagledermøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "c5f9df4f609af4fc",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "Ta på nisselue og del ut gløgg og pepperkaker i gågata (Linda ansvar) Julegateåpning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
