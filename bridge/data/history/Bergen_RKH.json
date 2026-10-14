@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5a8297beb6487362d40cdcfe",
+      "observedAt": "2026-10-15T00:11:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "f5cfb923b2d309b1",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Motbakkeløp Ulriken Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "bbedcc07f7080b8c859b27d4",
+      "observedAt": "2026-10-15T00:11:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "f3bd589c4b966b25",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena tidleg Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "0d19cd8da62c00aa65e5624d",
+      "observedAt": "2026-10-15T00:11:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "9586f7eb5e7a4801",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena sein Fredag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "87210f03946b2104ed9a5457",
+      "observedAt": "2026-10-15T00:11:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "73430c9e100029a9",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena sein Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "7ca62e85b66ad11ecaacc17d",
+      "observedAt": "2026-10-15T00:11:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "4349ab8f813ced6b",
+        "dateIso": "2026-10-08",
+        "dateLabel": "tor. 8.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "DDE-konsert trekanttomta Torsdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "8e6c1f6f10b6d9b558343fda",
       "observedAt": "2026-10-14T19:51:31+02:00",
       "organization": "Bergen RKH",
@@ -923,5 +998,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:51:31+02:00"
+  "updatedAt": "2026-10-15T00:11:21+02:00"
 }
