@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ced52b1c7b01a3f5f89c4578",
+      "observedAt": "2026-10-14T12:11:31+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "aa093f256b380e46",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "48fb1077b57fb73c547ef79d",
+      "observedAt": "2026-10-14T12:11:31+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "04fdbffe64407d91",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Reviderte veilederen for søk på land Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "96f7e6580f82ae2a854f5af6",
+      "observedAt": "2026-10-14T12:11:31+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "da1df1cec124a61b",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Reviderte veilederen for søk på land Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "dd732cfac2dc084d4c949a30",
+      "observedAt": "2026-10-14T12:11:31+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b8ead9d916373ce9",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "d719b8a632d764d7c6fbaa34",
       "observedAt": "2026-10-14T11:51:29+02:00",
       "organization": "BærumRKH",
@@ -533,5 +593,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T11:51:29+02:00"
+  "updatedAt": "2026-10-14T12:11:31+02:00"
 }
