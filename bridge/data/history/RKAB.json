@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6072881333f6be071be86da1",
+      "observedAt": "2026-10-16T00:16:27+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "82339316e57e61c8",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "AVLYST Fredag AMK Oktober 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "58beeae841969037afb8c61c",
+      "observedAt": "2026-10-16T00:16:27+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "a427738f64a490ad",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "17:00",
+        "type": "Ambulansevakt",
+        "description": "Brann - Viking. Tilstede stadion kl 1800 SK Brann Herrer 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "2175e15fea0af6f23fcafba6",
       "observedAt": "2026-10-12T00:11:18+02:00",
       "organization": "RKAB",
@@ -344,5 +374,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:11:18+02:00"
+  "updatedAt": "2026-10-16T00:16:27+02:00"
 }
