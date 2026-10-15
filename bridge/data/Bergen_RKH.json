@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-15T00:11:21+02:00",
-  "checkedAt": "2026-10-15T23:46:28+02:00",
+  "updatedAt": "2026-10-16T00:06:23+02:00",
+  "checkedAt": "2026-10-16T00:06:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 38,
+  "eventCount": 36,
   "changes": {
     "added": 0,
-    "removed": 5,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "df3f7f83c4ffaa6f",
-      "dateIso": "2026-10-09",
-      "dateLabel": "fre. 9.10",
-      "time": "09:30",
-      "type": "Sanitetsvakt",
-      "description": "Ado Arena halvmarathon Fredag Bergen Challenge",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "013db53adc3c4878",
-      "dateIso": "2026-10-09",
-      "dateLabel": "fre. 9.10",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Brann mot Viking Brann mot Viking",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
     {
       "id": "3bd5f9c362803922",
       "dateIso": "2026-10-10",

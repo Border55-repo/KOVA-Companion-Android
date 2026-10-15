@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4cb8aaa04d69c372b70be922",
+      "observedAt": "2026-10-16T00:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "df3f7f83c4ffaa6f",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Ado Arena halvmarathon Fredag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "05599047d9393ce5018e24c6",
+      "observedAt": "2026-10-16T00:06:23+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "013db53adc3c4878",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Viking Brann mot Viking",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "5a8297beb6487362d40cdcfe",
       "observedAt": "2026-10-15T00:11:21+02:00",
       "organization": "Bergen RKH",
@@ -998,5 +1028,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:11:21+02:00"
+  "updatedAt": "2026-10-16T00:06:23+02:00"
 }

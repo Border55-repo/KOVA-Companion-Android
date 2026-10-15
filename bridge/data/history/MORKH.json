@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5c4533d5a380d01aa64f89dc",
+      "observedAt": "2026-10-16T00:06:31+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "f48e9b69ff1e5a2a",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "00:00",
+        "type": "Aktivitet",
+        "description": "5.2 utlånt til PA 5.2 lånt ut",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "c66455885e3b11a87e5dd7d9",
+      "observedAt": "2026-10-16T00:06:31+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "57103313b99a5a69",
+        "dateIso": "2026-12-01",
+        "dateLabel": "tir. 1.12",
+        "time": "17:00",
+        "type": "Eksterne møter",
+        "description": "Taugruppa møte grottegruppe - Ta 5.2. Taugruppa til Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "860aa0119165842296730cd4",
+      "observedAt": "2026-10-16T00:06:31+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "881f5b486dfd386b",
+        "dateIso": "2026-12-01",
+        "dateLabel": "tir. 1.12",
+        "time": "17:30",
+        "type": "Eksterne møter",
+        "description": "Taugruppa møte grottegruppe Taugruppa til Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "ea1a469849cca2f89a1a5ac4",
+      "observedAt": "2026-10-16T00:06:31+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "81a37b5d8e12b5fd",
+        "dateIso": "2026-12-09",
+        "dateLabel": "ons. 9.12",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Onsdag Travvakt LAG 5",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "e1d30f4082d39ff70838c8a4",
       "observedAt": "2026-10-15T18:26:36+02:00",
       "organization": "MORKH",
@@ -1046,5 +1106,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T18:26:36+02:00"
+  "updatedAt": "2026-10-16T00:06:31+02:00"
 }

@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-15T18:26:36+02:00",
-  "checkedAt": "2026-10-15T23:46:30+02:00",
+  "updatedAt": "2026-10-16T00:06:31+02:00",
+  "checkedAt": "2026-10-16T00:06:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
   "eventCount": 38,
   "changes": {
-    "added": 3,
-    "removed": 0,
+    "added": 2,
+    "removed": 2,
     "changed": 0
   },
   "events": [
@@ -78,6 +78,15 @@
       "time": "",
       "type": "Sanitetsvakt",
       "description": "Lørdag V75/Oaks Travvakt LAG 1",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "f48e9b69ff1e5a2a",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "00:00",
+      "type": "Aktivitet",
+      "description": "5.2 utlånt til PA 5.2 lånt ut",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -288,12 +297,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "881f5b486dfd386b",
+      "id": "57103313b99a5a69",
       "dateIso": "2026-12-01",
       "dateLabel": "tir. 1.12",
-      "time": "17:30",
+      "time": "17:00",
       "type": "Eksterne møter",
-      "description": "Taugruppa møte grottegruppe Taugruppa til Moss",
+      "description": "Taugruppa møte grottegruppe - Ta 5.2. Taugruppa til Moss",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -312,15 +321,6 @@
       "time": "18:30",
       "type": "Korpskveld",
       "description": "Pasientundersøkelse og CORPULS korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
-    {
-      "id": "81a37b5d8e12b5fd",
-      "dateIso": "2026-12-09",
-      "dateLabel": "ons. 9.12",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Onsdag Travvakt LAG 5",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {

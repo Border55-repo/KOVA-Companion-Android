@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6878e1aeeaf19327004faafd",
+      "observedAt": "2026-10-16T00:06:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "035f80be558cf114",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "9429d44cbc3ecef82976f14f",
+      "observedAt": "2026-10-16T00:06:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7bc985e61eecab03",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "4a605a6ab390eef6428dcb95",
+      "observedAt": "2026-10-16T00:06:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c19f3ec516204ef5",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "V-Vann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "3ff578cbc5054888fcb9fa58",
+      "observedAt": "2026-10-16T00:06:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bd44745cfcb14315",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "fc4d6077d49d786ba2c5ee61",
+      "observedAt": "2026-10-16T00:06:27+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "484c97eacd663f1f",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "-> 16:30",
+        "type": "Interne kurs",
+        "description": "Fana. Del 2/2. Påmeldingsfrist 17. SEP. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "8ddfcd636a2fdb678cbb6357",
       "observedAt": "2026-10-15T00:11:29+02:00",
       "organization": "LaksevaagRKH",
@@ -725,5 +800,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:11:29+02:00"
+  "updatedAt": "2026-10-16T00:06:27+02:00"
 }
