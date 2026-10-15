@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e4aee4fb51fb586c644dad30",
+      "observedAt": "2026-10-15T17:11:40+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "c4199b2cb24a0a28",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Vinter Maraton",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "58600563c25cc1ac572e266f",
       "observedAt": "2026-10-15T00:01:37+02:00",
       "organization": "UllensakerRKH",
@@ -1220,5 +1235,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:01:37+02:00"
+  "updatedAt": "2026-10-15T17:11:40+02:00"
 }
