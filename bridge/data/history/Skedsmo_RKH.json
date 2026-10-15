@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "efe04fd1744c6385a0c25dbf",
+      "observedAt": "2026-10-16T00:01:40+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "103ea5117950e712",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "18:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt Ambulansevakter",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "08049b938e000b222584aa14",
       "observedAt": "2026-10-15T21:31:27+02:00",
       "organization": "Skedsmo RKH",
@@ -494,5 +509,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T21:31:27+02:00"
+  "updatedAt": "2026-10-16T00:01:40+02:00"
 }

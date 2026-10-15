@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-15T14:01:43+02:00",
-  "checkedAt": "2026-10-15T23:56:23+02:00",
+  "updatedAt": "2026-10-16T00:01:36+02:00",
+  "checkedAt": "2026-10-16T00:01:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 44,
+  "eventCount": 41,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "6219890abea51982",
-      "dateIso": "2026-10-09",
-      "dateLabel": "fre. 9.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "8044a58b202f32db",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "be3225f0d19cf4f0",
       "dateIso": "2026-10-10",
@@ -51,15 +33,6 @@
       "time": "13:30",
       "type": "Sanitetsvakt",
       "description": "Sanitetsvakt Fotballkamp VIF 2 - Frigg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "5179c1f30a9f9c1d",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "-> 21:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {

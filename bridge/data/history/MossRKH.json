@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "88ca6a4f338cf72330152317",
+      "observedAt": "2026-10-16T00:01:46+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cfea5630d1cd4a81",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 3/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "ceb57ee70e3e9789b25285ec",
+      "observedAt": "2026-10-16T00:01:46+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "74dbe6b32c637063",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 3/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "e2443838e79db28a6183c96b",
+      "observedAt": "2026-10-16T00:01:46+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b0583090d10abb20",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 3/4 Avansert førstehjelp (AFØR) Vestfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "0f8d7d2e5f6a2441bb3225d7",
       "observedAt": "2026-10-13T00:01:29+02:00",
       "organization": "MossRKH",
@@ -506,5 +551,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T00:01:29+02:00"
+  "updatedAt": "2026-10-16T00:01:46+02:00"
 }
