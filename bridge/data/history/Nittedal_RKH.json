@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8a71e3b309e411dfba7427b3",
+      "observedAt": "2026-10-15T14:01:43+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "ff38f454343741ff",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Omlegging til vinterhjul på RK32, RK51, RK52 Korpskveld: Winter is coming (+ sosialt)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "98cf8ab2aec872ef14adb94a",
       "observedAt": "2026-10-15T00:01:35+02:00",
       "organization": "Nittedal RKH",
@@ -680,5 +695,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:01:35+02:00"
+  "updatedAt": "2026-10-15T14:01:43+02:00"
 }
