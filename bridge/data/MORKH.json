@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T00:06:23+02:00",
-  "checkedAt": "2026-10-15T18:06:23+02:00",
+  "updatedAt": "2026-10-15T18:26:36+02:00",
+  "checkedAt": "2026-10-15T18:26:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 35,
+  "eventCount": 38,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 3,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -270,6 +270,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
+      "id": "5c92f8a9ebf0415e",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Kart og Kompas ( søk på vinterstid) korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
       "id": "d33991c5d4fd0eb6",
       "dateIso": "2026-11-26",
       "dateLabel": "tor. 26.11",
@@ -297,6 +306,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
+      "id": "298ff407322e16dd",
+      "dateIso": "2026-12-08",
+      "dateLabel": "tir. 8.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Pasientundersøkelse og CORPULS korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
       "id": "81a37b5d8e12b5fd",
       "dateIso": "2026-12-09",
       "dateLabel": "ons. 9.12",
@@ -321,6 +339,15 @@
       "time": "",
       "type": "Aktivitet",
       "description": "Tid og påmelding kommer. Fredrikstad. Julebord for alle korpsene",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "ebbaa5bb0ab51ba7",
+      "dateIso": "2026-12-15",
+      "dateLabel": "tir. 15.12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Depotkveld korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {

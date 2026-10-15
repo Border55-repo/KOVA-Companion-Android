@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e1d30f4082d39ff70838c8a4",
+      "observedAt": "2026-10-15T18:26:36+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "5c92f8a9ebf0415e",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kart og Kompas ( søk på vinterstid) korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "33ebaca035d9aafa169ac529",
+      "observedAt": "2026-10-15T18:26:36+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "298ff407322e16dd",
+        "dateIso": "2026-12-08",
+        "dateLabel": "tir. 8.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Pasientundersøkelse og CORPULS korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "b43ecd788d07027e71fe7eeb",
+      "observedAt": "2026-10-15T18:26:36+02:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "ebbaa5bb0ab51ba7",
+        "dateIso": "2026-12-15",
+        "dateLabel": "tir. 15.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Depotkveld korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "6a31bff0b8597321c76fcbaa",
       "observedAt": "2026-10-13T00:06:23+02:00",
       "organization": "MORKH",
@@ -1001,5 +1046,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T00:06:23+02:00"
+  "updatedAt": "2026-10-15T18:26:36+02:00"
 }
