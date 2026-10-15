@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-14T00:01:25+02:00",
-  "checkedAt": "2026-10-15T21:26:30+02:00",
+  "updatedAt": "2026-10-15T21:31:27+02:00",
+  "checkedAt": "2026-10-15T21:31:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 47,
+  "eventCount": 49,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -78,6 +78,24 @@
       "time": "19:00",
       "type": "Interne kurs",
       "description": "Styremøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "ef7cdabf608d66c6",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "07:45",
+      "type": "Sanitetsvakt",
+      "description": "51 i Bruk.53 tilbake. Brytestevne",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "3e9cd6f56e50ad03",
+      "dateIso": "2026-10-17",
+      "dateLabel": "lør. 17.10",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "53 i bruk. 51 tilbake Brytestevne",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "08049b938e000b222584aa14",
+      "observedAt": "2026-10-15T21:31:27+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "added",
+      "event": {
+        "id": "ef7cdabf608d66c6",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "07:45",
+        "type": "Sanitetsvakt",
+        "description": "51 i Bruk.53 tilbake. Brytestevne",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "08415bb0e15580d25fc6979a",
+      "observedAt": "2026-10-15T21:31:27+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "added",
+      "event": {
+        "id": "3e9cd6f56e50ad03",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "53 i bruk. 51 tilbake Brytestevne",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "51aa7f43af069f273317135a",
       "observedAt": "2026-10-14T00:01:25+02:00",
       "organization": "Skedsmo RKH",
@@ -464,5 +494,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T00:01:25+02:00"
+  "updatedAt": "2026-10-15T21:31:27+02:00"
 }
