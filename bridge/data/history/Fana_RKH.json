@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "293b6507f378949a6a3026f2",
+      "observedAt": "2026-10-15T16:41:36+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "9490199a1bd201d1",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24. OKTOBER SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24.10.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "365de6bf4b5446b0b366446e",
       "observedAt": "2026-10-15T12:01:54+02:00",
       "organization": "Fana RKH",
@@ -506,5 +521,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T12:01:54+02:00"
+  "updatedAt": "2026-10-15T16:41:36+02:00"
 }

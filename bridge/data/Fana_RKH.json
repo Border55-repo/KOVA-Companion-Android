@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-15T12:01:54+02:00",
-  "checkedAt": "2026-10-15T16:18:13+02:00",
+  "updatedAt": "2026-10-15T16:41:36+02:00",
+  "checkedAt": "2026-10-15T16:41:36+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 11,
+  "eventCount": 12,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -105,6 +105,15 @@
       "time": "",
       "type": "Interne kurs",
       "description": "KSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "9490199a1bd201d1",
+      "dateIso": "2026-10-24",
+      "dateLabel": "lør. 24.10",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24. OKTOBER SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24.10.",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
     },
     {
