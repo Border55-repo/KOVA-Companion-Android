@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T11:36:25+02:00",
-  "checkedAt": "2026-10-15T23:51:29+02:00",
+  "updatedAt": "2026-10-16T00:11:38+02:00",
+  "checkedAt": "2026-10-16T00:11:38+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 34,
+  "eventCount": 32,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 2,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "22a39fa7d6397bc8",
-      "dateIso": "2026-10-09",
-      "dateLabel": "fre. 9.10",
-      "time": "18:00",
-      "type": "Sanitetsvakt",
-      "description": "Konsert med Trang Fødsel og Valkyrien Allstars UKAiÅS 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
-    {
-      "id": "6943cc949f00d79e",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "-> 01:30",
-      "type": "Sanitetsvakt",
-      "description": "Konsert med Trang Fødsel og Valkyrien Allstars UKAiÅS 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
     {
       "id": "f43eefd0e74e4431",
       "dateIso": "2026-10-10",

@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "01c8eb7ca20ab601cbb03ddc",
+      "observedAt": "2026-10-16T00:11:32+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7df182a692d55491",
+        "dateIso": "2026-10-09",
+        "dateLabel": "fre. 9.10",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "05675f1b1515334a9804fd08",
+      "observedAt": "2026-10-16T00:11:32+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4b09bf50503cdb2b",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "907a45292c52f11ddfee5daa",
+      "observedAt": "2026-10-16T00:11:32+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "173022b4aa067d88",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "-> 18:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "368c394ba45f3a5469eeccdf",
       "observedAt": "2026-10-15T00:16:29+02:00",
       "organization": "HaldenRKH",
@@ -926,5 +971,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:16:29+02:00"
+  "updatedAt": "2026-10-16T00:11:32+02:00"
 }
