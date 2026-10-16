@@ -12,7 +12,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
-  <link rel="stylesheet" href="./styles.css?v=2.3.4">
+  <link rel="stylesheet" href="./styles.css?v=2.3.5">
 </head>
 <body>
   <div class="ambulance-lights" aria-hidden="true"><span></span><span></span></div>
@@ -21,7 +21,7 @@
     <div>
       <p class="eyebrow">RØDE KORS HJELPEKORPS</p>
       <h1>Kova Companion</h1>
-      <p class="version">Webapp · Android og iPhone · 2.3.4</p>
+      <p class="version">Webapp · Android og iPhone · 2.3.5</p>
     </div>
     <button id="installBtn" class="ghost hidden">Installer</button>
   </header>
@@ -181,6 +181,7 @@
       <button id="notificationBtn" class="small">Aktiver varsler</button>
       <button id="pushSelfTestBtn" class="small" disabled>Send meg et testvarsel</button>
       <p id="pushSelfTestStatus" class="muted" role="status">Aktiver varsler for å teste push på denne enheten.</p>
+      <p id="notificationDiagnostics" class="muted" role="status"></p>
     </section>
 
     <section id="remindersCard" class="card" aria-labelledby="remindersTitle">
@@ -341,7 +342,7 @@
     </article>
   </template>
 
-  <script type="module" src="./app.js?v=2.3.2"></script>
+  <script type="module" src="./app.js?v=2.3.5"></script>
 </body>
 </html>
 

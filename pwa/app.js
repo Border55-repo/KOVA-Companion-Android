@@ -434,6 +434,7 @@ async function refreshNotificationUi(){
   const button=$("notificationBtn");
   const status=$("notificationStatus");
   const hint=$("notificationHint");
+  const diagnostics=$("notificationDiagnostics");
   $("pushSelfTestBtn").disabled=true;
 
   if(isIOS()&&!isStandalone()){
@@ -441,6 +442,7 @@ async function refreshNotificationUi(){
     hint.textContent="På iPhone fungerer varsler etter at PWA-en er lagt på Hjem-skjermen.";
     button.textContent="Installer først";
     button.disabled=true;
+    diagnostics.textContent="Tillatelse: ikke kontrollert · Abonnement: ikke opprettet · Server: ikke registrert";
     return;
   }
 
@@ -448,6 +450,7 @@ async function refreshNotificationUi(){
     status.textContent="Ikke støttet på denne enheten";
     hint.textContent="";
     button.disabled=true;
+    diagnostics.textContent="Denne nettleseren støtter ikke Web Push.";
     return;
   }
 
@@ -456,6 +459,8 @@ async function refreshNotificationUi(){
   const enabled=Notification.permission==="granted" && !!subscription;
   const registeredAt=storage.getItem("kova.pwa.pushRegisteredAt");
   const backendRegistered=enabled && !!registeredAt;
+  const permission=Notification.permission==="granted"?"tillatelse gitt":Notification.permission==="denied"?"blokkert":"ikke valgt";
+  diagnostics.textContent=`Tillatelse: ${permission} · Abonnement: ${subscription?"opprettet":"mangler"} · Server: ${backendRegistered?"registrert":"ikke registrert"}`;
   $("pushSelfTestBtn").disabled=!backendRegistered;
   if(backendRegistered)$("pushSelfTestStatus").textContent="Testen sendes bare til denne enheten, ved neste synk. Vanligvis innen 5–10 minutter.";
   status.textContent=backendRegistered
@@ -492,6 +497,7 @@ async function requestPushSelfTest(){
       reminderToken:reminderToken(),requestedAt:firebase.serverTimestamp()
     });
     storage.setItem("kova.pwa.lastPushTest",String(Date.now()));
+    status.dataset.testRequestedAt=new Date().toISOString();
     status.textContent="Test bestilt. Den sendes ved neste synk, vanligvis innen 5–10 minutter. Mottak er bekreftet først når varselet vises på enheten. Du kan lukke appen mens du venter.";
   }catch(error){
     status.textContent="Test ikke bestilt: "+(error.message||String(error));

@@ -12,7 +12,7 @@ test('new worker installs fresh shell assets instead of recycling the HTTP cache
   let done;handlers.install({waitUntil:p=>done=p});await done;
   assert.ok(requested.length>0);
   assert.ok(requested.every(request=>request.cache==='reload'));
-  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js?v=2.3.2'));
+  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js?v=2.3.5'));
   assert.ok(requested.some(request=>request.url==='https://example.test/app/local-state.js?v=2.3.2'));
 });
 test('snapshot URLs follow Bridge filenames for spaces and Norwegian letters',()=>{
@@ -45,3 +45,4 @@ test('focus and visibility events share one foreground refresh',async()=>{
   const a=ctx.refreshOnForeground(),b=ctx.refreshOnForeground();
   assert.equal(checks,1);finish(false);await Promise.all([a,b]);assert.equal(loads,1);
 });
+
