@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T00:06:31+02:00",
-  "checkedAt": "2026-10-16T13:06:01+02:00",
+  "updatedAt": "2026-10-16T13:26:00+02:00",
+  "checkedAt": "2026-10-16T13:26:00+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
   "eventCount": 38,
   "changes": {
-    "added": 2,
-    "removed": 2,
-    "changed": 0
+    "added": 0,
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -315,12 +315,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "298ff407322e16dd",
+      "id": "fdccafe1da7dce87",
       "dateIso": "2026-12-08",
       "dateLabel": "tir. 8.12",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Pasientundersøkelse og CORPULS korpskveld",
+      "description": "Tema kommer korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
