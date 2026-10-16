@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cfe4972310553c86cc91fd89",
+      "observedAt": "2026-10-16T13:16:00+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "82e829a252f2193c",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "15:00",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte Lokalrådsmøte 8",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "c184255cecea748047dcaafd",
+      "observedAt": "2026-10-16T13:16:00+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "4929749a73bf1543",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "16:00",
+        "type": "Rådsmøte",
+        "description": "Lokalrådsmøte 8",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "a1aac1818821dc98aae5b95c",
       "observedAt": "2026-10-15T00:01:45+02:00",
       "organization": "SteinkjerRKH",
@@ -197,5 +227,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:01:45+02:00"
+  "updatedAt": "2026-10-16T13:16:00+02:00"
 }
