@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T13:36:11+02:00",
-  "checkedAt": "2026-10-16T17:11:07+02:00",
+  "updatedAt": "2026-10-16T17:31:10+02:00",
+  "checkedAt": "2026-10-16T17:31:10+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 18,
+  "eventCount": 19,
   "changes": {
-    "added": 2,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -69,6 +69,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld 32 Korpskveld 32",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "00e6bcc429ba0e94",
+      "dateIso": "2026-10-13",
+      "dateLabel": "tir. 13.10",
+      "time": "17:00",
+      "type": "Forebygging",
+      "description": "Ivaretakelse av hjelperen",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {
