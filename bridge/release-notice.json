@@ -1,7 +1,7 @@
 {
-  "id": "kova-20261016-pushstatus",
-  "version": "2.3.4",
-  "title": "Kova Companion 2.3.4: tydeligere Android-varsler",
-  "body": "Webappen ber nå nettleseren vise varsler som vars­lende. Android kan fortsatt styre popup og lyd i telefonens varselinnstillinger."
+  "id": "kova-20261016-notifydiagnostics",
+  "version": "2.3.5",
+  "title": "Kova Companion 2.3.5: bedre varselstatus",
+  "body": "Varselpanelet viser nå tillatelse, abonnement og serverregistrering, slik at du ser hvor et testvarsel stopper."
 }
 
