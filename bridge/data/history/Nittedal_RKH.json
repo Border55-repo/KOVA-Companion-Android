@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ff4d1c31e9f527c6e991b87a",
+      "observedAt": "2026-10-17T00:05:52+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "be3225f0d19cf4f0",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "10:00",
+        "type": "Eksterne kurs",
+        "description": "Øvningsdag før Regodkjenning AFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "2e36a239ca2ffd0c93267fa2",
+      "observedAt": "2026-10-17T00:05:52+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "20371f5e6c4ff63a",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt Fotballkamp VIF 2 - Frigg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "683f586201192d7279c1e599",
       "observedAt": "2026-10-16T00:01:36+02:00",
       "organization": "Nittedal RKH",
@@ -740,5 +770,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T00:01:36+02:00"
+  "updatedAt": "2026-10-17T00:05:52+02:00"
 }

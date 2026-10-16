@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5ebca5e39bf1e1ae61965787",
+      "observedAt": "2026-10-17T00:06:00+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bdeabfe59cd8996e",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "På Røde Kors huset i Halden Startkurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "01c8eb7ca20ab601cbb03ddc",
       "observedAt": "2026-10-16T00:11:32+02:00",
       "organization": "HaldenRKH",
@@ -971,5 +986,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T00:11:32+02:00"
+  "updatedAt": "2026-10-17T00:06:00+02:00"
 }

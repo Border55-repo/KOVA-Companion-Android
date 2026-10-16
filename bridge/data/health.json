@@ -8,13 +8,13 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-10-16T23:46:03+02:00",
-  "lastSuccessfulRunAt": "2026-10-16T23:46:03+02:00",
-  "lastFullySuccessfulRunAt": "2026-10-16T23:46:03+02:00",
+  "checkedAt": "2026-10-17T00:06:08+02:00",
+  "lastSuccessfulRunAt": "2026-10-17T00:06:08+02:00",
+  "lastFullySuccessfulRunAt": "2026-10-17T00:06:08+02:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-10-16T19:31:18+02:00",
-  "lastPushCount": 1,
+  "lastPushAt": "2026-10-17T00:06:08+02:00",
+  "lastPushCount": 7,
   "organizationCount": 44,
   "helpCorpsCount": 40,
   "polledThisRun": 14,
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 16,
       "updatedAt": "2026-10-14T19:46:36+02:00",
-      "checkedAt": "2026-10-16T23:45:54+02:00",
+      "checkedAt": "2026-10-17T00:05:51+02:00",
       "error": null
     },
     {
@@ -36,9 +36,9 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "eventCount": 41,
-      "updatedAt": "2026-10-16T00:01:36+02:00",
-      "checkedAt": "2026-10-16T23:45:54+02:00",
+      "eventCount": 39,
+      "updatedAt": "2026-10-17T00:05:52+02:00",
+      "checkedAt": "2026-10-17T00:05:53+02:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 48,
       "updatedAt": "2026-10-16T00:01:40+02:00",
-      "checkedAt": "2026-10-16T23:45:55+02:00",
+      "checkedAt": "2026-10-17T00:05:54+02:00",
       "error": null
     },
     {
@@ -58,9 +58,9 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "eventCount": 55,
-      "updatedAt": "2026-10-15T17:11:40+02:00",
-      "checkedAt": "2026-10-16T23:45:55+02:00",
+      "eventCount": 53,
+      "updatedAt": "2026-10-17T00:05:55+02:00",
+      "checkedAt": "2026-10-17T00:05:59+02:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 43,
       "updatedAt": "2026-10-15T00:16:27+02:00",
-      "checkedAt": "2026-10-16T23:45:56+02:00",
+      "checkedAt": "2026-10-17T00:05:59+02:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 0,
       "updatedAt": "2026-10-01T00:05:57+02:00",
-      "checkedAt": "2026-10-16T23:45:56+02:00",
+      "checkedAt": "2026-10-17T00:06:00+02:00",
       "error": null
     },
     {
@@ -91,9 +91,9 @@
       "category": "hjelpekorps",
       "file": "HaldenRKH.json",
       "status": "ok",
-      "eventCount": 40,
-      "updatedAt": "2026-10-16T00:11:32+02:00",
-      "checkedAt": "2026-10-16T23:45:57+02:00",
+      "eventCount": 39,
+      "updatedAt": "2026-10-17T00:06:00+02:00",
+      "checkedAt": "2026-10-17T00:06:01+02:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 9,
       "updatedAt": "2026-10-13T13:16:15+02:00",
-      "checkedAt": "2026-10-16T23:45:57+02:00",
+      "checkedAt": "2026-10-17T00:06:01+02:00",
       "error": null
     },
     {
@@ -115,7 +115,7 @@
       "status": "ok",
       "eventCount": 0,
       "updatedAt": "2026-09-22T23:31:19+02:00",
-      "checkedAt": "2026-10-16T23:45:58+02:00",
+      "checkedAt": "2026-10-17T00:06:02+02:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 6,
       "updatedAt": "2026-10-08T00:16:24+02:00",
-      "checkedAt": "2026-10-16T23:45:58+02:00",
+      "checkedAt": "2026-10-17T00:06:02+02:00",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
       "status": "ok",
       "eventCount": 52,
       "updatedAt": "2026-10-16T15:06:03+02:00",
-      "checkedAt": "2026-10-16T23:45:58+02:00",
+      "checkedAt": "2026-10-17T00:06:03+02:00",
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "status": "ok",
       "eventCount": 7,
       "updatedAt": "2026-10-08T00:16:29+02:00",
-      "checkedAt": "2026-10-16T23:45:59+02:00",
+      "checkedAt": "2026-10-17T00:06:04+02:00",
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "status": "ok",
       "eventCount": 12,
       "updatedAt": "2026-10-05T00:01:48+02:00",
-      "checkedAt": "2026-10-16T23:45:59+02:00",
+      "checkedAt": "2026-10-17T00:06:04+02:00",
       "error": null
     },
     {
@@ -168,9 +168,9 @@
       "category": "hjelpekorps",
       "file": "V_RKH.json",
       "status": "ok",
-      "eventCount": 32,
-      "updatedAt": "2026-10-16T00:11:38+02:00",
-      "checkedAt": "2026-10-16T23:46:00+02:00",
+      "eventCount": 30,
+      "updatedAt": "2026-10-17T00:06:05+02:00",
+      "checkedAt": "2026-10-17T00:06:06+02:00",
       "error": null
     }
   ]

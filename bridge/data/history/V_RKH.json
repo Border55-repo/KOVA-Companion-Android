@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "96e468d27080c669504e1af4",
+      "observedAt": "2026-10-17T00:06:05+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f43eefd0e74e4431",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med DDE og Kakkmaddafakka UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "8f7f717f95772e832bf6b2a8",
+      "observedAt": "2026-10-17T00:06:05+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cbeb0151b3ec67ba",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "-> 02:00",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med DDE og Kakkmaddafakka UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "59a2e87212950d7812d50d65",
       "observedAt": "2026-10-16T00:11:38+02:00",
       "organization": "VÅRKH",
@@ -221,5 +251,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T00:11:38+02:00"
+  "updatedAt": "2026-10-17T00:06:05+02:00"
 }

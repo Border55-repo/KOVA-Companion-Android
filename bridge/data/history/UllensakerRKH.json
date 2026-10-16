@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "13876021d21197be89bba530",
+      "observedAt": "2026-10-17T00:05:55+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a9bb2f1536a5fa63",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Klubbløp NMK Gardermoen - Ambulanse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "e8c9e6c8f65efd8027df9653",
+      "observedAt": "2026-10-17T00:05:55+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "91d73f4e68963b2c",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt OUS - turnus",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "e4aee4fb51fb586c644dad30",
       "observedAt": "2026-10-15T17:11:40+02:00",
       "organization": "UllensakerRKH",
@@ -1235,5 +1265,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T17:11:40+02:00"
+  "updatedAt": "2026-10-17T00:05:55+02:00"
 }

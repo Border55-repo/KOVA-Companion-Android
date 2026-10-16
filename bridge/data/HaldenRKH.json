@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T00:11:32+02:00",
-  "checkedAt": "2026-10-16T23:45:57+02:00",
+  "updatedAt": "2026-10-17T00:06:00+02:00",
+  "checkedAt": "2026-10-17T00:06:00+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 40,
+  "eventCount": 39,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "bdeabfe59cd8996e",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "10:00",
-      "type": "Interne kurs",
-      "description": "På Røde Kors huset i Halden Startkurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
     {
       "id": "731da8b1cbf22bfb",
       "dateIso": "2026-10-12",
