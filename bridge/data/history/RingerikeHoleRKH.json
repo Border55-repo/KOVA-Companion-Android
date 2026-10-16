@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d4866848610eac1681dd7f75",
+      "observedAt": "2026-10-17T00:11:02+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "removed",
+      "event": {
+        "id": "557f3853f0a40ca3",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitet og sikkerhet ved arrangementet Rosa Sløyfe Løpet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "314eec48b43bc535afc8cf85",
       "observedAt": "2026-10-12T00:11:20+02:00",
       "organization": "RingerikeHoleRKH",
@@ -152,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-12T00:11:20+02:00"
+  "updatedAt": "2026-10-17T00:11:02+02:00"
 }

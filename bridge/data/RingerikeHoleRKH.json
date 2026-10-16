@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-12T00:11:20+02:00",
-  "checkedAt": "2026-10-16T23:51:03+02:00",
+  "updatedAt": "2026-10-17T00:11:02+02:00",
+  "checkedAt": "2026-10-17T00:11:02+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH",
-  "eventCount": 17,
+  "eventCount": 16,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "557f3853f0a40ca3",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Sanitet og sikkerhet ved arrangementet Rosa Sløyfe Løpet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
     {
       "id": "7b6a6b98acf66b10",
       "dateIso": "2026-10-12",

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "02eac038dd35d5f907c1302a",
+      "observedAt": "2026-10-17T00:11:06+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "860e6a65858a63ee",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Videregående Psykososial Førstehjelp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "74e236b7dbf3d48d8185e629",
+      "observedAt": "2026-10-17T00:11:06+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9e89d36bbb4adb78",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "-> 13:00",
+        "type": "Interne kurs",
+        "description": "Videregående Psykososial Førstehjelp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "8026a11cba99f0388ccbdca5",
       "observedAt": "2026-10-16T19:31:12+02:00",
       "organization": "SteinkjerRKH",
@@ -320,5 +350,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T19:31:12+02:00"
+  "updatedAt": "2026-10-17T00:11:06+02:00"
 }
