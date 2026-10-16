@@ -35,6 +35,7 @@ test('iPhone push is displayed even when history storage fails',async()=>{
   await push(w,{title:'Endringer',body:'Test',changeId:'same-id'});
   assert.equal(w.shown.length,1);
   assert.equal(w.shown[0].options.tag,'same-id');
+  assert.equal(w.shown[0].options.silent,false);
 });
 
 test('repeat push remains visible with the same replacement tag',async()=>{
@@ -146,3 +147,4 @@ test('first permission request starts directly in the iPhone tap handler',async(
   assert.equal(prompted,true);
   await done;
 });
+

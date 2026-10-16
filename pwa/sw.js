@@ -1,4 +1,4 @@
-const CACHE="kova-companion-pwa-v42";
+const CACHE="kova-companion-pwa-v43";
 const SHELL=["./guidance.js?v=2.3.1","./personal-backup.js?v=2.3.1","./","./index.html","./styles.css?v=2.3.3","./app.js?v=2.3.2","./local-state.js?v=2.3.2","./calendar.js?v=2.3.1","./data-source.js","./manifest.webmanifest","./icon.svg","./firebase-web-config.json","./privacy.html"];
 const HISTORY_DB="kova-companion-pwa-history";
 const HISTORY_STORE="notifications";
@@ -208,6 +208,9 @@ self.addEventListener("push",event=>{
       icon:"./icon.svg",
       badge:"./icon.svg",
       tag:key,
+      // Ask the browser for an alerting notification. Android may still apply
+      // the user's channel or Do Not Disturb settings.
+      silent:false,
       renotify:false,
       data:{
         url:payload.url||"",
@@ -251,3 +254,4 @@ self.addEventListener("pushsubscriptionchange",event=>{
     })
   );
 });
+
