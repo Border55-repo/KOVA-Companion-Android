@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "42c9d33997f7df4cca626426",
+      "observedAt": "2026-10-17T00:15:59+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f5caff5810edbed9",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte F3: 10.45 Nøklevann Rundt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "1d28067db2b96a742496ce69",
       "observedAt": "2026-10-04T21:26:12+02:00",
       "organization": "OppSkiRKH",
@@ -107,5 +122,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-04T21:26:12+02:00"
+  "updatedAt": "2026-10-17T00:15:59+02:00"
 }
