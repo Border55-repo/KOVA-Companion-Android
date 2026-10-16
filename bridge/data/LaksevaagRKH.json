@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T00:06:27+02:00",
-  "checkedAt": "2026-10-16T23:57:21+02:00",
+  "updatedAt": "2026-10-17T00:21:06+02:00",
+  "checkedAt": "2026-10-17T00:21:06+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 32,
+  "eventCount": 29,
   "changes": {
     "added": 0,
-    "removed": 5,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "7f8066819a718de1",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "08:00",
-      "type": "Sanitetsvakt",
-      "description": "sanitetsvakt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "967ff2b4c167b883",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "09:00",
-      "type": "Eksterne kurs",
-      "description": "V-Vann",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "06d88d714bca1953",
-      "dateIso": "2026-10-10",
-      "dateLabel": "lør. 10.10",
-      "time": "15:00",
-      "type": "Sanitetsvakt",
-      "description": "sanitetsvakt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "b082baa61fb2b4b9",
       "dateIso": "2026-10-11",

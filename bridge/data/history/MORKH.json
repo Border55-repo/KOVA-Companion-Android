@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1606c695e275d1cdd466b859",
+      "observedAt": "2026-10-17T00:21:10+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "fb72f07c4f29470d",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Fredrikstad. Mer info og tider kommer. KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "7cf36f3f56965b34ee207039",
+      "observedAt": "2026-10-17T00:21:10+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "efcd4075d08984a5",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Fredrikstad. Mer info og tider kommer. KSAM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "e5a5bd9cd6242ae61ec57abb",
       "observedAt": "2026-10-16T13:26:00+02:00",
       "organization": "MORKH",
@@ -1130,5 +1160,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T13:26:00+02:00"
+  "updatedAt": "2026-10-17T00:21:10+02:00"
 }

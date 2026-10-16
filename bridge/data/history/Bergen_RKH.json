@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "39d9a9173f901416e104f70d",
+      "observedAt": "2026-10-17T00:20:56+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "3bd5f9c362803922",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Arena Laurdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "46b523a480f2fc4a16fc8c0b",
+      "observedAt": "2026-10-17T00:20:56+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "70c53a936050dc5c",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "Rollandsbanen Laurdag Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "f2d7aaa73d0841907d7b2422",
+      "observedAt": "2026-10-17T00:20:56+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "42f0738a294eab11",
+        "dateIso": "2026-10-10",
+        "dateLabel": "lør. 10.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Bankett Grieghallen Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "4cb8aaa04d69c372b70be922",
       "observedAt": "2026-10-16T00:06:23+02:00",
       "organization": "Bergen RKH",
@@ -1028,5 +1073,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T00:06:23+02:00"
+  "updatedAt": "2026-10-17T00:20:56+02:00"
 }
