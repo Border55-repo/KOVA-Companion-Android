@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T13:16:00+02:00",
-  "checkedAt": "2026-10-16T13:16:00+02:00",
+  "updatedAt": "2026-10-16T13:36:11+02:00",
+  "checkedAt": "2026-10-16T13:36:11+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 16,
+  "eventCount": 18,
   "changes": {
     "added": 2,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -72,10 +72,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {
-      "id": "7fa6adf9e8d89fd9",
+      "id": "26589cd16652b7c2",
       "dateIso": "2026-10-19",
       "dateLabel": "man. 19.10",
-      "time": "18:00",
+      "time": "16:00",
       "type": "Korpskveld",
       "description": "Korpskveld 33 Korpskveld 33",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
@@ -159,6 +159,24 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld 39 Korpskveld 39",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "a8b33586601ac3e9",
+      "dateIso": "2026-12-07",
+      "dateLabel": "man. 7.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 40 Korpskveld 40",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "4a436f610143c967",
+      "dateIso": "2026-12-14",
+      "dateLabel": "man. 14.12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 41 Korpskveld 41",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     }
   ]
