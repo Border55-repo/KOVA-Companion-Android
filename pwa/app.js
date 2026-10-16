@@ -464,7 +464,9 @@ async function refreshNotificationUi(){
       ? "Varsler er på lokalt – registrering mangler"
       : (Notification.permission==="denied" ? "Varsler er blokkert" : "Varsler er av");
   hint.textContent=backendRegistered
-    ? `Påminnelser for vaktene du velger. Generelle korpsvarsler: ${state.favoriteOrgs.size} korps.`
+    ? (isIOS()
+      ? `Påminnelser for vaktene du velger. Generelle korpsvarsler: ${state.favoriteOrgs.size} korps.`
+      : `Varsler er registrert. Android kan vise dem som popup eller i varslingspanelet avhengig av telefonens varselkategori.`)
     : enabled
       ? "Trykk Registrer på nytt for å fullføre oppsettet."
       : "Ny, endret og fjernet aktivitet";
@@ -1645,3 +1647,4 @@ $("backupConfirm").onclick=async()=>{
   }catch(error){$("backupStatus").textContent="Import feilet: "+(error.message||String(error));$("backupDialog").close()}
 };
 renderReminderOverview();
+

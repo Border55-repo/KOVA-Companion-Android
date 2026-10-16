@@ -1,7 +1,7 @@
 {
-  "id": "kova-20261009-androidpwa",
-  "version": "2.3.3",
-  "title": "Android-appen avsluttes – bruk webappen",
-  "body": "Den gamle Android-appen videreutvikles ikke lenger. Åpne Kova Companion som webapp på Android eller iPhone, legg den til på startskjermen og aktiver varsler der."
+  "id": "kova-20261016-pushstatus",
+  "version": "2.3.4",
+  "title": "Kova Companion 2.3.4: tydeligere Android-varsler",
+  "body": "Webappen ber nå nettleseren vise varsler som vars­lende. Android kan fortsatt styre popup og lyd i telefonens varselinnstillinger."
 }
 
