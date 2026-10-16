@@ -211,7 +211,7 @@ self.addEventListener("push",event=>{
       // Ask the browser for an alerting notification. Android may still apply
       // the user's channel or Do Not Disturb settings.
       silent:false,
-      renotify:true,
+      renotify:false,
       data:{
         url:payload.url||"",
         organization:historyItem.organization,
