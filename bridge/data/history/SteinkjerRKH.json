@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8026a11cba99f0388ccbdca5",
+      "observedAt": "2026-10-16T19:31:12+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "64598c9a0240791c",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "17:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld 32 Korpskveld 32",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      },
+      "oldEvent": {
+        "id": "f0a4fb2cf001d9c3",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld 32 Korpskveld 32",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "c9bf50fcaae3d78d1f250c82",
       "observedAt": "2026-10-16T17:31:10+02:00",
       "organization": "SteinkjerRKH",
@@ -296,5 +320,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T17:31:10+02:00"
+  "updatedAt": "2026-10-16T19:31:12+02:00"
 }
