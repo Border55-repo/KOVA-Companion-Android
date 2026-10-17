@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fa1fc74a4be7364d049667c3",
+      "observedAt": "2026-10-18T00:01:07+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a023c25b66f1e6c1",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - Strømmen OBOS-ligaen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "2d1126eb68876c7336451bcf",
       "observedAt": "2026-10-17T13:36:00+02:00",
       "organization": "BærumRKH",
@@ -671,5 +686,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T13:36:00+02:00"
+  "updatedAt": "2026-10-18T00:01:07+02:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "211ed622d2b5df3c760323b2",
+      "observedAt": "2026-10-18T00:01:05+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5a45f7d5e201ae34",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "12:30",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpskurs for barn Førstehjelpskurs Såner og Hølen Sanitetsforening",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "96e468d27080c669504e1af4",
       "observedAt": "2026-10-17T00:06:05+02:00",
       "organization": "VÅRKH",
@@ -251,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:06:05+02:00"
+  "updatedAt": "2026-10-18T00:01:05+02:00"
 }

@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-17T00:05:52+02:00",
-  "checkedAt": "2026-10-17T23:55:48+02:00",
+  "updatedAt": "2026-10-18T00:00:51+02:00",
+  "checkedAt": "2026-10-18T00:00:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 39,
+  "eventCount": 37,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "2413d5388350350b",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "09:00",
-      "type": "Øvelse",
-      "description": "Trening av hunder i ATV-søk, med Ullensaker RKH Øvelse: Samtrening med NRH",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "f8caa164b1bd942e",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "09:30",
-      "type": "Eksterne kurs",
-      "description": "Regodkjenning AFØR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "f4c10ca6bec1586e",
       "dateIso": "2026-10-16",

@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e384ad89351f8a24430ca200",
+      "observedAt": "2026-10-18T00:00:53+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "bda94220366d8f9a",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt Ambulansevakter",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "046ed7a76a7ec0068cef0925",
+      "observedAt": "2026-10-18T00:00:53+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a97682411b5261bf",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "17:15",
+        "type": "Ambulansevakt",
+        "description": "LSK-Molde Ambulanse LSK kamper høst 26",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "8d7e48c52a536b9770f2b914",
+      "observedAt": "2026-10-18T00:00:53+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "b2166b8ca6d2fc89",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "17:15",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm – Molde LSK-kamper Høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "efe04fd1744c6385a0c25dbf",
       "observedAt": "2026-10-16T00:01:40+02:00",
       "organization": "Skedsmo RKH",
@@ -509,5 +554,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T00:01:40+02:00"
+  "updatedAt": "2026-10-18T00:00:53+02:00"
 }
