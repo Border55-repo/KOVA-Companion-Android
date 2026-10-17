@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a4f545ca22b72e2d804cbdff",
+      "observedAt": "2026-10-17T19:45:51+02:00",
+      "organization": "RKAB",
+      "kind": "changed",
+      "event": {
+        "id": "7b328255ffb02545",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "09:00",
+        "type": "Interne kurs",
+        "description": "Regodkjenning AFØR (kontedag) Regodkjenning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      },
+      "oldEvent": {
+        "id": "60bfe3c9400a8b73",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "09:00",
+        "type": "Interne kurs",
+        "description": "Regodkjenning AFØR Regodkjenning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "ebd09509f1b8dc3111c5b96f",
       "observedAt": "2026-10-17T00:11:00+02:00",
       "organization": "RKAB",
@@ -389,5 +413,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:11:00+02:00"
+  "updatedAt": "2026-10-17T19:45:51+02:00"
 }

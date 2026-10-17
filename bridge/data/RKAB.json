@@ -7,14 +7,14 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-10-17T00:11:00+02:00",
-  "checkedAt": "2026-10-17T19:25:59+02:00",
+  "updatedAt": "2026-10-17T19:45:51+02:00",
+  "checkedAt": "2026-10-17T19:45:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB",
   "eventCount": 38,
   "changes": {
     "added": 0,
-    "removed": 1,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -108,12 +108,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
-      "id": "60bfe3c9400a8b73",
+      "id": "7b328255ffb02545",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
       "time": "09:00",
       "type": "Interne kurs",
-      "description": "Regodkjenning AFØR Regodkjenning",
+      "description": "Regodkjenning AFØR (kontedag) Regodkjenning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
     },
     {
