@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cd7e39cb50d16fb5e512aa53",
+      "observedAt": "2026-10-18T00:15:51+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4668808a12328382",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "09:30",
+        "type": "Aktivitet",
+        "description": "Dekkskifte - Søndag Dekkskifte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "16e222eac9c98a8a5d567b4e",
+      "observedAt": "2026-10-18T00:15:51+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7bb8601b20fd3916",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "13:30",
+        "type": "Aktivitet",
+        "description": "Dekkskifte - Søndag Dekkskifte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "302d6f4853570f056f96c9c2",
       "observedAt": "2026-10-17T00:21:15+02:00",
       "organization": "TRKH",
@@ -401,5 +431,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:21:15+02:00"
+  "updatedAt": "2026-10-18T00:15:51+02:00"
 }

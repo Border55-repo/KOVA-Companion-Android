@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "aac6c64dd48e44f32f04f1f6",
+      "observedAt": "2026-10-18T00:15:50+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "61538c416222c379",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Påmeldingsfrist 27.09.26 Kvalifisert samband (KSAM) Moss",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "9bd8bd929bb677c4c2a1d7dd",
       "observedAt": "2026-10-15T16:26:37+02:00",
       "organization": "RKSarpsborg",
@@ -713,5 +728,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T16:26:37+02:00"
+  "updatedAt": "2026-10-18T00:15:50+02:00"
 }

@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-17T00:21:15+02:00",
-  "checkedAt": "2026-10-17T23:55:52+02:00",
+  "updatedAt": "2026-10-18T00:15:51+02:00",
+  "checkedAt": "2026-10-18T00:15:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
-  "eventCount": 28,
+  "eventCount": 26,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "4668808a12328382",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "09:30",
-      "type": "Aktivitet",
-      "description": "Dekkskifte - Søndag Dekkskifte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "7bb8601b20fd3916",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "13:30",
-      "type": "Aktivitet",
-      "description": "Dekkskifte - Søndag Dekkskifte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
     {
       "id": "050ae2c25cc70738",
       "dateIso": "2026-10-16",

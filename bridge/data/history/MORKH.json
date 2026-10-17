@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4743af15e99967decd1341a1",
+      "observedAt": "2026-10-18T00:15:47+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "14fa80349db988ef",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "12:00",
+        "type": "Aktivitet",
+        "description": "Kun for tauredningsgruppa Rakkestad Tauredningsgruppe",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "e204f22d4be282c42e3bbb1d",
+      "observedAt": "2026-10-18T00:15:47+02:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "f93275515d698de0",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "12:00",
+        "type": "Øvelse",
+        "description": "Øvelse for KFØR ->AFØR - Aspiranter kan være med! Øvelse med tauruppa",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "1606c695e275d1cdd466b859",
       "observedAt": "2026-10-17T00:21:10+02:00",
       "organization": "MORKH",
@@ -1160,5 +1190,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:21:10+02:00"
+  "updatedAt": "2026-10-18T00:15:47+02:00"
 }
