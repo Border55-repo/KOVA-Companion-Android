@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-09T17:56:14+02:00",
-  "checkedAt": "2026-10-17T23:45:56+02:00",
+  "updatedAt": "2026-10-18T00:05:51+02:00",
+  "checkedAt": "2026-10-18T00:05:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
-  "eventCount": 28,
+  "eventCount": 26,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 2,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "8470501bfb1e61d3",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Odd - Bryne Skagerak Arena",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
-    },
-    {
-      "id": "b242a3732ecf2983",
-      "dateIso": "2026-10-11",
-      "dateLabel": "søn. 11.10",
-      "time": "16:30",
-      "type": "Sanitetsvakt",
-      "description": "Klosterskogen Travbane",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
-    },
     {
       "id": "306c949d9abdf4a6",
       "dateIso": "2026-10-12",

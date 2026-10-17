@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8e6243f70c89e0beaf7e63f7",
+      "observedAt": "2026-10-18T00:05:55+02:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b2102e588fdc44df",
+        "dateIso": "2026-10-11",
+        "dateLabel": "søn. 11.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane - Sogndal | Tentativt tidspunkt Åsane Fotball",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    },
+    {
       "changeId": "ab24d10d701d23bf51479f94",
       "observedAt": "2026-10-10T00:01:45+02:00",
       "organization": "AÅRKH",
@@ -122,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-10T00:01:45+02:00"
+  "updatedAt": "2026-10-18T00:05:55+02:00"
 }
