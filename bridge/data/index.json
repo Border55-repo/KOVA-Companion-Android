@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-10-18T00:05:58+02:00",
+  "updatedAt": "2026-10-18T00:11:01+02:00",
   "organizationCount": 42,
   "helpCorpsCount": 39,
   "organizations": [
@@ -30,7 +30,7 @@
       "category": "hjelpekorps",
       "file": "AskerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:55:54+02:00",
+      "checkedAt": "2026-10-18T00:11:01+02:00",
       "eventCount": 10,
       "updatedAt": "2026-10-15T00:06:31+02:00"
     },
@@ -40,7 +40,7 @@
       "category": "hjelpekorps",
       "file": "AHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:55:54+02:00",
+      "checkedAt": "2026-10-18T00:11:01+02:00",
       "eventCount": 15,
       "updatedAt": "2026-10-15T00:06:28+02:00"
     },
@@ -80,7 +80,7 @@
       "category": "hjelpekorps",
       "file": "B_SauheradRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:51+02:00",
+      "checkedAt": "2026-10-18T00:10:52+02:00",
       "eventCount": 21,
       "updatedAt": "2026-10-07T17:56:22+02:00"
     },
@@ -90,7 +90,7 @@
       "category": "hjelpekorps",
       "file": "DRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:52+02:00",
+      "checkedAt": "2026-10-18T00:10:53+02:00",
       "eventCount": 0,
       "updatedAt": "2026-10-01T00:05:57+02:00"
     },
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "EHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-18T00:05:47+02:00",
+      "checkedAt": "2026-10-18T00:10:50+02:00",
       "eventCount": 16,
       "updatedAt": "2026-10-14T19:46:36+02:00"
     },
@@ -110,7 +110,7 @@
       "category": "hjelpekorps",
       "file": "ERKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:52+02:00",
+      "checkedAt": "2026-10-18T00:10:53+02:00",
       "eventCount": 1,
       "updatedAt": "2026-10-13T17:07:39+02:00"
     },
@@ -120,9 +120,9 @@
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:53+02:00",
-      "eventCount": 10,
-      "updatedAt": "2026-10-17T00:15:56+02:00"
+      "checkedAt": "2026-10-18T00:10:55+02:00",
+      "eventCount": 9,
+      "updatedAt": "2026-10-18T00:10:53+02:00"
     },
     {
       "name": "Gjøvik Røde Kors Hjelpekorps",
@@ -200,9 +200,9 @@
       "category": "hjelpekorps",
       "file": "Lunner_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:53+02:00",
-      "eventCount": 32,
-      "updatedAt": "2026-10-13T22:21:25+02:00"
+      "checkedAt": "2026-10-18T00:10:57+02:00",
+      "eventCount": 31,
+      "updatedAt": "2026-10-18T00:10:55+02:00"
     },
     {
       "name": "Moss Røde Kors Hjelpekorps",
@@ -210,9 +210,9 @@
       "category": "hjelpekorps",
       "file": "MossRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:54+02:00",
-      "eventCount": 26,
-      "updatedAt": "2026-10-16T00:01:46+02:00"
+      "checkedAt": "2026-10-18T00:10:58+02:00",
+      "eventCount": 25,
+      "updatedAt": "2026-10-18T00:10:57+02:00"
     },
     {
       "name": "Mysen og Omegn Røde Kors Hjelpekorps",
@@ -230,7 +230,7 @@
       "category": "hjelpekorps",
       "file": "NesRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:54+02:00",
+      "checkedAt": "2026-10-18T00:10:59+02:00",
       "eventCount": 8,
       "updatedAt": "2026-10-13T18:41:34+02:00"
     },
@@ -240,7 +240,7 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-18T00:05:47+02:00",
+      "checkedAt": "2026-10-18T00:10:51+02:00",
       "eventCount": 37,
       "updatedAt": "2026-10-18T00:00:51+02:00"
     },
@@ -260,9 +260,9 @@
       "category": "hjelpekorps",
       "file": "OppSkiRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:50:55+02:00",
-      "eventCount": 10,
-      "updatedAt": "2026-10-17T00:15:59+02:00"
+      "checkedAt": "2026-10-18T00:11:00+02:00",
+      "eventCount": 9,
+      "updatedAt": "2026-10-18T00:10:59+02:00"
     },
     {
       "name": "Oslo Røde Kors Hjelpekorps Beredskapsambulanse",
@@ -310,7 +310,7 @@
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-18T00:05:48+02:00",
+      "checkedAt": "2026-10-18T00:10:51+02:00",
       "eventCount": 45,
       "updatedAt": "2026-10-18T00:00:53+02:00"
     },
@@ -370,7 +370,7 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-10-18T00:05:48+02:00",
+      "checkedAt": "2026-10-18T00:10:52+02:00",
       "eventCount": 52,
       "updatedAt": "2026-10-18T00:00:58+02:00"
     },
