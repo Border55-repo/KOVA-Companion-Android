@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-10-16T02:01:00+02:00",
-  "count": 44,
-  "helpCorpsCount": 40,
+  "updatedAt": "2026-10-17T02:01:06+02:00",
+  "count": 42,
+  "helpCorpsCount": 39,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -171,11 +171,6 @@
       "category": "hjelpekorps"
     },
     {
-      "name": "Spjelkavik Røde Kors Hjelpekorps",
-      "code": "SpjelkavikRKH",
-      "category": "hjelpekorps"
-    },
-    {
       "name": "Steinkjer Røde Kors Hjelpekorps",
       "code": "SteinkjerRKH",
       "category": "hjelpekorps"
@@ -209,11 +204,6 @@
       "name": "Bergen Røde Kors Ambulansen",
       "code": "RKAB",
       "category": "ambulanse"
-    },
-    {
-      "name": "Os Røde Kors",
-      "code": "OSRK",
-      "category": "annet"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",
