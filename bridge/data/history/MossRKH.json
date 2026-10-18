@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ce02ccdb336d81733fcb4b53",
+      "observedAt": "2026-10-18T19:15:54+02:00",
+      "organization": "MossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "2157e78b1f083176",
+        "dateIso": "2026-12-08",
+        "dateLabel": "tir. 8.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Foredrag om utøya og hvordan å hjelpe i en krise Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      },
+      "oldEvent": {
+        "id": "06fa0e2ee69bc423",
+        "dateIso": "2026-12-08",
+        "dateLabel": "tir. 8.12",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Depot & rutiner Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "13677685cddb5924b30f99b7",
       "observedAt": "2026-10-18T00:10:57+02:00",
       "organization": "MossRKH",
@@ -566,5 +590,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:10:57+02:00"
+  "updatedAt": "2026-10-18T19:15:54+02:00"
 }
