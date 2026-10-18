@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b76cfc426c27aa0f369ce49c",
+      "observedAt": "2026-10-18T08:10:48+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "beb659b3116492b0",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "08:00",
+        "type": "Transport",
+        "description": "Utbedring av feil på park.varmer Transport: Service på RK51",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "90a886acca6bee44688c73c2",
       "observedAt": "2026-10-18T00:00:51+02:00",
       "organization": "Nittedal RKH",
@@ -800,5 +815,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:00:51+02:00"
+  "updatedAt": "2026-10-18T08:10:48+02:00"
 }
