@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d9b143fbf0b02b5454aec109",
+      "observedAt": "2026-10-18T15:45:54+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "3b3b0d0089f425e7",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:00",
+        "type": "Korpskveld",
+        "description": "When shits hits the fan (Ida ansvar) Oppmøte på RK huset kl.17:00 (påmeldingsfrist 18.10) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "db20bf8b223ca4d03528a657",
+      "observedAt": "2026-10-18T15:45:54+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "00e284b4fe14a52e",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:15",
+        "type": "Korpskveld",
+        "description": "When shits hits the fan (Ida ansvar) Oppmøte på RK huset kl.17:15 Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "5ebca5e39bf1e1ae61965787",
       "observedAt": "2026-10-17T00:06:00+02:00",
       "organization": "HaldenRKH",
@@ -986,5 +1016,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:06:00+02:00"
+  "updatedAt": "2026-10-18T15:45:54+02:00"
 }
