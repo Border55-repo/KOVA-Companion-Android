@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c19d75f373f57e5373e383fc",
+      "observedAt": "2026-10-18T16:45:52+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "c3c9036e29f4b290",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "FORF seminar",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "6c734d765fbc24904b762e9b",
+      "observedAt": "2026-10-18T16:45:52+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "8df7a1a06d267d5b",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "FORF seminar",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "380cf1a02ae36b870b422f80",
+      "observedAt": "2026-10-18T16:45:52+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "e79b2ad72007ac8d",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 17:00",
+        "type": "Eksterne kurs",
+        "description": "FORF seminar",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "d9b143fbf0b02b5454aec109",
       "observedAt": "2026-10-18T15:45:54+02:00",
       "organization": "HaldenRKH",
@@ -1016,5 +1061,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T15:45:54+02:00"
+  "updatedAt": "2026-10-18T16:45:52+02:00"
 }
