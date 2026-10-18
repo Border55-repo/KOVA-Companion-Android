@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-16T15:06:03+02:00",
-  "checkedAt": "2026-10-18T12:45:57+02:00",
+  "updatedAt": "2026-10-18T13:05:55+02:00",
+  "checkedAt": "2026-10-18T13:05:55+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH",
   "eventCount": 52,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -81,10 +81,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
     },
     {
-      "id": "f246779a4d6d2985",
+      "id": "05090dba60a88e00",
       "dateIso": "2026-10-19",
       "dateLabel": "man. 19.10",
-      "time": "09:00",
+      "time": "12:00",
       "type": "Eksterne kurs",
       "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
