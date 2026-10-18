@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d647b185a5ab861b8466aa25",
+      "observedAt": "2026-10-19T00:10:57+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0e1b36c56752bb01",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "00:30",
+        "type": "Dugnad",
+        "description": "Dugnad - Generelt Dugnad - Oktober",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "0b31dec379ea0d49d5d94c1a",
+      "observedAt": "2026-10-19T00:10:57+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "82e829a252f2193c",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "15:00",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte Lokalrådsmøte 8",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "3b1764e418f3ae4525d9ed84",
+      "observedAt": "2026-10-19T00:10:57+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4929749a73bf1543",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "16:00",
+        "type": "Rådsmøte",
+        "description": "Lokalrådsmøte 8",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "d1dfa1c42aa565de1a6329d8",
+      "observedAt": "2026-10-19T00:10:57+02:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "64598c9a0240791c",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "17:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld 32 Korpskveld 32",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "02eac038dd35d5f907c1302a",
       "observedAt": "2026-10-17T00:11:06+02:00",
       "organization": "SteinkjerRKH",
@@ -350,5 +410,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:11:06+02:00"
+  "updatedAt": "2026-10-19T00:10:57+02:00"
 }

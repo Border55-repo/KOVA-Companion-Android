@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fb9c7549dc525f6afeda95f7",
+      "observedAt": "2026-10-19T00:10:53+02:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7b6a6b98acf66b10",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Tema Kommer! Vannredningskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "d4866848610eac1681dd7f75",
       "observedAt": "2026-10-17T00:11:02+02:00",
       "organization": "RingerikeHoleRKH",
@@ -167,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-17T00:11:02+02:00"
+  "updatedAt": "2026-10-19T00:10:53+02:00"
 }
