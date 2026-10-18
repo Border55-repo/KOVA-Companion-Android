@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5bbc1ad2143e6b1a506b2ffe",
+      "observedAt": "2026-10-18T20:50:51+02:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "66470ad01003c7ae",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Bygdegru - Haloween Sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "53c83b0244dc6cd8e86dfb04",
+      "observedAt": "2026-10-18T20:50:51+02:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "7b94256670c1762d",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Videregående tauredningskurs VTAU - kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "afcd33b298d22c1760fe9a25",
+      "observedAt": "2026-10-18T20:50:51+02:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "06b8da3c5318cf4c",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Videregående tauredningskurs VTAU - kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "4057f6e5d3d99265c05d332c",
+      "observedAt": "2026-10-18T20:50:51+02:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "23a007bd40f862b3",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "-> 18:00",
+        "type": "Eksterne kurs",
+        "description": "Videregående tauredningskurs VTAU - kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "2de6b385de54de67c78a9edc",
       "observedAt": "2026-10-14T19:46:36+02:00",
       "organization": "EHRKH",
@@ -200,5 +260,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-14T19:46:36+02:00"
+  "updatedAt": "2026-10-18T20:50:51+02:00"
 }
