@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "24b1cf8ab9e25baebb524b57",
+      "observedAt": "2026-10-19T00:05:59+02:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b2fffc0c1899ee32",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "19:00",
+        "type": "Korpskveld",
+        "description": "Medlemsmøtet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "b17820ded99d192f34787d3a",
       "observedAt": "2026-10-18T00:05:57+02:00",
       "organization": "BrandbuRKH",
@@ -92,5 +107,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:05:57+02:00"
+  "updatedAt": "2026-10-19T00:05:59+02:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9f2b78650db419ad398db6f4",
+      "observedAt": "2026-10-19T00:05:58+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "481890b841bec256",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Oktoberfest i teltet UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "211ed622d2b5df3c760323b2",
       "observedAt": "2026-10-18T00:01:05+02:00",
       "organization": "VÅRKH",
@@ -266,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:01:05+02:00"
+  "updatedAt": "2026-10-19T00:05:58+02:00"
 }

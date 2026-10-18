@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-18T00:01:05+02:00",
-  "checkedAt": "2026-10-18T23:45:51+02:00",
+  "updatedAt": "2026-10-19T00:05:58+02:00",
+  "checkedAt": "2026-10-19T00:05:58+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 29,
+  "eventCount": 28,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "481890b841bec256",
-      "dateIso": "2026-10-12",
-      "dateLabel": "man. 12.10",
-      "time": "16:00",
-      "type": "Sanitetsvakt",
-      "description": "Oktoberfest i teltet UKAiÅS 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
     {
       "id": "0fe93b43a89fe467",
       "dateIso": "2026-10-13",

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b3f5cdc4ed40c32e79d3d713",
+      "observedAt": "2026-10-19T00:05:54+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "25868ea0f38d9082",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "12:00",
+        "type": "Eksterne kurs",
+        "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "703fe1ee182c6c5773cb59fd",
+      "observedAt": "2026-10-19T00:05:54+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b8b4dd7f25b657f1",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "5349572146570f46b3a9a6bb",
       "observedAt": "2026-10-18T20:05:56+02:00",
       "organization": "NRKH",
@@ -674,5 +704,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T20:05:56+02:00"
+  "updatedAt": "2026-10-19T00:05:54+02:00"
 }
