@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-07T17:56:22+02:00",
-  "checkedAt": "2026-10-18T23:55:46+02:00",
+  "updatedAt": "2026-10-19T00:15:51+02:00",
+  "checkedAt": "2026-10-19T00:15:51+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 21,
+  "eventCount": 20,
   "changes": {
-    "added": 2,
-    "removed": 2,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "af40319421037249",
-      "dateIso": "2026-10-12",
-      "dateLabel": "man. 12.10",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Sosial kveld Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-    },
     {
       "id": "8e06ebc31c66655b",
       "dateIso": "2026-10-16",
