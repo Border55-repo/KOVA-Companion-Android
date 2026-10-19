@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b6d67d91503a2a583653ac78",
+      "observedAt": "2026-10-20T00:15:30+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2e29b7010964b51a",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Hjelpekorpset i praksis. Thea ansvar Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "620abb5d28622e44fb1f84af",
       "observedAt": "2026-10-19T00:05:51+02:00",
       "organization": "HaldenRKH",
@@ -1076,5 +1091,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T00:05:51+02:00"
+  "updatedAt": "2026-10-20T00:15:30+02:00"
 }
