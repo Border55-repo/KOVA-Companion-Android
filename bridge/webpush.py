@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import math
 import os
 import re
 import time
@@ -299,8 +300,15 @@ def send_web_notification(
 
 
 
-def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[str, int]:
-    """Send one global changelog announcement to every enabled PWA subscription."""
+def send_web_announcement(title: str, body: str, change_id_value: str, *,
+                          audience="all", organization="", subscription_id="") -> dict[str, int]:
+    """Deliver only to explicitly selected enabled subscriptions; fail closed."""
+    if audience not in ("all", "organization", "test"):
+        raise ValueError("Invalid audience")
+    if audience == "test" and not re.fullmatch(r"[a-f0-9]{64}", subscription_id):
+        raise ValueError("Invalid test device")
+    if audience == "organization" and not organization:
+        raise ValueError("Missing organization")
     credentials, project_id = _credentials()
     if credentials is None:
         raise RuntimeError("Firebase service account is not configured for Web Push")
@@ -310,7 +318,8 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[s
     targets = [
         document for document in documents
         if _bool_field(document, "enabled", True)
-
+        and (audience != "test" or document.get("name", "").rsplit("/", 1)[-1] == subscription_id)
+        and (audience != "organization" or organization in _array_strings(document, "organizations"))
     ]
     print(f"Global Web Push announcement subscriptions: total={len(documents)}, enabled={len(targets)}.")
     payload = {
@@ -320,7 +329,7 @@ def send_web_announcement(title: str, body: str, change_id_value: str) -> dict[s
         "organization": "",
         "changeId": change_id_value,
         "changeSummary": body,
-        "url": "https://border55-repo.github.io/KlarX/kova/#changelogCard",
+        "url": "https://border55-repo.github.io/KOVA-Companion-Android/#changelogCard",
         "event": {},
     }
 
@@ -364,7 +373,6 @@ def reminder_due(
     now: datetime,
     event: dict,
     lead_minutes: int,
-    grace_minutes: int = 20,
 ) -> bool:
     event_at = _event_datetime(event)
     if event_at is None or lead_minutes <= 0:
@@ -374,7 +382,7 @@ def reminder_due(
     else:
         now = now.astimezone(OSLO)
     due_at = event_at - timedelta(minutes=lead_minutes)
-    return due_at <= now < event_at and now <= due_at + timedelta(minutes=grace_minutes)
+    return due_at <= now < event_at
 
 
 def _reminder_signature(
@@ -465,24 +473,29 @@ def _send_to_subscription(
     ):
         return False, False
 
-    try:
-        webpush(
-            subscription_info=subscription,
-            data=json.dumps(payload, ensure_ascii=False),
-            vapid_private_key=config["privateKey"],
-            vapid_claims={"sub": "mailto:kova-companion@users.noreply.github.com"},
-            ttl=3600,
-            timeout=20,
-        )
-        return True, True
-    except WebPushException as exc:
-        status = _webpush_status(exc)
-        if status in (404, 410):
-            _disable_subscription(credentials, document["name"])
-            print(f"Disabled stale reminder subscription ({status}).")
-            return True, False
-        print(f"Web Push failed ({status or 'unknown'}).", flush=True)
-        return False, False
+    for attempt in range(2):
+        try:
+            webpush(
+                subscription_info=subscription,
+                data=json.dumps(payload, ensure_ascii=False),
+                vapid_private_key=config["privateKey"],
+                vapid_claims={"sub": "mailto:kova-companion@users.noreply.github.com"},
+                ttl=3600,
+                timeout=20,
+            )
+            return True, True
+        except WebPushException as exc:
+            status = _webpush_status(exc)
+            if status in (404, 410):
+                _disable_subscription(credentials, document["name"])
+                print(f"Disabled stale reminder subscription ({status}).")
+                return True, False
+            if attempt == 0 and status in (429, 500, 502, 503, 504):
+                print(f"Web Push transient failure ({status}); retrying once.", flush=True)
+                time.sleep(1)
+                continue
+            print(f"Web Push failed ({status or 'unknown'}).", flush=True)
+            return False, False
 
 
 def send_due_reminders(
@@ -523,9 +536,7 @@ def send_due_reminders(
         subscription = subscriptions.get(subscription_id)
         if subscription is None or not _bool_field(subscription, "enabled", True):
             continue
-        if organization not in _array_strings(subscription, "organizations"):
-            continue
-
+        # An explicit personal reminder is independent of general corps alerts.
         events = events_by_organization.get(organization, [])
         event = next(
             (item for item in events if str(item.get("id", "")) == event_id),
@@ -557,11 +568,25 @@ def send_due_reminders(
         ):
             continue
 
-        label = _lead_label(lead_minutes)
+        event_at = _event_datetime(event)
+        due_at = event_at - timedelta(minutes=lead_minutes)
+        minutes_left = max(
+            1,
+            math.ceil(
+                (event_at.astimezone(timezone.utc) - now.astimezone(timezone.utc))
+                .total_seconds() / 60
+            ),
+        )
+        label = _lead_label(minutes_left)
+        late_prefix = (
+            "Påminnelsen kom senere enn planlagt. "
+            if now > due_at + timedelta(minutes=20)
+            else ""
+        )
         payload = {
             "title": "Påminnelse om KOVA-vakt",
             "body": (
-                f"{event.get('description', 'KOVA-aktivitet')} starter om {label} • "
+                f"{late_prefix}{event.get('description', 'KOVA-aktivitet')} starter om {label} • "
                 f"{event.get('dateLabel', event.get('dateIso', ''))} "
                 f"{event.get('time', '')}"
             ).strip(),
