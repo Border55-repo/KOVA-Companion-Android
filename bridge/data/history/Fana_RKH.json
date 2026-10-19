@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "149c5d5f23d59aa17021391d",
+      "observedAt": "2026-10-20T00:05:25+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "999eea8da918954f",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "OBS! Holdes hos Bergen RKH Stabsmøte KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "9b84912fe9f73e889ddc5128",
       "observedAt": "2026-10-18T00:10:53+02:00",
       "organization": "Fana RKH",
@@ -566,5 +581,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:10:53+02:00"
+  "updatedAt": "2026-10-20T00:05:25+02:00"
 }

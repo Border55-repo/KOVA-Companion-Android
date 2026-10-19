@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "39398e649be95a912076d631",
+      "observedAt": "2026-10-20T00:05:32+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "db87d0633fbec830",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Teorikveld (Gartnerveien 8, Bekkestua) KFØR Asker og Bærum - info kommer",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "fa1fc74a4be7364d049667c3",
       "observedAt": "2026-10-18T00:01:07+02:00",
       "organization": "BærumRKH",
@@ -686,5 +701,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:01:07+02:00"
+  "updatedAt": "2026-10-20T00:05:32+02:00"
 }

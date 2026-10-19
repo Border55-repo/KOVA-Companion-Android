@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d8c001a6f6008c67cb3c38b7",
+      "observedAt": "2026-10-20T00:05:29+02:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "97905d25ba98ffab",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Caser og scenarioer Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "7409cdccf10cbfd4fa864f29",
       "observedAt": "2026-10-13T18:41:34+02:00",
       "organization": "NesRKH",
@@ -194,5 +209,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T18:41:34+02:00"
+  "updatedAt": "2026-10-20T00:05:29+02:00"
 }
