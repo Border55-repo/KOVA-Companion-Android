@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4d8eae8792b1af3c5f1b7741",
+      "observedAt": "2026-10-19T14:10:54+02:00",
+      "organization": "StvRKO",
+      "kind": "added",
+      "event": {
+        "id": "4ef711e6214470c5",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Planleggingsmøte for frivillige Planleggingsmøte for frivillige",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      }
+    },
+    {
       "changeId": "f5940cf04feab45f6fab7f25",
       "observedAt": "2026-10-13T00:11:18+02:00",
       "organization": "StvRKO",
@@ -47,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T00:11:18+02:00"
+  "updatedAt": "2026-10-19T14:10:54+02:00"
 }
