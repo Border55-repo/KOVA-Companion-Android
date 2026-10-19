@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "28e42c4d8c6774711384b883",
+      "observedAt": "2026-10-19T23:20:26+02:00",
+      "organization": "SkienRKH",
+      "kind": "changed",
+      "event": {
+        "id": "429733cd990895c8",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "17:30",
+        "type": "Aktivitet",
+        "description": "Befalsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      },
+      "oldEvent": {
+        "id": "7df84abd3c9cab27",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Befalsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "6543481d69ffc086e01de47a",
+      "observedAt": "2026-10-19T23:20:26+02:00",
+      "organization": "SkienRKH",
+      "kind": "changed",
+      "event": {
+        "id": "fc1de63f5c927e09",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "17:30",
+        "type": "Aktivitet",
+        "description": "Befalsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      },
+      "oldEvent": {
+        "id": "1b3b3c06c2fd8f17",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Befalsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "069c3025c54c26146a33d56f",
       "observedAt": "2026-10-19T00:10:55+02:00",
       "organization": "SkienRKH",
@@ -311,5 +359,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T00:10:55+02:00"
+  "updatedAt": "2026-10-19T23:20:26+02:00"
 }
