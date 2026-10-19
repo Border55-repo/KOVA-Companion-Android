@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2c008a37cf64717588e62935",
+      "observedAt": "2026-10-19T20:31:00+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "f2d1a8349ba91451",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl 18.00 NM cupen Sarpsborg 08 - Vålerenga",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "01ce148bc8432ae9e5095b44",
       "observedAt": "2026-10-19T15:21:01+02:00",
       "organization": "RKSarpsborg",
@@ -782,5 +797,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T15:21:01+02:00"
+  "updatedAt": "2026-10-19T20:31:00+02:00"
 }
