@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2b055eb79c1c086d31cbe1b4",
+      "observedAt": "2026-10-19T15:05:52+02:00",
+      "organization": "Haugesund",
+      "kind": "added",
+      "event": {
+        "id": "7f9c2060863710ec",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "07:15",
+        "type": "Forebygging",
+        "description": "Oppmøte på huset 07:15, vaktstart Førre 07:55 Sykkelykt utdeling - Førre Barneskole",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "ce70f0e761d4bda9d244890f",
       "observedAt": "2026-10-13T13:16:15+02:00",
       "organization": "Haugesund",
@@ -170,5 +185,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-13T13:16:15+02:00"
+  "updatedAt": "2026-10-19T15:05:52+02:00"
 }

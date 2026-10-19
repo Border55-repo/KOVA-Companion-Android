@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-13T13:16:15+02:00",
-  "checkedAt": "2026-10-19T14:45:52+02:00",
+  "updatedAt": "2026-10-19T15:05:52+02:00",
+  "checkedAt": "2026-10-19T15:05:52+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund",
-  "eventCount": 9,
+  "eventCount": 10,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -60,6 +60,15 @@
       "time": "14:00",
       "type": "Sanitetsvakt",
       "description": "Oppmøte på huset 14:00, vaktstart 14:30 Vard Haugesund - Askøy",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+    },
+    {
+      "id": "7f9c2060863710ec",
+      "dateIso": "2026-10-23",
+      "dateLabel": "fre. 23.10",
+      "time": "07:15",
+      "type": "Forebygging",
+      "description": "Oppmøte på huset 07:15, vaktstart Førre 07:55 Sykkelykt utdeling - Førre Barneskole",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
     },
     {
