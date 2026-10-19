@@ -1,0 +1,53 @@
+name: Deploy direct admin dispatcher
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-kova-admin-dispatcher
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install and test dispatcher
+        run: |
+          python -m venv bridge/venv
+          bridge/venv/bin/pip install -r bridge/requirements.txt
+          cd bridge
+          venv/bin/python -m unittest test_sync.py test_reminders.py test_announcement.py test_direct_dispatch.py
+      - name: Resolve existing runtime identity
+        env:
+          RUNTIME_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          DEPLOY_CREDENTIALS_JSON: ${{ secrets.FIREBASE_DEPLOY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          if not os.environ.get("DEPLOY_CREDENTIALS_JSON"):
+              raise SystemExit("Configure FIREBASE_DEPLOY_SERVICE_ACCOUNT_JSON with authorized deployment credentials first.")
+          info = json.loads(os.environ["RUNTIME_CREDENTIALS_JSON"])
+          if info.get("project_id") != "kova-companion":
+              raise SystemExit("Unexpected runtime project")
+          Path("bridge/.env.kova-companion").write_text(
+              "KOVA_RUNTIME_SERVICE_ACCOUNT=" + info["client_email"] + "\n")
+          PY
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_DEPLOY_SERVICE_ACCOUNT_JSON }}
+      - name: Deploy only the admin dispatcher
+        run: npx --yes firebase-tools@15.31.0 deploy --only functions:kova-admin --project kova-companion --non-interactive
+      - name: Remove generated local configuration
+        if: always()
+        run: rm -f bridge/.env.kova-companion
