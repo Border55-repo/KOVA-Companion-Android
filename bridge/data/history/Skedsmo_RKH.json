@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e7655ff5d7d275ae169a7c62",
+      "observedAt": "2026-10-19T19:55:57+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "843d095a797c35ec",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Kveldstur i Marikollen Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "d1d20d889e79d5b4",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer... Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "0ab68458845e09f1bc5fa791",
+      "observedAt": "2026-10-19T19:55:57+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "b9ce0c96772f06e6",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søksøvelse Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "d6bc06074b5009cb",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer... Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "17e7cbcc1b9d486a850d240f",
       "observedAt": "2026-10-19T19:50:56+02:00",
       "organization": "Skedsmo RKH",
@@ -686,5 +734,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T19:50:56+02:00"
+  "updatedAt": "2026-10-19T19:55:57+02:00"
 }
