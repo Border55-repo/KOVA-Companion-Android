@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-19T19:45:51+02:00",
-  "checkedAt": "2026-10-19T19:45:51+02:00",
+  "updatedAt": "2026-10-19T19:50:56+02:00",
+  "checkedAt": "2026-10-19T19:50:56+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 47,
+  "eventCount": 49,
   "changes": {
     "added": 2,
     "removed": 0,
-    "changed": 0
+    "changed": 2
   },
   "events": [
     {
@@ -72,12 +72,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "2d5f292284943c74",
+      "id": "cc5deb0dc3661c2e",
       "dateIso": "2026-10-21",
       "dateLabel": "ons. 21.10",
       "time": "18:00",
       "type": "Interne kurs",
-      "description": "Utehelg - Stabmiddag KSOR - Operasjon Myrvann",
+      "description": "KSOR - Teorikveld KSOR - Operasjon Myrvann",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
@@ -126,12 +126,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "ead4261a930c44c8",
+      "id": "d4bf2c3e885c1cc6",
       "dateIso": "2026-10-26",
       "dateLabel": "man. 26.10",
       "time": "18:00",
       "type": "Interne kurs",
-      "description": "Utehelg - Stabmiddag KSOR - Operasjon Myrvann",
+      "description": "KSOR -Teorikveld KSOR - Operasjon Myrvann",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
@@ -162,6 +162,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
+      "id": "6a5a522d704f3d66",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Teorikveld KSOR - Operasjon Myrvann",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
       "id": "a72017f4a320f146",
       "dateIso": "2026-10-31",
       "dateLabel": "lør. 31.10",
@@ -177,6 +186,15 @@
       "time": "18:00",
       "type": "Ambulansevakt",
       "description": "Ambulansevakt Ambulansevakter",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "6084f7172f485b32",
+      "dateIso": "2026-11-02",
+      "dateLabel": "man. 2.11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Teorikveld KSOR - Operasjon Myrvann",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
