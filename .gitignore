@@ -13,3 +13,6 @@ release-signing.properties
 
 __pycache__/
 *.pyc
+
+bridge/venv/
+bridge/.env*
