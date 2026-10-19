@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fcbfa90cec749284624be5eb",
+      "observedAt": "2026-10-20T00:00:25+02:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "01c907da5e8a355e",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kart og kompass med Mikkel Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "6df740d317a18e2d13e2d3d8",
       "observedAt": "2026-10-19T00:00:53+02:00",
       "organization": "UllensakerRKH",
@@ -1295,5 +1310,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T00:00:53+02:00"
+  "updatedAt": "2026-10-20T00:00:25+02:00"
 }

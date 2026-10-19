@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3e2037d83dad693d762238d6",
+      "observedAt": "2026-10-20T00:00:21+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bf9ecbb0a906031f",
+        "dateIso": "2026-10-13",
+        "dateLabel": "tir. 13.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kart og kompass - Mikkel holder hos Ullensaker Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "5bbc1ad2143e6b1a506b2ffe",
       "observedAt": "2026-10-18T20:50:51+02:00",
       "organization": "EHRKH",
@@ -260,5 +275,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T20:50:51+02:00"
+  "updatedAt": "2026-10-20T00:00:21+02:00"
 }
