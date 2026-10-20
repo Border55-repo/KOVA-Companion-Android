@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T00:15:42+02:00",
+  "updatedAt": "2026-10-21T00:50:30+02:00",
   "sent": {
+    "ae9e9db3464c4f3e6f2606ae": "2026-10-21T00:50:30+02:00",
+    "b6ca85a27c9f72f3dcc93d3d": "2026-10-21T00:50:30+02:00",
+    "809d13cef68242a673bfc334": "2026-10-21T00:50:30+02:00",
+    "eedc2ffa35081276006a1bdd": "2026-10-21T00:50:30+02:00",
+    "8f32087407ff874e3dcd076f": "2026-10-21T00:50:30+02:00",
+    "93a786b317aa23fa38045755": "2026-10-21T00:50:30+02:00",
+    "830772bf6a1c65648051761e": "2026-10-21T00:50:30+02:00",
+    "ce1f6efb097242e67a316268": "2026-10-21T00:50:30+02:00",
+    "6bb19d442c26fcdf81345f97": "2026-10-21T00:50:30+02:00",
+    "87720a8c22966a1e9f5e3f74": "2026-10-21T00:50:30+02:00",
     "b9a54630ca291c46ed712a58": "2026-10-21T00:15:42+02:00",
     "9350b6adcfb8da5bd869c98a": "2026-10-21T00:15:42+02:00",
     "bd5d45b5b98e107669e57746": "2026-10-21T00:15:42+02:00",
@@ -1060,5 +1070,111 @@
     "8ccc066f6c5284f5ec072dcb": "2026-09-23T00:14:39+02:00",
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
-  "pending": {}
+  "pending": {
+    "a91e231de0da768abf359cb3": {
+      "changeId": "a91e231de0da768abf359cb3",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "10b202b4f3b1f55a",
+        "dateIso": "2027-05-08",
+        "dateLabel": "lør. 8.5",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Mer info kommer, hold av helgen Sanitetsvakt: Fredrikstad Cup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "c9bbaf6cfa4f73a805bc5340": {
+      "changeId": "c9bbaf6cfa4f73a805bc5340",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "28539b033aa67531",
+        "dateIso": "2027-05-09",
+        "dateLabel": "søn. 9.5",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Mer info kommer, hold av helgen Sanitetsvakt: Fredrikstad Cup",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "4ea22e485ca2ab9de656c34b": {
+      "changeId": "4ea22e485ca2ab9de656c34b",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "6326fdf74d2a8fde",
+        "dateIso": "2027-05-22",
+        "dateLabel": "lør. 22.5",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "mer info kommer Distriktsmesterskap og sommerfest for Østfold RKH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "9b3f322ed8d79a5ec5656797": {
+      "changeId": "9b3f322ed8d79a5ec5656797",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "d4c1fa0232ab1727",
+        "dateIso": "2027-05-28",
+        "dateLabel": "fre. 28.5",
+        "time": "16:00",
+        "type": "Eksterne møter",
+        "description": "for korpsleder, administrativ leder og operativ leder Nasjonal ledersamling for Hjelpekorps",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "d1e00b9dda7d6e4217bfccb9": {
+      "changeId": "d1e00b9dda7d6e4217bfccb9",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "0421a05710aa41f2",
+        "dateIso": "2027-05-29",
+        "dateLabel": "lør. 29.5",
+        "time": "",
+        "type": "Eksterne møter",
+        "description": "for korpsleder, administrativ leder og operativ leder Nasjonal ledersamling for Hjelpekorps",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "f7e0acccd00f3ecda902f701": {
+      "changeId": "f7e0acccd00f3ecda902f701",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "9b80546de13bd8c2",
+        "dateIso": "2027-05-30",
+        "dateLabel": "søn. 30.5",
+        "time": "-> 16:00",
+        "type": "Eksterne møter",
+        "description": "for korpsleder, administrativ leder og operativ leder Nasjonal ledersamling for Hjelpekorps",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    "aa220a45111b466f7ec61d16": {
+      "changeId": "aa220a45111b466f7ec61d16",
+      "observedAt": "2026-10-21T00:50:23+02:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "97db81ea7531918c",
+        "dateIso": "2027-06-05",
+        "dateLabel": "lør. 5.6",
+        "time": "",
+        "type": "Sanitetsvakt",
+        "description": "Kun ambulansevakt Sanitetsvakt: Aurskog Høland rally",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    }
+  }
 }
