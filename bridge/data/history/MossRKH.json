@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f3370c740d90219042c93a64",
+      "observedAt": "2026-10-21T00:05:30+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0f986cbffbaf8365",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Moss - Egersund MFK - Obos ligaen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "54b44d1f45a32da0b727d9ea",
+      "observedAt": "2026-10-21T00:05:30+02:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c9f91b74d7fdf688",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Møte Vanngruppa Møte Vanngruppa",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "6fc0066f60b0384d628a8b83",
       "observedAt": "2026-10-20T00:05:28+02:00",
       "organization": "MossRKH",
@@ -605,5 +635,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T00:05:28+02:00"
+  "updatedAt": "2026-10-21T00:05:30+02:00"
 }

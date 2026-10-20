@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ba6d84d5df2ab0e4f6ebb5a7",
+      "observedAt": "2026-10-21T00:05:27+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "d3c78417e9be02a3",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "17:30",
+        "type": "Interne kurs",
+        "description": "Avsluttende øvelse KFØR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "b13c4515227050831725e925",
       "observedAt": "2026-10-20T17:25:28+02:00",
       "organization": "Fana RKH",
@@ -596,5 +611,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T17:25:28+02:00"
+  "updatedAt": "2026-10-21T00:05:27+02:00"
 }

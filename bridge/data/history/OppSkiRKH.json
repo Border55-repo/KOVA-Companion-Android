@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f6c2734c636e91117920a766",
+      "observedAt": "2026-10-21T00:05:36+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a44397696c3ac719",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte F3: 16 - oppmøte Østre Greverud: 16.30 Rosa Sløyfe-løpet 2026,",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "528e770ee3dc702e4fac5177",
       "observedAt": "2026-10-20T20:45:45+02:00",
       "organization": "OppSkiRKH",
@@ -152,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T20:45:45+02:00"
+  "updatedAt": "2026-10-21T00:05:36+02:00"
 }
