@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5845e413afbeb06a10a4f496",
+      "observedAt": "2026-10-20T17:00:28+02:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "f8105bed3716507b",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "16:30",
+        "type": "Interne møter",
+        "description": "Rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "28e42c4d8c6774711384b883",
       "observedAt": "2026-10-19T23:20:26+02:00",
       "organization": "SkienRKH",
@@ -359,5 +374,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T23:20:26+02:00"
+  "updatedAt": "2026-10-20T17:00:28+02:00"
 }

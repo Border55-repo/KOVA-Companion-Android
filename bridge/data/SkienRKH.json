@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-19T23:20:26+02:00",
-  "checkedAt": "2026-10-20T16:40:26+02:00",
+  "updatedAt": "2026-10-20T17:00:28+02:00",
+  "checkedAt": "2026-10-20T17:00:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
-  "eventCount": 25,
+  "eventCount": 26,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 2
+    "changed": 0
   },
   "events": [
     {
@@ -24,6 +24,15 @@
       "time": "15:30",
       "type": "Sanitetsvakt",
       "description": "Odd - Strømmen Skagerak Arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+    },
+    {
+      "id": "f8105bed3716507b",
+      "dateIso": "2026-10-20",
+      "dateLabel": "tir. 20.10",
+      "time": "16:30",
+      "type": "Interne møter",
+      "description": "Rådsmøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
