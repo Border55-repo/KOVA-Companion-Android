@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ff1bbdb8985644bf260b9324",
+      "observedAt": "2026-10-21T00:15:35+02:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3ba7659ebe62d8c6",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Felleskveld med Omsorg! Korpskvelder, høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "b3f5cdc4ed40c32e79d3d713",
       "observedAt": "2026-10-19T00:05:54+02:00",
       "organization": "NRKH",
@@ -704,5 +719,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T00:05:54+02:00"
+  "updatedAt": "2026-10-21T00:15:35+02:00"
 }

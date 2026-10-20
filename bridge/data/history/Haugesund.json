@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bf59eb8822ae9f0543f09899",
+      "observedAt": "2026-10-21T00:15:31+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "aff54fe0c068cdb6",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 16:45, vaktstart 17:30 FKH herrer - Lyn",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "2b055eb79c1c086d31cbe1b4",
       "observedAt": "2026-10-19T15:05:52+02:00",
       "organization": "Haugesund",
@@ -185,5 +200,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T15:05:52+02:00"
+  "updatedAt": "2026-10-21T00:15:31+02:00"
 }
