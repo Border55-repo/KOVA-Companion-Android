@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a1f3efb88dee796fad01a907",
+      "observedAt": "2026-10-21T00:00:24+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "1ec02f4f8d623365",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Ungdom låner hjelpekorpsrommet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "ae95b0c6bb42ae8f13fbf92e",
+      "observedAt": "2026-10-21T00:00:24+02:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "2525a13947a31be3",
+        "dateIso": "2026-10-14",
+        "dateLabel": "ons. 14.10",
+        "time": "19:00",
+        "type": "Interne kurs",
+        "description": "Styremøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "ca597bcb3f6a1be1603b2d69",
       "observedAt": "2026-10-20T00:00:23+02:00",
       "organization": "Skedsmo RKH",
@@ -749,5 +779,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T00:00:23+02:00"
+  "updatedAt": "2026-10-21T00:00:24+02:00"
 }
