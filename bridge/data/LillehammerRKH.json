@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T18:35:29+02:00",
-  "checkedAt": "2026-10-20T18:35:29+02:00",
+  "updatedAt": "2026-10-20T18:55:29+02:00",
+  "checkedAt": "2026-10-20T18:55:29+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
-  "eventCount": 12,
+  "eventCount": 13,
   "changes": {
-    "added": 6,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -102,6 +102,15 @@
       "id": "e6c3fdc4b293ec10",
       "dateIso": "2026-11-18",
       "dateLabel": "ons. 18.11",
+      "time": "11:00",
+      "type": "Øvelse",
+      "description": "PLIVO Lillehammer PLIVO",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "1bb077b1f5d89a03",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
       "time": "11:00",
       "type": "Øvelse",
       "description": "PLIVO Lillehammer PLIVO",
