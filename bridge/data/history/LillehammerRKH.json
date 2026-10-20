@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "25df8ebd7def44aaca92fe1d",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "d04c576269f22cc8",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Dugnad",
+        "description": "Dugnad Depo Dugnad depo",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "0f1a7ab7121984c56163fa4a",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "68b349738fbc0ff8",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "10:00",
+        "type": "Aktivitet",
+        "description": "Beredskapsstand Kommune og NFS Stand Sentrum",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "223ced733ac1bf0cae40fe9c",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "f895436b7c9905a7",
+        "dateIso": "2026-11-09",
+        "dateLabel": "man. 9.11",
+        "time": "16:00",
+        "type": "Øvelse",
+        "description": "PLIVO ØYER PLIVO",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "b3d044387a6966dce5efa28a",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "a6ed78dbe2d6307f",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "16:00",
+        "type": "Øvelse",
+        "description": "PLIVO Gausdal PLIVO",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "c0ab72bc367a85ebd5a85f2b",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "a61c508983a68513",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "11:00",
+        "type": "Aktivitet",
+        "description": "Stand på Universitetet - Lillehammer stand",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "872c6f89cfa6c4e144150ce8",
+      "observedAt": "2026-10-20T18:35:29+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "added",
+      "event": {
+        "id": "e6c3fdc4b293ec10",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "11:00",
+        "type": "Øvelse",
+        "description": "PLIVO Lillehammer PLIVO",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "286a520f02586deb8e6e61ea",
       "observedAt": "2026-10-08T00:16:24+02:00",
       "organization": "LillehammerRKH",
@@ -86,5 +176,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:16:24+02:00"
+  "updatedAt": "2026-10-20T18:35:29+02:00"
 }
