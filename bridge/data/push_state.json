@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T01:10:44+02:00",
+  "updatedAt": "2026-10-21T01:30:36+02:00",
   "sent": {
+    "24730a00bb9898385f62625b": "2026-10-21T01:30:36+02:00",
+    "574e33ea5beb2f918765b48d": "2026-10-21T01:30:36+02:00",
+    "bbaa03a0409b3e7e4daeda07": "2026-10-21T01:30:36+02:00",
+    "94fd297f707462380f1d7e92": "2026-10-21T01:30:36+02:00",
+    "8ca0cdc4397ebacf9e2b96c6": "2026-10-21T01:30:36+02:00",
+    "45950a240167bfe87e97a991": "2026-10-21T01:30:36+02:00",
+    "76eb4b93ca6c28deac1c746d": "2026-10-21T01:30:36+02:00",
+    "9cf37e6b437e1ac491a3a3ec": "2026-10-21T01:30:36+02:00",
+    "1a8b024ef9ce6c2a85013c79": "2026-10-21T01:30:36+02:00",
+    "7f37a2f7661523cb970d4a1d": "2026-10-21T01:30:36+02:00",
     "a91e231de0da768abf359cb3": "2026-10-21T01:10:44+02:00",
     "c9bbaf6cfa4f73a805bc5340": "2026-10-21T01:10:44+02:00",
     "4ea22e485ca2ab9de656c34b": "2026-10-21T01:10:44+02:00",
@@ -1082,156 +1092,6 @@
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
   "pending": {
-    "24730a00bb9898385f62625b": {
-      "changeId": "24730a00bb9898385f62625b",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "f4e09f8f32b18a6e",
-        "dateIso": "2027-02-25",
-        "dateLabel": "tor. 25.2",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Fagkveld for ambulansepersonell/AFØR",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "574e33ea5beb2f918765b48d": {
-      "changeId": "574e33ea5beb2f918765b48d",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "976727194e01cdb2",
-        "dateIso": "2027-03-03",
-        "dateLabel": "ons. 3.3",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Lagledermøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "bbaa03a0409b3e7e4daeda07": {
-      "changeId": "bbaa03a0409b3e7e4daeda07",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "f911157585fb3501",
-        "dateIso": "2027-03-17",
-        "dateLabel": "ons. 17.3",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Aksjonsgruppemøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "94fd297f707462380f1d7e92": {
-      "changeId": "94fd297f707462380f1d7e92",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "e957fcb53bae00f9",
-        "dateIso": "2027-04-14",
-        "dateLabel": "ons. 14.4",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "D-rådsmøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "8ca0cdc4397ebacf9e2b96c6": {
-      "changeId": "8ca0cdc4397ebacf9e2b96c6",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "14ea576183f36fc6",
-        "dateIso": "2027-04-21",
-        "dateLabel": "ons. 21.4",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Aksjonsgruppemøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "45950a240167bfe87e97a991": {
-      "changeId": "45950a240167bfe87e97a991",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "ed42d184654d8dcf",
-        "dateIso": "2027-04-21",
-        "dateLabel": "ons. 21.4",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Lagledermøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "76eb4b93ca6c28deac1c746d": {
-      "changeId": "76eb4b93ca6c28deac1c746d",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "396d65c04f8bfed2",
-        "dateIso": "2027-05-19",
-        "dateLabel": "ons. 19.5",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Aksjonsgruppemøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "9cf37e6b437e1ac491a3a3ec": {
-      "changeId": "9cf37e6b437e1ac491a3a3ec",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "cf91629b034790ad",
-        "dateIso": "2027-05-20",
-        "dateLabel": "tor. 20.5",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Fagkveld for ambulansepersonell/AFØR",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "1a8b024ef9ce6c2a85013c79": {
-      "changeId": "1a8b024ef9ce6c2a85013c79",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "c181b4d230458ed9",
-        "dateIso": "2027-06-02",
-        "dateLabel": "ons. 2.6",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "D-rådsmøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "7f37a2f7661523cb970d4a1d": {
-      "changeId": "7f37a2f7661523cb970d4a1d",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "cbf7fd31774b1ea6",
-        "dateIso": "2027-06-16",
-        "dateLabel": "ons. 16.6",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Aksjonsgruppemøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
     "b98d884fabf7131ddfd03173": {
       "changeId": "b98d884fabf7131ddfd03173",
       "observedAt": "2026-10-21T01:10:27+02:00",
