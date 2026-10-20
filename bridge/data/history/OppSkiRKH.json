@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "528e770ee3dc702e4fac5177",
+      "observedAt": "2026-10-20T20:45:45+02:00",
+      "organization": "OppSkiRKH",
+      "kind": "added",
+      "event": {
+        "id": "49443ed6fc3ed01e",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Dugnad Dugnad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "e4bbdfba521140b5aad9c2f9",
       "observedAt": "2026-10-18T00:10:59+02:00",
       "organization": "OppSkiRKH",
@@ -137,5 +152,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:10:59+02:00"
+  "updatedAt": "2026-10-20T20:45:45+02:00"
 }
