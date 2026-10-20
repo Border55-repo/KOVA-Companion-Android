@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T17:00:28+02:00",
-  "checkedAt": "2026-10-20T17:00:28+02:00",
+  "updatedAt": "2026-10-20T17:20:29+02:00",
+  "checkedAt": "2026-10-20T17:20:29+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
   "eventCount": 26,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -99,12 +99,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
-      "id": "c98d808c6f13b43d",
+      "id": "f6763a912463d63c",
       "dateIso": "2026-11-01",
       "dateLabel": "søn. 1.11",
       "time": "15:30",
       "type": "Sanitetsvakt",
-      "description": "Odd - Sannes-Ulf Skagerak Arena",
+      "description": "Odd - Sandnes Ulf Skagerak Arena",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
