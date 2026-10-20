@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-18T00:15:51+02:00",
-  "checkedAt": "2026-10-20T11:05:28+02:00",
+  "updatedAt": "2026-10-20T11:25:33+02:00",
+  "checkedAt": "2026-10-20T11:25:33+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
-  "eventCount": 26,
+  "eventCount": 27,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -51,6 +51,15 @@
       "time": "18:00",
       "type": "Aktivitet",
       "description": "Regodkjenning - Oktober 2026 Regodkjenning - Oktober 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+    },
+    {
+      "id": "5880be2af4ee6913",
+      "dateIso": "2026-11-04",
+      "dateLabel": "ons. 4.11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld november Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
     },
     {

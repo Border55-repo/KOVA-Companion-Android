@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4324ae7ca5708b3f8cb11260",
+      "observedAt": "2026-10-20T11:25:33+02:00",
+      "organization": "TRKH",
+      "kind": "added",
+      "event": {
+        "id": "5880be2af4ee6913",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld november Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "cd7e39cb50d16fb5e512aa53",
       "observedAt": "2026-10-18T00:15:51+02:00",
       "organization": "TRKH",
@@ -431,5 +446,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:15:51+02:00"
+  "updatedAt": "2026-10-20T11:25:33+02:00"
 }
