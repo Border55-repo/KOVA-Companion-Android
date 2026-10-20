@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T01:30:36+02:00",
+  "updatedAt": "2026-10-21T01:50:32+02:00",
   "sent": {
+    "b98d884fabf7131ddfd03173": "2026-10-21T01:50:32+02:00",
+    "f743100aee7573f5e853bb44": "2026-10-21T01:50:32+02:00",
+    "fad43b66ce2f24e3ac1ed13a": "2026-10-21T01:50:32+02:00",
+    "8b168eb5551064575fbf8bf0": "2026-10-21T01:50:32+02:00",
+    "1dc28fc9c557570cfb4bb5c3": "2026-10-21T01:50:32+02:00",
+    "dca3eeabaf090f7964c39a9a": "2026-10-21T01:50:32+02:00",
+    "54e6758c39e9bafe511135d8": "2026-10-21T01:50:32+02:00",
+    "7ebb2b1aceb2a7e3ef996b45": "2026-10-21T01:50:32+02:00",
+    "b37183636dee2920ebf3792a": "2026-10-21T01:50:32+02:00",
+    "93441186406a84d2ad72bf6c": "2026-10-21T01:50:32+02:00",
     "24730a00bb9898385f62625b": "2026-10-21T01:30:36+02:00",
     "574e33ea5beb2f918765b48d": "2026-10-21T01:30:36+02:00",
     "bbaa03a0409b3e7e4daeda07": "2026-10-21T01:30:36+02:00",
@@ -1092,156 +1102,6 @@
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
   "pending": {
-    "b98d884fabf7131ddfd03173": {
-      "changeId": "b98d884fabf7131ddfd03173",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "2cd213f8db45e723",
-        "dateIso": "2027-06-25",
-        "dateLabel": "fre. 25.6",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "Hold av dagene, mer info kommer Sanitetsvakt: Støy festivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "f743100aee7573f5e853bb44": {
-      "changeId": "f743100aee7573f5e853bb44",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "5dd54786b5412a2b",
-        "dateIso": "2027-06-26",
-        "dateLabel": "lør. 26.6",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "Hold av dagene, mer info kommer Sanitetsvakt: Støy festivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "fad43b66ce2f24e3ac1ed13a": {
-      "changeId": "fad43b66ce2f24e3ac1ed13a",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "c47245c21835746a",
-        "dateIso": "2027-07-23",
-        "dateLabel": "fre. 23.7",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Sval festivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "8b168eb5551064575fbf8bf0": {
-      "changeId": "8b168eb5551064575fbf8bf0",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "5ce5fd167bf73724",
-        "dateIso": "2027-07-24",
-        "dateLabel": "lør. 24.7",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Sval festivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "1dc28fc9c557570cfb4bb5c3": {
-      "changeId": "1dc28fc9c557570cfb4bb5c3",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "e2a67d1c9d081bca",
-        "dateIso": "2027-07-29",
-        "dateLabel": "tor. 29.7",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Månefestivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "dca3eeabaf090f7964c39a9a": {
-      "changeId": "dca3eeabaf090f7964c39a9a",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "b9f5e81f38c29693",
-        "dateIso": "2027-07-30",
-        "dateLabel": "fre. 30.7",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Månefestivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "54e6758c39e9bafe511135d8": {
-      "changeId": "54e6758c39e9bafe511135d8",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "56fddbd60fbab9b3",
-        "dateIso": "2027-07-31",
-        "dateLabel": "lør. 31.7",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Månefestivalen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "7ebb2b1aceb2a7e3ef996b45": {
-      "changeId": "7ebb2b1aceb2a7e3ef996b45",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "fe888fb52ab50501",
-        "dateIso": "2027-08-06",
-        "dateLabel": "fre. 6.8",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Oppå Borgen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "b37183636dee2920ebf3792a": {
-      "changeId": "b37183636dee2920ebf3792a",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "bcee196de1e38e07",
-        "dateIso": "2027-08-07",
-        "dateLabel": "lør. 7.8",
-        "time": "",
-        "type": "Sanitetsvakt",
-        "description": "hold av dagene, mer info kommer Sanitetsvakt: Oppå Borgen",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
-    "93441186406a84d2ad72bf6c": {
-      "changeId": "93441186406a84d2ad72bf6c",
-      "observedAt": "2026-10-21T01:10:27+02:00",
-      "organization": "HaldenRKH",
-      "kind": "added",
-      "event": {
-        "id": "f0100f51fc4d2c68",
-        "dateIso": "2027-08-18",
-        "dateLabel": "ons. 18.8",
-        "time": "18:30",
-        "type": "Eksterne møter",
-        "description": "Aksjonsgruppemøte",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-      }
-    },
     "6a3044f0d84efda42a2643c4": {
       "changeId": "6a3044f0d84efda42a2643c4",
       "observedAt": "2026-10-21T01:10:27+02:00",
