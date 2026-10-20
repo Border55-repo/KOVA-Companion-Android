@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e19d87c28a6dd3f703bf65d5",
+      "observedAt": "2026-10-21T00:55:31+02:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "b945306f5327a6fa",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "14:00",
+        "type": "Korpskveld",
+        "description": "PLIVO øvelse Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "c04c258eeb6f3254",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "16:00",
+        "type": "Korpskveld",
+        "description": "PLIVO øvelse Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "f4f2961576b35dce0c22579a",
       "observedAt": "2026-10-20T16:40:24+02:00",
       "organization": "SRKH",
@@ -584,5 +608,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T16:40:24+02:00"
+  "updatedAt": "2026-10-21T00:55:31+02:00"
 }

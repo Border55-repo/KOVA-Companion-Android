@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T16:40:24+02:00",
-  "checkedAt": "2026-10-21T00:35:27+02:00",
+  "updatedAt": "2026-10-21T00:55:31+02:00",
+  "checkedAt": "2026-10-21T00:55:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
   "eventCount": 15,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -108,10 +108,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
-      "id": "c04c258eeb6f3254",
+      "id": "b945306f5327a6fa",
       "dateIso": "2026-11-26",
       "dateLabel": "tor. 26.11",
-      "time": "16:00",
+      "time": "14:00",
       "type": "Korpskveld",
       "description": "PLIVO øvelse Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
