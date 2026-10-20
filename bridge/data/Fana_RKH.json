@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T00:05:25+02:00",
-  "checkedAt": "2026-10-20T17:01:47+02:00",
+  "updatedAt": "2026-10-20T17:25:28+02:00",
+  "checkedAt": "2026-10-20T17:25:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 8,
+  "eventCount": 9,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -87,6 +87,15 @@
       "time": "",
       "type": "Interne kurs",
       "description": "KSOR",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+    },
+    {
+      "id": "960e8d1b065b42f8",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Kurs for kunde Kurs for kunde",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
     }
   ]
