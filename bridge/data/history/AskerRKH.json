@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b435d69412f57e0cdc64f115",
+      "observedAt": "2026-10-20T19:45:40+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "6596f6bc4585e0a1",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "10:00",
+        "type": "Profilering",
+        "description": "Stand Beredskaps dag Holmenhallen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "e3123bd4d5efdf85b1259a64",
       "observedAt": "2026-10-15T00:06:31+02:00",
       "organization": "AskerRKH",
@@ -242,5 +257,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-15T00:06:31+02:00"
+  "updatedAt": "2026-10-20T19:45:40+02:00"
 }
