@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d1aab28593cb3f01db62ac58",
+      "observedAt": "2026-10-21T22:55:26+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "50ad04f817411124",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "07:00",
+        "type": "Eksterne møter",
+        "description": "Tid er evreise fra huset FORF - Samling",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
+      "changeId": "a92b0d0add4e60dbda75f0c7",
+      "observedAt": "2026-10-21T22:55:26+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "7e40c785684eb618",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 16:00",
+        "type": "Eksterne møter",
+        "description": "Tid er evreise fra huset FORF - Samling",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
+      "changeId": "f5442c5fb31f22f191926b79",
+      "observedAt": "2026-10-21T22:55:26+02:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "changed",
+      "event": {
+        "id": "1d841796daafc213",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Tid er oppmøte på huset E18-løpet Langangen-Grenlandsbrua",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      },
+      "oldEvent": {
+        "id": "00532843e968c731",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Tid er oppmøte på huset E18-løpet Langangen-Grenlandsbrua",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "be86d493622b34be26f64e82",
       "observedAt": "2026-10-21T00:00:28+02:00",
       "organization": "PorsgrunnRKH",
@@ -152,5 +206,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:00:28+02:00"
+  "updatedAt": "2026-10-21T22:55:26+02:00"
 }
