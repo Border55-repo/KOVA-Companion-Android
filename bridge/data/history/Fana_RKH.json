@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a6e28e7fd653d0f82f807190",
+      "observedAt": "2026-10-21T14:40:28+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "ab3811b413824bf1",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "14:00",
+        "type": "Eksterne kurs",
+        "description": "Klargjøring kurs Klargjøring kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "b71e85770bdb38d17c6501ac",
+      "observedAt": "2026-10-21T14:40:28+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "863cee57f877985c",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Valgkomite Valgkomite",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "ba6d84d5df2ab0e4f6ebb5a7",
       "observedAt": "2026-10-21T00:05:27+02:00",
       "organization": "Fana RKH",
@@ -611,5 +641,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:05:27+02:00"
+  "updatedAt": "2026-10-21T14:40:28+02:00"
 }
