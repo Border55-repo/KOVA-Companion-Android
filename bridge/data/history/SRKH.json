@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "62e80d1092ebd5266bfe9ba6",
+      "observedAt": "2026-10-22T00:15:29+02:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "40820d25f1007e30",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Sats Norge 4,0 Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "e19d87c28a6dd3f703bf65d5",
       "observedAt": "2026-10-21T00:55:31+02:00",
       "organization": "SRKH",
@@ -608,5 +623,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:55:31+02:00"
+  "updatedAt": "2026-10-22T00:15:29+02:00"
 }

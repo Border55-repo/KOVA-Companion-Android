@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "02d35f9db8b41124a382b6e5",
+      "observedAt": "2026-10-22T00:15:25+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "1c56b4da090401c3",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA kamp (tidlig, kampstart 2100, tilstede 2 timer før) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "7bf89bbbff62e9bf9283a285",
+      "observedAt": "2026-10-22T00:15:25+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "3ad0d5e964ff96f4",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "19:00",
+        "type": "Sanitetsvakt",
+        "description": "UEFA kamp (sein, kampstart 2100, tilstede 1 time før) Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "d2f62b50c5f1a53743732659",
       "observedAt": "2026-10-21T00:00:30+02:00",
       "organization": "RKAB",
@@ -458,5 +488,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:00:30+02:00"
+  "updatedAt": "2026-10-22T00:15:25+02:00"
 }

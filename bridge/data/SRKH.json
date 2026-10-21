@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T00:55:31+02:00",
-  "checkedAt": "2026-10-21T23:55:28+02:00",
+  "updatedAt": "2026-10-22T00:15:29+02:00",
+  "checkedAt": "2026-10-22T00:15:29+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
-  "eventCount": 15,
+  "eventCount": 14,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "40820d25f1007e30",
-      "dateIso": "2026-10-15",
-      "dateLabel": "tor. 15.10",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Sats Norge 4,0 Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
     {
       "id": "531cbd865502d815",
       "dateIso": "2026-10-21",
