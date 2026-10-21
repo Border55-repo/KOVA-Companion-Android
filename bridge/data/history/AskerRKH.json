@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f2902e34b6adb138e8447219",
+      "observedAt": "2026-10-21T22:10:28+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "d2adb625fa9aa9c1",
+        "dateIso": "2026-12-10",
+        "dateLabel": "tor. 10.12",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Sosialt: Julegrøt og quiz",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "7679d80be04141b05b4e18e2",
       "observedAt": "2026-10-21T21:55:30+02:00",
       "organization": "AskerRKH",
@@ -332,5 +347,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T21:55:30+02:00"
+  "updatedAt": "2026-10-21T22:10:28+02:00"
 }
