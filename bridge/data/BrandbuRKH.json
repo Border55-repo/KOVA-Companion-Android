@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-19T00:05:59+02:00",
-  "checkedAt": "2026-10-21T06:50:37+02:00",
+  "updatedAt": "2026-10-21T07:05:28+02:00",
+  "checkedAt": "2026-10-21T07:05:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH",
-  "eventCount": 5,
+  "eventCount": 8,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 3,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -24,6 +24,33 @@
       "time": "19:00",
       "type": "Korpskveld",
       "description": "Medlemsmøtet",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "69a3bb1ab011513b",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "14:00",
+      "type": "Beredskap",
+      "description": "Beredskaps øvelse Ridehuset",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "303ef2da9bf6c8c3",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "09:00",
+      "type": "Beredskap",
+      "description": "Plivo øvelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "6564989af8d30070",
+      "dateIso": "2026-11-04",
+      "dateLabel": "ons. 4.11",
+      "time": "16:00",
+      "type": "Beredskap",
+      "description": "Plivo øvelse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
     },
     {
