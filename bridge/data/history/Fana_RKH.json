@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b29d37e9adc98ad4c1df9d85",
+      "observedAt": "2026-10-21T16:10:27+02:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "77b53d3f2cf0bec2",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "STYREMØTE FANA RØDE KORS - 20.10.26. STYREMØTE - FANA RØDE KORS - 20.10.26.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "a6e28e7fd653d0f82f807190",
       "observedAt": "2026-10-21T14:40:28+02:00",
       "organization": "Fana RKH",
@@ -641,5 +656,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T14:40:28+02:00"
+  "updatedAt": "2026-10-21T16:10:27+02:00"
 }
