@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ded0b72aa45b5540014fe5e2",
+      "observedAt": "2026-10-21T12:40:36+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "8b2c6f182e6d52d4",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "12:00",
+        "type": "Øvelse",
+        "description": "Drone trening",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "4be31a49ab94319fe775372f",
+      "observedAt": "2026-10-21T12:40:36+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "e730597ce136bdd2",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "15:00",
+        "type": "Dugnad",
+        "description": "Div. bil ting.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "5bc4e53c0ae1955314349239",
+      "observedAt": "2026-10-21T12:40:36+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "b769f2f817878ad8",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "20:00",
+        "type": "Øvelse",
+        "description": "Drone trening",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "a7ba64889f9cce93c9b8a296",
       "observedAt": "2026-10-20T21:05:25+02:00",
       "organization": "Lunner RKH",
@@ -515,5 +560,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T21:05:25+02:00"
+  "updatedAt": "2026-10-21T12:40:36+02:00"
 }
