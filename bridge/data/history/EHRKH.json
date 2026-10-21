@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2b15f36fef77a0c1bd151486",
+      "observedAt": "2026-10-22T00:00:28+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c23a7023ed1ef230",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Barn og familearrangement Reflekskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "1897627db5245ba886021e23",
       "observedAt": "2026-10-21T20:45:27+02:00",
       "organization": "EHRKH",
@@ -554,5 +569,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T20:45:27+02:00"
+  "updatedAt": "2026-10-22T00:00:28+02:00"
 }

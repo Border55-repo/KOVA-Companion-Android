@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "41fb638835e016d1ad7e723b",
+      "observedAt": "2026-10-22T00:00:38+02:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "f94e8482ede6327e",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "10:00",
+        "type": "Eksterne møter",
+        "description": "Møte med regnskapsbyrå Møte med regnskapsbyrå",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "457558bacbf2e073ff9a2241",
       "observedAt": "2026-10-21T18:00:29+02:00",
       "organization": "Fana RKH",
@@ -671,5 +686,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T18:00:29+02:00"
+  "updatedAt": "2026-10-22T00:00:38+02:00"
 }

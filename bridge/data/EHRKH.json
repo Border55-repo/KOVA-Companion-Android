@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T20:45:27+02:00",
-  "checkedAt": "2026-10-21T23:55:23+02:00",
+  "updatedAt": "2026-10-22T00:00:28+02:00",
+  "checkedAt": "2026-10-22T00:00:28+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH",
-  "eventCount": 28,
+  "eventCount": 27,
   "changes": {
-    "added": 7,
-    "removed": 0,
-    "changed": 1
+    "added": 0,
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "c23a7023ed1ef230",
-      "dateIso": "2026-10-15",
-      "dateLabel": "tor. 15.10",
-      "time": "17:00",
-      "type": "Aktivitet",
-      "description": "Barn og familearrangement Reflekskveld 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
-    },
     {
       "id": "36febbab12f4d705",
       "dateIso": "2026-10-18",

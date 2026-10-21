@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8302638f862219d679175377",
+      "observedAt": "2026-10-22T00:00:46+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3bf2345f9f31e888",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "AVLYST! Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "e3b5c2df13137e03c8afbc32",
       "observedAt": "2026-10-21T23:15:35+02:00",
       "organization": "BærumRKH",
@@ -1034,5 +1049,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T23:15:35+02:00"
+  "updatedAt": "2026-10-22T00:00:46+02:00"
 }

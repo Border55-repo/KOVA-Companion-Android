@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b667f20a025c083dfe201053",
+      "observedAt": "2026-10-22T00:00:40+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "b13f38a4dffa95be",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Øvrevoll",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "ded0b72aa45b5540014fe5e2",
       "observedAt": "2026-10-21T12:40:36+02:00",
       "organization": "Lunner RKH",
@@ -560,5 +575,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T12:40:36+02:00"
+  "updatedAt": "2026-10-22T00:00:40+02:00"
 }

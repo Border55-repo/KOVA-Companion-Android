@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a158a4b9632127f48dce53a1",
+      "observedAt": "2026-10-22T00:00:43+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "2878f8e3e8129d0c",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "19:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot Lincoln Red Imps Brann mot Lincoln Red Imps",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "30f4f80f6e3f308848e3ff04",
       "observedAt": "2026-10-20T10:30:29+02:00",
       "organization": "Bergen RKH",
@@ -1088,5 +1103,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T10:30:29+02:00"
+  "updatedAt": "2026-10-22T00:00:43+02:00"
 }
