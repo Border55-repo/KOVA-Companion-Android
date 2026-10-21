@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T00:15:36+02:00",
-  "checkedAt": "2026-10-21T23:50:32+02:00",
+  "updatedAt": "2026-10-22T00:10:43+02:00",
+  "checkedAt": "2026-10-22T00:10:43+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA",
-  "eventCount": 5,
+  "eventCount": 4,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "258818d735f062fd",
-      "dateIso": "2026-10-15",
-      "dateLabel": "tor. 15.10",
-      "time": "16:00",
-      "type": "Ambulansevakt",
-      "description": "Ordinærvakt OUS Ordinærvakt OUS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
-    },
     {
       "id": "96bec8cd90be973a",
       "dateIso": "2026-10-21",

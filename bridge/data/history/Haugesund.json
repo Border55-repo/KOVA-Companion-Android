@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "730ff6bb4a94738aad04c1b8",
+      "observedAt": "2026-10-22T00:10:35+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "3c04c3313af5e43c",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "15:30",
+        "type": "Beredskap",
+        "description": "Oppmøte huset 15:30, Start i Aksdal kl 16:00 Refleksdagen - Aksdal senteret",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "bf59eb8822ae9f0543f09899",
       "observedAt": "2026-10-21T00:15:31+02:00",
       "organization": "Haugesund",
@@ -200,5 +215,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:15:31+02:00"
+  "updatedAt": "2026-10-22T00:10:35+02:00"
 }

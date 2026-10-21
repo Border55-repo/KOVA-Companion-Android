@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "114cf67e4f7fe11757aa8058",
+      "observedAt": "2026-10-22T00:10:39+02:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "937b7bab1bb42781",
+        "dateIso": "2026-10-15",
+        "dateLabel": "tor. 15.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Medlemskveld Samband",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "a9555736ad9cf06769bb0f27",
       "observedAt": "2026-10-20T18:55:29+02:00",
       "organization": "LillehammerRKH",
@@ -191,5 +206,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T18:55:29+02:00"
+  "updatedAt": "2026-10-22T00:10:39+02:00"
 }
