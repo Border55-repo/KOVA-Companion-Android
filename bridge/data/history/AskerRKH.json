@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7679d80be04141b05b4e18e2",
+      "observedAt": "2026-10-21T21:55:30+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "f8a49c95dd3bcb3b",
+        "dateIso": "2026-11-18",
+        "dateLabel": "ons. 18.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "På Fangene på Fortet i Nydalen Sosialt: The Cube",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "13b1d90cc79fa81da9192134",
       "observedAt": "2026-10-21T19:10:36+02:00",
       "organization": "AskerRKH",
@@ -317,5 +332,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T19:10:36+02:00"
+  "updatedAt": "2026-10-21T21:55:30+02:00"
 }
