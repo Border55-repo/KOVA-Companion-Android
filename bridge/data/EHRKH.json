@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T20:40:22+02:00",
-  "checkedAt": "2026-10-21T20:40:22+02:00",
+  "updatedAt": "2026-10-21T20:45:27+02:00",
+  "checkedAt": "2026-10-21T20:45:27+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH",
-  "eventCount": 21,
+  "eventCount": 28,
   "changes": {
-    "added": 2,
+    "added": 7,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -90,6 +90,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
     },
     {
+      "id": "52093afbf3442ee6",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
       "id": "995e328eacfc591d",
       "dateIso": "2026-10-27",
       "dateLabel": "tir. 27.10",
@@ -108,6 +117,24 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
     },
     {
+      "id": "c4fc455b0ecebbc8",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "14:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "2fd65586e7c6c273",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
       "id": "ad8f8944e56d4ee3",
       "dateIso": "2026-10-29",
       "dateLabel": "tor. 29.10",
@@ -117,10 +144,46 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
     },
     {
+      "id": "747f93208f2e390b",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "14:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "84f50b3aea18fe82",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
       "id": "6bf224fcf99a78b2",
       "dateIso": "2026-10-30",
       "dateLabel": "fre. 30.10",
       "time": "11:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "66a057b1fa297615",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "14:00",
+      "type": "Profilering",
+      "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+    },
+    {
+      "id": "06461bd7c0b31fef",
+      "dateIso": "2026-10-30",
+      "dateLabel": "fre. 30.10",
+      "time": "17:00",
       "type": "Profilering",
       "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
@@ -144,10 +207,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
     },
     {
-      "id": "56f0b2488c2f406d",
+      "id": "1547fd3cdcf945e9",
       "dateIso": "2026-10-31",
       "dateLabel": "lør. 31.10",
-      "time": "10:00",
+      "time": "11:00",
       "type": "Profilering",
       "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
