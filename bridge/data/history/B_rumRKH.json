@@ -2,6 +2,186 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3192d09ea74ca374a5092b94",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "bd9d57b63b9ca0a3",
+        "dateIso": "2027-02-10",
+        "dateLabel": "ons. 10.2",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "KSAM-refresh / sambandsringløype Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "c724342ec30d5848f1d3dbf6",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "395fa5ade50b2dba",
+        "dateIso": "2027-02-24",
+        "dateLabel": "ons. 24.2",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "6a38b895006a04fb1e4f140a",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "b7682d6bff283783",
+        "dateIso": "2027-03-10",
+        "dateLabel": "ons. 10.3",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "c63735fa1c9f7302273ed545",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "90d9a89243be2987",
+        "dateIso": "2027-03-24",
+        "dateLabel": "ons. 24.3",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "97ee3525f28c8aba704b879b",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "ffb7e86964440b3b",
+        "dateIso": "2027-04-07",
+        "dateLabel": "ons. 7.4",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "9f449578757f2f4a92ede4b4",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "c5e5e07ffa66f215",
+        "dateIso": "2027-04-21",
+        "dateLabel": "ons. 21.4",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "bac7ee47eab7809380e54838",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "b243cca3a520e9bb",
+        "dateIso": "2027-05-05",
+        "dateLabel": "ons. 5.5",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "9fb7ad3ce4ce5c05651ae47e",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "d6f7acfb9964d755",
+        "dateIso": "2027-05-19",
+        "dateLabel": "ons. 19.5",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "71dc352a02170e54b59128cb",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "be736be8092db4e7",
+        "dateIso": "2027-06-02",
+        "dateLabel": "ons. 2.6",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "fd669467edd4dfe45d092ac5",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "8b04e540f80e1e8a",
+        "dateIso": "2027-06-16",
+        "dateLabel": "ons. 16.6",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "ed2555154068293f2b6cead6",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "175cca062f0438f9",
+        "dateIso": "2027-06-30",
+        "dateLabel": "ons. 30.6",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "59971f06d4b086aaa0eb60b5",
+      "observedAt": "2026-10-21T22:45:36+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "a49ea0cf0e0db91f",
+        "dateIso": "2027-07-14",
+        "dateLabel": "ons. 14.7",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "7a22c9a4c4bb3aea5c557618",
       "observedAt": "2026-10-21T22:30:32+02:00",
       "organization": "BærumRKH",
@@ -770,5 +950,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T22:30:32+02:00"
+  "updatedAt": "2026-10-21T22:45:36+02:00"
 }
