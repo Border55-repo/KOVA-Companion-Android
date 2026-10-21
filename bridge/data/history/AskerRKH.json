@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "13b1d90cc79fa81da9192134",
+      "observedAt": "2026-10-21T19:10:36+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "b4f9ffb0efc66a34",
+        "dateIso": "2026-11-20",
+        "dateLabel": "fre. 20.11",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Slemmestad Factory light 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
+      "changeId": "e88c14466872fc1ec95e9e7d",
+      "observedAt": "2026-10-21T19:10:36+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "4cc754def9d3c1c2",
+        "dateIso": "2026-11-21",
+        "dateLabel": "lør. 21.11",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Slemmestad Factory light 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "53f2453a6fdfcb2b80dd58c6",
       "observedAt": "2026-10-21T18:55:35+02:00",
       "organization": "AskerRKH",
@@ -287,5 +317,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T18:55:35+02:00"
+  "updatedAt": "2026-10-21T19:10:36+02:00"
 }
