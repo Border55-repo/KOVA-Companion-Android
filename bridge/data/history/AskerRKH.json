@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "53f2453a6fdfcb2b80dd58c6",
+      "observedAt": "2026-10-21T18:55:35+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "97c4ab8416e070a6",
+        "dateIso": "2026-11-28",
+        "dateLabel": "lør. 28.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Velodromen NM i bane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
+      "changeId": "d77239b40691c08ba87fb8ee",
+      "observedAt": "2026-10-21T18:55:35+02:00",
+      "organization": "AskerRKH",
+      "kind": "added",
+      "event": {
+        "id": "8ae9b387a4b5b29a",
+        "dateIso": "2026-11-29",
+        "dateLabel": "søn. 29.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Velodromen NM i bane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "b435d69412f57e0cdc64f115",
       "observedAt": "2026-10-20T19:45:40+02:00",
       "organization": "AskerRKH",
@@ -257,5 +287,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T19:45:40+02:00"
+  "updatedAt": "2026-10-21T18:55:35+02:00"
 }
