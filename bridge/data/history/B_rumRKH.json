@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7a22c9a4c4bb3aea5c557618",
+      "observedAt": "2026-10-21T22:30:32+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "96f4138907f8907f",
+        "dateIso": "2027-01-14",
+        "dateLabel": "tor. 14.1",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Erfaringer fra ko / fra melding om bistandsforespørsel til oppstart av søk Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "93d7ca0aba305a5c11b00b49",
+      "observedAt": "2026-10-21T22:30:32+02:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "5f111145eeaa43c9",
+        "dateIso": "2027-01-27",
+        "dateLabel": "ons. 27.1",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "2d651f12157607b9e2282663",
       "observedAt": "2026-10-21T22:00:35+02:00",
       "organization": "BærumRKH",
@@ -740,5 +770,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T22:00:35+02:00"
+  "updatedAt": "2026-10-21T22:30:32+02:00"
 }

@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T22:00:35+02:00",
-  "checkedAt": "2026-10-21T22:15:28+02:00",
+  "updatedAt": "2026-10-21T22:30:32+02:00",
+  "checkedAt": "2026-10-21T22:30:32+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 40,
+  "eventCount": 42,
   "changes": {
-    "added": 0,
+    "added": 2,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -339,6 +339,24 @@
       "time": "18:00",
       "type": "Ambulansevakt",
       "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "96f4138907f8907f",
+      "dateIso": "2027-01-14",
+      "dateLabel": "tor. 14.1",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Erfaringer fra ko / fra melding om bistandsforespørsel til oppstart av søk Korpskveld 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "5f111145eeaa43c9",
+      "dateIso": "2027-01-27",
+      "dateLabel": "ons. 27.1",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Info kommer. Korpskveld 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
     },
     {
