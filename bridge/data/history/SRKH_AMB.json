@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "f6cf42a977d2c92d7f01c35f",
+      "observedAt": "2026-10-23T00:16:31+02:00",
+      "organization": "SRKH AMB",
+      "kind": "removed",
+      "event": {
+        "id": "a247e9a6fa970921",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "18:00",
+        "type": "Ambulansevakt",
+        "description": "Suppleringsvakt OUS Ambulansevakt OUS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-23T00:16:31+02:00"
+}

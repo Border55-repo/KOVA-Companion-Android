@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-05T00:01:48+02:00",
-  "checkedAt": "2026-10-22T23:56:30+02:00",
+  "updatedAt": "2026-10-23T00:16:31+02:00",
+  "checkedAt": "2026-10-23T00:16:31+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB",
-  "eventCount": 12,
+  "eventCount": 11,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "a247e9a6fa970921",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "18:00",
-      "type": "Ambulansevakt",
-      "description": "Suppleringsvakt OUS Ambulansevakt OUS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH+AMB"
-    },
     {
       "id": "2e0d406643f96edf",
       "dateIso": "2026-10-17",

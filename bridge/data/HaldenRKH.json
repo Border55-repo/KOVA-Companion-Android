@@ -7,70 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-22T21:56:18+02:00",
-  "checkedAt": "2026-10-22T23:56:26+02:00",
+  "updatedAt": "2026-10-23T00:16:18+02:00",
+  "checkedAt": "2026-10-23T00:16:18+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 85,
+  "eventCount": 79,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 6,
     "changed": 0
   },
   "events": [
-    {
-      "id": "5abbe50c4ac8beb0",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "adaf50cfcf93d313",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "17:00",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "2fdb6769525fb177",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "1b095b0278acc564",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "48c37cab1891285f",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
-    {
-      "id": "b5876d5c7a0653df",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "-> 18:00",
-      "type": "Eksterne kurs",
-      "description": "AFØR kurs",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
     {
       "id": "12a6046b6e5de03d",
       "dateIso": "2026-10-19",

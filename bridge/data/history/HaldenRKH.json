@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b6d13d02e19b41351b255425",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5abbe50c4ac8beb0",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "1888439903a514feb4c89389",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "adaf50cfcf93d313",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "6f32af40c3467e5108de49da",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2fdb6769525fb177",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "1c4fd7c88cd032f4fcdf180c",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1b095b0278acc564",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "ea1be5e2f27f19dcb3e98e35",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "48c37cab1891285f",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Helg 2 Kurs: Videregående Førstehjelp (bruk 9seter)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "c4d44d171621af42707d2b83",
+      "observedAt": "2026-10-23T00:16:18+02:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b5876d5c7a0653df",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "-> 18:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "9231d7366fb0696e18f1bf77",
       "observedAt": "2026-10-22T21:56:18+02:00",
       "organization": "HaldenRKH",
@@ -1820,5 +1910,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T21:56:18+02:00"
+  "updatedAt": "2026-10-23T00:16:18+02:00"
 }
