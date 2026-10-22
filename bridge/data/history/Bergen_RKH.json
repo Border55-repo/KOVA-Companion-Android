@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1115cc4379d6b99a03a63a1f",
+      "observedAt": "2026-10-23T00:11:28+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "af9f2c504c4b7ff0",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "18:30",
+        "type": "Sanitetsvakt",
+        "description": "NHH Show og kjellerfest NHH Show og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "d4ea6b30d901136f10ee2224",
+      "observedAt": "2026-10-23T00:11:28+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "c28b42a557f5e529",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "-> 03:00",
+        "type": "Sanitetsvakt",
+        "description": "NHH Show og kjellerfest NHH Show og kjellerfest",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "11e0790b2e8656e82160adef",
       "observedAt": "2026-10-22T15:16:41+02:00",
       "organization": "Bergen RKH",
@@ -1133,5 +1163,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T15:16:41+02:00"
+  "updatedAt": "2026-10-23T00:11:28+02:00"
 }

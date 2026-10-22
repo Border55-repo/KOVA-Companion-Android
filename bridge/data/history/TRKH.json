@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d842af1c5d366bbb8b014faa",
+      "observedAt": "2026-10-23T00:11:24+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "050ae2c25cc70738",
+        "dateIso": "2026-10-16",
+        "dateLabel": "fre. 16.10",
+        "time": "11:00",
+        "type": "Interne kurs",
+        "description": "AFØR - stab helg 2 AFØR H2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "ae5cceea2ef08b406bcf8a6b",
+      "observedAt": "2026-10-23T00:11:24+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "35eb880b86f41908",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "AFØR - stab helg 2 AFØR H2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
+      "changeId": "d90d1cb0b7d7244ea05d0597",
+      "observedAt": "2026-10-23T00:11:24+02:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "977d45b89b5db6e3",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "-> 20:00",
+        "type": "Interne kurs",
+        "description": "AFØR - stab helg 2 AFØR H2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "4324ae7ca5708b3f8cb11260",
       "observedAt": "2026-10-20T11:25:33+02:00",
       "organization": "TRKH",
@@ -446,5 +491,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T11:25:33+02:00"
+  "updatedAt": "2026-10-23T00:11:24+02:00"
 }

@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T00:10:29+02:00",
-  "checkedAt": "2026-10-22T23:51:25+02:00",
+  "updatedAt": "2026-10-23T00:11:20+02:00",
+  "checkedAt": "2026-10-23T00:11:20+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
-  "eventCount": 43,
+  "eventCount": 40,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "6a68ad7f471cd58d",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "08:00",
-      "type": "Eksterne kurs",
-      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "adb975f22fdf2209",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
-    {
-      "id": "7e9b3b16ebe09818",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "-> 22:00",
-      "type": "Eksterne kurs",
-      "description": "Påmeldingsfrist 31.07.26 - mer info kommer Videregående førstehjelp (VFØR) Østfold 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
-    },
     {
       "id": "d2305364ccb89110",
       "dateIso": "2026-10-18",
