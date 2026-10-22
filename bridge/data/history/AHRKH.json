@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ae1dc01e7ec991b247274300",
+      "observedAt": "2026-10-22T12:56:27+02:00",
+      "organization": "AHRKH",
+      "kind": "added",
+      "event": {
+        "id": "2cd4b31279194e81",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "08:45",
+        "type": "Beredskap",
+        "description": "Foredrag for ungdomskolen på Aurskog Foredrag for ungdomskolen på Aurskog",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
+      "changeId": "13e692f005c3890a0cad2e37",
+      "observedAt": "2026-10-22T12:56:27+02:00",
+      "organization": "AHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "a730b747a7adf000",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Samband Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      },
+      "oldEvent": {
+        "id": "53998a87bfee6261",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Kurs Ksor Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "43de87107ce90eb69057d624",
       "observedAt": "2026-10-22T00:10:47+02:00",
       "organization": "AHRKH",
@@ -437,5 +476,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T00:10:47+02:00"
+  "updatedAt": "2026-10-22T12:56:27+02:00"
 }
