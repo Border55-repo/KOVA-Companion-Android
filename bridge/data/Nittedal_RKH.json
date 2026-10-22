@@ -7,70 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-18T08:10:48+02:00",
-  "checkedAt": "2026-10-22T23:56:24+02:00",
+  "updatedAt": "2026-10-23T00:01:22+02:00",
+  "checkedAt": "2026-10-23T00:01:22+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 38,
+  "eventCount": 32,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 6,
     "changed": 0
   },
   "events": [
-    {
-      "id": "f4c10ca6bec1586e",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "17:30",
-      "type": "Eksterne kurs",
-      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "6d638ffee8c21a84",
-      "dateIso": "2026-10-16",
-      "dateLabel": "fre. 16.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "8c14c24a460ea529",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "82fc4b083a479f8e",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "93f90bbaef08a2ac",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "-> 16:00",
-      "type": "Eksterne kurs",
-      "description": "VFØR Østfold 2026, Sarpsborg RKH Kurs: Videregående Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "0bfc3e5d9ec2715f",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "-> 21:00",
-      "type": "Eksterne kurs",
-      "description": "RK32 er opptatt hele helgen ifbm kurs Kurs: AFØR - Avansert Førstehjelp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "beb659b3116492b0",
       "dateIso": "2026-10-21",
