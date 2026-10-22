@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fddad63eff1d7cdae5c55ad2",
+      "observedAt": "2026-10-22T21:22:31+02:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "1e0c6ed0e42e4b09",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "09:00",
+        "type": "Ambulansevakt",
+        "description": "Unity Arena, Fornebu Hot Wheels stunt show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "38e7cec2468c78d0ab460df8",
+      "observedAt": "2026-10-22T21:22:31+02:00",
+      "organization": "Lunner RKH",
+      "kind": "changed",
+      "event": {
+        "id": "296de5910f2863c9",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "16:00",
+        "type": "Aktivitet",
+        "description": "Tid og sted kommer PLIVO-øvelse Brandbu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      },
+      "oldEvent": {
+        "id": "e43be5a2927b074e",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Tid og sted kommer PLIVO-øvelse Brandbu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "4c18c81635dea22f97b2bd66",
       "observedAt": "2026-10-22T18:46:34+02:00",
       "organization": "Lunner RKH",
@@ -590,5 +629,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T18:46:34+02:00"
+  "updatedAt": "2026-10-22T21:22:31+02:00"
 }
