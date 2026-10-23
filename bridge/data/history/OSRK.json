@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e6de35110350bec08707fe12",
+      "observedAt": "2026-10-23T15:26:24+02:00",
+      "organization": "OSRK",
+      "kind": "added",
+      "event": {
+        "id": "9d3f2cd53e799b2d",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "KORPSKVELD Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
+      "changeId": "efa3d7a382279dc1c22bcbf3",
+      "observedAt": "2026-10-23T15:26:24+02:00",
+      "organization": "OSRK",
+      "kind": "removed",
+      "event": {
+        "id": "faf2f66cae889b53",
+        "dateIso": "2026-10-12",
+        "dateLabel": "man. 12.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Utsjekk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK"
+      }
+    },
+    {
       "changeId": "b2d5353d6148858e60868688",
       "observedAt": "2026-10-08T00:02:02+02:00",
       "organization": "OSRK",
@@ -182,5 +212,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-08T00:02:02+02:00"
+  "updatedAt": "2026-10-23T15:26:24+02:00"
 }
