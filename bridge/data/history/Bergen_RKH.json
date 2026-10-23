@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "71e33ce39551a82b11d785f7",
+      "observedAt": "2026-10-24T00:06:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "53fead5225a60a1f",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "08:45",
+        "type": "Interne kurs",
+        "description": "Stab KSAM KSAM dag 1",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "82f4386ebf27618f72864359",
+      "observedAt": "2026-10-24T00:06:21+02:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "b539042fae5ad29e",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:00",
+        "type": "Dugnad",
+        "description": "Tømme pant og boss, ta ned stillas og se over hytten Dugnad Føykely",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "1115cc4379d6b99a03a63a1f",
       "observedAt": "2026-10-23T00:11:28+02:00",
       "organization": "Bergen RKH",
@@ -1163,5 +1193,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:11:28+02:00"
+  "updatedAt": "2026-10-24T00:06:21+02:00"
 }

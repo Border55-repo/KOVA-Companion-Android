@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8e3e4731f14bb9ea9dc20754",
+      "observedAt": "2026-10-24T00:06:26+02:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "7827150f91e72bfe",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Klubbløp Bilcross / Rallycross EIKÅS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "587ae42f8e1a41aba2efdef4",
       "observedAt": "2026-10-23T00:01:32+02:00",
       "organization": "RKAB",
@@ -503,5 +518,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:01:32+02:00"
+  "updatedAt": "2026-10-24T00:06:26+02:00"
 }
