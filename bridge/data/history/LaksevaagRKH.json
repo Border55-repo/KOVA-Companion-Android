@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "02100ae2aea306e3952e62bd",
+      "observedAt": "2026-10-24T00:16:21+02:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "572759dd47368b99",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "09:00",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 1/2. Påmeldingsfrist 10. OKT. GRUNNKURS: Kvalifisert Samband (KSAM)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "ae5b21c427212bfcd7d805d2",
       "observedAt": "2026-10-22T00:05:26+02:00",
       "organization": "LaksevaagRKH",
@@ -935,5 +950,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T00:05:26+02:00"
+  "updatedAt": "2026-10-24T00:16:21+02:00"
 }

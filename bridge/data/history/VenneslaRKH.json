@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c579ffcad9090d6001f1c7e4",
+      "observedAt": "2026-10-24T00:16:27+02:00",
+      "organization": "VenneslaRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4d3365c5c44ca51d",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "14:45",
+        "type": "Sanitetsvakt",
+        "description": "Kamp 15.00 Vindbjart - Varhaug",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "83b4aa4b497242c15dc5c5fc",
       "observedAt": "2026-10-21T15:25:30+02:00",
       "organization": "VenneslaRKH",
@@ -317,5 +332,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T15:25:30+02:00"
+  "updatedAt": "2026-10-24T00:16:27+02:00"
 }

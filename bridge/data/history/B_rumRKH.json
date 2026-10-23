@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f28b1c0737a5407a630e701b",
+      "observedAt": "2026-10-24T00:16:17+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1d99388c7e111e6b",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "09:00",
+        "type": "Interne kurs",
+        "description": "Fysisk helg (Røde Kors huset Sandvika) KFØR Asker og Bærum - info kommer",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "352632810958a18b3efdee6c",
+      "observedAt": "2026-10-24T00:16:17+02:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f33c68722b457d97",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Ordinær OUS vakt RK34: Supplering for OUS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "ac23367f8db3d15f65283bde",
       "observedAt": "2026-10-23T00:11:30+02:00",
       "organization": "BærumRKH",
@@ -1064,5 +1094,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:11:30+02:00"
+  "updatedAt": "2026-10-24T00:16:17+02:00"
 }

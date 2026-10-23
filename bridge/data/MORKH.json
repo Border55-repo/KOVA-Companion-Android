@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T00:10:26+02:00",
-  "checkedAt": "2026-10-23T23:56:22+02:00",
+  "updatedAt": "2026-10-24T00:16:22+02:00",
+  "checkedAt": "2026-10-24T00:16:22+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 32,
+  "eventCount": 30,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "1c582b28b011d6be",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Lørdag V75/Oaks Travvakt LAG 1",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
-    {
-      "id": "f48e9b69ff1e5a2a",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "00:00",
-      "type": "Aktivitet",
-      "description": "5.2 utlånt til PA 5.2 lånt ut",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
     {
       "id": "be791215c5598aba",
       "dateIso": "2026-10-20",
