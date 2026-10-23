@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f4726b4e16ceb312ac98d4f4",
+      "observedAt": "2026-10-24T00:01:31+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "ccacde76f3e3854d",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "10:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte huset 10:45, vaktstart 11:30 FKH damer - Molde",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
+      "changeId": "8f7eee4f29d44efb983e9c4d",
+      "observedAt": "2026-10-24T00:01:31+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "3cbf0380f8246510",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 12:45, vaktstart 13:30 HIL - Djupadalten 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
+      "changeId": "6886f31632dbb4db2a872328",
+      "observedAt": "2026-10-24T00:01:31+02:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "51f7594e28c276a4",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 14:00, vaktstart 14:30 Vard Haugesund - Askøy",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "730ff6bb4a94738aad04c1b8",
       "observedAt": "2026-10-22T00:10:35+02:00",
       "organization": "Haugesund",
@@ -215,5 +260,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T00:10:35+02:00"
+  "updatedAt": "2026-10-24T00:01:31+02:00"
 }

@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-23T00:16:32+02:00",
-  "checkedAt": "2026-10-23T23:41:37+02:00",
+  "updatedAt": "2026-10-24T00:01:37+02:00",
+  "checkedAt": "2026-10-24T00:01:37+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 22,
+  "eventCount": 20,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "704112194e940ef3",
-      "dateIso": "2026-10-17",
-      "dateLabel": "lør. 17.10",
-      "time": "21:00",
-      "type": "Sanitetsvakt",
-      "description": "Silent Disco UKAiÅS 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
-    {
-      "id": "1f840d8b2f79be42",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "-> 02:30",
-      "type": "Sanitetsvakt",
-      "description": "Silent Disco UKAiÅS 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
     {
       "id": "1e389ff127a7bf0a",
       "dateIso": "2026-10-20",

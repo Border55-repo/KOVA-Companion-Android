@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "969b789448df584f01924f11",
+      "observedAt": "2026-10-24T00:01:37+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "704112194e940ef3",
+        "dateIso": "2026-10-17",
+        "dateLabel": "lør. 17.10",
+        "time": "21:00",
+        "type": "Sanitetsvakt",
+        "description": "Silent Disco UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "6dcc95f952cfedb10ee15150",
+      "observedAt": "2026-10-24T00:01:37+02:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1f840d8b2f79be42",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "-> 02:30",
+        "type": "Sanitetsvakt",
+        "description": "Silent Disco UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "563666d536043716a309d426",
       "observedAt": "2026-10-23T00:16:32+02:00",
       "organization": "VÅRKH",
@@ -395,5 +425,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:16:32+02:00"
+  "updatedAt": "2026-10-24T00:01:37+02:00"
 }
