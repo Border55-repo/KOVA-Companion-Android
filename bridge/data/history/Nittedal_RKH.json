@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "edd3bb61ff35c6072fe7236d",
+      "observedAt": "2026-10-23T17:15:11+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "0eca18c74722f16d",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Budsjettmøte Møte: Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "3b742f6968f685f48255c93f",
       "observedAt": "2026-10-23T09:56:24+02:00",
       "organization": "Nittedal RKH",
@@ -929,5 +944,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T09:56:24+02:00"
+  "updatedAt": "2026-10-23T17:15:11+02:00"
 }
