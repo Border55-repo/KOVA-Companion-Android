@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b03436c6a54c538ddb401a89",
+      "observedAt": "2026-10-25T00:06:31+02:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1d42bbe4aadfe4ac",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane - Stabæk | Tentativt tidspunkt Åsane Fotball",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    },
+    {
       "changeId": "8e6243f70c89e0beaf7e63f7",
       "observedAt": "2026-10-18T00:05:55+02:00",
       "organization": "AÅRKH",
@@ -137,5 +152,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T00:05:55+02:00"
+  "updatedAt": "2026-10-25T00:06:31+02:00"
 }
