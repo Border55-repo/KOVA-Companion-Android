@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6a6be9c63e14174894c61e8c",
+      "observedAt": "2026-10-25T00:01:20+02:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "36febbab12f4d705",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "19:00",
+        "type": "Rådsmøte",
+        "description": "Fysisk Rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "94653229814cf5430091393d",
       "observedAt": "2026-10-24T12:01:29+02:00",
       "organization": "EHRKH",
@@ -584,5 +599,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T12:01:29+02:00"
+  "updatedAt": "2026-10-25T00:01:20+02:00"
 }
