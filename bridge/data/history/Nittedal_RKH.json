@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "363e0940446446ce26b511c7",
+      "observedAt": "2026-10-24T22:01:23+02:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "ccb5ce5603713284",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Foredrag fra fronten i Ukraina",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "edd3bb61ff35c6072fe7236d",
       "observedAt": "2026-10-23T17:15:11+02:00",
       "organization": "Nittedal RKH",
@@ -944,5 +959,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T17:15:11+02:00"
+  "updatedAt": "2026-10-24T22:01:23+02:00"
 }
