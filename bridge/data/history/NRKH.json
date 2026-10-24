@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1fa381a5a346766f59270de1",
+      "observedAt": "2026-10-24T10:56:24+02:00",
+      "organization": "NRKH",
+      "kind": "changed",
+      "event": {
+        "id": "47b5b2263c7af684",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "12:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 - AVLYST Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      },
+      "oldEvent": {
+        "id": "fa8cabadcd3028c2",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "12:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "c4ddd760b80a7358e96cbb01",
       "observedAt": "2026-10-24T00:01:35+02:00",
       "organization": "NRKH",
@@ -764,5 +788,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:01:35+02:00"
+  "updatedAt": "2026-10-24T10:56:24+02:00"
 }
