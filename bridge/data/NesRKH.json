@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-20T00:05:29+02:00",
-  "checkedAt": "2026-10-24T23:51:22+02:00",
+  "updatedAt": "2026-10-25T00:11:23+02:00",
+  "checkedAt": "2026-10-25T00:11:23+02:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH",
-  "eventCount": 7,
+  "eventCount": 6,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "48dd55d59e39b86a",
-      "dateIso": "2026-10-18",
-      "dateLabel": "søn. 18.10",
-      "time": "13:30",
-      "type": "Sanitetsvakt",
-      "description": "oppmøte 13.30 - avreise 14.00 Vålerenga - Brann",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    },
     {
       "id": "b17cdfa0d1e151d8",
       "dateIso": "2026-10-20",

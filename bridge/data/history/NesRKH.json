@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3e4a03c791a44de0f857bdf1",
+      "observedAt": "2026-10-25T00:11:23+02:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "48dd55d59e39b86a",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "oppmøte 13.30 - avreise 14.00 Vålerenga - Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "d8c001a6f6008c67cb3c38b7",
       "observedAt": "2026-10-20T00:05:29+02:00",
       "organization": "NesRKH",
@@ -209,5 +224,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T00:05:29+02:00"
+  "updatedAt": "2026-10-25T00:11:23+02:00"
 }

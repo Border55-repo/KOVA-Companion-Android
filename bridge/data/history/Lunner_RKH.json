@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3f19c715c90d4bdfcfcd20a8",
+      "observedAt": "2026-10-25T00:11:20+02:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "8b2c6f182e6d52d4",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "12:00",
+        "type": "Øvelse",
+        "description": "Drone trening",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "fddad63eff1d7cdae5c55ad2",
       "observedAt": "2026-10-22T21:22:31+02:00",
       "organization": "Lunner RKH",
@@ -629,5 +644,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T21:22:31+02:00"
+  "updatedAt": "2026-10-25T00:11:20+02:00"
 }
