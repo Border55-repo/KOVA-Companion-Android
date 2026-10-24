@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "be617378a6784c0c420f35b1",
+      "observedAt": "2026-10-25T00:16:30+02:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "d2305364ccb89110",
+        "dateIso": "2026-10-18",
+        "dateLabel": "søn. 18.10",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 14:30 S08-vakt: Rosenborg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "858aecdb8c482d250336ae86",
       "observedAt": "2026-10-23T00:11:20+02:00",
       "organization": "RKSarpsborg",
@@ -857,5 +872,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:11:20+02:00"
+  "updatedAt": "2026-10-25T00:16:30+02:00"
 }
