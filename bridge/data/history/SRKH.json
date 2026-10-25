@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5ba772ecd6951be11ff3e432",
+      "observedAt": "2026-10-25T10:51:23+01:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "9e48f7b07f4b3b5d",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søks øvelse Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "284b28dd510c2ee5",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Tema kommer Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "62e80d1092ebd5266bfe9ba6",
       "observedAt": "2026-10-22T00:15:29+02:00",
       "organization": "SRKH",
@@ -623,5 +647,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T00:15:29+02:00"
+  "updatedAt": "2026-10-25T10:51:23+01:00"
 }
