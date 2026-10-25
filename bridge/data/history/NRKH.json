@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fb11bbda134b92fce1e7f252",
+      "observedAt": "2026-10-26T00:05:57+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1a4cedbe0d898b3c",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Norge øver - Alver + Masfjorden Norge øver!",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "3edbb4c3373475b568e05eb2",
+      "observedAt": "2026-10-26T00:05:57+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "05090dba60a88e00",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "12:00",
+        "type": "Eksterne kurs",
+        "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "e8f65fdae5bff964d0b67b71",
+      "observedAt": "2026-10-26T00:05:57+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "832fef9b31ddf272",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Introkurs for nye aspiranter Introkurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "adaadc525f75660e5ae12db7",
+      "observedAt": "2026-10-26T00:05:57+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7b97101f5609301a",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "18:00",
+        "type": "Båtvakt",
+        "description": "Patrulje/trening, Nordhordland 66 Patrulje/trening, Nordhordland 66",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "7b1306c24f914589d43be586",
       "observedAt": "2026-10-25T23:46:22+01:00",
       "organization": "NRKH",
@@ -812,5 +872,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T23:46:22+01:00"
+  "updatedAt": "2026-10-26T00:05:57+01:00"
 }

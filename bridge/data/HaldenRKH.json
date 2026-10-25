@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-23T00:16:18+02:00",
-  "checkedAt": "2026-10-25T23:46:20+01:00",
+  "updatedAt": "2026-10-26T00:05:54+01:00",
+  "checkedAt": "2026-10-26T00:05:54+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 79,
+  "eventCount": 78,
   "changes": {
     "added": 0,
-    "removed": 6,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "12a6046b6e5de03d",
-      "dateIso": "2026-10-19",
-      "dateLabel": "man. 19.10",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "Lokalrådsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
-    },
     {
       "id": "3b3b0d0089f425e7",
       "dateIso": "2026-10-20",
