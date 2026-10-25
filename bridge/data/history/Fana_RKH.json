@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7eaaa4d13bba059dc34e81e6",
+      "observedAt": "2026-10-25T18:36:20+01:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "35a1d8c998b35413",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Skrivebordsøvelse Beredskap og ny veileder SOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "ac662e37e62a87629f726a02",
       "observedAt": "2026-10-24T00:11:21+02:00",
       "organization": "Fana RKH",
@@ -725,5 +740,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:11:21+02:00"
+  "updatedAt": "2026-10-25T18:36:20+01:00"
 }
