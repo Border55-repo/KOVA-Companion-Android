@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8b4ce97fd1716b57d2c5a56d",
+      "observedAt": "2026-10-25T14:16:27+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "22d13d93cb2ee154",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "VTAU Undervisnings sal OPPTATT EHRKH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "34c1ead9c0385774",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "VTAU Undervisnings sal OPPTATT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "fbaa377712af14ff1752baf7",
       "observedAt": "2026-10-25T14:11:37+01:00",
       "organization": "UllensakerRKH",
@@ -1394,5 +1418,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T14:11:37+01:00"
+  "updatedAt": "2026-10-25T14:16:27+01:00"
 }
