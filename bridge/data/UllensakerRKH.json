@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T14:06:21+01:00",
-  "checkedAt": "2026-10-25T14:06:21+01:00",
+  "updatedAt": "2026-10-25T14:11:37+01:00",
+  "checkedAt": "2026-10-25T14:11:37+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 50,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -108,12 +108,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "fa616017e33ab0b0",
+      "id": "34c1ead9c0385774",
       "dateIso": "2026-10-29",
       "dateLabel": "tor. 29.10",
       "time": "18:00",
       "type": "Interne kurs",
-      "description": "VTAU Undervisnings sal",
+      "description": "VTAU Undervisnings sal OPPTATT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
