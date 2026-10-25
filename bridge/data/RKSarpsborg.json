@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T00:16:30+02:00",
-  "checkedAt": "2026-10-25T16:21:24+01:00",
+  "updatedAt": "2026-10-25T16:41:28+01:00",
+  "checkedAt": "2026-10-25T16:41:28+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg",
   "eventCount": 39,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 1,
     "changed": 0
   },
@@ -90,12 +90,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
-      "id": "590582377a6cea64",
+      "id": "ab2fdec28cb31a08",
       "dateIso": "2026-11-03",
       "dateLabel": "tir. 3.11",
-      "time": "18:30",
+      "time": "17:15",
       "type": "Korpskveld",
-      "description": "Rus Korpsmøte",
+      "description": "Bereskapssamling, Skiptvet. Avreise kl. 17:15 Korpsmøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
     },
     {
