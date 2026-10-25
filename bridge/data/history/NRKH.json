@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7b1306c24f914589d43be586",
+      "observedAt": "2026-10-25T23:46:22+01:00",
+      "organization": "NRKH",
+      "kind": "changed",
+      "event": {
+        "id": "7b247fed65c121bd",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "12:00",
+        "type": "Eksterne kurs",
+        "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      },
+      "oldEvent": {
+        "id": "55dd8d6f5030c991",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Eksternt førstehjelpskurs Førstehjelpskurs Mongstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "1fa381a5a346766f59270de1",
       "observedAt": "2026-10-24T10:56:24+02:00",
       "organization": "NRKH",
@@ -788,5 +812,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T10:56:24+02:00"
+  "updatedAt": "2026-10-25T23:46:22+01:00"
 }
