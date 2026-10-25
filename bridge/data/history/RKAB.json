@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6b80ba417c8ad50e9f1b23f7",
+      "observedAt": "2026-10-26T00:11:02+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "2f3c43f259389fd2",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Mandag AMK Oktober 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "d8221f3db84bc2338ee11233",
+      "observedAt": "2026-10-26T00:11:02+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "26bfc9b2826d19ff",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "17:00",
+        "type": "Ambulansevakt",
+        "description": "V65 Bergen Travpark 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "8e3e4731f14bb9ea9dc20754",
       "observedAt": "2026-10-24T00:06:26+02:00",
       "organization": "RKAB",
@@ -518,5 +548,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:06:26+02:00"
+  "updatedAt": "2026-10-26T00:11:02+01:00"
 }
