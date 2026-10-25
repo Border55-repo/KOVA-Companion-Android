@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9ea877d2dcb3f72a4c75a366",
+      "observedAt": "2026-10-25T14:41:27+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "68040c045f85e327",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Haukelandshallen. Kampstart kl 18. SANITETSVAKT: Basketball landskamp",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "3405003de9820f0ad71b09da",
       "observedAt": "2026-10-25T00:16:28+02:00",
       "organization": "LaksevaagRKH",
@@ -965,5 +980,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T00:16:28+02:00"
+  "updatedAt": "2026-10-25T14:41:27+01:00"
 }
