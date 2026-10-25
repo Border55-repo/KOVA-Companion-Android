@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2dee67b301742a6ce6744cda",
+      "observedAt": "2026-10-25T07:26:23+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "added",
+      "event": {
+        "id": "ddd8f567c84b8eb2",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Ambulanse LSK-Sogndal NM Menn 26-27",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "fd45bcb338ae0edfc6eaae64",
       "observedAt": "2026-10-24T00:01:24+02:00",
       "organization": "Skedsmo RKH",
@@ -833,5 +848,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:01:24+02:00"
+  "updatedAt": "2026-10-25T07:26:23+01:00"
 }
