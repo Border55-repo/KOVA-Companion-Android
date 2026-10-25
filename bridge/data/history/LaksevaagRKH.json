@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ba3ecb2aa00e3109e7cd63f6",
+      "observedAt": "2026-10-26T00:01:02+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cb1e0b3b19f6b885",
+        "dateIso": "2026-10-19",
+        "dateLabel": "man. 19.10",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Del 1/3. Teori. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "9ea877d2dcb3f72a4c75a366",
       "observedAt": "2026-10-25T14:41:27+01:00",
       "organization": "LaksevaagRKH",
@@ -980,5 +995,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T14:41:27+01:00"
+  "updatedAt": "2026-10-26T00:01:02+01:00"
 }
