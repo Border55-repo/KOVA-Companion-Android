@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-23T00:06:24+02:00",
-  "checkedAt": "2026-10-25T10:36:22+01:00",
+  "updatedAt": "2026-10-25T10:56:33+01:00",
+  "checkedAt": "2026-10-25T10:56:33+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 16,
+  "eventCount": 18,
   "changes": {
-    "added": 0,
-    "removed": 6,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -108,6 +108,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {
+      "id": "c6db5c829a6a37d4",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Profilering av hjelpekorpset m/ambulanse Nissetog på Høyda",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
       "id": "6d7e656e5ea1317f",
       "dateIso": "2026-11-29",
       "dateLabel": "søn. 29.11",
@@ -132,6 +141,15 @@
       "time": "10:00",
       "type": "Sanitetsvakt",
       "description": "Sanitetsvakt Åpen julegård Tomb 2026",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+    },
+    {
+      "id": "4dac18147472db70",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Stand Moss Røde Kors Julemarked Vingparken (Høyda)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
     },
     {

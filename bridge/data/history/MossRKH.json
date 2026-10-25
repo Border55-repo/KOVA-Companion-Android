@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b022012fb8d2ec0ad5cfcdb3",
+      "observedAt": "2026-10-25T10:56:33+01:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "c6db5c829a6a37d4",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "17:00",
+        "type": "Profilering",
+        "description": "Profilering av hjelpekorpset m/ambulanse Nissetog på Høyda",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "100459d4993942f31bce2578",
+      "observedAt": "2026-10-25T10:56:33+01:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "4dac18147472db70",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand Moss Røde Kors Julemarked Vingparken (Høyda)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "e100b9e1e2639f0ba0af3e76",
       "observedAt": "2026-10-23T00:06:24+02:00",
       "organization": "MossRKH",
@@ -725,5 +755,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:06:24+02:00"
+  "updatedAt": "2026-10-25T10:56:33+01:00"
 }
