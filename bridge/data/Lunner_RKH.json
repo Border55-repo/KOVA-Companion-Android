@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T00:11:20+02:00",
-  "checkedAt": "2026-10-25T16:16:27+01:00",
+  "updatedAt": "2026-10-25T16:36:24+01:00",
+  "checkedAt": "2026-10-25T16:36:24+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
   "eventCount": 32,
   "changes": {
     "added": 0,
-    "removed": 1,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -54,10 +54,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
     },
     {
-      "id": "1e0c6ed0e42e4b09",
+      "id": "47ae19b61f89b770",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
-      "time": "09:00",
+      "time": "08:00",
       "type": "Ambulansevakt",
       "description": "Unity Arena, Fornebu Hot Wheels stunt show",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
