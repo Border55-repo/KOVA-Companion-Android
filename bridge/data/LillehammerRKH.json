@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-22T15:11:21+02:00",
-  "checkedAt": "2026-10-25T11:26:21+01:00",
+  "updatedAt": "2026-10-25T11:46:23+01:00",
+  "checkedAt": "2026-10-25T11:46:23+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
   "eventCount": 12,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 4
+    "changed": 1
   },
   "events": [
     {
@@ -36,12 +36,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
     },
     {
-      "id": "ac0b2e93b36bf1bd",
+      "id": "fced76b55280f67c",
       "dateIso": "2026-10-29",
       "dateLabel": "tor. 29.10",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Medlemskveld Forberedelse til vintertjeneste",
+      "description": "Medlemskveld. kl 18:10 på huset, eller direkte på hytta 18:30 Forberedelse til vintertjeneste",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
     },
     {

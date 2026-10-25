@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9f68e2983aaabf799dafcaa6",
+      "observedAt": "2026-10-25T11:46:23+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "fced76b55280f67c",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemskveld. kl 18:10 på huset, eller direkte på hytta 18:30 Forberedelse til vintertjeneste",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      },
+      "oldEvent": {
+        "id": "ac0b2e93b36bf1bd",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemskveld Forberedelse til vintertjeneste",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "737945832eaf852204418d85",
       "observedAt": "2026-10-22T15:11:21+02:00",
       "organization": "LillehammerRKH",
@@ -302,5 +326,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-22T15:11:21+02:00"
+  "updatedAt": "2026-10-25T11:46:23+01:00"
 }

@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-21T07:05:28+02:00",
-  "checkedAt": "2026-10-25T11:26:19+01:00",
+  "updatedAt": "2026-10-25T11:46:20+01:00",
+  "checkedAt": "2026-10-25T11:46:20+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH",
   "eventCount": 8,
   "changes": {
-    "added": 3,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -27,12 +27,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
     },
     {
-      "id": "69a3bb1ab011513b",
+      "id": "bcd752e3c66805c8",
       "dateIso": "2026-10-28",
       "dateLabel": "ons. 28.10",
       "time": "14:00",
       "type": "Beredskap",
-      "description": "Beredskaps øvelse Ridehuset",
+      "description": "Beredskaps øvelse Rådhuset",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
     },
     {
