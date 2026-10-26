@@ -8,9 +8,9 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-10-26T17:35:58+01:00",
-  "lastSuccessfulRunAt": "2026-10-26T17:35:58+01:00",
-  "lastFullySuccessfulRunAt": "2026-10-26T17:35:58+01:00",
+  "checkedAt": "2026-10-26T18:36:04+01:00",
+  "lastSuccessfulRunAt": "2026-10-26T18:36:04+01:00",
+  "lastFullySuccessfulRunAt": "2026-10-26T18:36:04+01:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
   "lastPushAt": "2026-10-26T17:35:58+01:00",
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 25,
       "updatedAt": "2026-10-26T17:35:48+01:00",
-      "checkedAt": "2026-10-26T17:35:50+01:00",
+      "checkedAt": "2026-10-26T18:35:54+01:00",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "status": "ok",
       "eventCount": 35,
       "updatedAt": "2026-10-26T13:04:30+01:00",
-      "checkedAt": "2026-10-26T17:35:50+01:00",
+      "checkedAt": "2026-10-26T18:35:55+01:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 45,
       "updatedAt": "2026-10-25T07:26:23+01:00",
-      "checkedAt": "2026-10-26T17:35:51+01:00",
+      "checkedAt": "2026-10-26T18:35:55+01:00",
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "status": "ok",
       "eventCount": 50,
       "updatedAt": "2026-10-26T11:45:51+01:00",
-      "checkedAt": "2026-10-26T17:35:51+01:00",
+      "checkedAt": "2026-10-26T18:35:56+01:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 18,
       "updatedAt": "2026-10-21T23:15:29+02:00",
-      "checkedAt": "2026-10-26T17:35:51+01:00",
+      "checkedAt": "2026-10-26T18:35:56+01:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 3,
       "updatedAt": "2026-10-07T00:01:48+02:00",
-      "checkedAt": "2026-10-26T17:35:52+01:00",
+      "checkedAt": "2026-10-26T18:35:57+01:00",
       "error": null
     },
     {
@@ -93,7 +93,7 @@
       "status": "ok",
       "eventCount": 31,
       "updatedAt": "2026-10-26T00:11:02+01:00",
-      "checkedAt": "2026-10-26T17:35:52+01:00",
+      "checkedAt": "2026-10-26T18:35:57+01:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 13,
       "updatedAt": "2026-10-26T17:15:53+01:00",
-      "checkedAt": "2026-10-26T17:35:53+01:00",
+      "checkedAt": "2026-10-26T18:35:58+01:00",
       "error": null
     },
     {
@@ -115,7 +115,7 @@
       "status": "ok",
       "eventCount": 14,
       "updatedAt": "2026-10-25T10:51:23+01:00",
-      "checkedAt": "2026-10-26T17:35:53+01:00",
+      "checkedAt": "2026-10-26T18:35:58+01:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 26,
       "updatedAt": "2026-10-25T00:06:28+02:00",
-      "checkedAt": "2026-10-26T17:35:54+01:00",
+      "checkedAt": "2026-10-26T18:35:59+01:00",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
       "status": "ok",
       "eventCount": 11,
       "updatedAt": "2026-10-26T00:11:07+01:00",
-      "checkedAt": "2026-10-26T17:35:54+01:00",
+      "checkedAt": "2026-10-26T18:35:59+01:00",
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "status": "ok",
       "eventCount": 10,
       "updatedAt": "2026-10-26T00:11:08+01:00",
-      "checkedAt": "2026-10-26T17:35:55+01:00",
+      "checkedAt": "2026-10-26T18:36:00+01:00",
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "status": "ok",
       "eventCount": 14,
       "updatedAt": "2026-10-23T11:36:31+02:00",
-      "checkedAt": "2026-10-26T17:35:55+01:00",
+      "checkedAt": "2026-10-26T18:36:00+01:00",
       "error": null
     },
     {
@@ -170,7 +170,7 @@
       "status": "ok",
       "eventCount": 48,
       "updatedAt": "2026-10-26T00:00:59+01:00",
-      "checkedAt": "2026-10-26T17:35:55+01:00",
+      "checkedAt": "2026-10-26T18:36:01+01:00",
       "error": null
     }
   ]
