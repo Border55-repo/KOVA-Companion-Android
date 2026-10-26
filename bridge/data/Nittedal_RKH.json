@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-24T22:01:23+02:00",
-  "checkedAt": "2026-10-26T12:55:52+01:00",
+  "updatedAt": "2026-10-26T13:04:30+01:00",
+  "checkedAt": "2026-10-26T13:04:30+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 34,
+  "eventCount": 35,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -240,6 +240,15 @@
       "time": "10:00",
       "type": "Ambulansevakt",
       "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "daf01ac090e27574",
+      "dateIso": "2026-11-21",
+      "dateLabel": "lør. 21.11",
+      "time": "10:00",
+      "type": "Øvelse",
+      "description": "Tabletop-øvelse med FORF Oslo/Øst PD Øvelse: FORF Aksjonsledelse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
