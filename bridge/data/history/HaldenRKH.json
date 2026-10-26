@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ff1dc061611e3ff126b51200",
+      "observedAt": "2026-10-26T15:01:00+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "2572dff6445d2d61",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "17:30",
+        "type": "Interne møter",
+        "description": "Møte med Arnulf",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "a91541cc021c98b5061fbdc7",
+      "observedAt": "2026-10-26T15:01:00+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "92db54e14471196d",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "19:30",
+        "type": "Beredskap",
+        "description": "Man må selv skaffe seg gratisbillett (se innlegg i Teams) Foredrag på kultursalen: Jon Reichelt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "d9485a9231ad18adbb2e4b42",
       "observedAt": "2026-10-26T00:05:54+01:00",
       "organization": "HaldenRKH",
@@ -1925,5 +1955,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T00:05:54+01:00"
+  "updatedAt": "2026-10-26T15:01:00+01:00"
 }

@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-26T00:05:54+01:00",
-  "checkedAt": "2026-10-26T14:40:55+01:00",
+  "updatedAt": "2026-10-26T15:01:00+01:00",
+  "checkedAt": "2026-10-26T15:01:00+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 78,
+  "eventCount": 80,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -72,12 +72,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
+      "id": "2572dff6445d2d61",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "17:30",
+      "type": "Interne møter",
+      "description": "Møte med Arnulf",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
       "id": "4afefdd037dae7b9",
       "dateIso": "2026-10-27",
       "dateLabel": "tir. 27.10",
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Ny søk og redning veileder. Ole ansvar Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "92db54e14471196d",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "19:30",
+      "type": "Beredskap",
+      "description": "Man må selv skaffe seg gratisbillett (se innlegg i Teams) Foredrag på kultursalen: Jon Reichelt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
