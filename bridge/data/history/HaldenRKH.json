@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "746a70448116e847dcefc0a7",
+      "observedAt": "2026-10-26T15:20:52+01:00",
+      "organization": "HaldenRKH",
+      "kind": "changed",
+      "event": {
+        "id": "71c86de547ef7335",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "17:00",
+        "type": "Korpskveld",
+        "description": "Beredskapssamling ØRK påmeldingsfrist 25.okt (Robin ansvar) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      },
+      "oldEvent": {
+        "id": "1bd3220608f0d6b0",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "17:00",
+        "type": "Korpskveld",
+        "description": "Beredskapssamling ØRK påmelding innen 25.okt (Robin ansvar) Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "ff1dc061611e3ff126b51200",
       "observedAt": "2026-10-26T15:01:00+01:00",
       "organization": "HaldenRKH",
@@ -1955,5 +1979,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T15:01:00+01:00"
+  "updatedAt": "2026-10-26T15:20:52+01:00"
 }

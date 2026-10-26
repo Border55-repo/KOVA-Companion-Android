@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-26T15:01:00+01:00",
-  "checkedAt": "2026-10-26T15:01:00+01:00",
+  "updatedAt": "2026-10-26T15:20:52+01:00",
+  "checkedAt": "2026-10-26T15:20:52+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
   "eventCount": 80,
   "changes": {
-    "added": 2,
+    "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -99,12 +99,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
-      "id": "1bd3220608f0d6b0",
+      "id": "71c86de547ef7335",
       "dateIso": "2026-11-03",
       "dateLabel": "tir. 3.11",
       "time": "17:00",
       "type": "Korpskveld",
-      "description": "Beredskapssamling ØRK påmelding innen 25.okt (Robin ansvar) Korpskvelder",
+      "description": "Beredskapssamling ØRK påmeldingsfrist 25.okt (Robin ansvar) Korpskvelder",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
