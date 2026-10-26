@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fc76f695cac8f759e968dc9f",
+      "observedAt": "2026-10-26T17:15:53+01:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "changed",
+      "event": {
+        "id": "7becd02277edad44",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Vedlikehold båt og utstyr Vannredningskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      },
+      "oldEvent": {
+        "id": "859d0130c26eb8f9",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Tema Kommer! Vannredningskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "977d16388e796f681502aa4d",
       "observedAt": "2026-10-26T00:11:05+01:00",
       "organization": "RingerikeHoleRKH",
@@ -212,5 +236,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T00:11:05+01:00"
+  "updatedAt": "2026-10-26T17:15:53+01:00"
 }
