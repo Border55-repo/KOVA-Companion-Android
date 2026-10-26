@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-10-25T02:01:22+02:00",
-  "count": 43,
+  "updatedAt": "2026-10-26T01:00:50+01:00",
+  "count": 42,
   "helpCorpsCount": 39,
   "organizations": [
     {
@@ -176,7 +176,7 @@
       "category": "hjelpekorps"
     },
     {
-      "name": "Tromsø Røde Kors Hjelpekorps",
+      "name": "Tysnes Røde Kors Hjelpekorps",
       "code": "TRKH",
       "category": "hjelpekorps"
     },
@@ -204,11 +204,6 @@
       "name": "Bergen Røde Kors Ambulansen",
       "code": "RKAB",
       "category": "ambulanse"
-    },
-    {
-      "name": "Os Røde Kors",
-      "code": "OSRK",
-      "category": "annet"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",
