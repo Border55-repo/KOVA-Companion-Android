@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8b8ef74d4861fc05f00884e8",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "d08f564ae4543032",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "4b829de22f0affa783b325a8",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "e0579e794c503d12",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:30",
+        "type": "Profilering",
+        "description": "Bygdeberedskapskveld Liahøy Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "c2687b4adeca1728335adf2b",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "ae8cb4960ab2ec82",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "3d2763a74147e81e2e527362",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "d375ed8553b4522f",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "17:00",
+        "type": "Profilering",
+        "description": "Informasjonspunkt Gardarheim Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "1679c727094e59d3e3039b73",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "aa25d801e8f55af5",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "90068399818aaba8747cdcd1",
+      "observedAt": "2026-10-26T07:50:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "da355ecc317c68a6",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "15:00",
+        "type": "Profilering",
+        "description": "Beredskapsdagen Vestby sentrum Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "969b789448df584f01924f11",
       "observedAt": "2026-10-24T00:01:37+02:00",
       "organization": "VÅRKH",
@@ -425,5 +515,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:01:37+02:00"
+  "updatedAt": "2026-10-26T07:50:54+01:00"
 }

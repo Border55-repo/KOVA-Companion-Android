@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-24T00:01:37+02:00",
-  "checkedAt": "2026-10-26T07:30:53+01:00",
+  "updatedAt": "2026-10-26T07:50:54+01:00",
+  "checkedAt": "2026-10-26T07:50:54+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 20,
+  "eventCount": 26,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 6,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -72,12 +72,66 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
+      "id": "d08f564ae4543032",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "e0579e794c503d12",
+      "dateIso": "2026-10-26",
+      "dateLabel": "man. 26.10",
+      "time": "18:30",
+      "type": "Profilering",
+      "description": "Bygdeberedskapskveld Liahøy Beredskapsuka Vestby",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "ae8cb4960ab2ec82",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "d375ed8553b4522f",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Informasjonspunkt Gardarheim Beredskapsuka Vestby",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
       "id": "5c508de2cee41a81",
       "dateIso": "2026-10-27",
       "dateLabel": "tir. 27.10",
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld - Sosialt Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "aa25d801e8f55af5",
+      "dateIso": "2026-10-28",
+      "dateLabel": "ons. 28.10",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "da355ecc317c68a6",
+      "dateIso": "2026-10-29",
+      "dateLabel": "tor. 29.10",
+      "time": "15:00",
+      "type": "Profilering",
+      "description": "Beredskapsdagen Vestby sentrum Beredskapsuka Vestby",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
