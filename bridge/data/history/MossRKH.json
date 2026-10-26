@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "322cdc3de9cdeb6c6f7b5888",
+      "observedAt": "2026-10-27T00:01:08+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9e82a0002a24a2c3",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:30",
+        "type": "Korpskveld",
+        "description": "Øvelse Sarpsborg Korpskvelder",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "b022012fb8d2ec0ad5cfcdb3",
       "observedAt": "2026-10-25T10:56:33+01:00",
       "organization": "MossRKH",
@@ -755,5 +770,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T10:56:33+01:00"
+  "updatedAt": "2026-10-27T00:01:08+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "18a46343ace59ad1ab868a26",
+      "observedAt": "2026-10-27T00:01:11+01:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b17cdfa0d1e151d8",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Kjøretøy/ATV Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "3e4a03c791a44de0f857bdf1",
       "observedAt": "2026-10-25T00:11:23+02:00",
       "organization": "NesRKH",
@@ -224,5 +239,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T00:11:23+02:00"
+  "updatedAt": "2026-10-27T00:01:11+01:00"
 }

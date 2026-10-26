@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "89b0e173af685653333bbff5",
+      "observedAt": "2026-10-27T00:00:56+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "843d095a797c35ec",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Kveldstur i Marikollen Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "2dee67b301742a6ce6744cda",
       "observedAt": "2026-10-25T07:26:23+01:00",
       "organization": "Skedsmo RKH",
@@ -848,5 +863,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T07:26:23+01:00"
+  "updatedAt": "2026-10-27T00:00:56+01:00"
 }

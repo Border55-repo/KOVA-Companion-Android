@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T07:26:23+01:00",
-  "checkedAt": "2026-10-26T23:55:47+01:00",
+  "updatedAt": "2026-10-27T00:00:56+01:00",
+  "checkedAt": "2026-10-27T00:00:56+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 45,
+  "eventCount": 44,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "843d095a797c35ec",
-      "dateIso": "2026-10-20",
-      "dateLabel": "tir. 20.10",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Kveldstur i Marikollen Korpskvelder høst 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
-    },
     {
       "id": "cc5deb0dc3661c2e",
       "dateIso": "2026-10-21",

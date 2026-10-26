@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T10:56:33+01:00",
-  "checkedAt": "2026-10-26T23:40:51+01:00",
+  "updatedAt": "2026-10-27T00:01:08+01:00",
+  "checkedAt": "2026-10-27T00:01:08+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH",
-  "eventCount": 18,
+  "eventCount": 17,
   "changes": {
-    "added": 2,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "9e82a0002a24a2c3",
-      "dateIso": "2026-10-20",
-      "dateLabel": "tir. 20.10",
-      "time": "17:30",
-      "type": "Korpskveld",
-      "description": "Øvelse Sarpsborg Korpskvelder",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
-    },
     {
       "id": "4d7e402cf310f0ca",
       "dateIso": "2026-10-25",

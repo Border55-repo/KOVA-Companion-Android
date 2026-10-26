@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T00:11:23+02:00",
-  "checkedAt": "2026-10-26T23:40:51+01:00",
+  "updatedAt": "2026-10-27T00:01:11+01:00",
+  "checkedAt": "2026-10-27T00:01:11+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH",
-  "eventCount": 6,
+  "eventCount": 5,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "b17cdfa0d1e151d8",
-      "dateIso": "2026-10-20",
-      "dateLabel": "tir. 20.10",
-      "time": "19:00",
-      "type": "Aktivitet",
-      "description": "Kjøretøy/ATV Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    },
     {
       "id": "289b595f82b8adb0",
       "dateIso": "2026-10-27",
