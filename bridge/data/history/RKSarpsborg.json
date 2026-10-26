@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "787c641cfca86c90db1321fa",
+      "observedAt": "2026-10-27T00:05:50+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "faaff5d691c56484",
+        "dateIso": "2026-10-20",
+        "dateLabel": "tir. 20.10",
+        "time": "17:45",
+        "type": "Korpskveld",
+        "description": "Forflytning av pasient / Større skader/ Oppmøte klare kl 18:00 på Rk huset Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "0194f1c64a86315010fbcdc8",
       "observedAt": "2026-10-25T16:41:28+01:00",
       "organization": "RKSarpsborg",
@@ -902,5 +917,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T16:41:28+01:00"
+  "updatedAt": "2026-10-27T00:05:50+01:00"
 }
