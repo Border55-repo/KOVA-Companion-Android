@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-27T07:25:50+01:00",
-  "checkedAt": "2026-10-27T07:25:50+01:00",
+  "updatedAt": "2026-10-27T07:45:54+01:00",
+  "checkedAt": "2026-10-27T07:45:54+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 26,
+  "eventCount": 29,
   "changes": {
-    "added": 1,
+    "added": 3,
     "removed": 0,
     "changed": 0
   },
@@ -132,6 +132,33 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld - Søksøvelse Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "5651297e6b17efdc",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Backyard Fagerstrand skift 1 Backyard fagerstrand",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "e66721015b2da413",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "15:15",
+      "type": "Sanitetsvakt",
+      "description": "Backyard Fagerstrand skift 2 Backyard fagerstrand",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "39ab6ba096e6442d",
+      "dateIso": "2026-11-09",
+      "dateLabel": "man. 9.11",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "Førsthjelpskurs Vestby turlag Førsthjelpskurs turledere Vestby Turlag",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {

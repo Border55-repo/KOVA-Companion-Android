@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d20af195b6819816803d8d43",
+      "observedAt": "2026-10-27T07:45:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "5651297e6b17efdc",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Fagerstrand skift 1 Backyard fagerstrand",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "285ac99b041c17c2924ed98a",
+      "observedAt": "2026-10-27T07:45:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "e66721015b2da413",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "15:15",
+        "type": "Sanitetsvakt",
+        "description": "Backyard Fagerstrand skift 2 Backyard fagerstrand",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "66ec1247a13844ff51aecf0c",
+      "observedAt": "2026-10-27T07:45:54+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "39ab6ba096e6442d",
+        "dateIso": "2026-11-09",
+        "dateLabel": "man. 9.11",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "Førsthjelpskurs Vestby turlag Førsthjelpskurs turledere Vestby Turlag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "c4ddc0646c37ab256d20b920",
       "observedAt": "2026-10-27T07:25:50+01:00",
       "organization": "VÅRKH",
@@ -545,5 +590,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T07:25:50+01:00"
+  "updatedAt": "2026-10-27T07:45:54+01:00"
 }
