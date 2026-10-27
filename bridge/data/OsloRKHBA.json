@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-27T11:45:58+01:00",
-  "checkedAt": "2026-10-27T11:45:58+01:00",
+  "updatedAt": "2026-10-27T12:05:51+01:00",
+  "checkedAt": "2026-10-27T12:05:51+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA",
-  "eventCount": 7,
+  "eventCount": 12,
   "changes": {
-    "added": 3,
+    "added": 5,
     "removed": 0,
     "changed": 0
   },
@@ -75,6 +75,51 @@
       "id": "ea3a8e860b723362",
       "dateIso": "2026-11-11",
       "dateLabel": "ons. 11.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinærvakt OUS Ordinærvakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+    },
+    {
+      "id": "2b99b64f7e9b1e87",
+      "dateIso": "2026-11-12",
+      "dateLabel": "tor. 12.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinærvakt OUS Ordinærvakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+    },
+    {
+      "id": "b9946104e9430ae2",
+      "dateIso": "2026-11-18",
+      "dateLabel": "ons. 18.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinærvakt OUS Ordinærvakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+    },
+    {
+      "id": "c51d1f41480e69ff",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinærvakt OUS Ordinærvakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+    },
+    {
+      "id": "3291159d28cf06ed",
+      "dateIso": "2026-11-25",
+      "dateLabel": "ons. 25.11",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Ordinærvakt OUS Ordinærvakt OUS",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+    },
+    {
+      "id": "a1faa3aaa4ca82fe",
+      "dateIso": "2026-11-26",
+      "dateLabel": "tor. 26.11",
       "time": "16:00",
       "type": "Ambulansevakt",
       "description": "Ordinærvakt OUS Ordinærvakt OUS",
