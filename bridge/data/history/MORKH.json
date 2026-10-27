@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7f963a2d561af5b7071b2168",
+      "observedAt": "2026-10-27T22:35:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "0554f5b368db6ab4",
+        "dateIso": "2026-11-19",
+        "dateLabel": "tor. 19.11",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Oppstilling til nissetog ca 17:00 Julegateåpning og nissetog",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "639020c895a36283e2d6688a",
       "observedAt": "2026-10-27T21:55:38+01:00",
       "organization": "MORKH",
@@ -1310,5 +1325,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T21:55:38+01:00"
+  "updatedAt": "2026-10-27T22:35:41+01:00"
 }
