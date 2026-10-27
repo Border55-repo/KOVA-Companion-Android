@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bc1b31dec8e6ee17fe051897",
+      "observedAt": "2026-10-28T00:00:49+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "cc5deb0dc3661c2e",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "KSOR - Teorikveld KSOR - Operasjon Myrvann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "193eb0809f90f81f346e7fdc",
       "observedAt": "2026-10-27T15:20:49+01:00",
       "organization": "Skedsmo RKH",
@@ -887,5 +902,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T15:20:49+01:00"
+  "updatedAt": "2026-10-28T00:00:49+01:00"
 }

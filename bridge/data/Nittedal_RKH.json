@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-27T20:40:38+01:00",
-  "checkedAt": "2026-10-27T23:55:37+01:00",
+  "updatedAt": "2026-10-28T00:00:42+01:00",
+  "checkedAt": "2026-10-28T00:00:42+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 39,
+  "eventCount": 36,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "beb659b3116492b0",
-      "dateIso": "2026-10-21",
-      "dateLabel": "ons. 21.10",
-      "time": "08:00",
-      "type": "Transport",
-      "description": "Utbedring av feil på park.varmer Transport: Service på RK51",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "2ecfb60dfe20aa3c",
-      "dateIso": "2026-10-21",
-      "dateLabel": "ons. 21.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Teorikveld 1 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "ff38f454343741ff",
-      "dateIso": "2026-10-21",
-      "dateLabel": "ons. 21.10",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Omlegging til vinterhjul på RK32, RK51, RK52 Korpskveld: Winter is coming (+ sosialt)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "b05de3e6cb7b638f",
       "dateIso": "2026-10-23",

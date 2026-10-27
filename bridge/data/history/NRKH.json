@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8c6c3f3e224f3d0ce3d2d469",
+      "observedAt": "2026-10-28T00:01:00+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2fbb24f196371892",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Bil og dekkskift Korpskvelder, høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "fb11bbda134b92fce1e7f252",
       "observedAt": "2026-10-26T00:05:57+01:00",
       "organization": "NRKH",
@@ -872,5 +887,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T00:05:57+01:00"
+  "updatedAt": "2026-10-28T00:01:00+01:00"
 }
