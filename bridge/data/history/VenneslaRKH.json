@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "03c38a1016cbf6e594e00721",
+      "observedAt": "2026-10-27T18:20:55+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "added",
+      "event": {
+        "id": "2094cf34f22f1d75",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "10:00",
+        "type": "Aktivitet",
+        "description": "Avslutter dugnad med julemat Dugnad på RK huset",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "c579ffcad9090d6001f1c7e4",
       "observedAt": "2026-10-24T00:16:27+02:00",
       "organization": "VenneslaRKH",
@@ -332,5 +347,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T00:16:27+02:00"
+  "updatedAt": "2026-10-27T18:20:55+01:00"
 }

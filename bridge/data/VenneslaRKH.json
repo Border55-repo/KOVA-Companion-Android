@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-24T00:16:27+02:00",
-  "checkedAt": "2026-10-27T18:00:55+01:00",
+  "updatedAt": "2026-10-27T18:20:55+01:00",
+  "checkedAt": "2026-10-27T18:20:55+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH",
-  "eventCount": 17,
+  "eventCount": 18,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -69,6 +69,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "2094cf34f22f1d75",
+      "dateIso": "2026-12-06",
+      "dateLabel": "søn. 6.12",
+      "time": "10:00",
+      "type": "Aktivitet",
+      "description": "Avslutter dugnad med julemat Dugnad på RK huset",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
     },
     {
