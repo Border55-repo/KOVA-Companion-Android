@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c4ddc0646c37ab256d20b920",
+      "observedAt": "2026-10-27T07:25:50+01:00",
+      "organization": "VÅRKH",
+      "kind": "added",
+      "event": {
+        "id": "488a45e58b26243d",
+        "dateIso": "2026-12-02",
+        "dateLabel": "ons. 2.12",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Førstehjelpskurs oppvisning Førsthjelpskurs Ås Bygdekvinnelag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "59b5fdec9a14187caeff0e83",
       "observedAt": "2026-10-27T00:10:51+01:00",
       "organization": "VÅRKH",
@@ -530,5 +545,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:10:51+01:00"
+  "updatedAt": "2026-10-27T07:25:50+01:00"
 }
