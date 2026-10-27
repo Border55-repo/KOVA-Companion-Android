@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-27T18:45:47+01:00",
-  "checkedAt": "2026-10-27T20:35:38+01:00",
+  "updatedAt": "2026-10-27T20:40:38+01:00",
+  "checkedAt": "2026-10-27T20:40:38+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 38,
+  "eventCount": 39,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -276,6 +276,15 @@
       "time": "10:00",
       "type": "Øvelse",
       "description": "Tabletop-øvelse med FORF Oslo/Øst PD Øvelse: FORF Aksjonsledelse",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "14bc3caa80101d99",
+      "dateIso": "2026-11-24",
+      "dateLabel": "tir. 24.11",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Ordinært arbeidsmøte i styret Møte: Styremøte i lokalforeningen",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
