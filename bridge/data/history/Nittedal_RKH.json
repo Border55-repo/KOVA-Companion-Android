@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f78a6cc7f2004f77ab75cafb",
+      "observedAt": "2026-10-27T10:10:45+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "a72ac86f0bf14713",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Ordinært arbeidsmøte for styret Møte: Styremøte i lokalforeningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "0eca18c74722f16d",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Budsjettmøte Møte: Lokalrådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "c01de450284f1b8b06be62d6",
       "observedAt": "2026-10-26T13:04:30+01:00",
       "organization": "Nittedal RKH",
@@ -974,5 +998,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T13:04:30+01:00"
+  "updatedAt": "2026-10-27T10:10:45+01:00"
 }
