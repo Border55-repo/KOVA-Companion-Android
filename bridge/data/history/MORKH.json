@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "639020c895a36283e2d6688a",
+      "observedAt": "2026-10-27T21:55:38+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "fb46759a361e9596",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "05:00",
+        "type": "Øvelse",
+        "description": "Markører RECCEX Markør for RECCEX",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "1e3a0bcee1f78a90d43732db",
+      "observedAt": "2026-10-27T21:55:38+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "75789fd5794ab9ee",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "",
+        "type": "Øvelse",
+        "description": "Markører RECCEX Markør for RECCEX",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "2d7a7834224bc1553c2f188f",
+      "observedAt": "2026-10-27T21:55:38+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "e2f13091a4ae0e3e",
+        "dateIso": "2026-11-26",
+        "dateLabel": "tor. 26.11",
+        "time": "-> 00:00",
+        "type": "Øvelse",
+        "description": "Markører RECCEX Markør for RECCEX",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "3d9cc7532f9f6d7c2df75cb6",
       "observedAt": "2026-10-27T00:05:48+01:00",
       "organization": "MORKH",
@@ -1265,5 +1310,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:05:48+01:00"
+  "updatedAt": "2026-10-27T21:55:38+01:00"
 }
