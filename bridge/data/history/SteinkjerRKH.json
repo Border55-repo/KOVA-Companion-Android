@@ -2,6 +2,69 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3cdc6e3e941925de71ba0926",
+      "observedAt": "2026-10-27T14:11:02+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "e26bf9fc10cb7d48",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:00",
+        "type": "Beredskapsvakt",
+        "description": "Standing Beredskapskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "da19ba6bce2532f3d5070d9f",
+      "observedAt": "2026-10-27T14:11:02+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "d67b756eea04974f",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "Deltakere KSOR Barmark",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      },
+      "oldEvent": {
+        "id": "1e09ac52da246191",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Deltakere KSOR Barmark",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
+      "changeId": "57672cb1ad9e356affc38b33",
+      "observedAt": "2026-10-27T14:11:02+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "e9b5e88ee07d1294",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 17:00",
+        "type": "Interne kurs",
+        "description": "Deltakere KSOR Barmark",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      },
+      "oldEvent": {
+        "id": "98c65c3efc124d9f",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Deltakere KSOR Barmark",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "aa506448154517a14687a379",
       "observedAt": "2026-10-26T00:11:07+01:00",
       "organization": "SteinkjerRKH",
@@ -440,5 +503,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T00:11:07+01:00"
+  "updatedAt": "2026-10-27T14:11:02+01:00"
 }

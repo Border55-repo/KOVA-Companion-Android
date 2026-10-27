@@ -7,21 +7,21 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-26T00:11:07+01:00",
-  "checkedAt": "2026-10-27T13:51:03+01:00",
+  "updatedAt": "2026-10-27T14:11:02+01:00",
+  "checkedAt": "2026-10-27T14:11:02+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 11,
+  "eventCount": 12,
   "changes": {
-    "added": 0,
-    "removed": 1,
-    "changed": 0
+    "added": 1,
+    "removed": 0,
+    "changed": 2
   },
   "events": [
     {
-      "id": "1e09ac52da246191",
+      "id": "d67b756eea04974f",
       "dateIso": "2026-10-23",
       "dateLabel": "fre. 23.10",
-      "time": "",
+      "time": "17:00",
       "type": "Interne kurs",
       "description": "Deltakere KSOR Barmark",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
@@ -36,10 +36,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {
-      "id": "98c65c3efc124d9f",
+      "id": "e9b5e88ee07d1294",
       "dateIso": "2026-10-25",
       "dateLabel": "søn. 25.10",
-      "time": "",
+      "time": "-> 17:00",
       "type": "Interne kurs",
       "description": "Deltakere KSOR Barmark",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
@@ -51,6 +51,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld 34 Korpskveld 34",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "e26bf9fc10cb7d48",
+      "dateIso": "2026-10-27",
+      "dateLabel": "tir. 27.10",
+      "time": "15:00",
+      "type": "Beredskapsvakt",
+      "description": "Standing Beredskapskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {
