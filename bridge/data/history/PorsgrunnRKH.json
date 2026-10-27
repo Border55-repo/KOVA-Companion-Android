@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fc0459cbe1873ab60cb0180e",
+      "observedAt": "2026-10-27T18:10:50+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "a5a30380602d3d24",
+        "dateIso": "2026-12-02",
+        "dateLabel": "ons. 2.12",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Fagressursmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "1e731f92e7469c25ba4bae60",
       "observedAt": "2026-10-21T23:15:29+02:00",
       "organization": "PorsgrunnRKH",
@@ -221,5 +236,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T23:15:29+02:00"
+  "updatedAt": "2026-10-27T18:10:50+01:00"
 }
