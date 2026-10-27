@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b419ba7a81516e176dce4e7e",
+      "observedAt": "2026-10-28T00:10:49+01:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "8b306314605fc657",
+        "dateIso": "2026-10-21",
+        "dateLabel": "ons. 21.10",
+        "time": "17:00",
+        "type": "Eksterne møter",
+        "description": "Gjøvik Områdemøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "247f7afb16b9e9b0b84c2971",
       "observedAt": "2026-10-27T00:01:05+01:00",
       "organization": "Lunner RKH",
@@ -713,5 +728,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:01:05+01:00"
+  "updatedAt": "2026-10-28T00:10:49+01:00"
 }
