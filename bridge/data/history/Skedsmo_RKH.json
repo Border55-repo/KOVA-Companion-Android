@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "193eb0809f90f81f346e7fdc",
+      "observedAt": "2026-10-27T15:20:49+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "changed",
+      "event": {
+        "id": "e7f8170e639e9bb3",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Avlyst! Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      },
+      "oldEvent": {
+        "id": "79f58065119268c5",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelp Korpskvelder høst 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "89b0e173af685653333bbff5",
       "observedAt": "2026-10-27T00:00:56+01:00",
       "organization": "Skedsmo RKH",
@@ -863,5 +887,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:00:56+01:00"
+  "updatedAt": "2026-10-27T15:20:49+01:00"
 }
