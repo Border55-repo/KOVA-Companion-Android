@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3ff5c4ea554dfdc264ec6300",
+      "observedAt": "2026-10-27T14:50:46+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "added",
+      "event": {
+        "id": "46a738307af4979f",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Bistå Skedsmo LSK-Sogndal",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "1ca2ada74b1e14f8e8e05e68",
       "observedAt": "2026-10-27T13:35:48+01:00",
       "organization": "UllensakerRKH",
@@ -1601,5 +1616,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T13:35:48+01:00"
+  "updatedAt": "2026-10-27T14:50:46+01:00"
 }
