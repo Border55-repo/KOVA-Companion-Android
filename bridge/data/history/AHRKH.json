@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c8487f339338a982182a49af",
+      "observedAt": "2026-10-28T12:10:44+01:00",
+      "organization": "AHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "3fadc5e6931c2b8d",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelp - kle deg for å være ute Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      },
+      "oldEvent": {
+        "id": "a730b747a7adf000",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Samband Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "e2288ebc118b5d85cba2949d",
       "observedAt": "2026-10-23T11:36:31+02:00",
       "organization": "AHRKH",
@@ -491,5 +515,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T11:36:31+02:00"
+  "updatedAt": "2026-10-28T12:10:44+01:00"
 }
