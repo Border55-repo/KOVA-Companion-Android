@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c849cafd2811a6c4c98f2186",
+      "observedAt": "2026-10-29T00:10:56+01:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6e14f46c5003de8c",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "FAKS Korpskveld 18",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "995d204c83c6be7124520294",
       "observedAt": "2026-10-28T19:00:53+01:00",
       "organization": "AskerRKH",
@@ -416,5 +431,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T19:00:53+01:00"
+  "updatedAt": "2026-10-29T00:10:56+01:00"
 }

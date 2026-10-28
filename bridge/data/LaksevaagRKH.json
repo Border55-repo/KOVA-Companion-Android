@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T20:50:43+01:00",
-  "checkedAt": "2026-10-28T23:50:36+01:00",
+  "updatedAt": "2026-10-29T00:10:48+01:00",
+  "checkedAt": "2026-10-29T00:10:48+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 27,
+  "eventCount": 25,
   "changes": {
     "added": 0,
-    "removed": 6,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "a257594aa7819418",
-      "dateIso": "2026-10-22",
-      "dateLabel": "tor. 22.10",
-      "time": "07:00",
-      "type": "Aktivitet",
-      "description": "Ekstern instruktør for RKAB",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "8829849f4cfb6697",
-      "dateIso": "2026-10-22",
-      "dateLabel": "tor. 22.10",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Åpning av og gjennomgang av nytt depot :-) Korpskveld: Åpning av nytt depot",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "38be150f1bd0c908",
       "dateIso": "2026-10-23",

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b2ec4a53cf748bb423765095",
+      "observedAt": "2026-10-29T00:10:51+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "7364afe9ace4e221",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Kun for tauredningsgruppa RK-huset Tauredningsgruppe",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "c8db16e4ee628c57f4c9558c",
       "observedAt": "2026-10-28T20:50:52+01:00",
       "organization": "MORKH",
@@ -1418,5 +1433,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T20:50:52+01:00"
+  "updatedAt": "2026-10-29T00:10:51+01:00"
 }
