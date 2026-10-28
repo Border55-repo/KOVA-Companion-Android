@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f357a018867a88a00bdf0c50",
+      "observedAt": "2026-10-28T18:15:40+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "780276e908851d24",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Autismeforeningen kommer på besøk Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "796fc2cd977a8887",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Tema kommer Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "8d7529b873b50477ee63bb69",
       "observedAt": "2026-10-28T17:00:52+01:00",
       "organization": "UllensakerRKH",
@@ -1721,5 +1745,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T17:00:52+01:00"
+  "updatedAt": "2026-10-28T18:15:40+01:00"
 }

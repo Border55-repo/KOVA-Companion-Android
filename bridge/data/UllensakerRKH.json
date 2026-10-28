@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T17:00:52+01:00",
-  "checkedAt": "2026-10-28T18:10:45+01:00",
+  "updatedAt": "2026-10-28T18:15:40+01:00",
+  "checkedAt": "2026-10-28T18:15:40+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 57,
   "changes": {
-    "added": 2,
-    "removed": 2,
-    "changed": 0
+    "added": 0,
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -252,12 +252,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "796fc2cd977a8887",
+      "id": "780276e908851d24",
       "dateIso": "2026-11-10",
       "dateLabel": "tir. 10.11",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Tema kommer Korpskveld",
+      "description": "Autismeforeningen kommer på besøk Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
