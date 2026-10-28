@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T00:00:51+01:00",
-  "checkedAt": "2026-10-28T16:55:48+01:00",
+  "updatedAt": "2026-10-28T17:00:52+01:00",
+  "checkedAt": "2026-10-28T17:00:52+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 57,
   "changes": {
-    "added": 0,
+    "added": 2,
     "removed": 2,
     "changed": 0
   },
@@ -270,21 +270,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "08ab23914cc18dfa",
+      "id": "edb809322ca19bcd",
       "dateIso": "2026-11-14",
       "dateLabel": "lør. 14.11",
-      "time": "09:00",
+      "time": "08:45",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet 02/10/2026 NM Brasiliansk jiu jitsu",
+      "description": "Oppmøte 08:30 URKH Lokalet Oppmøte Jessheim Flerbruks hall 08:45 Vaktstart 09:00 NM Brasiliansk jiu jitsu",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "cae8b99bc0885613",
+      "id": "9c615a0f278b0258",
       "dateIso": "2026-11-14",
       "dateLabel": "lør. 14.11",
-      "time": "15:00",
+      "time": "14:45",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet 02/10/2026 NM Brasiliansk jiu jitsu",
+      "description": "Oppmøte 14:30 URKH Lokalet Oppmøte Jessheim Flerbruks hall 15:00 NM Brasiliansk jiu jitsu",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
