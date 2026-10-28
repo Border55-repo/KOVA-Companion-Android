@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T00:10:44+01:00",
-  "checkedAt": "2026-10-28T12:50:54+01:00",
+  "updatedAt": "2026-10-28T13:10:51+01:00",
+  "checkedAt": "2026-10-28T13:10:51+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 8,
+  "eventCount": 7,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -69,15 +69,6 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld: Skrivebordsøvelse Beredskap og ny veileder SOR",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
-    {
-      "id": "960e8d1b065b42f8",
-      "dateIso": "2026-10-28",
-      "dateLabel": "ons. 28.10",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Kurs for kunde Kurs for kunde",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
     },
     {
