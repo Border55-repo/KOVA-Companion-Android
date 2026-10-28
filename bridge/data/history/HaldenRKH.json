@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d5cbb3cefa87e460793aa839",
+      "observedAt": "2026-10-29T00:15:40+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e436f3c421cb7da4",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Møte mellom korpsene angående vakter i 2027 Samarbeidsmøter i Østfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "ba2b0c3254578bdc42cb6801",
       "observedAt": "2026-10-28T22:15:35+01:00",
       "organization": "HaldenRKH",
@@ -2039,5 +2054,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T22:15:35+01:00"
+  "updatedAt": "2026-10-29T00:15:40+01:00"
 }

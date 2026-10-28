@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "31ebd92071f76ec8bce10819",
+      "observedAt": "2026-10-29T00:15:42+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d04c576269f22cc8",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:00",
+        "type": "Dugnad",
+        "description": "Dugnad Depo Dugnad depo",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "9f68e2983aaabf799dafcaa6",
       "observedAt": "2026-10-25T11:46:23+01:00",
       "organization": "LillehammerRKH",
@@ -326,5 +341,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T11:46:23+01:00"
+  "updatedAt": "2026-10-29T00:15:42+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "76996b618cef87333657361d",
+      "observedAt": "2026-10-29T00:15:47+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4bb999afab262f49",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Rådsmøte Rådsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "d20af195b6819816803d8d43",
       "observedAt": "2026-10-27T07:45:54+01:00",
       "organization": "VÅRKH",
@@ -590,5 +605,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T07:45:54+01:00"
+  "updatedAt": "2026-10-29T00:15:47+01:00"
 }

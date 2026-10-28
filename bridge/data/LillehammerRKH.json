@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T11:46:23+01:00",
-  "checkedAt": "2026-10-28T23:55:37+01:00",
+  "updatedAt": "2026-10-29T00:15:42+01:00",
+  "checkedAt": "2026-10-29T00:15:42+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
-  "eventCount": 12,
+  "eventCount": 11,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "d04c576269f22cc8",
-      "dateIso": "2026-10-22",
-      "dateLabel": "tor. 22.10",
-      "time": "18:00",
-      "type": "Dugnad",
-      "description": "Dugnad Depo Dugnad depo",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
-    },
     {
       "id": "a7252505dd9d3d73",
       "dateIso": "2026-10-24",
