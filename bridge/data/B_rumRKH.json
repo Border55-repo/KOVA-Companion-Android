@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-27T00:05:55+01:00",
-  "checkedAt": "2026-10-28T23:50:39+01:00",
+  "updatedAt": "2026-10-29T00:05:44+01:00",
+  "checkedAt": "2026-10-29T00:05:44+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 47,
+  "eventCount": 46,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "fb4338bf3a6d1604",
-      "dateIso": "2026-10-22",
-      "dateLabel": "tor. 22.10",
-      "time": "07:00",
-      "type": "Sanitetsvakt",
-      "description": "Opprigg Hot Wheels Stunt Show",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "3d4f1aac8dea199f",
       "dateIso": "2026-10-23",

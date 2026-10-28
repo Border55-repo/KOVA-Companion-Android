@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "389db1069fcbbab2714faa97",
+      "observedAt": "2026-10-29T00:05:44+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "fb4338bf3a6d1604",
+        "dateIso": "2026-10-22",
+        "dateLabel": "tor. 22.10",
+        "time": "07:00",
+        "type": "Sanitetsvakt",
+        "description": "Opprigg Hot Wheels Stunt Show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "c91f3c1a570648f500e8b9f6",
       "observedAt": "2026-10-27T00:05:55+01:00",
       "organization": "BærumRKH",
@@ -1139,5 +1154,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:05:55+01:00"
+  "updatedAt": "2026-10-29T00:05:44+01:00"
 }
