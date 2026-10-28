@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7390a90345acd9a90a3ddcec",
+      "observedAt": "2026-10-28T21:10:45+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "changed",
+      "event": {
+        "id": "88502389b7713c6a",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelpsøvelser Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      },
+      "oldEvent": {
+        "id": "e2aebf5a3012db90",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "f397921f10df21905539f168",
+      "observedAt": "2026-10-28T21:10:45+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "changed",
+      "event": {
+        "id": "bdc7bd295bbcfc83",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelpsøvelser Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      },
+      "oldEvent": {
+        "id": "dee6a3c4b2976955",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "03c38a1016cbf6e594e00721",
       "observedAt": "2026-10-27T18:20:55+01:00",
       "organization": "VenneslaRKH",
@@ -347,5 +395,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T18:20:55+01:00"
+  "updatedAt": "2026-10-28T21:10:45+01:00"
 }
