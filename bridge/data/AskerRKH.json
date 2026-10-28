@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T10:51:26+01:00",
-  "checkedAt": "2026-10-28T18:45:44+01:00",
+  "updatedAt": "2026-10-28T19:00:53+01:00",
+  "checkedAt": "2026-10-28T19:00:53+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH",
-  "eventCount": 16,
+  "eventCount": 18,
   "changes": {
-    "added": 0,
+    "added": 2,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -159,6 +159,24 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Søksøvelse Korpskveld 1",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "05048071aab77699",
+      "dateIso": "2027-01-22",
+      "dateLabel": "fre. 22.1",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Nyttårsbord/Valg",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+    },
+    {
+      "id": "a2e818addfa22df0",
+      "dateIso": "2027-01-23",
+      "dateLabel": "lør. 23.1",
+      "time": "-> 00:00",
+      "type": "Aktivitet",
+      "description": "Nyttårsbord/Valg",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
     }
   ]
