@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "changes": [
+    {
+      "changeId": "37934b2b82bfc5bfc2ce65de",
+      "observedAt": "2026-10-28T14:35:52+01:00",
+      "organization": "VossRKH",
+      "kind": "changed",
+      "event": {
+        "id": "532cd91fd4e82a78",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "SMALAHOVE CUP SMALAHOVECUP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH"
+      },
+      "oldEvent": {
+        "id": "2ae540d51839de33",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "SMALAHOVE CUP SMALAHOVECUP",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH"
+      }
+    }
+  ],
+  "updatedAt": "2026-10-28T14:35:52+01:00"
+}
