@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "beba2122071b3fe33f648e14",
+      "observedAt": "2026-10-28T18:25:41+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "903b4e7cec2f4912",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte URKH Lokal 09:30 Vinter Maraton",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "c4199b2cb24a0a28",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Vinter Maraton",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "f357a018867a88a00bdf0c50",
       "observedAt": "2026-10-28T18:15:40+01:00",
       "organization": "UllensakerRKH",
@@ -1745,5 +1769,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T18:15:40+01:00"
+  "updatedAt": "2026-10-28T18:25:41+01:00"
 }
