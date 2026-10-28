@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8b00c4eb052b1d5fcdf86912",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "af482bf0f8e59b40",
+        "dateIso": "2026-11-13",
+        "dateLabel": "fre. 13.11",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "cca4b7007a7a0050b981166b",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7efd4ea595496abe",
+        "dateIso": "2026-11-14",
+        "dateLabel": "lør. 14.11",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "2c8a4d90b6b80083d916b5ea",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f938f2b7c9265c17",
+        "dateIso": "2026-11-15",
+        "dateLabel": "søn. 15.11",
+        "time": "-> 20:00",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 1/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "11c94ae6d6ead7b149f4095f",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b66f5f5d0dcebe28",
+        "dateIso": "2026-11-20",
+        "dateLabel": "fre. 20.11",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "5d21b41a1d6b6d625913f368",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6baca676910a5aa1",
+        "dateIso": "2026-11-21",
+        "dateLabel": "lør. 21.11",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "f05f2ffba321f490407c0ff7",
+      "observedAt": "2026-10-28T20:50:43+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f3be48f48a85658d",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "-> 20:00",
+        "type": "Interne kurs",
+        "description": "Bergen. Del 2/2. Påmeldingsfrist 06. NOV. GRUNNKURS: Kvalifisert Førstehjelp (KFØR)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "2884a9d7949175bfa4f30494",
       "observedAt": "2026-10-28T10:35:46+01:00",
       "organization": "LaksevaagRKH",
@@ -1085,5 +1175,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T10:35:46+01:00"
+  "updatedAt": "2026-10-28T20:50:43+01:00"
 }

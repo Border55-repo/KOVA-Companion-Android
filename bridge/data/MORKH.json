@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T20:35:43+01:00",
-  "checkedAt": "2026-10-28T20:35:43+01:00",
+  "updatedAt": "2026-10-28T20:50:52+01:00",
+  "checkedAt": "2026-10-28T20:50:52+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 35,
+  "eventCount": 36,
   "changes": {
-    "added": 2,
+    "added": 1,
     "removed": 0,
-    "changed": 0
+    "changed": 2
   },
   "events": [
     {
@@ -81,12 +81,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "29db8cc8fb299f83",
+      "id": "a47a5981d0b9d141",
       "dateIso": "2026-11-01",
       "dateLabel": "søn. 1.11",
       "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Vålerenga - Tromsø. Bruk 5.2 PÅ stadion 17:00 Bistand Nes RKH - Intility Arena",
+      "description": "Vålerenga - Tromsø - Bruk 5.2 - PÅ stadion 17:00 Bistand Nes RKH - Intility Arena",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -198,12 +198,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "f10dace18234d102",
+      "id": "5ad063e62fae7f8f",
       "dateIso": "2026-11-21",
       "dateLabel": "lør. 21.11",
       "time": "15:00",
       "type": "Sanitetsvakt",
-      "description": "Vålerenga - Tromsø. Bruk 5.2 PÅ stadion 16:00 Bistand Nes RKH - Intility Arena",
+      "description": "Vålerenga - Start - Bruk 5.2 - PÅ stadion 16:00 Bistand Nes RKH - Intility Arena",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -276,6 +276,15 @@
       "time": "17:00",
       "type": "Eksterne møter",
       "description": "Taugruppa møte grottegruppe - Ta 5.2. Taugruppa til Moss",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "507b26683765d25a",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Rosenborg - Bruk 5.2 - PÅ stadion 16:00 Bistand Nes RKH - Intility Arena",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
