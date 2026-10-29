@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-23T00:06:17+02:00",
-  "checkedAt": "2026-10-29T23:50:40+01:00",
+  "updatedAt": "2026-10-30T00:10:40+01:00",
+  "checkedAt": "2026-10-30T00:10:40+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 17,
+  "eventCount": 14,
   "changes": {
     "added": 0,
     "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "ca75e29cd1cb6342",
-      "dateIso": "2026-10-23",
-      "dateLabel": "fre. 23.10",
-      "time": "17:00",
-      "type": "Interne kurs",
-      "description": "Stab Lsor",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-    },
-    {
-      "id": "3c7cc93287dad2fd",
-      "dateIso": "2026-10-24",
-      "dateLabel": "lør. 24.10",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "Stab Lsor",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-    },
-    {
-      "id": "627a04dacacf2ad0",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "-> 16:00",
-      "type": "Interne kurs",
-      "description": "Stab Lsor",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-    },
     {
       "id": "dd4a54abb4c414f7",
       "dateIso": "2026-10-26",

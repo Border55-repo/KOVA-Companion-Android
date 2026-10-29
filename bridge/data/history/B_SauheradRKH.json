@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "830f4b3439494fa99fc93881",
+      "observedAt": "2026-10-30T00:10:40+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ca75e29cd1cb6342",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "Stab Lsor",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "f123bcff51573083bfe075c1",
+      "observedAt": "2026-10-30T00:10:40+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3c7cc93287dad2fd",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "Stab Lsor",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "723081a01acfb7b84eaf95fa",
+      "observedAt": "2026-10-30T00:10:40+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "removed",
+      "event": {
+        "id": "627a04dacacf2ad0",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 16:00",
+        "type": "Interne kurs",
+        "description": "Stab Lsor",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
       "changeId": "c18aad3cef948845c2a5d4c0",
       "observedAt": "2026-10-23T00:06:17+02:00",
       "organization": "BøSauheradRKH",
@@ -242,5 +287,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:06:17+02:00"
+  "updatedAt": "2026-10-30T00:10:40+01:00"
 }
