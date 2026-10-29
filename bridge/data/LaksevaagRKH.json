@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-29T00:10:48+01:00",
-  "checkedAt": "2026-10-29T23:55:53+01:00",
+  "updatedAt": "2026-10-30T00:15:42+01:00",
+  "checkedAt": "2026-10-30T00:15:42+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 25,
+  "eventCount": 22,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "38be150f1bd0c908",
-      "dateIso": "2026-10-23",
-      "dateLabel": "fre. 23.10",
-      "time": "18:00",
-      "type": "Interne kurs",
-      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "d91d2764bcdb165d",
-      "dateIso": "2026-10-24",
-      "dateLabel": "lør. 24.10",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
     {
       "id": "9adfa8a280568571",
       "dateIso": "2026-10-24",
@@ -42,15 +24,6 @@
       "time": "07:30",
       "type": "Aktivitet",
       "description": "Ekstern instruktør for RKAB",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "1d7c156267136d75",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "-> 16:30",
-      "type": "Interne kurs",
-      "description": "Del 3/3. Praksis. Påmeldingsfrist 19. SEP. GRUNNKURS: Kvalifisert Søk og Redning (KSOR)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {
