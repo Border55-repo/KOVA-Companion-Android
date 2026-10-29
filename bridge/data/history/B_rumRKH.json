@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "590af7cc2bf79faef05c9bdb",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "be072d4490094776",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "KSAM-refresh / sambandsringløype Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "b4e29ced02a48592e6e92f26",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "e3a66800915b3857",
+        "dateIso": "2027-01-27",
+        "dateLabel": "ons. 27.1",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Gjennomgang av ambulansegruppen og ny ambulanse Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "b541da8dded192987107ce41",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "f6a0f3dd23f209b1",
+        "dateIso": "2027-02-10",
+        "dateLabel": "ons. 10.2",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "5055ac5c886fc5b5f4fca182",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "164271adbbeb9082",
+        "dateIso": "2026-11-11",
+        "dateLabel": "ons. 11.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Gjennomgang av ambulansegruppen og ny ambulanse Korpskveld 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "d5e3e2bcd1dff516136cfbe2",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5f111145eeaa43c9",
+        "dateIso": "2027-01-27",
+        "dateLabel": "ons. 27.1",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Info kommer. Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "b09f5d73123a7cb5901a0e52",
+      "observedAt": "2026-10-29T15:30:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bd9d57b63b9ca0a3",
+        "dateIso": "2027-02-10",
+        "dateLabel": "ons. 10.2",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "KSAM-refresh / sambandsringløype Korpskveld 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "389db1069fcbbab2714faa97",
       "observedAt": "2026-10-29T00:05:44+01:00",
       "organization": "BærumRKH",
@@ -1154,5 +1244,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:05:44+01:00"
+  "updatedAt": "2026-10-29T15:30:46+01:00"
 }
