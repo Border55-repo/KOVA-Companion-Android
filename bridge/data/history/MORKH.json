@@ -2,6 +2,150 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b24396ccf8dd793b70a2ca22",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "8f222568d8d98f3d",
+        "dateIso": "2027-01-22",
+        "dateLabel": "fre. 22.1",
+        "time": "00:00",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KFØR - Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "f57b38525a3b2753a681001b",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "1c6c6546bc7a37fa",
+        "dateIso": "2027-01-23",
+        "dateLabel": "lør. 23.1",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KFØR - Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "b164974a2f98bf4d2e18539b",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "0f6722e9724db226",
+        "dateIso": "2027-01-24",
+        "dateLabel": "søn. 24.1",
+        "time": "-> 00:00",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KFØR - Fredrikstad",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "8403fd6cc2088664a7f239ba",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "53f4906fd41f64ce",
+        "dateIso": "2027-03-13",
+        "dateLabel": "lør. 13.3",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KSAM Østfold",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "fa18265cea72b0ecaa46c283",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "c2539cb9435dc45e",
+        "dateIso": "2027-04-02",
+        "dateLabel": "fre. 2.4",
+        "time": "00:00",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KSOR - Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "ab643081fec5f5ba1c3e57a4",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "79b0688ec11d8163",
+        "dateIso": "2027-04-03",
+        "dateLabel": "lør. 3.4",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KSOR - Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "293415717dd7d4c4e663fa52",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "ad43023d4f8be1a1",
+        "dateIso": "2027-04-04",
+        "dateLabel": "søn. 4.4",
+        "time": "-> 00:00",
+        "type": "Eksterne kurs",
+        "description": "Telles ikke som påmelding (dette må gjøres via link som man finner i ukebrevet fra distriktet) KSOR - Halden",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "03afb047cc58767cd7818564",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "0fbdf1af1635cbd1",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kart og Kompas ( søk på vinterstid). Hva endrer seg fra sommer til vinter m.m.? Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "5c92f8a9ebf0415e",
+        "dateIso": "2026-11-24",
+        "dateLabel": "tir. 24.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Kart og Kompas ( søk på vinterstid) korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "811c870131ce2f5e5d9daefc",
+      "observedAt": "2026-10-29T22:40:41+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "6788c7adbce1a80e",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "KSAM Østfold - Mysen KSAM Østfol",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "657bbee59b06fc8c01fa0c5d",
       "observedAt": "2026-10-29T22:20:42+01:00",
       "organization": "MORKH",
@@ -1448,5 +1592,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T22:20:42+01:00"
+  "updatedAt": "2026-10-29T22:40:41+01:00"
 }
