@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "478b287532623d0c44f02241",
+      "observedAt": "2026-10-30T00:00:51+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "16a07e4e83a81473",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med Tøyen Halding + Donkeyboy + Ly UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "aee0701411faa3baaeada230",
+      "observedAt": "2026-10-30T00:00:51+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ddffd3edd358aa90",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "-> 01:30",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med Tøyen Halding + Donkeyboy + Ly UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "76996b618cef87333657361d",
       "observedAt": "2026-10-29T00:15:47+01:00",
       "organization": "VÅRKH",
@@ -605,5 +635,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:15:47+01:00"
+  "updatedAt": "2026-10-30T00:00:51+01:00"
 }

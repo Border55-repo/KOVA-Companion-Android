@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4488dbc1d9cd3b0a83ef4d7c",
+      "observedAt": "2026-10-30T00:00:53+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "52a3d4679449414e",
+        "dateIso": "2026-10-23",
+        "dateLabel": "fre. 23.10",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "KSOR Fredag -Veileder KSOR - Fredag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "cdaa5b7f5f9a80a68b25adb8",
       "observedAt": "2026-10-28T00:05:46+01:00",
       "organization": "Bergen RKH",
@@ -1238,5 +1253,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T00:05:46+01:00"
+  "updatedAt": "2026-10-30T00:00:53+01:00"
 }
