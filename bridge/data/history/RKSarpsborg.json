@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "760fb77a51707e8902120102",
+      "observedAt": "2026-10-29T21:25:43+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "37f05e77369f40b9",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "17:15",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 19:15 S08-vakt: Lillestrøm",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "90a8d191e7e5aa9216373136",
+      "observedAt": "2026-10-29T21:25:43+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "21338d9d2fb31b00",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "12:30",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 14:30 S08-vakt: Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "8e8cebd4dd2745fe81007077",
+      "observedAt": "2026-10-29T21:25:43+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "7705eeb673a5e05c",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Lillestrøm",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
+      "changeId": "b38041733f5db9ef5542de1f",
+      "observedAt": "2026-10-29T21:25:43+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "5a7d0a44e1be7c90",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Kampstart kl. 17:00 S08-vakt: Brann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "787c641cfca86c90db1321fa",
       "observedAt": "2026-10-27T00:05:50+01:00",
       "organization": "RKSarpsborg",
@@ -917,5 +977,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:05:50+01:00"
+  "updatedAt": "2026-10-29T21:25:43+01:00"
 }
