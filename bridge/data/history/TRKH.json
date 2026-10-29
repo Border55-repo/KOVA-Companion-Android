@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fead087b1cce81ea6ea509fb",
+      "observedAt": "2026-10-29T08:05:48+01:00",
+      "organization": "TRKH",
+      "kind": "changed",
+      "event": {
+        "id": "e43fce46475a058c",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Politiets rolle ved aksjon Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      },
+      "oldEvent": {
+        "id": "5880be2af4ee6913",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld november Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "d842af1c5d366bbb8b014faa",
       "observedAt": "2026-10-23T00:11:24+02:00",
       "organization": "TRKH",
@@ -491,5 +515,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-23T00:11:24+02:00"
+  "updatedAt": "2026-10-29T08:05:48+01:00"
 }
