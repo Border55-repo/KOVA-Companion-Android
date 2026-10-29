@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "657bbee59b06fc8c01fa0c5d",
+      "observedAt": "2026-10-29T22:20:42+01:00",
+      "organization": "MORKH",
+      "kind": "added",
+      "event": {
+        "id": "6788c7adbce1a80e",
+        "dateIso": "2027-02-20",
+        "dateLabel": "lør. 20.2",
+        "time": "10:00",
+        "type": "Interne kurs",
+        "description": "KSAM Østfold - Mysen KSAM Østfol",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "b2ec4a53cf748bb423765095",
       "observedAt": "2026-10-29T00:10:51+01:00",
       "organization": "MORKH",
@@ -1433,5 +1448,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:10:51+01:00"
+  "updatedAt": "2026-10-29T22:20:42+01:00"
 }
