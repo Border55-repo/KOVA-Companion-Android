@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-30T00:05:43+01:00",
-  "checkedAt": "2026-10-30T17:45:43+01:00",
+  "updatedAt": "2026-10-30T18:05:46+01:00",
+  "checkedAt": "2026-10-30T18:05:46+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 9,
+  "eventCount": 10,
   "changes": {
-    "added": 0,
-    "removed": 3,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -42,6 +42,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld 35 Korpskveld 35",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "a4eb9494869ef3e6",
+      "dateIso": "2026-11-05",
+      "dateLabel": "tor. 5.11",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Hilmar Hilmarfestivalen 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
     },
     {

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b611ea9e13fe269e49de2833",
+      "observedAt": "2026-10-30T18:05:46+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "added",
+      "event": {
+        "id": "a4eb9494869ef3e6",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Hilmar Hilmarfestivalen 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "9e36a67a1a7447e19ab07c76",
       "observedAt": "2026-10-30T00:05:43+01:00",
       "organization": "SteinkjerRKH",
@@ -548,5 +563,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:05:43+01:00"
+  "updatedAt": "2026-10-30T18:05:46+01:00"
 }
