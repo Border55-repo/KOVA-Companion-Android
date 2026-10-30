@@ -2,6 +2,102 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "da5d0e66adf2e7a816c82750",
+      "observedAt": "2026-10-30T15:00:39+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "bda0fc16cef20a52",
+        "dateIso": "2026-11-06",
+        "dateLabel": "fre. 6.11",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "Kjøretøy: Landcruiser LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "d716798a389cbce2",
+        "dateIso": "2026-11-06",
+        "dateLabel": "fre. 6.11",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "a3f722af90f2f479c4990a7c",
+      "observedAt": "2026-10-30T15:00:39+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "34c79ecdccbdf9ea",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "Kjøretøy: Landcruiser LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "bb609f0286bd1789",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "",
+        "type": "Eksterne kurs",
+        "description": "LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "5f5b40c0751c7957a022604a",
+      "observedAt": "2026-10-30T15:00:39+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "4ee2a49af0407356",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "-> 16:00",
+        "type": "Eksterne kurs",
+        "description": "Kjøretøy: Landcruiser LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "44cc9df55987c6a2",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "-> 16:00",
+        "type": "Eksterne kurs",
+        "description": "LØFT",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "79f99e9a2046817a02de5442",
+      "observedAt": "2026-10-30T15:00:39+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "4327003fea657387",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte URKH Lokal 09:30 Oppmøte Jessheim Stadion 09:45 Kjøretøy XC90 Vinter Maraton",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      },
+      "oldEvent": {
+        "id": "b575b164489694e7",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte URKH Lokal 09:30 Oppmøte Jessheim Stadion 09:45 Vinter Maraton",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "7241f21c7d682116428344ac",
       "observedAt": "2026-10-30T00:00:42+01:00",
       "organization": "UllensakerRKH",
@@ -1808,5 +1904,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:00:42+01:00"
+  "updatedAt": "2026-10-30T15:00:39+01:00"
 }
