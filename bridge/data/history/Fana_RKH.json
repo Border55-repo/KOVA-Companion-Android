@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d56769108ccda4bad0e2405c",
+      "observedAt": "2026-10-31T00:00:46+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "2bb4361573ac4c05",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
+      "changeId": "7165f223d6b81e5f13f8ea87",
+      "observedAt": "2026-10-31T00:00:46+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "9490199a1bd201d1",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24. OKTOBER SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24.10.",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "0ae150c9f57b9805de2951a9",
       "observedAt": "2026-10-30T00:10:46+01:00",
       "organization": "Fana RKH",
@@ -830,5 +860,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:10:46+01:00"
+  "updatedAt": "2026-10-31T00:00:46+01:00"
 }

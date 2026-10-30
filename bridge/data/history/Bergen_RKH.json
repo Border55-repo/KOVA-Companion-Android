@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "152fd7680a50726f48f145cd",
+      "observedAt": "2026-10-31T00:00:49+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "18bc96ee26540fb2",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "08:30",
+        "type": "Interne kurs",
+        "description": "KSOR Lørdag - Veileder KSOR Lørdag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "06220e2023d322d88e7b4ba2",
+      "observedAt": "2026-10-31T00:00:49+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "dd425fc740a1af3c",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "09:15",
+        "type": "Sanitetsvakt",
+        "description": "Fremming av sjåføryrket Fremming av sjåføryrket ved Tide",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "380932abc6a55f08d4fd64e3",
+      "observedAt": "2026-10-31T00:00:49+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a2d0778d656abe33",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "19:00",
+        "type": "Sanitetsvakt",
+        "description": "Avslutningsfest for funksjonærane på NHH Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "776f2bc4e31b3c2168c9078a",
+      "observedAt": "2026-10-31T00:00:49+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "9efd73209d516743",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 02:00",
+        "type": "Sanitetsvakt",
+        "description": "Avslutningsfest for funksjonærane på NHH Bergen Challenge",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "4488dbc1d9cd3b0a83ef4d7c",
       "observedAt": "2026-10-30T00:00:53+01:00",
       "organization": "Bergen RKH",
@@ -1253,5 +1313,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:00:53+01:00"
+  "updatedAt": "2026-10-31T00:00:49+01:00"
 }
