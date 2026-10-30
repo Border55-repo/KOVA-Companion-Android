@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "296f3dcdcd24c59689977cb6",
+      "observedAt": "2026-10-31T00:05:48+01:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d92497739037387d",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "07:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på lokalet kl.: 06:45. Avreise fra lokalet kl.: 07:10 Kretsmesterskap (KM) i TeamGym 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
+      "changeId": "825001b6c3ae55d2c0dc5e9e",
+      "observedAt": "2026-10-31T00:05:48+01:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1441fcb36fbbfc81",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på lokalet kl.: 12:40 Avreise fra lokalet kl.: 12:50 Kretsmesterskap (KM) i TeamGym 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "1316aaa71b15e75c560cefdb",
       "observedAt": "2026-10-29T00:05:42+01:00",
       "organization": "AHRKH",
@@ -530,5 +560,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:05:42+01:00"
+  "updatedAt": "2026-10-31T00:05:48+01:00"
 }

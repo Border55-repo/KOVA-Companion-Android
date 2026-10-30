@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "99e1e1d5e4e6dd003bac0e11",
+      "observedAt": "2026-10-31T00:05:46+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "removed",
+      "event": {
+        "id": "981b07280c4437fe",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "07:30",
+        "type": "Ambulansevakt",
+        "description": "Bilcross Kvinesdal Bilcross Kvinesdal",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "7390a90345acd9a90a3ddcec",
       "observedAt": "2026-10-28T21:10:45+01:00",
       "organization": "VenneslaRKH",
@@ -395,5 +410,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T21:10:45+01:00"
+  "updatedAt": "2026-10-31T00:05:46+01:00"
 }

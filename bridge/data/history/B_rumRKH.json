@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "26595d8aee53d90efb0784fc",
+      "observedAt": "2026-10-31T00:05:49+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8e9572f9f64ed2c0",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Hot Wheels Stunt Show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "b39f2154e2f452b824b9adce",
+      "observedAt": "2026-10-31T00:05:49+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1a6b1e19d71b76d7",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Hot Wheels Stunt Show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "ef423d4de850670640462902",
       "observedAt": "2026-10-30T00:05:49+01:00",
       "organization": "BærumRKH",
@@ -1259,5 +1289,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:05:49+01:00"
+  "updatedAt": "2026-10-31T00:05:49+01:00"
 }
