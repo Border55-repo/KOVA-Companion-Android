@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-30T00:00:51+01:00",
-  "checkedAt": "2026-10-30T09:56:23+01:00",
+  "updatedAt": "2026-10-30T10:15:41+01:00",
+  "checkedAt": "2026-10-30T10:15:41+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
   "eventCount": 26,
   "changes": {
     "added": 0,
-    "removed": 2,
-    "changed": 0
+    "removed": 0,
+    "changed": 3
   },
   "events": [
     {
@@ -108,30 +108,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
-      "id": "5651297e6b17efdc",
+      "id": "738035859b63020e",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Backyard Fagerstrand skift 1 Backyard fagerstrand",
+      "description": "Backyard Fagerstrand skift 1 Backyard fagerstrand - AVLYST",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
-      "id": "e66721015b2da413",
+      "id": "541a6ab021dedd9c",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
       "time": "15:15",
       "type": "Sanitetsvakt",
-      "description": "Backyard Fagerstrand skift 2 Backyard fagerstrand",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
-    {
-      "id": "39ab6ba096e6442d",
-      "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
-      "time": "17:00",
-      "type": "Eksterne kurs",
-      "description": "Førsthjelpskurs Vestby turlag Førsthjelpskurs turledere Vestby Turlag",
+      "description": "Backyard Fagerstrand skift 2 Backyard fagerstrand - AVLYST",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
@@ -159,6 +150,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Masseskade og Triagering Ski+Enebakk Korpskvelder",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "c4ad213d437dff01",
+      "dateIso": "2026-11-16",
+      "dateLabel": "man. 16.11",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "Førsthjelpskurs Vestby turlag Førsthjelpskurs turledere Vestby Turlag",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
