@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9083668d4c8ee4b7300ec57e",
+      "observedAt": "2026-10-31T00:10:45+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a7252505dd9d3d73",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "HockeyClassic, HockeyClassic 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "31ebd92071f76ec8bce10819",
       "observedAt": "2026-10-29T00:15:42+01:00",
       "organization": "LillehammerRKH",
@@ -341,5 +356,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:15:42+01:00"
+  "updatedAt": "2026-10-31T00:10:45+01:00"
 }

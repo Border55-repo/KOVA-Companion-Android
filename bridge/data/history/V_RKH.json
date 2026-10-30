@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "612b0275c4ebec2e87b114d5",
+      "observedAt": "2026-10-31T00:10:49+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "57a3df9a34e845ab",
+        "dateIso": "2026-10-24",
+        "dateLabel": "lør. 24.10",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med Fjellrev og Zimmermann UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "57a2d5a07871d5bf51eefd48",
+      "observedAt": "2026-10-31T00:10:49+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e002b7ad6ece14ee",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "-> 02:00",
+        "type": "Sanitetsvakt",
+        "description": "Konsert med Fjellrev og Zimmermann UKAiÅS 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "fa2c627aa848d707de41f87c",
       "observedAt": "2026-10-30T10:15:41+01:00",
       "organization": "VÅRKH",
@@ -707,5 +737,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T10:15:41+01:00"
+  "updatedAt": "2026-10-31T00:10:49+01:00"
 }
