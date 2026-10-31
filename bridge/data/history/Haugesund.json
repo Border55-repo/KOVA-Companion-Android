@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2ce74ecbbd7bc3d96b64ac93",
+      "observedAt": "2026-11-01T00:10:43+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "debdbce3eb1b8530",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "12:15",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 12:15 vaktstart 13:00 FKH herrer - Hødd",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "a28d1ab072a1df7dda64f8c0",
       "observedAt": "2026-10-30T00:00:48+01:00",
       "organization": "Haugesund",
@@ -275,5 +290,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T00:00:48+01:00"
+  "updatedAt": "2026-11-01T00:10:43+01:00"
 }

@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "44d60dd68bf740ceb5721030",
+      "observedAt": "2026-11-01T00:10:51+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "21ec903983d06755",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Unity Arena Hot Wheels Stunt Show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "211d1738cf24f035676ec8f4",
+      "observedAt": "2026-11-01T00:10:51+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5784150521bafa3f",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Nedrigg Hot Wheels Stunt Show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "aa60db09e73f82b66fded2a4",
+      "observedAt": "2026-11-01T00:10:51+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2c8e8b1ac48cf092",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - Odd OBOS-ligaen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "26595d8aee53d90efb0784fc",
       "observedAt": "2026-10-31T00:05:49+01:00",
       "organization": "BærumRKH",
@@ -1289,5 +1334,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-31T00:05:49+01:00"
+  "updatedAt": "2026-11-01T00:10:51+01:00"
 }

@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-31T00:05:49+01:00",
-  "checkedAt": "2026-10-31T23:55:45+01:00",
+  "updatedAt": "2026-11-01T00:10:51+01:00",
+  "checkedAt": "2026-11-01T00:10:51+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH",
-  "eventCount": 43,
+  "eventCount": 40,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "21ec903983d06755",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Unity Arena Hot Wheels Stunt Show",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
-    {
-      "id": "5784150521bafa3f",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "13:30",
-      "type": "Sanitetsvakt",
-      "description": "Nedrigg Hot Wheels Stunt Show",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
-    {
-      "id": "2c8e8b1ac48cf092",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Stabæk - Odd OBOS-ligaen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "b4d7b1b8ca6de101",
       "dateIso": "2026-10-28",
