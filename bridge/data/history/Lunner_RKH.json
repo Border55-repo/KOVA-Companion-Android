@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cf8307d039d7717a2a1ca630",
+      "observedAt": "2026-11-01T00:05:50+01:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "47ae19b61f89b770",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "08:00",
+        "type": "Ambulansevakt",
+        "description": "Unity Arena, Fornebu Hot Wheels stunt show",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "58729876a27e81cc98f5fd0c",
       "observedAt": "2026-10-29T21:40:42+01:00",
       "organization": "Lunner RKH",
@@ -767,5 +782,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T21:40:42+01:00"
+  "updatedAt": "2026-11-01T00:05:50+01:00"
 }

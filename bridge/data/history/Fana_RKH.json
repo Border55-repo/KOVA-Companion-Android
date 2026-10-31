@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "571cca2b2292c7385ad8f48d",
+      "observedAt": "2026-11-01T00:05:46+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "21eb2aea3edbc1fa",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "",
+        "type": "Interne kurs",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "d56769108ccda4bad0e2405c",
       "observedAt": "2026-10-31T00:00:46+01:00",
       "organization": "Fana RKH",
@@ -860,5 +875,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-31T00:00:46+01:00"
+  "updatedAt": "2026-11-01T00:05:46+01:00"
 }

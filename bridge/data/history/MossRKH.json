@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c0482d7605a9d675b4f13247",
+      "observedAt": "2026-11-01T00:05:52+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4d7e402cf310f0ca",
+        "dateIso": "2026-10-25",
+        "dateLabel": "søn. 25.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Moss - Åsane MFK - Obos ligaen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "22554056feb5dd4611c58e44",
       "observedAt": "2026-10-27T11:55:52+01:00",
       "organization": "MossRKH",
@@ -785,5 +800,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T11:55:52+01:00"
+  "updatedAt": "2026-11-01T00:05:52+01:00"
 }

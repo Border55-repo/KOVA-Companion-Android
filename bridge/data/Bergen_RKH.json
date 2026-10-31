@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-31T00:00:49+01:00",
-  "checkedAt": "2026-10-31T23:50:39+01:00",
+  "updatedAt": "2026-11-01T00:05:56+01:00",
+  "checkedAt": "2026-11-01T00:05:56+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 23,
+  "eventCount": 22,
   "changes": {
     "added": 0,
-    "removed": 4,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "605c70fbefe722b3",
-      "dateIso": "2026-10-25",
-      "dateLabel": "søn. 25.10",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "KSOR søndag - Veileder KSOR søndag",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
     {
       "id": "cae97efbe37a7f6a",
       "dateIso": "2026-10-28",
