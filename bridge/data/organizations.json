@@ -1,15 +1,10 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-10-31T01:00:40+01:00",
-  "count": 41,
-  "helpCorpsCount": 38,
+  "updatedAt": "2026-11-01T01:00:37+01:00",
+  "count": 40,
+  "helpCorpsCount": 37,
   "organizations": [
-    {
-      "name": "Arna og Åsane Røde Kors Hjelpekorps",
-      "code": "AÅRKH",
-      "category": "hjelpekorps"
-    },
     {
       "name": "Asker Røde Kors Hjelpekorps",
       "code": "AskerRKH",
