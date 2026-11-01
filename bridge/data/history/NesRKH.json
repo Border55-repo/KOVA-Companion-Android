@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "aa701dd256a66fd10e1661fb",
+      "observedAt": "2026-11-01T02:40:41+01:00",
+      "organization": "NesRKH",
+      "kind": "added",
+      "event": {
+        "id": "cc9557ab19d84300",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Befaring og info på/om nye lokaler(oppmøte i bruktbutikken) Koprskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
+      "changeId": "1685b3493301e1e0e5f50d48",
+      "observedAt": "2026-11-01T02:40:41+01:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0b801caa9bd73d4f",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:30",
+        "type": "Aktivitet",
+        "description": "Stor scenarioøvelse Koprskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "18a46343ace59ad1ab868a26",
       "observedAt": "2026-10-27T00:01:11+01:00",
       "organization": "NesRKH",
@@ -239,5 +269,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:01:11+01:00"
+  "updatedAt": "2026-11-01T02:40:41+01:00"
 }
