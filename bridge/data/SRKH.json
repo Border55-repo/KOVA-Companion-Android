@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-01T00:00:45+01:00",
-  "checkedAt": "2026-11-01T17:35:43+01:00",
+  "updatedAt": "2026-11-01T17:55:45+01:00",
+  "checkedAt": "2026-11-01T17:55:45+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
-  "eventCount": 12,
+  "eventCount": 13,
   "changes": {
-    "added": 0,
-    "removed": 1,
-    "changed": 0
+    "added": 1,
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -36,6 +36,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
+      "id": "55c1600c6af2b70c",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann kamp",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+    },
+    {
       "id": "bacb8de415c226e1",
       "dateIso": "2026-11-05",
       "dateLabel": "tor. 5.11",
@@ -54,21 +63,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
+      "id": "d843614ee681826f",
+      "dateIso": "2026-11-19",
+      "dateLabel": "tor. 19.11",
+      "time": "17:00",
+      "type": "Interne møter",
+      "description": "Korpshuset - åpent for alle 4/2026 Rådsmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+    },
+    {
       "id": "22c27e69d19ebf82",
       "dateIso": "2026-11-19",
       "dateLabel": "tor. 19.11",
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Besøk fra Siren som skal snakke om diabetes, andre delen skal handle om møte med døve Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
-    },
-    {
-      "id": "b4efe2ab34cfb05f",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "Korpshuset - åpent for alle 4/2026 Rådsmøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
