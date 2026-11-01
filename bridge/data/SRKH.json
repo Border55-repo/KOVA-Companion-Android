@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-01T17:55:45+01:00",
-  "checkedAt": "2026-11-01T20:15:51+01:00",
+  "updatedAt": "2026-11-01T20:35:40+01:00",
+  "checkedAt": "2026-11-01T20:35:40+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
   "eventCount": 13,
   "changes": {
-    "added": 1,
+    "added": 0,
     "removed": 0,
     "changed": 1
   },
@@ -90,12 +90,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
-      "id": "aff450d30dcf7c30",
+      "id": "dd38e4c3dddcd226",
       "dateIso": "2026-12-03",
       "dateLabel": "tor. 3.12",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Tema kommer Korpskveld",
+      "description": "Jule avslutning Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
     },
     {
