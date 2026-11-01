@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "121aee8d9bca952af9dead56",
+      "observedAt": "2026-11-01T19:50:39+01:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "2de5bbfc0c6afde4",
+        "dateIso": "2027-01-05",
+        "dateLabel": "tir. 5.1",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Første møte 2027 Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "45e0c2d053ada93064137703",
+      "observedAt": "2026-11-01T19:50:39+01:00",
+      "organization": "EHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "98845d3d103ba194",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Psykososial førstehjelp Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      },
+      "oldEvent": {
+        "id": "68e810d1224005b9",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "4a1944a0525ade00e6da4df6",
       "observedAt": "2026-11-01T19:45:39+01:00",
       "organization": "EHRKH",
@@ -728,5 +767,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T19:45:39+01:00"
+  "updatedAt": "2026-11-01T19:50:39+01:00"
 }
