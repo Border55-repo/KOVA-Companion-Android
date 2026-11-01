@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-25T11:46:20+01:00",
-  "checkedAt": "2026-11-01T23:55:42+01:00",
+  "updatedAt": "2026-11-02T00:15:40+01:00",
+  "checkedAt": "2026-11-02T00:15:40+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH",
-  "eventCount": 8,
+  "eventCount": 7,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "aecb3f20b3172a8b",
-      "dateIso": "2026-10-26",
-      "dateLabel": "man. 26.10",
-      "time": "19:00",
-      "type": "Korpskveld",
-      "description": "Medlemsmøtet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
-    },
     {
       "id": "bcd752e3c66805c8",
       "dateIso": "2026-10-28",

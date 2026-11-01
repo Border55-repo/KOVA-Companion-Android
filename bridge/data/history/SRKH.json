@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2dca6134a6844d3e556be29e",
+      "observedAt": "2026-11-02T00:15:48+01:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "11be482cfc5de6df",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Driftsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "b2c429c3cd2990007ed531ae",
       "observedAt": "2026-11-01T20:35:40+01:00",
       "organization": "SRKH",
@@ -794,5 +809,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T20:35:40+01:00"
+  "updatedAt": "2026-11-02T00:15:48+01:00"
 }
