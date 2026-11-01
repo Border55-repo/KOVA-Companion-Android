@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "eb1ec3ccbc7cdf3c2eab63a4",
+      "observedAt": "2026-11-02T00:00:57+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "d4bf2c3e885c1cc6",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "KSOR -Teorikveld KSOR - Operasjon Myrvann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "a0bc49f2c90a0ce61fd7cade",
       "observedAt": "2026-11-01T00:00:39+01:00",
       "organization": "Skedsmo RKH",
@@ -1022,5 +1037,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:00:39+01:00"
+  "updatedAt": "2026-11-02T00:00:57+01:00"
 }

@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-01T00:00:39+01:00",
-  "checkedAt": "2026-11-01T23:55:41+01:00",
+  "updatedAt": "2026-11-02T00:00:57+01:00",
+  "checkedAt": "2026-11-02T00:00:57+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 41,
+  "eventCount": 40,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "d4bf2c3e885c1cc6",
-      "dateIso": "2026-10-26",
-      "dateLabel": "man. 26.10",
-      "time": "18:00",
-      "type": "Interne kurs",
-      "description": "KSOR -Teorikveld KSOR - Operasjon Myrvann",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
-    },
     {
       "id": "e7f8170e639e9bb3",
       "dateIso": "2026-10-27",

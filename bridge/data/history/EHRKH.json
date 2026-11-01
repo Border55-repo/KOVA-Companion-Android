@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d370b1c5c9a7befe86a64098",
+      "observedAt": "2026-11-02T00:00:47+01:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "fd415afb11bf1244",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Felles stand med Eidsvoll kommune Egenberedskapsuka",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "af61f2b5e0e56966c0a4638a",
+      "observedAt": "2026-11-02T00:00:47+01:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "97de9c44ed1ab650",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "14:00",
+        "type": "Profilering",
+        "description": "Felles stand med Eidsvol kommune Egenberedskapsuka",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "fc975fb77edd02f70391f3db",
+      "observedAt": "2026-11-02T00:00:47+01:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4cdb8a7ee39ba62f",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "17:00",
+        "type": "Profilering",
+        "description": "17-20 Egenberedskapsuka",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "121aee8d9bca952af9dead56",
       "observedAt": "2026-11-01T19:50:39+01:00",
       "organization": "EHRKH",
@@ -767,5 +812,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T19:50:39+01:00"
+  "updatedAt": "2026-11-02T00:00:47+01:00"
 }
