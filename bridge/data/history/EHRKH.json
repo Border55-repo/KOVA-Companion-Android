@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cd5def3607ba8aea62b9dbe0",
+      "observedAt": "2026-11-01T19:35:39+01:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "cd473654a242452d",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Førstehjelp - pasientundersøkelse Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
+      "changeId": "d2e2389e9f3c3ade48fe4c7d",
+      "observedAt": "2026-11-01T19:35:39+01:00",
+      "organization": "EHRKH",
+      "kind": "added",
+      "event": {
+        "id": "e4a706e07849dd9b",
+        "dateIso": "2026-11-10",
+        "dateLabel": "tir. 10.11",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "91a099ac0de73415a2da7e84",
       "observedAt": "2026-10-27T00:00:52+01:00",
       "organization": "EHRKH",
@@ -668,5 +698,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T00:00:52+01:00"
+  "updatedAt": "2026-11-01T19:35:39+01:00"
 }
