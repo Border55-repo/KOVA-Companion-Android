@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ff49abffdd15d611b6809bc9",
+      "observedAt": "2026-11-02T00:05:45+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8e3ea4272a39f1c5",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "15:00",
+        "type": "Aktivitet",
+        "description": "O2 utsjekk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "8d21cbefb877303da3d64f81",
+      "observedAt": "2026-11-02T00:05:45+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0cd1aace20214905",
+        "dateIso": "2026-10-26",
+        "dateLabel": "man. 26.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Styremøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "71e50b5adfad98bb06affebf",
       "observedAt": "2026-10-31T00:05:41+01:00",
       "organization": "LaksevaagRKH",
@@ -1265,5 +1295,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-31T00:05:41+01:00"
+  "updatedAt": "2026-11-02T00:05:45+01:00"
 }
