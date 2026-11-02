@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "37189afaca68a799ce1c7fbf",
+      "observedAt": "2026-11-02T19:15:43+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "fcc1f5b763b149a2",
+        "dateIso": "2027-01-03",
+        "dateLabel": "søn. 3.1",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Vintervakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "65f9d84b060bd1b0803af98e",
       "observedAt": "2026-11-02T00:15:50+01:00",
       "organization": "SkienRKH",
@@ -503,5 +518,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:15:50+01:00"
+  "updatedAt": "2026-11-02T19:15:43+01:00"
 }
