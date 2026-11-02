@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "eeb07e8eb155a0cedd39cd49",
+      "observedAt": "2026-11-03T00:06:35+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "3e54aa5c435395fa",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Ringløype Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "ed03a2b8a701fea1c52dcf22",
       "observedAt": "2026-11-02T14:05:40+01:00",
       "organization": "RKSarpsborg",
@@ -1031,5 +1046,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T14:05:40+01:00"
+  "updatedAt": "2026-11-03T00:06:35+01:00"
 }
