@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "33592e0b18ac80fc71533b9a",
+      "observedAt": "2026-11-02T12:10:42+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "changed",
+      "event": {
+        "id": "f0234d77b7a07cbf",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Statsforvalterens øvelse med kommunens beredskapsråd Øvelse: \"Norge Øver\", Nittedals kriseledelse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      },
+      "oldEvent": {
+        "id": "c245465c4bf963d0",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "08:00",
+        "type": "Øvelse",
+        "description": "Statsforvalterens øvelse i kommunens beredskapsråd Øvelse: \"Norge Øver\", Nittedals kriseledelse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "244109edd5faec5c384a4d4f",
       "observedAt": "2026-11-02T00:00:53+01:00",
       "organization": "Nittedal RKH",
@@ -1223,5 +1247,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:00:53+01:00"
+  "updatedAt": "2026-11-02T12:10:42+01:00"
 }

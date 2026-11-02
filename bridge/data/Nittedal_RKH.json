@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-02T00:00:53+01:00",
-  "checkedAt": "2026-11-02T12:05:38+01:00",
+  "updatedAt": "2026-11-02T12:10:42+01:00",
+  "checkedAt": "2026-11-02T12:10:42+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
   "eventCount": 28,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -81,12 +81,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "c245465c4bf963d0",
+      "id": "f0234d77b7a07cbf",
       "dateIso": "2026-11-03",
       "dateLabel": "tir. 3.11",
       "time": "08:00",
       "type": "Øvelse",
-      "description": "Statsforvalterens øvelse i kommunens beredskapsråd Øvelse: \"Norge Øver\", Nittedals kriseledelse",
+      "description": "Statsforvalterens øvelse med kommunens beredskapsråd Øvelse: \"Norge Øver\", Nittedals kriseledelse",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
