@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ed03a2b8a701fea1c52dcf22",
+      "observedAt": "2026-11-02T14:05:40+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "changed",
+      "event": {
+        "id": "3861ffa7899a1520",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "17:15",
+        "type": "Korpskveld",
+        "description": "Beredskapssamling, Skiptvet. Avreise kl. 17:25 fra RK-butikken. Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      },
+      "oldEvent": {
+        "id": "ab2fdec28cb31a08",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "17:15",
+        "type": "Korpskveld",
+        "description": "Bereskapssamling, Skiptvet. Avreise kl. 17:15 Korpsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "7aed92c64c7b1b051cfb0511",
       "observedAt": "2026-11-01T00:10:46+01:00",
       "organization": "RKSarpsborg",
@@ -1007,5 +1031,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:10:46+01:00"
+  "updatedAt": "2026-11-02T14:05:40+01:00"
 }
