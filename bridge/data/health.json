@@ -8,13 +8,13 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-11-02T19:36:10+01:00",
-  "lastSuccessfulRunAt": "2026-11-02T19:36:10+01:00",
-  "lastFullySuccessfulRunAt": "2026-11-02T19:36:10+01:00",
+  "checkedAt": "2026-11-02T19:55:49+01:00",
+  "lastSuccessfulRunAt": "2026-11-02T19:55:49+01:00",
+  "lastFullySuccessfulRunAt": "2026-11-02T19:55:49+01:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-11-02T19:36:10+01:00",
-  "lastPushCount": 8,
+  "lastPushAt": "2026-11-02T19:55:49+01:00",
+  "lastPushCount": 3,
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "polledThisRun": 13,
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 28,
       "updatedAt": "2026-11-02T00:00:47+01:00",
-      "checkedAt": "2026-11-02T19:35:50+01:00",
+      "checkedAt": "2026-11-02T19:55:39+01:00",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "status": "ok",
       "eventCount": 28,
       "updatedAt": "2026-11-02T12:10:42+01:00",
-      "checkedAt": "2026-11-02T19:35:51+01:00",
+      "checkedAt": "2026-11-02T19:55:39+01:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 40,
       "updatedAt": "2026-11-02T14:50:50+01:00",
-      "checkedAt": "2026-11-02T19:35:51+01:00",
+      "checkedAt": "2026-11-02T19:55:40+01:00",
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "status": "ok",
       "eventCount": 52,
       "updatedAt": "2026-11-02T00:00:58+01:00",
-      "checkedAt": "2026-11-02T19:35:52+01:00",
+      "checkedAt": "2026-11-02T19:55:40+01:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 17,
       "updatedAt": "2026-10-29T00:10:56+01:00",
-      "checkedAt": "2026-11-02T19:35:52+01:00",
+      "checkedAt": "2026-11-02T19:55:40+01:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 7,
       "updatedAt": "2026-11-02T00:15:40+01:00",
-      "checkedAt": "2026-11-02T19:35:53+01:00",
+      "checkedAt": "2026-11-02T19:55:41+01:00",
       "error": null
     },
     {
@@ -93,7 +93,7 @@
       "status": "ok",
       "eventCount": 3,
       "updatedAt": "2026-10-07T00:01:48+02:00",
-      "checkedAt": "2026-11-02T19:35:54+01:00",
+      "checkedAt": "2026-11-02T19:55:41+01:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 27,
       "updatedAt": "2026-11-02T00:15:44+01:00",
-      "checkedAt": "2026-11-02T19:35:54+01:00",
+      "checkedAt": "2026-11-02T19:55:41+01:00",
       "error": null
     },
     {
@@ -115,7 +115,7 @@
       "status": "ok",
       "eventCount": 12,
       "updatedAt": "2026-11-02T00:15:47+01:00",
-      "checkedAt": "2026-11-02T19:35:55+01:00",
+      "checkedAt": "2026-11-02T19:55:42+01:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 12,
       "updatedAt": "2026-11-02T00:15:48+01:00",
-      "checkedAt": "2026-11-02T19:35:55+01:00",
+      "checkedAt": "2026-11-02T19:55:42+01:00",
       "error": null
     },
     {
@@ -135,9 +135,9 @@
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
       "status": "ok",
-      "eventCount": 30,
-      "updatedAt": "2026-11-02T19:35:56+01:00",
-      "checkedAt": "2026-11-02T19:36:06+01:00",
+      "eventCount": 33,
+      "updatedAt": "2026-11-02T19:55:43+01:00",
+      "checkedAt": "2026-11-02T19:55:46+01:00",
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "status": "ok",
       "eventCount": 9,
       "updatedAt": "2026-11-02T00:15:52+01:00",
-      "checkedAt": "2026-11-02T19:36:07+01:00",
+      "checkedAt": "2026-11-02T19:55:47+01:00",
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "status": "ok",
       "eventCount": 9,
       "updatedAt": "2026-10-27T00:15:09+01:00",
-      "checkedAt": "2026-11-02T19:36:07+01:00",
+      "checkedAt": "2026-11-02T19:55:47+01:00",
       "error": null
     }
   ]

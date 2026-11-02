@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2af33b47e528dcefbe354199",
+      "observedAt": "2026-11-02T19:55:43+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "3effe26e757d883c",
+        "dateIso": "2027-03-07",
+        "dateLabel": "søn. 7.3",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Svanstul Vintervakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "6d8a21a0eec745ee2d33ceb0",
+      "observedAt": "2026-11-02T19:55:43+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "58d8d5e4a0387188",
+        "dateIso": "2027-03-14",
+        "dateLabel": "søn. 14.3",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Svanstul Vintervakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "994516b24e9e9d780f1a75f9",
+      "observedAt": "2026-11-02T19:55:43+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "273f26ece6ddc028",
+        "dateIso": "2027-03-21",
+        "dateLabel": "søn. 21.3",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Svanstul Vintervakt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "5c342aa5e695b3681dd36ae7",
       "observedAt": "2026-11-02T19:35:56+01:00",
       "organization": "SkienRKH",
@@ -638,5 +683,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T19:35:56+01:00"
+  "updatedAt": "2026-11-02T19:55:43+01:00"
 }
