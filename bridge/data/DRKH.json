@@ -7,14 +7,33 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-01T00:05:57+02:00",
-  "checkedAt": "2026-11-02T18:50:41+01:00",
+  "updatedAt": "2026-11-02T19:10:38+01:00",
+  "checkedAt": "2026-11-02T19:10:38+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH",
-  "eventCount": 0,
+  "eventCount": 2,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "19df5ee9ac706fb5",
+      "dateIso": "2026-11-16",
+      "dateLabel": "man. 16.11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Tema kveld med søksmetadikk Tema kveld med søksmetadikk",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH"
+    },
+    {
+      "id": "8dc3deed8ea013d5",
+      "dateIso": "2026-11-17",
+      "dateLabel": "tir. 17.11",
+      "time": "17:00",
+      "type": "Øvelse",
+      "description": "Øvelse i Drangedal Sentrum Øvelse i terreng",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH"
+    }
+  ]
 }
