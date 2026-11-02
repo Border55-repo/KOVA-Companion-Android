@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-31T00:05:43+01:00",
-  "checkedAt": "2026-11-02T19:05:42+01:00",
+  "updatedAt": "2026-11-02T19:25:47+01:00",
+  "checkedAt": "2026-11-02T19:25:47+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 40,
+  "eventCount": 43,
   "changes": {
-    "added": 0,
-    "removed": 2,
-    "changed": 0
+    "added": 3,
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -45,21 +45,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "d778f1ef45f0e406",
-      "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Søndag Travvakt LAG 2",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
-    {
       "id": "a47a5981d0b9d141",
       "dateIso": "2026-11-01",
       "dateLabel": "søn. 1.11",
       "time": "16:00",
       "type": "Sanitetsvakt",
       "description": "Vålerenga - Tromsø - Bruk 5.2 - PÅ stadion 17:00 Bistand Nes RKH - Intility Arena",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "6c22fd5c2dc7d6c7",
+      "dateIso": "2026-11-01",
+      "dateLabel": "søn. 1.11",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Søndag Travvakt LAG 2",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -78,6 +78,33 @@
       "time": "18:30",
       "type": "Aktivitet",
       "description": "Skiptvet. Beredskapsamling ØRK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "3a376afec3a3dd5b",
+      "dateIso": "2026-11-06",
+      "dateLabel": "fre. 6.11",
+      "time": "15:00",
+      "type": "Transport",
+      "description": "5.2 Opptatt 5.2 Opptatt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "b684950d77153366",
+      "dateIso": "2026-11-07",
+      "dateLabel": "lør. 7.11",
+      "time": "",
+      "type": "Transport",
+      "description": "5.2 Opptatt 5.2 Opptatt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "d7ffb102faeefbf6",
+      "dateIso": "2026-11-08",
+      "dateLabel": "søn. 8.11",
+      "time": "-> 15:00",
+      "type": "Transport",
+      "description": "5.2 Opptatt 5.2 Opptatt",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
