@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4826067243b11209037e0ea4",
+      "observedAt": "2026-11-02T20:15:42+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "68d239e83c266dfd",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "17:15",
+        "type": "Sanitetsvakt",
+        "description": "Klosterskogen Travbane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "ede93a99210a7898012c849f",
+      "observedAt": "2026-11-02T20:15:42+01:00",
+      "organization": "SkienRKH",
+      "kind": "changed",
+      "event": {
+        "id": "921f12568b465570",
+        "dateIso": "2026-11-21",
+        "dateLabel": "lør. 21.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "innendørs i skienshallen Barnas idrettsdag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      },
+      "oldEvent": {
+        "id": "641627e0d6fb70de",
+        "dateIso": "2026-11-21",
+        "dateLabel": "lør. 21.11",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Barnas idrettsdag",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "3f87d10a7f4a1fbe5faafabd",
+      "observedAt": "2026-11-02T20:15:42+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4f49e24011f87c93",
+        "dateIso": "2026-11-07",
+        "dateLabel": "lør. 7.11",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "usikkert tidspunkt Klosterskogen Travbane",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "2af33b47e528dcefbe354199",
       "observedAt": "2026-11-02T19:55:43+01:00",
       "organization": "SkienRKH",
@@ -683,5 +737,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T19:55:43+01:00"
+  "updatedAt": "2026-11-02T20:15:42+01:00"
 }
