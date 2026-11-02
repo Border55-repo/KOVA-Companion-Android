@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e4c362ba0dca665600ede4f5",
+      "observedAt": "2026-11-03T00:15:42+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e26bf9fc10cb7d48",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:00",
+        "type": "Beredskapsvakt",
+        "description": "Standing Beredskapskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "15c56603c309fb8fb1eb4a25",
       "observedAt": "2026-11-02T00:15:52+01:00",
       "organization": "SteinkjerRKH",
@@ -578,5 +593,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:15:52+01:00"
+  "updatedAt": "2026-11-03T00:15:42+01:00"
 }
