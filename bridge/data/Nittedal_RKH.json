@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-02T12:10:42+01:00",
-  "checkedAt": "2026-11-02T23:55:35+01:00",
+  "updatedAt": "2026-11-03T00:00:39+01:00",
+  "checkedAt": "2026-11-03T00:00:39+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 28,
+  "eventCount": 26,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 2,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "554ec264b96ed9d5",
-      "dateIso": "2026-10-27",
-      "dateLabel": "tir. 27.10",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Bistandsvakt til Ullensaker RKH Sanitet: BI Gradueringsseremoni",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "a72ac86f0bf14713",
-      "dateIso": "2026-10-27",
-      "dateLabel": "tir. 27.10",
-      "time": "18:30",
-      "type": "Interne møter",
-      "description": "Ordinært arbeidsmøte for styret Møte: Styremøte i lokalforeningen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
-    },
     {
       "id": "0d9228070ac143c9",
       "dateIso": "2026-10-28",

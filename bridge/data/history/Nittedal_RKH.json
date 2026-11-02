@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "12c4b4a376863410769f2cec",
+      "observedAt": "2026-11-03T00:00:39+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "554ec264b96ed9d5",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Bistandsvakt til Ullensaker RKH Sanitet: BI Gradueringsseremoni",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "a1919410f774eab223b6627d",
+      "observedAt": "2026-11-03T00:00:39+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a72ac86f0bf14713",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Ordinært arbeidsmøte for styret Møte: Styremøte i lokalforeningen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "33592e0b18ac80fc71533b9a",
       "observedAt": "2026-11-02T12:10:42+01:00",
       "organization": "Nittedal RKH",
@@ -1247,5 +1277,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T12:10:42+01:00"
+  "updatedAt": "2026-11-03T00:00:39+01:00"
 }

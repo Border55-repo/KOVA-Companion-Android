@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6dfaf7828406933374f2723b",
+      "observedAt": "2026-11-03T00:00:44+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "858c023ce849dbd8",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "0f7437c3f592cf5e75a0b8c9",
+      "observedAt": "2026-11-03T00:00:44+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a9a068746b7e6ebb",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "AVLYST Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "393556ac6175a3553ce2ea35",
+      "observedAt": "2026-11-03T00:00:44+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c19b6ca89ba261e0",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "20:00",
+        "type": "Øvelse",
+        "description": "VTAU Øving M/EHRKH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "b68a9bbb858b300947fc4c95",
       "observedAt": "2026-11-02T00:00:58+01:00",
       "organization": "UllensakerRKH",
@@ -1964,5 +2009,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:00:58+01:00"
+  "updatedAt": "2026-11-03T00:00:44+01:00"
 }
