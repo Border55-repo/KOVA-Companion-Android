@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5edd9224a0dcf74e2d081b06",
+      "observedAt": "2026-11-02T14:45:42+01:00",
+      "organization": "AHRKH",
+      "kind": "changed",
+      "event": {
+        "id": "df1ce333471f0d4f",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søksøvelser Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      },
+      "oldEvent": {
+        "id": "04cb62a3196a7edb",
+        "dateIso": "2026-11-05",
+        "dateLabel": "tor. 5.11",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Faks Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "27c0e40f56f595f58fe45313",
       "observedAt": "2026-11-01T00:10:49+01:00",
       "organization": "AHRKH",
@@ -590,5 +614,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:10:49+01:00"
+  "updatedAt": "2026-11-02T14:45:42+01:00"
 }
