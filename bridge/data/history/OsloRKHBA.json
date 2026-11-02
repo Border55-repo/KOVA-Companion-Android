@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5dfc8cd16d696d97184e5b24",
+      "observedAt": "2026-11-03T00:10:47+01:00",
+      "organization": "OsloRKHBA",
+      "kind": "removed",
+      "event": {
+        "id": "d47ab72f11bedd0b",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Ordinærvakt OUS Ordinærvakt OUS",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OsloRKHBA"
+      }
+    },
+    {
       "changeId": "b0cbdb8135df79f25a8133ed",
       "observedAt": "2026-10-28T00:01:01+01:00",
       "organization": "OsloRKHBA",
@@ -251,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-28T00:01:01+01:00"
+  "updatedAt": "2026-11-03T00:10:47+01:00"
 }

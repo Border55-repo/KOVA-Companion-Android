@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "050a8d481c731cd35a9fe875",
+      "observedAt": "2026-11-03T00:10:49+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2d7b7d41a3816ab4",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Tid er oppmøte på huset, oppmnøte vaktsted kl 16:30 Hjertebank for Grenland",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
+      "changeId": "d409905fb9bdbf5ecb3936bf",
+      "observedAt": "2026-11-03T00:10:49+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "de7605ad25c01879",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Fagressursmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "8be5454abc36a46bd6cacc26",
       "observedAt": "2026-10-31T00:15:40+01:00",
       "organization": "PorsgrunnRKH",
@@ -281,5 +311,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-31T00:15:40+01:00"
+  "updatedAt": "2026-11-03T00:10:49+01:00"
 }

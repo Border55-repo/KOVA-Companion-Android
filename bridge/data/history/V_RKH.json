@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "93e17039d556919309aaf420",
+      "observedAt": "2026-11-03T00:10:51+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ae8cb4960ab2ec82",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "11:00",
+        "type": "Profilering",
+        "description": "Stand ALTI Vestby Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "fcf231f66d692245f43e3d93",
+      "observedAt": "2026-11-03T00:10:51+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d375ed8553b4522f",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "17:00",
+        "type": "Profilering",
+        "description": "Informasjonspunkt Gardarheim Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "185f23cbfdd098324cbebb46",
+      "observedAt": "2026-11-03T00:10:51+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5c508de2cee41a81",
+        "dateIso": "2026-10-27",
+        "dateLabel": "tir. 27.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld - Sosialt Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "4fd88548d857abfb36610c18",
       "observedAt": "2026-11-02T00:10:53+01:00",
       "organization": "VÅRKH",
@@ -782,5 +827,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:10:53+01:00"
+  "updatedAt": "2026-11-03T00:10:51+01:00"
 }
