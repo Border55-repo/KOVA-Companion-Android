@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T20:45:50+01:00",
-  "checkedAt": "2026-11-03T23:45:42+01:00",
+  "updatedAt": "2026-11-04T00:05:44+01:00",
+  "checkedAt": "2026-11-04T00:05:44+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH",
-  "eventCount": 13,
+  "eventCount": 11,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 2,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "0d7f3cf9bd981587",
-      "dateIso": "2026-10-28",
-      "dateLabel": "ons. 28.10",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Tid er oppmøte på huset Pors - kamp 3.runde NM cup",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
-    },
-    {
-      "id": "c0c6f65963219f92",
-      "dateIso": "2026-10-28",
-      "dateLabel": "ons. 28.10",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "FAKS / Samband - vi skal være ute Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
-    },
     {
       "id": "05a3fc75c9cdde27",
       "dateIso": "2026-10-31",
