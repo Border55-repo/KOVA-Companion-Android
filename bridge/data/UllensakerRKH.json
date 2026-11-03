@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:00:44+01:00",
-  "checkedAt": "2026-11-03T14:45:38+01:00",
+  "updatedAt": "2026-11-03T14:50:33+01:00",
+  "checkedAt": "2026-11-03T14:50:33+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 49,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 0,
+    "changed": 4
   },
   "events": [
     {
@@ -126,21 +126,21 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "bda0fc16cef20a52",
+      "id": "2e6a6966f55e37dc",
       "dateIso": "2026-11-06",
       "dateLabel": "fre. 6.11",
       "time": "17:00",
       "type": "Eksterne kurs",
-      "description": "Kjøretøy: Landcruiser LØFT",
+      "description": "Kjøretøy: XC90 LØFT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "34c79ecdccbdf9ea",
+      "id": "fb68085f6b3990fc",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
       "time": "",
       "type": "Eksterne kurs",
-      "description": "Kjøretøy: Landcruiser LØFT",
+      "description": "Kjøretøy: XC90 LØFT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
@@ -153,12 +153,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "4ee2a49af0407356",
+      "id": "01e05f79366861ff",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
       "time": "-> 16:00",
       "type": "Eksterne kurs",
-      "description": "Kjøretøy: Landcruiser LØFT",
+      "description": "Kjøretøy: XC90 LØFT",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
@@ -171,12 +171,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "4327003fea657387",
+      "id": "b69a5973afd33fc3",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
       "time": "10:00",
       "type": "Sanitetsvakt",
-      "description": "Oppmøte URKH Lokal 09:30 Oppmøte Jessheim Stadion 09:45 Kjøretøy XC90 Vinter Maraton",
+      "description": "Oppmøte URKH Lokal 09:30 Oppmøte Jessheim Stadion 09:45 Kjøretøy LC Vinter Maraton",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
