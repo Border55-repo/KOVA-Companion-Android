@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5adc41a1dda1587f7eea9e64",
+      "observedAt": "2026-11-03T09:25:39+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "ff707684b981f663",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Flyttet til korpsmøte 25.11.2026 Evaluering av Sjøtjenesten",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
+      "changeId": "f9ec014e28fd8237c19c70e5",
+      "observedAt": "2026-11-03T09:25:39+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "fc9d81914e6ecbbf",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Evaluering av Sjøtjenesten",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "050a8d481c731cd35a9fe875",
       "observedAt": "2026-11-03T00:10:49+01:00",
       "organization": "PorsgrunnRKH",
@@ -311,5 +341,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T00:10:49+01:00"
+  "updatedAt": "2026-11-03T09:25:39+01:00"
 }
