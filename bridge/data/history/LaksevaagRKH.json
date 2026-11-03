@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7e9dc3888e42ef4555d727bd",
+      "observedAt": "2026-11-04T00:00:58+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "added",
+      "event": {
+        "id": "10b4b5f8b1617ee8",
+        "dateIso": "2026-11-03",
+        "dateLabel": "tir. 3.11",
+        "time": "19:00",
+        "type": "Interne møter",
+        "description": "Aksjonsledermøte Aksjonsledermøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "ff49abffdd15d611b6809bc9",
       "observedAt": "2026-11-02T00:05:45+01:00",
       "organization": "LaksevaagRKH",
@@ -1295,5 +1310,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:05:45+01:00"
+  "updatedAt": "2026-11-04T00:00:58+01:00"
 }

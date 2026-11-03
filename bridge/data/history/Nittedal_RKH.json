@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "834497a7c9a519db4c41a24d",
+      "observedAt": "2026-11-04T00:00:41+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "0d9228070ac143c9",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:15",
+        "type": "Aktivitet",
+        "description": "Lillestrøm vs Sogndal Fotballkamp Sanitetsvakt for Skedsmo RKH",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "c9e9352bb792f7753664d287",
+      "observedAt": "2026-11-04T00:00:41+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "4a945cb236ac32dc",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Teorikveld 3 - Skedsmo RKH Kurs: KSOR – Kvalifisert Søk og Redning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "1208fc6433a16e05b67417dc",
+      "observedAt": "2026-11-04T00:00:41+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "478beaafacd6efef",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Ta med eget forkle om ønskelig Korpskveld: KVAFF (Kvalifisert Vaffel)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "12c4b4a376863410769f2cec",
       "observedAt": "2026-11-03T00:00:39+01:00",
       "organization": "Nittedal RKH",
@@ -1277,5 +1322,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T00:00:39+01:00"
+  "updatedAt": "2026-11-04T00:00:41+01:00"
 }

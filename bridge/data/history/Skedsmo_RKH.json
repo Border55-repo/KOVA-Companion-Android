@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "63f3eecb4d75b169d704a435",
+      "observedAt": "2026-11-04T00:00:45+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "ddd8f567c84b8eb2",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Ambulanse LSK-Sogndal NM Menn 26-27",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "a4552e52b6625b19454bc5af",
+      "observedAt": "2026-11-04T00:00:45+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "74a01df3e3f1232d",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:15",
+        "type": "Sanitetsvakt",
+        "description": "Lillestrøm - Sogndal 2026 NM Menn 2027 - 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "e95d0c9d3bd2728f9f0c0c34",
+      "observedAt": "2026-11-04T00:00:45+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "00a233e9b8349f20",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Ungdom låner hjelpekorpsrommet",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "0d63840d9ad0349ce30a790c",
+      "observedAt": "2026-11-04T00:00:45+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6a5a522d704f3d66",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "KSOR - Teorikveld KSOR - Operasjon Myrvann",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "c191e2840b760ed35341e72f",
       "observedAt": "2026-11-03T22:15:43+01:00",
       "organization": "Skedsmo RKH",
@@ -1091,5 +1151,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T22:15:43+01:00"
+  "updatedAt": "2026-11-04T00:00:45+01:00"
 }

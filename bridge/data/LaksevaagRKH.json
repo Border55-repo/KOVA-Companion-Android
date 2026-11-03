@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-02T00:05:45+01:00",
-  "checkedAt": "2026-11-03T23:40:39+01:00",
+  "updatedAt": "2026-11-04T00:00:58+01:00",
+  "checkedAt": "2026-11-04T00:00:58+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 19,
+  "eventCount": 20,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -33,6 +33,15 @@
       "time": "11:00",
       "type": "Sanitetsvakt",
       "description": "Idrettshallen ADO Arena. Plass til flere. Aspiranter må ha bestått KFØR. SANITETSVAKT: Roller Derby-turnering",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "10b4b5f8b1617ee8",
+      "dateIso": "2026-11-03",
+      "dateLabel": "tir. 3.11",
+      "time": "19:00",
+      "type": "Interne møter",
+      "description": "Aksjonsledermøte Aksjonsledermøte",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
     },
     {

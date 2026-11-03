@@ -2,6 +2,66 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "dce5d415d1e92308e05d36b3",
+      "observedAt": "2026-11-04T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e5c0ceb14f024c44",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte er i Nydalsveien 37 15:30 Oppmøte Lokalet 14:30 Handelshøyskolen BI sine gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "79e0f8c126acb34c3b595320",
+      "observedAt": "2026-11-04T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "46a738307af4979f",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Bistå Skedsmo LSK-Sogndal",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "accfa0bee31dc3654b804ee0",
+      "observedAt": "2026-11-04T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "95df9f3788e9aeb0",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "751736e78b6cb6e8efbbc63e",
+      "observedAt": "2026-11-04T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ebe871ea88d7bf73",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "startkurs",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "102f228708f6390c28827909",
       "observedAt": "2026-11-03T14:50:33+01:00",
       "organization": "UllensakerRKH",
@@ -2105,5 +2165,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T14:50:33+01:00"
+  "updatedAt": "2026-11-04T00:00:49+01:00"
 }
