@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:10:51+01:00",
-  "checkedAt": "2026-11-03T09:25:42+01:00",
+  "updatedAt": "2026-11-03T09:45:38+01:00",
+  "checkedAt": "2026-11-03T09:45:38+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
   "eventCount": 20,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -126,12 +126,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
-      "id": "a235175cb7ecb904",
+      "id": "68be4c2c0f89d63a",
       "dateIso": "2026-11-24",
       "dateLabel": "tir. 24.11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Sosialt Korpskveld",
+      "description": "Julebord Korpskveld",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
     },
     {
