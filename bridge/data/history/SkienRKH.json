@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b168a5c037e5a1d75c684ec5",
+      "observedAt": "2026-11-04T00:10:44+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "62830f092c453689",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Odd - Sandefjord Skagerak Arena",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "4826067243b11209037e0ea4",
       "observedAt": "2026-11-02T20:15:42+01:00",
       "organization": "SkienRKH",
@@ -737,5 +752,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T20:15:42+01:00"
+  "updatedAt": "2026-11-04T00:10:44+01:00"
 }

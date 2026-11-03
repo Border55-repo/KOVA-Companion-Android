@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "695f65843e13f3b951fa3822",
+      "observedAt": "2026-11-04T00:10:42+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "f0ff0d06a95dc791",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Medlemsmøte Medlemsmøte",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "e13ddf9e3b12285158c73165",
       "observedAt": "2026-11-02T00:15:44+01:00",
       "organization": "RKAB",
@@ -608,5 +623,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:15:44+01:00"
+  "updatedAt": "2026-11-04T00:10:42+01:00"
 }

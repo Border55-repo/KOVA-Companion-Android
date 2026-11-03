@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1999b2d41642c6d0cab9f30d",
+      "observedAt": "2026-11-04T00:10:38+01:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bcd752e3c66805c8",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "14:00",
+        "type": "Beredskap",
+        "description": "Beredskaps øvelse Rådhuset",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "88cbd94f75d5f8f5f7be08cf",
       "observedAt": "2026-11-02T00:15:40+01:00",
       "organization": "BrandbuRKH",
@@ -191,5 +206,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:15:40+01:00"
+  "updatedAt": "2026-11-04T00:10:38+01:00"
 }
