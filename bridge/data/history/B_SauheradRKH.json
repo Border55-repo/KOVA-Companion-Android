@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "38b8456250c380c219a8523a",
+      "observedAt": "2026-11-03T15:20:41+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "346263e3e9ba4999",
+        "dateIso": "2027-06-12",
+        "dateLabel": "lør. 12.6",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Første vaktlag lørdag Sommarlandcup 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "f474eb59c1fea85d9300cb1a",
+      "observedAt": "2026-11-03T15:20:41+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "bb0587ae694f3ff4",
+        "dateIso": "2027-06-12",
+        "dateLabel": "lør. 12.6",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Andre vaktlag lørdag Sommarlandcup 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
+      "changeId": "92d33ec07b9cf9fbee980380",
+      "observedAt": "2026-11-03T15:20:41+01:00",
+      "organization": "BøSauheradRKH",
+      "kind": "added",
+      "event": {
+        "id": "5e1d5a11c30cdb5c",
+        "dateIso": "2027-06-13",
+        "dateLabel": "søn. 13.6",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "Vaktlag søndag Sommarlandcup 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+      }
+    },
+    {
       "changeId": "3e8aea3c61e809d673e8936b",
       "observedAt": "2026-11-02T00:05:42+01:00",
       "organization": "BøSauheradRKH",
@@ -302,5 +347,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:05:42+01:00"
+  "updatedAt": "2026-11-03T15:20:41+01:00"
 }
