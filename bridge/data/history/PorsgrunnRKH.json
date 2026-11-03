@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9d1c30adf0d24fa8bf821031",
+      "observedAt": "2026-11-03T20:45:50+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "changed",
+      "event": {
+        "id": "88552f0e5166b71c",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Korpsmøte / evaluering av SiT 4 år / bekledning",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      },
+      "oldEvent": {
+        "id": "1278cef95ef644fa",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Korpsmøte / evaluering av SiT 4 år",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "ee6e36cbdc1daad87b62d892",
       "observedAt": "2026-11-03T19:05:46+01:00",
       "organization": "PorsgrunnRKH",
@@ -380,5 +404,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T19:05:46+01:00"
+  "updatedAt": "2026-11-03T20:45:50+01:00"
 }
