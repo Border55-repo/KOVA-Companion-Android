@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b149c19ad7a3ecca0566d5a6",
+      "observedAt": "2026-11-04T00:20:45+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "92db54e14471196d",
+        "dateIso": "2026-10-28",
+        "dateLabel": "ons. 28.10",
+        "time": "19:30",
+        "type": "Beredskap",
+        "description": "Man må selv skaffe seg gratisbillett (se innlegg i Teams) Foredrag på kultursalen: Jon Reichelt",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "76c0256995d7ba2bc56ae721",
       "observedAt": "2026-11-03T00:00:52+01:00",
       "organization": "HaldenRKH",
@@ -2129,5 +2144,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T00:00:52+01:00"
+  "updatedAt": "2026-11-04T00:20:45+01:00"
 }
