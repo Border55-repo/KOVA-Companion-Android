@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "45dd22cc28f1df021360cea5",
+      "observedAt": "2026-11-03T11:35:44+01:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "5ff54d8e305dfaf3",
+        "dateIso": "2026-11-19",
+        "dateLabel": "tor. 19.11",
+        "time": "18:30",
+        "type": "Eksterne møter",
+        "description": "Fagkveld Fagkveld Ambulanse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "2b37fe946d509084a13e557b",
+      "observedAt": "2026-11-03T11:35:44+01:00",
+      "organization": "MossRKH",
+      "kind": "added",
+      "event": {
+        "id": "d49662e0a54f336c",
+        "dateIso": "2026-11-28",
+        "dateLabel": "lør. 28.11",
+        "time": "10:00",
+        "type": "Eksterne kurs",
+        "description": "Fagdag Ambulanse Fagdag Ambulanse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "cb8722ef35bcd9f59bbb32b6",
       "observedAt": "2026-11-03T10:15:38+01:00",
       "organization": "MossRKH",
@@ -878,5 +908,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T10:15:38+01:00"
+  "updatedAt": "2026-11-03T11:35:44+01:00"
 }
