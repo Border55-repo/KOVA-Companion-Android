@@ -1,7 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T19:50:44+01:00",
+  "updatedAt": "2026-11-04T20:10:43+01:00",
   "sent": {
+    "9310e4017a256f93ffe5cc73": "2026-11-04T20:10:43+01:00",
+    "976b3d753980863bc28a45ef": "2026-11-04T20:10:43+01:00",
+    "4ab0ef125535cc7f6184cb26": "2026-11-04T20:10:43+01:00",
+    "7fa1f0ed7d445de610715cc2": "2026-11-04T20:10:43+01:00",
+    "3e34928838b9fe75c3766b66": "2026-11-04T20:10:43+01:00",
+    "57bb33577f227e2e00cdff97": "2026-11-04T20:10:43+01:00",
     "1fb8b7669dba7cb33c9476ac": "2026-11-04T19:50:44+01:00",
     "f1eff2031493ca73b43e0391": "2026-11-04T19:50:44+01:00",
     "83b5477738919ef9db88479f": "2026-11-04T19:50:44+01:00",
@@ -1739,150 +1745,5 @@
     "8ccc066f6c5284f5ec072dcb": "2026-09-23T00:14:39+02:00",
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
-  "pending": {
-    "9310e4017a256f93ffe5cc73": {
-      "changeId": "9310e4017a256f93ffe5cc73",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "4748d6a899aefd3c",
-        "dateIso": "2027-02-26",
-        "dateLabel": "fre. 26.2",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Uke 8 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "16daa558468413c4",
-        "dateIso": "2027-02-26",
-        "dateLabel": "fre. 26.2",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    },
-    "976b3d753980863bc28a45ef": {
-      "changeId": "976b3d753980863bc28a45ef",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "cd8891c45471b1ca",
-        "dateIso": "2027-02-27",
-        "dateLabel": "lør. 27.2",
-        "time": "",
-        "type": "Vintervakt",
-        "description": "Uke 8 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "73fd4e628ca43977",
-        "dateIso": "2027-02-27",
-        "dateLabel": "lør. 27.2",
-        "time": "",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    },
-    "4ab0ef125535cc7f6184cb26": {
-      "changeId": "4ab0ef125535cc7f6184cb26",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "6305908ae9ffd346",
-        "dateIso": "2027-02-28",
-        "dateLabel": "søn. 28.2",
-        "time": "-> 16:00",
-        "type": "Vintervakt",
-        "description": "Uke 8 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "aa2627a27708977d",
-        "dateIso": "2027-02-28",
-        "dateLabel": "søn. 28.2",
-        "time": "-> 16:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    },
-    "7fa1f0ed7d445de610715cc2": {
-      "changeId": "7fa1f0ed7d445de610715cc2",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "d0449869d81366d0",
-        "dateIso": "2027-03-12",
-        "dateLabel": "fre. 12.3",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Uke 10 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "615447de89592639",
-        "dateIso": "2027-03-12",
-        "dateLabel": "fre. 12.3",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    },
-    "3e34928838b9fe75c3766b66": {
-      "changeId": "3e34928838b9fe75c3766b66",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "1eba6a723f5ea0d0",
-        "dateIso": "2027-03-13",
-        "dateLabel": "lør. 13.3",
-        "time": "",
-        "type": "Vintervakt",
-        "description": "Uke 10 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "3bfa807976a5436a",
-        "dateIso": "2027-03-13",
-        "dateLabel": "lør. 13.3",
-        "time": "",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    },
-    "57bb33577f227e2e00cdff97": {
-      "changeId": "57bb33577f227e2e00cdff97",
-      "observedAt": "2026-11-04T19:35:32+01:00",
-      "organization": "BøSauheradRKH",
-      "kind": "changed",
-      "event": {
-        "id": "b569a7308a3eb2c6",
-        "dateIso": "2027-03-14",
-        "dateLabel": "søn. 14.3",
-        "time": "-> 16:00",
-        "type": "Vintervakt",
-        "description": "Uke 10 Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      },
-      "oldEvent": {
-        "id": "0cb83ff657773f0c",
-        "dateIso": "2027-03-14",
-        "dateLabel": "søn. 14.3",
-        "time": "-> 16:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt 2027",
-        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
-      }
-    }
-  }
+  "pending": {}
 }
