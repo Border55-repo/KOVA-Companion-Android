@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T23:50:33+01:00",
-  "checkedAt": "2026-11-04T23:50:33+01:00",
+  "updatedAt": "2026-11-05T00:10:35+01:00",
+  "checkedAt": "2026-11-05T00:10:35+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH",
-  "eventCount": 48,
+  "eventCount": 54,
   "changes": {
     "added": 7,
-    "removed": 0,
-    "changed": 0
+    "removed": 1,
+    "changed": 1
   },
   "events": [
-    {
-      "id": "bce7c08fa36803ca",
-      "dateIso": "2026-10-29",
-      "dateLabel": "tor. 29.10",
-      "time": "",
-      "type": "Transport",
-      "description": "Understellsbehandling - Ikke tilgjengelig for bruk Ambulanse på Service",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
-    },
     {
       "id": "a47a5981d0b9d141",
       "dateIso": "2026-11-01",
@@ -351,12 +342,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
-      "id": "152f54f55f9f96df",
+      "id": "bfb72e0934ed2d41",
       "dateIso": "2026-12-24",
       "dateLabel": "tor. 24.12",
       "time": "10:00",
       "type": "Ambulansevakt",
-      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
+      "description": "Julekjøring for SØK",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {
@@ -384,6 +375,69 @@
       "time": "10:00",
       "type": "Ambulansevakt",
       "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK A",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "4c8576fe0a75857f",
+      "dateIso": "2026-12-28",
+      "dateLabel": "man. 28.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "204ca34082fa625b",
+      "dateIso": "2026-12-29",
+      "dateLabel": "tir. 29.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "c68a60b29ff87785",
+      "dateIso": "2026-12-30",
+      "dateLabel": "ons. 30.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "a26a6c51af9ef4f1",
+      "dateIso": "2026-12-31",
+      "dateLabel": "tor. 31.12",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "54991fda93f2dd25",
+      "dateIso": "2027-01-01",
+      "dateLabel": "fre. 1.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "725050286af14451",
+      "dateIso": "2027-01-02",
+      "dateLabel": "lør. 2.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
+    },
+    {
+      "id": "391f414d042dff7b",
+      "dateIso": "2027-01-03",
+      "dateLabel": "søn. 3.1",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Avtal med Sarp hvilken bil som skal benyttes Julekjøring for SØK",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=MORKH"
     },
     {

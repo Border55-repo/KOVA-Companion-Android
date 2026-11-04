@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fe3d3a5f8cac621b4cccc5af",
+      "observedAt": "2026-11-05T00:10:30+01:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3fadc5e6931c2b8d",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Førstehjelp - kle deg for å være ute Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "5edd9224a0dcf74e2d081b06",
       "observedAt": "2026-11-02T14:45:42+01:00",
       "organization": "AHRKH",
@@ -614,5 +629,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T14:45:42+01:00"
+  "updatedAt": "2026-11-05T00:10:30+01:00"
 }

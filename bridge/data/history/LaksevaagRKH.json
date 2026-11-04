@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c748d0287ce9e685e020d0a8",
+      "observedAt": "2026-11-05T00:10:34+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "37631acdce1ae8cd",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Teori og praktisk trening Korpskveld: Hjerte, hjertestans og HLR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "7e9dc3888e42ef4555d727bd",
       "observedAt": "2026-11-04T00:00:58+01:00",
       "organization": "LaksevaagRKH",
@@ -1310,5 +1325,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:00:58+01:00"
+  "updatedAt": "2026-11-05T00:10:34+01:00"
 }
