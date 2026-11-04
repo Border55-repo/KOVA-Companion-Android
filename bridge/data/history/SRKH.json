@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "31f763954ff53beeff693c1b",
+      "observedAt": "2026-11-05T00:00:42+01:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9e48f7b07f4b3b5d",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Søks øvelse Korpskveld",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "2dca6134a6844d3e556be29e",
       "observedAt": "2026-11-02T00:15:48+01:00",
       "organization": "SRKH",
@@ -809,5 +824,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T00:15:48+01:00"
+  "updatedAt": "2026-11-05T00:00:42+01:00"
 }

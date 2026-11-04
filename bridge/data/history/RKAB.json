@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4d847960c0d6d98e465f8c37",
+      "observedAt": "2026-11-05T00:00:40+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "0909bd997320f50c",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "17:00",
+        "type": "Ambulansevakt",
+        "description": "V65 Bergen Travpark 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "695f65843e13f3b951fa3822",
       "observedAt": "2026-11-04T00:10:42+01:00",
       "organization": "RKAB",
@@ -623,5 +638,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:10:42+01:00"
+  "updatedAt": "2026-11-05T00:00:40+01:00"
 }
