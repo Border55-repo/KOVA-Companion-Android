@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8499dbbed6a2918e88cce5fe",
+      "observedAt": "2026-11-05T00:05:35+01:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a1a1d8d59c0d15a9",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Møte ringløype NM",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "807dc0db9df332920e738753",
       "observedAt": "2026-11-04T16:15:34+01:00",
       "organization": "Lunner RKH",
@@ -806,5 +821,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T16:15:34+01:00"
+  "updatedAt": "2026-11-05T00:05:35+01:00"
 }

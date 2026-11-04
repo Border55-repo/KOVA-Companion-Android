@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7c250d00ded33f7f9a00be9e",
+      "observedAt": "2026-11-05T00:05:30+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "d334b2ff41201148",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Nightrun Bergen Nightrun Bergen",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "69266b5d94da84c03c6ac268",
       "observedAt": "2026-11-04T02:20:37+01:00",
       "organization": "Bergen RKH",
@@ -1373,5 +1388,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T02:20:37+01:00"
+  "updatedAt": "2026-11-05T00:05:30+01:00"
 }
