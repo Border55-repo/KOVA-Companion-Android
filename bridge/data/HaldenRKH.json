@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T00:20:45+01:00",
-  "checkedAt": "2026-11-04T12:55:45+01:00",
+  "updatedAt": "2026-11-04T13:15:37+01:00",
+  "checkedAt": "2026-11-04T13:15:37+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH",
-  "eventCount": 73,
+  "eventCount": 78,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 5,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -171,6 +171,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
+      "id": "9bc68ba443a94879",
+      "dateIso": "2027-01-18",
+      "dateLabel": "man. 18.1",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøter 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
       "id": "5e1b85a503d44fef",
       "dateIso": "2027-01-20",
       "dateLabel": "ons. 20.1",
@@ -261,6 +270,15 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
+      "id": "1a099d039df40261",
+      "dateIso": "2027-03-08",
+      "dateLabel": "man. 8.3",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøter 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
       "id": "d59a044a6e2cb064",
       "dateIso": "2027-03-10",
       "dateLabel": "ons. 10.3",
@@ -321,6 +339,15 @@
       "time": "17:00",
       "type": "Interne møter",
       "description": "Fagansvarligmøte",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "5fdae81bd3506c05",
+      "dateIso": "2027-04-12",
+      "dateLabel": "man. 12.4",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøter 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -411,6 +438,15 @@
       "time": "",
       "type": "Aktivitet",
       "description": "mer info kommer Distriktsmesterskap og sommerfest for Østfold RKH",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "5584ec557119ef13",
+      "dateIso": "2027-05-24",
+      "dateLabel": "man. 24.5",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøter 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {
@@ -519,6 +555,15 @@
       "time": "18:30",
       "type": "Sanitetsvakt",
       "description": "Forestilling (tilstede i Festningen kl.19-01:00) Sanitetsvakt: Opera i Festningen",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+    },
+    {
+      "id": "538f5d8cd3d6b83b",
+      "dateIso": "2027-06-21",
+      "dateLabel": "man. 21.6",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalrådsmøter 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
     },
     {

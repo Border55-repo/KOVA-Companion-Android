@@ -2,6 +2,81 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8cb831236fd2794f6bdb6c6d",
+      "observedAt": "2026-11-04T13:15:37+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "9bc68ba443a94879",
+        "dateIso": "2027-01-18",
+        "dateLabel": "man. 18.1",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøter 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "b4709c651d0946ff1a11d259",
+      "observedAt": "2026-11-04T13:15:37+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "1a099d039df40261",
+        "dateIso": "2027-03-08",
+        "dateLabel": "man. 8.3",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøter 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "febf257e4d2c2f82f641dffe",
+      "observedAt": "2026-11-04T13:15:37+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "5fdae81bd3506c05",
+        "dateIso": "2027-04-12",
+        "dateLabel": "man. 12.4",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøter 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "4fca446866507fd0c2945358",
+      "observedAt": "2026-11-04T13:15:37+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "5584ec557119ef13",
+        "dateIso": "2027-05-24",
+        "dateLabel": "man. 24.5",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøter 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "8c0a82a3e34de0fc311bb6bf",
+      "observedAt": "2026-11-04T13:15:37+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "538f5d8cd3d6b83b",
+        "dateIso": "2027-06-21",
+        "dateLabel": "man. 21.6",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Lokalrådsmøter 2027",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "b149c19ad7a3ecca0566d5a6",
       "observedAt": "2026-11-04T00:20:45+01:00",
       "organization": "HaldenRKH",
@@ -2144,5 +2219,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:20:45+01:00"
+  "updatedAt": "2026-11-04T13:15:37+01:00"
 }
