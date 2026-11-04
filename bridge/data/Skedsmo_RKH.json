@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T00:00:45+01:00",
-  "checkedAt": "2026-11-04T09:40:40+01:00",
+  "updatedAt": "2026-11-04T09:45:40+01:00",
+  "checkedAt": "2026-11-04T09:45:40+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH",
-  "eventCount": 36,
+  "eventCount": 37,
   "changes": {
-    "added": 0,
-    "removed": 4,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -168,6 +168,15 @@
       "time": "15:00",
       "type": "Eksterne kurs",
       "description": "53 i bruk, pakkes kvelden før Eksternt førstehjelpskurs",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "1778acdb3f1142e9",
+      "dateIso": "2026-11-14",
+      "dateLabel": "lør. 14.11",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "51 i bruk NM i sykkelkross 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
     },
     {
