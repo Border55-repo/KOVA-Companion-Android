@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bfbbeb6e80b181941da73e24",
+      "observedAt": "2026-11-05T00:15:36+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "da355ecc317c68a6",
+        "dateIso": "2026-10-29",
+        "dateLabel": "tor. 29.10",
+        "time": "15:00",
+        "type": "Profilering",
+        "description": "Beredskapsdagen Vestby sentrum Beredskapsuka Vestby",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "8d035e1015f8fa313c60f872",
       "observedAt": "2026-11-04T00:05:47+01:00",
       "organization": "VÅRKH",
@@ -866,5 +881,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:05:47+01:00"
+  "updatedAt": "2026-11-05T00:15:36+01:00"
 }
