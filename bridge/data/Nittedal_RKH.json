@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T11:20:39+01:00",
-  "checkedAt": "2026-11-04T21:05:30+01:00",
+  "updatedAt": "2026-11-04T21:10:30+01:00",
+  "checkedAt": "2026-11-04T21:10:30+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
-  "eventCount": 23,
+  "eventCount": 24,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 5
+    "changed": 0
   },
   "events": [
     {
@@ -150,6 +150,15 @@
       "time": "14:00",
       "type": "Ambulansevakt",
       "description": "Suppleringsvakt for AMK Ambulansevakt",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "971aef2538073c50",
+      "dateIso": "2026-12-05",
+      "dateLabel": "lør. 5.12",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Vakt for Oslo RKH, Ullevål Stadion Sanitet: Fotballkamp Norge - Wales (oppdatert tid kommer)",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {

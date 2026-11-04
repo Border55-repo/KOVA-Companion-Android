@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cd38c4cd6d38f808df8fea7a",
+      "observedAt": "2026-11-04T21:10:30+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "971aef2538073c50",
+        "dateIso": "2026-12-05",
+        "dateLabel": "lør. 5.12",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Vakt for Oslo RKH, Ullevål Stadion Sanitet: Fotballkamp Norge - Wales (oppdatert tid kommer)",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "4e4c92d4fe9709decb3e93f6",
       "observedAt": "2026-11-04T11:20:39+01:00",
       "organization": "Nittedal RKH",
@@ -1442,5 +1457,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T11:20:39+01:00"
+  "updatedAt": "2026-11-04T21:10:30+01:00"
 }
