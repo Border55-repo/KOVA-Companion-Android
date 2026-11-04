@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "578fc2532ec8d1996b7c0a99",
+      "observedAt": "2026-11-04T09:50:38+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "added",
+      "event": {
+        "id": "eba3d8b0557f1804",
+        "dateIso": "2026-11-15",
+        "dateLabel": "søn. 15.11",
+        "time": "08:00",
+        "type": "Sanitetsvakt",
+        "description": "51 i bruk NM i sykkelkross 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "514d5e887ffecf9ccec33c44",
       "observedAt": "2026-11-04T09:45:40+01:00",
       "organization": "Skedsmo RKH",
@@ -1166,5 +1181,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T09:45:40+01:00"
+  "updatedAt": "2026-11-04T09:50:38+01:00"
 }
