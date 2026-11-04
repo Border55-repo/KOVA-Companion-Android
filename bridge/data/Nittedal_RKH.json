@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T00:00:41+01:00",
-  "checkedAt": "2026-11-04T11:10:37+01:00",
+  "updatedAt": "2026-11-04T11:20:39+01:00",
+  "checkedAt": "2026-11-04T11:20:39+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH",
   "eventCount": 23,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 0,
+    "changed": 5
   },
   "events": [
     {
@@ -63,48 +63,48 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "468961c9e58436e8",
+      "id": "15183bc1daf45f1e",
       "dateIso": "2026-11-06",
       "dateLabel": "fre. 6.11",
       "time": "16:00",
       "type": "Eksterne møter",
-      "description": "Røde Kors konferanse, Clarion Oslo Airport Konferanse: LØFT 2026",
+      "description": "Røde Kors konferanse, RK52 opptatt Konferanse: LØFT 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "62aa81e14919c4b5",
+      "id": "9255f41d6d6caed6",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
       "time": "",
       "type": "Eksterne møter",
-      "description": "Røde Kors konferanse, Clarion Oslo Airport Konferanse: LØFT 2026",
+      "description": "Røde Kors konferanse, RK52 opptatt Konferanse: LØFT 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "1cd565a713349fb7",
+      "id": "b3b99942644684da",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
       "time": "08:00",
       "type": "Eksterne kurs",
-      "description": "Utehelg - Fellemyra, Rælingen Kurs: KSOR – Kvalifisert Søk og Redning",
+      "description": "Utehelg - Fellemyra, Rælingen, RK51 opptatt Kurs: KSOR – Kvalifisert Søk og Redning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "d2ec39172474d434",
+      "id": "80b56393b77793d0",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
       "time": "-> 15:30",
       "type": "Eksterne møter",
-      "description": "Røde Kors konferanse, Clarion Oslo Airport Konferanse: LØFT 2026",
+      "description": "Røde Kors konferanse, RK52 opptatt Konferanse: LØFT 2026",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
-      "id": "793c076be3e4d956",
+      "id": "d2f25363ab43593c",
       "dateIso": "2026-11-08",
       "dateLabel": "søn. 8.11",
       "time": "-> 16:00",
       "type": "Eksterne kurs",
-      "description": "Utehelg - Fellemyra, Rælingen Kurs: KSOR – Kvalifisert Søk og Redning",
+      "description": "Utehelg - Fellemyra, Rælingen, RK51 opptatt Kurs: KSOR – Kvalifisert Søk og Redning",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Nittedal+RKH"
     },
     {
