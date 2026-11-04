@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "807dc0db9df332920e738753",
+      "observedAt": "2026-11-04T16:15:34+01:00",
+      "organization": "Lunner RKH",
+      "kind": "changed",
+      "event": {
+        "id": "6f7c9fcc530163ff",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "16:00",
+        "type": "Aktivitet",
+        "description": "Nordnestangen PLIVO-øvelse",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      },
+      "oldEvent": {
+        "id": "296de5910f2863c9",
+        "dateIso": "2026-11-04",
+        "dateLabel": "ons. 4.11",
+        "time": "16:00",
+        "type": "Aktivitet",
+        "description": "Tid og sted kommer PLIVO-øvelse Brandbu",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "cf8307d039d7717a2a1ca630",
       "observedAt": "2026-11-01T00:05:50+01:00",
       "organization": "Lunner RKH",
@@ -782,5 +806,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:05:50+01:00"
+  "updatedAt": "2026-11-04T16:15:34+01:00"
 }
