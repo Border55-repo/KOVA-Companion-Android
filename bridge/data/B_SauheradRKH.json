@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T19:15:28+01:00",
-  "checkedAt": "2026-11-04T19:15:28+01:00",
+  "updatedAt": "2026-11-04T19:35:32+01:00",
+  "checkedAt": "2026-11-04T19:35:32+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH",
-  "eventCount": 31,
+  "eventCount": 37,
   "changes": {
-    "added": 15,
+    "added": 6,
     "removed": 0,
-    "changed": 0
+    "changed": 15
   },
   "events": [
     {
@@ -63,57 +63,57 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "9819b0cc0f7f8044",
+      "id": "b7ebe704e9f3a896",
       "dateIso": "2027-01-15",
       "dateLabel": "fre. 15.1",
       "time": "18:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 2 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "3c2e91b06d40a650",
+      "id": "96b3899c39942c33",
       "dateIso": "2027-01-16",
       "dateLabel": "lør. 16.1",
       "time": "",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 2 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "84a10db2c4b46573",
+      "id": "88634d27ee6d76c3",
       "dateIso": "2027-01-17",
       "dateLabel": "søn. 17.1",
       "time": "-> 16:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 2 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "764ecee274c857b7",
+      "id": "cb55f222568a237b",
       "dateIso": "2027-01-29",
       "dateLabel": "fre. 29.1",
       "time": "18:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 4 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "290b7423a992a7e1",
+      "id": "77fbbfa59cfe5908",
       "dateIso": "2027-01-30",
       "dateLabel": "lør. 30.1",
       "time": "",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 4 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "8c071481fedd3660",
+      "id": "d43b3d338202a441",
       "dateIso": "2027-01-31",
       "dateLabel": "søn. 31.1",
       "time": "-> 16:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 4 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
@@ -126,12 +126,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "447e87ff71fe4292",
+      "id": "f1c215869eb66016",
       "dateIso": "2027-02-12",
       "dateLabel": "fre. 12.2",
       "time": "18:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 6 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
@@ -144,12 +144,12 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "3f3e4ed952625d68",
+      "id": "6c5f67964c549a76",
       "dateIso": "2027-02-13",
       "dateLabel": "lør. 13.2",
       "time": "",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 6 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
@@ -162,66 +162,120 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "6d459b95ea9f26d0",
+      "id": "c172f1f9f07685ca",
       "dateIso": "2027-02-14",
       "dateLabel": "søn. 14.2",
       "time": "-> 16:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 6 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "16daa558468413c4",
+      "id": "4748d6a899aefd3c",
       "dateIso": "2027-02-26",
       "dateLabel": "fre. 26.2",
       "time": "18:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 8 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "73fd4e628ca43977",
+      "id": "cd8891c45471b1ca",
       "dateIso": "2027-02-27",
       "dateLabel": "lør. 27.2",
       "time": "",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 8 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "aa2627a27708977d",
+      "id": "6305908ae9ffd346",
       "dateIso": "2027-02-28",
       "dateLabel": "søn. 28.2",
       "time": "-> 16:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 8 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "615447de89592639",
+      "id": "d0449869d81366d0",
       "dateIso": "2027-03-12",
       "dateLabel": "fre. 12.3",
       "time": "18:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 10 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "3bfa807976a5436a",
+      "id": "1eba6a723f5ea0d0",
       "dateIso": "2027-03-13",
       "dateLabel": "lør. 13.3",
       "time": "",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 10 Vintervakt 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
-      "id": "0cb83ff657773f0c",
+      "id": "b569a7308a3eb2c6",
       "dateIso": "2027-03-14",
       "dateLabel": "søn. 14.3",
       "time": "-> 16:00",
       "type": "Vintervakt",
-      "description": "Vintervakt 2027",
+      "description": "Uke 10 Vintervakt 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "ed26f9261a9887b5",
+      "dateIso": "2027-03-24",
+      "dateLabel": "ons. 24.3",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Onsdag Påsken 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "71ef4efa7a15d22c",
+      "dateIso": "2027-03-25",
+      "dateLabel": "tor. 25.3",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Skjørtorsdag Påsken 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "d4c00bd6de4a27d2",
+      "dateIso": "2027-03-26",
+      "dateLabel": "fre. 26.3",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Langfredag Påsken 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "2e193f379a666a27",
+      "dateIso": "2027-03-27",
+      "dateLabel": "lør. 27.3",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Påskeaften Påsken 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "f2888cb7e98208b5",
+      "dateIso": "2027-03-28",
+      "dateLabel": "søn. 28.3",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "1 Påskedag Påsken 2027",
+      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
+    },
+    {
+      "id": "b7ff715c08395864",
+      "dateIso": "2027-03-29",
+      "dateLabel": "man. 29.3",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "2 Påskedag Påsken 2027",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%B8SauheradRKH"
     },
     {
