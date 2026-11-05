@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "233580cad6f936cebf11e628",
+      "observedAt": "2026-11-06T00:05:33+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a4b21511e4dde832",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "360fa79d9535bcff86a2dc81",
+      "observedAt": "2026-11-06T00:05:33+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "997498b588a13ac8",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "",
+        "type": "Aktivitet",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "d419033465a81882b045a6d1",
+      "observedAt": "2026-11-06T00:05:33+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "01326c2c72ac40c2",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "-> 15:00",
+        "type": "Aktivitet",
+        "description": "KSOR",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "b168a5c037e5a1d75c684ec5",
       "observedAt": "2026-11-04T00:10:44+01:00",
       "organization": "SkienRKH",
@@ -752,5 +797,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:10:44+01:00"
+  "updatedAt": "2026-11-06T00:05:33+01:00"
 }

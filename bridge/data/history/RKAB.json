@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "76cf00fc92472779ad4549b2",
+      "observedAt": "2026-11-06T00:05:31+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "5140e49d732e00a1",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Fredag AMK Okotber 2026",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "4d847960c0d6d98e465f8c37",
       "observedAt": "2026-11-05T00:00:40+01:00",
       "organization": "RKAB",
@@ -638,5 +653,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:00:40+01:00"
+  "updatedAt": "2026-11-06T00:05:31+01:00"
 }
