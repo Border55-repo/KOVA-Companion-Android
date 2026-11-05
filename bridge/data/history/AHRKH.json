@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e76de2ccc68cf972d1d33e77",
+      "observedAt": "2026-11-06T00:15:30+01:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2cd4b31279194e81",
+        "dateIso": "2026-10-30",
+        "dateLabel": "fre. 30.10",
+        "time": "08:45",
+        "type": "Beredskap",
+        "description": "Foredrag for ungdomskolen på Aurskog Foredrag for ungdomskolen på Aurskog",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "fe3d3a5f8cac621b4cccc5af",
       "observedAt": "2026-11-05T00:10:30+01:00",
       "organization": "AHRKH",
@@ -629,5 +644,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:10:30+01:00"
+  "updatedAt": "2026-11-06T00:15:30+01:00"
 }
