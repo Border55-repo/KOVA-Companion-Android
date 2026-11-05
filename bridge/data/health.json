@@ -8,12 +8,12 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-11-05T18:35:35+01:00",
-  "lastSuccessfulRunAt": "2026-11-05T18:35:35+01:00",
-  "lastFullySuccessfulRunAt": "2026-11-05T18:35:35+01:00",
+  "checkedAt": "2026-11-05T19:15:37+01:00",
+  "lastSuccessfulRunAt": "2026-11-05T19:15:37+01:00",
+  "lastFullySuccessfulRunAt": "2026-11-05T19:15:37+01:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-11-05T18:35:35+01:00",
+  "lastPushAt": "2026-11-05T19:15:37+01:00",
   "lastPushCount": 1,
   "organizationCount": 40,
   "helpCorpsCount": 37,
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 19,
       "updatedAt": "2026-11-05T00:00:31+01:00",
-      "checkedAt": "2026-11-05T18:35:26+01:00",
+      "checkedAt": "2026-11-05T19:15:30+01:00",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "status": "ok",
       "eventCount": 24,
       "updatedAt": "2026-11-04T21:10:30+01:00",
-      "checkedAt": "2026-11-05T18:35:26+01:00",
+      "checkedAt": "2026-11-05T19:15:30+01:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 38,
       "updatedAt": "2026-11-04T09:50:38+01:00",
-      "checkedAt": "2026-11-05T18:35:26+01:00",
+      "checkedAt": "2026-11-05T19:15:30+01:00",
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "status": "ok",
       "eventCount": 44,
       "updatedAt": "2026-11-05T00:00:37+01:00",
-      "checkedAt": "2026-11-05T18:35:27+01:00",
+      "checkedAt": "2026-11-05T19:15:31+01:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 8,
       "updatedAt": "2026-11-05T00:10:30+01:00",
-      "checkedAt": "2026-11-05T18:35:27+01:00",
+      "checkedAt": "2026-11-05T19:15:31+01:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 37,
       "updatedAt": "2026-11-04T19:35:32+01:00",
-      "checkedAt": "2026-11-05T18:35:28+01:00",
+      "checkedAt": "2026-11-05T19:15:31+01:00",
       "error": null
     },
     {
@@ -93,7 +93,7 @@
       "status": "ok",
       "eventCount": 3,
       "updatedAt": "2026-11-01T00:10:41+01:00",
-      "checkedAt": "2026-11-05T18:35:28+01:00",
+      "checkedAt": "2026-11-05T19:15:32+01:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 3,
       "updatedAt": "2026-11-01T00:10:43+01:00",
-      "checkedAt": "2026-11-05T18:35:28+01:00",
+      "checkedAt": "2026-11-05T19:15:32+01:00",
       "error": null
     },
     {
@@ -115,7 +115,7 @@
       "status": "ok",
       "eventCount": 19,
       "updatedAt": "2026-11-05T00:10:34+01:00",
-      "checkedAt": "2026-11-05T18:35:29+01:00",
+      "checkedAt": "2026-11-05T19:15:32+01:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 54,
       "updatedAt": "2026-11-05T00:10:35+01:00",
-      "checkedAt": "2026-11-05T18:35:29+01:00",
+      "checkedAt": "2026-11-05T19:15:33+01:00",
       "error": null
     },
     {
@@ -135,9 +135,9 @@
       "category": "hjelpekorps",
       "file": "RKSarpsborg.json",
       "status": "ok",
-      "eventCount": 36,
-      "updatedAt": "2026-11-05T18:35:29+01:00",
-      "checkedAt": "2026-11-05T18:35:31+01:00",
+      "eventCount": 37,
+      "updatedAt": "2026-11-05T19:15:33+01:00",
+      "checkedAt": "2026-11-05T19:15:34+01:00",
       "error": null
     },
     {
@@ -148,7 +148,7 @@
       "status": "ok",
       "eventCount": 23,
       "updatedAt": "2026-11-03T00:06:37+01:00",
-      "checkedAt": "2026-11-05T18:35:31+01:00",
+      "checkedAt": "2026-11-05T19:15:35+01:00",
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "status": "ok",
       "eventCount": 15,
       "updatedAt": "2026-11-03T00:06:39+01:00",
-      "checkedAt": "2026-11-05T18:35:32+01:00",
+      "checkedAt": "2026-11-05T19:15:35+01:00",
       "error": null
     }
   ]

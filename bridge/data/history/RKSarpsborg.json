@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a7e23a45cb9d2cae54a32f6e",
+      "observedAt": "2026-11-05T19:15:33+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "added",
+      "event": {
+        "id": "7eae84f0936032ac",
+        "dateIso": "2026-12-12",
+        "dateLabel": "lør. 12.12",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Oppmøte røde kors huset. Julebord",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "edafd8bb9218f71be9e81928",
       "observedAt": "2026-11-05T18:35:29+01:00",
       "organization": "RKSarpsborg",
@@ -1091,5 +1106,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T18:35:29+01:00"
+  "updatedAt": "2026-11-05T19:15:33+01:00"
 }
