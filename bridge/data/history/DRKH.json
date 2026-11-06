@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "67eb14282522bffe9a044bce",
+      "observedAt": "2026-11-06T14:25:27+01:00",
+      "organization": "DRKH",
+      "kind": "removed",
+      "event": {
+        "id": "19df5ee9ac706fb5",
+        "dateIso": "2026-11-16",
+        "dateLabel": "man. 16.11",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Tema kveld med søksmetadikk Tema kveld med søksmetadikk",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH"
+      }
+    },
+    {
+      "changeId": "2ed6c7685bb8468e4bcd5228",
+      "observedAt": "2026-11-06T14:25:27+01:00",
+      "organization": "DRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8dc3deed8ea013d5",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "17:00",
+        "type": "Øvelse",
+        "description": "Øvelse i Drangedal Sentrum Øvelse i terreng",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH"
+      }
+    },
+    {
       "changeId": "a1710ad621899033866103de",
       "observedAt": "2026-11-02T19:10:38+01:00",
       "organization": "DRKH",
@@ -47,5 +77,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T19:10:38+01:00"
+  "updatedAt": "2026-11-06T14:25:27+01:00"
 }

@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-06T14:20:42+01:00",
+  "updatedAt": "2026-11-06T14:25:34+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "organizations": [
@@ -59,8 +59,8 @@
       "code": "BærumRKH",
       "category": "hjelpekorps",
       "file": "B_rumRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:31+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 40,
       "updatedAt": "2026-11-06T13:45:29+01:00"
     },
@@ -80,9 +80,9 @@
       "category": "hjelpekorps",
       "file": "DRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T14:05:31+01:00",
-      "eventCount": 2,
-      "updatedAt": "2026-11-02T19:10:38+01:00"
+      "checkedAt": "2026-11-06T14:25:31+01:00",
+      "eventCount": 0,
+      "updatedAt": "2026-11-06T14:25:27+01:00"
     },
     {
       "name": "Eidsvoll og Hurdal Røde Kors Hjelpekorps",
@@ -170,7 +170,7 @@
       "category": "hjelpekorps",
       "file": "LardalRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T14:05:32+01:00",
+      "checkedAt": "2026-11-06T14:25:31+01:00",
       "eventCount": 0,
       "updatedAt": "2026-09-22T23:31:19+02:00"
     },
@@ -179,8 +179,8 @@
       "code": "LillehammerRKH",
       "category": "hjelpekorps",
       "file": "LillehammerRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:32+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 9,
       "updatedAt": "2026-11-05T00:15:33+01:00"
     },
@@ -239,8 +239,8 @@
       "code": "NRKH",
       "category": "hjelpekorps",
       "file": "NRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:33+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 31,
       "updatedAt": "2026-11-06T00:00:41+01:00"
     },
@@ -259,8 +259,8 @@
       "code": "OsloRKHBA",
       "category": "hjelpekorps",
       "file": "OsloRKHBA.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:33+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 8,
       "updatedAt": "2026-11-05T00:15:34+01:00"
     },
@@ -269,8 +269,8 @@
       "code": "PorsgrunnRKH",
       "category": "hjelpekorps",
       "file": "PorsgrunnRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:33+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 11,
       "updatedAt": "2026-11-04T00:05:44+01:00"
     },
@@ -309,8 +309,8 @@
       "code": "SRKH AMB",
       "category": "hjelpekorps",
       "file": "SRKH_AMB.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:34+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 9,
       "updatedAt": "2026-10-25T00:01:28+02:00"
     },
@@ -379,8 +379,8 @@
       "code": "VÅRKH",
       "category": "hjelpekorps",
       "file": "V_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:05:34+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 18,
       "updatedAt": "2026-11-05T00:15:36+01:00"
     },
