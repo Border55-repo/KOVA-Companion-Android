@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d0c3530dde03d92e178b5b76",
+      "observedAt": "2026-11-06T13:45:29+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "9a8d8ae104848aae",
+        "dateIso": "2026-11-17",
+        "dateLabel": "tir. 17.11",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Gartnerveien 8, 1356 Bekkestua Mitt Hjelpekorps: lokal del",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "f7248b3f39f7b36494d8943a",
+      "observedAt": "2026-11-06T13:45:29+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "94e76da7acc0fc81",
+        "dateIso": "2026-11-19",
+        "dateLabel": "tor. 19.11",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Gartnerveien 8, 1356 Bekkestua Mitt Hjelpekorps: lokal del",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "24e8fbd33e5f54eebbf316f2",
       "observedAt": "2026-11-05T00:15:31+01:00",
       "organization": "BærumRKH",
@@ -1364,5 +1394,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:15:31+01:00"
+  "updatedAt": "2026-11-06T13:45:29+01:00"
 }
