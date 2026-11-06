@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T00:00:37+01:00",
-  "checkedAt": "2026-11-06T11:10:28+01:00",
+  "updatedAt": "2026-11-06T11:15:33+01:00",
+  "checkedAt": "2026-11-06T11:15:33+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH",
   "eventCount": 43,
   "changes": {
     "added": 0,
-    "removed": 1,
-    "changed": 0
+    "removed": 0,
+    "changed": 3
   },
   "events": [
     {
@@ -180,30 +180,30 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "72c5e0c779cac7d4",
+      "id": "ae5b0b687bfa0e57",
       "dateIso": "2026-11-20",
       "dateLabel": "fre. 20.11",
       "time": "09:30",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet 29.09 EXPOV Arrangement, The Qube",
+      "description": "Bekreftet 29.09 CEDRA KICK OFF NOVEMBER, The Qube",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "8add3bc1ff726779",
+      "id": "1061e401eedf36b8",
       "dateIso": "2026-11-20",
       "dateLabel": "fre. 20.11",
       "time": "19:00",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet 29.09 EXPOV Arrangement, The Qube",
+      "description": "Bekreftet 29.09 CEDRA KICK OFF NOVEMBER, The Qube",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
-      "id": "ce8f7b77b7e97b8a",
+      "id": "a24bb5dc991a8031",
       "dateIso": "2026-11-21",
       "dateLabel": "lør. 21.11",
       "time": "-> 02:00",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet 29.09 EXPOV Arrangement, The Qube",
+      "description": "Bekreftet 29.09 CEDRA KICK OFF NOVEMBER, The Qube",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=UllensakerRKH"
     },
     {
