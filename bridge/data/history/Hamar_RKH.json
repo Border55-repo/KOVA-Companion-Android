@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "23abac9f62bece4e31d690f3",
+      "observedAt": "2026-11-06T14:20:31+01:00",
+      "organization": "Hamar RKH",
+      "kind": "removed",
+      "event": {
+        "id": "331f9b8a544e6ff5",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Hamkam-Sarpsborg 08 Hamkam",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Hamar+RKH"
+      }
+    },
+    {
+      "changeId": "7a27e92efc95771881df88e9",
+      "observedAt": "2026-11-06T14:20:31+01:00",
+      "organization": "Hamar RKH",
+      "kind": "removed",
+      "event": {
+        "id": "1da470ea41534ebc",
+        "dateIso": "2026-11-22",
+        "dateLabel": "søn. 22.11",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Hamkam-Fredrikstad Hamkam",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Hamar+RKH"
+      }
+    },
+    {
+      "changeId": "5e79d9f72c2e0614fd8ddd79",
+      "observedAt": "2026-11-06T14:20:31+01:00",
+      "organization": "Hamar RKH",
+      "kind": "removed",
+      "event": {
+        "id": "5d3f71775950b1bf",
+        "dateIso": "2026-12-06",
+        "dateLabel": "søn. 6.12",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Hamkam-Sandefjord fotball Hamkam",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Hamar+RKH"
+      }
+    },
+    {
       "changeId": "d377952dc97f4e3c8fb1ca5d",
       "observedAt": "2026-11-01T00:10:41+01:00",
       "organization": "Hamar RKH",
@@ -62,5 +107,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:10:41+01:00"
+  "updatedAt": "2026-11-06T14:20:31+01:00"
 }

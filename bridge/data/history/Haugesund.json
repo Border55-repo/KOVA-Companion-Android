@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4f48fa87f84c4eaa9861d53d",
+      "observedAt": "2026-11-06T14:20:36+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "35e08c9509312955",
+        "dateIso": "2026-10-31",
+        "dateLabel": "lør. 31.10",
+        "time": "11:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte huset 11:45, vaktstart 12:30 FKH Damer - Hønefoss BK",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
+      "changeId": "5ac3fc2d8dd899c8dc5b9e68",
+      "observedAt": "2026-11-06T14:20:36+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "f45821ce75df1f5a",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "11:00",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 11:00, Vaktstart 11:30 Vard Haugesund - Varegg",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
+      "changeId": "8412bdd1e75a3afd0f4004dc",
+      "observedAt": "2026-11-06T14:20:36+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "d94157f589a57ea5",
+        "dateIso": "2026-11-08",
+        "dateLabel": "søn. 8.11",
+        "time": "10:45",
+        "type": "Sanitetsvakt",
+        "description": "Oppmøte på huset 10:45, vaktstart 11:30 FKH herrer - Odd",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "2ce74ecbbd7bc3d96b64ac93",
       "observedAt": "2026-11-01T00:10:43+01:00",
       "organization": "Haugesund",
@@ -290,5 +335,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T00:10:43+01:00"
+  "updatedAt": "2026-11-06T14:20:36+01:00"
 }
