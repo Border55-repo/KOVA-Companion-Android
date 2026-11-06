@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-06T14:10:31+01:00",
+  "updatedAt": "2026-11-06T14:15:39+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "organizations": [
@@ -39,8 +39,8 @@
       "code": "Bergen RKH",
       "category": "hjelpekorps",
       "file": "Bergen_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:40+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 22,
       "updatedAt": "2026-11-05T00:05:30+01:00"
     },
@@ -89,8 +89,8 @@
       "code": "EHRKH",
       "category": "hjelpekorps",
       "file": "EHRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:27+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 13,
       "updatedAt": "2026-11-06T00:00:28+01:00"
     },
@@ -100,17 +100,17 @@
       "category": "hjelpekorps",
       "file": "ERKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T13:55:40+01:00",
-      "eventCount": 2,
-      "updatedAt": "2026-11-05T20:10:47+01:00"
+      "checkedAt": "2026-11-06T14:15:32+01:00",
+      "eventCount": 0,
+      "updatedAt": "2026-11-06T14:15:28+01:00"
     },
     {
       "name": "Fana Røde Kors Hjelpekorps",
       "code": "Fana RKH",
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:41+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 5,
       "updatedAt": "2026-11-04T15:35:30+01:00"
     },
@@ -119,8 +119,8 @@
       "code": "GRKH",
       "category": "hjelpekorps",
       "file": "GRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:41+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 19,
       "updatedAt": "2026-09-23T01:26:26+02:00"
     },
@@ -129,8 +129,8 @@
       "code": "HaldenRKH",
       "category": "hjelpekorps",
       "file": "HaldenRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:42+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 80,
       "updatedAt": "2026-11-05T22:50:30+01:00"
     },
@@ -189,8 +189,8 @@
       "code": "Lunner RKH",
       "category": "hjelpekorps",
       "file": "Lunner_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:42+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 27,
       "updatedAt": "2026-11-05T00:05:35+01:00"
     },
@@ -199,8 +199,8 @@
       "code": "MossRKH",
       "category": "hjelpekorps",
       "file": "MossRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:43+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 17,
       "updatedAt": "2026-11-03T11:35:44+01:00"
     },
@@ -220,17 +220,17 @@
       "category": "hjelpekorps",
       "file": "NesRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T13:55:43+01:00",
-      "eventCount": 4,
-      "updatedAt": "2026-11-03T00:00:56+01:00"
+      "checkedAt": "2026-11-06T14:15:38+01:00",
+      "eventCount": 0,
+      "updatedAt": "2026-11-06T14:15:34+01:00"
     },
     {
       "name": "Nittedal Røde Kors Hjelpekorps",
       "code": "Nittedal RKH",
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:27+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 24,
       "updatedAt": "2026-11-04T21:10:30+01:00"
     },
@@ -249,8 +249,8 @@
       "code": "OppSkiRKH",
       "category": "hjelpekorps",
       "file": "OppSkiRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T13:55:44+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 7,
       "updatedAt": "2026-10-29T00:05:41+01:00"
     },
@@ -299,8 +299,8 @@
       "code": "Skedsmo RKH",
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:28+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 35,
       "updatedAt": "2026-11-06T00:00:34+01:00"
     },
@@ -359,8 +359,8 @@
       "code": "UllensakerRKH",
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:28+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 43,
       "updatedAt": "2026-11-06T11:15:33+01:00"
     },

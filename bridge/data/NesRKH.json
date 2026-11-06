@@ -7,51 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:00:56+01:00",
-  "checkedAt": "2026-11-06T13:55:43+01:00",
+  "updatedAt": "2026-11-06T14:15:34+01:00",
+  "checkedAt": "2026-11-06T14:15:34+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH",
-  "eventCount": 4,
+  "eventCount": 0,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 4,
     "changed": 0
   },
-  "events": [
-    {
-      "id": "040202df75f591e4",
-      "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "oppmøte 15.30 - avreise 16.00 Vålerenga - Tromsø",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    },
-    {
-      "id": "cc9557ab19d84300",
-      "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
-      "time": "19:00",
-      "type": "Aktivitet",
-      "description": "Befaring og info på/om nye lokaler(oppmøte i bruktbutikken) Koprskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    },
-    {
-      "id": "7e947b857a70f303",
-      "dateIso": "2026-11-21",
-      "dateLabel": "lør. 21.11",
-      "time": "14:30",
-      "type": "Sanitetsvakt",
-      "description": "oppmøte 14.40 - avreise 15.00 Vålerenga - Start",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    },
-    {
-      "id": "1a60a706afd4337a",
-      "dateIso": "2026-12-05",
-      "dateLabel": "lør. 5.12",
-      "time": "14:30",
-      "type": "Sanitetsvakt",
-      "description": "oppmøte 14.30 - avreise 15.00 Vålerenga - Rosenborg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH"
-    }
-  ]
+  "events": []
 }
