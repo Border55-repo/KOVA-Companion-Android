@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T00:05:33+01:00",
-  "checkedAt": "2026-11-06T12:10:37+01:00",
+  "updatedAt": "2026-11-06T12:30:36+01:00",
+  "checkedAt": "2026-11-06T12:30:36+01:00",
   "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH",
   "eventCount": 29,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -54,10 +54,10 @@
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
     },
     {
-      "id": "68d239e83c266dfd",
+      "id": "8a5b900748e1e100",
       "dateIso": "2026-11-07",
       "dateLabel": "lør. 7.11",
-      "time": "17:15",
+      "time": "16:45",
       "type": "Sanitetsvakt",
       "description": "Klosterskogen Travbane",
       "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SkienRKH"
