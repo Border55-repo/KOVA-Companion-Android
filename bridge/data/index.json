@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-06T22:30:33+01:00",
+  "updatedAt": "2026-11-06T22:35:37+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "organizations": [
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "ERKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T22:15:33+01:00",
+      "checkedAt": "2026-11-06T22:35:34+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:15:28+01:00"
     },
@@ -220,7 +220,7 @@
       "category": "hjelpekorps",
       "file": "NesRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T22:15:35+01:00",
+      "checkedAt": "2026-11-06T22:35:37+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:15:34+01:00"
     },
