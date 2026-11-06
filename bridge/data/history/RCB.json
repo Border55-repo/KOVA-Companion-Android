@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d65c1ad27d06dada524a060c",
+      "observedAt": "2026-11-06T14:30:36+01:00",
+      "organization": "RCB",
+      "kind": "removed",
+      "event": {
+        "id": "d3a66cf627c762e6",
+        "dateIso": "2026-11-25",
+        "dateLabel": "ons. 25.11",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Månedlig FS-møte på Teams",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+      }
+    },
+    {
+      "changeId": "11e0992f2673d86bd3ef0f55",
+      "observedAt": "2026-11-06T14:30:36+01:00",
+      "organization": "RCB",
+      "kind": "removed",
+      "event": {
+        "id": "1057adc3a149f8b8",
+        "dateIso": "2026-12-30",
+        "dateLabel": "ons. 30.12",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Månedlig FS-møte på Teams",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB"
+      }
+    },
+    {
       "changeId": "9d94aa65c0e63cfd3d506603",
       "observedAt": "2026-11-04T00:10:40+01:00",
       "organization": "RCB",
@@ -32,5 +62,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:10:40+01:00"
+  "updatedAt": "2026-11-06T14:30:36+01:00"
 }

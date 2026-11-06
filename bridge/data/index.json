@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-06T14:25:34+01:00",
+  "updatedAt": "2026-11-06T14:30:43+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "organizations": [
@@ -19,8 +19,8 @@
       "code": "AskerRKH",
       "category": "hjelpekorps",
       "file": "AskerRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:29+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 17,
       "updatedAt": "2026-11-05T18:05:32+01:00"
     },
@@ -49,8 +49,8 @@
       "code": "BrandbuRKH",
       "category": "hjelpekorps",
       "file": "BrandbuRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:29+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 6,
       "updatedAt": "2026-11-04T00:10:38+01:00"
     },
@@ -279,8 +279,8 @@
       "code": "RingerikeHoleRKH",
       "category": "hjelpekorps",
       "file": "RingerikeHoleRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:30+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 12,
       "updatedAt": "2026-11-02T20:55:44+01:00"
     },
@@ -319,8 +319,8 @@
       "code": "SkienRKH",
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:30+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 29,
       "updatedAt": "2026-11-06T12:30:36+01:00"
     },
@@ -329,8 +329,8 @@
       "code": "SRKH",
       "category": "hjelpekorps",
       "file": "SRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:30+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 11,
       "updatedAt": "2026-11-05T00:00:42+01:00"
     },
@@ -339,8 +339,8 @@
       "code": "SteinkjerRKH",
       "category": "hjelpekorps",
       "file": "SteinkjerRKH.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:31+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 8,
       "updatedAt": "2026-11-03T00:15:42+01:00"
     },
@@ -389,8 +389,8 @@
       "code": "RKAB",
       "category": "ambulanse",
       "file": "RKAB.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:29+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 24,
       "updatedAt": "2026-11-06T00:05:31+01:00"
     },
@@ -400,17 +400,17 @@
       "category": "bat",
       "file": "RCB.json",
       "status": "ok",
-      "checkedAt": "2026-11-06T14:10:29+01:00",
-      "eventCount": 2,
-      "updatedAt": "2026-11-04T00:10:40+01:00"
+      "checkedAt": "2026-11-06T14:30:40+01:00",
+      "eventCount": 0,
+      "updatedAt": "2026-11-06T14:30:36+01:00"
     },
     {
       "name": "Stavanger Røde Kors Omsorg",
       "code": "StvRKO",
       "category": "omsorg",
       "file": "StvRKO.json",
-      "status": "ok",
-      "checkedAt": "2026-11-06T14:10:31+01:00",
+      "status": "error",
+      "checkedAt": null,
       "eventCount": 8,
       "updatedAt": "2026-11-03T00:15:43+01:00"
     }
