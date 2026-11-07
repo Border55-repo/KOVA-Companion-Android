@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-07T22:05:38+01:00",
+  "updatedAt": "2026-11-07T22:10:32+01:00",
   "organizationCount": 41,
   "helpCorpsCount": 37,
   "organizations": [
@@ -400,7 +400,7 @@
       "category": "annet",
       "file": "OSRK.json",
       "status": "ok",
-      "checkedAt": "2026-11-07T21:50:33+01:00",
+      "checkedAt": "2026-11-07T22:10:29+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-07T18:50:28+01:00"
     },
