@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-07T14:40:32+01:00",
+  "updatedAt": "2026-11-07T14:45:35+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 37,
   "organizations": [
@@ -140,7 +140,7 @@
       "category": "hjelpekorps",
       "file": "Hamar_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:25:27+01:00",
+      "checkedAt": "2026-11-07T14:45:32+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:20:31+01:00"
     },
@@ -150,7 +150,7 @@
       "category": "hjelpekorps",
       "file": "Haugesund.json",
       "status": "ok",
-      "checkedAt": "2026-11-07T14:25:28+01:00",
+      "checkedAt": "2026-11-07T14:45:32+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:20:36+01:00"
     },
