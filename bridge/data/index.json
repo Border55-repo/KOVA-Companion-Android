@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-08T07:26:07+01:00",
+  "updatedAt": "2026-11-08T07:31:05+01:00",
   "organizationCount": 40,
   "helpCorpsCount": 36,
   "organizations": [
@@ -400,7 +400,7 @@
       "category": "bat",
       "file": "RCB.json",
       "status": "ok",
-      "checkedAt": "2026-11-08T07:11:01+01:00",
+      "checkedAt": "2026-11-08T07:31:03+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:30:36+01:00"
     },
