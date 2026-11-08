@@ -10,9 +10,9 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-08T00:55:34+01:00",
-  "organizationCount": 41,
-  "helpCorpsCount": 37,
+  "updatedAt": "2026-11-08T01:00:32+01:00",
+  "organizationCount": 40,
+  "helpCorpsCount": 36,
   "organizations": [
     {
       "name": "Asker Røde Kors Hjelpekorps",
@@ -140,19 +140,9 @@
       "category": "hjelpekorps",
       "file": "Hamar_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-08T00:40:30+01:00",
+      "checkedAt": "2026-11-08T01:00:29+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:20:31+01:00"
-    },
-    {
-      "name": "Haugesund Røde Kors Hjelpekorps",
-      "code": "Haugesund",
-      "category": "hjelpekorps",
-      "file": "Haugesund.json",
-      "status": "ok",
-      "checkedAt": "2026-11-08T00:45:30+01:00",
-      "eventCount": 0,
-      "updatedAt": "2026-11-06T14:20:36+01:00"
     },
     {
       "name": "Laksevåg Røde Kors Hjelpekorps",
@@ -220,7 +210,7 @@
       "category": "hjelpekorps",
       "file": "NesRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-08T00:40:31+01:00",
+      "checkedAt": "2026-11-08T01:00:31+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:15:34+01:00"
     },
