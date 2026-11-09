@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-09T04:06:06+01:00",
+  "updatedAt": "2026-11-09T04:11:09+01:00",
   "organizationCount": 39,
   "helpCorpsCount": 36,
   "organizations": [
@@ -140,7 +140,7 @@
       "category": "hjelpekorps",
       "file": "Hamar_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:51:01+01:00",
+      "checkedAt": "2026-11-09T04:11:07+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:20:31+01:00"
     },
@@ -210,7 +210,7 @@
       "category": "hjelpekorps",
       "file": "NesRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-09T03:51:03+01:00",
+      "checkedAt": "2026-11-09T04:11:08+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-06T14:15:34+01:00"
     },
