@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-11-09T01:01:02+01:00",
+  "updatedAt": "2026-11-12T01:00:23+01:00",
   "count": 39,
   "helpCorpsCount": 36,
   "organizations": [
@@ -166,7 +166,7 @@
       "category": "hjelpekorps"
     },
     {
-      "name": "Tromsø Røde Kors Hjelpekorps",
+      "name": "Tysnes Røde Kors Hjelpekorps",
       "code": "TRKH",
       "category": "hjelpekorps"
     },
