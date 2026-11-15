@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7f55ae18a242a8e9ff07d16e",
+      "observedAt": "2026-11-15T19:20:30+01:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "17038bf8a67ffdb8",
+        "dateIso": "2026-11-01",
+        "dateLabel": "søn. 1.11",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane - Haugesund | Tentativt tidspunkt Åsane Fotball",
+        "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=A%C3%85RKH"
+      }
+    },
+    {
       "changeId": "b03436c6a54c538ddb401a89",
       "observedAt": "2026-10-25T00:06:31+02:00",
       "organization": "AÅRKH",
@@ -152,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T00:06:31+02:00"
+  "updatedAt": "2026-11-15T19:20:30+01:00"
 }
