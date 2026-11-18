@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-11-18T01:00:33+01:00",
-  "count": 40,
+  "updatedAt": "2026-11-18T19:30:58+01:00",
+  "count": 41,
   "helpCorpsCount": 37,
   "organizations": [
     {
@@ -194,6 +194,11 @@
       "name": "Bergen Røde Kors Ambulansen",
       "code": "RKAB",
       "category": "ambulanse"
+    },
+    {
+      "name": "Os Røde Kors",
+      "code": "OSRK",
+      "category": "annet"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",

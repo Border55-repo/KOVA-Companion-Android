@@ -10,8 +10,8 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-18T19:26:08+01:00",
-  "organizationCount": 40,
+  "updatedAt": "2026-11-18T19:31:07+01:00",
+  "organizationCount": 41,
   "helpCorpsCount": 37,
   "organizations": [
     {
@@ -393,6 +393,16 @@
       "checkedAt": null,
       "eventCount": 24,
       "updatedAt": "2026-11-06T00:05:31+01:00"
+    },
+    {
+      "name": "Os Røde Kors",
+      "code": "OSRK",
+      "category": "annet",
+      "file": "OSRK.json",
+      "status": "ok",
+      "checkedAt": "2026-11-18T19:31:03+01:00",
+      "eventCount": 0,
+      "updatedAt": "2026-11-07T18:50:28+01:00"
     },
     {
       "name": "Røde Kors Båten Bjørgvin",
