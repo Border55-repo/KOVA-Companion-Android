@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-21T18:36:04+01:00",
+  "updatedAt": "2026-11-21T18:41:03+01:00",
   "organizationCount": 41,
   "helpCorpsCount": 37,
   "organizations": [
@@ -20,7 +20,7 @@
       "category": "hjelpekorps",
       "file": "A_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-21T18:26:04+01:00",
+      "checkedAt": "2026-11-21T18:41:02+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-15T19:20:30+01:00"
     },
@@ -400,7 +400,7 @@
       "category": "annet",
       "file": "OSRK.json",
       "status": "ok",
-      "checkedAt": "2026-11-21T18:21:02+01:00",
+      "checkedAt": "2026-11-21T18:41:01+01:00",
       "eventCount": 0,
       "updatedAt": "2026-11-07T18:50:28+01:00"
     },
