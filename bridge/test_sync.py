@@ -15,7 +15,7 @@ from reliability import (
     pending_records,
     suspicious_snapshot,
 )
-from sync import compute_diff, parse_schedule, poll_batch, slug, include_new_organizations, discover_organizations
+from sync import compute_diff, parse_schedule, parse_public_ical, poll_batch, slug, include_new_organizations, discover_organizations
 
 class PollFairnessTests(unittest.TestCase):
     def test_delayed_runs_cover_all_corps_even_at_same_clock_bucket(self):
@@ -53,6 +53,26 @@ def event(
 
 
 class BridgeParserTests(unittest.TestCase):
+    def test_ullensaker_feed_uses_oslo_time_and_ignores_alarm_fields(self):
+        html = "\r\n".join([
+            "BEGIN:VCALENDAR", "BEGIN:VEVENT", "UID:example",
+            "DTSTART:20260825T223000Z", "SUMMARY:Kveld,",
+            " vakt (Korpskveld)", "BEGIN:VALARM", "SUMMARY:Reminder",
+            "END:VALARM", "END:VEVENT", "END:VCALENDAR",
+        ])
+        event, = parse_public_ical(html, "https://www.kova.no/")
+        self.assertEqual((event["dateIso"], event["time"], event["type"]),
+                         ("2026-08-26", "00:30", "Korpskveld"))
+        self.assertEqual(event["description"], "Kveld,vakt")
+
+    def test_public_feed_can_be_empty(self):
+        self.assertEqual(parse_public_ical("BEGIN:VCALENDAR\nEND:VCALENDAR", ""), [])
+
+    def test_rejects_kova_error_page_as_calendar(self):
+        html = '<form action="../ErrorPage.aspx?ErrorMessage=Missing">Missing</form>'
+        with self.assertRaisesRegex(ValueError, "error page instead of the public calendar"):
+            parse_schedule(html, "https://www.kova.no/public/schedule.aspx")
+
     def test_description_edit_is_one_change(self):
         diff = compute_diff([event()], [event(event_id="new", description="Øvelse med nytt oppmøtested")])
         self.assertEqual((0, 0, 1), tuple(len(diff[k]) for k in ("added", "removed", "changed")))

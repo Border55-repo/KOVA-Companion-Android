@@ -8,7 +8,7 @@ import re
 import sys
 import time
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, quote_plus, unquote_plus, urlparse
 from zoneinfo import ZoneInfo
@@ -255,7 +255,7 @@ def slug(code: str) -> str:
 
 
 def source_url(code: str) -> str:
-    return "https://www.kova.no/public/schedule.aspx?Organization=" + quote_plus(code)
+    return "https://www.kova.no/Public/iCalendar.ashx?Organization=" + quote_plus(code)
 
 
 def normalize(value: str) -> str:
@@ -421,8 +421,11 @@ def event_id(date_iso: str, time_value: str, type_name: str, description: str) -
 
 
 def parse_schedule(html: str, url: str, now: datetime | None = None) -> list[dict]:
+    """Parse public calendar rows and reject KOVA error pages served as HTML."""
     now = now or datetime.now(OSLO)
     soup = BeautifulSoup(html, "html.parser")
+    if any("errorpage.aspx" in form.get("action", "").lower() for form in soup.find_all("form")):
+        raise ValueError("KOVA returned an error page instead of the public calendar")
     events: list[dict] = []
 
     last_date_text: str | None = None
@@ -600,7 +603,48 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
     return False, old
 
 
+def parse_public_ical(body: str, url: str) -> list[dict]:
+    """Translate the public KOVA iCalendar feed into activity snapshots."""
+    body = re.sub(r"\r?\n[ \t]", "", body).strip()
+    if not body.startswith("BEGIN:VCALENDAR") or not body.endswith("END:VCALENDAR"):
+        raise ValueError("KOVA did not return a complete iCalendar feed")
+    events = {}
+    blocks = re.findall(r"^BEGIN:VEVENT\r?\n(.*?)^END:VEVENT\r?$", body, re.M | re.S)
+    if body.count("BEGIN:VEVENT") != len(blocks) or body.count("END:VEVENT") != len(blocks):
+        raise ValueError("KOVA iCalendar feed is incomplete")
+    for block in blocks:
+        fields = {}
+        for line in block.splitlines():
+            if line == "BEGIN:VALARM":
+                break
+            key, separator, value = line.partition(":")
+            if separator:
+                fields[key.split(";", 1)[0]] = value
+        start = fields.get("DTSTART", "")
+        if re.fullmatch(r"\d{8}", start):
+            date = datetime.strptime(start, "%Y%m%d")
+            time = ""
+        else:
+            date = datetime.strptime(start, "%Y%m%dT%H%M%SZ").replace(
+                tzinfo=timezone.utc
+            ).astimezone(OSLO)
+            time = date.strftime("%H:%M")
+        summary = re.sub(r"\\([nN,;\\])", lambda match: " " if match[1].lower() == "n" else match[1], fields.get("SUMMARY", ""))
+        match = re.fullmatch(r"(.*?)\s*\(([^()]*)\)", summary)
+        if not match or not fields.get("UID"):
+            raise ValueError("KOVA iCalendar entry is missing a type or UID")
+        description, kind = match.groups()
+        day = date.date().isoformat()
+        key = event_id(day, time, kind, description)
+        events[key] = {
+            "id": key, "dateIso": day, "dateLabel": day, "time": time,
+            "type": kind, "description": description, "sourceUrl": url,
+        }
+    return sorted(events.values(), key=lambda item: (item["dateIso"], item["time"], item["description"]))
+
+
 def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
+    """Fetch a public calendar and reject KOVA error pages served with HTTP 200."""
     url = source_url(org["code"])
     last_error: Exception | None = None
 
@@ -613,7 +657,7 @@ def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
             )
             response.raise_for_status()
             html = response.text
-            return parse_schedule(html, url), url, len(html)
+            return parse_public_ical(html, url), url, len(html)
         except (requests.RequestException, ValueError) as exc:
             last_error = exc
             if attempt < attempts - 1:
@@ -859,17 +903,19 @@ def main(source=None) -> int:
         old_events = old.get("events", [])
 
         try:
-            events, _, html_length = source.fetch(org)
+            events, calendar_url, response_length = source.fetch(org)
+            is_ical = "/public/icalendar.ashx?" in calendar_url.lower()
+            migrated = is_ical and bool(old) and old.get("sourceUrl") != calendar_url
 
             suspect = suspicious_snapshot(
-                old_count=len(old_events),
+                old_count=0 if migrated else len(old_events),
                 new_count=len(events),
-                html_length=html_length,
+                html_length=max(500, response_length) if is_ical else response_length,
             )
             if suspect:
                 raise RuntimeError(suspect)
 
-            diff = compute_diff(old_events, events)
+            diff = compute_diff(events if migrated else old_events, events)
             records = change_records(org, diff)
 
             # First snapshot is a baseline, not a real change. Never notify or audit
