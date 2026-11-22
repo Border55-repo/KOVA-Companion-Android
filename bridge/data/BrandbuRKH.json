@@ -7,69 +7,204 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T00:10:38+01:00",
-  "checkedAt": "2026-11-06T14:10:29+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH",
-  "eventCount": 6,
+  "updatedAt": "2026-11-22T22:25:27+01:00",
+  "checkedAt": "2026-11-22T22:25:27+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH",
+  "eventCount": 21,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "303ef2da9bf6c8c3",
+      "id": "1fe16c415d5c0f9f",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "66cada10a67038d6",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Medelmsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "7f2969dd6d80f9cc",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Granstafetten:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "fe37744f6122d86e",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Medelmsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "e208df964e6edf46",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "NM rulleskiskyting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "50a822b60e5f825c",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "NM rulleskiskyting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "477148cc81d1f276",
+      "dateIso": "2026-09-23",
+      "dateLabel": "2026-09-23",
+      "time": "19:30",
+      "type": "Sanitetsvakt",
+      "description": "Elvelangs Vigga:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "1321b3e5b33a6618",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "Oktoberfest:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "4748cb4616e48b6b",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Oktoberfest:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "8a140c3248494f06",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "c3961ce3eee53463",
+      "dateIso": "2026-10-05",
+      "dateLabel": "2026-10-05",
+      "time": "12:00",
+      "type": "Eksterne kurs",
+      "description": "Førsthjelpsundervisning RM :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "a14320e2202e148b",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "cf091df96aa48d4c",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "b080c88e82585a60",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "7eb9b399e0882998",
+      "dateIso": "2026-10-28",
+      "dateLabel": "2026-10-28",
+      "time": "14:00",
+      "type": "Beredskap",
+      "description": "Beredskaps øvelse Rådhuset:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "19044e6a25bb7262",
       "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
+      "dateLabel": "2026-11-03",
       "time": "09:00",
       "type": "Beredskap",
-      "description": "Plivo øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Plivo øvelse:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     },
     {
-      "id": "6564989af8d30070",
+      "id": "c2f8d857c399914a",
       "dateIso": "2026-11-04",
-      "dateLabel": "ons. 4.11",
+      "dateLabel": "2026-11-04",
       "time": "16:00",
       "type": "Beredskap",
-      "description": "Plivo øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Plivo øvelse:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     },
     {
-      "id": "b06ad46ae87140fe",
+      "id": "8dcaafde6b0f825f",
       "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
+      "dateLabel": "2026-11-09",
       "time": "19:00",
       "type": "Korpskveld",
-      "description": "Medlemsmøtet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     },
     {
-      "id": "efb1fcdae731c0ac",
+      "id": "baa20fb99c196fd5",
       "dateIso": "2026-11-23",
-      "dateLabel": "man. 23.11",
+      "dateLabel": "2026-11-23",
       "time": "19:00",
       "type": "Korpskveld",
-      "description": "Medlemsmøtet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     },
     {
-      "id": "1b62210224e7295d",
+      "id": "ee17dddd241e01c2",
       "dateIso": "2026-12-07",
-      "dateLabel": "man. 7.12",
+      "dateLabel": "2026-12-07",
       "time": "19:00",
       "type": "Korpskveld",
-      "description": "Medlemsmøtet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     },
     {
-      "id": "84faaddb4605d92f",
+      "id": "85cd565b61e6bc65",
       "dateIso": "2026-12-21",
-      "dateLabel": "man. 21.12",
+      "dateLabel": "2026-12-21",
       "time": "19:00",
       "type": "Korpskveld",
-      "description": "Medlemsmøtet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=BrandbuRKH"
+      "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     }
   ]
 }

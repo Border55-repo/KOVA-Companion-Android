@@ -7,186 +7,762 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:10:34+01:00",
-  "checkedAt": "2026-11-06T14:00:31+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH",
-  "eventCount": 19,
+  "updatedAt": "2026-11-22T22:25:24+01:00",
+  "checkedAt": "2026-11-22T22:25:24+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH",
+  "eventCount": 83,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "d343000fb3dd7c41",
-      "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
+      "id": "8d9491febb00a848",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Dommermøte NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "87d04f3836ce0beb",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "NM transportmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ae6afcf132169be3",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte RC Bjørgvin: Styremøte RC Bjørgvin",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "e3e624cb60e9bb20",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Kickoff: Sosialt, re-trening, informasjon og korpskveld planlegging",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3c813d60918719ce",
+      "dateIso": "2026-08-28",
+      "dateLabel": "2026-08-28",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Minnevakt HMK Harald: Torgalmenningen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0ccece38dce9456c",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Minnevakt HMK Harald: Koengen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "9eac43cd041f10a2",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "06:00",
+      "type": "Eksterne møter",
+      "description": "Redningskonferansen:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0498e53b68e1b0ce",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "11:00",
+      "type": "Aktivitet",
+      "description": "NM arbeid:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "e62c05e0951528be",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "16:00",
+      "type": "Aktivitet",
+      "description": "Gjennomgang og merking av depot:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3b3c5fac49cdf5b5",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "19:00",
+      "type": "Eksterne møter",
+      "description": "Aksjonsledermøte: Aksjonsledermøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "5102391a52543b5a",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "20:00",
+      "type": "Aktivitet",
+      "description": "NM møte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ec676329c8b37c44",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "22:00",
+      "type": "Aktivitet",
+      "description": "NM møte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ff0426709adec4d1",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "08:00",
+      "type": "Aktivitet",
+      "description": "NM frivillige Voss:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "722390a4fb502d8b",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sosial spillkveld: Vi inviterer til en sosial kveld med pizza, quiz og spill. Ta gjerne med ditt favorittspill!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "2553eb2a42168103",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Frivillige til NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "a8710a87e6c091e0",
+      "dateIso": "2026-09-07",
+      "dateLabel": "2026-09-07",
+      "time": "20:00",
+      "type": "Eksterne møter",
+      "description": "Infomøte HK: Infomøte HK",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "91381559585fe738",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Tur til Turøy: Ta med hjelm og godt humør. Og gjerne lett niste (vann og sjokkis)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "129c5640497c236a",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Samband (KSAM): Fana. Del 1/2. Påmeldingsfrist 10. OKT.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4633291d70be1871",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Samband (KSAM): Fana. Del 2/2. Påmeldingsfrist 10. OKT.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "c71856c83f42bff8",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
       "time": "11:00",
       "type": "Sanitetsvakt",
-      "description": "Idrettshallen ADO Arena. Plass til flere. Aspiranter må ha bestått KFØR. SANITETSVAKT: Roller Derby-turnering",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "description": "SANITETSVAKT: Løp for Andreas: Siglingavatnet friluftspark, Askøy",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "10b4b5f8b1617ee8",
-      "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
-      "time": "19:00",
-      "type": "Interne møter",
-      "description": "Aksjonsledermøte Aksjonsledermøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "id": "0b0728b05e222993",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "10:00",
+      "type": "Dugnad",
+      "description": "Arbeid depot: Arbeid depot",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "7c914611aaf1d336",
-      "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "id": "ca55364f23aea510",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "17:30",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte: Fergehallen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0cd788a918dacda8",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "10:00",
+      "type": "Dugnad",
+      "description": "Arbeid depot: Arbeid depot",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "b2f2b455ddff51fe",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "15:00",
+      "type": "Eksterne møter",
+      "description": "Møte med FORF: Møte med FORF",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "2c6b297623f0a660",
+      "dateIso": "2026-09-17",
+      "dateLabel": "2026-09-17",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Arosha har sminke og markørkveld. Sammen med Sotra Korpskveld: Sminke og markør",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "description": "Korpskveld: FAKS: FAKS: Teoretiske og praktiske øvelser",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "d94c465adb5dde65",
-      "dateIso": "2026-11-06",
-      "dateLabel": "fre. 6.11",
-      "time": "17:00",
-      "type": "Eksterne møter",
-      "description": "For frivillige ledere og andre med verv og roller Røde Kors-samling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "id": "489c02a942b6c3c8",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: ATV-teori: Terje lærer oss ATV-teori",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "d98934024335efe8",
-      "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
-      "time": "",
-      "type": "Eksterne møter",
-      "description": "For frivillige ledere og andre med verv og roller Røde Kors-samling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "id": "dfdadb0792847064",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "TRØKK: Førstehjelp ved selvmordsfare",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "18f1831309d0bc87",
-      "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
-      "time": "10:00",
+      "id": "1930e79a439e78eb",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "TRØKK: Grunnkurs beredskap",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "5ef5b1e602ca9ade",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "TRØKK: Videregående psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "866dd9762e448de6",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "12:00",
       "type": "Sanitetsvakt",
-      "description": "Tidlig skift SANITETSVAKT: Karatestevne i Laksevåghallen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "description": "Sanitetsvakt: Verdens Hjertedag: Lagunen. Samarbeid med Fana RKH. Kjekt om flere blir med!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "7d02b4d63d233a63",
-      "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
+      "id": "c333dc95751a11b2",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Rosa-sløyfe løp: Dagsturhytten i Siglingavatnet Friluftspark",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "7541db9816481a01",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
       "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "Sent skift SANITETSVAKT: Karatestevne i Laksevåghallen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "type": "Eksterne kurs",
+      "description": "TRØKK: Prinsippene i praksis",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "2d92cd2ba7ae0879",
-      "dateIso": "2026-11-08",
-      "dateLabel": "søn. 8.11",
-      "time": "-> 14:00",
-      "type": "Eksterne møter",
-      "description": "For frivillige ledere og andre med verv og roller Røde Kors-samling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "072a3faa2287ca3c",
-      "dateIso": "2026-11-12",
-      "dateLabel": "tor. 12.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Victoria og Alexander guider oss i gjennom forberedelser til aksjon. Korpskveld: Mentale forberedelser + hva har du i aksjonssekken?",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "68040c045f85e327",
-      "dateIso": "2026-11-17",
-      "dateLabel": "tir. 17.11",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Haukelandshallen. Kampstart kl 18. SANITETSVAKT: Basketball landskamp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "0c2832c3fad63baa",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Vær, uvær og farevarsler. På Meteorologisk institutt. Korpskveld: Meteorologikveld på MET",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "22974cbb38f790b9",
-      "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Øvelse EPS (evakuerte og pårørende senter) Korpskveld: Øvelse EPS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "c2e7f41450ac4927",
-      "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Søk i urbant miljø på Laksevåg Korpskveld: Rodesøk / SAR-øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "0fba4b1b04f0a047",
-      "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Korpskveld: Klargjøring til julebord",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "96b63057cacbb7f1",
-      "dateIso": "2026-12-11",
-      "dateLabel": "fre. 11.12",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Julebord / Årsfest",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
-    },
-    {
-      "id": "a5d52538b2a8a5cd",
-      "dateIso": "2027-02-07",
-      "dateLabel": "søn. 7.2",
+      "id": "884522c7e65c60f5",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
       "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Alvøen SANITETSVAKT: Kom-deg-ut-dagen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "type": "Eksterne kurs",
+      "description": "TRØKK: Ivaretakelse av førstehjelperen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "6ef372d80e7ccad7",
-      "dateIso": "2027-02-15",
-      "dateLabel": "man. 15.2",
-      "time": "18:30",
+      "id": "feb3af4584f7ee9d",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Loddefjordløpet 2026: Alvøen Idrettspark. Løp for barn og voksne.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "8eaa4ac50ef1b9f8",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "20:45",
       "type": "Interne møter",
-      "description": "Valgmøte Hjelpekorps Valgmøte Hjelpekorps",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "description": "Møte utvikling digitalt system: Møte utvikling digitalt system",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "ab2d6795ba4db7bd",
-      "dateIso": "2027-06-23",
-      "dateLabel": "ons. 23.6",
-      "time": "",
-      "type": "Sanitetsvakt",
-      "description": "Tønnebålet 2027 SANITETSVAKT: Tønnebålet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "id": "0213eeb05183d30c",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     },
     {
-      "id": "1411498bd66d8d9b",
-      "dateIso": "2027-10-04",
-      "dateLabel": "man. 4.10",
+      "id": "be6b2fc0cf988d1a",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "Landsmøte 2026:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "10faad99c96df692",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Rus og luftveishåndtering: Anestesisykepleier fra Haukeland kommer å undervise oss",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "149b2c7c57da5785",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Førstehjelp (KFØR): Fana. Del 1/2. Påmeldingsfrist 17. SEP.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "8b40d7f4d5ff4031",
+      "dateIso": "2026-10-04",
+      "dateLabel": "2026-10-04",
       "time": "16:30",
       "type": "Sanitetsvakt",
-      "description": "Kranselegging i sivilforsvarsparken Minnevakt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LaksevaagRKH"
+      "description": "Minnevakt: Kranselegging i sivilforsvarsparken",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "abf61e5cd08c6cd1",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "19:00",
+      "type": "Eksterne møter",
+      "description": "Aksjonsledermøte: Aksjonsledermøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "2eea036c0a6e41be",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "5c2caa8fc5edee14",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "11042f27c5b763a4",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "sanitetsvakt:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "154b1b95f5ddb35d",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Førstehjelp (KFØR):  Fana. Del 2/2. Påmeldingsfrist 17. SEP.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "64c597273ec3c1c7",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "V-Vann:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "d23bf01acf74e7eb",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "V-Vann:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4ac09a31048245cc",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Rådsmøte: Rådsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "19a91bcda4958dcf",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Psykososial førstehjelp : Hva gjør du når du møter noen i akutt psykisk krise?",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "abc618849a0df234",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Samband (KSAM): Bergen. Del 1/2. Påmeldingsfrist 10. OKT.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "e4c946d0a54b6153",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Samband (KSAM): Bergen. Del 2/2. Påmeldingsfrist 10. OKT.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "024e70be2383a363",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Søk og Redning (KSOR): Del 1/3. Teori. Påmeldingsfrist 19. SEP.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "9bc436ea82d1a9b4",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "KSOR Stab: KSOR stab",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "8b17425d549da74d",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KSOR Stab: KSOR Stab undervisning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "aacb8f26275eee03",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Søk og Redning (KSOR): Del 2/3. Teori. Påmeldingsfrist 19. SEP.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "218ab14d331e40bd",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "07:00",
+      "type": "Aktivitet",
+      "description": "Ekstern instruktør for RKAB:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "c62548b26b7aa1c9",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Åpning av nytt depot: Åpning av og gjennomgang av nytt depot :-)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "d0bb2b8d29f5be7a",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "GRUNNKURS: Kvalifisert Søk og Redning (KSOR): Del 3/3. Praksis. Påmeldingsfrist 19. SEP.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "9f4db3f02d2fff1f",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "07:30",
+      "type": "Aktivitet",
+      "description": "Ekstern instruktør for RKAB:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "2adc247aa91b31d6",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "O2 utsjekk:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "34ad01d535316f44",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "3c04681c2d8872b8",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Hjerte, hjertestans og HLR: Teori og praktisk trening",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "d6e3c0c595f66cc7",
+      "dateIso": "2026-10-31",
+      "dateLabel": "2026-10-31",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Roller Derby-turnering: Idrettshallen ADO Arena. Plass til flere. Aspiranter må ha bestått KFØR.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "4aacf5a5834f3257",
+      "dateIso": "2026-11-03",
+      "dateLabel": "2026-11-03",
+      "time": "17:30",
+      "type": "Aktivitet",
+      "description": "rydding SM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "0a0595d4c98b8dc6",
+      "dateIso": "2026-11-03",
+      "dateLabel": "2026-11-03",
+      "time": "19:00",
+      "type": "Interne møter",
+      "description": "Aksjonsledermøte: Aksjonsledermøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ed4b74928418d158",
+      "dateIso": "2026-11-05",
+      "dateLabel": "2026-11-05",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sminke og markør: Arosha har sminke og markørkveld. Sammen med Sotra",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "40332f8c3e661fbb",
+      "dateIso": "2026-11-06",
+      "dateLabel": "2026-11-06",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Røde Kors-samling: For frivillige ledere og andre med verv og roller",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "931173381e938a4b",
+      "dateIso": "2026-11-07",
+      "dateLabel": "2026-11-07",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Karatestevne i Laksevåghallen: Tidlig skift",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "821e6d6c82c65e97",
+      "dateIso": "2026-11-07",
+      "dateLabel": "2026-11-07",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Karatestevne i Laksevåghallen: Sent skift",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "bf6bb4078dfa57b5",
+      "dateIso": "2026-11-11",
+      "dateLabel": "2026-11-11",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Fagsamling med FORF: Bergen Røde Kors sine lokaler i Gjensidigegården",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "28ca169b6447e544",
+      "dateIso": "2026-11-12",
+      "dateLabel": "2026-11-12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Mentale forberedelser + hva har du i aksjonssekken?: Victoria og Alexander guider oss i gjennom forberedelser til aksjon.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "da74c16c16085123",
+      "dateIso": "2026-11-17",
+      "dateLabel": "2026-11-17",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Basketball landskamp: Haukelandshallen. Kampstart kl 18.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "a960a5892106fb05",
+      "dateIso": "2026-11-19",
+      "dateLabel": "2026-11-19",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Meteorologikveld på MET: Været vidunderlige verden. På Meteorologisk institutt, Allègaten 70.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "cdf3c798b83196ce",
+      "dateIso": "2026-11-26",
+      "dateLabel": "2026-11-26",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Øvelse EPS: Øvelse EPS (evakuerte og pårørende senter)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "1019b586470a90b1",
+      "dateIso": "2026-11-29",
+      "dateLabel": "2026-11-29",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Fakkeltog i Alvøen: Årets koseligste vakt! Fakkeltog fra Alvøen skole",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "6e7c87c64847acbb",
+      "dateIso": "2026-12-03",
+      "dateLabel": "2026-12-03",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Rodesøk / SAR-øvelse: Søk i urbant miljø på Laksevåg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "9412feae63721d1d",
+      "dateIso": "2026-12-10",
+      "dateLabel": "2026-12-10",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Klargjøring til julebord:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "ebcb5716cc078447",
+      "dateIso": "2026-12-11",
+      "dateLabel": "2026-12-11",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Julebord / Årsfest:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "5d1c5a931fb646ee",
+      "dateIso": "2026-12-31",
+      "dateLabel": "2026-12-31",
+      "time": "23:30",
+      "type": "Sanitetsvakt",
+      "description": "Vakt nyttårsaften: Nyttårsaften 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "850782dec1edb0bf",
+      "dateIso": "2027-02-07",
+      "dateLabel": "2027-02-07",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Kom-deg-ut-dagen: Alvøen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "1e6ba0d04f16d93a",
+      "dateIso": "2027-02-15",
+      "dateLabel": "2027-02-15",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Valgmøte Hjelpekorps: Valgmøte Hjelpekorps",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "18f2f724f9205e12",
+      "dateIso": "2027-06-23",
+      "dateLabel": "2027-06-23",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT: Tønnebålet: Tønnebålet 2027",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+    },
+    {
+      "id": "657ded48be2057cd",
+      "dateIso": "2027-10-04",
+      "dateLabel": "2027-10-04",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Minnevakt: Kranselegging i sivilforsvarsparken",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
     }
   ]
 }

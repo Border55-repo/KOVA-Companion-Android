@@ -2,227 +2,425 @@
   "schemaVersion": 3,
   "apiVersion": "2.0",
   "organization": {
-    "name": "Tysnes Røde Kors Hjelpekorps",
+    "name": "Tromsø Røde Kors Hjelpekorps",
     "code": "TRKH",
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:06:37+01:00",
-  "checkedAt": "2026-11-06T14:00:32+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH",
-  "eventCount": 23,
+  "updatedAt": "2026-11-22T22:25:26+01:00",
+  "checkedAt": "2026-11-22T22:25:26+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH",
+  "eventCount": 45,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "e43fce46475a058c",
-      "dateIso": "2026-11-04",
-      "dateLabel": "ons. 4.11",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Politiets rolle ved aksjon Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c88e61a6a143946c",
-      "dateIso": "2026-11-13",
-      "dateLabel": "fre. 13.11",
-      "time": "11:00",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 3 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "03bff59c7f838052",
-      "dateIso": "2026-11-14",
-      "dateLabel": "lør. 14.11",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 3 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "1a919d714154f565",
-      "dateIso": "2026-11-15",
-      "dateLabel": "søn. 15.11",
-      "time": "-> 20:00",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 3 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c84aaa81fd5a4eb4",
-      "dateIso": "2026-12-11",
-      "dateLabel": "fre. 11.12",
-      "time": "11:00",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 4 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "8eea1fbec0d0e281",
-      "dateIso": "2026-12-12",
-      "dateLabel": "lør. 12.12",
-      "time": "",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 4 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "d8a1ffc38045fde5",
-      "dateIso": "2026-12-13",
-      "dateLabel": "søn. 13.12",
-      "time": "-> 20:00",
-      "type": "Interne kurs",
-      "description": "AFØR - stab helg 4 AFØR H2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "b14f16984f97e876",
-      "dateIso": "2027-01-09",
-      "dateLabel": "lør. 9.1",
-      "time": "12:30",
-      "type": "Sanitetsvakt",
-      "description": "Mørketidsløpet 2026 Mørketidsløpet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "379bdc0bb28a5e54",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "Målområdet og Mobile poster - Vakt 1 Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "600e1cc524db51ad",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - kysten Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c2dbc3118a6579df",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "18:30",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - Vangberg Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c7ff6b928312e73a",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "20:00",
-      "type": "Sanitetsvakt",
-      "description": "Målområdet og Mobile poster - Vakt 2 Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "4cae7998918783d7",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "20:00",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - Solstrand Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "73ff39560adb44fa",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "20:30",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - Sandvika Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "47d7d547189386bd",
-      "dateIso": "2027-06-20",
-      "dateLabel": "søn. 20.6",
-      "time": "-> 00:30",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - Solstrand Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "5d0de6e89ac2adc5",
-      "dateIso": "2027-06-20",
-      "dateLabel": "søn. 20.6",
-      "time": "-> 02:00",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - Vangberg Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "1f41b0c8a7006c71",
-      "dateIso": "2027-06-20",
-      "dateLabel": "søn. 20.6",
-      "time": "-> 02:00",
-      "type": "Sanitetsvakt",
-      "description": "Stasjonær post - kysten Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "22b66ee6721ffb45",
-      "dateIso": "2027-06-20",
-      "dateLabel": "søn. 20.6",
-      "time": "-> 03:00",
-      "type": "Sanitetsvakt",
-      "description": "Målområdet og Mobile poster - Vakt 2 Midnight Sun Marathon",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "c6ddc54226fb92e3",
-      "dateIso": "2027-08-26",
-      "dateLabel": "tor. 26.8",
+      "id": "283c90662a6143de",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
       "time": "15:30",
       "type": "Sanitetsvakt",
-      "description": "Vaktlag - Torsdag - RNFRI Rakettnatt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      "description": "Rakettnatt  : Vaktlag - Torsdag - RNFRI",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
     },
     {
-      "id": "bb897699ba85a62a",
-      "dateIso": "2027-08-27",
-      "dateLabel": "fre. 27.8",
+      "id": "620c7d7a58952911",
+      "dateIso": "2026-08-28",
+      "dateLabel": "2026-08-28",
       "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Vaktlag - Fredag Rakettnatt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      "description": "Rakettnatt  : Vaktlag - Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
     },
     {
-      "id": "7261fcd00bbbd7e8",
-      "dateIso": "2027-08-28",
-      "dateLabel": "lør. 28.8",
-      "time": "-> 00:30",
-      "type": "Sanitetsvakt",
-      "description": "Vaktlag - Fredag Rakettnatt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
-    },
-    {
-      "id": "5d831c15133cfb5e",
-      "dateIso": "2027-08-28",
-      "dateLabel": "lør. 28.8",
+      "id": "a959f9e12dc0d184",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
       "time": "15:30",
       "type": "Sanitetsvakt",
-      "description": "Vaktlag - Lørdag Rakettnatt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      "description": "Rakettnatt  : Vaktlag - Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
     },
     {
-      "id": "4445aa28e1cadde3",
-      "dateIso": "2027-08-29",
-      "dateLabel": "søn. 29.8",
-      "time": "-> 01:30",
+      "id": "dd9bf965fb06ee2f",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Mitt Hjelpekorps og Grunnkurs Psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "f0287257fd06195c",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert førstehjelp (KFØR) - fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "3e96cef6c55a72a9",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert førstehjelp (KFØR) - lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "34c67d216da6994f",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert førstehjelp (KFØR) - søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "96b7aa1975e81fd0",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert samband (KSAM) - tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "4a5cceb9229b942f",
+      "dateIso": "2026-09-17",
+      "dateLabel": "2026-09-17",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert samband (KSAM) - torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "0effbd82789e9ed7",
+      "dateIso": "2026-09-18",
+      "dateLabel": "2026-09-18",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR H2026: AFØR - stab helg 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "a90ea94e2133f752",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert samband (KSAM) - tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "c872c8d4282f6d4d",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert søk og redning (KSOR) - teori torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "2f281da0aea305b2",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "11:30",
       "type": "Sanitetsvakt",
-      "description": "Vaktlag - Lørdag Rakettnatt",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=TRKH"
+      "description": "Rosa sløyfe-løpet Tromsø 2026: Rosa sløyfe-løpet Tromsø",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "9fd50f3118882fe7",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert søk og redning (KSOR) - teori tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "6e4e756f19df93ed",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert søk og redning (KSOR) - teori torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "7a2ae641417b9014",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Grunnkursrekken 2026: Kvalifisert søk og redning (KSOR) - Barmarkshelg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "39018f7ba4b35181",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "MSM - Tromsø Backyard Ultra: Backyard Ultra - Vakt 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "b40b736862e82738",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "MSM - Tromsø Backyard Ultra: Backyard Ultra - Vakt 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "12ba0b065c815a25",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "MSM - Tromsø Backyard Ultra: Backyard Ultra - Vakt 3",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "26a501b720df5dcb",
+      "dateIso": "2026-10-04",
+      "dateLabel": "2026-10-04",
+      "time": "03:00",
+      "type": "Sanitetsvakt",
+      "description": "MSM - Tromsø Backyard Ultra: Backyard Ultra - Vakt 4",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "edff17fa1f3c6625",
+      "dateIso": "2026-10-07",
+      "dateLabel": "2026-10-07",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Regodkjenning - Oktober 2026: Regodkjenning - Oktober 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "34e268b94d906188",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "09:30",
+      "type": "Aktivitet",
+      "description": "Dekkskifte: Dekkskifte - Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "a983cb306e196d40",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "13:30",
+      "type": "Aktivitet",
+      "description": "Dekkskifte: Dekkskifte - Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "ffd369ed09983588",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "09:30",
+      "type": "Aktivitet",
+      "description": "Dekkskifte: Dekkskifte - Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "5bd266a8fbd52888",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "13:30",
+      "type": "Aktivitet",
+      "description": "Dekkskifte: Dekkskifte - Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "315e6bada5fef47e",
+      "dateIso": "2026-10-16",
+      "dateLabel": "2026-10-16",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR H2026: AFØR - stab helg 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "da76c40ced2a01cd",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Regodkjenning - Oktober 2026: Regodkjenning - Oktober 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "2c84bfb9e82eb4ee",
+      "dateIso": "2026-11-04",
+      "dateLabel": "2026-11-04",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Politiets rolle ved aksjon",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "f585ea07e3e5bb20",
+      "dateIso": "2026-11-13",
+      "dateLabel": "2026-11-13",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR H2026: AFØR - stab helg 3",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "743c9f81fbebcd9f",
+      "dateIso": "2026-11-18",
+      "dateLabel": "2026-11-18",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld november: Praktisk info om sanitetsvakter og aksjoner",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "025bc2807e43bdf7",
+      "dateIso": "2026-12-09",
+      "dateLabel": "2026-12-09",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld desember: Juleavslutning + faglig tema (TBA)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "2466a5ebec40ab1b",
+      "dateIso": "2026-12-11",
+      "dateLabel": "2026-12-11",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "AFØR H2026: AFØR - stab helg 4",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "87439d1f76f1c38f",
+      "dateIso": "2027-01-09",
+      "dateLabel": "2027-01-09",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "Mørketidsløpet: Mørketidsløpet 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "c2e7b291ab16a87d",
+      "dateIso": "2027-03-03",
+      "dateLabel": "2027-03-03",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Bålkos i Tromsdalen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "eddb540f6c7a87fa",
+      "dateIso": "2027-04-07",
+      "dateLabel": "2027-04-07",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Bårer og immobilisering",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "8247e388a27df677",
+      "dateIso": "2027-06-09",
+      "dateLabel": "2027-06-09",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sommeravslutning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "204a551873cbeece",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Målområdet og Mobile poster - Vakt 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "e5d96f2d89dbe7c9",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Stasjonær post - kysten",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "7924e123d7a63a2f",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Stasjonær post - Vangberg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "54a83732b741f66e",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Målområdet og Mobile poster - Vakt 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "ae77ce4fc7c7d69a",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Stasjonær post - Solstrand",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "8e9285542bdde5e5",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "20:30",
+      "type": "Sanitetsvakt",
+      "description": "Midnight Sun Marathon: Stasjonær post - Sandvika",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "d136467270530437",
+      "dateIso": "2027-08-26",
+      "dateLabel": "2027-08-26",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Rakettnatt  : Vaktlag - Torsdag - RNFRI",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "41b0bbdab288af67",
+      "dateIso": "2027-08-27",
+      "dateLabel": "2027-08-27",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Rakettnatt  : Vaktlag - Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+    },
+    {
+      "id": "7e0767e617742aaa",
+      "dateIso": "2027-08-28",
+      "dateLabel": "2027-08-28",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Rakettnatt  : Vaktlag - Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
     }
   ]
 }

@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-22T22:20:03+01:00",
+  "updatedAt": "2026-11-22T22:25:28+01:00",
   "organizationCount": 41,
   "helpCorpsCount": 37,
   "organizations": [
@@ -39,10 +39,10 @@
       "code": "AHRKH",
       "category": "hjelpekorps",
       "file": "AHRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 7,
-      "updatedAt": "2026-11-06T00:15:30+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:27+01:00",
+      "eventCount": 37,
+      "updatedAt": "2026-11-22T22:25:27+01:00"
     },
     {
       "name": "Bergen Røde Kors Hjelpekorps",
@@ -59,10 +59,10 @@
       "code": "BrandbuRKH",
       "category": "hjelpekorps",
       "file": "BrandbuRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 6,
-      "updatedAt": "2026-11-04T00:10:38+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:27+01:00",
+      "eventCount": 21,
+      "updatedAt": "2026-11-22T22:25:27+01:00"
     },
     {
       "name": "Bærum Røde Kors Hjelpekorps",
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "EHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:19:55+01:00",
+      "checkedAt": "2026-11-22T22:25:21+01:00",
       "eventCount": 50,
       "updatedAt": "2026-11-22T22:16:31+01:00"
     },
@@ -110,19 +110,19 @@
       "category": "hjelpekorps",
       "file": "ERKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:15:32+01:00",
-      "eventCount": 0,
-      "updatedAt": "2026-11-06T14:15:28+01:00"
+      "checkedAt": "2026-11-22T22:25:28+01:00",
+      "eventCount": 9,
+      "updatedAt": "2026-11-22T22:25:28+01:00"
     },
     {
       "name": "Fana Røde Kors Hjelpekorps",
       "code": "Fana RKH",
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 5,
-      "updatedAt": "2026-11-04T15:35:30+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:23+01:00",
+      "eventCount": 75,
+      "updatedAt": "2026-11-22T22:25:23+01:00"
     },
     {
       "name": "Gjøvik Røde Kors Hjelpekorps",
@@ -159,10 +159,10 @@
       "code": "LaksevaagRKH",
       "category": "hjelpekorps",
       "file": "LaksevaagRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 19,
-      "updatedAt": "2026-11-05T00:10:34+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:24+01:00",
+      "eventCount": 83,
+      "updatedAt": "2026-11-22T22:25:24+01:00"
     },
     {
       "name": "Lardal Røde Kors Hjelpekorps",
@@ -170,7 +170,7 @@
       "category": "hjelpekorps",
       "file": "LardalRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:10:32+01:00",
+      "checkedAt": "2026-11-22T22:25:24+01:00",
       "eventCount": 0,
       "updatedAt": "2026-09-22T23:31:19+02:00"
     },
@@ -209,10 +209,10 @@
       "code": "MORKH",
       "category": "hjelpekorps",
       "file": "MORKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 54,
-      "updatedAt": "2026-11-05T00:10:35+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:25+01:00",
+      "eventCount": 118,
+      "updatedAt": "2026-11-22T22:25:25+01:00"
     },
     {
       "name": "Nes Røde Kors Hjelpekorps",
@@ -230,7 +230,7 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:19:56+01:00",
+      "checkedAt": "2026-11-22T22:25:21+01:00",
       "eventCount": 103,
       "updatedAt": "2026-11-22T22:16:32+01:00"
     },
@@ -289,10 +289,10 @@
       "code": "RKSarpsborg",
       "category": "hjelpekorps",
       "file": "RKSarpsborg.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 37,
-      "updatedAt": "2026-11-05T19:15:33+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:25+01:00",
+      "eventCount": 73,
+      "updatedAt": "2026-11-22T22:25:25+01:00"
     },
     {
       "name": "Skedsmo Røde Kors Hjelpekorps",
@@ -300,7 +300,7 @@
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:19:56+01:00",
+      "checkedAt": "2026-11-22T22:25:22+01:00",
       "eventCount": 106,
       "updatedAt": "2026-11-22T22:16:33+01:00"
     },
@@ -349,10 +349,10 @@
       "code": "TRKH",
       "category": "hjelpekorps",
       "file": "TRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 23,
-      "updatedAt": "2026-11-03T00:06:37+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:26+01:00",
+      "eventCount": 45,
+      "updatedAt": "2026-11-22T22:25:26+01:00"
     },
     {
       "name": "Ullensaker Røde Kors Hjelpekorps",
@@ -360,7 +360,7 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:19:57+01:00",
+      "checkedAt": "2026-11-22T22:25:23+01:00",
       "eventCount": 152,
       "updatedAt": "2026-11-22T22:16:34+01:00"
     },
@@ -369,10 +369,10 @@
       "code": "VenneslaRKH",
       "category": "hjelpekorps",
       "file": "VenneslaRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 15,
-      "updatedAt": "2026-11-03T00:06:39+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:25:26+01:00",
+      "eventCount": 29,
+      "updatedAt": "2026-11-22T22:25:26+01:00"
     },
     {
       "name": "Vestby og Ås Røde Kors Hjelpekorps",

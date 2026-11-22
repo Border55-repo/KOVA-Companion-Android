@@ -7,60 +7,690 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-04T15:35:30+01:00",
-  "checkedAt": "2026-11-06T13:55:41+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH",
-  "eventCount": 5,
+  "updatedAt": "2026-11-22T22:25:23+01:00",
+  "checkedAt": "2026-11-22T22:25:23+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
+  "eventCount": 75,
   "changes": {
-    "added": 2,
+    "added": 0,
     "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "69d5d76d2c0d339d",
-      "dateIso": "2026-11-04",
-      "dateLabel": "ons. 4.11",
-      "time": "18:00",
-      "type": "Dugnad",
-      "description": "KORPSMØTE - ARBEIDSMØTE/BILER - ONSDAG 04.11. KORPSMØTE - ARBEIDSMØTE/BILER - ONSDAG 04.11.",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
-    {
-      "id": "203ab94d960a14ee",
-      "dateIso": "2026-11-04",
-      "dateLabel": "ons. 4.11",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Kurs for kunde Kurs for kunde",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
-    {
-      "id": "7f0f3b5fea6e50dc",
-      "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
-      "time": "18:00",
-      "type": "Rådsmøte",
-      "description": "RÅDSMØTE - MANDAG 09.11.26. - MH 2. RÅDSMØTE - MANDAG 09.11.26 - MH2",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
-    },
-    {
-      "id": "41c080372a77ece1",
-      "dateIso": "2026-11-21",
-      "dateLabel": "lør. 21.11",
-      "time": "12:30",
+      "id": "315ee50cca8783b0",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "17:00",
       "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - KARATE/TRENINGSSAMLING - LØRDAG 21.11. - SANDSLIHALLEN SANITETSVAKT - KARATE/TRENINGSSAMLING - LØRDAG 21. NOVEMBER - SANDSLIHALLEN",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      "description": "SANITETSVAKT - SYKKEL - BONTVEIT OPP - TIRSDAG 25.08.: SANITETSVAKT - SYKKEL - BONTVEIT OPP - TIRSDAG 25.08.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
     },
     {
-      "id": "0281b7291259445c",
-      "dateIso": "2026-12-09",
-      "dateLabel": "ons. 9.12",
+      "id": "f47f19b4039f0029",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER. JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER.",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Fana+RKH"
+      "description": "INFOMØTE SRV 2026: INFOMØTE SRV 2026.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "a947e0c5d724e9ae",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - SYKKEL - FLØYEN OPP.: SANITETSVAKT - FLØYEN OPP - 27.08.26.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "f3fb2475b7e45570",
+      "dateIso": "2026-08-28",
+      "dateLabel": "2026-08-28",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - SRV - MÅLOMRÅDE.: SANITETSVAKT - SRV - MÅLOMRÅDE.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "4c443487715d93b1",
+      "dateIso": "2026-08-28",
+      "dateLabel": "2026-08-28",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.: FANATASTISK MUSIKKFESTIVAL - FRE 28/8-søn 30/8 - VED FANA STADION.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "8b4d94f3f786dcff",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "05:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - STYRKEPRØVEN RETT VEST - LØRDAG 29. AUGUST.: SANITETSVAKT - STYRKEPRØVEN RETT VEST - LØRDAG 29. AUGUST.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "2b33f99a4e4f1071",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "2707aede668de861",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "1818ac48f43eebd0",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "8ee720767f092797",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "19:00",
+      "type": "Eksterne møter",
+      "description": "Aksjonsledermøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "24d2849ed5e245e4",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "08:30",
+      "type": "Eksterne møter",
+      "description": "NØDNETT FAGDAG.: NØDNETT FAGDAG.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "77d20ec6282ed491",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "15:00",
+      "type": "Øvelse",
+      "description": "NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "75879271bcac5b49",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "07:30",
+      "type": "Øvelse",
+      "description": "NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "de4a4cd5118e84f9",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - BISTAND TIL RKAB.: sanitetsvakt - BISTAND TIL RKAB.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "5eea9eaf6b83406f",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - TRAV - BISTAND TIL RKAB.: SANITETSVAKT - TRAV - BISTAND TIL RKAB.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "889a76b53657adf1",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "17:00",
+      "type": "Interne møter",
+      "description": "AU møte: AU møte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "6b3c90656de3be08",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "RÅDSMØTE HJELPEKORPS - ONSDAG 9. SEPTEMBER.: RÅDSMØTE HJELPEKORPS - ONSDAG 9. SEPTEMBER.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "1edf74a3a212ab09",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "16:00",
+      "type": "Eksterne kurs",
+      "description": "ASOR Merket :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "08f12f57bcbec036",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "ASOR Merket :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "2c65bdc91bcd55d5",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "ASOR Merket :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "97b868527df9099d",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "KSAM Dag 1 (11-16):",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "64ac7f0c1a3565bb",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - HJELLESTAD JETSKI - LØRDAG 12.09.: SANITETSVAKT HJELLESTAD JETSKI - LØRDAG 12.09.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "e8a974565c782516",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - EIKÅS MOTORSPORT -LØRDAG 12.09. - BISTAND TIL RKAB.: SANITETSVAKT - EIKÅS MOTORSPORT - LØRDAG 12.09. - BISTAND TIL RKAB-",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "622ffa53a8526469",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "ASOR Merket :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "ee9a262dda115b2e",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "KSAM Dag 2 (11-16):",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d39f53b9a809f0b5",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "Regodkjenning:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "2a05e4e16dd09809",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "STYREMØTE LOKALFORENING - 14.09.26: STYREMØTE LOKALFORENING - 14.09.26.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "66d16521e8746e28",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "14:00",
+      "type": "Dugnad",
+      "description": "Befaring tak: Befaring Tak",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "684641313c4ae340",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Tur til Rambjøravannet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "4081b7f5d1da4602",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER.: SANITETSVAKT - NHH - BANKETT+SOSIALT - LØRDAG 19. SEPTEMBER.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "f34c58ed97263810",
+      "dateIso": "2026-09-23",
+      "dateLabel": "2026-09-23",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Stabsmøte KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "db378551dc3e61bf",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "09:00",
+      "type": "Eksterne møter",
+      "description": "Økonomi- og kasserersamling: Økonomi- og kasserersamling",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "3cfe43d0be87d0a7",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - USF - KONSERT - LØRDAG 26.09.: SANITETSVAKT - USF - KONSERT - LØRDAG 26.09.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "db26b130c623024f",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "TRØKK-26 - DELTAKELSE PÅ KURS:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "b9855d3b384c2e86",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Henteoppdrag:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "f7a1bcbd817360b3",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte MH: Styremøte MH2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "9812be7d585f1ce6",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d3e34af8b8747036",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "50d952fde06e8919",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - KICKBOXING: SANITETSVAKT KICKBOXING",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "ab3544865baff42c",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT KICBOXING - GALLA: SANITETSVAKT KICKBOXING - GALLA",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "318e9504c943ba68",
+      "dateIso": "2026-10-04",
+      "dateLabel": "2026-10-04",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "1254fac42e95ae95",
+      "dateIso": "2026-10-04",
+      "dateLabel": "2026-10-04",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - KICKBOXING: SANITETSVAKT KICKBOXING",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "387c8c5788125a19",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "19:00",
+      "type": "Eksterne møter",
+      "description": "Aksjonsledermøte :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "e1c658ceb1d4129d",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "4bc29b733cd18eee",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "612969c96b0c1190",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "591ce7b6f5797753",
+      "dateIso": "2026-10-13",
+      "dateLabel": "2026-10-13",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Stabsmøte KSOR: OBS! Holdes hos Bergen RKH",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "5a484ff55c839621",
+      "dateIso": "2026-10-14",
+      "dateLabel": "2026-10-14",
+      "time": "17:30",
+      "type": "Interne kurs",
+      "description": "KFØR: Avsluttende øvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d705bf584302df81",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "10:00",
+      "type": "Eksterne møter",
+      "description": "Møte med regnskapsbyrå: Møte med regnskapsbyrå",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "1f476064a9b893d2",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - AUSTEVOLL/AUSTEVOLLSLØPET - LØRDAG 17. OKTOBER.: SANITETSVAKT - AUSTEVOLL/AUSTEVOLLSLØPET - LØRDAG 17.10.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c8f246f7d5dcf624",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "STYREMØTE - FANA RØDE KORS  - 20.10.26.: STYREMØTE FANA RØDE KORS -  20.10.26.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c0656968090caf6e",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "14:00",
+      "type": "Eksterne kurs",
+      "description": "Klargjøring kurs: Klargjøring kurs",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "414ad9b2200a7098",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Valgkomite: Valgkomite",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "58f316888500bf45",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs for kunde: Førstehjelpskurs for kunde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "9a84dca14b18b061",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "00:00",
+      "type": "Interne kurs",
+      "description": "KSOR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "252935368ccb520a",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "00:00",
+      "type": "Interne kurs",
+      "description": "KSOR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "aa897c08534c698c",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24.10.: SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 24. OKTOBER",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "ffdcec7d5f19e5c2",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "00:00",
+      "type": "Interne kurs",
+      "description": "KSOR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "27ebef80ee3b302f",
+      "dateIso": "2026-10-28",
+      "dateLabel": "2026-10-28",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Skrivebordsøvelse Beredskap og ny veileder SOR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "05064662d1ca1d77",
+      "dateIso": "2026-11-04",
+      "dateLabel": "2026-11-04",
+      "time": "18:00",
+      "type": "Dugnad",
+      "description": "KORPSMØTE - ARBEIDSMØTE/BILER - ONSDAG 04.11.: KORPSMØTE - ARBEIDSMØTE/BILER - ONSDAG 04.11.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "399ddcf729217a96",
+      "dateIso": "2026-11-04",
+      "dateLabel": "2026-11-04",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Kurs for kunde: Kurs for kunde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d712b9360b8b5d70",
+      "dateIso": "2026-11-07",
+      "dateLabel": "2026-11-07",
+      "time": "09:00",
+      "type": "Eksterne møter",
+      "description": "Lederkonferanse: Lederkonferanse Hjelpekorps",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c1b09dd120426830",
+      "dateIso": "2026-11-09",
+      "dateLabel": "2026-11-09",
+      "time": "17:00",
+      "type": "Interne møter",
+      "description": "AU møte: Arbeidsutvalget",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c67edd6a9c63cd89",
+      "dateIso": "2026-11-09",
+      "dateLabel": "2026-11-09",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "RÅDSMØTE - MANDAG 09.11.26 - MH2: RÅDSMØTE - MANDAG 09.11.26. - MH 2.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "2cd21239c2404006",
+      "dateIso": "2026-11-11",
+      "dateLabel": "2026-11-11",
+      "time": "00:00",
+      "type": "Eksterne møter",
+      "description": "FORF-samling: FORF-samling; ny veileder",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "4aea4f5f7b496ed0",
+      "dateIso": "2026-11-11",
+      "dateLabel": "2026-11-11",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Prakstisk førstehjelp og diverse utstyr:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "584d063cd5bb213b",
+      "dateIso": "2026-11-21",
+      "dateLabel": "2026-11-21",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - KARATE/TRENINGSSAMLING - LØRDAG 21. NOVEMBER - SANDSLIHALLEN: SANITETSVAKT - KARATE/TRENINGSSAMLING - LØRDAG 21.11. - SANDSLIHALLEN",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "491d331be340c9d6",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "STYREMØTE - FANA RØDE KORS - TIRSDAG 24.11.26.: STYREMØTE -  FANA RØDE KORS - TIRSDAG 24.11.26.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "d08a1ab50f9bb942",
+      "dateIso": "2026-12-05",
+      "dateLabel": "2026-12-05",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - HJELLESTAD JETSKI - 05.12.: SANITETSVAKT - HJELLESTAD JETSKI - LØRDAG 05.12.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "31739be6ae18028f",
+      "dateIso": "2026-12-05",
+      "dateLabel": "2026-12-05",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 05.12.: SANITETSVAKT - MARATONKARUSELLEN - LØRDAG 05.12.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "b29903fad95105f2",
+      "dateIso": "2026-12-05",
+      "dateLabel": "2026-12-05",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - KONSERT TORGALMENNINGEN - LØRDAG 05.12.: SANITETSVAKT - KONSERT TORGALMENNINGEN - LØRDAG 05.12.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "c64d21196980594b",
+      "dateIso": "2026-12-07",
+      "dateLabel": "2026-12-07",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "RÅDSMØTE - FANA RKH - MANDAG 7. DESEMBER: RÅDSMØTE - FANA RKH - MANDAG 7. DESEMBER.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "74f83cd339c9dba3",
+      "dateIso": "2026-12-09",
+      "dateLabel": "2026-12-09",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER.: JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "ad7360b3779fa58d",
+      "dateIso": "2027-01-12",
+      "dateLabel": "2027-01-12",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Områdemøte: Områdemøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "61e020ec21184745",
+      "dateIso": "2027-01-18",
+      "dateLabel": "2027-01-18",
+      "time": "16:30",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs for kunde: Førstehjelpskurs for kunde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
     }
   ]
 }

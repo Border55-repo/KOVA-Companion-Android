@@ -7,78 +7,348 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T00:15:30+01:00",
-  "checkedAt": "2026-11-06T14:00:29+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH",
-  "eventCount": 7,
+  "updatedAt": "2026-11-22T22:25:27+01:00",
+  "checkedAt": "2026-11-22T22:25:27+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH",
+  "eventCount": 37,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "510195fe65add807",
+      "id": "92e8c609824dae60",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "korpskveld: Korpskveld: Dette er Røde Kors Hjelpekorps",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "acbc4b5017e69790",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "NM-Cupkamp AFSK og LSK Menn: Oppmøte på lokalet kl.17:00 Avreise fra lokalet kl.17:15",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "f1ccbc8f73fa7398",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "korpskveld: Korpskveld: Førstehjelp/Tiltakskort",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "0c448e06cf8c9d19",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "korpskveld: Korpskveld: Førstehjelp Tiltakskort",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "fc56d7e7d91622d3",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Øvningskveld: Øver til KFØR/Regodkjenning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "4afa0c1389d4b9c3",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Øvelseskveld: Trening til KFØR/Regodkjenning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "2993cba4f7226d3b",
+      "dateIso": "2026-09-17",
+      "dateLabel": "2026-09-17",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "korpskveld: Korpskveld: Førstehjelp tiltakskort",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "1034c24884864d83",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "08:30",
+      "type": "Aktivitet",
+      "description": "Stuttreist og himlaga 2026: Stand",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "8494f72c4f547b9d",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Stuttreist og himlaga: Sanitetsvakt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "3910580bd5e50a1e",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "09:30",
+      "type": "Aktivitet",
+      "description": "Åpen dag med Brannvesenet: Vi viser oss og utstyret vårt frem",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "4e28de1f45a443e2",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Regokjenning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "436b7f9171208c28",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "11:30",
+      "type": "Beredskap",
+      "description": "Beredskap: Beredskap",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "adf54749a414c339",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "15:00",
+      "type": "Beredskap",
+      "description": "Beredskap: Beredskap",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "bc54a200fe1a3fb6",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap: Tilstedeværelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "c4da80c0040a030a",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap: Tilstedeværelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "65ce41fcb13876dc",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap: Tilstedeværelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "fc97361fc6d9c2d4",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "43761e04668484ff",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "b215806bdc667e65",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "16:30",
+      "type": "Beredskap",
+      "description": "Beredskap: Tilstedeværelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "70432ec952f634fc",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "de6bc7245ed75c3d",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sosialt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "e7897e5155c2d6a9",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Faks",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "a056ccacd29bb1e0",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "07:45",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap (KM) i TeamGym 2026: Oppmøte på lokalet kl.: 06:45.  Avreise fra lokalet kl.: 07:10",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "0e4c2025a31ca15c",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap (KM) i TeamGym 2026: Oppmøte på lokalet kl.: 12:40  Avreise fra lokalet kl.: 12:50",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "2b2ac738ba10cb68",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Kretsmesterskap (KM) i TeamGym 2026: Oppmøte på lokalet kl.: 07:50  Avreise fra lokalet kl.: 08:15",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "756c851dae67df6e",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "10:30",
+      "type": "Interne kurs",
+      "description": "KSAM: KSAM",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "35653c75aac2bb46",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp - kle deg for å være ute",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "243ddb23fc69ee47",
+      "dateIso": "2026-10-30",
+      "dateLabel": "2026-10-30",
+      "time": "08:45",
+      "type": "Beredskap",
+      "description": "Foredrag for ungdomskolen på Aurskog: Foredrag for ungdomskolen på Aurskog",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "6e122572f95f1c56",
       "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
+      "dateLabel": "2026-10-31",
       "time": "13:00",
       "type": "Sanitetsvakt",
-      "description": "Oppmøte lokalet kl.12:15 Avreise lokalet kl.12:30 Halloween-fest for Barn",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Halloween-fest for Barn: Oppmøte lokalet kl.12:15 Avreise lokalet kl.12:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "df1ce333471f0d4f",
+      "id": "2a546b4f9733649e",
       "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "dateLabel": "2026-11-05",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Søksøvelser Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Søksøvelser",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "d4d0669eb047c5c0",
+      "id": "f38e35d31bafa7fc",
       "dateIso": "2026-11-12",
-      "dateLabel": "tor. 12.11",
+      "dateLabel": "2026-11-12",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Sosialt Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Sosialt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "df2dd522b9a5d358",
+      "id": "53d0b4b77af89b0b",
       "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
+      "dateLabel": "2026-11-19",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Øvelse søk og redning Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Øvelse søk og redning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "579b632b750b03f6",
+      "id": "97cb1acaf63f07cf",
       "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
+      "dateLabel": "2026-11-26",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Orientering i mørket Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Orientering i mørket",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "37e380e25b9a0081",
+      "id": "e189aae02cb50ead",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "09:15",
+      "type": "Profilering",
+      "description": "Ønsketreet : Ønsketreet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "1ad711dee36625c5",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Førstehjelp Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     },
     {
-      "id": "cb93875fb223c755",
+      "id": "bbe47a17a9a224e4",
+      "dateIso": "2026-12-08",
+      "dateLabel": "2026-12-08",
+      "time": "14:30",
+      "type": "Profilering",
+      "description": "Ønsketreet: Ønsketreet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "1682b19e8c0e3743",
       "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
+      "dateLabel": "2026-12-10",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Juleavsluttning Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AHRKH"
+      "description": "Korpskveld: Juleavsluttning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     }
   ]
 }
