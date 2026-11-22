@@ -7,34 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:16:35+01:00",
-  "checkedAt": "2026-11-22T23:50:37+01:00",
+  "updatedAt": "2026-11-23T00:10:41+01:00",
+  "checkedAt": "2026-11-23T00:10:41+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB",
-  "eventCount": 78,
+  "eventCount": 76,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "62d7140aae3c85f0",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "15:00",
-      "type": "Sanitetsvakt",
-      "description": "Brann: UEFA damer kamp tidlig (kampstart kl 18, tilstede kl 16)",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
-    {
-      "id": "ff5f16c9d8a31b4e",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "16:00",
-      "type": "Sanitetsvakt",
-      "description": "Brann: UEFA damer kamp sein (kampstart kl 18, tilstede kl 17 til 1 time etter kampslutt))",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
     {
       "id": "ceca8c486f9572da",
       "dateIso": "2026-08-26",

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8e352ad8e0e0b064914c2345",
+      "observedAt": "2026-11-23T00:10:41+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "62d7140aae3c85f0",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann: UEFA damer kamp tidlig (kampstart kl 18, tilstede kl 16)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
+      }
+    },
+    {
+      "changeId": "8e0bc8c277fce4af1fcac7bd",
+      "observedAt": "2026-11-23T00:10:41+01:00",
+      "organization": "RKAB",
+      "kind": "removed",
+      "event": {
+        "id": "ff5f16c9d8a31b4e",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann: UEFA damer kamp sein (kampstart kl 18, tilstede kl 17 til 1 time etter kampslutt))",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "76cf00fc92472779ad4549b2",
       "observedAt": "2026-11-06T00:05:31+01:00",
       "organization": "RKAB",
@@ -653,5 +683,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T00:05:31+01:00"
+  "updatedAt": "2026-11-23T00:10:41+01:00"
 }

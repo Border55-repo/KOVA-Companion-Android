@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "085a2401a8d4eb023587da11",
+      "observedAt": "2026-11-23T00:10:36+01:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6aad5a98fa09e841",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Korpskveld : HLR og hjertestarter",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "6e8d76d4d733a960fccbffb3",
       "observedAt": "2026-11-06T14:15:34+01:00",
       "organization": "NesRKH",
@@ -344,5 +359,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T14:15:34+01:00"
+  "updatedAt": "2026-11-23T00:10:36+01:00"
 }

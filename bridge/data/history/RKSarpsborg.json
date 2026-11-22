@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "482198055d7d7a3336b7ef85",
+      "observedAt": "2026-11-23T00:10:45+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "d00a5a5cbcca5b29",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpsmøte: Pasientundersøkelse",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "a7e23a45cb9d2cae54a32f6e",
       "observedAt": "2026-11-05T19:15:33+01:00",
       "organization": "RKSarpsborg",
@@ -1106,5 +1121,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T19:15:33+01:00"
+  "updatedAt": "2026-11-23T00:10:45+01:00"
 }
