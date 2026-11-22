@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "77b39a112156fd9bfa4739a2",
+      "observedAt": "2026-11-22T23:25:33+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "16dddfc5953b9811",
+        "dateIso": "2026-11-24",
+        "dateLabel": "2026-11-24",
+        "time": "05:00",
+        "type": "Øvelse",
+        "description": "Markør for Combat medic: De tar tog som er dekket av Combat medic folka",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "06cd0444bb6d1496",
+        "dateIso": "2026-11-24",
+        "dateLabel": "2026-11-24",
+        "time": "05:00",
+        "type": "Øvelse",
+        "description": "Markør for RECCEX: Markører RECCEX - De tar tog som er dekket",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "558b1ed6c24df86e6d3f657d",
       "observedAt": "2026-11-05T00:10:35+01:00",
       "organization": "MORKH",
@@ -1970,5 +1994,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:10:35+01:00"
+  "updatedAt": "2026-11-22T23:25:33+01:00"
 }
