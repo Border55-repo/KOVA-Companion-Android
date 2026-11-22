@@ -4,6 +4,28 @@ import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
 
 const source=await readFile('pwa/sw.js','utf8');
+const appSource=await readFile('pwa/app.js','utf8');
+
+test('repair retires the old endpoint before registering its replacement',async()=>{
+  const calls=[];
+  const replacement={};
+  const old={unsubscribe:async()=>{calls.push('unsubscribe');current=null;}};
+  let current=old;
+  const context=vm.createContext({
+    isIOS:()=>false, Notification:{requestPermission:async()=>'granted'},
+    fetchJson:async()=>({publicKey:'key'}), WEBPUSH_CONFIG_URL:'/config',
+    base64UrlToUint8Array:()=>new Uint8Array(65),
+    navigator:{serviceWorker:{ready:Promise.resolve({pushManager:{
+      getSubscription:async()=>current,subscribe:async()=>replacement
+    }})}},
+    storage:{removeItem:()=>{}},refreshNotificationUi:async()=>{},
+    savePushSubscription:async(subscription,enabled)=>calls.push([subscription,enabled])
+  });
+  vm.runInContext(appSource.slice(appSource.indexOf('async function enableNotifications('),
+    appSource.indexOf('async function disableNotifications(')),context);
+  await vm.runInContext('enableNotifications({renew:true})',context);
+  assert.deepEqual(calls,[[old,false],'unsubscribe',[replacement,true]]);
+});
 function worker(){
   const handlers={};
   const shown=[];
