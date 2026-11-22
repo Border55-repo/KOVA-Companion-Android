@@ -318,10 +318,15 @@ def discover_organizations(attempts: int = 3) -> list[dict]:
                     f"KOVA organization discovery returned only {len(found)} entries"
                 )
 
-            # Voss has a public KOVA feed but is absent from the next-event directory.
+            # Verified public feeds can be absent from the next-event directory.
             found.setdefault("VossRKH", {
                 "name": "Voss Røde Kors Hjelpekorps",
                 "code": "VossRKH",
+                "category": "hjelpekorps",
+            })
+            found.setdefault("Haugesund", {
+                "name": "Haugesund Røde Kors Hjelpekorps",
+                "code": "Haugesund",
                 "category": "hjelpekorps",
             })
             return sorted(
