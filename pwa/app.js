@@ -269,9 +269,10 @@ async function savePushSubscription(subscription,enabled=true){
       },
       {merge:false}
     );
-    storage.setItem("kova.pwa.pushRegisteredAt",new Date().toISOString());
+    if(enabled)storage.setItem("kova.pwa.pushRegisteredAt",new Date().toISOString());
+    else storage.removeItem("kova.pwa.pushRegisteredAt");
     storage.removeItem("kova.pwa.pushLastError");
-    syncAllReminders().catch(error=>console.warn("Kunne ikke synkronisere vaktpåminnelser",error));
+    if(enabled)syncAllReminders().catch(error=>console.warn("Kunne ikke synkronisere vaktpåminnelser",error));
   }catch(error){
     storage.removeItem("kova.pwa.pushRegisteredAt");
     storage.setItem("kova.pwa.pushLastError",error?.message||String(error));
@@ -504,7 +505,7 @@ async function requestPushSelfTest(){
   }finally{button.disabled=false;}
 }
 
-async function enableNotifications(){
+async function enableNotifications({renew=false}={}){
   if(isIOS()&&!isStandalone())return;
   const permission=await Notification.requestPermission();
   if(permission!=="granted"){
@@ -512,12 +513,24 @@ async function enableNotifications(){
     return;
   }
   const config=await fetchJson(WEBPUSH_CONFIG_URL);
+  const applicationServerKey=base64UrlToUint8Array(config.publicKey);
+  if(applicationServerKey.byteLength!==65)throw new Error("KOVA leverte en ugyldig pushnøkkel.");
   const registration=await navigator.serviceWorker.ready;
   let subscription=await registration.pushManager.getSubscription();
+  const previousKey=subscription?.options?.applicationServerKey;
+  const keyChanged=previousKey&&(previousKey.byteLength!==applicationServerKey.byteLength||
+    !new Uint8Array(previousKey).every((byte,index)=>byte===applicationServerKey[index]));
+  if(subscription&&(renew||keyChanged)){
+    await savePushSubscription(subscription,false);
+    await subscription.unsubscribe();
+    subscription=await registration.pushManager.getSubscription();
+    if(subscription)throw new Error("Nettleseren kunne ikke fjerne det gamle abonnementet.");
+    storage.removeItem("kova.pwa.pushRegisteredAt");
+  }
   if(!subscription){
     subscription=await registration.pushManager.subscribe({
       userVisibleOnly:true,
-      applicationServerKey:base64UrlToUint8Array(config.publicKey)
+      applicationServerKey
     });
   }
   await savePushSubscription(subscription,true);
@@ -1421,6 +1434,16 @@ for(const [id,download] of [["calendarBtn",true],["calendarDownloadBtn",false]])
 }
 $("shareBtn").onclick=async()=>{if(state.selected)await shareEvent(state.selected)};
 $("notificationBtn").onclick=toggleNotifications;
+$("renewNotificationsBtn").onclick=async()=>{
+  const button=$("renewNotificationsBtn");
+  button.disabled=true;
+  try{
+    await enableNotifications({renew:true});
+  }catch(error){
+    await refreshNotificationUi();
+    $("notificationHint").textContent="Fornying av varsler feilet: "+(error.message||String(error));
+  }finally{button.disabled=false;}
+};
 
 let lastForegroundRefresh=0;
 let foregroundRefresh=null;
