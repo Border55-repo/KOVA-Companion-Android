@@ -7,14 +7,105 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T14:20:31+01:00",
-  "checkedAt": "2026-11-22T22:05:32+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Hamar+RKH",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:19:59+01:00",
+  "checkedAt": "2026-11-22T22:19:59+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH",
+  "eventCount": 10,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "56fa131d549fef84",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Kristiansund",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "a2e6256ac9aa3121",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "NMK Hamar: Bilcross",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "b83b433b0234984e",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Molde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "f9e5e4018b14ad6c",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Hjelpekorpsprøven (Regodkjenning): Hjelpekorpsprøven",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "601ebfee3e8ee673",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "07:30",
+      "type": "Sanitetsvakt",
+      "description": "NMK Hamar: Bilcross",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "59784dc19f05e64a",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Bodø/glimt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "524bd58279952f32",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Rosenborg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "7a6ad2a40d455d8b",
+      "dateIso": "2026-11-08",
+      "dateLabel": "2026-11-08",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Sarpsborg 08",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "c15e555585fc2208",
+      "dateIso": "2026-11-22",
+      "dateLabel": "2026-11-22",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Fredrikstad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    },
+    {
+      "id": "272793027145e659",
+      "dateIso": "2026-12-06",
+      "dateLabel": "2026-12-06",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Hamkam: Hamkam-Sandefjord fotball",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+    }
+  ]
 }

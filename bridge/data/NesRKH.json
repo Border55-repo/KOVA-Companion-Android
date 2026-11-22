@@ -7,14 +7,240 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T14:15:34+01:00",
-  "checkedAt": "2026-11-22T22:05:33+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=NesRKH",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:20:01+01:00",
+  "checkedAt": "2026-11-22T22:20:01+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH",
+  "eventCount": 25,
   "changes": {
     "added": 0,
-    "removed": 4,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "6aad5a98fa09e841",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : HLR og hjertestarter",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "fe710e6c839b43fc",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Molde : Oppmøte lokalet: 13:30 - Avreise lokalet: 14.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "e7766681ec7af952",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Blodtrykk og blodtrykksapparat med Joacim Dammen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "6216f7685c48cbf8",
+      "dateIso": "2026-09-08",
+      "dateLabel": "2026-09-08",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Praktisk og teoretisk før KFØR",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "3e8bee1aa1723f99",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Praktisk og teoretisk før KFØR",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "d65537949c646c48",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "10:15",
+      "type": "Aktivitet",
+      "description": "Åpen dag på brannstasjonen: Oppmøte lokalet 10:15   Avreise lokalet 10.45",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "2897ed1ae520f416",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Fredrikstad : Oppmøte lokalet: 11:00 - Avreise lokalet: 11:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "619877fa780d3f22",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : FAKS",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "4705a3ece73e7d68",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Ksam kurs : ksam kurs for aspirantene",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "0ca3484fe27f3507",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "4ab58de3fd4f5e64",
+      "dateIso": "2026-10-13",
+      "dateLabel": "2026-10-13",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Caser og scenarioer",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "17b0f8d85f9c0a7a",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Brann: oppmøte 13.30 - avreise 14.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "3b7abcebfe8014e1",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Kjøretøy/ATV",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "19e94ba8afb6a7ac",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld : Hypotermi",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "923e881f2c812797",
+      "dateIso": "2026-11-01",
+      "dateLabel": "2026-11-01",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Tromsø: oppmøte 15.30 - avreise 16.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "a6e3beb7df8c4de5",
+      "dateIso": "2026-11-03",
+      "dateLabel": "2026-11-03",
+      "time": "19:00",
+      "type": "Aktivitet",
+      "description": "Koprskveld : Befaring og info på/om nye lokaler(oppmøte i bruktbutikken)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "a9a2287f4ea80a88",
+      "dateIso": "2026-11-10",
+      "dateLabel": "2026-11-10",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Ned pakking og klargjøring til flytting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "bf7107157ec3fdb7",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte: Rådsmøte hjelpekorps",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "a5b4cdbcadefc2a4",
+      "dateIso": "2026-11-17",
+      "dateLabel": "2026-11-17",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Ned pakking og klargjøring til flytting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "a80cd539e538c485",
+      "dateIso": "2026-11-18",
+      "dateLabel": "2026-11-18",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Ledermøte med øvre og fagleder:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "322d7793f458197c",
+      "dateIso": "2026-11-21",
+      "dateLabel": "2026-11-21",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Start: oppmøte 14.40 - avreise 15.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "44b40ed5424b95a7",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "19:00",
+      "type": "Korpskveld",
+      "description": "Ned pakking og klargjøring til flytting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "f39aa710fc396f01",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "10:00",
+      "type": "Korpskveld",
+      "description": "Flytting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "da8a6a129071eb4a",
+      "dateIso": "2026-11-29",
+      "dateLabel": "2026-11-29",
+      "time": "11:00",
+      "type": "Korpskveld",
+      "description": "Flytting:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    },
+    {
+      "id": "9bedf137159070fd",
+      "dateIso": "2026-12-05",
+      "dateLabel": "2026-12-05",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "Vålerenga - Rosenborg: oppmøte 14.30 - avreise 15.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+    }
+  ]
 }

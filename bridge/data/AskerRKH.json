@@ -7,168 +7,285 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T18:05:32+01:00",
-  "checkedAt": "2026-11-06T14:10:29+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH",
-  "eventCount": 17,
+  "updatedAt": "2026-11-22T22:20:02+01:00",
+  "checkedAt": "2026-11-22T22:20:02+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH",
+  "eventCount": 30,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
-      "id": "a3e25d0d0ad9705d",
-      "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
-      "time": "09:00",
+      "id": "3311d7c3bfb55e99",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "17:00",
       "type": "Sanitetsvakt",
-      "description": "Dag 1 Føyka kross",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Semsvannsrunden : Semsvann",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "6596f6bc4585e0a1",
+      "id": "9e8eaf4ce11135dd",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "DNV familiedag : Veritasparken",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "8bc524729ae23e16",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 14: KSOR light - teori",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "dc31c13cf6fa5103",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Eldrefest : 80-årsfeiring",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "c6de0e9e90db54b3",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "00:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 15 : HLR/DHLR",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "9f4f9192d282af48",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 17: Beredskap",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "c669589c760ae844",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld Bærum: Korpskveld Bærum Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "6273722fa2017f30",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "17:30",
+      "type": "Korpskveld",
+      "description": "Ekstraordinær korpskveld - kun godkjente : Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "fb3e50681f48f1dc",
+      "dateIso": "2026-10-05",
+      "dateLabel": "2026-10-05",
+      "time": "16:00",
+      "type": "Dugnad",
+      "description": "Dugnad Solvik: Mandag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "b029a30681de7981",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "00:00",
+      "type": "Dugnad",
+      "description": "Dugnad Solvik : Tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "9d8fd43fd585988b",
+      "dateIso": "2026-10-07",
+      "dateLabel": "2026-10-07",
+      "time": "16:00",
+      "type": "Dugnad",
+      "description": "Dugnad Solvik : Onsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "9d5d48e9bc08afa8",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "16:00",
+      "type": "Dugnad",
+      "description": "Dugnad Solvik : Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "0e7a39e12210ae54",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Østlandscup judo : Holmenhallen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "e42774fe4ac5cd4b",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 18: FAKS",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "60078ce3383c25b3",
       "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
+      "dateLabel": "2026-10-31",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Føyka kross: Dag 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+    },
+    {
+      "id": "79c26833c225b114",
+      "dateIso": "2026-10-31",
+      "dateLabel": "2026-10-31",
       "time": "10:00",
       "type": "Profilering",
-      "description": "Stand Beredskaps dag Holmenhallen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Beredskaps dag Holmenhallen: Stand",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "1c6a3730be4cf740",
+      "id": "8a472349a08a502e",
       "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
+      "dateLabel": "2026-11-01",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Dag 2 Føyka kross",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Føyka kross: Dag 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "1eda6b26f86e2d3f",
+      "id": "f6f71ebf49677da2",
       "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "dateLabel": "2026-11-05",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Idrettsskade Korpskveld 19",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Korpskveld 19 : Idrettsskade",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "f8a49c95dd3bcb3b",
+      "id": "c66a83491cc1a088",
       "dateIso": "2026-11-18",
-      "dateLabel": "ons. 18.11",
+      "dateLabel": "2026-11-18",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "På Fangene på Fortet i Nydalen Sosialt: The Cube",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Sosialt: The Cube : På Fangene på Fortet i Nydalen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "26350d82cd1049ed",
+      "id": "f9f37e56b047fbe9",
       "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
+      "dateLabel": "2026-11-19",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Infokveld om ARKH Korpskveld 20",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Korpskveld 20 : Infokveld om ARKH",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "b4f9ffb0efc66a34",
+      "id": "de4a823534d7bd2f",
       "dateIso": "2026-11-20",
-      "dateLabel": "fre. 20.11",
+      "dateLabel": "2026-11-20",
       "time": "18:00",
       "type": "Sanitetsvakt",
-      "description": "Slemmestad Factory light 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Factory light 2026: Slemmestad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "4cc754def9d3c1c2",
+      "id": "c60c248036926f31",
       "dateIso": "2026-11-21",
-      "dateLabel": "lør. 21.11",
+      "dateLabel": "2026-11-21",
       "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Slemmestad Factory light 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Factory light 2026: Slemmestad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "09db6d1ac78b1b43",
+      "id": "f3f8001d2cb4b254",
       "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
+      "dateLabel": "2026-11-26",
       "time": "17:30",
       "type": "Øvelse",
-      "description": "Søk og Redning Ekstraordinær korpskveld - Kun Godkjente",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Ekstraordinær korpskveld - Kun Godkjente: Søk og Redning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "97c4ab8416e070a6",
+      "id": "968359fc8a80bb32",
       "dateIso": "2026-11-28",
-      "dateLabel": "lør. 28.11",
+      "dateLabel": "2026-11-28",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Velodromen NM i bane",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "NM i bane : Velodromen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "8ae9b387a4b5b29a",
+      "id": "91e23e634837b8f4",
       "dateIso": "2026-11-29",
-      "dateLabel": "søn. 29.11",
+      "dateLabel": "2026-11-29",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Velodromen NM i bane",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "NM i bane : Velodromen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "8b8af00f1c257eaa",
+      "id": "40eb332abf94be00",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Hypotermi Korpskveld 21",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Korpskveld 21 : Hypotermi",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "d2adb625fa9aa9c1",
+      "id": "e258b8ff4405e992",
       "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
+      "dateLabel": "2026-12-10",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "Sosialt: Julegrøt og quiz",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Sosialt: Julegrøt og quiz:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "2e5a44725ce9da92",
+      "id": "baffc01014338dd6",
       "dateIso": "2026-12-17",
-      "dateLabel": "tor. 17.12",
+      "dateLabel": "2026-12-17",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Samband Korpskveld 22",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Korpskveld 22: Samband",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "15bdd5410f62d509",
+      "id": "c8f87c47b996f615",
       "dateIso": "2027-01-14",
-      "dateLabel": "tor. 14.1",
+      "dateLabel": "2027-01-14",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Søksøvelse Korpskveld 1",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Korpskveld 1: Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     },
     {
-      "id": "05048071aab77699",
+      "id": "6eac56f4e148839c",
       "dateIso": "2027-01-22",
-      "dateLabel": "fre. 22.1",
+      "dateLabel": "2027-01-22",
       "time": "18:00",
       "type": "Aktivitet",
-      "description": "Nyttårsbord/Valg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
-    },
-    {
-      "id": "a2e818addfa22df0",
-      "dateIso": "2027-01-23",
-      "dateLabel": "lør. 23.1",
-      "time": "-> 00:00",
-      "type": "Aktivitet",
-      "description": "Nyttårsbord/Valg",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=AskerRKH"
+      "description": "Nyttårsbord/Valg:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
     }
   ]
 }

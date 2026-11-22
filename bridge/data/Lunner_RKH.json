@@ -7,258 +7,483 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:05:35+01:00",
-  "checkedAt": "2026-11-06T13:55:42+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH",
-  "eventCount": 27,
+  "updatedAt": "2026-11-22T22:20:00+01:00",
+  "checkedAt": "2026-11-22T22:20:00+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH",
+  "eventCount": 52,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "337caad95189be53",
+      "id": "b232f549ee66d1cc",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "15:30",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "ef561a79f80eee39",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "000f4143b11d59a0",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "07:00",
+      "type": "Ambulansevakt",
+      "description": "Bilcross Eriksplassen: Høstløp - Oppmøte kl. 0800",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "e6ef4a0f54537e73",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "06:30",
+      "type": "Ambulansevakt",
+      "description": "Bilcross Eriksplassen: Høstløp - Oppmøte kl. 0730",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "d28dbe7a491a95ac",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "10:30",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "b3ad640af4333843",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "06:30",
+      "type": "Aktivitet",
+      "description": "NM Hjelpekorps: Dommer under NM på Voss",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "ce4a21ed7c2e56fa",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Quad cross:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "7df17dbd9c47699f",
+      "dateIso": "2026-09-06",
+      "dateLabel": "2026-09-06",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Løp for meg: Harestua",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "7f86626bd9776d32",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "b86b1626a3f58b78",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Bilcross Eriksplassen: Klubbløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "1a99ad8d13734088",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Nasjonal opplæringssamling: Scandic Oslo Airport",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "8045e1efd6de17c0",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Stabsmøte NM 2027: Gjøvik",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "92023b1a3a4c7a64",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "10:30",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "dbeb3fe4d252c5a5",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "KSAM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "69a53b96116115df",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "f30a7ab1d0c0ee60",
+      "dateIso": "2026-09-23",
+      "dateLabel": "2026-09-23",
+      "time": "17:00",
+      "type": "Eksterne kurs",
+      "description": "KSAM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "80ae4b9d21013ef4",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "06:00",
+      "type": "Øvelse",
+      "description": "Øvelse Rosten:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "d37c5eafbe26914d",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "05dc4f4d8e906092",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "edc5e603c0f5f314",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "07:00",
+      "type": "Eksterne møter",
+      "description": "Landsmøte Norges Røde Kors: Observatør Oppland RK",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "08a38c0d76ec3b30",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "57e10931379d73fe",
+      "dateIso": "2026-10-13",
+      "dateLabel": "2026-10-13",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "08355088e56cf4a9",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "16:00",
+      "type": "Ambulansevakt",
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "8b3715c5f2b19a47",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "12:00",
+      "type": "Øvelse",
+      "description": "Drone trening:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "95caec2a1aaafe98",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "15:00",
+      "type": "Dugnad",
+      "description": "Div. bil ting.:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "467575a23c855c9b",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Medlemsmøte: Tema: hypotermi",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "f08484ae054c2933",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "20:00",
+      "type": "Øvelse",
+      "description": "Drone trening:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "179263b23b7b5f88",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Områdemøte: Gjøvik",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "5a4cc58b2cc94971",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Hot Wheels stunt show: Unity Arena, Fornebu",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "7511efa40418cc57",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Møte ringløype NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "1359f181bf32e80f",
       "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
+      "dateLabel": "2026-11-01",
       "time": "09:30",
       "type": "Ambulansevakt",
-      "description": "Øvrevoll",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Øvrevoll:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "e1e77aae8e102877",
+      "id": "29b0cc91af7ab7aa",
       "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
+      "dateLabel": "2026-11-03",
       "time": "09:00",
       "type": "Eksterne møter",
-      "description": "Møte beredskapsrådet Lunner kommune",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Møte beredskapsrådet Lunner kommune:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "6f7c9fcc530163ff",
+      "id": "74db8afbdedb8463",
       "dateIso": "2026-11-04",
-      "dateLabel": "ons. 4.11",
+      "dateLabel": "2026-11-04",
       "time": "16:00",
       "type": "Aktivitet",
-      "description": "Nordnestangen PLIVO-øvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "PLIVO-øvelse: Nordnestangen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "9d50f82e205f6720",
+      "id": "1e6132ddcd01a1a2",
       "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "e978f7eba142676e",
-      "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "dateLabel": "2026-11-05",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "Tema: leteaksjoner + FAKS Medlemsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Medlemsmøte: Tema: leteaksjoner + FAKS",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "3640cdf5dbe3f3c1",
-      "dateIso": "2026-11-06",
-      "dateLabel": "fre. 6.11",
-      "time": "",
+      "id": "15f8a293ef1585f0",
+      "dateIso": "2026-11-05",
+      "dateLabel": "2026-11-05",
+      "time": "18:00",
       "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Røde Kors-helga DS: Scandic Lillehammer Hotel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "b574990535b9fd76",
+      "id": "2a2ce6cbc23834ac",
       "dateIso": "2026-11-06",
-      "dateLabel": "fre. 6.11",
+      "dateLabel": "2026-11-06",
       "time": "08:00",
       "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Røde Kors-helga: Scandic Lillehammer Hotel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "365d9358b54bde59",
-      "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "0d9e786c42135f99",
-      "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "15bc052afaf46078",
-      "dateIso": "2026-11-08",
-      "dateLabel": "søn. 8.11",
-      "time": "-> 18:00",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "09666a4cce69c75d",
-      "dateIso": "2026-11-08",
-      "dateLabel": "søn. 8.11",
-      "time": "-> 18:00",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Røde Kors-helga DS",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "8119da6c6de5a432",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "Tema: store blødninger Medlemsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "2584fa13404eb8d8",
+      "id": "c3a88b6f8de2d3aa",
       "dateIso": "2026-11-28",
-      "dateLabel": "lør. 28.11",
+      "dateLabel": "2026-11-28",
       "time": "08:00",
       "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Startkursholdersamling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Startkursholdersamling: Scandic Lillehammer Hotel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "8e53785eeca4edd5",
-      "dateIso": "2026-11-29",
-      "dateLabel": "søn. 29.11",
-      "time": "-> 17:00",
-      "type": "Eksterne kurs",
-      "description": "Scandic Lillehammer Hotel Startkursholdersamling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "490fcc0b6faf3f11",
+      "id": "aca364bbcf5d1ed3",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "Tema: brudd og bruddskader Medlemsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Medlemsmøte: Tema: brudd og bruddskader",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "38bf40f4b8495f16",
+      "id": "c351227e947cb701",
       "dateIso": "2026-12-17",
-      "dateLabel": "tor. 17.12",
+      "dateLabel": "2026-12-17",
       "time": "18:00",
       "type": "Interne møter",
-      "description": "Medlemsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Medlemsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "e272d862cf643319",
+      "id": "0f07a805bb6102f5",
       "dateIso": "2027-01-22",
-      "dateLabel": "fre. 22.1",
+      "dateLabel": "2027-01-22",
       "time": "15:00",
       "type": "Eksterne kurs",
-      "description": "Gjøvik Fagsamling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Fagsamling: Gjøvik",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "55e6887a00ad9608",
-      "dateIso": "2027-01-23",
-      "dateLabel": "lør. 23.1",
-      "time": "",
-      "type": "Eksterne kurs",
-      "description": "Gjøvik Fagsamling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "669c17ad9b153ad4",
-      "dateIso": "2027-01-24",
-      "dateLabel": "søn. 24.1",
-      "time": "-> 18:00",
-      "type": "Eksterne kurs",
-      "description": "Gjøvik Fagsamling",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
-    },
-    {
-      "id": "eb1bd054a2d4bbe7",
+      "id": "34df0a225c7437c7",
       "dateIso": "2027-02-05",
-      "dateLabel": "fre. 5.2",
+      "dateLabel": "2027-02-05",
       "time": "15:00",
       "type": "Ambulansevakt",
-      "description": "Rally Hadeland",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Rally Hadeland:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "ceb79df6cf477c01",
+      "id": "5edde5f9b6b6bb37",
       "dateIso": "2027-02-06",
-      "dateLabel": "lør. 6.2",
+      "dateLabel": "2027-02-06",
       "time": "08:00",
       "type": "Ambulansevakt",
-      "description": "Rally Hadeland",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Rally Hadeland:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "06da2f93ac29a97e",
+      "id": "890fcba8e51c6017",
       "dateIso": "2027-02-20",
-      "dateLabel": "lør. 20.2",
+      "dateLabel": "2027-02-20",
       "time": "07:00",
       "type": "Aktivitet",
-      "description": "TID IKKE BEKREFTET Holmenkollmarsjen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Holmenkollmarsjen: TID IKKE BEKREFTET",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "d3fbb5249a7d9bc5",
+      "id": "40a45f6a3b416f8f",
       "dateIso": "2027-03-03",
-      "dateLabel": "ons. 3.3",
+      "dateLabel": "2027-03-03",
       "time": "09:00",
       "type": "Ambulansevakt",
-      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "20a5af0230d479a5",
+      "id": "cd80ccc5ce3b761f",
       "dateIso": "2027-03-04",
-      "dateLabel": "tor. 4.3",
+      "dateLabel": "2027-03-04",
       "time": "09:00",
       "type": "Ambulansevakt",
-      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "5df0463ab9f1172b",
+      "id": "d9813e29795f9d72",
       "dateIso": "2027-03-05",
-      "dateLabel": "fre. 5.3",
+      "dateLabel": "2027-03-05",
       "time": "09:00",
       "type": "Ambulansevakt",
-      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "74d41b58aec63dd9",
+      "id": "da541e8b0dc1f9b7",
       "dateIso": "2027-03-06",
-      "dateLabel": "lør. 6.3",
+      "dateLabel": "2027-03-06",
       "time": "08:00",
       "type": "Ambulansevakt",
-      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
-      "id": "b5c83ccddbbc070a",
+      "id": "389c10182dc6f84d",
       "dateIso": "2027-03-07",
-      "dateLabel": "søn. 7.3",
+      "dateLabel": "2027-03-07",
       "time": "08:00",
       "type": "Ambulansevakt",
-      "description": "NB! IKKE BEKREFTET ENDA! Verdenscup alpint Kvitfjell",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Lunner+RKH"
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "0888696175f88700",
+      "dateIso": "2027-03-10",
+      "dateLabel": "2027-03-10",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "89fecc2636fb4cc4",
+      "dateIso": "2027-03-11",
+      "dateLabel": "2027-03-11",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "04171518a7636ee2",
+      "dateIso": "2027-03-12",
+      "dateLabel": "2027-03-12",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "ff6e0f2441bdf5d0",
+      "dateIso": "2027-03-13",
+      "dateLabel": "2027-03-13",
+      "time": "08:00",
+      "type": "Ambulansevakt",
+      "description": "Verdenscup alpint Kvitfjell: NB! IKKE BEKREFTET ENDA!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     }
   ]
 }

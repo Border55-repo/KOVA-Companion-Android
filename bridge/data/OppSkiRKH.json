@@ -7,78 +7,222 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-29T00:05:41+01:00",
-  "checkedAt": "2026-11-06T13:55:44+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH",
-  "eventCount": 7,
+  "updatedAt": "2026-11-22T22:20:01+01:00",
+  "checkedAt": "2026-11-22T22:20:01+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH",
+  "eventCount": 23,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "e4bcefa9d1ecd200",
-      "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
-      "time": "11:00",
-      "type": "Aktivitet",
-      "description": "Beredskapsdag 1. November",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "id": "7ffbe42e9ff89066",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Follotrimmen - Langhus Stadion: Sanitetsvakt - oppmøte F3: kl 17.15",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "60e22e75fa879687",
+      "id": "29d14244fef7939e",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Motocross event - NMK Oslo Follo: Oppmøte F3: 09.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "4865e6c955497305",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Orienteringsløp v/ Nordre Follo Orientering: Sanitetsvakt - oppmøte F3: 08.50 (oppmøte  vakt: kl. 09.30)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "bdce01c6777eea78",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Motocross event - NMK Oslo Follo: Oppmøte F3: 09.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "45db2d8c9f4dc015",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Follotrimmen - Vestbyhallen: Sanitetsvakt - oppmøte F3: kl. 17",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "aadee0b4acdef833",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp/blødninger",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "42d3fc74550b13da",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "Kickoff/Sensommerfest: Mer info kommer",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "82e4fdd6ad082f31",
+      "dateIso": "2026-09-18",
+      "dateLabel": "2026-09-18",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Eventyrstien 2025: Oppmøte F3: kl. 17",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "8943691524240682",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "10:00",
+      "type": "Beredskap",
+      "description": "Åpen Brannstasjon: Oppmøte F3 10.00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "33581dbfe6d5b80c",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "00:00",
+      "type": "Transport",
+      "description": ": Vito utlånt til Enebakk",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "24cc7cac32954917",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Nøklevann Rundt: Oppmøte F3: 10.45",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "ce5dde9cd62ee5a1",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Nesodden på Langs: Nesodden På Langs, oppmøte F3: 10.40",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "cb6c30c032552f39",
+      "dateIso": "2026-10-14",
+      "dateLabel": "2026-10-14",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe-løpet 2026, : Oppmøte F3: 16 - oppmøte Østre Greverud: 16.30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "a90c0390327f5b78",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Enduro Enebakk: Enduro Enebakk",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "a84232fd88a42a7e",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Kjøretøy/utstyrsgjennomgang",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "02d28f96f549c36e",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Dugnad: Dugnad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "93f0930a2be45d4c",
+      "dateIso": "2026-11-01",
+      "dateLabel": "2026-11-01",
+      "time": "11:00",
+      "type": "Aktivitet",
+      "description": "Beredskapsdag 1. November:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+    },
+    {
+      "id": "4ac0058fc46dcdcb",
       "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
+      "dateLabel": "2026-11-07",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Oppmøte F3: kl 08.15 Oslo Cheer Team Galaxy",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "Oslo Cheer Team Galaxy: Oppmøte F3: kl 08.15",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "381e1e1e38a02b72",
+      "id": "e2b8cb62fe340fbc",
       "dateIso": "2026-11-11",
-      "dateLabel": "ons. 11.11",
+      "dateLabel": "2026-11-11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Masseskade/triagering Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "Korpskveld: Masseskade/triagering",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "d31fa9d7c53c6309",
+      "id": "a023fd22d95d03e5",
       "dateIso": "2026-11-22",
-      "dateLabel": "søn. 22.11",
-      "time": "11:00",
+      "dateLabel": "2026-11-22",
+      "time": "09:00",
       "type": "Korpskveld",
-      "description": "Storøvelse Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "Korpskveld: Storøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "6f9b725477d37ac6",
+      "id": "3e19ba94a5e9fa0d",
       "dateIso": "2026-11-28",
-      "dateLabel": "lør. 28.11",
+      "dateLabel": "2026-11-28",
       "time": "18:00",
       "type": "Aktivitet",
-      "description": "Mer info kommer senere JULEBORD",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "JULEBORD: Mer info kommer senere",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "0026a1a5d2864c74",
+      "id": "074c9fe11a18a287",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Hypotermi Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "Korpskveld: Hypotermi",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     },
     {
-      "id": "6784f71c90f2888e",
+      "id": "700d6d53b7495089",
       "dateIso": "2026-12-15",
-      "dateLabel": "tir. 15.12",
+      "dateLabel": "2026-12-15",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Juleavslutning Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OppSkiRKH"
+      "description": "Korpskveld: Juleavslutning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
     }
   ]
 }

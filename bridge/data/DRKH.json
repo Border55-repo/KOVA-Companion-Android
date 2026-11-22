@@ -7,14 +7,879 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T14:25:27+01:00",
-  "checkedAt": "2026-11-22T22:10:34+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=DRKH",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:20:03+01:00",
+  "checkedAt": "2026-11-22T22:20:03+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH",
+  "eventCount": 96,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "7b36ce4701062a2d",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "20:00",
+      "type": "Interne møter",
+      "description": "Medelsmøte: Medlemsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "e49cf30409092134",
+      "dateIso": "2026-10-16",
+      "dateLabel": "2026-10-16",
+      "time": "10:00",
+      "type": "Forebygging",
+      "description": "Kragerø resort: Øvelse og sosialt på Stabbestad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ef276299bb2465c8",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Tema kveld med søksmetadikk: Tema kveld med søksmetadikk",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "419ae412d1c8cb65",
+      "dateIso": "2026-11-17",
+      "dateLabel": "2026-11-17",
+      "time": "17:00",
+      "type": "Øvelse",
+      "description": "Øvelse i terreng: Øvelse i Drangedal Sentrum",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "805a4541fbc601e1",
+      "dateIso": "2026-12-25",
+      "dateLabel": "2026-12-25",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "3195bbf762cfc353",
+      "dateIso": "2026-12-25",
+      "dateLabel": "2026-12-25",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f332d6281ead2e7c",
+      "dateIso": "2026-12-26",
+      "dateLabel": "2026-12-26",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "86acdc370b66aa46",
+      "dateIso": "2026-12-26",
+      "dateLabel": "2026-12-26",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "2778556305056d64",
+      "dateIso": "2026-12-27",
+      "dateLabel": "2026-12-27",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "abdc8bdabc483982",
+      "dateIso": "2026-12-27",
+      "dateLabel": "2026-12-27",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "91aa1b4950e0d56a",
+      "dateIso": "2026-12-28",
+      "dateLabel": "2026-12-28",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Mandag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ef7b105b29c20891",
+      "dateIso": "2026-12-28",
+      "dateLabel": "2026-12-28",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ab5879493332c316",
+      "dateIso": "2026-12-29",
+      "dateLabel": "2026-12-29",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "262bca814c85f892",
+      "dateIso": "2026-12-29",
+      "dateLabel": "2026-12-29",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "dee08f6f5be7109f",
+      "dateIso": "2026-12-30",
+      "dateLabel": "2026-12-30",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Onsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "244cdfaddc1d786b",
+      "dateIso": "2026-12-30",
+      "dateLabel": "2026-12-30",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "67e70b05aac1baf1",
+      "dateIso": "2026-12-31",
+      "dateLabel": "2026-12-31",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "bc7b5c2bc5d02ae4",
+      "dateIso": "2026-12-31",
+      "dateLabel": "2026-12-31",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "3a2c1c0d366d5eab",
+      "dateIso": "2027-01-01",
+      "dateLabel": "2027-01-01",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Romjulsvakt 2026: Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "0c0c983fa5895d89",
+      "dateIso": "2027-01-01",
+      "dateLabel": "2027-01-01",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overnatting fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "7a30dc5d3c1090b7",
+      "dateIso": "2027-01-02",
+      "dateLabel": "2027-01-02",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "055ffdd1881fd607",
+      "dateIso": "2027-01-02",
+      "dateLabel": "2027-01-02",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overnatting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "d93b16af27c120bf",
+      "dateIso": "2027-01-03",
+      "dateLabel": "2027-01-03",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "08f3279d49393ec7",
+      "dateIso": "2027-01-08",
+      "dateLabel": "2027-01-08",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "b1dc1c47d2035b21",
+      "dateIso": "2027-01-09",
+      "dateLabel": "2027-01-09",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "99fb390e4b7f0ca1",
+      "dateIso": "2027-01-09",
+      "dateLabel": "2027-01-09",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "5a40bff8e0e6aac1",
+      "dateIso": "2027-01-10",
+      "dateLabel": "2027-01-10",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "5f441e1a8ebdfa51",
+      "dateIso": "2027-01-15",
+      "dateLabel": "2027-01-15",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "b3ece88a2cf13a0a",
+      "dateIso": "2027-01-16",
+      "dateLabel": "2027-01-16",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "0e142a2880357a77",
+      "dateIso": "2027-01-16",
+      "dateLabel": "2027-01-16",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "a91d5e33f66791b2",
+      "dateIso": "2027-01-17",
+      "dateLabel": "2027-01-17",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "6bdf76e47ce6e19c",
+      "dateIso": "2027-01-22",
+      "dateLabel": "2027-01-22",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "be511bcd479665da",
+      "dateIso": "2027-01-23",
+      "dateLabel": "2027-01-23",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "e0d9ebb4e32d9d2b",
+      "dateIso": "2027-01-23",
+      "dateLabel": "2027-01-23",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "7fa4c5d253dbcf6c",
+      "dateIso": "2027-01-24",
+      "dateLabel": "2027-01-24",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "de61212c4088beb8",
+      "dateIso": "2027-01-29",
+      "dateLabel": "2027-01-29",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overnatting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f107d5e47c712b6f",
+      "dateIso": "2027-01-30",
+      "dateLabel": "2027-01-30",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ac7830f5fbbf95d1",
+      "dateIso": "2027-01-30",
+      "dateLabel": "2027-01-30",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "10d5975875097a1f",
+      "dateIso": "2027-01-31",
+      "dateLabel": "2027-01-31",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Januar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ec64194dd43b069c",
+      "dateIso": "2027-02-05",
+      "dateLabel": "2027-02-05",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "3af50f7c435e81d3",
+      "dateIso": "2027-02-06",
+      "dateLabel": "2027-02-06",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "cc2ca492cdb2cba1",
+      "dateIso": "2027-02-06",
+      "dateLabel": "2027-02-06",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "398606e953a20fdd",
+      "dateIso": "2027-02-07",
+      "dateLabel": "2027-02-07",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "6a4895163f0d6e19",
+      "dateIso": "2027-02-12",
+      "dateLabel": "2027-02-12",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "e021ad48c98a2320",
+      "dateIso": "2027-02-13",
+      "dateLabel": "2027-02-13",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ad6bb619bf298aac",
+      "dateIso": "2027-02-13",
+      "dateLabel": "2027-02-13",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f60d83a573b64cba",
+      "dateIso": "2027-02-14",
+      "dateLabel": "2027-02-14",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "7f33bf92000b6093",
+      "dateIso": "2027-02-19",
+      "dateLabel": "2027-02-19",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f67b23c9929f967b",
+      "dateIso": "2027-02-20",
+      "dateLabel": "2027-02-20",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "a9b8fe4198d5dc43",
+      "dateIso": "2027-02-20",
+      "dateLabel": "2027-02-20",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "73a7e782a119de22",
+      "dateIso": "2027-02-21",
+      "dateLabel": "2027-02-21",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "b614f291f30f9065",
+      "dateIso": "2027-02-21",
+      "dateLabel": "2027-02-21",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "9f65e4978becf88b",
+      "dateIso": "2027-02-22",
+      "dateLabel": "2027-02-22",
+      "time": "00:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Mandag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "a8b6bbef7de9fc19",
+      "dateIso": "2027-02-22",
+      "dateLabel": "2027-02-22",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "d69e283020965331",
+      "dateIso": "2027-02-23",
+      "dateLabel": "2027-02-23",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "919e374cf78574d4",
+      "dateIso": "2027-02-23",
+      "dateLabel": "2027-02-23",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "a302db3bf69ed0a2",
+      "dateIso": "2027-02-24",
+      "dateLabel": "2027-02-24",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Onsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "c1e741df3861e5a5",
+      "dateIso": "2027-02-24",
+      "dateLabel": "2027-02-24",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f839874859d49863",
+      "dateIso": "2027-02-25",
+      "dateLabel": "2027-02-25",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "62cbf2a90809ff83",
+      "dateIso": "2027-02-25",
+      "dateLabel": "2027-02-25",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "2fcb319f093fc16f",
+      "dateIso": "2027-02-26",
+      "dateLabel": "2027-02-26",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vinterferie uke 8 2027: Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "16c735fa50dfa81f",
+      "dateIso": "2027-02-26",
+      "dateLabel": "2027-02-26",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "699ad13ba28f254f",
+      "dateIso": "2027-02-27",
+      "dateLabel": "2027-02-27",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "ed1fbfe086fd187c",
+      "dateIso": "2027-02-27",
+      "dateLabel": "2027-02-27",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f9ed442ceb01d4db",
+      "dateIso": "2027-02-28",
+      "dateLabel": "2027-02-28",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Februar 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "7b154a3d81ad638e",
+      "dateIso": "2027-03-05",
+      "dateLabel": "2027-03-05",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "c7e54147957c15c9",
+      "dateIso": "2027-03-06",
+      "dateLabel": "2027-03-06",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "4c2b5923a6ae66d1",
+      "dateIso": "2027-03-06",
+      "dateLabel": "2027-03-06",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f8e086eb63117f7e",
+      "dateIso": "2027-03-07",
+      "dateLabel": "2027-03-07",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "2531e7cda76b5626",
+      "dateIso": "2027-03-12",
+      "dateLabel": "2027-03-12",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "093c0bb7e31d6332",
+      "dateIso": "2027-03-13",
+      "dateLabel": "2027-03-13",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "70482b8162c54d9e",
+      "dateIso": "2027-03-13",
+      "dateLabel": "2027-03-13",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "9874672472ed4633",
+      "dateIso": "2027-03-14",
+      "dateLabel": "2027-03-14",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "b649151aca074d58",
+      "dateIso": "2027-03-19",
+      "dateLabel": "2027-03-19",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "aac9687766fd517c",
+      "dateIso": "2027-03-20",
+      "dateLabel": "2027-03-20",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "e00d565c43a43200",
+      "dateIso": "2027-03-20",
+      "dateLabel": "2027-03-20",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "0c69d4ab7dccc74b",
+      "dateIso": "2027-03-21",
+      "dateLabel": "2027-03-21",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "8963a230b42f27ec",
+      "dateIso": "2027-03-21",
+      "dateLabel": "2027-03-21",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "1c7b351d8472fac1",
+      "dateIso": "2027-03-22",
+      "dateLabel": "2027-03-22",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Mandag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "d85a7ddaafb0fa7c",
+      "dateIso": "2027-03-22",
+      "dateLabel": "2027-03-22",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "9389ac56b5aa61ab",
+      "dateIso": "2027-03-23",
+      "dateLabel": "2027-03-23",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Tirsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "6c74e282aeb23ae0",
+      "dateIso": "2027-03-23",
+      "dateLabel": "2027-03-23",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f2ee8fcf95f5bfbf",
+      "dateIso": "2027-03-24",
+      "dateLabel": "2027-03-24",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Onsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "8e6b501c8e3e1d18",
+      "dateIso": "2027-03-24",
+      "dateLabel": "2027-03-24",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "f8bd3261b8d0179c",
+      "dateIso": "2027-03-25",
+      "dateLabel": "2027-03-25",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Skjærtorsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "752b00ebc5d41e57",
+      "dateIso": "2027-03-25",
+      "dateLabel": "2027-03-25",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "0ce35663ac05fd2e",
+      "dateIso": "2027-03-26",
+      "dateLabel": "2027-03-26",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Langfredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "8b89f020ab825e2f",
+      "dateIso": "2027-03-26",
+      "dateLabel": "2027-03-26",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "5dbb45adb576f823",
+      "dateIso": "2027-03-26",
+      "dateLabel": "2027-03-26",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "49c016d70086282b",
+      "dateIso": "2027-03-27",
+      "dateLabel": "2027-03-27",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Påskeaften",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "1b683216bd6bebbf",
+      "dateIso": "2027-03-27",
+      "dateLabel": "2027-03-27",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "c3a7bbe679708ff8",
+      "dateIso": "2027-03-27",
+      "dateLabel": "2027-03-27",
+      "time": "16:30",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Overntting Lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "b010a4cc58b1b917",
+      "dateIso": "2027-03-27",
+      "dateLabel": "2027-03-27",
+      "time": "17:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: Overnatting",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "a5d9b708912ce340",
+      "dateIso": "2027-03-28",
+      "dateLabel": "2027-03-28",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Påskevakt 2027: 1. påskedag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "431aeb42bdd65794",
+      "dateIso": "2027-03-28",
+      "dateLabel": "2027-03-28",
+      "time": "09:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Gautefall Mars 2027: Gautefall Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    },
+    {
+      "id": "cac88f587862b861",
+      "dateIso": "2027-10-16",
+      "dateLabel": "2027-10-16",
+      "time": "10:00",
+      "type": "Forebygging",
+      "description": "Kragerø resort: Øvelse og sosialt på Stabbestad",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=DRKH"
+    }
+  ]
 }
