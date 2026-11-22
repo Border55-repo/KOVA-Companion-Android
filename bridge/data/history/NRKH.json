@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e07e4c6b37c0a9ab5e8944f9",
+      "observedAt": "2026-11-23T00:05:39+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "837801b318b8a717",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Fagansvarlig-møter 2026: Fagansvarligmøte",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "6614c0fab9cbd9ded02c073e",
       "observedAt": "2026-11-06T00:00:41+01:00",
       "organization": "NRKH",
@@ -1097,5 +1112,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T00:00:41+01:00"
+  "updatedAt": "2026-11-23T00:05:39+01:00"
 }

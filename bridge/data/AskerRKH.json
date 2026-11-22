@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:20:02+01:00",
-  "checkedAt": "2026-11-22T23:50:38+01:00",
+  "updatedAt": "2026-11-23T00:05:41+01:00",
+  "checkedAt": "2026-11-23T00:05:41+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH",
-  "eventCount": 30,
+  "eventCount": 29,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "3311d7c3bfb55e99",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Semsvannsrunden : Semsvann",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
-    },
     {
       "id": "9e8eaf4ce11135dd",
       "dateIso": "2026-08-26",

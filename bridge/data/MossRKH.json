@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:20:00+01:00",
-  "checkedAt": "2026-11-22T23:45:38+01:00",
+  "updatedAt": "2026-11-23T00:05:38+01:00",
+  "checkedAt": "2026-11-23T00:05:38+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH",
-  "eventCount": 59,
+  "eventCount": 58,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "ede94b43b82f467b",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Korpskvelder: Pasientundersøkelse",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
-    },
     {
       "id": "8642c94e92ac2483",
       "dateIso": "2026-08-26",

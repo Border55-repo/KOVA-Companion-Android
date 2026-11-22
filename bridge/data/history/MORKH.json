@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6be1574c1acf8efec76d89f9",
+      "observedAt": "2026-11-23T00:05:36+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "d2f6e679ecca1061",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld - Øvelse: Sambandbingo. Klær etter vær.  Merk at øvelseskvelden kan bli noe senere ferdig enn vanlig.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "77b39a112156fd9bfa4739a2",
       "observedAt": "2026-11-22T23:25:33+01:00",
       "organization": "MORKH",
@@ -1994,5 +2009,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-22T23:25:33+01:00"
+  "updatedAt": "2026-11-23T00:05:36+01:00"
 }

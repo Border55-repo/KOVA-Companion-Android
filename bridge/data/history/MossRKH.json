@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8aa096f14b4cd475a6d6ba4c",
+      "observedAt": "2026-11-23T00:05:38+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ede94b43b82f467b",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskvelder: Pasientundersøkelse",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "45dd22cc28f1df021360cea5",
       "observedAt": "2026-11-03T11:35:44+01:00",
       "organization": "MossRKH",
@@ -908,5 +923,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T11:35:44+01:00"
+  "updatedAt": "2026-11-23T00:05:38+01:00"
 }

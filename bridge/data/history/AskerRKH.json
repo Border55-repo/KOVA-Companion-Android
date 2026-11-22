@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c9fad549edb73643fd0ac874",
+      "observedAt": "2026-11-23T00:05:41+01:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3311d7c3bfb55e99",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Semsvannsrunden : Semsvann",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "3e40aff7ba752130caa43e1e",
       "observedAt": "2026-11-05T18:05:32+01:00",
       "organization": "AskerRKH",
@@ -485,5 +500,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T18:05:32+01:00"
+  "updatedAt": "2026-11-23T00:05:41+01:00"
 }

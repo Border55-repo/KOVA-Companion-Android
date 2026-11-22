@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "35b8bf2dbf69d398073ef5f4",
+      "observedAt": "2026-11-23T00:05:30+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8d9491febb00a848",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:00",
+        "type": "Aktivitet",
+        "description": "Dommermøte NM:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "c748d0287ce9e685e020d0a8",
       "observedAt": "2026-11-05T00:10:34+01:00",
       "organization": "LaksevaagRKH",
@@ -1325,5 +1340,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:10:34+01:00"
+  "updatedAt": "2026-11-23T00:05:30+01:00"
 }
