@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-11-22T22:49:06+01:00",
-  "count": 42,
-  "helpCorpsCount": 38,
+  "updatedAt": "2026-11-22T22:52:23+01:00",
+  "count": 43,
+  "helpCorpsCount": 39,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -73,6 +73,11 @@
     {
       "name": "Hamar Røde Kors Hjelpekorps",
       "code": "Hamar RKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Haugesund Røde Kors Hjelpekorps",
+      "code": "Haugesund",
       "category": "hjelpekorps"
     },
     {

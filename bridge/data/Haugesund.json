@@ -7,14 +7,222 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T14:20:36+01:00",
-  "checkedAt": "2026-11-08T00:45:30+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Haugesund",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:52:30+01:00",
+  "checkedAt": "2026-11-22T22:52:30+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund",
+  "eventCount": 23,
   "changes": {
     "added": 0,
-    "removed": 3,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "9c2a447ac8ffea51",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH Herrer - Egersund: Oppmøte på huset 16:45, vaktstart 17:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "478e440d3aa56502",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "13:45",
+      "type": "Sanitetsvakt",
+      "description": "Vard Haugesund - OS: Oppmøte på huset 13:45, vaktstart 14:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "f89a296114cbfb9d",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "10:30",
+      "type": "Beredskap",
+      "description": "Beredskapsdagen: Oppmøte på huset 10:30, vaktstart 11:00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "8a9b08d6860f12c8",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "13:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH Herrer - Sogndal: Oppmøte på huset 13:45, vaktstart 14:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "6aa1174141ff7b4d",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "11:45",
+      "type": "Sanitetsvakt",
+      "description": "Vard Haugesund - Førde: Oppmøte på huset 11:45, vaktstart 12:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "5dc4d4bcdaf15f55",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "FKH damer - Rosenborg BK: Oppmøte på huset 10:45. Vaktstart 11:30. Kampstart 13:00.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "eac78d12259eef26",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "08:00",
+      "type": "Øvelse",
+      "description": "Øvelse NRH m/båt: Øvelse NRH m/Båt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "aa89b1f6eee5a37f",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "09:45",
+      "type": "Forebygging",
+      "description": "Åpen dag brannstasjonen : Oppmøte på huset kl.09:45. Ferdig rigget på brannstasjonen kl.10:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "ce98b5bd05ff4e80",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "14:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH Herrer - Strømmen: Oppmøte på huset 14:45, vaktstart 15:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "03d618715bee45e5",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "10:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH damer - LSK Kvinner: Oppmøte på huset 10:45. Vaktstart 11:30. Kampstart 13:00.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "ef7b7de68dfb1996",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Vard Haugesund - Fana: Oppmøte på huset 18:00, Vaktstart 18:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "867e9881cc704e27",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe-løpet 2026: Oppmøte på huset 14:30, vaktstart 15:00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "7167031681dd6f03",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "13:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH herrer - Stabæk: Oppmøte på huset 13:45, vaktstart 14:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "13df27c0bd625add",
+      "dateIso": "2026-10-14",
+      "dateLabel": "2026-10-14",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH herrer - Lyn: Oppmøte på huset 16:45, vaktstart 17:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "bb7668c6d9ff8575",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "15:30",
+      "type": "Beredskap",
+      "description": "Refleksdagen - Aksdal senteret : Oppmøte huset 15:30, Start i Aksdal kl 16:00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "1ade9f1619f0894e",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "10:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH damer - Molde: Oppmøte huset 10:45, vaktstart 11:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "67c29be9c4b91e1f",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "HIL - Djupadalten 2026: Oppmøte på huset 12:45, vaktstart 13:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "2cd0c0e8d44b7747",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Vard Haugesund - Askøy: Oppmøte på huset 14:00, vaktstart 14:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "416c3ce01f9926a2",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "07:15",
+      "type": "Forebygging",
+      "description": "Sykkelykt utdeling - Førre Barneskole: Oppmøte på huset 07:15, vaktstart Førre 07:55",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "8cfc95bedaf1f9ab",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "12:15",
+      "type": "Sanitetsvakt",
+      "description": "FKH herrer - Hødd: Oppmøte på huset 12:15 vaktstart 13:00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "0b7988e51320776d",
+      "dateIso": "2026-10-31",
+      "dateLabel": "2026-10-31",
+      "time": "11:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH Damer - Hønefoss BK: Oppmøte huset 11:45, vaktstart 12:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "ca21d8f6a7cc7687",
+      "dateIso": "2026-11-01",
+      "dateLabel": "2026-11-01",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Vard Haugesund - Varegg: Oppmøte på huset 11:00, Vaktstart 11:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    },
+    {
+      "id": "ff7cf570365a6f56",
+      "dateIso": "2026-11-08",
+      "dateLabel": "2026-11-08",
+      "time": "10:45",
+      "type": "Sanitetsvakt",
+      "description": "FKH herrer - Odd: Oppmøte på huset 10:45, vaktstart 11:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+    }
+  ]
 }
