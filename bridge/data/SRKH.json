@@ -7,114 +7,402 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:00:42+01:00",
-  "checkedAt": "2026-11-06T14:10:30+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH",
-  "eventCount": 11,
+  "updatedAt": "2026-11-22T22:16:36+01:00",
+  "checkedAt": "2026-11-22T22:16:36+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH",
+  "eventCount": 43,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "55c1600c6af2b70c",
-      "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
+      "id": "6b995c8a9765249f",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Ringløype med funn",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "ae16561483438ae4",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Strilaman swimrun: Bekfretet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "9165c4c91d518ba4",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Områdemøte : For korpsledelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "d33d985ba38b4371",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "13:00",
+      "type": "Eksterne kurs",
+      "description": "Kurs for mat og restaurant fag: 12.05-13.50",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "3c6be8305c86fc68",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Pasient undersøkelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "df618f199808a6b5",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "NM på Voss:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "9888ef2a136576a3",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Fotballvakt: Sotra - Vidar",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "bc83e277e2d119b2",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt - taekwondo mesterskap: Sotra arena",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "f38b38d1a4e053a0",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt - taekwondo mesterskap: Sotra arena",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "6b821fe05fa11eab",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Fotballvakt: Sotra - Sandviken",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "8d45ef5fb1c3f6f2",
+      "dateIso": "2026-09-16",
+      "dateLabel": "2026-09-16",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Cup kamp: Sotra-Sogndal",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "092e3578e58c15cc",
+      "dateIso": "2026-09-17",
+      "dateLabel": "2026-09-17",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Ringløype førstehjelp - vi får eksterne markører",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "a2ab93865d2fdd14",
+      "dateIso": "2026-09-23",
+      "dateLabel": "2026-09-23",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "Straume panorama :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "e2af65e923a17fd8",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Hvordan går vi fram hos pasienter med demens? Else har ansvar",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "73067b29367ee187",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "18:00",
+      "type": "Eksterne kurs",
+      "description": "TRØKK: For påmelding kontakt ledelse, for både asprianter og godkjente",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "90730394a29a048d",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
       "time": "13:00",
       "type": "Sanitetsvakt",
-      "description": "Brann kamp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Fotballvakt: Sotra - PorsGrenland",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "bacb8de415c226e1",
-      "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "id": "4889c3f2e67121cb",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Områdemøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "c7683ee160f2b334",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Sminke og markør med Jeanett og Arosha, sammen med Laksevåg Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: Tur",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "5b71fcea4a4aebfd",
-      "dateIso": "2026-11-12",
-      "dateLabel": "tor. 12.11",
+      "id": "29d5416ccb9d287d",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "KFØR :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "3ef1ae9f749211a8",
+      "dateIso": "2026-10-02",
+      "dateLabel": "2026-10-02",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "VAKT AVLYST- Vakt - Lysfestival på fjell festning: Ikke bekreftet enda, tidspunkt kan endre seg, men dato er riktig",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "17aef249f3593d27",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "20:00",
+      "type": "Sanitetsvakt",
+      "description": "VAKT AVLYST- Vakt - Lysfestival på fjell festning:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "867ffc12411b5800",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Jubileumsfest for Fjell røde kors Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: Brannvern kurs",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "d843614ee681826f",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "17:00",
+      "id": "d0923cffa2fde1e9",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "KFØR :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "b577924a974934b5",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Fotballvakt: Sotra - Kvik Halden",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "e5e71394c67ef601",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sats Norge 4,0",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "1b9ae75f915e6a03",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Vann rednings test (OBS onsdag)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "a482a793b04d87f6",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Fotballvakt: Sotra - Notodden",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "a2a0b353bda67bca",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Glæsverløpet: Et lag. Vakt bekreftet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "7b14dbdd81e7762b",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:00",
       "type": "Interne møter",
-      "description": "Korpshuset - åpent for alle 4/2026 Rådsmøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Driftsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "22c27e69d19ebf82",
-      "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
+      "id": "2e144f1986cc4326",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Besøk fra Siren som skal snakke om diabetes, andre delen skal handle om møte med døve Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: Søks øvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "b945306f5327a6fa",
+      "id": "59e2cb83ecbd2a72",
+      "dateIso": "2026-11-01",
+      "dateLabel": "2026-11-01",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann kamp:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "b1789cb280004621",
+      "dateIso": "2026-11-05",
+      "dateLabel": "2026-11-05",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Sminke og markør med Jeanett og Arosha, sammen med Laksevåg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "2bec3b37a202a9e7",
+      "dateIso": "2026-11-12",
+      "dateLabel": "2026-11-12",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Jubileumsfest for Fjell røde kors",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "b0e59c7e30315f1a",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "10:00",
+      "type": "Eksterne kurs",
+      "description": "Kurs for Øygarden Turlag:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "3a7aa793ca031f6d",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Lokalforeningsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "ada7eb5428f926d3",
+      "dateIso": "2026-11-19",
+      "dateLabel": "2026-11-19",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Besøk fra Siren som skal snakke om diabetes, andre delen skal handle om møte med døve",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "48ab07832c9637af",
       "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
+      "dateLabel": "2026-11-26",
       "time": "14:00",
       "type": "Korpskveld",
-      "description": "PLIVO øvelse Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: PLIVO øvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "dd38e4c3dddcd226",
+      "id": "20c796181889bc42",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Jule avslutning Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: Jule avslutning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "6ff91f5564b9babf",
+      "id": "29c5df0e6c16258e",
+      "dateIso": "2026-12-06",
+      "dateLabel": "2026-12-06",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Nissefesten: Vakt bekreftet, men klokkeslett er ikke sikkert (mer info kommer)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+    },
+    {
+      "id": "e98574ebd3109fe2",
       "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
+      "dateLabel": "2026-12-10",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Må være ute eller i garasjen på grunn av jule aksjonen Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Korpskveld: Må være ute eller i garasjen på grunn av jule aksjonen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "60fffb1fd0da1b10",
+      "id": "b757f474eaf7d3c2",
       "dateIso": "2027-01-14",
-      "dateLabel": "tor. 14.1",
+      "dateLabel": "2027-01-14",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Thorbjørn Fosse, leder Hordaland røde kors kommer for å snakke om råd/styre arbeid Oppstarts korpskveld vår",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Oppstarts korpskveld vår: Thorbjørn Fosse, leder Hordaland røde kors kommer for å snakke om råd/styre arbeid",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "d377482b31db0c41",
+      "id": "2a5dc1eb0b2dc66c",
       "dateIso": "2027-05-28",
-      "dateLabel": "fre. 28.5",
+      "dateLabel": "2027-05-28",
       "time": "18:00",
       "type": "Sanitetsvakt",
-      "description": "Bekreftet Havgapfestivalen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Havgapfestivalen: Bekreftet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "281ed9d2ad3e0030",
+      "id": "17bdd9fb9790d298",
       "dateIso": "2027-05-29",
-      "dateLabel": "lør. 29.5",
-      "time": "",
+      "dateLabel": "2027-05-29",
+      "time": "00:00",
       "type": "Sanitetsvakt",
-      "description": "Havgapfestivalen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SRKH"
+      "description": "Havgapfestivalen:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     }
   ]
 }

@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-22T22:15:32+01:00",
+  "updatedAt": "2026-11-22T22:16:40+01:00",
   "organizationCount": 41,
   "helpCorpsCount": 37,
   "organizations": [
@@ -20,9 +20,9 @@
       "category": "hjelpekorps",
       "file": "A_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:05:34+01:00",
-      "eventCount": 0,
-      "updatedAt": "2026-11-15T19:20:30+01:00"
+      "checkedAt": "2026-11-22T22:16:39+01:00",
+      "eventCount": 15,
+      "updatedAt": "2026-11-22T22:16:39+01:00"
     },
     {
       "name": "Asker Røde Kors Hjelpekorps",
@@ -49,10 +49,10 @@
       "code": "Bergen RKH",
       "category": "hjelpekorps",
       "file": "Bergen_RKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 22,
-      "updatedAt": "2026-11-05T00:05:30+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:39+01:00",
+      "eventCount": 73,
+      "updatedAt": "2026-11-22T22:16:39+01:00"
     },
     {
       "name": "Brandbu Røde Kors Hjelpekorps",
@@ -69,10 +69,10 @@
       "code": "BærumRKH",
       "category": "hjelpekorps",
       "file": "B_rumRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 40,
-      "updatedAt": "2026-11-06T13:45:29+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:40+01:00",
+      "eventCount": 83,
+      "updatedAt": "2026-11-22T22:16:40+01:00"
     },
     {
       "name": "Bø og Sauherad Røde Kors Hjelpekorps",
@@ -99,10 +99,10 @@
       "code": "EHRKH",
       "category": "hjelpekorps",
       "file": "EHRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 13,
-      "updatedAt": "2026-11-06T00:00:28+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:31+01:00",
+      "eventCount": 50,
+      "updatedAt": "2026-11-22T22:16:31+01:00"
     },
     {
       "name": "Etne Røde Kors Hjelpekorps",
@@ -229,10 +229,10 @@
       "code": "Nittedal RKH",
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 24,
-      "updatedAt": "2026-11-04T21:10:30+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:32+01:00",
+      "eventCount": 103,
+      "updatedAt": "2026-11-22T22:16:32+01:00"
     },
     {
       "name": "Nordhordland Røde Kors Hjelpekorps",
@@ -279,10 +279,10 @@
       "code": "RingerikeHoleRKH",
       "category": "hjelpekorps",
       "file": "RingerikeHoleRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 12,
-      "updatedAt": "2026-11-02T20:55:44+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:36+01:00",
+      "eventCount": 26,
+      "updatedAt": "2026-11-22T22:16:36+01:00"
     },
     {
       "name": "Sarpsborg Røde Kors Hjelpekorps",
@@ -299,10 +299,10 @@
       "code": "Skedsmo RKH",
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 35,
-      "updatedAt": "2026-11-06T00:00:34+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:33+01:00",
+      "eventCount": 106,
+      "updatedAt": "2026-11-22T22:16:33+01:00"
     },
     {
       "name": "Ski Røde Kors Hjelpekorps Ambulanse",
@@ -319,30 +319,30 @@
       "code": "SkienRKH",
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 29,
-      "updatedAt": "2026-11-06T12:30:36+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:37+01:00",
+      "eventCount": 54,
+      "updatedAt": "2026-11-22T22:16:37+01:00"
     },
     {
       "name": "Sotra Røde Kors Hjelpekorps",
       "code": "SRKH",
       "category": "hjelpekorps",
       "file": "SRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 11,
-      "updatedAt": "2026-11-05T00:00:42+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:36+01:00",
+      "eventCount": 43,
+      "updatedAt": "2026-11-22T22:16:36+01:00"
     },
     {
       "name": "Steinkjer Røde Kors Hjelpekorps",
       "code": "SteinkjerRKH",
       "category": "hjelpekorps",
       "file": "SteinkjerRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 8,
-      "updatedAt": "2026-11-03T00:15:42+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:38+01:00",
+      "eventCount": 38,
+      "updatedAt": "2026-11-22T22:16:38+01:00"
     },
     {
       "name": "Tromsø Røde Kors Hjelpekorps",
@@ -359,10 +359,10 @@
       "code": "UllensakerRKH",
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 43,
-      "updatedAt": "2026-11-06T11:15:33+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:34+01:00",
+      "eventCount": 152,
+      "updatedAt": "2026-11-22T22:16:34+01:00"
     },
     {
       "name": "Vennesla Røde Kors Hjelpekorps",
@@ -389,10 +389,10 @@
       "code": "RKAB",
       "category": "ambulanse",
       "file": "RKAB.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 24,
-      "updatedAt": "2026-11-06T00:05:31+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:35+01:00",
+      "eventCount": 78,
+      "updatedAt": "2026-11-22T22:16:35+01:00"
     },
     {
       "name": "Os Røde Kors",
@@ -410,19 +410,19 @@
       "category": "bat",
       "file": "RCB.json",
       "status": "ok",
-      "checkedAt": "2026-11-22T22:00:25+01:00",
-      "eventCount": 0,
-      "updatedAt": "2026-11-06T14:30:36+01:00"
+      "checkedAt": "2026-11-22T22:16:34+01:00",
+      "eventCount": 5,
+      "updatedAt": "2026-11-22T22:16:34+01:00"
     },
     {
       "name": "Stavanger Røde Kors Omsorg",
       "code": "StvRKO",
       "category": "omsorg",
       "file": "StvRKO.json",
-      "status": "error",
-      "checkedAt": null,
-      "eventCount": 8,
-      "updatedAt": "2026-11-03T00:15:43+01:00"
+      "status": "ok",
+      "checkedAt": "2026-11-22T22:16:38+01:00",
+      "eventCount": 20,
+      "updatedAt": "2026-11-22T22:16:38+01:00"
     }
   ]
 }

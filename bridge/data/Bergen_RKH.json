@@ -7,213 +7,672 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:05:30+01:00",
-  "checkedAt": "2026-11-06T13:55:40+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH",
-  "eventCount": 22,
+  "updatedAt": "2026-11-22T22:16:39+01:00",
+  "checkedAt": "2026-11-22T22:16:39+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH",
+  "eventCount": 73,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "19a87f97a3098e0c",
-      "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
-      "time": "13:00",
+      "id": "987fb06c584c7cb2",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Brann mot molde Brann mot molde",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Brann Damer mot FK Austria Wien: Brann Damer mot FK Austria Wien",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "e3b310d1a7be90d7",
-      "dateIso": "2026-11-02",
-      "dateLabel": "man. 2.11",
+      "id": "6feb6a99f94d2ce6",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "November Mandagsmiddag og infomøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "HØST KICKOFF 2026: HØST KICKOFF 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "0933e1abf363ac05",
-      "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
-      "time": "17:30",
-      "type": "Dugnad",
-      "description": "Rydde depot",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "e485635fe2aa37bd",
-      "dateIso": "2026-11-11",
-      "dateLabel": "ons. 11.11",
+      "id": "c9c9d829af2e91a0",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
       "time": "17:00",
-      "type": "Eksterne møter",
-      "description": "Ny nasjonal veileder for redningstjenesten. Påmeldingsfrist 30. oktober for å få middag Felles fagsamling FORF i Gjensidigegården",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "1cbb5ffb6c0ed47d",
-      "dateIso": "2026-11-13",
-      "dateLabel": "fre. 13.11",
-      "time": "16:30",
-      "type": "Interne kurs",
-      "description": "Fredag Helg 1 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "93d5a1d1bb6c5742",
-      "dateIso": "2026-11-14",
-      "dateLabel": "lør. 14.11",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "Lørdag Helg 1 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "ff8ec853ef9b07c7",
-      "dateIso": "2026-11-14",
-      "dateLabel": "lør. 14.11",
-      "time": "15:00",
       "type": "Sanitetsvakt",
-      "description": "På Festplassen. Julegrantenning, konsert og julestemning Lysfesten",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Brann mot PAOK: Brann mot PAOK",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "6831b0497995fd33",
-      "dateIso": "2026-11-15",
-      "dateLabel": "søn. 15.11",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "Søndag Helg 1 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "id": "26d6b86d2c8b944d",
+      "dateIso": "2026-08-27",
+      "dateLabel": "2026-08-27",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Møte onboarding nye medlemmer : Møte onboarding nye medlemmer",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "ed8fd7c4f60ed3e4",
-      "dateIso": "2026-11-20",
-      "dateLabel": "fre. 20.11",
+      "id": "6f6c846f34f8cd29",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Minnesmerkering HMK. Harald : Minnesmarkering HMK. Harald",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "2bd0d5973e31ddf5",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "08:00",
+      "type": "Eksterne kurs",
+      "description": "Redningskonferansen:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "9d0c2ba526795254",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Skolefotballcup montessoriskolen: Sanitetsvakt fotballcup",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "b39a5cb51c1e7e64",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Matfestival: Bergen Matfestival Fredag Dag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "7ebe9d2ea1e907eb",
+      "dateIso": "2026-09-04",
+      "dateLabel": "2026-09-04",
+      "time": "15:45",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Matfestival: Bergen Matfestival Fredag Kveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "38ca8fced82cc2fa",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Matfestival: Bergen Matfestival Lørdag Dag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "f462d78c1aba35b0",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "14:45",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Matfestival: Bergen Matfestival Lørdag Kveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "2334b426e5d0479e",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
       "time": "16:30",
-      "type": "Interne kurs",
-      "description": "Fredag Helg 2 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Lillestrøm: Brann mot Lillestrøm",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "ec4a091658343ca3",
-      "dateIso": "2026-11-21",
-      "dateLabel": "lør. 21.11",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "Lørdag Helg 2 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "id": "09d0d6a2b9f3123f",
+      "dateIso": "2026-09-07",
+      "dateLabel": "2026-09-07",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Mandagsmiddag og infomøte: September",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "c864539bdaa87d2a",
-      "dateIso": "2026-11-22",
-      "dateLabel": "søn. 22.11",
-      "time": "08:30",
-      "type": "Interne kurs",
-      "description": "Søndag Helg 2 KFØR H26 Stab",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "id": "48ea980f7df892c6",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "NHH bankett: NHH bankett, karrieredagene",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "2e4bef56a70e71ff",
-      "dateIso": "2026-11-23",
-      "dateLabel": "man. 23.11",
+      "id": "cdb57f99fb8a1a81",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen city Milen : Bergen City Milen 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "dd519c4b2421df50",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "07:00",
+      "type": "Aktivitet",
+      "description": "Brannøvelse Bergen Fengsel: Markør",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "37acfb71287a8877",
+      "dateIso": "2026-09-18",
+      "dateLabel": "2026-09-18",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen opp, PWC: Stoltzen opp, bedriftsarrangement PWC",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "9c2745dab2183760",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "17:45",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Bodø/Glimt: Brann mot Bodø/Glimt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "c0a4284c27e9a5a2",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "07:15",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen opp Varegg: stoltzen opp varegg fredag dag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "005c5f39ecec26c4",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen opp Varegg: Stoltzen opp varegg fredag kveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "a00133102cc884a9",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "21:30",
+      "type": "Sanitetsvakt",
+      "description": "NHH Konsert og kjellerfest: NHH Konsert og kjellerfest",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "23090744eb3a6cf9",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "07:15",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen opp Varegg: Stoltzen opp Lørdag dag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "749548bf6c7f8f01",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "09:15",
+      "type": "Sanitetsvakt",
+      "description": "Teknas Veldedighetsløp: Teknas Veldedighetsløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "ea66528908f38869",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen opp Varegg: Stoltzen opp lørdag kveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "b338badc7bfb2bc8",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "20:30",
+      "type": "Sanitetsvakt",
+      "description": "NHH Konsert og kjellerfest: NHH Kjellerfest",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "02a88ddeef3e1b8d",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "13:30",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe løpet: Rosa Sløyfe løpet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "1b2e6d2fc5c24fc2",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
       "time": "17:00",
       "type": "Øvelse",
-      "description": "øvelse tauredning Øvelse tauredning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Tauredning: Øvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "30a090bcd5b8fe7e",
-      "dateIso": "2026-11-24",
-      "dateLabel": "tir. 24.11",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "Korpskveld tauredning og nye veilederen Korpskveld tauredning og nye veilederen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "20318003ba145d44",
-      "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
-      "time": "16:45",
+      "id": "1a2c48720b1337ef",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Brann mot AGF Aarhus Brann mot AGF Aarhus",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Brann damer mot HJK Helsinki :",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "5cebb63ccae1855b",
-      "dateIso": "2026-11-29",
-      "dateLabel": "søn. 29.11",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Brann mot Kristiansund Brann mot Kristiansund",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "2cab265aee4acb0d",
-      "dateIso": "2026-12-04",
-      "dateLabel": "fre. 4.12",
-      "time": "17:00",
-      "type": "Beredskap",
-      "description": "Brannøvelse og slokking med VR Brannteori og brannøvelse med slokkeutstyr",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "fe28994dd64f45e1",
-      "dateIso": "2026-12-05",
-      "dateLabel": "lør. 5.12",
-      "time": "-> 20:00",
-      "type": "Beredskap",
-      "description": "Brannøvelse og slokking med VR Brannteori og brannøvelse med slokkeutstyr",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "c075c61aabc79cd2",
-      "dateIso": "2026-12-05",
-      "dateLabel": "lør. 5.12",
-      "time": "18:00",
-      "type": "Aktivitet",
-      "description": "Sted: Kalfarveien 79 Årsfest for 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "95198b85cb2ec237",
-      "dateIso": "2026-12-06",
-      "dateLabel": "søn. 6.12",
-      "time": "-> 02:00",
-      "type": "Aktivitet",
-      "description": "Sted: Kalfarveien 79 Årsfest for 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
-    },
-    {
-      "id": "63db7ecdc6cdbefa",
-      "dateIso": "2026-12-07",
-      "dateLabel": "man. 7.12",
+      "id": "5760a568159946c1",
+      "dateIso": "2026-10-05",
+      "dateLabel": "2026-10-05",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Desember Mandagsmiddag og infomøte",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Mandagsmiddag og infomøte: Oktober",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "03841ff5e155c26d",
-      "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
+      "id": "2b40550872256851",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Motbakkeløp Ulriken Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "3f83997207fe2d99",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Åsane Arena tidleg Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "10a4bd4b8eb7cbb8",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Åsane Arena sein Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "0aa4f99dba067cf0",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Åsane Arena sein Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "49e66f7f97c86b0a",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: DDE-konsert trekanttomta Torsdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "9ab2beff0d81dce3",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Ado Arena halvmarathon Fredag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "433f000427aefd87",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Viking: Brann mot Viking",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "e44fde25b9dc57d1",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Åsane Arena Laurdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "b3924774803245b3",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Rollandsbanen Laurdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "89245c411fbae040",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Bankett Grieghallen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "9ca2b98787a819e3",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Lincoln Red Imps: Brann mot Lincoln Red Imps",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "4a81cce2b4d9a5c8",
+      "dateIso": "2026-10-16",
+      "dateLabel": "2026-10-16",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "NHH Show og kjellerfest: NHH Show og kjellerfest",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "176d1af870e28871",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "08:45",
+      "type": "Interne kurs",
+      "description": "KSAM dag 1: Stab KSAM",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "716b3d080a25d1ba",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "10:00",
+      "type": "Dugnad",
+      "description": "Dugnad Føykely: Tømme pant og boss, ta ned stillas og se over hytten",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "68f4526a8a14f607",
+      "dateIso": "2026-10-18",
+      "dateLabel": "2026-10-18",
+      "time": "08:45",
+      "type": "Interne møter",
+      "description": "KSAM dag 2: KSAM Stab",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "7debc6fe1c277e59",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSOR Teori dag 1: KSOR Teori dag 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "815844fbb2daf3d3",
+      "dateIso": "2026-10-21",
+      "dateLabel": "2026-10-21",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSOR Teori dag 2: KSOR Teori dag 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "4f7a7821c1dcc8a8",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSOR - Fredag: KSOR Fredag -Veileder",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "8a3fd4e8f4d00ef9",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KSOR Lørdag: KSOR Lørdag - Veileder",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "dc84eba5ef4a9040",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "09:15",
+      "type": "Sanitetsvakt",
+      "description": "Fremming av sjåføryrket ved Tide: Fremming av sjåføryrket",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "3e05a9606519e23a",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Challenge: Avslutningsfest for funksjonærane på NHH",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "bc716f9ee10c3fe2",
+      "dateIso": "2026-10-25",
+      "dateLabel": "2026-10-25",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KSOR søndag: KSOR søndag - Veileder",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "d8d73a27ceac280d",
+      "dateIso": "2026-10-28",
+      "dateLabel": "2026-10-28",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann damer mot KKS Czarni Sosnowiec: Brann damer mot KKS Czarni Sosnowiec",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "ce9e25ac06e15845",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Nightrun Bergen: Nightrun Bergen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "bc64156c2ac4173b",
+      "dateIso": "2026-11-01",
+      "dateLabel": "2026-11-01",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot molde: Brann mot molde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "46f0c913ec5fe725",
+      "dateIso": "2026-11-02",
+      "dateLabel": "2026-11-02",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Mandagsmiddag og infomøte: November",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "002afa9295dfd143",
+      "dateIso": "2026-11-05",
+      "dateLabel": "2026-11-05",
+      "time": "17:30",
+      "type": "Dugnad",
+      "description": "Rydde depot:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "b82109635cf3371d",
+      "dateIso": "2026-11-11",
+      "dateLabel": "2026-11-11",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Felles fagsamling FORF i Gjensidigegården: Ny nasjonal veileder for redningstjenesten. Påmeldingsfrist 30. oktober for å få middag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "6fc6efe7da2aaf75",
+      "dateIso": "2026-11-13",
+      "dateLabel": "2026-11-13",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Fredag Helg 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "3709c5d6018e12cd",
+      "dateIso": "2026-11-14",
+      "dateLabel": "2026-11-14",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Lørdag Helg 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "7317804f139da5a1",
+      "dateIso": "2026-11-14",
+      "dateLabel": "2026-11-14",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Lysfesten: På Festplassen. Julegrantenning, konsert og julestemning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "fdbc41f194f55868",
+      "dateIso": "2026-11-15",
+      "dateLabel": "2026-11-15",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Søndag Helg 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "36d9d9189fcf39fb",
+      "dateIso": "2026-11-20",
+      "dateLabel": "2026-11-20",
+      "time": "16:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Fredag Helg 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "84fb232e9ff41cff",
+      "dateIso": "2026-11-21",
+      "dateLabel": "2026-11-21",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Lørdag Helg 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "3ea47c72a1cd5b26",
+      "dateIso": "2026-11-22",
+      "dateLabel": "2026-11-22",
+      "time": "08:30",
+      "type": "Interne kurs",
+      "description": "KFØR H26 Stab: Søndag Helg 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "7c32e27ca0d2cd83",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Korpskveld tauredning og nye veilederen: Korpskveld tauredning og nye veilederen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "e00633c3012df148",
+      "dateIso": "2026-11-26",
+      "dateLabel": "2026-11-26",
       "time": "16:45",
       "type": "Sanitetsvakt",
-      "description": "Brann mot Braga Brann mot Braga",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Brann mot AGF Aarhus: Brann mot AGF Aarhus",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     },
     {
-      "id": "e46d89e7454254b0",
-      "dateIso": "2026-12-13",
-      "dateLabel": "søn. 13.12",
+      "id": "75097133e3e61f20",
+      "dateIso": "2026-11-29",
+      "dateLabel": "2026-11-29",
       "time": "15:30",
       "type": "Sanitetsvakt",
-      "description": "Brann mot Aalesund Brann mot Aalesund",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=Bergen+RKH"
+      "description": "Brann mot Kristiansund: Brann mot Kristiansund",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "68113560a4e44ad6",
+      "dateIso": "2026-12-05",
+      "dateLabel": "2026-12-05",
+      "time": "18:00",
+      "type": "Aktivitet",
+      "description": "Årsfest for 2026: Sted: Kalfarveien 79",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "ff68ecb64111cd9f",
+      "dateIso": "2026-12-07",
+      "dateLabel": "2026-12-07",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Mandagsmiddag og infomøte: Desember",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "142bf442b39b74b3",
+      "dateIso": "2026-12-10",
+      "dateLabel": "2026-12-10",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Braga: Brann mot Braga",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "9ec95de0222d003f",
+      "dateIso": "2026-12-11",
+      "dateLabel": "2026-12-11",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "DHLR-instruktørkurs: Kursdeltakere og stab",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "bcb4981e00ec522a",
+      "dateIso": "2026-12-12",
+      "dateLabel": "2026-12-12",
+      "time": "11:00",
+      "type": "Interne kurs",
+      "description": "Regodkjenning: Sensor og markør til regodkjenning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "d896016e7b86df8b",
+      "dateIso": "2026-12-13",
+      "dateLabel": "2026-12-13",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Brann mot Aalesund: Brann mot Aalesund",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     }
   ]
 }

@@ -7,87 +7,195 @@
     "category": "omsorg"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:15:43+01:00",
-  "checkedAt": "2026-11-06T14:10:31+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO",
-  "eventCount": 8,
+  "updatedAt": "2026-11-22T22:16:38+01:00",
+  "checkedAt": "2026-11-22T22:16:38+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO",
+  "eventCount": 20,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "2e607cba5df25fd5",
+      "id": "8642b4213fd16936",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "ab68a65513bae55b",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "09:00",
+      "type": "Aktivitet",
+      "description": "Båttur med Caroline of Sandnes: Båttur med Caroline of Sandnes",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "2cdfdbebd3a2a5a8",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "d069b69f933a751f",
+      "dateIso": "2026-09-08",
+      "dateLabel": "2026-09-08",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "d893b87d2d87d88c",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "8cb05451ca82f9f2",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "8d67c5fcec0e04fa",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "16:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "31a30bceb6da46c2",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "52c425983b928249",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "16:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "ddf483b8a8b8c783",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Planleggingsmøte for frivillige: Planleggingsmøte for frivillige",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "8c50717d7e4edb95",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "fdd9fe6b57cfbfb5",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "17:00",
+      "type": "Aktivitet",
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+    },
+    {
+      "id": "d639bccdbdbda9b5",
       "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
+      "dateLabel": "2026-11-03",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "0ee84664f6637330",
+      "id": "d6c6eac6b79b0cd7",
       "dateIso": "2026-11-10",
-      "dateLabel": "tir. 10.11",
-      "time": "17:00",
+      "dateLabel": "2026-11-10",
+      "time": "16:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "bdc6bbe94141356a",
+      "id": "658e008f53bea5a4",
       "dateIso": "2026-11-17",
-      "dateLabel": "tir. 17.11",
+      "dateLabel": "2026-11-17",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "d6bb189fb9caa7b6",
+      "id": "33145b0c43abb514",
       "dateIso": "2026-11-24",
-      "dateLabel": "tir. 24.11",
+      "dateLabel": "2026-11-24",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "b804466a8a996d5f",
+      "id": "7cb42c3688c76e7b",
       "dateIso": "2026-12-01",
-      "dateLabel": "tir. 1.12",
+      "dateLabel": "2026-12-01",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "97d2aa2db689f87e",
+      "id": "ed5d8b17aa6d2142",
       "dateIso": "2026-12-08",
-      "dateLabel": "tir. 8.12",
+      "dateLabel": "2026-12-08",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "b496437a209782c6",
+      "id": "f6c7f8d41539c7af",
       "dateIso": "2026-12-15",
-      "dateLabel": "tir. 15.12",
+      "dateLabel": "2026-12-15",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     },
     {
-      "id": "f51dc2ba6e4da7ba",
+      "id": "abd7ad9ffe1597e1",
       "dateIso": "2026-12-22",
-      "dateLabel": "tir. 22.12",
+      "dateLabel": "2026-12-22",
       "time": "17:00",
       "type": "Aktivitet",
-      "description": "Aktivitet tilknyttet barnebasen Aktivitet tilknyttet barnebasen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=StvRKO"
+      "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
     }
   ]
 }

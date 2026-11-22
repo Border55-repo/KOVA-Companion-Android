@@ -7,123 +7,249 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-02T20:55:44+01:00",
-  "checkedAt": "2026-11-06T14:10:30+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH",
-  "eventCount": 12,
+  "updatedAt": "2026-11-22T22:16:36+01:00",
+  "checkedAt": "2026-11-22T22:16:36+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH",
+  "eventCount": 26,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
-      "id": "e410b3f5493cbfed",
-      "dateIso": "2026-11-02",
-      "dateLabel": "man. 2.11",
+      "id": "7c05726f0a9f82e4",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Førstehjelp: Tema Kommer! Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
     },
     {
-      "id": "7f222fc19b9c5888",
-      "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
+      "id": "5d80e755e6f8d6b9",
+      "dateIso": "2026-09-07",
+      "dateLabel": "2026-09-07",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Tema Kommer! Vannredningskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      "description": "Korpskveld: Samband: Faks kurs",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
     },
     {
-      "id": "4f8635443eb86777",
-      "dateIso": "2026-11-16",
-      "dateLabel": "man. 16.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Søk og Redning: Tema Kommer! Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "4fb2ff6925b1e3e6",
-      "dateIso": "2026-11-23",
-      "dateLabel": "man. 23.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Tema Kommer! Vannredningskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "f9040c8a78e2561d",
-      "dateIso": "2026-11-30",
-      "dateLabel": "man. 30.11",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Førstehjelp: DHLR Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "366467f53af5ca78",
-      "dateIso": "2026-12-07",
-      "dateLabel": "man. 7.12",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Tema Kommer! Vannredningskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "a38336552fe41bc0",
-      "dateIso": "2026-12-14",
-      "dateLabel": "man. 14.12",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Juleavslutning Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "ab2b95b693062471",
-      "dateIso": "2027-02-13",
-      "dateLabel": "lør. 13.2",
-      "time": "07:00",
-      "type": "Sanitetsvakt",
-      "description": "Sanitet for Grenaderløpet 2027 Grenaderløpet",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "28a86fd93b9c7187",
-      "dateIso": "2027-02-20",
-      "dateLabel": "lør. 20.2",
-      "time": "07:00",
-      "type": "Sanitetsvakt",
-      "description": "Sanitet for Holmekollmarsjen 2027 Holmekollmarsjen",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "0e911421ee55feae",
-      "dateIso": "2027-05-22",
-      "dateLabel": "lør. 22.5",
-      "time": "10:30",
-      "type": "Sanitetsvakt",
-      "description": "Mosjonløp Schjongs5er'n",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "3fbc15f1f55a8c7f",
-      "dateIso": "2027-06-19",
-      "dateLabel": "lør. 19.6",
-      "time": "09:00",
-      "type": "Sanitetsvakt",
-      "description": "Hinderbaneløp Chicken Race/Bootcamp",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
-    },
-    {
-      "id": "c06e80158e7e0597",
-      "dateIso": "2027-08-22",
-      "dateLabel": "søn. 22.8",
+      "id": "75853c9a7108d1ed",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
       "time": "10:00",
       "type": "Sanitetsvakt",
-      "description": "Skogsløp Vikerfjell Challenge",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RingerikeHoleRKH"
+      "description": "Veteranløp Orientering Dag 1: Sanitet under orienteringsløp på Løvlia",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "a80bc327f47256fa",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Veteranløp Orientering Dag 2: Sanitet under orienteringsløp på Løvlia",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "76544a1a08d448e4",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "71fc22b129690428",
+      "dateIso": "2026-09-21",
+      "dateLabel": "2026-09-21",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp: Ferdighetstrening basisferdigheter (ute)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "a8bfa3419206d67c",
+      "dateIso": "2026-09-23",
+      "dateLabel": "2026-09-23",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "Elvelangs: Sanitet og sikkerhet ved arrangementet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "926c61d5f0058e77",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "a9c02d6df186c8f5",
+      "dateIso": "2026-10-05",
+      "dateLabel": "2026-10-05",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Søk og Redning: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "c359f7ca10acebe9",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe Løpet: Sanitet og sikkerhet ved arrangementet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "9ec4bd1587a2393d",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "68943fad5d241d3a",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Hytteplanmila: Gateløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "63a7a14270c6ba8e",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Samband: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "124c48e650010b44",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Vedlikehold båt og utstyr",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "5a3bb40d26cb187c",
+      "dateIso": "2026-11-02",
+      "dateLabel": "2026-11-02",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "6acf123bab19523e",
+      "dateIso": "2026-11-09",
+      "dateLabel": "2026-11-09",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "962df4079dd56776",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Søk og Redning: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "6b212871755129ec",
+      "dateIso": "2026-11-23",
+      "dateLabel": "2026-11-23",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "5a50b21c4e45c2f9",
+      "dateIso": "2026-11-30",
+      "dateLabel": "2026-11-30",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Førstehjelp: DHLR",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "39420ee6cdd45137",
+      "dateIso": "2026-12-07",
+      "dateLabel": "2026-12-07",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Vannredningskveld: Tema Kommer!",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "bf639980a82e48ac",
+      "dateIso": "2026-12-14",
+      "dateLabel": "2026-12-14",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: Juleavslutning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "711d03e9f77c7951",
+      "dateIso": "2027-02-13",
+      "dateLabel": "2027-02-13",
+      "time": "07:00",
+      "type": "Sanitetsvakt",
+      "description": "Grenaderløpet: Sanitet for Grenaderløpet 2027",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "24e6643e28f71a6a",
+      "dateIso": "2027-02-20",
+      "dateLabel": "2027-02-20",
+      "time": "07:00",
+      "type": "Sanitetsvakt",
+      "description": "Holmekollmarsjen: Sanitet for Holmekollmarsjen 2027",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "ca47a8aae8623f92",
+      "dateIso": "2027-05-22",
+      "dateLabel": "2027-05-22",
+      "time": "10:30",
+      "type": "Sanitetsvakt",
+      "description": "Schjongs5er'n: Mosjonløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "eb5366000c862b2a",
+      "dateIso": "2027-06-19",
+      "dateLabel": "2027-06-19",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Chicken Race/Bootcamp: Hinderbaneløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+    },
+    {
+      "id": "c4abecd96bf5ede8",
+      "dateIso": "2027-08-22",
+      "dateLabel": "2027-08-22",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Vikerfjell Challenge: Skogsløp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
     }
   ]
 }

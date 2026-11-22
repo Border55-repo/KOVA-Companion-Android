@@ -7,87 +7,357 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-03T00:15:42+01:00",
-  "checkedAt": "2026-11-06T14:10:31+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH",
-  "eventCount": 8,
+  "updatedAt": "2026-11-22T22:16:38+01:00",
+  "checkedAt": "2026-11-22T22:16:38+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH",
+  "eventCount": 38,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "9e9f698a8d475ba4",
-      "dateIso": "2026-11-02",
-      "dateLabel": "man. 2.11",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Korpskveld 35 Korpskveld 35",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "id": "f026bb789e019bf8",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "07:00",
+      "type": "Eksterne kurs",
+      "description": "Eksternkurs - Saxvik: Førstehjelpekurs Pensjonistforeningen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "a4eb9494869ef3e6",
+      "id": "7457573008f2526a",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "10:00",
+      "type": "Aktivitet",
+      "description": "Barnas skogdag: Barnas Skogdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "37064227db86785b",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "17:00",
+      "type": "Eksterne møter",
+      "description": "Nabomøte: Nabomøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "87e61ab023e9a83f",
+      "dateIso": "2026-09-07",
+      "dateLabel": "2026-09-07",
+      "time": "18:00",
+      "type": "Rådsmøte",
+      "description": "Ekstraordinært valgmøte 2026 og rådsmøte nr7: Ekstraordinært valgmøte 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "1ebfdaa1fc9ea32e",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "09:00",
+      "type": "Interne kurs",
+      "description": "Opplæringssamling 2026: Opplæringssamling 2026",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "684d47ed6a5e9099",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 28: Korpskveld 28",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "2dac0d509786c6a7",
+      "dateIso": "2026-09-21",
+      "dateLabel": "2026-09-21",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 29: Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "d92fc7e4ee767f3f",
+      "dateIso": "2026-09-24",
+      "dateLabel": "2026-09-24",
+      "time": "16:00",
+      "type": "Interne kurs",
+      "description": "Grunnkurs Psykososial Førstehjelp:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "b24ab53f313cb6a7",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "07:00",
+      "type": "Interne kurs",
+      "description": "Kursholderkurs Tør du å lytte: Kursholderkurs Tør du å lytte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "6a87616e0ffbcd49",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Steinkjer Skogmaraton: Steinkjer Skogmaraton, oppmøte RK huset 12:00",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "1d77b73e63c04a07",
+      "dateIso": "2026-09-28",
+      "dateLabel": "2026-09-28",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 30: Korpskveld 30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "4da8e21abd756aa3",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "12:00",
+      "type": "Interne møter",
+      "description": "Beredskapsutvalget 1: Beredskapsutvalget 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "c9479672cb0f4bc9",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "00:00",
+      "type": "Dugnad",
+      "description": "Dugnad - Oktober: Dugnad - Generelt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "2619560d099f0f88",
+      "dateIso": "2026-10-05",
+      "dateLabel": "2026-10-05",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 31: Korpskveld 31",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "529e7b5afff9e9f3",
+      "dateIso": "2026-10-07",
+      "dateLabel": "2026-10-07",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Pensjonistforeningen: Førstehjelpekurs Pensjonistforeningen",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "25a93d564b5b6a6c",
+      "dateIso": "2026-10-07",
+      "dateLabel": "2026-10-07",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSAM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "6477ea90a4bd5daa",
+      "dateIso": "2026-10-08",
+      "dateLabel": "2026-10-08",
+      "time": "17:00",
+      "type": "Dugnad",
+      "description": "Dugnad - Dekkskifte: Dugnad - Dekkskifte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "b48ee2cc8317209f",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "10:00",
+      "type": "Interne kurs",
+      "description": "Videregående Psykososial Førstehjelp:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "8bd4c950d2ff2286",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "00:30",
+      "type": "Dugnad",
+      "description": "Dugnad - Oktober: Dugnad - Generelt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "d7c5726de51c65ca",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "15:00",
+      "type": "Rådsmøte",
+      "description": "Lokalrådsmøte 8: Rådsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "093ee9a19fb33ec7",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "16:00",
+      "type": "Rådsmøte",
+      "description": "Lokalrådsmøte 8:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "73112151052f3318",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "17:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 32: Korpskveld 32",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "914f6da42e3272d6",
+      "dateIso": "2026-10-13",
+      "dateLabel": "2026-10-13",
+      "time": "17:00",
+      "type": "Forebygging",
+      "description": "Ivaretakelse av hjelperen:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "07e4dc69e66519f1",
+      "dateIso": "2026-10-19",
+      "dateLabel": "2026-10-19",
+      "time": "16:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 33: Korpskveld 33",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "62fcb1143cc16f0c",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "17:00",
+      "type": "Interne kurs",
+      "description": "KSOR Barmark: Deltakere",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "769ca359bbffdfb6",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 34: Korpskveld 34",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "692470f1e0c7513c",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "15:00",
+      "type": "Beredskapsvakt",
+      "description": "Beredskapskveld: Standing",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "b9d8b738a5ff8e01",
+      "dateIso": "2026-11-02",
+      "dateLabel": "2026-11-02",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld 35: Korpskveld 35",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "9da4dca2c91bbfde",
       "dateIso": "2026-11-05",
-      "dateLabel": "tor. 5.11",
+      "dateLabel": "2026-11-05",
       "time": "16:00",
       "type": "Sanitetsvakt",
-      "description": "Hilmar Hilmarfestivalen 2026",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Hilmarfestivalen 2026: Hilmar",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "b062ea3ce84cddb9",
+      "id": "2f52ff31e05baec0",
       "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
+      "dateLabel": "2026-11-09",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 36 Korpskveld 36",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 36: Korpskveld 36",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "a3477f6330bac7dd",
+      "id": "312bda80b6f84d28",
       "dateIso": "2026-11-16",
-      "dateLabel": "man. 16.11",
+      "dateLabel": "2026-11-16",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 37 Korpskveld 37",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 37: Korpskveld 37",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "034528b6e4905e95",
+      "id": "26509b54ce963208",
+      "dateIso": "2026-11-20",
+      "dateLabel": "2026-11-20",
+      "time": "16:00",
+      "type": "Aktivitet",
+      "description": "Snåsasamling 2026: Snåsagæng",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "71fe91a38ea23f9e",
       "dateIso": "2026-11-23",
-      "dateLabel": "man. 23.11",
+      "dateLabel": "2026-11-23",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 38 Korpskveld 38",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 38: Korpskveld 38",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "dcf0441d13ef54aa",
+      "id": "7ddd67e339025501",
       "dateIso": "2026-11-30",
-      "dateLabel": "man. 30.11",
+      "dateLabel": "2026-11-30",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 39 Korpskveld 39",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 39: Korpskveld 39",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "a8b33586601ac3e9",
+      "id": "4a326e8b712fcf9c",
       "dateIso": "2026-12-07",
-      "dateLabel": "man. 7.12",
+      "dateLabel": "2026-12-07",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 40 Korpskveld 40",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 40: Korpskveld 40",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     },
     {
-      "id": "4a436f610143c967",
+      "id": "7763f3afe3de23b3",
       "dateIso": "2026-12-14",
-      "dateLabel": "man. 14.12",
+      "dateLabel": "2026-12-14",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld 41 Korpskveld 41",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=SteinkjerRKH"
+      "description": "Korpskveld 41: Korpskveld 41",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "99966484069d8970",
+      "dateIso": "2026-12-18",
+      "dateLabel": "2026-12-18",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "Nattcup 2026: Vakt 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+    },
+    {
+      "id": "3df252eb194b70f8",
+      "dateIso": "2026-12-19",
+      "dateLabel": "2026-12-19",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "Nattcup 2026: Vakt 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
     }
   ]
 }

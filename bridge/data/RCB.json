@@ -7,14 +7,60 @@
     "category": "bat"
   },
   "status": "ok",
-  "updatedAt": "2026-11-06T14:30:36+01:00",
-  "checkedAt": "2026-11-22T22:00:25+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=RCB",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:16:34+01:00",
+  "checkedAt": "2026-11-22T22:16:34+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB",
+  "eventCount": 5,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "59672a7c4f7adf80",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB"
+    },
+    {
+      "id": "8fbe2d47902c3e1b",
+      "dateIso": "2026-09-30",
+      "dateLabel": "2026-09-30",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB"
+    },
+    {
+      "id": "b41ac736ffe0f390",
+      "dateIso": "2026-10-28",
+      "dateLabel": "2026-10-28",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB"
+    },
+    {
+      "id": "4853ce32ee408353",
+      "dateIso": "2026-11-25",
+      "dateLabel": "2026-11-25",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB"
+    },
+    {
+      "id": "c2e4a4268987a8f1",
+      "dateIso": "2026-12-30",
+      "dateLabel": "2026-12-30",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Månedlig FS-møte på Teams:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RCB"
+    }
+  ]
 }
