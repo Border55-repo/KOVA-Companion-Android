@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:30:37+01:00",
-  "checkedAt": "2026-11-22T23:55:35+01:00",
+  "updatedAt": "2026-11-23T00:15:41+01:00",
+  "checkedAt": "2026-11-23T00:15:41+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH",
-  "eventCount": 59,
+  "eventCount": 57,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "cbff8ede8953a9d8",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Familiedag Drøbak skatepark: Drøbak skatepark",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
-    },
-    {
-      "id": "4c01f373e3ca50df",
-      "dateIso": "2026-08-25",
-      "dateLabel": "2026-08-25",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Korpskveld : Korpskveld - Førstehjelp",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
-    },
     {
       "id": "6084fb7a3e310a6b",
       "dateIso": "2026-08-29",

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "19863255de6db6e2ab9e1875",
+      "observedAt": "2026-11-23T00:15:41+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "cbff8ede8953a9d8",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Familiedag Drøbak skatepark: Drøbak skatepark",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+      }
+    },
+    {
+      "changeId": "df090f5a68843a82b1385387",
+      "observedAt": "2026-11-23T00:15:41+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4c01f373e3ca50df",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld : Korpskveld - Førstehjelp",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "bfbbeb6e80b181941da73e24",
       "observedAt": "2026-11-05T00:15:36+01:00",
       "organization": "VÅRKH",
@@ -881,5 +911,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:15:36+01:00"
+  "updatedAt": "2026-11-23T00:15:41+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e2c2c70ac0ec6ae84f040341",
+      "observedAt": "2026-11-23T00:15:36+01:00",
+      "organization": "StvRKO",
+      "kind": "removed",
+      "event": {
+        "id": "8642b4213fd16936",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "17:00",
+        "type": "Aktivitet",
+        "description": "Aktivitet tilknyttet barnebasen: Aktivitet tilknyttet barnebasen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=StvRKO"
+      }
+    },
+    {
       "changeId": "f34fbc8851ebfc2afe7fb620",
       "observedAt": "2026-11-03T00:15:43+01:00",
       "organization": "StvRKO",
@@ -122,5 +137,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-03T00:15:43+01:00"
+  "updatedAt": "2026-11-23T00:15:36+01:00"
 }
