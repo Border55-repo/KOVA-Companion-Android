@@ -1,4 +1,5 @@
 import {requestDispatch,verifyConnection} from './dispatch.js';
+import {latestCalendarCheck} from './calendar-status.js';
 const DATA_BASE="https://raw.githubusercontent.com/Border55-repo/KOVA-Companion-Android/main/bridge/data";
 const ADMIN_EMAIL="superuser@kova-companion.local";
 const $=id=>document.getElementById(id);
@@ -248,7 +249,7 @@ async function loadOrganizations(){
       status:org.status||"unknown",
       eventCount:Number(org.eventCount||0),
       updatedAt:org.updatedAt||"",
-      lastCheckedAt:"",
+      lastCheckedAt:org.checkedAt||"",
       error:null
     }))
   };
@@ -309,16 +310,11 @@ async function fetchDashboard(){
 
   const runtime=runtimeSnap.exists()?runtimeSnap.data():null;
   const checks=Object.values(runtime?.organizationChecks||{});
-  const checkByCode=new Map(checks.map(item=>[item.code,item]));
-  currentOrgRows=orgData.rows.map(row=>{
-    const check=checkByCode.get(row.code);
-    return {
-      ...row,
-      lastCheckedAt:check?.checkedAt||"",
-      error:check?.error||null,
-      status:check?.status==="error"?"error":row.status
-    };
-  }).sort((a,b)=>a.name.localeCompare(b.name,"nb"));
+  const runtimeByCode=new Map(checks.map(item=>[item.code,item]));
+  const healthByCode=new Map((health.organizations||[]).map(item=>[item.code,item]));
+  currentOrgRows=orgData.rows.map(row=>latestCalendarCheck(
+    row, healthByCode.get(row.code), runtimeByCode.get(row.code)
+  )).sort((a,b)=>a.name.localeCompare(b.name,"nb"));
   renderOrgRows();
   const selectedAudience=$("audienceOrg").value;
   $("audienceOrg").replaceChildren(...currentOrgRows.map(row=>{const option=document.createElement('option');option.value=row.code;option.textContent=row.name;return option}));
@@ -326,8 +322,8 @@ async function fetchDashboard(){
   const announcement=announcementSnap.exists()?announcementSnap.data():null;
   renderSystemHealth(runtime,announcement);
   $("lastSuccessfulSync").textContent=fmt(health.lastFullySuccessfulRunAt);
-  const issues=currentOrgRows.filter(row=>row.status==='error'||ageMinutes(row.lastCheckedAt)>35);
-  $("actionRequired").textContent=issues.length?`${issues.length} korps trenger kontroll. Se korpsstatus nedenfor.`:'Ingen korpsfeil eller forsinkede kontroller registrert.';
+  const fresh=currentOrgRows.filter(row=>row.status==="ok"&&ageMinutes(row.lastCheckedAt)<=35).length;
+  $("actionRequired").textContent=`${fresh} av ${currentOrgRows.length} hjelpekorps synket de siste 35 minuttene. Se korpsstatus nedenfor.`;
 
   const enabled=[...pushSnap.docs].filter(d=>d.data().enabled!==false).length;
   const totalEvents=currentOrgRows.reduce((sum,row)=>sum+row.eventCount,0);
