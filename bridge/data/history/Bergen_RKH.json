@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7798728a622e826f70c768c1",
+      "observedAt": "2026-11-23T00:00:38+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "987fb06c584c7cb2",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann Damer mot FK Austria Wien: Brann Damer mot FK Austria Wien",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "7c250d00ded33f7f9a00be9e",
       "observedAt": "2026-11-05T00:05:30+01:00",
       "organization": "Bergen RKH",
@@ -1388,5 +1403,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:05:30+01:00"
+  "updatedAt": "2026-11-23T00:00:38+01:00"
 }

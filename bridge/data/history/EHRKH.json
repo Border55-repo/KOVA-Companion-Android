@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "bf96f5471ec0388a4c4aa610",
+      "observedAt": "2026-11-23T00:00:29+01:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0278da07f4a5774c",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Medlemsmøte: Dugnad",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "7ddc69e92f0200c48c34d8db",
       "observedAt": "2026-11-06T00:00:28+01:00",
       "organization": "EHRKH",
@@ -1037,5 +1052,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T00:00:28+01:00"
+  "updatedAt": "2026-11-23T00:00:29+01:00"
 }

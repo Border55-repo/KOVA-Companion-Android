@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9c4ee7ff1eba2cd52ef72c4f",
+      "observedAt": "2026-11-23T00:00:36+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "d440e5947b57f057",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Idrettskade",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "2435dd961d987ab93c13474d",
       "observedAt": "2026-11-06T11:15:33+01:00",
       "organization": "UllensakerRKH",
@@ -2267,5 +2282,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T11:15:33+01:00"
+  "updatedAt": "2026-11-23T00:00:36+01:00"
 }

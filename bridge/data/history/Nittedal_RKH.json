@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6a2545bcaf9814bdef11c5e8",
+      "observedAt": "2026-11-23T00:00:32+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "5abb98a4aa158d51",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "18:30",
+        "type": "Interne kurs",
+        "description": "Kurs: Startkurs for nye frivillige: For hele lokalforeningen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "cd38c4cd6d38f808df8fea7a",
       "observedAt": "2026-11-04T21:10:30+01:00",
       "organization": "Nittedal RKH",
@@ -1457,5 +1472,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T21:10:30+01:00"
+  "updatedAt": "2026-11-23T00:00:32+01:00"
 }

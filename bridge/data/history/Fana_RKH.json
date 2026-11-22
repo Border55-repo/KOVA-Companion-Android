@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e28d4df2e080a5fd89211758",
+      "observedAt": "2026-11-23T00:00:42+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "315ee50cca8783b0",
+        "dateIso": "2026-08-25",
+        "dateLabel": "2026-08-25",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - SYKKEL - BONTVEIT OPP - TIRSDAG 25.08.: SANITETSVAKT - SYKKEL - BONTVEIT OPP - TIRSDAG 25.08.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "f1e6953ef39b42ab7a24056a",
       "observedAt": "2026-11-04T15:35:30+01:00",
       "organization": "Fana RKH",
@@ -950,5 +965,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T15:35:30+01:00"
+  "updatedAt": "2026-11-23T00:00:42+01:00"
 }
