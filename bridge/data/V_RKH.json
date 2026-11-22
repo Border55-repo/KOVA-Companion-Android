@@ -7,177 +7,546 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:15:36+01:00",
-  "checkedAt": "2026-11-06T14:05:34+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH",
-  "eventCount": 18,
+  "updatedAt": "2026-11-22T22:30:37+01:00",
+  "checkedAt": "2026-11-22T22:30:37+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH",
+  "eventCount": 59,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "0983b2509da4f2fe",
+      "id": "cbff8ede8953a9d8",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Familiedag Drøbak skatepark: Drøbak skatepark",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "4c01f373e3ca50df",
+      "dateIso": "2026-08-25",
+      "dateLabel": "2026-08-25",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "6084fb7a3e310a6b",
+      "dateIso": "2026-08-29",
+      "dateLabel": "2026-08-29",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Oscarsborgdagen: Oscarsborgdagen for Barnekreftforeninga",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "b4338d2c7fdebe20",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "72f0526c90f0e45a",
+      "dateIso": "2026-09-01",
+      "dateLabel": "2026-09-01",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Ski+Enebakk Korpskvelder: Søk og redning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "9c059ff17b10ab81",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "17:00",
+      "type": "Sanitetsvakt",
+      "description": "Terrengsykkelritt Soon: Terrengsykling Son",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "bdfb8ace013627c9",
+      "dateIso": "2026-09-05",
+      "dateLabel": "2026-09-05",
+      "time": "10:30",
+      "type": "Sanitetsvakt",
+      "description": "Soon Tryatlon - AVLYST : Soon Tryatlon",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "7a0d29684054edcf",
+      "dateIso": "2026-09-08",
+      "dateLabel": "2026-09-08",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Førstehjelp/HLR",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "262edb31df0b31e5",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Aspirantkveld: Aspirantkveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "af911683ecf67f83",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Ski+Enebakk Korpskvelder: Førstehjelp - Blødninger",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "10a3f88b71dce847",
+      "dateIso": "2026-09-10",
+      "dateLabel": "2026-09-10",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Rådsmøte: Rådsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "3a464581de767f68",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "Kickoff Follo HJK: Kickoff",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "cba64e688531171d",
+      "dateIso": "2026-09-15",
+      "dateLabel": "2026-09-15",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - pasientundersøkelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "ebae04347d57ad0b",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "11:45",
+      "type": "Sanitetsvakt",
+      "description": "Generasjonslekene Follo Museum : Generasjonslekene (sanitetsvakt + rekruttering)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "c27ab78187a0f27d",
+      "dateIso": "2026-09-22",
+      "dateLabel": "2026-09-22",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "ed75d202cacdddd8",
+      "dateIso": "2026-09-27",
+      "dateLabel": "2026-09-27",
+      "time": "18:30",
+      "type": "Sanitetsvakt",
+      "description": "Lysvandring Follo Museum: Lysvandring Follo Museum",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "ab93e6989e3bd0e6",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Sosialkveld - brettspill og pizza",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "a05b49f32da865ea",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Festkveld: åpning av UKA",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "55cb82eb60f8dd7a",
+      "dateIso": "2026-10-03",
+      "dateLabel": "2026-10-03",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Vettche og Madcon",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "aa59ac85ec9ffaa3",
+      "dateIso": "2026-10-06",
+      "dateLabel": "2026-10-06",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "df0bc03eac4ef42a",
+      "dateIso": "2026-10-09",
+      "dateLabel": "2026-10-09",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Trang Fødsel og Valkyrien Allstars",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "304b467c966420ff",
+      "dateIso": "2026-10-10",
+      "dateLabel": "2026-10-10",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med DDE og Kakkmaddafakka",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "9936c9070ef06edc",
+      "dateIso": "2026-10-11",
+      "dateLabel": "2026-10-11",
+      "time": "12:30",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs Såner og Hølen Sanitetsforening: Førstehjelpskurs for barn",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "5b7a747f9391c58b",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "16:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Oktoberfest i teltet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "3bfea1b23a3d60be",
+      "dateIso": "2026-10-13",
+      "dateLabel": "2026-10-13",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Avlyst",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "2ccb52138d2eae85",
+      "dateIso": "2026-10-14",
+      "dateLabel": "2026-10-14",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Aspirantkveld: Aspirantkveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "857568cca2ae967e",
+      "dateIso": "2026-10-14",
+      "dateLabel": "2026-10-14",
+      "time": "19:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Joa + Golf",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "1832c7168e485f6d",
+      "dateIso": "2026-10-16",
+      "dateLabel": "2026-10-16",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Ylva og Møkkafunk+Problembarn",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "2f9ae15e0bec5730",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Silent Disco",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "751dbe7bf4976ce2",
+      "dateIso": "2026-10-20",
+      "dateLabel": "2026-10-20",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - egenstudium og diskusjon",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "6dbff883ad94192e",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Rådsmøte: Rådsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "bbf10275a880be10",
+      "dateIso": "2026-10-23",
+      "dateLabel": "2026-10-23",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Tøyen Halding + Donkeyboy + Ly",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "0619c8bb4af4ebcf",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "UKAiÅS 2026: Konsert med Fjellrev og Zimmermann",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "740f5273f9c79088",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Stand ALTI Vestby",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "de4673de5de8d784",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:30",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Bygdeberedskapskveld Liahøy",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "1d10d34b49188fa6",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Stand ALTI Vestby",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "ce2149d087688c66",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "17:00",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Informasjonspunkt Gardarheim",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "5c66e29a3e7be67e",
+      "dateIso": "2026-10-27",
+      "dateLabel": "2026-10-27",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld - Sosialt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "489d2dd35293f6f8",
+      "dateIso": "2026-10-28",
+      "dateLabel": "2026-10-28",
+      "time": "11:00",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Stand ALTI Vestby",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "e554c946a4b096f3",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "15:00",
+      "type": "Profilering",
+      "description": "Beredskapsuka Vestby: Beredskapsdagen Vestby sentrum",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "20cdde03acd6b29b",
       "dateIso": "2026-11-01",
-      "dateLabel": "søn. 1.11",
+      "dateLabel": "2026-11-01",
       "time": "12:30",
       "type": "Sanitetsvakt",
-      "description": "Ramme sporter Ramme Sporter Voldsløkka",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Ramme Sporter Voldsløkka: Ramme sporter",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "4a8ac713d97b3de3",
+      "id": "87f2f0f4d982ef5d",
       "dateIso": "2026-11-03",
-      "dateLabel": "tir. 3.11",
+      "dateLabel": "2026-11-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Søksøvelse Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "738035859b63020e",
+      "id": "ec54a5b380d2870c",
       "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
+      "dateLabel": "2026-11-07",
       "time": "09:00",
       "type": "Sanitetsvakt",
-      "description": "Backyard Fagerstrand skift 1 Backyard fagerstrand - AVLYST",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Backyard fagerstrand - AVLYST: Backyard Fagerstrand skift 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "541a6ab021dedd9c",
+      "id": "18659bad015eb6de",
       "dateIso": "2026-11-07",
-      "dateLabel": "lør. 7.11",
+      "dateLabel": "2026-11-07",
       "time": "15:15",
       "type": "Sanitetsvakt",
-      "description": "Backyard Fagerstrand skift 2 Backyard fagerstrand - AVLYST",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Backyard fagerstrand - AVLYST: Backyard Fagerstrand skift 2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "f6feed8331a8cf2d",
+      "id": "e3e27819c0363870",
       "dateIso": "2026-11-10",
-      "dateLabel": "tir. 10.11",
+      "dateLabel": "2026-11-10",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Førstehjelp Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "c7a554a91264c5a0",
+      "id": "085d82aef2b7716d",
       "dateIso": "2026-11-11",
-      "dateLabel": "ons. 11.11",
+      "dateLabel": "2026-11-11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Aspirantkveld Aspirantkveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Aspirantkveld: Aspirantkveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "ee80f87202c06050",
+      "id": "dc2d52daa2179e11",
       "dateIso": "2026-11-11",
-      "dateLabel": "ons. 11.11",
+      "dateLabel": "2026-11-11",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Masseskade og Triagering Ski+Enebakk Korpskvelder",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Ski+Enebakk Korpskvelder: Masseskade og Triagering",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "c4ad213d437dff01",
+      "id": "057fa9b4fa9b6a4d",
       "dateIso": "2026-11-16",
-      "dateLabel": "man. 16.11",
+      "dateLabel": "2026-11-16",
       "time": "17:00",
       "type": "Eksterne kurs",
-      "description": "Førsthjelpskurs Vestby turlag Førsthjelpskurs turledere Vestby Turlag",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Førsthjelpskurs turledere Vestby Turlag: Førsthjelpskurs Vestby turlag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "903116354d5ee5dc",
+      "id": "fe03881c74ea6111",
       "dateIso": "2026-11-17",
-      "dateLabel": "tir. 17.11",
+      "dateLabel": "2026-11-17",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - ??? Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Psykososial førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "89ca6245dc1d2477",
+      "id": "853766df913dc75f",
       "dateIso": "2026-11-22",
-      "dateLabel": "søn. 22.11",
-      "time": "18:00",
+      "dateLabel": "2026-11-22",
+      "time": "09:00",
       "type": "Korpskveld",
-      "description": "Storøvelse (mer info kommer) Ski+Enebakk Korpskvelder",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Ski+Enebakk Korpskvelder: Storøvelse (mer info kommer)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "68be4c2c0f89d63a",
+      "id": "102135fd1d90d26e",
       "dateIso": "2026-11-24",
-      "dateLabel": "tir. 24.11",
+      "dateLabel": "2026-11-24",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Julebord Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Julebord",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "5c4ca959efd64f0f",
+      "id": "1eab9a9e30acb678",
+      "dateIso": "2026-11-29",
+      "dateLabel": "2026-11-29",
+      "time": "14:30",
+      "type": "Sanitetsvakt",
+      "description": "Julegrantenning Drøbak: Julegrantenning/førjulkos Drøbak",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "320dd9976ff3a623",
       "dateIso": "2026-12-01",
-      "dateLabel": "tir. 1.12",
+      "dateLabel": "2026-12-01",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Søksøvelse Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Søksøvelse",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "488a45e58b26243d",
+      "id": "d12696e6190f3862",
       "dateIso": "2026-12-02",
-      "dateLabel": "ons. 2.12",
+      "dateLabel": "2026-12-02",
       "time": "18:00",
       "type": "Eksterne kurs",
-      "description": "Førstehjelpskurs oppvisning Førsthjelpskurs Ås Bygdekvinnelag",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Førsthjelpskurs Ås Bygdekvinnelag: Førstehjelpskurs oppvisning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "99bfcd515a9d2a94",
+      "id": "14b536b0811a3e4b",
       "dateIso": "2026-12-03",
-      "dateLabel": "tor. 3.12",
+      "dateLabel": "2026-12-03",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Hypotermi Ski+Enebakk Korpskvelder",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Ski+Enebakk Korpskvelder: Hypotermi",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "9b12184533d40645",
+      "id": "8fb5999972a55e17",
+      "dateIso": "2026-12-03",
+      "dateLabel": "2026-12-03",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Rådsmøte: Rådsmøte",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+    },
+    {
+      "id": "87db02486b016c79",
       "dateIso": "2026-12-08",
-      "dateLabel": "tir. 8.12",
+      "dateLabel": "2026-12-08",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Førstehjelp Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Førstehjelp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "1a09d9d7edc12d0a",
-      "dateIso": "2026-12-09",
-      "dateLabel": "ons. 9.12",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "Aspirantkveld Aspirantkveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
-    },
-    {
-      "id": "62e31a357a4bd767",
+      "id": "9d26a5ada84bf5c0",
       "dateIso": "2026-12-15",
-      "dateLabel": "tir. 15.12",
+      "dateLabel": "2026-12-15",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - ??? Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - kart og kompass",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "a3fc8589326bcb25",
+      "id": "2f201797f4114602",
       "dateIso": "2026-12-22",
-      "dateLabel": "tir. 22.12",
+      "dateLabel": "2026-12-22",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld - Søk etter julepresanger? Hmmm mystisk. Korpskveld",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=V%C3%85RKH"
+      "description": "Korpskveld : Korpskveld - Søk etter julepresanger? Hmmm mystisk.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     }
   ]
 }

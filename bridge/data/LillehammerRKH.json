@@ -7,96 +7,348 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-05T00:15:33+01:00",
-  "checkedAt": "2026-11-06T14:05:32+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH",
-  "eventCount": 9,
+  "updatedAt": "2026-11-22T22:30:33+01:00",
+  "checkedAt": "2026-11-22T22:30:33+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH",
+  "eventCount": 37,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
     {
-      "id": "68b349738fbc0ff8",
+      "id": "07695a5c92686008",
+      "dateIso": "2026-08-26",
+      "dateLabel": "2026-08-26",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Sørdals-karusellen: Olympiaparkløpet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "70ec167df2c1cbc6",
+      "dateIso": "2026-09-02",
+      "dateLabel": "2026-09-02",
+      "time": "17:30",
+      "type": "Sanitetsvakt",
+      "description": "Sørdals-karusellen: Vegmuseumsløpet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "38110b1908d2a39c",
+      "dateIso": "2026-09-03",
+      "dateLabel": "2026-09-03",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Kart og kompass: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "02fb0e3b4335c918",
+      "dateIso": "2026-09-09",
+      "dateLabel": "2026-09-09",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Sørdals-karusellen: Tverrløpet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "8d868dc50e69a672",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "13:00",
+      "type": "Ambulansevakt",
+      "description": "Sykkel: Sykkelritt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "cc68316919a98037",
+      "dateIso": "2026-09-11",
+      "dateLabel": "2026-09-11",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "NC hopp plast: Hopp liten bakke",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "ddd05bfacafb2f0e",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "07:15",
+      "type": "Ambulansevakt",
+      "description": "Sykkel: Sykkelritt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "d89c701ed3d31d17",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "NC hopp plast: Hopp liten og stor bakke",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "1f452d1dc4b2e874",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "09:00",
+      "type": "Profilering",
+      "description": "Stand Lillehammer Sentrum: Stand Sentrum",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "978be8a3ea60a4aa",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "07:00",
+      "type": "Ambulansevakt",
+      "description": "Sykkel: Sykkelritt",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "f339fd2fe81d44f7",
+      "dateIso": "2026-09-13",
+      "dateLabel": "2026-09-13",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "NC hopp plast: Hopp liten og stor bakke",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "2ff27d331afd5d27",
+      "dateIso": "2026-09-17",
+      "dateLabel": "2026-09-17",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Psykososial førstehjelp: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "6b0d5e43dcbf132e",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "08:30",
+      "type": "Sanitetsvakt",
+      "description": "Lillehammer rulleskirenn: Lillehammer rulleskirenn/ Rekrutteringsdag skikrets",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "3b1212b5954b9ad0",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Punkter fra: Nasjonal veileder for redningstjenesten ved søk etter savnet person på land: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "67e4ff2c1dfdd90a",
+      "dateIso": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "time": "18:00",
+      "type": "Korpskveld",
+      "description": "Samband: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "627b3f8cdcd6894d",
+      "dateIso": "2026-10-22",
+      "dateLabel": "2026-10-22",
+      "time": "18:00",
+      "type": "Dugnad",
+      "description": "Dugnad depo: Dugnad Depo",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "8c94a4b5b3f82901",
+      "dateIso": "2026-10-24",
+      "dateLabel": "2026-10-24",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "HockeyClassic 2026: HockeyClassic,",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "22817de42a0eed94",
+      "dateIso": "2026-10-29",
+      "dateLabel": "2026-10-29",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Forberedelse til vintertjeneste: Medlemskveld. kl 18:10 på huset, eller direkte på hytta 18:30",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "9d23e9fab0822c63",
       "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
+      "dateLabel": "2026-10-31",
       "time": "10:00",
       "type": "Aktivitet",
-      "description": "Beredskapsstand Kommune og NFS Stand Sentrum",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "Stand Sentrum: Beredskapsstand Kommune og NFS",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "c5bbe892e7574ac4",
+      "id": "07e89aaf33630e04",
       "dateIso": "2026-11-09",
-      "dateLabel": "man. 9.11",
+      "dateLabel": "2026-11-09",
       "time": "18:00",
       "type": "Øvelse",
-      "description": "PLIVO ØYER PLIVO",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "PLIVO: PLIVO ØYER",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "cb0ca4a430549057",
+      "id": "ca2187ec984007db",
       "dateIso": "2026-11-10",
-      "dateLabel": "tir. 10.11",
+      "dateLabel": "2026-11-10",
       "time": "18:00",
       "type": "Øvelse",
-      "description": "PLIVO Gausdal PLIVO",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "PLIVO: PLIVO Gausdal",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "a61c508983a68513",
+      "id": "be03a5f18645af02",
       "dateIso": "2026-11-11",
-      "dateLabel": "ons. 11.11",
+      "dateLabel": "2026-11-11",
       "time": "11:00",
       "type": "Aktivitet",
-      "description": "Stand på Universitetet - Lillehammer stand",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "stand: Stand på Universitetet - Lillehammer",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "8919d71c9a687d6f",
+      "id": "7ab4e4065b41b449",
       "dateIso": "2026-11-12",
-      "dateLabel": "tor. 12.11",
+      "dateLabel": "2026-11-12",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Medlemskveld Ettersøkning",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "Ettersøkning: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "ab427caf89627aa3",
+      "id": "6c22c3c757f7e816",
       "dateIso": "2026-11-18",
-      "dateLabel": "ons. 18.11",
-      "time": "10:00",
+      "dateLabel": "2026-11-18",
+      "time": "09:45",
       "type": "Øvelse",
-      "description": "PLIVO Lillehammer PLIVO",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "PLIVO: PLIVO Lillehammer Storgata 177 OPPMØTE PÅ OPPMØTESTED 09:45",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "7028411a4e98efb8",
+      "id": "3bfcad1301b2f717",
       "dateIso": "2026-11-19",
-      "dateLabel": "tor. 19.11",
-      "time": "10:00",
+      "dateLabel": "2026-11-19",
+      "time": "09:45",
       "type": "Øvelse",
-      "description": "PLIVO Lillehammer PLIVO",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "PLIVO: PLIVO Lillehammer Storgata 177 OPPMØTE PÅ OPPMØTESTED 09:45",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "68ada4909955675a",
+      "id": "fec12b4e6cddeef2",
+      "dateIso": "2026-11-20",
+      "dateLabel": "2026-11-20",
+      "time": "08:00",
+      "type": "Sanitetsvakt",
+      "description": "World-Cup Lillehammer: WC Hopp, fredag del1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "d81f85fb6e282666",
+      "dateIso": "2026-11-20",
+      "dateLabel": "2026-11-20",
+      "time": "13:00",
+      "type": "Sanitetsvakt",
+      "description": "World-Cup Lillehammer: WC Hopp, fredag del2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "8c5a89a84d71569a",
+      "dateIso": "2026-11-21",
+      "dateLabel": "2026-11-21",
+      "time": "14:00",
+      "type": "Sanitetsvakt",
+      "description": "World-Cup Lillehammer: WC Hopp, lørdag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "ad93ee3e8c163d45",
+      "dateIso": "2026-11-22",
+      "dateLabel": "2026-11-22",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "World-Cup Lillehammer: WC Hopp, søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "2a26c9a862ddfe41",
       "dateIso": "2026-11-26",
-      "dateLabel": "tor. 26.11",
+      "dateLabel": "2026-11-26",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Medlemskveld Klargjøring av hytta til vintertjeneste",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "Klargjøring av hytta til vintertjeneste: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     },
     {
-      "id": "3c93e7841a99029e",
+      "id": "480110f6554169cd",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "08:30",
+      "type": "Aktivitet",
+      "description": "Hopping: Lørdag del 1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "6e67cb667f1c4077",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "12:30",
+      "type": "Aktivitet",
+      "description": "Hopping: Lørdag del2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "31826fd8d241abd3",
+      "dateIso": "2026-11-29",
+      "dateLabel": "2026-11-29",
+      "time": "09:00",
+      "type": "Aktivitet",
+      "description": "Hopping: Søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "ad7f24217e2f6e71",
       "dateIso": "2026-12-10",
-      "dateLabel": "tor. 10.12",
+      "dateLabel": "2026-12-10",
       "time": "18:30",
       "type": "Korpskveld",
-      "description": "Medlemskveld Vinterøvelse",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=LillehammerRKH"
+      "description": "Vinterøvelse: Medlemskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "393ebd0b2c645172",
+      "dateIso": "2027-01-02",
+      "dateLabel": "2027-01-02",
+      "time": "08:30",
+      "type": "Aktivitet",
+      "description": "Hopping: Lørdag del1",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "05bc9d6854c240a9",
+      "dateIso": "2027-01-02",
+      "dateLabel": "2027-01-02",
+      "time": "13:30",
+      "type": "Aktivitet",
+      "description": "Hopping: Lørdag del2",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+    },
+    {
+      "id": "e7b1e2f8768ed3e2",
+      "dateIso": "2027-01-03",
+      "dateLabel": "2027-01-03",
+      "time": "09:00",
+      "type": "Aktivitet",
+      "description": "Hopping: søndag",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
     }
   ]
 }

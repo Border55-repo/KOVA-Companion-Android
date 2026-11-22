@@ -7,14 +7,222 @@
     "category": "annet"
   },
   "status": "ok",
-  "updatedAt": "2026-11-07T18:50:28+01:00",
-  "checkedAt": "2026-11-22T22:15:30+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=OSRK",
-  "eventCount": 0,
+  "updatedAt": "2026-11-22T22:30:34+01:00",
+  "checkedAt": "2026-11-22T22:30:34+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK",
+  "eventCount": 23,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
-  "events": []
+  "events": [
+    {
+      "id": "4e9c9c03464e4700",
+      "dateIso": "2026-08-30",
+      "dateLabel": "2026-08-30",
+      "time": "10:00",
+      "type": "Sanitetsvakt",
+      "description": "Os triiatlon: Os Triatlon",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "9581b64698bd98e3",
+      "dateIso": "2026-08-31",
+      "dateLabel": "2026-08-31",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": ": Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "47ab2faef3d958dc",
+      "dateIso": "2026-09-14",
+      "dateLabel": "2026-09-14",
+      "time": "00:00",
+      "type": "Korpskveld",
+      "description": ": Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "4a6d57ddac4cd000",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "abdd5a9cf72a95c7",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "15:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "25ac9cae54639348",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "18:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "d96d0531be64b688",
+      "dateIso": "2026-09-19",
+      "dateLabel": "2026-09-19",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "c67477b0ce461a10",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "d747ee95e9e3adfe",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "03:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "f1f62d0aee563218",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "06:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "40730708d1cdef0b",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "09:00",
+      "type": "Sanitetsvakt",
+      "description": "Stafett for livet: Stafett for livet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "a2432b148e81c392",
+      "dateIso": "2026-09-20",
+      "dateLabel": "2026-09-20",
+      "time": "09:30",
+      "type": "Sanitetsvakt",
+      "description": "Nore Neset karate: Nore Neset Karate",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "ef09c96387ff5684",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "07:15",
+      "type": "Sanitetsvakt",
+      "description": "STOLTZEN OPP: STOLTZEN OPP",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "59554853ed1e4994",
+      "dateIso": "2026-09-25",
+      "dateLabel": "2026-09-25",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "STOLTZEN OPP: Stoltzen Opp",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "1a77b9d8c4be2196",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "07:15",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen OPP: Stoltzen OPP",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "b00e9086a2712a65",
+      "dateIso": "2026-09-26",
+      "dateLabel": "2026-09-26",
+      "time": "12:30",
+      "type": "Sanitetsvakt",
+      "description": "Stoltzen OPP:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "a69803c8ca2d0675",
+      "dateIso": "2026-09-29",
+      "dateLabel": "2026-09-29",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": ": Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "0dbd0810ccc5960f",
+      "dateIso": "2026-10-01",
+      "dateLabel": "2026-10-01",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen Live: HJERTEBANK PÅ KUVENTRÆ",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "58861bbd29489deb",
+      "dateIso": "2026-10-12",
+      "dateLabel": "2026-10-12",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": ": Utsjekk",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "014b3e045a39c7a0",
+      "dateIso": "2026-10-17",
+      "dateLabel": "2026-10-17",
+      "time": "11:30",
+      "type": "Sanitetsvakt",
+      "description": "Rosa Sløyfe: Rosa Sløyfe løp Nore Neset",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "69f98cfd0a761b8f",
+      "dateIso": "2026-10-26",
+      "dateLabel": "2026-10-26",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld: KORPSKVELD",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "47191518a069305b",
+      "dateIso": "2026-11-09",
+      "dateLabel": "2026-11-09",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": "Korpskveld : Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    },
+    {
+      "id": "7bca0b1b0cb3190b",
+      "dateIso": "2026-11-23",
+      "dateLabel": "2026-11-23",
+      "time": "18:30",
+      "type": "Korpskveld",
+      "description": ": Korpskveld",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OSRK"
+    }
+  ]
 }
