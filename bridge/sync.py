@@ -255,9 +255,7 @@ def slug(code: str) -> str:
 
 
 def source_url(code: str) -> str:
-    if code == "UllensakerRKH":
-        return "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
-    return "https://www.kova.no/public/schedule.aspx?Organization=" + quote_plus(code)
+    return "https://www.kova.no/Public/iCalendar.ashx?Organization=" + quote_plus(code)
 
 
 def normalize(value: str) -> str:
@@ -605,13 +603,16 @@ def write_snapshot(org: dict, events: list[dict], diff: dict) -> tuple[bool, dic
     return False, old
 
 
-def parse_ullensaker_ical(body: str, url: str) -> list[dict]:
+def parse_public_ical(body: str, url: str) -> list[dict]:
     """Translate the public KOVA iCalendar feed into activity snapshots."""
     body = re.sub(r"\r?\n[ \t]", "", body).strip()
     if not body.startswith("BEGIN:VCALENDAR") or not body.endswith("END:VCALENDAR"):
         raise ValueError("KOVA did not return a complete iCalendar feed")
     events = {}
-    for block in re.findall(r"^BEGIN:VEVENT\r?\n(.*?)^END:VEVENT\r?$", body, re.M | re.S):
+    blocks = re.findall(r"^BEGIN:VEVENT\r?\n(.*?)^END:VEVENT\r?$", body, re.M | re.S)
+    if body.count("BEGIN:VEVENT") != len(blocks) or body.count("END:VEVENT") != len(blocks):
+        raise ValueError("KOVA iCalendar feed is incomplete")
+    for block in blocks:
         fields = {}
         for line in block.splitlines():
             if line == "BEGIN:VALARM":
@@ -639,8 +640,6 @@ def parse_ullensaker_ical(body: str, url: str) -> list[dict]:
             "id": key, "dateIso": day, "dateLabel": day, "time": time,
             "type": kind, "description": description, "sourceUrl": url,
         }
-    if not events or body.count("BEGIN:VEVENT") != body.count("END:VEVENT"):
-        raise ValueError("KOVA iCalendar feed has no usable events or is incomplete")
     return sorted(events.values(), key=lambda item: (item["dateIso"], item["time"], item["description"]))
 
 
@@ -658,8 +657,7 @@ def fetch_org(org: dict, attempts: int = 3) -> tuple[list[dict], str, int]:
             )
             response.raise_for_status()
             html = response.text
-            parser = parse_ullensaker_ical if org["code"] == "UllensakerRKH" else parse_schedule
-            return parser(html, url), url, len(html)
+            return parse_public_ical(html, url), url, len(html)
         except (requests.RequestException, ValueError) as exc:
             last_error = exc
             if attempt < attempts - 1:
@@ -905,17 +903,18 @@ def main(source=None) -> int:
         old_events = old.get("events", [])
 
         try:
-            events, _, html_length = source.fetch(org)
+            events, calendar_url, response_length = source.fetch(org)
+            is_ical = "/public/icalendar.ashx?" in calendar_url.lower()
+            migrated = is_ical and bool(old) and old.get("sourceUrl") != calendar_url
 
             suspect = suspicious_snapshot(
-                old_count=len(old_events),
+                old_count=0 if migrated else len(old_events),
                 new_count=len(events),
-                html_length=html_length,
+                html_length=max(500, response_length) if is_ical else response_length,
             )
             if suspect:
                 raise RuntimeError(suspect)
 
-            migrated = org["code"] == "UllensakerRKH" and old.get("sourceUrl") != source_url(org["code"])
             diff = compute_diff(events if migrated else old_events, events)
             records = change_records(org, diff)
 

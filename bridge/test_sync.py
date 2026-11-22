@@ -15,7 +15,7 @@ from reliability import (
     pending_records,
     suspicious_snapshot,
 )
-from sync import compute_diff, parse_schedule, parse_ullensaker_ical, poll_batch, slug, include_new_organizations, discover_organizations
+from sync import compute_diff, parse_schedule, parse_public_ical, poll_batch, slug, include_new_organizations, discover_organizations
 
 class PollFairnessTests(unittest.TestCase):
     def test_delayed_runs_cover_all_corps_even_at_same_clock_bucket(self):
@@ -60,10 +60,13 @@ class BridgeParserTests(unittest.TestCase):
             " vakt (Korpskveld)", "BEGIN:VALARM", "SUMMARY:Reminder",
             "END:VALARM", "END:VEVENT", "END:VCALENDAR",
         ])
-        event, = parse_ullensaker_ical(html, "https://www.kova.no/")
+        event, = parse_public_ical(html, "https://www.kova.no/")
         self.assertEqual((event["dateIso"], event["time"], event["type"]),
                          ("2026-08-26", "00:30", "Korpskveld"))
         self.assertEqual(event["description"], "Kveld,vakt")
+
+    def test_public_feed_can_be_empty(self):
+        self.assertEqual(parse_public_ical("BEGIN:VCALENDAR\nEND:VCALENDAR", ""), [])
 
     def test_rejects_kova_error_page_as_calendar(self):
         html = '<form action="../ErrorPage.aspx?ErrorMessage=Missing">Missing</form>'
