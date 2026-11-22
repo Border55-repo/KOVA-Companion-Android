@@ -7,24 +7,33 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-10-28T14:35:52+01:00",
-  "checkedAt": "2026-10-31T00:45:42+01:00",
-  "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH",
-  "eventCount": 1,
+  "updatedAt": "2026-11-22T22:49:12+01:00",
+  "checkedAt": "2026-11-22T22:49:12+01:00",
+  "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VossRKH",
+  "eventCount": 2,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
-      "id": "532cd91fd4e82a78",
+      "id": "0ddb2e19a7c05cdd",
+      "dateIso": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "Motordag på Tide Buss Skulestadmo: MOTORDAG PÅ TIDE, SKULESTADMO",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VossRKH"
+    },
+    {
+      "id": "05261c42db64de28",
       "dateIso": "2026-10-31",
-      "dateLabel": "lør. 31.10",
+      "dateLabel": "2026-10-31",
       "time": "08:30",
       "type": "Sanitetsvakt",
-      "description": "SMALAHOVE CUP SMALAHOVECUP",
-      "sourceUrl": "https://www.kova.no/public/schedule.aspx?Organization=VossRKH"
+      "description": "SMALAHOVECUP: SMALAHOVE CUP",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VossRKH"
     }
   ]
 }

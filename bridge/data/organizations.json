@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-11-18T19:30:58+01:00",
-  "count": 41,
-  "helpCorpsCount": 37,
+  "updatedAt": "2026-11-22T22:49:06+01:00",
+  "count": 42,
+  "helpCorpsCount": 38,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -188,6 +188,11 @@
     {
       "name": "Vestby og Ås Røde Kors Hjelpekorps",
       "code": "VÅRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Voss Røde Kors Hjelpekorps",
+      "code": "VossRKH",
       "category": "hjelpekorps"
     },
     {
