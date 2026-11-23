@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a6d9ba0a955e389c8f87b106",
+      "observedAt": "2026-11-24T00:10:28+01:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7ffbe42e9ff89066",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Follotrimmen - Langhus Stadion: Sanitetsvakt - oppmøte F3: kl 17.15",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "ae6135d9c5006dca1d547fde",
       "observedAt": "2026-10-29T00:05:41+01:00",
       "organization": "OppSkiRKH",
@@ -251,5 +266,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-29T00:05:41+01:00"
+  "updatedAt": "2026-11-24T00:10:28+01:00"
 }

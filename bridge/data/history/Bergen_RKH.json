@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5b5babb006bc7e48fcf56ce0",
+      "observedAt": "2026-11-24T00:10:26+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6feb6a99f94d2ce6",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "HØST KICKOFF 2026: HØST KICKOFF 2026",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "62bbdc276a94d4a0452ad32a",
       "observedAt": "2026-11-23T13:30:36+01:00",
       "organization": "Bergen RKH",
@@ -1418,5 +1433,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T13:30:36+01:00"
+  "updatedAt": "2026-11-24T00:10:26+01:00"
 }

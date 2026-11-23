@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T13:30:36+01:00",
-  "checkedAt": "2026-11-23T23:50:27+01:00",
+  "updatedAt": "2026-11-24T00:10:26+01:00",
+  "checkedAt": "2026-11-24T00:10:26+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH",
-  "eventCount": 73,
+  "eventCount": 72,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "6feb6a99f94d2ce6",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Korpskveld",
-      "description": "HØST KICKOFF 2026: HØST KICKOFF 2026",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
-    },
     {
       "id": "c9c9d829af2e91a0",
       "dateIso": "2026-08-27",

@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:20:01+01:00",
-  "checkedAt": "2026-11-23T23:50:28+01:00",
+  "updatedAt": "2026-11-24T00:10:28+01:00",
+  "checkedAt": "2026-11-24T00:10:28+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH",
-  "eventCount": 23,
+  "eventCount": 22,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "7ffbe42e9ff89066",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Sanitetsvakt",
-      "description": "Follotrimmen - Langhus Stadion: Sanitetsvakt - oppmøte F3: kl 17.15",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
-    },
     {
       "id": "29d14244fef7939e",
       "dateIso": "2026-08-29",

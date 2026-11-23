@@ -7,25 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:10:41+01:00",
-  "checkedAt": "2026-11-23T23:50:30+01:00",
+  "updatedAt": "2026-11-24T00:10:33+01:00",
+  "checkedAt": "2026-11-24T00:10:33+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB",
-  "eventCount": 76,
+  "eventCount": 75,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "ceca8c486f9572da",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Brann: UEFA trening (tilstede 1830, trening kl 19, til spillerne har forlatt)",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
     {
       "id": "b9f364217015dbfc",
       "dateIso": "2026-08-27",

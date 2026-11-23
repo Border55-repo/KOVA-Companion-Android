@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "0d42017b12cf351e22d51688",
+      "observedAt": "2026-11-24T00:10:35+01:00",
+      "organization": "AÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9341f17d5edde98d",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsane Fotball: Åsane - Lyn | Tentativt tidspunkt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=A%C3%85RKH"
+      }
+    },
+    {
       "changeId": "7f55ae18a242a8e9ff07d16e",
       "observedAt": "2026-11-15T19:20:30+01:00",
       "organization": "AÅRKH",
@@ -167,5 +182,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-15T19:20:30+01:00"
+  "updatedAt": "2026-11-24T00:10:35+01:00"
 }
