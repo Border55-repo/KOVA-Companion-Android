@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f0645831cc0524c9b41f7f45",
+      "observedAt": "2026-11-23T08:20:27+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "821cb41a9ece72eb",
+        "dateIso": "2026-11-23",
+        "dateLabel": "2026-11-23",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Møte: FGRUV Oppstart marka 26/27: Hos Skedsmo RKH",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "6a2545bcaf9814bdef11c5e8",
       "observedAt": "2026-11-23T00:00:32+01:00",
       "organization": "Nittedal RKH",
@@ -1472,5 +1487,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:32+01:00"
+  "updatedAt": "2026-11-23T08:20:27+01:00"
 }

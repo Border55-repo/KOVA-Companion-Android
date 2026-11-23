@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:00:32+01:00",
-  "checkedAt": "2026-11-23T08:15:40+01:00",
+  "updatedAt": "2026-11-23T08:20:27+01:00",
+  "checkedAt": "2026-11-23T08:20:27+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 102,
+  "eventCount": 103,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -807,6 +807,15 @@
       "time": "10:00",
       "type": "Øvelse",
       "description": "Øvelse: FORF Aksjonsledelse: Tabletop-øvelse med FORF Oslo/Øst PD",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "821cb41a9ece72eb",
+      "dateIso": "2026-11-23",
+      "dateLabel": "2026-11-23",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Møte: FGRUV Oppstart marka 26/27: Hos Skedsmo RKH",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
     },
     {
