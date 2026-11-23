@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "62bbdc276a94d4a0452ad32a",
+      "observedAt": "2026-11-23T13:30:36+01:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "e0c0e7bf80f16a71",
+        "dateIso": "2026-12-31",
+        "dateLabel": "2026-12-31",
+        "time": "22:00",
+        "type": "Sanitetsvakt",
+        "description": "Nyttårsvakt Bergen Sentrum: Interessepåmelding nyttårsvakten",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "7798728a622e826f70c768c1",
       "observedAt": "2026-11-23T00:00:38+01:00",
       "organization": "Bergen RKH",
@@ -1403,5 +1418,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:38+01:00"
+  "updatedAt": "2026-11-23T13:30:36+01:00"
 }
