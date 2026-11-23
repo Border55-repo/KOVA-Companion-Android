@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T08:20:27+01:00",
-  "checkedAt": "2026-11-23T18:45:30+01:00",
+  "updatedAt": "2026-11-23T18:50:28+01:00",
+  "checkedAt": "2026-11-23T18:50:28+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 103,
+  "eventCount": 104,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -942,6 +942,15 @@
       "time": "07:30",
       "type": "Sanitetsvakt",
       "description": "Sanitetsvakt med Scooter: Grenaderittet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "94390030a6c32f9c",
+      "dateIso": "2027-05-10",
+      "dateLabel": "2027-05-10",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Møte: FGRUV Sesongavslutning Marka:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
     }
   ]
