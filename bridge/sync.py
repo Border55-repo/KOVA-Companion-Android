@@ -329,6 +329,11 @@ def discover_organizations(attempts: int = 3) -> list[dict]:
                 "code": "Haugesund",
                 "category": "hjelpekorps",
             })
+            found.setdefault("LillesandRKH", {
+                "name": "Lillesand Røde Kors Hjelpekorps",
+                "code": "LillesandRKH",
+                "category": "hjelpekorps",
+            })
             return sorted(
                 found.values(),
                 key=lambda item: (
