@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "00ad95881bb52720df8b8473",
+      "observedAt": "2026-11-24T00:05:30+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "faeb5f88c51612d9",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "OBOS-ligaen: Stabæk - Ranheim TF",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "70d376a235b4934d61bbf99d",
       "observedAt": "2026-11-23T10:45:46+01:00",
       "organization": "BærumRKH",
@@ -1418,5 +1433,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T10:45:46+01:00"
+  "updatedAt": "2026-11-24T00:05:30+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "82deaaef27d2ad34737098ca",
+      "observedAt": "2026-11-24T00:05:49+01:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "9e8eaf4ce11135dd",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "DNV familiedag : Veritasparken",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "82e345387dc086115d3341c5",
       "observedAt": "2026-11-23T19:50:35+01:00",
       "organization": "AskerRKH",
@@ -515,5 +530,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T19:50:35+01:00"
+  "updatedAt": "2026-11-24T00:05:49+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ac5e570467c18f05bb815da7",
+      "observedAt": "2026-11-24T00:05:33+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "87d04f3836ce0beb",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "NM transportmøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "35b8bf2dbf69d398073ef5f4",
       "observedAt": "2026-11-23T00:05:30+01:00",
       "organization": "LaksevaagRKH",
@@ -1340,5 +1355,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:05:30+01:00"
+  "updatedAt": "2026-11-24T00:05:33+01:00"
 }

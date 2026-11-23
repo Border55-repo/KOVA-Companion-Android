@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b010a25acb65ff922ee69d82",
+      "observedAt": "2026-11-24T00:05:46+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1da0c7cfe6bf9d9a",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskvelder, høst 2026: Sosiale medier i Hjelpekorpset v/SoMe-gruppen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "e07e4c6b37c0a9ab5e8944f9",
       "observedAt": "2026-11-23T00:05:39+01:00",
       "organization": "NRKH",
@@ -1112,5 +1127,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:05:39+01:00"
+  "updatedAt": "2026-11-24T00:05:46+01:00"
 }

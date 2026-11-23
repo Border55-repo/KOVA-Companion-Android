@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:05:30+01:00",
-  "checkedAt": "2026-11-23T23:45:36+01:00",
+  "updatedAt": "2026-11-24T00:05:33+01:00",
+  "checkedAt": "2026-11-24T00:05:33+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH",
-  "eventCount": 82,
+  "eventCount": 81,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "87d04f3836ce0beb",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "NM transportmøte:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
-    },
     {
       "id": "ae6afcf132169be3",
       "dateIso": "2026-08-27",

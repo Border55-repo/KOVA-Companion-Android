@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f62836a31e882794aced43aa",
+      "observedAt": "2026-11-24T00:05:43+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8642c94e92ac2483",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Mossekarusellen 2026: Kambomila - sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "80f5d40e97603645b906ac81",
+      "observedAt": "2026-11-24T00:05:43+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "eb0587fc861b66bf",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "MFK - Obos ligaen: Moss - Sogndal",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "8aa096f14b4cd475a6d6ba4c",
       "observedAt": "2026-11-23T00:05:38+01:00",
       "organization": "MossRKH",
@@ -923,5 +953,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:05:38+01:00"
+  "updatedAt": "2026-11-24T00:05:43+01:00"
 }

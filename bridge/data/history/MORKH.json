@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "615e9746c2220c6c5e55a463",
+      "observedAt": "2026-11-24T00:05:40+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "d51f2de436680f8b",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "16:15",
+        "type": "Øvelse",
+        "description": "Øvelse CBRNE - IØBR: Ambulanse - oppmøte Mysen Brannstasjon 16.45",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "c7f08a189f8eb681d96eb0d5",
+      "observedAt": "2026-11-24T00:05:40+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "bf3c39503590e602",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "16:15",
+        "type": "Øvelse",
+        "description": "Øvelse CBRNE - IØBR: Markører - oppmøte Nortura Hærland 17:00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "c631d76d429ee5a6240f5991",
       "observedAt": "2026-11-23T13:05:35+01:00",
       "organization": "MORKH",
@@ -2033,5 +2063,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T13:05:35+01:00"
+  "updatedAt": "2026-11-24T00:05:40+01:00"
 }

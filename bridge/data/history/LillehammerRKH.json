@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1a6c030a5809e2ea4361994b",
+      "observedAt": "2026-11-24T00:05:36+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "07695a5c92686008",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Sanitetsvakt",
+        "description": "Sørdals-karusellen: Olympiaparkløpet",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "020ebafa383d9b9ccd13e249",
       "observedAt": "2026-11-05T00:15:33+01:00",
       "organization": "LillehammerRKH",
@@ -371,5 +386,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:15:33+01:00"
+  "updatedAt": "2026-11-24T00:05:36+01:00"
 }
