@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:05:33+01:00",
-  "checkedAt": "2026-11-23T20:05:42+01:00",
+  "updatedAt": "2026-11-23T20:25:37+01:00",
+  "checkedAt": "2026-11-23T20:25:37+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH",
-  "eventCount": 50,
+  "eventCount": 51,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -321,6 +321,15 @@
       "time": "08:00",
       "type": "Eksterne kurs",
       "description": "Røde Kors-helga: Scandic Lillehammer Hotel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "a8b3f6dbcfb61d28",
+      "dateIso": "2026-11-23",
+      "dateLabel": "2026-11-23",
+      "time": "20:00",
+      "type": "Interne møter",
+      "description": "Styremøte:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {

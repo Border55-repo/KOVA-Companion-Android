@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "39bcdcf7d499c45aca43abc3",
+      "observedAt": "2026-11-23T20:25:37+01:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "a8b3f6dbcfb61d28",
+        "dateIso": "2026-11-23",
+        "dateLabel": "2026-11-23",
+        "time": "20:00",
+        "type": "Interne møter",
+        "description": "Styremøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "163bc28ad22a606b41eb80eb",
       "observedAt": "2026-11-23T00:05:33+01:00",
       "organization": "Lunner RKH",
@@ -851,5 +866,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:05:33+01:00"
+  "updatedAt": "2026-11-23T20:25:37+01:00"
 }
