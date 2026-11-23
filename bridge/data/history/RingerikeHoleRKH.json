@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1bfa7dcc40a47fad71eb784a",
+      "observedAt": "2026-11-23T22:50:34+01:00",
+      "organization": "RingerikeHoleRKH",
+      "kind": "changed",
+      "event": {
+        "id": "e271fb819d020a9d",
+        "dateIso": "2026-11-23",
+        "dateLabel": "2026-11-23",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Vannredningskveld: Båt til vinterlagring",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+      },
+      "oldEvent": {
+        "id": "6b212871755129ec",
+        "dateIso": "2026-11-23",
+        "dateLabel": "2026-11-23",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Vannredningskveld: Tema Kommer!",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RingerikeHoleRKH"
+      }
+    },
+    {
       "changeId": "166f0e3c08bf9c44967bd85e",
       "observedAt": "2026-11-02T20:55:44+01:00",
       "organization": "RingerikeHoleRKH",
@@ -275,5 +299,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-02T20:55:44+01:00"
+  "updatedAt": "2026-11-23T22:50:34+01:00"
 }
