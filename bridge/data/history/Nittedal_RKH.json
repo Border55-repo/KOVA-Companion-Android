@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c8ed0deead2c9aab2d6a8dde",
+      "observedAt": "2026-11-24T00:00:28+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "867607bf97bb7f5d",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Eksterne møter",
+        "description": "Møte: Lederforum Akershus RKH: Troika-møte for distriktet",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "26b71e6cb5af070c1ae01f1a",
+      "observedAt": "2026-11-24T00:00:28+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "7c4de3c6ab654112",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Drop-in:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "51a9d3605e43b1b81dc3f793",
       "observedAt": "2026-11-23T18:50:28+01:00",
       "organization": "Nittedal RKH",
@@ -1502,5 +1532,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T18:50:28+01:00"
+  "updatedAt": "2026-11-24T00:00:28+01:00"
 }

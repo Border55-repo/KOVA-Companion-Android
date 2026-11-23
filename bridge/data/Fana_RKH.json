@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:00:42+01:00",
-  "checkedAt": "2026-11-23T23:40:36+01:00",
+  "updatedAt": "2026-11-24T00:00:44+01:00",
+  "checkedAt": "2026-11-24T00:00:44+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 74,
+  "eventCount": 73,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "f47f19b4039f0029",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "INFOMØTE SRV 2026: INFOMØTE SRV 2026.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
     {
       "id": "a947e0c5d724e9ae",
       "dateIso": "2026-08-27",

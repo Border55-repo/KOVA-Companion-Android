@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T18:50:28+01:00",
-  "checkedAt": "2026-11-23T23:55:28+01:00",
+  "updatedAt": "2026-11-24T00:00:28+01:00",
+  "checkedAt": "2026-11-24T00:00:28+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 104,
+  "eventCount": 102,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "867607bf97bb7f5d",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Eksterne møter",
-      "description": "Møte: Lederforum Akershus RKH: Troika-møte for distriktet",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "7c4de3c6ab654112",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:30",
-      "type": "Korpskveld",
-      "description": "Korpskveld: Drop-in:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
     {
       "id": "6cb2e609193f6cb3",
       "dateIso": "2026-08-27",

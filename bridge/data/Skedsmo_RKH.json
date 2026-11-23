@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T07:30:27+01:00",
-  "checkedAt": "2026-11-23T23:55:28+01:00",
+  "updatedAt": "2026-11-24T00:00:33+01:00",
+  "checkedAt": "2026-11-24T00:00:33+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH",
-  "eventCount": 106,
+  "eventCount": 104,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "de70d58796739da2",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "17:00",
-      "type": "Aktivitet",
-      "description": "Ungdom låner hjelpekorpsrommet :",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
-    },
-    {
-      "id": "3f1146e56e469a83",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "Lederforum: For troikaene i Akershus sine hjelpekorps",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
-    },
     {
       "id": "20042d0bd0b80650",
       "dateIso": "2026-08-27",

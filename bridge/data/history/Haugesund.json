@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4a45007455ef24b9ae188f5a",
+      "observedAt": "2026-11-24T00:00:47+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "9c2a447ac8ffea51",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "FKH Herrer - Egersund: Oppmøte på huset 16:45, vaktstart 17:30",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "4f48fa87f84c4eaa9861d53d",
       "observedAt": "2026-11-06T14:20:36+01:00",
       "organization": "Haugesund",
@@ -335,5 +350,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T14:20:36+01:00"
+  "updatedAt": "2026-11-24T00:00:47+01:00"
 }

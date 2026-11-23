@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7b46ff0cfd38bd8240d068da",
+      "observedAt": "2026-11-24T00:00:44+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "f47f19b4039f0029",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "INFOMØTE SRV 2026: INFOMØTE SRV 2026.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "e28d4df2e080a5fd89211758",
       "observedAt": "2026-11-23T00:00:42+01:00",
       "organization": "Fana RKH",
@@ -965,5 +980,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:42+01:00"
+  "updatedAt": "2026-11-24T00:00:44+01:00"
 }

@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d1a414a5a4838127c84eb81c",
+      "observedAt": "2026-11-24T00:00:37+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "f7a85ab44adc846a",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Jessheim Blodomløp 2026:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "531a75b19268ba9f092b19d1",
+      "observedAt": "2026-11-24T00:00:37+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "54fe9578e802639c",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "19:30",
+        "type": "Rådsmøte",
+        "description": "Lokalrådsmøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "9c4ee7ff1eba2cd52ef72c4f",
       "observedAt": "2026-11-23T00:00:36+01:00",
       "organization": "UllensakerRKH",
@@ -2282,5 +2312,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:36+01:00"
+  "updatedAt": "2026-11-24T00:00:37+01:00"
 }
