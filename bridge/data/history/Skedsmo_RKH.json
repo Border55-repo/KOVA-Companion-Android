@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "97b6f5a66091ad72d30e9112",
+      "observedAt": "2026-11-23T07:30:27+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "added",
+      "event": {
+        "id": "16795b62ce2b83e1",
+        "dateIso": "2026-12-07",
+        "dateLabel": "2026-12-07",
+        "time": "19:00",
+        "type": "Interne møter",
+        "description": "Fagansvarligmøter 2026: Budsjett og handlingsplan",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "39dc0436ed1ebbe6e0747c9a",
       "observedAt": "2026-11-23T00:00:34+01:00",
       "organization": "Skedsmo RKH",
@@ -1241,5 +1256,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:34+01:00"
+  "updatedAt": "2026-11-23T07:30:27+01:00"
 }

@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:00:34+01:00",
-  "checkedAt": "2026-11-23T07:25:27+01:00",
+  "updatedAt": "2026-11-23T07:30:27+01:00",
+  "checkedAt": "2026-11-23T07:30:27+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH",
-  "eventCount": 105,
+  "eventCount": 106,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -861,6 +861,15 @@
       "time": "19:00",
       "type": "Interne kurs",
       "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+    },
+    {
+      "id": "16795b62ce2b83e1",
+      "dateIso": "2026-12-07",
+      "dateLabel": "2026-12-07",
+      "time": "19:00",
+      "type": "Interne møter",
+      "description": "Fagansvarligmøter 2026: Budsjett og handlingsplan",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
     },
     {
