@@ -12,7 +12,10 @@ test('new worker installs fresh shell assets instead of recycling the HTTP cache
   let done;handlers.install({waitUntil:p=>done=p});await done;
   assert.ok(requested.length>0);
   assert.ok(requested.every(request=>request.cache==='reload'));
-  assert.ok(requested.some(request=>request.url==='https://example.test/app/app.js?v=2.3.5'));
+  const html=await readFile('pwa/index.html','utf8');
+  const script=html.match(/src="(\.\/app\.js\?v=[^"]+)"/);
+  assert.ok(script);
+  assert.ok(requested.some(request=>request.url===new URL(script[1],'https://example.test/app/').href));
   assert.ok(requested.some(request=>request.url==='https://example.test/app/local-state.js?v=2.3.2'));
 });
 test('snapshot URLs follow Bridge filenames for spaces and Norwegian letters',()=>{
