@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "https://www.kova.no/Events.aspx",
-  "updatedAt": "2026-11-23T01:00:32+01:00",
-  "count": 42,
-  "helpCorpsCount": 39,
+  "updatedAt": "2026-11-23T11:40:25+01:00",
+  "count": 43,
+  "helpCorpsCount": 40,
   "organizations": [
     {
       "name": "Arna og Åsane Røde Kors Hjelpekorps",
@@ -93,6 +93,11 @@
     {
       "name": "Lillehammer Røde Kors Hjelpekorps",
       "code": "LillehammerRKH",
+      "category": "hjelpekorps"
+    },
+    {
+      "name": "Lillesand Røde Kors Hjelpekorps",
+      "code": "LillesandRKH",
       "category": "hjelpekorps"
     },
     {
