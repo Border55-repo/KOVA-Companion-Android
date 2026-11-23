@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "da551eb58e6642cde21fc2e1",
+      "observedAt": "2026-11-24T00:15:27+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "a2b75b4fa21582e8",
+        "dateIso": "2026-08-26",
+        "dateLabel": "2026-08-26",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "Skagerak Arena: Odd - Kongsvinger",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "698ea3fda8ce31e61e4bc71b",
       "observedAt": "2026-11-06T12:30:36+01:00",
       "organization": "SkienRKH",
@@ -821,5 +836,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T12:30:36+01:00"
+  "updatedAt": "2026-11-24T00:15:27+01:00"
 }

@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:16:37+01:00",
-  "checkedAt": "2026-11-23T23:55:31+01:00",
+  "updatedAt": "2026-11-24T00:15:27+01:00",
+  "checkedAt": "2026-11-24T00:15:27+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH",
-  "eventCount": 54,
+  "eventCount": 53,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "a2b75b4fa21582e8",
-      "dateIso": "2026-08-26",
-      "dateLabel": "2026-08-26",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Skagerak Arena: Odd - Kongsvinger",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
     {
       "id": "321065de6aa82075",
       "dateIso": "2026-08-29",
