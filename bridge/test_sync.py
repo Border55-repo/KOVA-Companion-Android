@@ -115,7 +115,7 @@ class BridgeParserTests(unittest.TestCase):
         response = Mock(text="".join(f'<a href="schedule.aspx?Organization=corps{i}">Korps {i} Hjelpekorps</a>' for i in range(5)))
         with patch("sync.requests.get", return_value=response):
             found = discover_organizations(attempts=1)
-        self.assertEqual({*(f"corps{i}" for i in range(5)), "VossRKH", "Haugesund"},
+        self.assertEqual({*(f"corps{i}" for i in range(5)), "VossRKH", "Haugesund", "LillesandRKH"},
                          {org["code"] for org in found})
         self.assertTrue(all(org["category"] == "hjelpekorps" for org in found))
 
