@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:16:40+01:00",
-  "checkedAt": "2026-11-23T10:30:33+01:00",
+  "updatedAt": "2026-11-23T10:45:46+01:00",
+  "checkedAt": "2026-11-23T10:45:46+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH",
   "eventCount": 83,
   "changes": {
     "added": 0,
     "removed": 0,
-    "changed": 0
+    "changed": 1
   },
   "events": [
     {
@@ -549,12 +549,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
     },
     {
-      "id": "3a572a31f3cccdad",
+      "id": "e88c31df1631e2eb",
       "dateIso": "2026-12-17",
       "dateLabel": "2026-12-17",
       "time": "15:30",
       "type": "Sanitetsvakt",
-      "description": "Stabæk - ukjent: Stabæk - Ukjent",
+      "description": "Stabæk - ukjent: Stabæk -",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
     },
     {

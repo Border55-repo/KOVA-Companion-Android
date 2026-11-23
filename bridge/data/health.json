@@ -8,12 +8,12 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-11-23T10:25:41+01:00",
-  "lastSuccessfulRunAt": "2026-11-23T10:25:41+01:00",
-  "lastFullySuccessfulRunAt": "2026-11-23T10:25:41+01:00",
+  "checkedAt": "2026-11-23T10:45:52+01:00",
+  "lastSuccessfulRunAt": "2026-11-23T10:45:52+01:00",
+  "lastFullySuccessfulRunAt": "2026-11-23T10:45:52+01:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-11-23T08:20:36+01:00",
+  "lastPushAt": "2026-11-23T10:45:52+01:00",
   "lastPushCount": 1,
   "organizationCount": 42,
   "helpCorpsCount": 39,
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 49,
       "updatedAt": "2026-11-23T00:00:29+01:00",
-      "checkedAt": "2026-11-23T10:25:29+01:00",
+      "checkedAt": "2026-11-23T10:45:37+01:00",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "status": "ok",
       "eventCount": 103,
       "updatedAt": "2026-11-23T08:20:27+01:00",
-      "checkedAt": "2026-11-23T10:25:29+01:00",
+      "checkedAt": "2026-11-23T10:45:38+01:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 106,
       "updatedAt": "2026-11-23T07:30:27+01:00",
-      "checkedAt": "2026-11-23T10:25:30+01:00",
+      "checkedAt": "2026-11-23T10:45:38+01:00",
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "status": "ok",
       "eventCount": 151,
       "updatedAt": "2026-11-23T00:00:36+01:00",
-      "checkedAt": "2026-11-23T10:25:31+01:00",
+      "checkedAt": "2026-11-23T10:45:39+01:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 31,
       "updatedAt": "2026-11-22T22:20:02+01:00",
-      "checkedAt": "2026-11-23T10:25:32+01:00",
+      "checkedAt": "2026-11-23T10:45:40+01:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 96,
       "updatedAt": "2026-11-22T22:20:03+01:00",
-      "checkedAt": "2026-11-23T10:25:32+01:00",
+      "checkedAt": "2026-11-23T10:45:41+01:00",
       "error": null
     },
     {
@@ -93,7 +93,7 @@
       "status": "ok",
       "eventCount": 9,
       "updatedAt": "2026-11-22T22:25:28+01:00",
-      "checkedAt": "2026-11-23T10:25:33+01:00",
+      "checkedAt": "2026-11-23T10:45:42+01:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 74,
       "updatedAt": "2026-11-23T00:00:42+01:00",
-      "checkedAt": "2026-11-23T10:25:34+01:00",
+      "checkedAt": "2026-11-23T10:45:42+01:00",
       "error": null
     },
     {
@@ -115,7 +115,7 @@
       "status": "ok",
       "eventCount": 1,
       "updatedAt": "2026-11-22T22:19:58+01:00",
-      "checkedAt": "2026-11-23T10:25:34+01:00",
+      "checkedAt": "2026-11-23T10:45:43+01:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 125,
       "updatedAt": "2026-11-23T00:00:43+01:00",
-      "checkedAt": "2026-11-23T10:25:35+01:00",
+      "checkedAt": "2026-11-23T10:45:44+01:00",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
       "status": "ok",
       "eventCount": 10,
       "updatedAt": "2026-11-22T22:19:59+01:00",
-      "checkedAt": "2026-11-23T10:25:35+01:00",
+      "checkedAt": "2026-11-23T10:45:44+01:00",
       "error": null
     },
     {
@@ -148,29 +148,29 @@
       "status": "ok",
       "eventCount": 23,
       "updatedAt": "2026-11-22T22:52:30+01:00",
-      "checkedAt": "2026-11-23T10:25:36+01:00",
+      "checkedAt": "2026-11-23T10:45:45+01:00",
       "error": null
     },
     {
-      "name": "Asker Røde Kors Hjelpekorps",
-      "code": "AskerRKH",
+      "name": "Arna og Åsane Røde Kors Hjelpekorps",
+      "code": "AÅRKH",
       "category": "hjelpekorps",
-      "file": "AskerRKH.json",
+      "file": "A_RKH.json",
       "status": "ok",
-      "eventCount": 29,
-      "updatedAt": "2026-11-23T00:05:41+01:00",
-      "checkedAt": "2026-11-23T10:25:37+01:00",
+      "eventCount": 15,
+      "updatedAt": "2026-11-22T22:16:39+01:00",
+      "checkedAt": "2026-11-23T10:45:45+01:00",
       "error": null
     },
     {
-      "name": "Brandbu Røde Kors Hjelpekorps",
-      "code": "BrandbuRKH",
+      "name": "Bærum Røde Kors Hjelpekorps",
+      "code": "BærumRKH",
       "category": "hjelpekorps",
-      "file": "BrandbuRKH.json",
+      "file": "B_rumRKH.json",
       "status": "ok",
-      "eventCount": 21,
-      "updatedAt": "2026-11-22T22:25:27+01:00",
-      "checkedAt": "2026-11-23T10:25:37+01:00",
+      "eventCount": 83,
+      "updatedAt": "2026-11-23T10:45:46+01:00",
+      "checkedAt": "2026-11-23T10:45:48+01:00",
       "error": null
     }
   ]

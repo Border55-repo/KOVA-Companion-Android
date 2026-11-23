@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "70d376a235b4934d61bbf99d",
+      "observedAt": "2026-11-23T10:45:46+01:00",
+      "organization": "BærumRKH",
+      "kind": "changed",
+      "event": {
+        "id": "e88c31df1631e2eb",
+        "dateIso": "2026-12-17",
+        "dateLabel": "2026-12-17",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - ukjent: Stabæk -",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      },
+      "oldEvent": {
+        "id": "3a572a31f3cccdad",
+        "dateIso": "2026-12-17",
+        "dateLabel": "2026-12-17",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - ukjent: Stabæk - Ukjent",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "d0c3530dde03d92e178b5b76",
       "observedAt": "2026-11-06T13:45:29+01:00",
       "organization": "BærumRKH",
@@ -1394,5 +1418,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T13:45:29+01:00"
+  "updatedAt": "2026-11-23T10:45:46+01:00"
 }
