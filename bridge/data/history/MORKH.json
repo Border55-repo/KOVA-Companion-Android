@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c631d76d429ee5a6240f5991",
+      "observedAt": "2026-11-23T13:05:35+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "9924ada47e3f483f",
+        "dateIso": "2026-12-01",
+        "dateLabel": "2026-12-01",
+        "time": "17:00",
+        "type": "Eksterne møter",
+        "description": "Foredrag fra grottegruppe i Moss: Foredrag fra grottegruppe - Ta 5.2.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "c08c43628e603309",
+        "dateIso": "2026-12-01",
+        "dateLabel": "2026-12-01",
+        "time": "17:00",
+        "type": "Eksterne møter",
+        "description": "Taugruppa til Moss: Taugruppa møte grottegruppe - Ta 5.2.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "6be1574c1acf8efec76d89f9",
       "observedAt": "2026-11-23T00:05:36+01:00",
       "organization": "MORKH",
@@ -2009,5 +2033,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:05:36+01:00"
+  "updatedAt": "2026-11-23T13:05:35+01:00"
 }
