@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T20:35:28+01:00",
-  "checkedAt": "2026-11-24T20:40:28+01:00",
+  "updatedAt": "2026-11-24T20:45:26+01:00",
+  "checkedAt": "2026-11-24T20:45:26+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 104,
+  "eventCount": 105,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -942,6 +942,15 @@
       "time": "07:30",
       "type": "Sanitetsvakt",
       "description": "Sanitetsvakt med Scooter: Grenaderittet",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "8206a59a1be325f2",
+      "dateIso": "2027-02-13",
+      "dateLabel": "2027-02-13",
+      "time": "11:00",
+      "type": "Aktivitet",
+      "description": "Skidag med lokalforeningen:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
     },
     {

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7c4d96d4d7582d15963b9115",
+      "observedAt": "2026-11-24T20:45:26+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "8206a59a1be325f2",
+        "dateIso": "2027-02-13",
+        "dateLabel": "2027-02-13",
+        "time": "11:00",
+        "type": "Aktivitet",
+        "description": "Skidag med lokalforeningen:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "4d19524f98d72c99f40e9e1b",
       "observedAt": "2026-11-24T20:35:28+01:00",
       "organization": "Nittedal RKH",
@@ -1562,5 +1577,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T20:35:28+01:00"
+  "updatedAt": "2026-11-24T20:45:26+01:00"
 }
