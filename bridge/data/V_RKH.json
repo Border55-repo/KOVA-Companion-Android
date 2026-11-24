@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:15:41+01:00",
-  "checkedAt": "2026-11-24T22:15:36+01:00",
+  "updatedAt": "2026-11-24T22:35:32+01:00",
+  "checkedAt": "2026-11-24T22:35:32+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH",
   "eventCount": 57,
   "changes": {
     "added": 0,
-    "removed": 2,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -468,12 +468,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
-      "id": "320dd9976ff3a623",
+      "id": "004e2ef0c8b73b72",
       "dateIso": "2026-12-01",
       "dateLabel": "2026-12-01",
       "time": "18:00",
       "type": "Korpskveld",
-      "description": "Korpskveld : Korpskveld - Søksøvelse",
+      "description": "Korpskveld : Korpskveld - gjennomgang av ny veileder SAR",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
     },
     {
