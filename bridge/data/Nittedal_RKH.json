@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T20:45:26+01:00",
-  "checkedAt": "2026-11-24T23:55:59+01:00",
+  "updatedAt": "2026-11-25T00:01:05+01:00",
+  "checkedAt": "2026-11-25T00:01:05+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 105,
+  "eventCount": 103,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "6cb2e609193f6cb3",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Sanitetsvakt: Fotballkamp Lillestrøm - Egnatia",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "7b80879d0427820d",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "18:30",
-      "type": "Interne møter",
-      "description": "Møte: Styremøte i lokalforeningen: Ordinært arbeidsmøte i styret",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
     {
       "id": "13f608ff3bc34c94",
       "dateIso": "2026-08-28",

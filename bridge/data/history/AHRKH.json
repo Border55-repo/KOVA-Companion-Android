@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "ad52bb6cd2a13feb96b31579",
+      "observedAt": "2026-11-25T00:01:22+01:00",
+      "organization": "AHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "92e8c609824dae60",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "korpskveld: Korpskveld: Dette er Røde Kors Hjelpekorps",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "e76de2ccc68cf972d1d33e77",
       "observedAt": "2026-11-06T00:15:30+01:00",
       "organization": "AHRKH",
@@ -644,5 +659,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T00:15:30+01:00"
+  "updatedAt": "2026-11-25T00:01:22+01:00"
 }

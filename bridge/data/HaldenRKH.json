@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T17:18:54+01:00",
-  "checkedAt": "2026-11-24T23:41:16+01:00",
+  "updatedAt": "2026-11-25T00:01:18+01:00",
+  "checkedAt": "2026-11-25T00:01:18+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH",
   "eventCount": 125,
   "changes": {
-    "added": 0,
-    "removed": 0,
-    "changed": 1
+    "added": 1,
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "c59d76a4a9e74228",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "19:15",
-      "type": "Eksterne møter",
-      "description": "Infomøte om RECCEX øvelsen: Link til digitalt møte deles i Teams",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
-    },
     {
       "id": "c9de064385bed644",
       "dateIso": "2026-08-28",
@@ -1140,6 +1131,15 @@
       "time": "18:30",
       "type": "Eksterne møter",
       "description": "Fagkveld for ambulansepersonell/AFØR:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+    },
+    {
+      "id": "21f9adda5ecb8e9d",
+      "dateIso": "2027-11-24",
+      "dateLabel": "2027-11-24",
+      "time": "18:30",
+      "type": "Eksterne møter",
+      "description": "Aksjonsgruppemøte:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
     }
   ]

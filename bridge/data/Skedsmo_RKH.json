@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T19:50:27+01:00",
-  "checkedAt": "2026-11-24T23:56:00+01:00",
+  "updatedAt": "2026-11-25T00:01:09+01:00",
+  "checkedAt": "2026-11-25T00:01:09+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH",
-  "eventCount": 104,
+  "eventCount": 102,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 2,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "20042d0bd0b80650",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "16:45",
-      "type": "Sanitetsvakt",
-      "description": "Ambulanse LSK-kamper : Ambulanse LSK-Egnatia Høyrisiko",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
-    },
-    {
-      "id": "cf4ec81ec44c4c2a",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "LSK-kamper Høst 2026: LSK-Egnatia HØYRISIKO",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
-    },
     {
       "id": "e8fe89e849508a5b",
       "dateIso": "2026-08-28",

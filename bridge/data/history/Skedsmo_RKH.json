@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1f5dfc85356cfea9263c3064",
+      "observedAt": "2026-11-25T00:01:09+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "20042d0bd0b80650",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Ambulanse LSK-kamper : Ambulanse LSK-Egnatia Høyrisiko",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "0410d4e0d4a009492d2ba251",
+      "observedAt": "2026-11-25T00:01:09+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "cf4ec81ec44c4c2a",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "LSK-kamper Høst 2026: LSK-Egnatia HØYRISIKO",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "3af378dc6b2b3c63a1be3efc",
       "observedAt": "2026-11-24T19:50:27+01:00",
       "organization": "Skedsmo RKH",
@@ -1310,5 +1340,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T19:50:27+01:00"
+  "updatedAt": "2026-11-25T00:01:09+01:00"
 }

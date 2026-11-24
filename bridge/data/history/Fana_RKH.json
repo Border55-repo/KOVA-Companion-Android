@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "79a47ff670ed0f5a2dbd0e98",
+      "observedAt": "2026-11-25T00:01:16+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "a947e0c5d724e9ae",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - SYKKEL - FLØYEN OPP.: SANITETSVAKT - FLØYEN OPP - 27.08.26.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "c7f115ba55fd28bb70519979",
       "observedAt": "2026-11-24T17:18:50+01:00",
       "organization": "Fana RKH",
@@ -995,5 +1010,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T17:18:50+01:00"
+  "updatedAt": "2026-11-25T00:01:16+01:00"
 }

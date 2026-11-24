@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3f8e9548865dba97fabcc4f3",
+      "observedAt": "2026-11-25T00:01:18+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "21f9adda5ecb8e9d",
+        "dateIso": "2027-11-24",
+        "dateLabel": "2027-11-24",
+        "time": "18:30",
+        "type": "Eksterne møter",
+        "description": "Aksjonsgruppemøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "12610d3f996d9eb37f8d7d4c",
+      "observedAt": "2026-11-25T00:01:18+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c59d76a4a9e74228",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "19:15",
+        "type": "Eksterne møter",
+        "description": "Infomøte om RECCEX øvelsen: Link til digitalt møte deles i Teams",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "c6a42b70ed8bab8dbcbad110",
       "observedAt": "2026-11-24T17:18:54+01:00",
       "organization": "HaldenRKH",
@@ -2327,5 +2357,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T17:18:54+01:00"
+  "updatedAt": "2026-11-25T00:01:18+01:00"
 }

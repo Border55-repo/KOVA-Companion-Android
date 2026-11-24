@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T17:18:50+01:00",
-  "checkedAt": "2026-11-24T23:41:15+01:00",
+  "updatedAt": "2026-11-25T00:01:16+01:00",
+  "checkedAt": "2026-11-25T00:01:16+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 74,
+  "eventCount": 73,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "a947e0c5d724e9ae",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - SYKKEL - FLØYEN OPP.: SANITETSVAKT - FLØYEN OPP - 27.08.26.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
     {
       "id": "f3fb2475b7e45570",
       "dateIso": "2026-08-28",

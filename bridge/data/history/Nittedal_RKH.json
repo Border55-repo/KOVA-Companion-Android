@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6280ecbde2a15f416c9a3bc4",
+      "observedAt": "2026-11-25T00:01:05+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6cb2e609193f6cb3",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt: Fotballkamp Lillestrøm - Egnatia",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
+      "changeId": "daa4f3701926801e54c00437",
+      "observedAt": "2026-11-25T00:01:05+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "removed",
+      "event": {
+        "id": "7b80879d0427820d",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Møte: Styremøte i lokalforeningen: Ordinært arbeidsmøte i styret",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "7c4d96d4d7582d15963b9115",
       "observedAt": "2026-11-24T20:45:26+01:00",
       "organization": "Nittedal RKH",
@@ -1577,5 +1607,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T20:45:26+01:00"
+  "updatedAt": "2026-11-25T00:01:05+01:00"
 }
