@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T12:55:31+01:00",
-  "checkedAt": "2026-11-24T16:35:27+01:00",
+  "updatedAt": "2026-11-24T16:55:31+01:00",
+  "checkedAt": "2026-11-24T16:55:31+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH",
-  "eventCount": 21,
+  "eventCount": 22,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "changed": 1
+    "changed": 0
   },
   "events": [
     {
@@ -204,6 +204,15 @@
       "time": "19:00",
       "type": "Korpskveld",
       "description": "Medlemsmøtet:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+    },
+    {
+      "id": "e68f37d0d82ff669",
+      "dateIso": "2027-02-20",
+      "dateLabel": "2027-02-20",
+      "time": "00:00",
+      "type": "Sanitetsvakt",
+      "description": "Holmenkollmarsjen:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
     }
   ]

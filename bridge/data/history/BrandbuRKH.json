@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5ee8aaf54bbbaa8120e3564d",
+      "observedAt": "2026-11-24T16:55:31+01:00",
+      "organization": "BrandbuRKH",
+      "kind": "added",
+      "event": {
+        "id": "e68f37d0d82ff669",
+        "dateIso": "2027-02-20",
+        "dateLabel": "2027-02-20",
+        "time": "00:00",
+        "type": "Sanitetsvakt",
+        "description": "Holmenkollmarsjen:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "814bc5516dbc824d9e1d814b",
       "observedAt": "2026-11-23T12:55:31+01:00",
       "organization": "BrandbuRKH",
@@ -230,5 +245,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T12:55:31+01:00"
+  "updatedAt": "2026-11-24T16:55:31+01:00"
 }
