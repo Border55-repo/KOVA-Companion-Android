@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T20:25:37+01:00",
-  "checkedAt": "2026-11-24T22:05:33+01:00",
+  "updatedAt": "2026-11-24T22:25:34+01:00",
+  "checkedAt": "2026-11-24T22:25:34+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH",
-  "eventCount": 51,
+  "eventCount": 58,
   "changes": {
-    "added": 1,
+    "added": 7,
     "removed": 0,
     "changed": 0
   },
@@ -324,12 +324,66 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
+      "id": "46188d2d13c871b6",
+      "dateIso": "2026-11-15",
+      "dateLabel": "2026-11-15",
+      "time": "15:00",
+      "type": "Aktivitet",
+      "description": "Hente og rigge scooter:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "2fce79cbad67c2c7",
+      "dateIso": "2026-11-18",
+      "dateLabel": "2026-11-18",
+      "time": "18:00",
+      "type": "Eksterne møter",
+      "description": "Stabsmøte NM 2027:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "127e92cde3b208ab",
+      "dateIso": "2026-11-19",
+      "dateLabel": "2026-11-19",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Drone trening:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
       "id": "a8b3f6dbcfb61d28",
       "dateIso": "2026-11-23",
       "dateLabel": "2026-11-23",
       "time": "20:00",
       "type": "Interne møter",
       "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "4de884c1ad2395de",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "12:00",
+      "type": "Aktivitet",
+      "description": "Viv. scooter og ATV, Grua auto:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "9cfc3ed7590bf44b",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "18:00",
+      "type": "Øvelse",
+      "description": "Drone trening:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "07aa30b02300c004",
+      "dateIso": "2026-11-25",
+      "dateLabel": "2026-11-25",
+      "time": "11:00",
+      "type": "Aktivitet",
+      "description": "Biltilsynet:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
@@ -357,6 +411,15 @@
       "time": "18:00",
       "type": "Interne møter",
       "description": "Medlemsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "4c59449ab64478d8",
+      "dateIso": "2026-12-28",
+      "dateLabel": "2026-12-28",
+      "time": "10:00",
+      "type": "Ambulansevakt",
+      "description": "Romhjulssprint:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
