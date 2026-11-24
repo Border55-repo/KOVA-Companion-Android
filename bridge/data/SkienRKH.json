@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:15:27+01:00",
-  "checkedAt": "2026-11-24T18:55:31+01:00",
+  "updatedAt": "2026-11-24T19:15:31+01:00",
+  "checkedAt": "2026-11-24T19:15:31+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH",
-  "eventCount": 53,
+  "eventCount": 54,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -348,6 +348,15 @@
       "time": "17:30",
       "type": "Aktivitet",
       "description": "Befalsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+    },
+    {
+      "id": "4b2cd8978a5cffbf",
+      "dateIso": "2026-11-25",
+      "dateLabel": "2026-11-25",
+      "time": "19:30",
+      "type": "Rådsmøte",
+      "description": "Rådsmøte:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
     },
     {

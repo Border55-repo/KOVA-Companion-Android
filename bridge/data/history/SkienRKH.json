@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7ea4e9fecd0f548d59f59bef",
+      "observedAt": "2026-11-24T19:15:31+01:00",
+      "organization": "SkienRKH",
+      "kind": "added",
+      "event": {
+        "id": "4b2cd8978a5cffbf",
+        "dateIso": "2026-11-25",
+        "dateLabel": "2026-11-25",
+        "time": "19:30",
+        "type": "Rådsmøte",
+        "description": "Rådsmøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "da551eb58e6642cde21fc2e1",
       "observedAt": "2026-11-24T00:15:27+01:00",
       "organization": "SkienRKH",
@@ -836,5 +851,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:15:27+01:00"
+  "updatedAt": "2026-11-24T19:15:31+01:00"
 }
