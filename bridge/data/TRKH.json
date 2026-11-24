@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:25:26+01:00",
-  "checkedAt": "2026-11-24T23:56:04+01:00",
+  "updatedAt": "2026-11-25T00:16:05+01:00",
+  "checkedAt": "2026-11-25T00:16:05+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH",
-  "eventCount": 45,
+  "eventCount": 44,
   "changes": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "283c90662a6143de",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Rakettnatt  : Vaktlag - Torsdag - RNFRI",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
-    },
     {
       "id": "620c7d7a58952911",
       "dateIso": "2026-08-28",
