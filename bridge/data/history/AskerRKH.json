@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c5dcea6221eff1d33005ddcd",
+      "observedAt": "2026-11-25T00:06:32+01:00",
+      "organization": "AskerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "8bc524729ae23e16",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld 14: KSOR light - teori",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AskerRKH"
+      }
+    },
+    {
       "changeId": "82deaaef27d2ad34737098ca",
       "observedAt": "2026-11-24T00:05:49+01:00",
       "organization": "AskerRKH",
@@ -530,5 +545,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:05:49+01:00"
+  "updatedAt": "2026-11-25T00:06:32+01:00"
 }

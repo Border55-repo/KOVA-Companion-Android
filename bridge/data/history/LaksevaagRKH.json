@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "865691afc6f2aa9ae3189d4e",
+      "observedAt": "2026-11-25T00:06:18+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ae6afcf132169be3",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Styremøte RC Bjørgvin: Styremøte RC Bjørgvin",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
+      "changeId": "627bae49ad1903b142932e12",
+      "observedAt": "2026-11-25T00:06:18+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e3e624cb60e9bb20",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:30",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Kickoff: Sosialt, re-trening, informasjon og korpskveld planlegging",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "ac5e570467c18f05bb815da7",
       "observedAt": "2026-11-24T00:05:33+01:00",
       "organization": "LaksevaagRKH",
@@ -1355,5 +1385,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:05:33+01:00"
+  "updatedAt": "2026-11-25T00:06:18+01:00"
 }

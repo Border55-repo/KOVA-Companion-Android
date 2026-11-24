@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cd0961bb8a64398697ff6874",
+      "observedAt": "2026-11-25T00:06:28+01:00",
+      "organization": "NRKH",
+      "kind": "added",
+      "event": {
+        "id": "6a641842914cc777",
+        "dateIso": "2027-11-24",
+        "dateLabel": "2027-11-24",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskvelder, høst 2027: Tema kommer",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "b010a25acb65ff922ee69d82",
       "observedAt": "2026-11-24T00:05:46+01:00",
       "organization": "NRKH",
@@ -1127,5 +1142,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:05:46+01:00"
+  "updatedAt": "2026-11-25T00:06:28+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d3aa2ee98632d11236f41c6b",
+      "observedAt": "2026-11-25T00:06:25+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "24bbb3ef0287b04b",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "19:00",
+        "type": "Aktivitet",
+        "description": "Tauredningsgruppe: Kun for tauredningsgruppa RK-huset",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "9865a75b339aa92fa54dfa7a",
       "observedAt": "2026-11-24T18:45:35+01:00",
       "organization": "MORKH",
@@ -2087,5 +2102,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T18:45:35+01:00"
+  "updatedAt": "2026-11-25T00:06:25+01:00"
 }
