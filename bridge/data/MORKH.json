@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:05:40+01:00",
-  "checkedAt": "2026-11-24T18:25:34+01:00",
+  "updatedAt": "2026-11-24T18:45:35+01:00",
+  "checkedAt": "2026-11-24T18:45:35+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH",
   "eventCount": 115,
   "changes": {
     "added": 0,
-    "removed": 2,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -891,12 +891,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
-      "id": "85b6dddce53fdfe1",
+      "id": "52ad90a843ace0d0",
       "dateIso": "2026-12-27",
       "dateLabel": "2026-12-27",
       "time": "10:00",
       "type": "Ambulansevakt",
-      "description": "Julekjøring for SØK A: Avtal med Sarp hvilken bil som skal benyttes",
+      "description": "Julekjøring for SØK: Avtal med Sarp hvilken bil som skal benyttes",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
