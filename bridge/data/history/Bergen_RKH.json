@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "338459d05beb1390fff81dcc",
+      "observedAt": "2026-11-25T00:10:59+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "c9c9d829af2e91a0",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Brann mot PAOK: Brann mot PAOK",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
+      "changeId": "df476d15a0bf896963f027ef",
+      "observedAt": "2026-11-25T00:10:59+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "26d6b86d2c8b944d",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Møte onboarding nye medlemmer : Møte onboarding nye medlemmer",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "3057e5decd65a215295ee592",
       "observedAt": "2026-11-24T12:10:31+01:00",
       "organization": "Bergen RKH",
@@ -1448,5 +1478,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T12:10:31+01:00"
+  "updatedAt": "2026-11-25T00:10:59+01:00"
 }

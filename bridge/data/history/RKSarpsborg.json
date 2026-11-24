@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "116d32eb9274d12cd627b91f",
+      "observedAt": "2026-11-25T00:11:07+01:00",
+      "organization": "RKSarpsborg",
+      "kind": "removed",
+      "event": {
+        "id": "b12feeabac7108dc",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "19:30",
+        "type": "Øvelse",
+        "description": "RECCEX 2026: Informasjonsmøte digitalt (se link i Teams)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKSarpsborg"
+      }
+    },
+    {
       "changeId": "482198055d7d7a3336b7ef85",
       "observedAt": "2026-11-23T00:10:45+01:00",
       "organization": "RKSarpsborg",
@@ -1121,5 +1136,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:10:45+01:00"
+  "updatedAt": "2026-11-25T00:11:07+01:00"
 }

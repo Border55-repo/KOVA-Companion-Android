@@ -7,34 +7,16 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:10:33+01:00",
-  "checkedAt": "2026-11-24T23:51:02+01:00",
+  "updatedAt": "2026-11-25T00:11:05+01:00",
+  "checkedAt": "2026-11-25T00:11:05+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB",
-  "eventCount": 75,
+  "eventCount": 73,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "b9f364217015dbfc",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "15:30",
-      "type": "Sanitetsvakt",
-      "description": "Brann: UEFA kamp (tidlig, tilstede kl 17 (2 timer før kampstart))",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
-    {
-      "id": "916f6f4537a9c4a6",
-      "dateIso": "2026-08-27",
-      "dateLabel": "2026-08-27",
-      "time": "17:30",
-      "type": "Sanitetsvakt",
-      "description": "Brann: UEFA kamp (sein, tilstede kl 18 og til 1 time etter kampslutt)",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
     {
       "id": "55b48c8a6a48cd72",
       "dateIso": "2026-08-28",

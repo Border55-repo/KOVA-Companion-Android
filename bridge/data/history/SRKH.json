@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b78fdf4c2b9e3c8c3eb7dbd7",
+      "observedAt": "2026-11-25T00:11:08+01:00",
+      "organization": "SRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6b995c8a9765249f",
+        "dateIso": "2026-08-27",
+        "dateLabel": "2026-08-27",
+        "time": "18:00",
+        "type": "Korpskveld",
+        "description": "Korpskveld: Ringløype med funn",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "31f763954ff53beeff693c1b",
       "observedAt": "2026-11-05T00:00:42+01:00",
       "organization": "SRKH",
@@ -824,5 +839,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-05T00:00:42+01:00"
+  "updatedAt": "2026-11-25T00:11:08+01:00"
 }
