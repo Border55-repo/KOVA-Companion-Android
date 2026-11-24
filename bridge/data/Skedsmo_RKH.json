@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:00:33+01:00",
-  "checkedAt": "2026-11-24T19:45:30+01:00",
+  "updatedAt": "2026-11-24T19:50:27+01:00",
+  "checkedAt": "2026-11-24T19:50:27+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH",
   "eventCount": 104,
   "changes": {
     "added": 0,
-    "removed": 2,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -693,12 +693,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
     },
     {
-      "id": "307a8fbaf6d56777",
+      "id": "49c630a347b52b49",
       "dateIso": "2026-11-12",
       "dateLabel": "2026-11-12",
       "time": "15:00",
       "type": "Eksterne kurs",
-      "description": "Eksternt førstehjelpskurs: 53 i bruk, pakkes kvelden før",
+      "description": "Eksternt førstehjelpskurs: 53 i bruk",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
     },
     {
