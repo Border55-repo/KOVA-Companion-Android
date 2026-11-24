@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:10:26+01:00",
-  "checkedAt": "2026-11-24T11:50:29+01:00",
+  "updatedAt": "2026-11-24T12:10:31+01:00",
+  "checkedAt": "2026-11-24T12:10:31+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH",
-  "eventCount": 72,
+  "eventCount": 73,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -663,6 +663,15 @@
       "time": "22:00",
       "type": "Sanitetsvakt",
       "description": "Nyttårsvakt Bergen Sentrum: Interessepåmelding nyttårsvakten",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+    },
+    {
+      "id": "52fdfb1a4762bc49",
+      "dateIso": "2027-02-06",
+      "dateLabel": "2027-02-06",
+      "time": "16:30",
+      "type": "Sanitetsvakt",
+      "description": "Bergen winterrun: Winterrun",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
     }
   ]

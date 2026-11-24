@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "3057e5decd65a215295ee592",
+      "observedAt": "2026-11-24T12:10:31+01:00",
+      "organization": "Bergen RKH",
+      "kind": "added",
+      "event": {
+        "id": "52fdfb1a4762bc49",
+        "dateIso": "2027-02-06",
+        "dateLabel": "2027-02-06",
+        "time": "16:30",
+        "type": "Sanitetsvakt",
+        "description": "Bergen winterrun: Winterrun",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "5b5babb006bc7e48fcf56ce0",
       "observedAt": "2026-11-24T00:10:26+01:00",
       "organization": "Bergen RKH",
@@ -1433,5 +1448,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:10:26+01:00"
+  "updatedAt": "2026-11-24T12:10:31+01:00"
 }
