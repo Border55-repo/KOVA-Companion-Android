@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "71d80c07bb07d527ad84c519",
+      "observedAt": "2026-11-24T10:55:25+01:00",
+      "organization": "Nittedal RKH",
+      "kind": "added",
+      "event": {
+        "id": "eecabfba38570308",
+        "dateIso": "2026-11-24",
+        "dateLabel": "2026-11-24",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt for Ullensaker - Gradueringsseremonier: Handelshøyskolen BI - gradueringsseremonier",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+      }
+    },
+    {
       "changeId": "c8ed0deead2c9aab2d6a8dde",
       "observedAt": "2026-11-24T00:00:28+01:00",
       "organization": "Nittedal RKH",
@@ -1532,5 +1547,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:00:28+01:00"
+  "updatedAt": "2026-11-24T10:55:25+01:00"
 }

@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:00:28+01:00",
-  "checkedAt": "2026-11-24T10:50:26+01:00",
+  "updatedAt": "2026-11-24T10:55:25+01:00",
+  "checkedAt": "2026-11-24T10:55:25+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 102,
+  "eventCount": 103,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -798,6 +798,15 @@
       "time": "18:00",
       "type": "Eksterne møter",
       "description": "Møte: FGRUV Oppstart marka 26/27: Hos Skedsmo RKH",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
+    },
+    {
+      "id": "eecabfba38570308",
+      "dateIso": "2026-11-24",
+      "dateLabel": "2026-11-24",
+      "time": "15:30",
+      "type": "Sanitetsvakt",
+      "description": "Sanitetsvakt for Ullensaker - Gradueringsseremonier: Handelshøyskolen BI - gradueringsseremonier",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
     },
     {
