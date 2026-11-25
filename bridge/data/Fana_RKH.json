@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:01:16+01:00",
-  "checkedAt": "2026-11-25T15:00:38+01:00",
+  "updatedAt": "2026-11-25T15:20:25+01:00",
+  "checkedAt": "2026-11-25T15:20:25+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 73,
+  "eventCount": 74,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -654,6 +654,15 @@
       "time": "18:00",
       "type": "Interne møter",
       "description": "JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER.: JULEAVSLUTNING - FANA RØDE KORS - ONSDAG 9. DESEMBER.",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "b7ec7bc4429575c3",
+      "dateIso": "2026-12-31",
+      "dateLabel": "2026-12-31",
+      "time": "21:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - NYTÅRSAFTEN-26 - BERGEN SENTRUM.: SANITETSVAKT - NYTTÅRSAFTEN-26 - BERGEN SENTRUM.",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
     },
     {

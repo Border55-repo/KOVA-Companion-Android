@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7b7d6f83270e4ba7446e26cd",
+      "observedAt": "2026-11-25T15:20:25+01:00",
+      "organization": "Fana RKH",
+      "kind": "added",
+      "event": {
+        "id": "b7ec7bc4429575c3",
+        "dateIso": "2026-12-31",
+        "dateLabel": "2026-12-31",
+        "time": "21:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - NYTÅRSAFTEN-26 - BERGEN SENTRUM.: SANITETSVAKT - NYTTÅRSAFTEN-26 - BERGEN SENTRUM.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "79a47ff670ed0f5a2dbd0e98",
       "observedAt": "2026-11-25T00:01:16+01:00",
       "organization": "Fana RKH",
@@ -1010,5 +1025,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:01:16+01:00"
+  "updatedAt": "2026-11-25T15:20:25+01:00"
 }
