@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4718edd872a6c92b7059bb14",
+      "observedAt": "2026-11-25T18:45:33+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "cb28662ec2796ac2",
+        "dateIso": "2026-12-27",
+        "dateLabel": "2026-12-27",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Julekjøring for SØK: Mysen-bilen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "52ad90a843ace0d0",
+        "dateIso": "2026-12-27",
+        "dateLabel": "2026-12-27",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Julekjøring for SØK: Avtal med Sarp hvilken bil som skal benyttes",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "7b1625fabb7329923985b326",
+      "observedAt": "2026-11-25T18:45:33+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "d24f62e98e36900a",
+        "dateIso": "2027-01-02",
+        "dateLabel": "2027-01-02",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Julekjøring for SØK : Fredrikstad-bilen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "df35e43f2c0c3ed8",
+        "dateIso": "2027-01-02",
+        "dateLabel": "2027-01-02",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Julekjøring for SØK : Avtal med Sarp hvilken bil som skal benyttes",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "e01efe24b3d7d5a55e6092f7",
       "observedAt": "2026-11-25T17:45:31+01:00",
       "organization": "MORKH",
@@ -2150,5 +2198,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T17:45:31+01:00"
+  "updatedAt": "2026-11-25T18:45:33+01:00"
 }

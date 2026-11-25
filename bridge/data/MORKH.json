@@ -7,8 +7,8 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T17:45:31+01:00",
-  "checkedAt": "2026-11-25T18:25:31+01:00",
+  "updatedAt": "2026-11-25T18:45:33+01:00",
+  "checkedAt": "2026-11-25T18:45:33+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH",
   "eventCount": 114,
   "changes": {
@@ -882,12 +882,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
-      "id": "52ad90a843ace0d0",
+      "id": "cb28662ec2796ac2",
       "dateIso": "2026-12-27",
       "dateLabel": "2026-12-27",
       "time": "10:00",
       "type": "Ambulansevakt",
-      "description": "Julekjøring for SØK: Avtal med Sarp hvilken bil som skal benyttes",
+      "description": "Julekjøring for SØK: Mysen-bilen",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
@@ -945,12 +945,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
-      "id": "df35e43f2c0c3ed8",
+      "id": "d24f62e98e36900a",
       "dateIso": "2027-01-02",
       "dateLabel": "2027-01-02",
       "time": "10:00",
       "type": "Ambulansevakt",
-      "description": "Julekjøring for SØK : Avtal med Sarp hvilken bil som skal benyttes",
+      "description": "Julekjøring for SØK : Fredrikstad-bilen",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
