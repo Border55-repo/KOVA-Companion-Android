@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:25:26+01:00",
-  "checkedAt": "2026-11-25T22:00:31+01:00",
+  "updatedAt": "2026-11-25T22:20:30+01:00",
+  "checkedAt": "2026-11-25T22:20:30+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH",
-  "eventCount": 29,
+  "eventCount": 47,
   "changes": {
-    "added": 0,
+    "added": 18,
     "removed": 0,
     "changed": 0
   },
@@ -231,6 +231,168 @@
       "time": "14:00",
       "type": "Sanitetsvakt",
       "description": "Julegada:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "135f158496c63ab7",
+      "dateIso": "2027-01-01",
+      "dateLabel": "2027-01-01",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "507201a102552d84",
+      "dateIso": "2027-01-08",
+      "dateLabel": "2027-01-08",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "844a7c0248f4ff5d",
+      "dateIso": "2027-01-15",
+      "dateLabel": "2027-01-15",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "b448c0380a90913c",
+      "dateIso": "2027-01-22",
+      "dateLabel": "2027-01-22",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "e44472e8830df013",
+      "dateIso": "2027-01-29",
+      "dateLabel": "2027-01-29",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "1941536258ad82fe",
+      "dateIso": "2027-02-05",
+      "dateLabel": "2027-02-05",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "3e1668fd059bd51b",
+      "dateIso": "2027-02-12",
+      "dateLabel": "2027-02-12",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "9e300f588decfea6",
+      "dateIso": "2027-02-19",
+      "dateLabel": "2027-02-19",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Vinterferie første helg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "ef243f904ef10877",
+      "dateIso": "2027-02-22",
+      "dateLabel": "2027-02-22",
+      "time": "10:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Vinterferie første halvdel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "c098969e2ad8931d",
+      "dateIso": "2027-02-24",
+      "dateLabel": "2027-02-24",
+      "time": "10:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Vinterferie andre halvdel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "f7320a341bd0e82e",
+      "dateIso": "2027-02-26",
+      "dateLabel": "2027-02-26",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Vinterferie andre helg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "578aa691085ea5bb",
+      "dateIso": "2027-03-05",
+      "dateLabel": "2027-03-05",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "b2bca2be8c4addff",
+      "dateIso": "2027-03-12",
+      "dateLabel": "2027-03-12",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "846e6db8ae101387",
+      "dateIso": "2027-03-19",
+      "dateLabel": "2027-03-19",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Påske første helg (palmesøndag)",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "fb55944d19fbabac",
+      "dateIso": "2027-03-22",
+      "dateLabel": "2027-03-22",
+      "time": "10:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Påske første halvdel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "2ff56f2f2abf4d2c",
+      "dateIso": "2027-03-24",
+      "dateLabel": "2027-03-24",
+      "time": "10:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Påske andre halvdel",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "241f0c7c56eb3a75",
+      "dateIso": "2027-03-26",
+      "dateLabel": "2027-03-26",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke: Påske andre helg",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+    },
+    {
+      "id": "55eadd8fbce37e32",
+      "dateIso": "2027-04-02",
+      "dateLabel": "2027-04-02",
+      "time": "18:00",
+      "type": "Vintervakt",
+      "description": "Vintervakt Brokke:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
     },
     {
