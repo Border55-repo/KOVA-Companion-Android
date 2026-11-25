@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T22:25:34+01:00",
-  "checkedAt": "2026-11-25T19:05:29+01:00",
+  "updatedAt": "2026-11-25T19:30:31+01:00",
+  "checkedAt": "2026-11-25T19:30:31+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH",
-  "eventCount": 58,
+  "eventCount": 61,
   "changes": {
-    "added": 7,
+    "added": 3,
     "removed": 0,
     "changed": 0
   },
@@ -333,6 +333,15 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
+      "id": "9d5b8aaa3fa1f60e",
+      "dateIso": "2026-11-16",
+      "dateLabel": "2026-11-16",
+      "time": "19:00",
+      "type": "Interne møter",
+      "description": "Møte ringløype NM:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
       "id": "2fce79cbad67c2c7",
       "dateIso": "2026-11-18",
       "dateLabel": "2026-11-18",
@@ -387,6 +396,15 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {
+      "id": "2e3a9b602a97f09c",
+      "dateIso": "2026-11-25",
+      "dateLabel": "2026-11-25",
+      "time": "18:30",
+      "type": "Interne møter",
+      "description": "Styremøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
       "id": "c3a88b6f8de2d3aa",
       "dateIso": "2026-11-28",
       "dateLabel": "2026-11-28",
@@ -420,6 +438,15 @@
       "time": "10:00",
       "type": "Ambulansevakt",
       "description": "Romhjulssprint:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+    },
+    {
+      "id": "7d1ac443d667f9cc",
+      "dateIso": "2027-01-08",
+      "dateLabel": "2027-01-08",
+      "time": "15:00",
+      "type": "Eksterne møter",
+      "description": "Lederforum Oppland Røde Kors: Scandic Hafjell",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
     },
     {

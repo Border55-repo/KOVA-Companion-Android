@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "fb4c96d868b9632e2535404c",
+      "observedAt": "2026-11-25T19:30:31+01:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "9d5b8aaa3fa1f60e",
+        "dateIso": "2026-11-16",
+        "dateLabel": "2026-11-16",
+        "time": "19:00",
+        "type": "Interne møter",
+        "description": "Møte ringløype NM:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "ebe3becc823141d01e5c89c9",
+      "observedAt": "2026-11-25T19:30:31+01:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "2e3a9b602a97f09c",
+        "dateIso": "2026-11-25",
+        "dateLabel": "2026-11-25",
+        "time": "18:30",
+        "type": "Interne møter",
+        "description": "Styremøte:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+      }
+    },
+    {
+      "changeId": "93e27092cf59c88e145d11b8",
+      "observedAt": "2026-11-25T19:30:31+01:00",
+      "organization": "Lunner RKH",
+      "kind": "added",
+      "event": {
+        "id": "7d1ac443d667f9cc",
+        "dateIso": "2027-01-08",
+        "dateLabel": "2027-01-08",
+        "time": "15:00",
+        "type": "Eksterne møter",
+        "description": "Lederforum Oppland Røde Kors: Scandic Hafjell",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "6e17db896b0f379559eecb3f",
       "observedAt": "2026-11-24T22:25:34+01:00",
       "organization": "Lunner RKH",
@@ -971,5 +1016,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T22:25:34+01:00"
+  "updatedAt": "2026-11-25T19:30:31+01:00"
 }
