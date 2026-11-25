@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b9174c98906085a988e82ab9",
+      "observedAt": "2026-11-26T00:05:29+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "c9de064385bed644",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "17:00",
+        "type": "Eksterne kurs",
+        "description": "AFØR kurs:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "3f8e9548865dba97fabcc4f3",
       "observedAt": "2026-11-25T00:01:18+01:00",
       "organization": "HaldenRKH",
@@ -2357,5 +2372,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:01:18+01:00"
+  "updatedAt": "2026-11-26T00:05:29+01:00"
 }

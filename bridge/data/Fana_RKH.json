@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T19:20:37+01:00",
-  "checkedAt": "2026-11-25T23:45:26+01:00",
+  "updatedAt": "2026-11-26T00:05:24+01:00",
+  "checkedAt": "2026-11-26T00:05:24+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 75,
+  "eventCount": 73,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "f3fb2475b7e45570",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "13:00",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - SRV - MÅLOMRÅDE.: SANITETSVAKT - SRV - MÅLOMRÅDE.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
-    {
-      "id": "4c443487715d93b1",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.: FANATASTISK MUSIKKFESTIVAL - FRE 28/8-søn 30/8 - VED FANA STADION.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
     {
       "id": "8b4d94f3f786dcff",
       "dateIso": "2026-08-29",
