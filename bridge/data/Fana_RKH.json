@@ -7,10 +7,10 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T15:20:25+01:00",
-  "checkedAt": "2026-11-25T19:00:29+01:00",
+  "updatedAt": "2026-11-25T19:20:37+01:00",
+  "checkedAt": "2026-11-25T19:20:37+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 74,
+  "eventCount": 75,
   "changes": {
     "added": 1,
     "removed": 0,
@@ -609,6 +609,15 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "KORPSKVELD - ONSDAG 25. 11. - KL. 18.00.: KORPSKVELD - ONSDAG 25.11. - KL 18.99",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "9245568d168999d7",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "12:00",
+      "type": "Sanitetsvakt",
+      "description": "SANITETSVAKT - FOTBALL - Bjarg-Sogndal - LØRDAG 28.11.: SANITETSVAKT - FOTBALL - LØRDAG 28.11.",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
     },
     {
