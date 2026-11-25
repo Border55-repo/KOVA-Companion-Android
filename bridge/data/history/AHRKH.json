@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c6fdf2bc8911327f94c9ec6b",
+      "observedAt": "2026-11-25T14:00:32+01:00",
+      "organization": "AHRKH",
+      "kind": "added",
+      "event": {
+        "id": "da6b1f70c8c69110",
+        "dateIso": "2026-12-12",
+        "dateLabel": "2026-12-12",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Julekonsert nr.1 Aurskoghallen: Oppmøte på lokalet kl.:16:10     Avreise fra lokalet kl.: 16:20",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+      }
+    },
+    {
+      "changeId": "8dc9cffb163acb1f8e34340a",
+      "observedAt": "2026-11-25T14:00:32+01:00",
+      "organization": "AHRKH",
+      "kind": "added",
+      "event": {
+        "id": "545773978d08724f",
+        "dateIso": "2026-12-12",
+        "dateLabel": "2026-12-12",
+        "time": "19:45",
+        "type": "Sanitetsvakt",
+        "description": "Julekonsert i Aurskoghallen nr.2 2026: Oppmøte på lokalet kl.: 19:20      Avreise fra loaklet kl.: 19:20",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+      }
+    },
+    {
       "changeId": "ad52bb6cd2a13feb96b31579",
       "observedAt": "2026-11-25T00:01:22+01:00",
       "organization": "AHRKH",
@@ -659,5 +689,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:01:22+01:00"
+  "updatedAt": "2026-11-25T14:00:32+01:00"
 }

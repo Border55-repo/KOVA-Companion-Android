@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:01:22+01:00",
-  "checkedAt": "2026-11-25T13:45:34+01:00",
+  "updatedAt": "2026-11-25T14:00:32+01:00",
+  "checkedAt": "2026-11-25T14:00:32+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH",
-  "eventCount": 36,
+  "eventCount": 38,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 2,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -339,6 +339,24 @@
       "time": "18:00",
       "type": "Korpskveld",
       "description": "Korpskveld: Juleavsluttning",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "da6b1f70c8c69110",
+      "dateIso": "2026-12-12",
+      "dateLabel": "2026-12-12",
+      "time": "16:45",
+      "type": "Sanitetsvakt",
+      "description": "Julekonsert nr.1 Aurskoghallen: Oppmøte på lokalet kl.:16:10     Avreise fra lokalet kl.: 16:20",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
+    },
+    {
+      "id": "545773978d08724f",
+      "dateIso": "2026-12-12",
+      "dateLabel": "2026-12-12",
+      "time": "19:45",
+      "type": "Sanitetsvakt",
+      "description": "Julekonsert i Aurskoghallen nr.2 2026: Oppmøte på lokalet kl.: 19:20      Avreise fra loaklet kl.: 19:20",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=AHRKH"
     }
   ]
