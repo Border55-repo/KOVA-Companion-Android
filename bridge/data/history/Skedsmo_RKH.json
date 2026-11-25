@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "65ec2c8f2ac5bfe22373af48",
+      "observedAt": "2026-11-26T00:00:30+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "e8fe89e849508a5b",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "18:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakter: Ambulansevakt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "1f5dfc85356cfea9263c3064",
       "observedAt": "2026-11-25T00:01:09+01:00",
       "organization": "Skedsmo RKH",
@@ -1340,5 +1355,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:01:09+01:00"
+  "updatedAt": "2026-11-26T00:00:30+01:00"
 }

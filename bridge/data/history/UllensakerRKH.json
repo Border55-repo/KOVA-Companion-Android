@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5a369448cb561cc1ae542ad0",
+      "observedAt": "2026-11-26T00:00:33+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7fa6c528f30f57f7",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "17:00",
+        "type": "Interne kurs",
+        "description": "ATV Kurs :",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "d1a414a5a4838127c84eb81c",
       "observedAt": "2026-11-24T00:00:37+01:00",
       "organization": "UllensakerRKH",
@@ -2312,5 +2327,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:00:37+01:00"
+  "updatedAt": "2026-11-26T00:00:33+01:00"
 }

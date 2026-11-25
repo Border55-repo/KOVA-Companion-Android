@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:16:05+01:00",
-  "checkedAt": "2026-11-25T23:40:33+01:00",
+  "updatedAt": "2026-11-26T00:00:38+01:00",
+  "checkedAt": "2026-11-26T00:00:38+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH",
-  "eventCount": 44,
+  "eventCount": 43,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "620c7d7a58952911",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "16:00",
-      "type": "Sanitetsvakt",
-      "description": "Rakettnatt  : Vaktlag - Fredag",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
-    },
     {
       "id": "a959f9e12dc0d184",
       "dateIso": "2026-08-29",

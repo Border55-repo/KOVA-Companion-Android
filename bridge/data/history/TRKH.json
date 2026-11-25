@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "8f23efe9fa94471d2b4ad019",
+      "observedAt": "2026-11-26T00:00:38+01:00",
+      "organization": "TRKH",
+      "kind": "removed",
+      "event": {
+        "id": "620c7d7a58952911",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "Rakettnatt  : Vaktlag - Fredag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=TRKH"
+      }
+    },
+    {
       "changeId": "727ed2e28c9168043bd64b98",
       "observedAt": "2026-11-25T00:16:05+01:00",
       "organization": "TRKH",
@@ -545,5 +560,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:16:05+01:00"
+  "updatedAt": "2026-11-26T00:00:38+01:00"
 }

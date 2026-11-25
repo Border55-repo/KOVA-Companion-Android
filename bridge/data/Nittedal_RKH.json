@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:01:05+01:00",
-  "checkedAt": "2026-11-25T23:55:22+01:00",
+  "updatedAt": "2026-11-26T00:00:26+01:00",
+  "checkedAt": "2026-11-26T00:00:26+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH",
-  "eventCount": 103,
+  "eventCount": 101,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "13f608ff3bc34c94",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "17:00",
-      "type": "Eksterne kurs",
-      "description": "Kurs: Kvalifisert ATV: ATV-kurs hos Ullensaker RKH, RK51/RK61 opptatt",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
-    {
-      "id": "2fb0b0e944c25b14",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Kurs: AFØR - Avansert Førstehjelp: RK52 opptatt",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Nittedal+RKH"
-    },
     {
       "id": "a8f506874cbd2e90",
       "dateIso": "2026-09-02",
