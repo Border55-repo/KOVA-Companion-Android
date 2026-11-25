@@ -10,7 +10,7 @@
     "scheduledReminders": true,
     "adminHealth": true
   },
-  "updatedAt": "2026-11-25T01:31:10+01:00",
+  "updatedAt": "2026-11-25T01:36:09+01:00",
   "organizationCount": 42,
   "helpCorpsCount": 39,
   "organizations": [
@@ -30,7 +30,7 @@
       "category": "hjelpekorps",
       "file": "AskerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:21:08+01:00",
+      "checkedAt": "2026-11-25T01:36:08+01:00",
       "eventCount": 28,
       "updatedAt": "2026-11-25T00:06:32+01:00"
     },
@@ -50,7 +50,7 @@
       "category": "hjelpekorps",
       "file": "Bergen_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:21:08+01:00",
+      "checkedAt": "2026-11-25T01:36:09+01:00",
       "eventCount": 71,
       "updatedAt": "2026-11-25T00:10:59+01:00"
     },
@@ -100,7 +100,7 @@
       "category": "hjelpekorps",
       "file": "EHRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:31:04+01:00",
+      "checkedAt": "2026-11-25T01:36:03+01:00",
       "eventCount": 49,
       "updatedAt": "2026-11-23T00:00:29+01:00"
     },
@@ -240,7 +240,7 @@
       "category": "hjelpekorps",
       "file": "Nittedal_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:31:04+01:00",
+      "checkedAt": "2026-11-25T01:36:03+01:00",
       "eventCount": 103,
       "updatedAt": "2026-11-25T00:01:05+01:00"
     },
@@ -310,7 +310,7 @@
       "category": "hjelpekorps",
       "file": "Skedsmo_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:31:05+01:00",
+      "checkedAt": "2026-11-25T01:36:04+01:00",
       "eventCount": 102,
       "updatedAt": "2026-11-25T00:01:09+01:00"
     },
@@ -320,7 +320,7 @@
       "category": "hjelpekorps",
       "file": "SRKH_AMB.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:16+01:00",
+      "checkedAt": "2026-11-25T01:36:05+01:00",
       "eventCount": 16,
       "updatedAt": "2026-11-22T22:30:36+01:00"
     },
@@ -330,7 +330,7 @@
       "category": "hjelpekorps",
       "file": "SkienRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:17+01:00",
+      "checkedAt": "2026-11-25T01:36:06+01:00",
       "eventCount": 54,
       "updatedAt": "2026-11-24T19:15:31+01:00"
     },
@@ -350,7 +350,7 @@
       "category": "hjelpekorps",
       "file": "SteinkjerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:18+01:00",
+      "checkedAt": "2026-11-25T01:36:06+01:00",
       "eventCount": 37,
       "updatedAt": "2026-11-24T00:15:29+01:00"
     },
@@ -360,7 +360,7 @@
       "category": "hjelpekorps",
       "file": "TRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:19+01:00",
+      "checkedAt": "2026-11-25T01:36:07+01:00",
       "eventCount": 44,
       "updatedAt": "2026-11-25T00:16:05+01:00"
     },
@@ -370,7 +370,7 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:31:06+01:00",
+      "checkedAt": "2026-11-25T01:36:05+01:00",
       "eventCount": 149,
       "updatedAt": "2026-11-24T00:00:37+01:00"
     },
@@ -380,7 +380,7 @@
       "category": "hjelpekorps",
       "file": "VenneslaRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:20+01:00",
+      "checkedAt": "2026-11-25T01:36:07+01:00",
       "eventCount": 29,
       "updatedAt": "2026-11-22T22:25:26+01:00"
     },
@@ -390,7 +390,7 @@
       "category": "hjelpekorps",
       "file": "V_RKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:21+01:00",
+      "checkedAt": "2026-11-25T01:36:08+01:00",
       "eventCount": 57,
       "updatedAt": "2026-11-24T22:35:32+01:00"
     },
@@ -400,7 +400,7 @@
       "category": "hjelpekorps",
       "file": "VossRKH.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:20+01:00",
+      "checkedAt": "2026-11-25T01:36:07+01:00",
       "eventCount": 2,
       "updatedAt": "2026-11-22T22:49:12+01:00"
     },
@@ -430,7 +430,7 @@
       "category": "omsorg",
       "file": "StvRKO.json",
       "status": "ok",
-      "checkedAt": "2026-11-25T01:16:18+01:00",
+      "checkedAt": "2026-11-25T01:36:06+01:00",
       "eventCount": 19,
       "updatedAt": "2026-11-23T00:15:36+01:00"
     }
