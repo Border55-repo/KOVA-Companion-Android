@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "9f0932574dc2812cd1d436f9",
+      "observedAt": "2026-11-26T00:10:34+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2126e5ddd94cd1e2",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Minimesse MEF: Sanitetsvakt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "0405a45bab70e8de238dd1c0",
+      "observedAt": "2026-11-26T00:10:34+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "472beb5b3b23b4a5",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "18:00",
+        "type": "Eksterne kurs",
+        "description": "Avansert førstehjelp (AFØR) Vestfold: Helg 1/4",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "f62836a31e882794aced43aa",
       "observedAt": "2026-11-24T00:05:43+01:00",
       "organization": "MossRKH",
@@ -953,5 +983,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:05:43+01:00"
+  "updatedAt": "2026-11-26T00:10:34+01:00"
 }

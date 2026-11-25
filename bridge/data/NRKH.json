@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:06:28+01:00",
-  "checkedAt": "2026-11-25T23:50:29+01:00",
+  "updatedAt": "2026-11-26T00:10:38+01:00",
+  "checkedAt": "2026-11-26T00:10:38+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH",
-  "eventCount": 143,
+  "eventCount": 142,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "2f35a9f5796a9306",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "00:00",
-      "type": "Interne kurs",
-      "description": "Interessepåmelding, Nordhordland 66: Interessepåmelding, båtfører/mannskap",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
-    },
     {
       "id": "b1c0d83a88f4267d",
       "dateIso": "2026-08-29",

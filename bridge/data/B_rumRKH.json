@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:06:15+01:00",
-  "checkedAt": "2026-11-25T23:55:28+01:00",
+  "updatedAt": "2026-11-26T00:10:41+01:00",
+  "checkedAt": "2026-11-26T00:10:41+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH",
-  "eventCount": 81,
+  "eventCount": 80,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "ebb6a881078c5ad3",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "18:00",
-      "type": "Ambulansevakt",
-      "description": "RK34: Supplering for OUS: Ekstra OUS vakt",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "baae1e3268b51687",
       "dateIso": "2026-08-30",

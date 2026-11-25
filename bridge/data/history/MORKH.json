@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f21901571a7d821069f04202",
+      "observedAt": "2026-11-26T00:10:30+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "6f63b33e62e57be7",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "00:00",
+        "type": "Eksterne kurs",
+        "description": "ATV kurs Ullensaker: ATV kurs Ullensaker",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "46038c8aa1726c65f4b31ddf",
+      "observedAt": "2026-11-26T00:10:30+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "0bca37bd7e5d3005",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "16:45",
+        "type": "Sanitetsvakt",
+        "description": "Nes Lenseteater: Oppmøte 17:30-20:00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "4718edd872a6c92b7059bb14",
       "observedAt": "2026-11-25T18:45:33+01:00",
       "organization": "MORKH",
@@ -2198,5 +2228,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T18:45:33+01:00"
+  "updatedAt": "2026-11-26T00:10:30+01:00"
 }

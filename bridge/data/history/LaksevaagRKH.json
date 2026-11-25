@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "d87edefd913144784a6d6484",
+      "observedAt": "2026-11-26T00:10:25+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3c813d60918719ce",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT: Minnevakt HMK Harald: Torgalmenningen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "865691afc6f2aa9ae3189d4e",
       "observedAt": "2026-11-25T00:06:18+01:00",
       "organization": "LaksevaagRKH",
@@ -1385,5 +1400,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:06:18+01:00"
+  "updatedAt": "2026-11-26T00:10:25+01:00"
 }

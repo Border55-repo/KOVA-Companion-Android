@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "25bcbae679d4fadeea2094f3",
+      "observedAt": "2026-11-26T00:10:38+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2f35a9f5796a9306",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "00:00",
+        "type": "Interne kurs",
+        "description": "Interessepåmelding, Nordhordland 66: Interessepåmelding, båtfører/mannskap",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "cd0961bb8a64398697ff6874",
       "observedAt": "2026-11-25T00:06:28+01:00",
       "organization": "NRKH",
@@ -1142,5 +1157,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:06:28+01:00"
+  "updatedAt": "2026-11-26T00:10:38+01:00"
 }

@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:05:43+01:00",
-  "checkedAt": "2026-11-25T23:50:29+01:00",
+  "updatedAt": "2026-11-26T00:10:34+01:00",
+  "checkedAt": "2026-11-26T00:10:34+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH",
-  "eventCount": 56,
+  "eventCount": 54,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "2126e5ddd94cd1e2",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Minimesse MEF: Sanitetsvakt",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
-    },
-    {
-      "id": "472beb5b3b23b4a5",
-      "dateIso": "2026-08-28",
-      "dateLabel": "2026-08-28",
-      "time": "18:00",
-      "type": "Eksterne kurs",
-      "description": "Avansert førstehjelp (AFØR) Vestfold: Helg 1/4",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
-    },
     {
       "id": "02ff924adacbf417",
       "dateIso": "2026-08-29",

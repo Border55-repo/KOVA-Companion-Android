@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2e5ebc21c9da45a04e8d2ae6",
+      "observedAt": "2026-11-26T00:10:41+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "ebb6a881078c5ad3",
+        "dateIso": "2026-08-28",
+        "dateLabel": "2026-08-28",
+        "time": "18:00",
+        "type": "Ambulansevakt",
+        "description": "RK34: Supplering for OUS: Ekstra OUS vakt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "041e2a56c04d993045563ead",
       "observedAt": "2026-11-25T00:06:15+01:00",
       "organization": "BærumRKH",
@@ -1448,5 +1463,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:06:15+01:00"
+  "updatedAt": "2026-11-26T00:10:41+01:00"
 }
