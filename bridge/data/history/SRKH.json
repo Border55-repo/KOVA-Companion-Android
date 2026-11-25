@@ -2,6 +2,30 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4dba36e40d31a16c6b10be52",
+      "observedAt": "2026-11-25T11:30:28+01:00",
+      "organization": "SRKH",
+      "kind": "changed",
+      "event": {
+        "id": "250bccbeaddc4287",
+        "dateIso": "2026-12-06",
+        "dateLabel": "2026-12-06",
+        "time": "15:00",
+        "type": "Sanitetsvakt",
+        "description": "Nissefesten: Vakt bekreftet, men klokkeslett er ikke sikkert (mer info kommer)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+      },
+      "oldEvent": {
+        "id": "29c5df0e6c16258e",
+        "dateIso": "2026-12-06",
+        "dateLabel": "2026-12-06",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Nissefesten: Vakt bekreftet, men klokkeslett er ikke sikkert (mer info kommer)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
+      }
+    },
+    {
       "changeId": "b78fdf4c2b9e3c8c3eb7dbd7",
       "observedAt": "2026-11-25T00:11:08+01:00",
       "organization": "SRKH",
@@ -839,5 +863,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:11:08+01:00"
+  "updatedAt": "2026-11-25T11:30:28+01:00"
 }

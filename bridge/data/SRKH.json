@@ -7,14 +7,14 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T00:11:08+01:00",
-  "checkedAt": "2026-11-25T11:10:37+01:00",
+  "updatedAt": "2026-11-25T11:30:28+01:00",
+  "checkedAt": "2026-11-25T11:30:28+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH",
   "eventCount": 42,
   "changes": {
     "added": 0,
-    "removed": 1,
-    "changed": 0
+    "removed": 0,
+    "changed": 1
   },
   "events": [
     {
@@ -351,10 +351,10 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
     },
     {
-      "id": "29c5df0e6c16258e",
+      "id": "250bccbeaddc4287",
       "dateIso": "2026-12-06",
       "dateLabel": "2026-12-06",
-      "time": "14:00",
+      "time": "15:00",
       "type": "Sanitetsvakt",
       "description": "Nissefesten: Vakt bekreftet, men klokkeslett er ikke sikkert (mer info kommer)",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SRKH"
