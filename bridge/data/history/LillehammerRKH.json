@@ -2,6 +2,69 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e5530010f2d569f1f519ce43",
+      "observedAt": "2026-11-25T13:25:39+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "4f37505809ecf25a",
+        "dateIso": "2026-11-28",
+        "dateLabel": "2026-11-28",
+        "time": "08:30",
+        "type": "Sanitetsvakt",
+        "description": "Hopping: Lørdag del 1",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      },
+      "oldEvent": {
+        "id": "480110f6554169cd",
+        "dateIso": "2026-11-28",
+        "dateLabel": "2026-11-28",
+        "time": "08:30",
+        "type": "Aktivitet",
+        "description": "Hopping: Lørdag del 1",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "470797ee1f0cefa88c118e59",
+      "observedAt": "2026-11-25T13:25:39+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "changed",
+      "event": {
+        "id": "4a87dd3300e77836",
+        "dateIso": "2026-11-29",
+        "dateLabel": "2026-11-29",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "Hopping: Søndag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      },
+      "oldEvent": {
+        "id": "31826fd8d241abd3",
+        "dateIso": "2026-11-29",
+        "dateLabel": "2026-11-29",
+        "time": "09:00",
+        "type": "Aktivitet",
+        "description": "Hopping: Søndag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      }
+    },
+    {
+      "changeId": "63f11a568a29b9bba08d94cc",
+      "observedAt": "2026-11-25T13:25:39+01:00",
+      "organization": "LillehammerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6e67cb667f1c4077",
+        "dateIso": "2026-11-28",
+        "dateLabel": "2026-11-28",
+        "time": "12:30",
+        "type": "Aktivitet",
+        "description": "Hopping: Lørdag del2",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LillehammerRKH"
+      }
+    },
+    {
       "changeId": "1a6c030a5809e2ea4361994b",
       "observedAt": "2026-11-24T00:05:36+01:00",
       "organization": "LillehammerRKH",
@@ -386,5 +449,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:05:36+01:00"
+  "updatedAt": "2026-11-25T13:25:39+01:00"
 }
