@@ -1,7 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T22:20:42+01:00",
+  "updatedAt": "2026-11-25T22:40:49+01:00",
   "sent": {
+    "c8ddfb5cdb2f7ea139d428a9": "2026-11-25T22:40:49+01:00",
+    "dd0e042434d7c2b0839a51b2": "2026-11-25T22:40:49+01:00",
+    "d2db2178a6e49113875e1c02": "2026-11-25T22:40:49+01:00",
+    "ea9d69622354cb08feef2b87": "2026-11-25T22:40:49+01:00",
+    "524c6fcf5d7a1686409ffffd": "2026-11-25T22:40:49+01:00",
+    "b6c345b903839c14f0eb9f81": "2026-11-25T22:40:49+01:00",
+    "2ba07495b3c3b9d8e5d681bb": "2026-11-25T22:40:49+01:00",
+    "c789a4a5c559bbd5f8957d85": "2026-11-25T22:40:49+01:00",
+    "7a205358284ad5bf37c7403d": "2026-11-25T22:40:49+01:00",
+    "2fac0f1fc22386c574a08337": "2026-11-25T22:40:49+01:00",
     "7bde7cec5cffe423d04fb5d1": "2026-11-25T22:20:42+01:00",
     "0f3429eb3382900ebf23f445": "2026-11-25T22:20:42+01:00",
     "ce1cea6bc2193568d5d15206": "2026-11-25T22:20:42+01:00",
@@ -1956,126 +1966,5 @@
     "8ccc066f6c5284f5ec072dcb": "2026-09-23T00:14:39+02:00",
     "98b1fba09f297a65df40f371": "2026-09-23T00:14:35+02:00"
   },
-  "pending": {
-    "c8ddfb5cdb2f7ea139d428a9": {
-      "changeId": "c8ddfb5cdb2f7ea139d428a9",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "f7320a341bd0e82e",
-        "dateIso": "2027-02-26",
-        "dateLabel": "2027-02-26",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke: Vinterferie andre helg",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "dd0e042434d7c2b0839a51b2": {
-      "changeId": "dd0e042434d7c2b0839a51b2",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "578aa691085ea5bb",
-        "dateIso": "2027-03-05",
-        "dateLabel": "2027-03-05",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke:",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "d2db2178a6e49113875e1c02": {
-      "changeId": "d2db2178a6e49113875e1c02",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "b2bca2be8c4addff",
-        "dateIso": "2027-03-12",
-        "dateLabel": "2027-03-12",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke:",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "ea9d69622354cb08feef2b87": {
-      "changeId": "ea9d69622354cb08feef2b87",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "846e6db8ae101387",
-        "dateIso": "2027-03-19",
-        "dateLabel": "2027-03-19",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke: Påske første helg (palmesøndag)",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "524c6fcf5d7a1686409ffffd": {
-      "changeId": "524c6fcf5d7a1686409ffffd",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "fb55944d19fbabac",
-        "dateIso": "2027-03-22",
-        "dateLabel": "2027-03-22",
-        "time": "10:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke: Påske første halvdel",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "b6c345b903839c14f0eb9f81": {
-      "changeId": "b6c345b903839c14f0eb9f81",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "2ff56f2f2abf4d2c",
-        "dateIso": "2027-03-24",
-        "dateLabel": "2027-03-24",
-        "time": "10:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke: Påske andre halvdel",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "2ba07495b3c3b9d8e5d681bb": {
-      "changeId": "2ba07495b3c3b9d8e5d681bb",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "241f0c7c56eb3a75",
-        "dateIso": "2027-03-26",
-        "dateLabel": "2027-03-26",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke: Påske andre helg",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    },
-    "c789a4a5c559bbd5f8957d85": {
-      "changeId": "c789a4a5c559bbd5f8957d85",
-      "observedAt": "2026-11-25T22:20:30+01:00",
-      "organization": "VenneslaRKH",
-      "kind": "added",
-      "event": {
-        "id": "55eadd8fbce37e32",
-        "dateIso": "2027-04-02",
-        "dateLabel": "2027-04-02",
-        "time": "18:00",
-        "type": "Vintervakt",
-        "description": "Vintervakt Brokke:",
-        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-      }
-    }
-  }
+  "pending": {}
 }

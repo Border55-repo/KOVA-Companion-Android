@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-25T22:20:30+01:00",
-  "checkedAt": "2026-11-25T22:20:30+01:00",
+  "updatedAt": "2026-11-25T22:40:30+01:00",
+  "checkedAt": "2026-11-25T22:40:30+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH",
-  "eventCount": 47,
+  "eventCount": 45,
   "changes": {
-    "added": 18,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
@@ -252,27 +252,9 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
     },
     {
-      "id": "844a7c0248f4ff5d",
-      "dateIso": "2027-01-15",
-      "dateLabel": "2027-01-15",
-      "time": "18:00",
-      "type": "Vintervakt",
-      "description": "Vintervakt Brokke:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-    },
-    {
       "id": "b448c0380a90913c",
       "dateIso": "2027-01-22",
       "dateLabel": "2027-01-22",
-      "time": "18:00",
-      "type": "Vintervakt",
-      "description": "Vintervakt Brokke:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
-    },
-    {
-      "id": "e44472e8830df013",
-      "dateIso": "2027-01-29",
-      "dateLabel": "2027-01-29",
       "time": "18:00",
       "type": "Vintervakt",
       "description": "Vintervakt Brokke:",

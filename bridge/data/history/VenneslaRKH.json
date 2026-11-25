@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7a205358284ad5bf37c7403d",
+      "observedAt": "2026-11-25T22:40:30+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "removed",
+      "event": {
+        "id": "844a7c0248f4ff5d",
+        "dateIso": "2027-01-15",
+        "dateLabel": "2027-01-15",
+        "time": "18:00",
+        "type": "Vintervakt",
+        "description": "Vintervakt Brokke:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+      }
+    },
+    {
+      "changeId": "2fac0f1fc22386c574a08337",
+      "observedAt": "2026-11-25T22:40:30+01:00",
+      "organization": "VenneslaRKH",
+      "kind": "removed",
+      "event": {
+        "id": "e44472e8830df013",
+        "dateIso": "2027-01-29",
+        "dateLabel": "2027-01-29",
+        "time": "18:00",
+        "type": "Vintervakt",
+        "description": "Vintervakt Brokke:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=VenneslaRKH"
+      }
+    },
+    {
       "changeId": "7bde7cec5cffe423d04fb5d1",
       "observedAt": "2026-11-25T22:20:30+01:00",
       "organization": "VenneslaRKH",
@@ -734,5 +764,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T22:20:30+01:00"
+  "updatedAt": "2026-11-25T22:40:30+01:00"
 }
