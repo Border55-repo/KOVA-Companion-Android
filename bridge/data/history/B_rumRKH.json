@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a7500e08ffb2edb5493391de",
+      "observedAt": "2026-11-26T08:40:39+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "6cec0b8a3d7400ac",
+        "dateIso": "2027-01-07",
+        "dateLabel": "2027-01-07",
+        "time": "18:00",
+        "type": "Interne kurs",
+        "description": "Mitt Hjelpekorps: lokal del: Gartnerveien 8, 1356 Bekkestua",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "2e5ebc21c9da45a04e8d2ae6",
       "observedAt": "2026-11-26T00:10:41+01:00",
       "organization": "BærumRKH",
@@ -1463,5 +1478,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:10:41+01:00"
+  "updatedAt": "2026-11-26T08:40:39+01:00"
 }

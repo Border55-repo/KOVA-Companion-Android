@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-26T00:10:41+01:00",
-  "checkedAt": "2026-11-26T08:25:34+01:00",
+  "updatedAt": "2026-11-26T08:40:39+01:00",
+  "checkedAt": "2026-11-26T08:40:39+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH",
-  "eventCount": 80,
+  "eventCount": 81,
   "changes": {
-    "added": 0,
-    "removed": 1,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -555,6 +555,15 @@
       "time": "17:30",
       "type": "Interne møter",
       "description": "Lokalrådsmøte: Januar",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+    },
+    {
+      "id": "6cec0b8a3d7400ac",
+      "dateIso": "2027-01-07",
+      "dateLabel": "2027-01-07",
+      "time": "18:00",
+      "type": "Interne kurs",
+      "description": "Mitt Hjelpekorps: lokal del: Gartnerveien 8, 1356 Bekkestua",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
     },
     {
