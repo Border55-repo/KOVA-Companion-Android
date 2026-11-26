@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-26T07:15:30+01:00",
-  "checkedAt": "2026-11-26T23:50:50+01:00",
+  "updatedAt": "2026-11-27T00:10:54+01:00",
+  "checkedAt": "2026-11-27T00:10:54+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH",
-  "eventCount": 27,
+  "eventCount": 26,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "65d2f031a93b3be5",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Porsgrunn halvmaraton: Oppmøte på huset kl 09:00",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH"
-    },
     {
       "id": "14a36b319b6ea6d0",
       "dateIso": "2026-09-02",

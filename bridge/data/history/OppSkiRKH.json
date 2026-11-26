@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a4be5846bf436bd73fac9f22",
+      "observedAt": "2026-11-27T00:10:50+01:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "29d14244fef7939e",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Motocross event - NMK Oslo Follo: Oppmøte F3: 09.00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+      }
+    },
+    {
+      "changeId": "5988b9f0f131d9184e517856",
+      "observedAt": "2026-11-27T00:10:50+01:00",
+      "organization": "OppSkiRKH",
+      "kind": "removed",
+      "event": {
+        "id": "4865e6c955497305",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "09:30",
+        "type": "Sanitetsvakt",
+        "description": "Orienteringsløp v/ Nordre Follo Orientering: Sanitetsvakt - oppmøte F3: 08.50 (oppmøte  vakt: kl. 09.30)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
+      }
+    },
+    {
       "changeId": "a6d9ba0a955e389c8f87b106",
       "observedAt": "2026-11-24T00:10:28+01:00",
       "organization": "OppSkiRKH",
@@ -266,5 +296,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:10:28+01:00"
+  "updatedAt": "2026-11-27T00:10:50+01:00"
 }

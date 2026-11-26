@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "e6e1c3ec22ab1a08bd9f5332",
+      "observedAt": "2026-11-27T00:10:54+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "removed",
+      "event": {
+        "id": "65d2f031a93b3be5",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Porsgrunn halvmaraton: Oppmøte på huset kl 09:00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "4ddcf7b711396725ff9402fd",
       "observedAt": "2026-11-26T07:15:30+01:00",
       "organization": "PorsgrunnRKH",
@@ -449,5 +464,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T07:15:30+01:00"
+  "updatedAt": "2026-11-27T00:10:54+01:00"
 }
