@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-26T00:05:24+01:00",
-  "checkedAt": "2026-11-26T23:40:48+01:00",
+  "updatedAt": "2026-11-27T00:00:54+01:00",
+  "checkedAt": "2026-11-27T00:00:54+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 73,
+  "eventCount": 71,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "8b4d94f3f786dcff",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "05:30",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - STYRKEPRØVEN RETT VEST - LØRDAG 29. AUGUST.: SANITETSVAKT - STYRKEPRØVEN RETT VEST - LØRDAG 29. AUGUST.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
-    {
-      "id": "2b33f99a4e4f1071",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
-    },
     {
       "id": "2707aede668de861",
       "dateIso": "2026-08-30",

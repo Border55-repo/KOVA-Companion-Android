@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "790ab27072241457f36a9f91",
+      "observedAt": "2026-11-27T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "aa9ed7b9e87e6267",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakt OUS - turnus:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
+      "changeId": "8851e26cc6a68d20decd24d2",
+      "observedAt": "2026-11-27T00:00:49+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "5cceb7291fc01eb8",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Trandum Markedsdag AVLYST: Oppmøte Huset 09:15",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "5a369448cb561cc1ae542ad0",
       "observedAt": "2026-11-26T00:00:33+01:00",
       "organization": "UllensakerRKH",
@@ -2327,5 +2357,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:00:33+01:00"
+  "updatedAt": "2026-11-27T00:00:49+01:00"
 }

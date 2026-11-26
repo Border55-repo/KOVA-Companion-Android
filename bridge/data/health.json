@@ -8,13 +8,13 @@
     "webPush": true
   },
   "status": "ok",
-  "checkedAt": "2026-11-26T23:40:54+01:00",
-  "lastSuccessfulRunAt": "2026-11-26T23:40:54+01:00",
-  "lastFullySuccessfulRunAt": "2026-11-26T23:40:54+01:00",
+  "checkedAt": "2026-11-27T00:01:03+01:00",
+  "lastSuccessfulRunAt": "2026-11-27T00:01:03+01:00",
+  "lastFullySuccessfulRunAt": "2026-11-27T00:01:03+01:00",
   "consecutiveFailureRuns": 0,
   "pendingPushes": 0,
-  "lastPushAt": "2026-11-26T08:40:46+01:00",
-  "lastPushCount": 1,
+  "lastPushAt": "2026-11-27T00:01:03+01:00",
+  "lastPushCount": 6,
   "organizationCount": 42,
   "helpCorpsCount": 39,
   "polledThisRun": 14,
@@ -27,7 +27,7 @@
       "status": "ok",
       "eventCount": 49,
       "updatedAt": "2026-11-23T00:00:29+01:00",
-      "checkedAt": "2026-11-26T23:40:44+01:00",
+      "checkedAt": "2026-11-27T00:00:47+01:00",
       "error": null
     },
     {
@@ -38,7 +38,7 @@
       "status": "ok",
       "eventCount": 101,
       "updatedAt": "2026-11-26T00:00:26+01:00",
-      "checkedAt": "2026-11-26T23:40:45+01:00",
+      "checkedAt": "2026-11-27T00:00:48+01:00",
       "error": null
     },
     {
@@ -49,7 +49,7 @@
       "status": "ok",
       "eventCount": 101,
       "updatedAt": "2026-11-26T00:00:30+01:00",
-      "checkedAt": "2026-11-26T23:40:45+01:00",
+      "checkedAt": "2026-11-27T00:00:48+01:00",
       "error": null
     },
     {
@@ -58,9 +58,9 @@
       "category": "hjelpekorps",
       "file": "UllensakerRKH.json",
       "status": "ok",
-      "eventCount": 148,
-      "updatedAt": "2026-11-26T00:00:33+01:00",
-      "checkedAt": "2026-11-26T23:40:46+01:00",
+      "eventCount": 146,
+      "updatedAt": "2026-11-27T00:00:49+01:00",
+      "checkedAt": "2026-11-27T00:00:53+01:00",
       "error": null
     },
     {
@@ -71,7 +71,7 @@
       "status": "ok",
       "eventCount": 31,
       "updatedAt": "2026-11-22T22:20:02+01:00",
-      "checkedAt": "2026-11-26T23:40:47+01:00",
+      "checkedAt": "2026-11-27T00:00:53+01:00",
       "error": null
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "eventCount": 96,
       "updatedAt": "2026-11-22T22:20:03+01:00",
-      "checkedAt": "2026-11-26T23:40:47+01:00",
+      "checkedAt": "2026-11-27T00:00:54+01:00",
       "error": null
     },
     {
@@ -91,9 +91,9 @@
       "category": "hjelpekorps",
       "file": "Fana_RKH.json",
       "status": "ok",
-      "eventCount": 73,
-      "updatedAt": "2026-11-26T00:05:24+01:00",
-      "checkedAt": "2026-11-26T23:40:48+01:00",
+      "eventCount": 71,
+      "updatedAt": "2026-11-27T00:00:54+01:00",
+      "checkedAt": "2026-11-27T00:00:56+01:00",
       "error": null
     },
     {
@@ -104,7 +104,7 @@
       "status": "ok",
       "eventCount": 1,
       "updatedAt": "2026-11-22T22:19:58+01:00",
-      "checkedAt": "2026-11-26T23:40:48+01:00",
+      "checkedAt": "2026-11-27T00:00:57+01:00",
       "error": null
     },
     {
@@ -113,9 +113,9 @@
       "category": "hjelpekorps",
       "file": "HaldenRKH.json",
       "status": "ok",
-      "eventCount": 124,
-      "updatedAt": "2026-11-26T00:05:29+01:00",
-      "checkedAt": "2026-11-26T23:40:49+01:00",
+      "eventCount": 122,
+      "updatedAt": "2026-11-27T00:00:57+01:00",
+      "checkedAt": "2026-11-27T00:01:00+01:00",
       "error": null
     },
     {
@@ -126,7 +126,7 @@
       "status": "ok",
       "eventCount": 10,
       "updatedAt": "2026-11-22T22:19:59+01:00",
-      "checkedAt": "2026-11-26T23:40:49+01:00",
+      "checkedAt": "2026-11-27T00:01:00+01:00",
       "error": null
     },
     {
@@ -137,7 +137,7 @@
       "status": "ok",
       "eventCount": 22,
       "updatedAt": "2026-11-24T00:00:47+01:00",
-      "checkedAt": "2026-11-26T23:40:50+01:00",
+      "checkedAt": "2026-11-27T00:01:01+01:00",
       "error": null
     },
     {
@@ -148,29 +148,29 @@
       "status": "ok",
       "eventCount": 0,
       "updatedAt": "2026-11-23T11:40:30+01:00",
-      "checkedAt": "2026-11-26T23:40:50+01:00",
+      "checkedAt": "2026-11-27T00:01:01+01:00",
       "error": null
     },
     {
-      "name": "Asker Røde Kors Hjelpekorps",
-      "code": "AskerRKH",
+      "name": "Arna og Åsane Røde Kors Hjelpekorps",
+      "code": "AÅRKH",
       "category": "hjelpekorps",
-      "file": "AskerRKH.json",
+      "file": "A_RKH.json",
       "status": "ok",
-      "eventCount": 28,
-      "updatedAt": "2026-11-25T00:06:32+01:00",
-      "checkedAt": "2026-11-26T23:40:51+01:00",
+      "eventCount": 14,
+      "updatedAt": "2026-11-24T00:10:35+01:00",
+      "checkedAt": "2026-11-27T00:01:01+01:00",
       "error": null
     },
     {
-      "name": "Bergen Røde Kors Hjelpekorps",
-      "code": "Bergen RKH",
+      "name": "Brandbu Røde Kors Hjelpekorps",
+      "code": "BrandbuRKH",
       "category": "hjelpekorps",
-      "file": "Bergen_RKH.json",
+      "file": "BrandbuRKH.json",
       "status": "ok",
-      "eventCount": 71,
-      "updatedAt": "2026-11-25T00:10:59+01:00",
-      "checkedAt": "2026-11-26T23:40:51+01:00",
+      "eventCount": 22,
+      "updatedAt": "2026-11-24T16:55:31+01:00",
+      "checkedAt": "2026-11-27T00:01:02+01:00",
       "error": null
     }
   ]
