@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "4ddcf7b711396725ff9402fd",
+      "observedAt": "2026-11-26T07:15:30+01:00",
+      "organization": "PorsgrunnRKH",
+      "kind": "added",
+      "event": {
+        "id": "01be4227d9c90991",
+        "dateIso": "2027-01-13",
+        "dateLabel": "2027-01-13",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Informasjons møte sjøtjenesten: Informasjons møte sjøtjenesten",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH"
+      }
+    },
+    {
       "changeId": "1e7ea8110bd75f38c05ea44f",
       "observedAt": "2026-11-04T00:05:44+01:00",
       "organization": "PorsgrunnRKH",
@@ -434,5 +449,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T00:05:44+01:00"
+  "updatedAt": "2026-11-26T07:15:30+01:00"
 }

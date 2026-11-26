@@ -7,12 +7,12 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-22T22:30:36+01:00",
-  "checkedAt": "2026-11-26T06:55:25+01:00",
+  "updatedAt": "2026-11-26T07:15:30+01:00",
+  "checkedAt": "2026-11-26T07:15:30+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH",
-  "eventCount": 26,
+  "eventCount": 27,
   "changes": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0
   },
@@ -249,6 +249,15 @@
       "time": "10:00",
       "type": "Sanitetsvakt",
       "description": " Juleenduro: Tid er oppmøte på huset",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH"
+    },
+    {
+      "id": "01be4227d9c90991",
+      "dateIso": "2027-01-13",
+      "dateLabel": "2027-01-13",
+      "time": "18:00",
+      "type": "Interne møter",
+      "description": "Informasjons møte sjøtjenesten: Informasjons møte sjøtjenesten",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=PorsgrunnRKH"
     }
   ]
