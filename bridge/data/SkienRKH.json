@@ -7,43 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T19:15:31+01:00",
-  "checkedAt": "2026-11-26T23:55:49+01:00",
+  "updatedAt": "2026-11-27T00:15:54+01:00",
+  "checkedAt": "2026-11-27T00:15:54+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH",
-  "eventCount": 54,
+  "eventCount": 51,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 3,
     "changed": 0
   },
   "events": [
-    {
-      "id": "321065de6aa82075",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "07:30",
-      "type": "Sanitetsvakt",
-      "description": "Sparebank1 Sør Norge Cup:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
-    {
-      "id": "16545df0af6372bb",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "13:00",
-      "type": "Sanitetsvakt",
-      "description": "Sparebank1 Sør Norge Cup:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
-    {
-      "id": "626affc64f52b256",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "18:15",
-      "type": "Sanitetsvakt",
-      "description": "Klosterskogen Travbane:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
     {
       "id": "2ff30de4766913ad",
       "dateIso": "2026-08-30",

@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T22:35:32+01:00",
-  "checkedAt": "2026-11-26T23:55:51+01:00",
+  "updatedAt": "2026-11-27T00:16:01+01:00",
+  "checkedAt": "2026-11-27T00:16:01+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH",
-  "eventCount": 57,
+  "eventCount": 56,
   "changes": {
     "added": 0,
-    "removed": 0,
-    "changed": 1
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "6084fb7a3e310a6b",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Oscarsborgdagen: Oscarsborgdagen for Barnekreftforeninga",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
-    },
     {
       "id": "b4338d2c7fdebe20",
       "dateIso": "2026-09-01",

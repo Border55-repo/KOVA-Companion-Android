@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "876690af7d525563fd665a6c",
+      "observedAt": "2026-11-27T00:16:01+01:00",
+      "organization": "VÅRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6084fb7a3e310a6b",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Oscarsborgdagen: Oscarsborgdagen for Barnekreftforeninga",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=V%C3%85RKH"
+      }
+    },
+    {
       "changeId": "d8e10516b62234f32073cfa5",
       "observedAt": "2026-11-24T22:35:32+01:00",
       "organization": "VÅRKH",
@@ -935,5 +950,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T22:35:32+01:00"
+  "updatedAt": "2026-11-27T00:16:01+01:00"
 }
