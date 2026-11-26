@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "cf69c59877b752053c792583",
+      "observedAt": "2026-11-27T00:05:50+01:00",
+      "organization": "Lunner RKH",
+      "kind": "removed",
+      "event": {
+        "id": "000f4143b11d59a0",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "07:00",
+        "type": "Ambulansevakt",
+        "description": "Bilcross Eriksplassen: Høstløp - Oppmøte kl. 0800",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Lunner+RKH"
+      }
+    },
+    {
       "changeId": "fb4c96d868b9632e2535404c",
       "observedAt": "2026-11-25T19:30:31+01:00",
       "organization": "Lunner RKH",
@@ -1016,5 +1031,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T19:30:31+01:00"
+  "updatedAt": "2026-11-27T00:05:50+01:00"
 }

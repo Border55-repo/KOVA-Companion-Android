@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-26T00:10:38+01:00",
-  "checkedAt": "2026-11-26T23:45:57+01:00",
+  "updatedAt": "2026-11-27T00:06:01+01:00",
+  "checkedAt": "2026-11-27T00:06:01+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH",
-  "eventCount": 142,
+  "eventCount": 140,
   "changes": {
     "added": 0,
-    "removed": 1,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "b1c0d83a88f4267d",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "00:00",
-      "type": "Interne kurs",
-      "description": "Interessepåmelding, Nordhordland 66: Interessepåmelding, båtfører/mannskap",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
-    },
-    {
-      "id": "21635770b1d5b59f",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "12:00",
-      "type": "Sanitetsvakt",
-      "description": "Street Legal: Sanitetsvakt - Street Legal (Billøp - Hylkje)",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
-    },
     {
       "id": "327c2a083348c2e1",
       "dateIso": "2026-08-30",

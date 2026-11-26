@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f277e5033c16aa8c05d6b59e",
+      "observedAt": "2026-11-27T00:05:52+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "4508f1b88b3a28f5",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "09:45",
+        "type": "Sanitetsvakt",
+        "description": "DNT Tilrettelagt: Breivoll. Tilstede 10:30-13:30",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "39e2af755cfc7521ef06c585",
+      "observedAt": "2026-11-27T00:05:52+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "947c560a3f382e1f",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "14:15",
+        "type": "Sanitetsvakt",
+        "description": "Nes Lenseteater: Oppmøte 15:00-17:30",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "290be7f3c58409220cd8363f",
+      "observedAt": "2026-11-27T00:05:52+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "d492052c2891ba5f",
+        "dateIso": "2026-08-29",
+        "dateLabel": "2026-08-29",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsheimfest Spydeberg: Sanitets-stand. Oppmøte 17:00-22:00. Ta med telt.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "f21901571a7d821069f04202",
       "observedAt": "2026-11-26T00:10:30+01:00",
       "organization": "MORKH",
@@ -2228,5 +2273,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:10:30+01:00"
+  "updatedAt": "2026-11-27T00:05:52+01:00"
 }

@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-26T00:10:34+01:00",
-  "checkedAt": "2026-11-26T23:45:57+01:00",
+  "updatedAt": "2026-11-27T00:05:57+01:00",
+  "checkedAt": "2026-11-27T00:05:57+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH",
-  "eventCount": 54,
+  "eventCount": 52,
   "changes": {
     "added": 0,
     "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "02ff924adacbf417",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "09:00",
-      "type": "Sanitetsvakt",
-      "description": "IPOA Champions Cup 2026: IPOA CC - fotballcup - lørdag",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
-    },
-    {
-      "id": "e98e1f7f2fbc1f9c",
-      "dateIso": "2026-08-29",
-      "dateLabel": "2026-08-29",
-      "time": "14:00",
-      "type": "Sanitetsvakt",
-      "description": "IPOA Champions Cup 2026: IPOA cc - fotballcup - lørdag",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
-    },
     {
       "id": "6bfb2e91e7bf8e66",
       "dateIso": "2026-08-30",
