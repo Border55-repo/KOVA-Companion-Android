@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T01:40:51+01:00",
-  "checkedAt": "2026-11-27T12:40:54+01:00",
+  "updatedAt": "2026-11-27T13:00:53+01:00",
+  "checkedAt": "2026-11-27T13:00:53+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH",
-  "eventCount": 122,
+  "eventCount": 123,
   "changes": {
     "added": 1,
-    "removed": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -537,6 +537,15 @@
       "time": "18:30",
       "type": "Eksterne møter",
       "description": "D-rådsmøte:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+    },
+    {
+      "id": "98e04899da98addb",
+      "dateIso": "2026-11-28",
+      "dateLabel": "2026-11-28",
+      "time": "09:00",
+      "type": "Eksterne kurs",
+      "description": "Lokal ambulansepersonell modul: Bruk 381. Det starter kl.10.00",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
     },
     {

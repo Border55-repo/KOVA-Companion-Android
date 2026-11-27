@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "14094b4f710e627f41cc1615",
+      "observedAt": "2026-11-27T13:00:53+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "98e04899da98addb",
+        "dateIso": "2026-11-28",
+        "dateLabel": "2026-11-28",
+        "time": "09:00",
+        "type": "Eksterne kurs",
+        "description": "Lokal ambulansepersonell modul: Bruk 381. Det starter kl.10.00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "2a480fe2f69b2d840e749290",
       "observedAt": "2026-11-27T01:40:51+01:00",
       "organization": "HaldenRKH",
@@ -2432,5 +2447,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T01:40:51+01:00"
+  "updatedAt": "2026-11-27T13:00:53+01:00"
 }
