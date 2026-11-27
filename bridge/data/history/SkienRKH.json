@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "74ab55af93599ba2c410be69",
+      "observedAt": "2026-11-28T00:15:51+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "2ff30de4766913ad",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "07:30",
+        "type": "Sanitetsvakt",
+        "description": "Sparebank1 Sør Norge Cup:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+      }
+    },
+    {
+      "changeId": "0a383f275c45de2c6e271c1f",
+      "observedAt": "2026-11-28T00:15:51+01:00",
+      "organization": "SkienRKH",
+      "kind": "removed",
+      "event": {
+        "id": "b6d77efd1bf6954e",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Sparebank1 Sør Norge Cup:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+      }
+    },
+    {
       "changeId": "9ed81aad03e7723e6e23ec46",
       "observedAt": "2026-11-27T10:35:47+01:00",
       "organization": "SkienRKH",
@@ -911,5 +941,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T10:35:47+01:00"
+  "updatedAt": "2026-11-28T00:15:51+01:00"
 }

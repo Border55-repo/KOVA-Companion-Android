@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T10:35:47+01:00",
-  "checkedAt": "2026-11-27T23:55:55+01:00",
+  "updatedAt": "2026-11-28T00:15:51+01:00",
+  "checkedAt": "2026-11-28T00:15:51+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH",
-  "eventCount": 52,
+  "eventCount": 50,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 2,
     "changed": 0
   },
   "events": [
-    {
-      "id": "2ff30de4766913ad",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "07:30",
-      "type": "Sanitetsvakt",
-      "description": "Sparebank1 Sør Norge Cup:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
-    {
-      "id": "b6d77efd1bf6954e",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "13:00",
-      "type": "Sanitetsvakt",
-      "description": "Sparebank1 Sør Norge Cup:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
-    },
     {
       "id": "dde3285515808ed2",
       "dateIso": "2026-09-05",

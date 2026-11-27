@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "6b2a888c7db48e8bc2c566d2",
+      "observedAt": "2026-11-28T00:15:54+01:00",
+      "organization": "SteinkjerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "7457573008f2526a",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "10:00",
+        "type": "Aktivitet",
+        "description": "Barnas skogdag: Barnas Skogdag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SteinkjerRKH"
+      }
+    },
+    {
       "changeId": "f51a26f1e18db39fdabcffcd",
       "observedAt": "2026-11-24T00:15:29+01:00",
       "organization": "SteinkjerRKH",
@@ -608,5 +623,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:15:29+01:00"
+  "updatedAt": "2026-11-28T00:15:54+01:00"
 }
