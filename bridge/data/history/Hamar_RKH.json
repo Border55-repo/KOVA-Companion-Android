@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "5abaf33c5445c4b1bf81f2af",
+      "observedAt": "2026-11-28T00:01:11+01:00",
+      "organization": "Hamar RKH",
+      "kind": "removed",
+      "event": {
+        "id": "56fa131d549fef84",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Hamkam: Hamkam-Kristiansund",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Hamar+RKH"
+      }
+    },
+    {
       "changeId": "23abac9f62bece4e31d690f3",
       "observedAt": "2026-11-06T14:20:31+01:00",
       "organization": "Hamar RKH",
@@ -107,5 +122,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-06T14:20:31+01:00"
+  "updatedAt": "2026-11-28T00:01:11+01:00"
 }

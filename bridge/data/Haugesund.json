@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T00:00:47+01:00",
-  "checkedAt": "2026-11-27T23:40:59+01:00",
+  "updatedAt": "2026-11-28T00:01:13+01:00",
+  "checkedAt": "2026-11-28T00:01:13+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund",
-  "eventCount": 22,
+  "eventCount": 21,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "478e440d3aa56502",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "13:45",
-      "type": "Sanitetsvakt",
-      "description": "Vard Haugesund - OS: Oppmøte på huset 13:45, vaktstart 14:30",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
-    },
     {
       "id": "f89a296114cbfb9d",
       "dateIso": "2026-09-05",

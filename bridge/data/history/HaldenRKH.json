@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a6010d21ddb5bcd783c87121",
+      "observedAt": "2026-11-28T00:01:10+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "3742ea6fd95a06b2",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Sanitetsvakt/promotering: Sensommerstevne på Prestebakke : Tilstede på Prestebakke kl. 11-16 ((bruk 9 seter og ta med 3x6m telt)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "14094b4f710e627f41cc1615",
       "observedAt": "2026-11-27T13:00:53+01:00",
       "organization": "HaldenRKH",
@@ -2447,5 +2462,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T13:00:53+01:00"
+  "updatedAt": "2026-11-28T00:01:10+01:00"
 }

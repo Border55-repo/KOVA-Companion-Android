@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "40b2cecc7b73730ae9525ac1",
+      "observedAt": "2026-11-28T00:00:51+01:00",
+      "organization": "EHRKH",
+      "kind": "removed",
+      "event": {
+        "id": "69844ec60f19d336",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "10:00",
+        "type": "Sanitetsvakt",
+        "description": "Fotballturnering: Fotballturnering for barn",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=EHRKH"
+      }
+    },
+    {
       "changeId": "bf96f5471ec0388a4c4aa610",
       "observedAt": "2026-11-23T00:00:29+01:00",
       "organization": "EHRKH",
@@ -1052,5 +1067,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:00:29+01:00"
+  "updatedAt": "2026-11-28T00:00:51+01:00"
 }

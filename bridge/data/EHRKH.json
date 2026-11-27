@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-23T00:00:29+01:00",
-  "checkedAt": "2026-11-27T23:55:52+01:00",
+  "updatedAt": "2026-11-28T00:00:51+01:00",
+  "checkedAt": "2026-11-28T00:00:51+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=EHRKH",
-  "eventCount": 49,
+  "eventCount": 48,
   "changes": {
     "added": 0,
     "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "69844ec60f19d336",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "10:00",
-      "type": "Sanitetsvakt",
-      "description": "Fotballturnering: Fotballturnering for barn",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=EHRKH"
-    },
     {
       "id": "34bf658891866f3b",
       "dateIso": "2026-09-01",

@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b28d4c3826c1d2dd5b92e507",
+      "observedAt": "2026-11-28T00:00:56+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "65074fbb74f8843f",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "10:00",
+        "type": "Ambulansevakt",
+        "description": "Ambulansevakter: Ambulansevakt",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "9de916dbcdc0776d51534d08",
+      "observedAt": "2026-11-28T00:00:56+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "7e3ce0852a0e7e07",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "17:15",
+        "type": "Ambulansevakt",
+        "description": "Ambulanse LSK kamper høst 26: LSK-Fredrikstad",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
+      "changeId": "ca2aa212784e5bd8aaa5627d",
+      "observedAt": "2026-11-28T00:00:56+01:00",
+      "organization": "Skedsmo RKH",
+      "kind": "removed",
+      "event": {
+        "id": "00f358cf8b4bba0f",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "17:30",
+        "type": "Sanitetsvakt",
+        "description": "LSK-kamper Høst 2026: LSK - Fredrikstad",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Skedsmo+RKH"
+      }
+    },
+    {
       "changeId": "65ec2c8f2ac5bfe22373af48",
       "observedAt": "2026-11-26T00:00:30+01:00",
       "organization": "Skedsmo RKH",
@@ -1355,5 +1400,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:00:30+01:00"
+  "updatedAt": "2026-11-28T00:00:56+01:00"
 }

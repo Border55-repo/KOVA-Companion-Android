@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a6649654c262962960da66b5",
+      "observedAt": "2026-11-28T00:01:07+01:00",
+      "organization": "Fana RKH",
+      "kind": "removed",
+      "event": {
+        "id": "2707aede668de861",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT - FANATASTISK MUSIKKFESTIVAL - FRE 28/8-SØN 30/8.:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+      }
+    },
+    {
       "changeId": "5e28e7d88bd95b8293843d14",
       "observedAt": "2026-11-27T18:20:48+01:00",
       "organization": "Fana RKH",
@@ -1115,5 +1130,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T18:20:48+01:00"
+  "updatedAt": "2026-11-28T00:01:07+01:00"
 }

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "b0b9787f8a4974c866dac56c",
+      "observedAt": "2026-11-28T00:01:16+01:00",
+      "organization": "BrandbuRKH",
+      "kind": "removed",
+      "event": {
+        "id": "1fe16c415d5c0f9f",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "18:00",
+        "type": "Interne møter",
+        "description": "Styremøtet:",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
+      }
+    },
+    {
       "changeId": "5ee8aaf54bbbaa8120e3564d",
       "observedAt": "2026-11-24T16:55:31+01:00",
       "organization": "BrandbuRKH",
@@ -245,5 +260,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T16:55:31+01:00"
+  "updatedAt": "2026-11-28T00:01:16+01:00"
 }

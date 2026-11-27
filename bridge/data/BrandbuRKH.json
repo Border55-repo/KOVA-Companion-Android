@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-24T16:55:31+01:00",
-  "checkedAt": "2026-11-27T23:45:59+01:00",
+  "updatedAt": "2026-11-28T00:01:16+01:00",
+  "checkedAt": "2026-11-28T00:01:16+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH",
-  "eventCount": 22,
+  "eventCount": 21,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "1fe16c415d5c0f9f",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "18:00",
-      "type": "Interne møter",
-      "description": "Styremøtet:",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=BrandbuRKH"
-    },
     {
       "id": "66cada10a67038d6",
       "dateIso": "2026-08-31",

@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "772d5a87a52b1622ef5ef751",
+      "observedAt": "2026-11-28T00:01:13+01:00",
+      "organization": "Haugesund",
+      "kind": "removed",
+      "event": {
+        "id": "478e440d3aa56502",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "13:45",
+        "type": "Sanitetsvakt",
+        "description": "Vard Haugesund - OS: Oppmøte på huset 13:45, vaktstart 14:30",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Haugesund"
+      }
+    },
+    {
       "changeId": "4a45007455ef24b9ae188f5a",
       "observedAt": "2026-11-24T00:00:47+01:00",
       "organization": "Haugesund",
@@ -350,5 +365,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T00:00:47+01:00"
+  "updatedAt": "2026-11-28T00:01:13+01:00"
 }

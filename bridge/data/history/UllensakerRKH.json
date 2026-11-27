@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "1e138ab3b8fb81c73251517f",
+      "observedAt": "2026-11-28T00:01:03+01:00",
+      "organization": "UllensakerRKH",
+      "kind": "removed",
+      "event": {
+        "id": "bb6c0b77d65d26da",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "09:00",
+        "type": "Aktivitet",
+        "description": "Blålysdag - Jessheim : Oppmøte 09:00  for Pakking og klargjøring Avreise Seinest 09:45",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=UllensakerRKH"
+      }
+    },
+    {
       "changeId": "790ab27072241457f36a9f91",
       "observedAt": "2026-11-27T00:00:49+01:00",
       "organization": "UllensakerRKH",
@@ -2357,5 +2372,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T00:00:49+01:00"
+  "updatedAt": "2026-11-28T00:01:03+01:00"
 }
