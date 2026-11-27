@@ -7,5 +7,21 @@
     "providers": {
       "emailPassword": true
     }
-  }
+  },
+  "functions": [
+    {
+      "source": "bridge",
+      "codebase": "kova-admin",
+      "runtime": "python312",
+      "ignore": [
+        "venv",
+        "__pycache__",
+        "*.pyc",
+        "test_*.py",
+        "check_*.py",
+        "data/history/**",
+        "data/push_state.json"
+      ]
+    }
+  ]
 }
