@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T00:00:54+01:00",
-  "checkedAt": "2026-11-27T18:00:53+01:00",
+  "updatedAt": "2026-11-27T18:20:48+01:00",
+  "checkedAt": "2026-11-27T18:20:48+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH",
-  "eventCount": 71,
+  "eventCount": 72,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -652,6 +652,15 @@
       "dateIso": "2027-01-18",
       "dateLabel": "2027-01-18",
       "time": "16:30",
+      "type": "Eksterne kurs",
+      "description": "Førstehjelpskurs for kunde: Førstehjelpskurs for kunde",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
+    },
+    {
+      "id": "45f87ac70ae8d435",
+      "dateIso": "2027-03-09",
+      "dateLabel": "2027-03-09",
+      "time": "17:00",
       "type": "Eksterne kurs",
       "description": "Førstehjelpskurs for kunde: Førstehjelpskurs for kunde",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Fana+RKH"
