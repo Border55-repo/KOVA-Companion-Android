@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T00:10:50+01:00",
-  "checkedAt": "2026-11-27T23:50:56+01:00",
+  "updatedAt": "2026-11-28T00:11:02+01:00",
+  "checkedAt": "2026-11-28T00:11:02+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH",
-  "eventCount": 20,
+  "eventCount": 19,
   "changes": {
     "added": 0,
-    "removed": 2,
+    "removed": 1,
     "changed": 0
   },
   "events": [
-    {
-      "id": "bdce01c6777eea78",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "09:30",
-      "type": "Sanitetsvakt",
-      "description": "Motocross event - NMK Oslo Follo: Oppmøte F3: 09.00",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OppSkiRKH"
-    },
     {
       "id": "45db2d8c9f4dc015",
       "dateIso": "2026-09-02",

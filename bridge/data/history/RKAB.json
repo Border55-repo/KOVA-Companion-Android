@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "aa6b965c494530217ef816ed",
+      "observedAt": "2026-11-28T00:11:05+01:00",
+      "organization": "RKAB",
+      "kind": "added",
+      "event": {
+        "id": "58d9d0a15d81d5e1",
+        "dateIso": "2026-11-29",
+        "dateLabel": "2026-11-29",
+        "time": "17:00",
+        "type": "Sanitetsvakt",
+        "description": "Travparken 2027: Travparken V65",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
+      }
+    },
+    {
       "changeId": "4bf57d8034b0caec6b050093",
       "observedAt": "2026-11-26T00:15:27+01:00",
       "organization": "RKAB",
@@ -743,5 +758,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:15:27+01:00"
+  "updatedAt": "2026-11-28T00:11:05+01:00"
 }

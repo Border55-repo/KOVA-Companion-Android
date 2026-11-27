@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "dc1ff242142aaa0bac9ca169",
+      "observedAt": "2026-11-28T00:11:08+01:00",
+      "organization": "Bergen RKH",
+      "kind": "removed",
+      "event": {
+        "id": "6f6c846f34f8cd29",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "11:30",
+        "type": "Sanitetsvakt",
+        "description": "Minnesmerkering HMK. Harald : Minnesmarkering HMK. Harald",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=Bergen+RKH"
+      }
+    },
+    {
       "changeId": "338459d05beb1390fff81dcc",
       "observedAt": "2026-11-25T00:10:59+01:00",
       "organization": "Bergen RKH",
@@ -1478,5 +1493,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T00:10:59+01:00"
+  "updatedAt": "2026-11-28T00:11:08+01:00"
 }
