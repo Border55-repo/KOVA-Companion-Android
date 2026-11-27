@@ -31,10 +31,15 @@ concurrency:
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued trigger can point to a snapshot commit superseded by the previous run.
+          ref: refs/heads/main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v6
         with:
