@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "2a480fe2f69b2d840e749290",
+      "observedAt": "2026-11-27T01:40:51+01:00",
+      "organization": "HaldenRKH",
+      "kind": "added",
+      "event": {
+        "id": "3cea18dda47d7ef6",
+        "dateIso": "2026-12-03",
+        "dateLabel": "2026-12-03",
+        "time": "06:00",
+        "type": "Øvelse",
+        "description": "Markører på øvelse på Kalnes: Kjør fra RK huset kl. 06.00 (oppmøte Kalnes 06.30) bruk elbil + ambulanse",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
+      "changeId": "ff9f25ef60224b8cd130e149",
+      "observedAt": "2026-11-27T01:40:51+01:00",
+      "organization": "HaldenRKH",
+      "kind": "removed",
+      "event": {
+        "id": "78b24df4e8fa2951",
+        "dateIso": "2026-12-03",
+        "dateLabel": "2026-12-03",
+        "time": "06:15",
+        "type": "Øvelse",
+        "description": "Markører på øvelse på Kalnes: Kjør fra RK huset kl. 06.15 (oppmøte Kalnes 06.45) bruk elbil + ambulanse",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
+      }
+    },
+    {
       "changeId": "67fa5d3e6614006375e0fa5a",
       "observedAt": "2026-11-27T00:00:57+01:00",
       "organization": "HaldenRKH",
@@ -2402,5 +2432,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T00:00:57+01:00"
+  "updatedAt": "2026-11-27T01:40:51+01:00"
 }

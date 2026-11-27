@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T00:00:57+01:00",
-  "checkedAt": "2026-11-27T01:20:54+01:00",
+  "updatedAt": "2026-11-27T01:40:51+01:00",
+  "checkedAt": "2026-11-27T01:40:51+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH",
   "eventCount": 122,
   "changes": {
-    "added": 0,
-    "removed": 2,
+    "added": 1,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -585,12 +585,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
     },
     {
-      "id": "78b24df4e8fa2951",
+      "id": "3cea18dda47d7ef6",
       "dateIso": "2026-12-03",
       "dateLabel": "2026-12-03",
-      "time": "06:15",
+      "time": "06:00",
       "type": "Øvelse",
-      "description": "Markører på øvelse på Kalnes: Kjør fra RK huset kl. 06.15 (oppmøte Kalnes 06.45) bruk elbil + ambulanse",
+      "description": "Markører på øvelse på Kalnes: Kjør fra RK huset kl. 06.00 (oppmøte Kalnes 06.30) bruk elbil + ambulanse",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=HaldenRKH"
     },
     {
