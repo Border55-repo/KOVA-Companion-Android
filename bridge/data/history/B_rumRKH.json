@@ -2,6 +2,69 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "30278b90fc4413d4e03c2087",
+      "observedAt": "2026-11-27T22:50:58+01:00",
+      "organization": "BærumRKH",
+      "kind": "added",
+      "event": {
+        "id": "403c7750f4788494",
+        "dateIso": "2027-01-12",
+        "dateLabel": "2027-01-12",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "Sponsor cup: Unity Arena",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "80b5864a75febdca1ff94acd",
+      "observedAt": "2026-11-27T22:50:58+01:00",
+      "organization": "BærumRKH",
+      "kind": "changed",
+      "event": {
+        "id": "de025b6410d0e233",
+        "dateIso": "2026-11-29",
+        "dateLabel": "2026-11-29",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - Odd: Nadderud stadion",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      },
+      "oldEvent": {
+        "id": "10196930442b4167",
+        "dateIso": "2026-11-29",
+        "dateLabel": "2026-11-29",
+        "time": "13:00",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - ukjent: Stabæk - Odd",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
+      "changeId": "db89bc4c5367a2ce2cb6d733",
+      "observedAt": "2026-11-27T22:50:58+01:00",
+      "organization": "BærumRKH",
+      "kind": "changed",
+      "event": {
+        "id": "7cac0170e12b0f40",
+        "dateIso": "2026-12-17",
+        "dateLabel": "2026-12-17",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - Odd: Nadderud stadion",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      },
+      "oldEvent": {
+        "id": "e88c31df1631e2eb",
+        "dateIso": "2026-12-17",
+        "dateLabel": "2026-12-17",
+        "time": "15:30",
+        "type": "Sanitetsvakt",
+        "description": "Stabæk - ukjent: Stabæk -",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "a7500e08ffb2edb5493391de",
       "observedAt": "2026-11-26T08:40:39+01:00",
       "organization": "BærumRKH",
@@ -1478,5 +1541,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T08:40:39+01:00"
+  "updatedAt": "2026-11-27T22:50:58+01:00"
 }
