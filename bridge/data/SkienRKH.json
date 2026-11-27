@@ -7,13 +7,13 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T00:15:54+01:00",
-  "checkedAt": "2026-11-27T10:15:46+01:00",
+  "updatedAt": "2026-11-27T10:35:47+01:00",
+  "checkedAt": "2026-11-27T10:35:47+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH",
-  "eventCount": 51,
+  "eventCount": 52,
   "changes": {
-    "added": 0,
-    "removed": 3,
+    "added": 1,
+    "removed": 0,
     "changed": 0
   },
   "events": [
@@ -357,6 +357,15 @@
       "time": "09:00",
       "type": "Aktivitet",
       "description": "Juleaksjon:",
+      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
+    },
+    {
+      "id": "f5624bb44e9b777a",
+      "dateIso": "2026-12-31",
+      "dateLabel": "2026-12-31",
+      "time": "11:00",
+      "type": "Sanitetsvakt",
+      "description": "Nyttårsløpet 2026:",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=SkienRKH"
     },
     {
