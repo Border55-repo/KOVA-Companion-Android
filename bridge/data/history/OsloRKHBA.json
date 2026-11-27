@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "c1a3bf1b6eb291aa94f294b8",
+      "observedAt": "2026-11-27T16:30:49+01:00",
+      "organization": "OsloRKHBA",
+      "kind": "added",
+      "event": {
+        "id": "ee6d42bb31a43f7e",
+        "dateIso": "2026-12-31",
+        "dateLabel": "2026-12-31",
+        "time": "16:00",
+        "type": "Ambulansevakt",
+        "description": "Ordinærvakt OUS: Ordinærvakt OUS",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=OsloRKHBA"
+      }
+    },
+    {
       "changeId": "f4769efd32f643b7a7a95a69",
       "observedAt": "2026-11-25T13:10:27+01:00",
       "organization": "OsloRKHBA",
@@ -446,5 +461,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-25T13:10:27+01:00"
+  "updatedAt": "2026-11-27T16:30:49+01:00"
 }
