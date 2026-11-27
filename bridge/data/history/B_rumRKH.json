@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f999692642e0c816b9f1676b",
+      "observedAt": "2026-11-28T00:06:21+01:00",
+      "organization": "BærumRKH",
+      "kind": "removed",
+      "event": {
+        "id": "baae1e3268b51687",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "11:00",
+        "type": "Sanitetsvakt",
+        "description": "Høvikløpet 2026: Høvikbanen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
+      }
+    },
+    {
       "changeId": "30278b90fc4413d4e03c2087",
       "observedAt": "2026-11-27T22:50:58+01:00",
       "organization": "BærumRKH",
@@ -1541,5 +1556,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T22:50:58+01:00"
+  "updatedAt": "2026-11-28T00:06:21+01:00"
 }

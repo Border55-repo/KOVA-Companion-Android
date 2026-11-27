@@ -2,6 +2,36 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "f83aeb67263e1ced64622820",
+      "observedAt": "2026-11-28T00:06:17+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "327c2a083348c2e1",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "00:00",
+        "type": "Interne kurs",
+        "description": "Interessepåmelding, Nordhordland 66: Interessepåmelding, båtfører/mannskap",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
+      "changeId": "894fca77c83f598100e558ae",
+      "observedAt": "2026-11-28T00:06:17+01:00",
+      "organization": "NRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6e9ebbaa0532c5b2",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "Street Legal: Sanitetsvakt - Street Legal (Billøp - Hylkje)",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NRKH"
+      }
+    },
+    {
       "changeId": "672f3cd5e4a894e1ca04931c",
       "observedAt": "2026-11-27T00:06:01+01:00",
       "organization": "NRKH",
@@ -1187,5 +1217,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T00:06:01+01:00"
+  "updatedAt": "2026-11-28T00:06:17+01:00"
 }

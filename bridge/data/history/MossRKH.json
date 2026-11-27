@@ -2,6 +2,51 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "7a6261be08398a1e434e4e3b",
+      "observedAt": "2026-11-28T00:06:12+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "6bfb2e91e7bf8e66",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "09:00",
+        "type": "Sanitetsvakt",
+        "description": "IPOA Champions Cup 2026: IPOA cc - fotballcup - søndag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "506ec936d1a973f03a4eb770",
+      "observedAt": "2026-11-28T00:06:12+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "51da60b9b474e2b3",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "14:00",
+        "type": "Sanitetsvakt",
+        "description": "IPOA Champions Cup 2026: IPOA cc - fotballcup - søndag",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
+      "changeId": "62f3f0a90fd5506fc9d019d8",
+      "observedAt": "2026-11-28T00:06:12+01:00",
+      "organization": "MossRKH",
+      "kind": "removed",
+      "event": {
+        "id": "01ba748533581dde",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "16:00",
+        "type": "Sanitetsvakt",
+        "description": "MFK - Obos ligaen: Moss - Strømmen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MossRKH"
+      }
+    },
+    {
       "changeId": "e3478426b0bc298cb8e8369d",
       "observedAt": "2026-11-27T00:05:57+01:00",
       "organization": "MossRKH",
@@ -1013,5 +1058,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T00:05:57+01:00"
+  "updatedAt": "2026-11-28T00:06:12+01:00"
 }

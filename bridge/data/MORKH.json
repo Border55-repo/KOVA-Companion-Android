@@ -7,34 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T00:05:52+01:00",
-  "checkedAt": "2026-11-27T23:45:56+01:00",
+  "updatedAt": "2026-11-28T00:06:07+01:00",
+  "checkedAt": "2026-11-28T00:06:07+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH",
-  "eventCount": 109,
+  "eventCount": 107,
   "changes": {
     "added": 0,
-    "removed": 3,
-    "changed": 0
+    "removed": 2,
+    "changed": 1
   },
   "events": [
-    {
-      "id": "fcd72e419ab6e09a",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "11:00",
-      "type": "Sanitetsvakt",
-      "description": "Åsheimfest Spydeberg: Sanitets-stand. Oppmøte 11:00-17:00 Ta med telt.",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
-    },
-    {
-      "id": "cfd798a8e03b545f",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "14:15",
-      "type": "Sanitetsvakt",
-      "description": "Nes Lenseteater: Oppmøte 15:00-17:30",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
-    },
     {
       "id": "9e06174d840d6132",
       "dateIso": "2026-09-01",
@@ -756,12 +738,12 @@
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {
-      "id": "ccc7ed679e34844b",
+      "id": "a44bc8a24bb30ca3",
       "dateIso": "2026-12-12",
       "dateLabel": "2026-12-12",
       "time": "00:00",
       "type": "Aktivitet",
-      "description": "Julebord for alle korpsene: Tid og påmelding kommer. Fredrikstad.",
+      "description": "Ser ut til at det utgår - Julebord for alle korpsene: Tid og påmelding kommer. Fredrikstad.",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
     },
     {

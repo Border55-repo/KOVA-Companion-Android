@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "acb1d8b64efa2b5ad223bb73",
+      "observedAt": "2026-11-28T00:06:07+01:00",
+      "organization": "MORKH",
+      "kind": "changed",
+      "event": {
+        "id": "a44bc8a24bb30ca3",
+        "dateIso": "2026-12-12",
+        "dateLabel": "2026-12-12",
+        "time": "00:00",
+        "type": "Aktivitet",
+        "description": "Ser ut til at det utgår - Julebord for alle korpsene: Tid og påmelding kommer. Fredrikstad.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      },
+      "oldEvent": {
+        "id": "ccc7ed679e34844b",
+        "dateIso": "2026-12-12",
+        "dateLabel": "2026-12-12",
+        "time": "00:00",
+        "type": "Aktivitet",
+        "description": "Julebord for alle korpsene: Tid og påmelding kommer. Fredrikstad.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "094b9ded5cb13cea28d09aef",
+      "observedAt": "2026-11-28T00:06:07+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "fcd72e419ab6e09a",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "11:00",
+        "type": "Sanitetsvakt",
+        "description": "Åsheimfest Spydeberg: Sanitets-stand. Oppmøte 11:00-17:00 Ta med telt.",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
+      "changeId": "2d06e4ff047f4ffbaa8237e5",
+      "observedAt": "2026-11-28T00:06:07+01:00",
+      "organization": "MORKH",
+      "kind": "removed",
+      "event": {
+        "id": "cfd798a8e03b545f",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "14:15",
+        "type": "Sanitetsvakt",
+        "description": "Nes Lenseteater: Oppmøte 15:00-17:30",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=MORKH"
+      }
+    },
+    {
       "changeId": "f277e5033c16aa8c05d6b59e",
       "observedAt": "2026-11-27T00:05:52+01:00",
       "organization": "MORKH",
@@ -2273,5 +2327,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-27T00:05:52+01:00"
+  "updatedAt": "2026-11-28T00:06:07+01:00"
 }

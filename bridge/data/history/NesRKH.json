@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "a506a5379cad726e20a91d56",
+      "observedAt": "2026-11-28T00:06:19+01:00",
+      "organization": "NesRKH",
+      "kind": "removed",
+      "event": {
+        "id": "fe710e6c839b43fc",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "13:30",
+        "type": "Sanitetsvakt",
+        "description": "Vålerenga - Molde : Oppmøte lokalet: 13:30 - Avreise lokalet: 14.00",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=NesRKH"
+      }
+    },
+    {
       "changeId": "085a2401a8d4eb023587da11",
       "observedAt": "2026-11-23T00:10:36+01:00",
       "organization": "NesRKH",
@@ -359,5 +374,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T00:10:36+01:00"
+  "updatedAt": "2026-11-28T00:06:19+01:00"
 }

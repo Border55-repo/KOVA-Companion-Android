@@ -7,25 +7,16 @@
     "category": "hjelpekorps"
   },
   "status": "ok",
-  "updatedAt": "2026-11-27T22:50:58+01:00",
-  "checkedAt": "2026-11-27T23:51:00+01:00",
+  "updatedAt": "2026-11-28T00:06:21+01:00",
+  "checkedAt": "2026-11-28T00:06:21+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH",
-  "eventCount": 82,
+  "eventCount": 81,
   "changes": {
-    "added": 1,
-    "removed": 0,
-    "changed": 2
+    "added": 0,
+    "removed": 1,
+    "changed": 0
   },
   "events": [
-    {
-      "id": "baae1e3268b51687",
-      "dateIso": "2026-08-30",
-      "dateLabel": "2026-08-30",
-      "time": "11:00",
-      "type": "Sanitetsvakt",
-      "description": "Høvikløpet 2026: Høvikbanen",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=B%C3%A6rumRKH"
-    },
     {
       "id": "2eca31c43044f54e",
       "dateIso": "2026-09-02",

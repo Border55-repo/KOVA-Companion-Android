@@ -2,6 +2,21 @@
   "schemaVersion": 1,
   "changes": [
     {
+      "changeId": "560579ffdf24969c5ed4b142",
+      "observedAt": "2026-11-28T00:06:01+01:00",
+      "organization": "LaksevaagRKH",
+      "kind": "removed",
+      "event": {
+        "id": "0ccece38dce9456c",
+        "dateIso": "2026-08-30",
+        "dateLabel": "2026-08-30",
+        "time": "12:00",
+        "type": "Sanitetsvakt",
+        "description": "SANITETSVAKT: Minnevakt HMK Harald: Koengen",
+        "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=LaksevaagRKH"
+      }
+    },
+    {
       "changeId": "d87edefd913144784a6d6484",
       "observedAt": "2026-11-26T00:10:25+01:00",
       "organization": "LaksevaagRKH",
@@ -1400,5 +1415,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-26T00:10:25+01:00"
+  "updatedAt": "2026-11-28T00:06:01+01:00"
 }
