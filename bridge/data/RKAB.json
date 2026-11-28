@@ -7,13 +7,13 @@
     "category": "ambulanse"
   },
   "status": "ok",
-  "updatedAt": "2026-11-28T00:11:05+01:00",
-  "checkedAt": "2026-11-28T06:25:55+01:00",
+  "updatedAt": "2026-11-28T06:45:56+01:00",
+  "checkedAt": "2026-11-28T06:45:56+01:00",
   "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB",
-  "eventCount": 73,
+  "eventCount": 72,
   "changes": {
-    "added": 1,
-    "removed": 0,
+    "added": 0,
+    "removed": 1,
     "changed": 0
   },
   "events": [
@@ -591,15 +591,6 @@
       "time": "17:00",
       "type": "Ambulansevakt",
       "description": "Bergen Travpark 2026: V65",
-      "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
-    },
-    {
-      "id": "58d9d0a15d81d5e1",
-      "dateIso": "2026-11-29",
-      "dateLabel": "2026-11-29",
-      "time": "17:00",
-      "type": "Sanitetsvakt",
-      "description": "Travparken 2027: Travparken V65",
       "sourceUrl": "https://www.kova.no/Public/iCalendar.ashx?Organization=RKAB"
     },
     {
